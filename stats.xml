@@ -5,7 +5,7 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>17709</sentences><tokens>550135</tokens><words>550135</words><fused>0</fused></total>
+    <total><sentences>17683</sentences><tokens>539360</tokens><words>539360</words><fused>0</fused></total>
   </size>
   <lemmas unique="27507" /><!-- el, de, ,, ., que, en, y, uno, a, ", del, ser, él, su, haber -->
   <forms unique="41346" /><!-- de, ,, la, el, ., que, en, y, a, ", los, del, un, las, se -->
@@ -17,11 +17,11 @@
     <tag name="ADV">19494</tag><!-- no, más, también, hoy, mucho, ayer, ya, sólo, después, ahora -->
     <tag name="AUX">15729</tag><!-- ser, haber, poder, deber, hacer, estar, ir, seguir, volver, dejar -->
     <tag name="CONJ">15037</tag><!-- y, pero, o, e, ni, sino, mientras_que, sino_que, así_como, sin_embargo -->
-    <tag name="DET">73456</tag><!-- el, uno, su, este, todo, dos, otro, ese, tres, alguno -->
+    <tag name="DET">73455</tag><!-- el, uno, su, este, todo, dos, otro, ese, tres, alguno -->
     <tag name="INTJ">98</tag><!-- je, bueno, ay, ojalá, adiós, ah, claro, ja, ojo, señor -->
     <tag name="NOUN">96804</tag><!-- año, presidente, país, partido, millón, equipo, día, parte, empresa, grupo -->
     <tag name="NUM">4353</tag><!-- 20, 10, 30, 15, 12, 18, 24, 50, 17, 100 -->
-    <tag name="PRON">36225</tag><!-- _, que, él, se, el, uno, yo, donde, quien, este -->
+    <tag name="PRON">25451</tag><!-- que, él, se, el, uno, yo, donde, quien, este, otro -->
     <tag name="PROPN">45952</tag><!-- de, gobierno, la, España, del, Madrid, Barcelona, José, PP, Estado -->
     <tag name="PUNCT">65416</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12042</tag><!-- que, como, si, porque, cuando, aunque, ya_que, según, mientras, pues -->
@@ -39,7 +39,7 @@
     <feat name="Definite" value="Def" upos="DET,PRON">51859</feat><!-- la, el, los, las, lo -->
     <feat name="Definite" value="Ind" upos="DET,PRON">9265</feat><!-- un, una, unos, unas, la, El, LO, les -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">84145</feat><!-- la, las, una, esta, política, esa, primera, personas, parte, vida -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,VERB">113593</feat><!-- el, los, del, un, al, este, años, presidente, millones, lo -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,VERB">113589</feat><!-- el, los, del, un, al, este, años, presidente, millones, lo -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">843</feat><!-- sería, podría, habría, debería, podrían, deberían, tendría, estaría, haría, habrían -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">311</feat><!-- mira, vaya, añade, afirma, asegura, lean, sea, véase, He, apunta -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">39131</feat><!-- es, ha, han, fue, está, tiene, son, dijo, había, hay -->
@@ -64,7 +64,7 @@
     <feat name="PronType" value="Ind" upos="DET,PRON">6409</feat><!-- todo, otros, todos, uno, otro, cada, una, algunos, otra, mismo -->
     <feat name="PronType" value="Int" upos="DET,PRON">476</feat><!-- qué, cómo, quién, cuál, dónde, cuándo, cuáles, cuánto, cuántos, quiénes -->
     <feat name="PronType" value="Prs" upos="DET,PRON">9429</feat><!-- su, sus, le, lo, me, nos, él, les, ellos, la -->
-    <feat name="PronType" value="Rel" upos="DET,PRON">9690</feat><!-- que, donde, quien, cuando, quienes, cual, cuyo, cuya, cuales, cuyos -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">9689</feat><!-- que, donde, quien, cuando, quienes, cual, cuyo, cuya, cuales, cuyos -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">2272</feat><!-- ), ?, !, ¿ -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">2145</feat><!-- (, ¿, ¡ -->
     <feat name="PunctType" value="Brck" upos="PUNCT">3651</feat><!-- (, ) -->
@@ -91,30 +91,30 @@
     <dep name="advcl">11499</dep>
     <dep name="advmod">17376</dep>
     <dep name="amod">28574</dep>
-    <dep name="appos">7065</dep>
+    <dep name="appos">7062</dep>
     <dep name="aux">9735</dep>
     <dep name="auxpass:reflex">503</dep>
     <dep name="case">72202</dep>
     <dep name="cc">26108</dep>
     <dep name="ccomp">3826</dep>
     <dep name="conj">16289</dep>
-    <dep name="cop">6044</dep>
+    <dep name="cop">6042</dep>
     <dep name="csubj">1069</dep>
     <dep name="dep">274</dep>
-    <dep name="det">71277</dep>
+    <dep name="det">71276</dep>
     <dep name="det:nummod">2425</dep>
-    <dep name="dobj">35871</dep>
-    <dep name="iobj">1077</dep>
+    <dep name="dobj">35867</dep>
+    <dep name="iobj">1075</dep>
     <dep name="mark">12473</dep>
     <dep name="mwe">3710</dep>
     <dep name="name">17798</dep>
     <dep name="neg">3509</dep>
-    <dep name="nmod">66446</dep>
-    <dep name="nsubj">39268</dep>
+    <dep name="nmod">66444</dep>
+    <dep name="nsubj">28533</dep>
     <dep name="nummod">2950</dep>
     <dep name="parataxis">357</dep>
     <dep name="punct">65639</dep>
-    <dep name="root">17709</dep>
+    <dep name="root">17683</dep>
     <dep name="xcomp">1514</dep>
   </deps>
 </treebank>
