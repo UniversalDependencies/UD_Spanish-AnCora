@@ -87,7 +87,7 @@
 33	país	país	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
 34	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 35	y	y	CONJ	CONJ	_	11	cc	_	_
-36	dos	dos	DET	DET	Number=Plur|NumType=Card	37	det:nummod	_	_
+36	dos	dos	NUM	NUM	Number=Plur|NumType=Card	37	nummod	_	_
 37	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	41	nmod	_	_
 38	más	más	ADV	ADV	_	39	nmod	_	_
 39	tarde	tarde	ADV	ADV	_	37	advmod	_	_
@@ -459,7 +459,7 @@
 13	uno	uno	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
 14	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
 15	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-16	cinco	cinco	DET	DET	Number=Plur|NumType=Card	15	det:nummod	_	_
+16	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	15	nummod	_	_
 17	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	13	nmod	_	_
 18	para	para	ADP	ADP	AdpType=Prep	20	case	_	_
 19	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -490,7 +490,7 @@
 1	Además	además	ADV	ADV	_	6	advmod	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 3	estas	este	DET	DET	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
-4	dos	dos	DET	DET	Number=Plur|NumType=Card	3	det:nummod	_	_
+4	dos	dos	NUM	NUM	Number=Plur|NumType=Card	3	nummod	_	_
 5	naciones	nación	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
 6	tienen	tener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -594,15 +594,15 @@
 32	que	que	PRON	PRON	PronType=Rel	34	nsubj	_	_
 33	se	él	PRON	PRON	Person=3	34	dobj	_	_
 34	pasa	pasar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cc	_	_
-35	medio	medio	DET	DET	Gender=Masc|Number=Sing|NumType=Card	36	det:nummod	_	_
+35	medio	medio	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	36	nummod	_	_
 36	libro	libro	NOUN	NOUN	Gender=Masc|Number=Sing	34	dobj	_	_
 37	discutiendo	discutir	VERB	VERB	VerbForm=Ger	34	advcl	_	_
 38	por	por	ADP	ADP	AdpType=Prep	39	case	_	_
 39	teléfono	teléfono	NOUN	NOUN	Gender=Masc|Number=Sing	37	nmod	_	_
 40	y	y	CONJ	CONJ	_	34	cc	_	_
-41	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+41	el	el	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	nmod	_	_
 42	otro	otro	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	41	det	_	_
-43	medio	medio	PRON	PRON	Gender=Masc|Number=Sing|NumType=Card	51	dobj	_	_
+43	medio	medio	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	51	dobj	_	_
 44	hinchándose	hinchar	AUX	AUX	VerbForm=Ger	51	aux	_	_
 45	de	de	ADP	ADP	AdpType=Prep	46	case	_	_
 46	drogas	droga	NOUN	NOUN	Gender=Fem|Number=Plur	51	dobj	_	_
@@ -1107,7 +1107,7 @@
 14	-	-	PUNCT	PUNCT	PunctType=Dash	15	punct	_	_
 15	Buyo	Buyo	PROPN	PROPN	_	13	cc	_	_
 16	y	y	CONJ	CONJ	_	15	cc	_	_
-17	diez	diez	PRON	PRON	Number=Plur|NumType=Card	15	conj	_	_
+17	diez	diez	NUM	NUM	Number=Plur|NumType=Card	15	conj	_	_
 18	más	más	ADV	ADV	_	17	advmod	_	_
 19	-	-	PUNCT	PUNCT	PunctType=Dash	6	punct	_	_
 20	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
@@ -1277,7 +1277,7 @@
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	empate	empate	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	a	a	ADP	ADP	AdpType=Prep	4	case	_	_
-4	dos	dos	DET	DET	Number=Plur|NumType=Card	2	det:nummod	_	_
+4	dos	dos	NUM	NUM	Number=Plur|NumType=Card	2	nummod	_	_
 5	convierte	convertir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	partido	partido	NOUN	NOUN	Gender=Masc|Number=Sing	5	dobj	_	_
@@ -1401,7 +1401,7 @@
 10	corredores	corredor	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
 11	acudirán	acudir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	cc	_	_
 12	como	como	SCONJ	SCONJ	_	15	mark	_	_
-13	un	un	DET	DET	Gender=Masc|Number=Sing|NumType=Card	15	det:nummod	_	_
+13	un	un	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	15	nummod	_	_
 14	solo	solo	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
 15	hombre	hombre	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	_
 16	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	17	case	_	_
@@ -1411,7 +1411,7 @@
 20	y	y	CONJ	CONJ	_	11	cc	_	_
 21	que	que	SCONJ	SCONJ	_	34	mark	_	_
 22	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
-23	un	un	DET	DET	Gender=Masc|Number=Sing|NumType=Card	24	det:nummod	_	_
+23	un	un	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	24	nummod	_	_
 24	mes	mes	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod	_	_
 25	después	después	ADV	ADV	_	24	advmod	_	_
 26	de	de	ADP	ADP	AdpType=Prep	25	advmod	_	_
@@ -2228,7 +2228,7 @@
 43	optimismo	optimismo	NOUN	NOUN	Gender=Masc|Number=Sing	41	nmod	_	_
 44	que	que	PRON	PRON	PronType=Rel	50	nsubj	_	_
 45	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
-46	diez	diez	DET	DET	Number=Plur|NumType=Card	47	det:nummod	_	_
+46	diez	diez	NUM	NUM	Number=Plur|NumType=Card	47	nummod	_	_
 47	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	50	nmod	_	_
 48	parecía	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	50	cop	_	_
 49	no	no	ADV	ADV	Negative=Neg	50	neg	_	_
@@ -2399,7 +2399,7 @@
 3	caso	caso	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
 4	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 5	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-6	dos	dos	DET	DET	Number=Plur|NumType=Card	5	det:nummod	_	_
+6	dos	dos	NUM	NUM	Number=Plur|NumType=Card	5	nummod	_	_
 7	primeros	primero	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	8	amod	_	_
 8	grupos	grupo	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod	_	_
 9	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
@@ -2942,12 +2942,12 @@
 9	llamaría	llamar	VERB	VERB	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	cc	_	_
 10	motor	motor	NOUN	NOUN	Gender=Masc|Number=Sing	9	dobj	_	_
 11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
-12	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	13	det:nummod	_	_
+12	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	13	nummod	_	_
 13	tiempos	tiempo	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 15	por	por	ADP	ADP	AdpType=Prep	18	case	_	_
 16	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
-17	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	16	det:nummod	_	_
+17	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	16	nummod	_	_
 18	carreras	carrera	NOUN	NOUN	Gender=Fem|Number=Plur	9	nmod	_	_
 19	sucesivas	sucesivo	ADJ	ADJ	Gender=Fem|Number=Plur	18	amod	_	_
 20	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	21	case	_	_
@@ -3064,7 +3064,7 @@
 7	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	carruaje	carruaje	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 9	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
-10	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	11	det:nummod	_	_
+10	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	11	nummod	_	_
 11	ruedas	rueda	NOUN	NOUN	Gender=Fem|Number=Plur	8	nmod	_	_
 12	hecho	hecho	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	_
 13	por	por	ADP	ADP	AdpType=Prep	14	case	_	_
@@ -3082,7 +3082,7 @@
 25	primer	primero	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	26	amod	_	_
 26	camión	camión	NOUN	NOUN	Gender=Masc|Number=Sing	3	conj	_	_
 27	con	con	ADP	ADP	AdpType=Prep	29	case	_	_
-28	dos	dos	DET	DET	Number=Plur|NumType=Card	29	det:nummod	_	_
+28	dos	dos	NUM	NUM	Number=Plur|NumType=Card	29	nummod	_	_
 29	marchas	marcha	NOUN	NOUN	Gender=Fem|Number=Plur	26	cc	_	_
 30	delante	delante	ADV	ADV	_	29	advmod	_	_
 31	y	y	CONJ	CONJ	_	29	cc	_	_
@@ -3120,7 +3120,7 @@
 17	coche	coche	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 18	mecánico	mecánico	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
 19	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
-20	tres	tres	DET	DET	Number=Plur|NumType=Card	21	det:nummod	_	_
+20	tres	tres	NUM	NUM	Number=Plur|NumType=Card	21	nummod	_	_
 21	ruedas	rueda	NOUN	NOUN	Gender=Fem|Number=Plur	17	nmod	_	_
 22	diseñado	diseñado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	17	amod	_	_
 23	por	por	ADP	ADP	AdpType=Prep	24	case	_	_
@@ -3174,7 +3174,7 @@
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	dirección	dirección	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
 14	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
-15	dos	dos	DET	DET	Number=Plur|NumType=Card	16	det:nummod	_	_
+15	dos	dos	NUM	NUM	Number=Plur|NumType=Card	16	nummod	_	_
 16	ruedas	rueda	NOUN	NOUN	Gender=Fem|Number=Plur	13	nmod	_	_
 17	;	;	PUNCT	PUNCT	PunctType=Semi	2	punct	_	_
 18	por	por	ADP	ADP	AdpType=Prep	19	case	_	_
@@ -3372,7 +3372,7 @@
 10	vida	vida	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 12	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
-13	cuatro_mil_quinientos	cuatro_mil_quinientos	DET	DET	Number=Plur|NumType=Card	14	det:nummod	_	_
+13	cuatro_mil_quinientos	cuatro_mil_quinientos	NUM	NUM	Number=Plur|NumType=Card	14	nummod	_	_
 14	millones	millón	NOUN	NOUN	Gender=Masc|Number=Plur	7	appos	_	_
 15	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 16	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod	_	_
@@ -3503,7 +3503,7 @@
 16	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
 17	disposición	disposición	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
 18	aproximadamente	aproximadamente	ADV	ADV	_	20	advmod	_	_
-19	un	un	DET	DET	Gender=Masc|Number=Sing|NumType=Card	20	det:nummod	_	_
+19	un	un	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	20	nummod	_	_
 20	millón	millón	NOUN	NOUN	Gender=Masc|Number=Sing	14	dobj	_	_
 21	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 22	tipos	tipo	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
@@ -3763,7 +3763,7 @@
 1	Se	se	PRON	PRON	_	2	dobj	_	_
 2	establecieron	establecer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	también	también	ADV	ADV	_	2	advmod	_	_
-4	tres	tres	DET	DET	Number=Plur|NumType=Card	5	det:nummod	_	_
+4	tres	tres	NUM	NUM	Number=Plur|NumType=Card	5	nummod	_	_
 5	tipos	tipo	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
 6	de	de	ADP	ADP	AdpType=Prep	7	case	_	_
 7	duelo	duelo	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
@@ -3842,13 +3842,13 @@
 17	lance	lance	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
 18	se	él	PRON	PRON	Person=3	19	dobj	_	_
 19	batían	batir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
-20	dos	dos	DET	DET	Number=Plur|NumType=Card	21	det:nummod	_	_
+20	dos	dos	NUM	NUM	Number=Plur|NumType=Card	21	nummod	_	_
 21	caballeros	caballero	NOUN	NOUN	Gender=Masc|Number=Plur	19	nsubj	_	_
 22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 23	honor	honor	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
 24	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 25	no	no	ADV	ADV	Negative=Neg	27	neg	_	_
-26	dos	dos	DET	DET	Number=Plur|NumType=Card	27	det:nummod	_	_
+26	dos	dos	NUM	NUM	Number=Plur|NumType=Card	27	nummod	_	_
 27	maleantes	maleante	NOUN	NOUN	Number=Plur	21	appos	_	_
 28	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
@@ -3997,7 +3997,7 @@
 13	diferencias	diferencia	NOUN	NOUN	Gender=Fem|Number=Plur	11	dobj	_	_
 14	físicas	físico	ADJ	ADJ	Gender=Fem|Number=Plur	13	amod	_	_
 15	entre	entre	ADP	ADP	AdpType=Prep	17	case	_	_
-16	ambos	ambos	DET	DET	Gender=Masc|Number=Plur|NumType=Card	17	det:nummod	_	_
+16	ambos	ambos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	17	nummod	_	_
 17	duelistas	duelista	NOUN	NOUN	Number=Plur	13	nmod	_	_
 18	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
@@ -4046,7 +4046,7 @@
 4	entonces	entonces	ADV	ADV	_	3	advmod	_	_
 5	en	en	ADP	ADP	AdpType=Prep	3	dobj	_	_
 6	que	que	SCONJ	SCONJ	_	8	mark	_	_
-7	ambos	ambos	PRON	PRON	Gender=Masc|Number=Plur|NumType=Card	8	nsubj	_	_
+7	ambos	ambos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	8	nsubj	_	_
 8	tuvieran	tener	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
 9	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 10	mismas	mismo	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
@@ -5395,7 +5395,7 @@
 20	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	intereses	interés	NOUN	NOUN	Gender=Masc|Number=Plur	27	nsubj	_	_
 22	de	de	ADP	ADP	AdpType=Prep	24	case	_	_
-23	ambas	ambos	DET	DET	Gender=Fem|Number=Plur|NumType=Card	24	det:nummod	_	_
+23	ambas	ambos	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	24	nummod	_	_
 24	formaciones	formación	NOUN	NOUN	Gender=Fem|Number=Plur	21	nmod	_	_
 25	pueden	poder	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
 26	ser	ser	AUX	AUX	VerbForm=Inf	27	cop	_	_
@@ -6439,7 +6439,7 @@
 
 # sent_id es-s200
 # orig_file_sentence 002#100
-1	Tres	tres	DET	DET	Number=Plur|NumType=Card	2	det:nummod	_	_
+1	Tres	tres	NUM	NUM	Number=Plur|NumType=Card	2	nummod	_	_
 2	jóvenes	joven	NOUN	NOUN	Number=Plur	6	nsubj	_	_
 3	negros	negro	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
 4	lentos	lento	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
@@ -6801,7 +6801,7 @@
 10	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	hunos	huno	NOUN	NOUN	Gender=Masc|Number=Plur	6	appos	_	_
 12	con	con	ADP	ADP	AdpType=Prep	14	case	_	_
-13	dos	dos	DET	DET	Number=Plur|NumType=Card	14	det:nummod	_	_
+13	dos	dos	NUM	NUM	Number=Plur|NumType=Card	14	nummod	_	_
 14	cuernos	cuerno	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
 15	tenían	tener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 16	bastante	bastante	ADV	ADV	_	15	dobj	_	_
@@ -6975,7 +6975,7 @@
 14	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 15	pero	pero	CONJ	CONJ	_	4	cc	_	_
 16	pensándolo	pensar	VERB	VERB	VerbForm=Ger	23	advcl	_	_
-17	dos	dos	DET	DET	Number=Plur|NumType=Card	18	det:nummod	_	_
+17	dos	dos	NUM	NUM	Number=Plur|NumType=Card	18	nummod	_	_
 18	veces	vez	NOUN	NOUN	Gender=Fem|Number=Plur	16	nmod	_	_
 19	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	ciudadanía	ciudadanía	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
@@ -6985,9 +6985,9 @@
 24	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	25	case	_	_
 25	caos	caos	NOUN	NOUN	Gender=Masc	23	dobj	_	_
 26	con	con	ADP	ADP	AdpType=Prep	30	case	_	_
-27	tres	tres	PRON	PRON	Number=Plur|NumType=Card	30	cc	_	_
+27	tres	tres	NUM	NUM	Number=Plur|NumType=Card	30	cc	_	_
 28	o	o	CONJ	CONJ	_	27	cc	_	_
-29	cuatro	cuatro	PRON	PRON	Number=Plur|NumType=Card	27	conj	_	_
+29	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	27	conj	_	_
 30	guerras	guerra	NOUN	NOUN	Gender=Fem|Number=Plur	23	nmod	_	_
 31	cada	cada	DET	DET	Number=Sing|PronType=Ind	32	det	_	_
 32	siglo	siglo	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
@@ -7589,7 +7589,7 @@
 5	sonriendo	sonreír	VERB	VERB	VerbForm=Ger	0	root	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 7	contemplando	contemplar	VERB	VERB	VerbForm=Ger	5	advcl	_	_
-8	dos	dos	DET	DET	Number=Plur|NumType=Card	9	det:nummod	_	_
+8	dos	dos	NUM	NUM	Number=Plur|NumType=Card	9	nummod	_	_
 9	hileras	hilera	NOUN	NOUN	Gender=Fem|Number=Plur	7	dobj	_	_
 10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 11	dientes	diente	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
@@ -7950,7 +7950,7 @@
 96	,	,	PUNCT	PUNCT	PunctType=Comm	76	punct	_	_
 97	y	y	CONJ	CONJ	_	69	cc	_	_
 98	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	100	det	_	_
-99	dos	dos	DET	DET	Number=Plur|NumType=Card	98	det:nummod	_	_
+99	dos	dos	NUM	NUM	Number=Plur|NumType=Card	98	nummod	_	_
 100	brazos	brazo	NOUN	NOUN	Gender=Masc|Number=Plur	69	conj	_	_
 101	tendidos	tendido	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	100	amod	_	_
 102	hacia	hacia	ADP	ADP	AdpType=Prep	101	dobj	_	_
@@ -8063,7 +8063,7 @@
 # sent_id es-s255
 # orig_file_sentence 003#55
 1	Los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-2	diez	diez	DET	DET	Number=Plur|NumType=Card	1	det:nummod	_	_
+2	diez	diez	NUM	NUM	Number=Plur|NumType=Card	1	nummod	_	_
 3	dedos	dedo	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
 4	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 5	extendidos	extendido	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	3	amod	_	_
@@ -8199,7 +8199,7 @@
 3	pasado	pasar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	más	más	ADV	ADV	_	6	advmod	_	_
 5	de	de	ADP	ADP	AdpType=Prep	4	mwe	_	_
-6	seis	seis	DET	DET	Number=Plur|NumType=Card	7	det:nummod	_	_
+6	seis	seis	NUM	NUM	Number=Plur|NumType=Card	7	nummod	_	_
 7	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
 8	desde	desde	ADP	ADP	AdpType=Prep	10	case	_	_
 9	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
@@ -8306,7 +8306,7 @@
 79	,	,	PUNCT	PUNCT	PunctType=Comm	76	punct	_	_
 80	habían	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	81	aux	_	_
 81	pasado	pasar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	76	advcl	_	_
-82	seis	seis	DET	DET	Number=Plur|NumType=Card	83	det:nummod	_	_
+82	seis	seis	NUM	NUM	Number=Plur|NumType=Card	83	nummod	_	_
 83	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	81	nsubj	_	_
 84	desde	desde	ADP	ADP	AdpType=Prep	86	case	_	_
 85	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
@@ -8976,7 +8976,7 @@
 11	provincia	provincia	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
 12	con	con	ADP	ADP	AdpType=Prep	16	case	_	_
 13	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-14	triple	triple	DET	DET	Number=Sing|NumType=Card	13	det:nummod	_	_
+14	triple	triple	NUM	NUM	Number=Sing|NumType=Card	13	nummod	_	_
 15	"	"	PUNCT	PUNCT	PunctType=Quot	16	punct	_	_
 16	victoria	victoria	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
 17	"	"	PUNCT	PUNCT	PunctType=Quot	19	punct	_	_
@@ -9039,7 +9039,7 @@
 39	Madrid	Madrid	PROPN	PROPN	_	37	name	_	_
 40	se	se	PRON	PRON	_	41	dobj	_	_
 41	llevó_a_cabo	llevar_a_cabo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	ccomp	_	_
-42	dos	dos	DET	DET	Number=Plur|NumType=Card	43	det:nummod	_	_
+42	dos	dos	NUM	NUM	Number=Plur|NumType=Card	43	nummod	_	_
 43	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	41	nmod	_	_
 44	antes	antes	ADV	ADV	_	43	advmod	_	_
 45	de	de	ADP	ADP	AdpType=Prep	47	case	_	_
@@ -9054,7 +9054,7 @@
 
 # sent_id es-s275
 # orig_file_sentence 003#75
-1	Ambos	ambos	PRON	PRON	Gender=Masc|Number=Plur|NumType=Card	2	nsubj	_	_
+1	Ambos	ambos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	2	nsubj	_	_
 2	admiten	admitir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	SCONJ	_	5	mark	_	_
 4	sólo	sólo	ADV	ADV	_	5	advmod	_	_
@@ -9062,7 +9062,7 @@
 6	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	diferencia	diferencia	NOUN	NOUN	Gender=Fem|Number=Sing	5	dobj	_	_
 8	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
-9	dos	dos	DET	DET	Number=Plur|NumType=Card	10	det:nummod	_	_
+9	dos	dos	NUM	NUM	Number=Plur|NumType=Card	10	nummod	_	_
 10	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
 11	pero	pero	CONJ	CONJ	_	5	cc	_	_
 12	que	que	SCONJ	SCONJ	_	16	mark	_	_
@@ -9144,7 +9144,7 @@
 32	Madrid	Madrid	PROPN	PROPN	_	30	name	_	_
 33	aunque	aunque	SCONJ	SCONJ	_	38	mark	_	_
 34	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
-35	dos	dos	DET	DET	Number=Plur|NumType=Card	34	det:nummod	_	_
+35	dos	dos	NUM	NUM	Number=Plur|NumType=Card	34	nummod	_	_
 36	ex	ex	ADJ	ADJ	Gender=Masc|Number=Plur	37	amod	_	_
 37	directivos	directivo	NOUN	NOUN	Gender=Masc|Number=Plur	38	nsubj	_	_
 38	mantienen	mantener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
@@ -9156,7 +9156,7 @@
 # sent_id es-s277
 # orig_file_sentence 003#77
 1	Estos	este	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
-2	dos	dos	DET	DET	Number=Plur|NumType=Card	1	det:nummod	_	_
+2	dos	dos	NUM	NUM	Number=Plur|NumType=Card	1	nummod	_	_
 3	ex	ex	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
 4	directivos	directivo	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
 5	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	6	case	_	_
@@ -9193,7 +9193,7 @@
 36	5	5	NUM	NUM	NumForm=Digit	37	nummod	_	_
 37	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	30	cc	_	_
 38	y	y	CONJ	CONJ	_	37	cc	_	_
-39	diez	diez	DET	DET	Number=Plur|NumType=Card	40	det:nummod	_	_
+39	diez	diez	NUM	NUM	Number=Plur|NumType=Card	40	nummod	_	_
 40	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	37	conj	_	_
 41	de	de	ADP	ADP	AdpType=Prep	42	case	_	_
 42	cárcel	cárcel	NOUN	NOUN	Gender=Fem|Number=Sing	37	nmod	_	_
@@ -9263,7 +9263,7 @@
 33	y	y	CONJ	CONJ	_	13	cc	_	_
 34	que	que	SCONJ	SCONJ	_	35	mark	_	_
 35	hubo	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
-36	tres	tres	DET	DET	Number=Plur|NumType=Card	37	det:nummod	_	_
+36	tres	tres	NUM	NUM	Number=Plur|NumType=Card	37	nummod	_	_
 37	condiciones	condición	NOUN	NOUN	Gender=Fem|Number=Plur	35	dobj	_	_
 38	:	:	PUNCT	PUNCT	PunctType=Colo	41	punct	_	_
 39	"	"	PUNCT	PUNCT	PunctType=Quot	41	punct	_	_
@@ -9301,7 +9301,7 @@
 6	declaraciones	declaración	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
 7	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 8	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-9	doce	doce	DET	DET	Number=Plur|NumType=Card	8	det:nummod	_	_
+9	doce	doce	NUM	NUM	Number=Plur|NumType=Card	8	nummod	_	_
 10	procesados	procesado	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 12	después	después	ADV	ADV	AdpType=Prep	4	advmod	_	_
@@ -9507,7 +9507,7 @@
 18	que	que	PRON	PRON	PronType=Rel	20	nmod	_	_
 19	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	comparecido	comparecer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
-21	dos	dos	DET	DET	Number=Plur|NumType=Card	22	det:nummod	_	_
+21	dos	dos	NUM	NUM	Number=Plur|NumType=Card	22	nummod	_	_
 22	testigos	testigo	NOUN	NOUN	Gender=Masc|Number=Plur	20	nsubj	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
 24	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -10890,7 +10890,7 @@
 27	de	de	ADP	ADP	AdpType=Prep	23	nmod	_	_
 28	no	no	ADV	ADV	Negative=Neg	29	neg	_	_
 29	renovar	renovar	VERB	VERB	VerbForm=Inf	27	advcl	_	_
-30	cinco	cinco	DET	DET	Number=Plur|NumType=Card	31	det:nummod	_	_
+30	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	31	nummod	_	_
 31	licencias	licencia	NOUN	NOUN	Gender=Fem|Number=Plur	29	dobj	_	_
 32	de	de	ADP	ADP	AdpType=Prep	33	case	_	_
 33	Frecuencia	Frecuencia	PROPN	PROPN	_	31	nmod	_	_
@@ -11372,7 +11372,7 @@
 23	retirado	retirar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	_
 24	en	en	ADP	ADP	AdpType=Prep	25	case	_	_
 25	Extremadura	Extremadura	PROPN	PROPN	_	23	nmod	_	_
-26	dos	dos	DET	DET	Number=Plur|NumType=Card	27	det:nummod	_	_
+26	dos	dos	NUM	NUM	Number=Plur|NumType=Card	27	nummod	_	_
 27	licencias	licencia	NOUN	NOUN	Gender=Fem|Number=Plur	23	nsubj	_	_
 28	a	a	ADP	ADP	AdpType=Prep	29	case	_	_
 29	Blas	Blas	PROPN	PROPN	_	23	dobj	_	_
@@ -11626,7 +11626,7 @@
 34	pescado	pescar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
 35	más	más	ADV	ADV	_	37	advmod	_	_
 36	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
-37	medio	medio	DET	DET	Gender=Masc|Number=Sing|NumType=Card	38	det:nummod	_	_
+37	medio	medio	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	38	nummod	_	_
 38	millón	millón	NOUN	NOUN	Gender=Masc|Number=Sing	34	nsubj	_	_
 39	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
 40	toneladas	tonelada	NOUN	NOUN	Gender=Fem|Number=Plur	38	nmod	_	_
@@ -11903,7 +11903,7 @@
 36	para	para	ADP	ADP	AdpType=Prep	40	case	_	_
 37	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
 38	próximos	próximo	ADJ	ADJ	Gender=Masc|Number=Plur	37	amod	_	_
-39	tres	tres	DET	DET	Number=Plur|NumType=Card	37	det:nummod	_	_
+39	tres	tres	NUM	NUM	Number=Plur|NumType=Card	37	nummod	_	_
 40	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
 41	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
 
@@ -11935,7 +11935,7 @@
 24	durante	durante	ADP	ADP	AdpType=Prep	28	case	_	_
 25	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 26	próximos	próximo	ADJ	ADJ	Gender=Masc|Number=Plur	25	amod	_	_
-27	tres	tres	DET	DET	Number=Plur|NumType=Card	25	det:nummod	_	_
+27	tres	tres	NUM	NUM	Number=Plur|NumType=Card	25	nummod	_	_
 28	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod	_	_
 29	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
@@ -12618,7 +12618,7 @@
 24	acuerdo	acuerdo	NOUN	NOUN	Gender=Masc|Number=Sing	30	nmod	_	_
 25	definitivo	definitivo	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
 26	entre	entre	ADP	ADP	AdpType=Prep	28	case	_	_
-27	ambas	ambos	DET	DET	Gender=Fem|Number=Plur|NumType=Card	28	det:nummod	_	_
+27	ambas	ambos	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	28	nummod	_	_
 28	firmas	firma	NOUN	NOUN	Gender=Fem|Number=Plur	24	nmod	_	_
 29	,	,	PUNCT	PUNCT	PunctType=Comm	30	punct	_	_
 30	además	además	ADV	ADV	_	21	cc	_	_
@@ -13291,7 +13291,7 @@
 6	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 7	jueves	jueves	NOUN	NOUN	AdvType=Tim	5	nmod	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
-9	dos	dos	DET	DET	Number=Plur|NumType=Card	10	det:nummod	_	_
+9	dos	dos	NUM	NUM	Number=Plur|NumType=Card	10	nummod	_	_
 10	directivas	directiva	NOUN	NOUN	Gender=Fem|Number=Plur	4	dobj	_	_
 11	que	que	PRON	PRON	PronType=Rel	12	nsubj	_	_
 12	amplían	ampliar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
@@ -13852,7 +13852,7 @@
 12	y	y	CONJ	CONJ	_	1	cc	_	_
 13	pretendemos	pretender	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
 14	que	que	SCONJ	SCONJ	_	18	mark	_	_
-15	miles	mil	DET	DET	Gender=Masc|Number=Plur|NumType=Card	17	det:nummod	_	_
+15	miles	mil	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	17	nummod	_	_
 16	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 17	personas	persona	NOUN	NOUN	Gender=Fem|Number=Plur	18	nsubj	_	_
 18	apoyen	apoyar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cc	_	_
@@ -14101,7 +14101,7 @@
 15	excentricidades	excentricidad	NOUN	NOUN	Gender=Fem|Number=Plur	3	conj	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 17	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
-18	dos	dos	DET	DET	Number=Plur|NumType=Card	17	det:nummod	_	_
+18	dos	dos	NUM	NUM	Number=Plur|NumType=Card	17	nummod	_	_
 19	grandes	grande	ADJ	ADJ	Number=Plur	20	amod	_	_
 20	dioses	dios	NOUN	NOUN	Gender=Masc|Number=Plur	25	nsubj	_	_
 21	actuales	actual	ADJ	ADJ	Number=Plur	20	amod	_	_
@@ -14211,7 +14211,7 @@
 2	y	y	CONJ	CONJ	_	1	cc	_	_
 3	Freeman	Freeman	PROPN	PROPN	_	1	conj	_	_
 4	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-5	dos	dos	DET	DET	Number=Plur|NumType=Card	6	det:nummod	_	_
+5	dos	dos	NUM	NUM	Number=Plur|NumType=Card	6	nummod	_	_
 6	símbolos	símbolo	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
 7	en	en	ADP	ADP	AdpType=Prep	8	case	_	_
 8	Francia	Francia	PROPN	PROPN	_	6	cc	_	_
@@ -14254,7 +14254,7 @@
 14	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 15	400	400	NUM	NUM	NumForm=Digit	13	nummod	_	_
 16	en	en	ADP	ADP	AdpType=Prep	18	case	_	_
-17	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	18	det:nummod	_	_
+17	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	18	nummod	_	_
 18	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
 19	-	-	PUNCT	PUNCT	PunctType=Dash	20	punct	_	_
 20	tercera	tercero	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
@@ -14294,11 +14294,11 @@
 2	estos	este	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
 3	últimos	último	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
 4	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
-5	ambas	ambos	PRON	PRON	Gender=Fem|Number=Plur|NumType=Card	7	nsubj	_	_
+5	ambas	ambos	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	7	nsubj	_	_
 6	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	representado	representar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-9	dos	dos	DET	DET	Number=Plur|NumType=Card	8	det:nummod	_	_
+9	dos	dos	NUM	NUM	Number=Plur|NumType=Card	8	nummod	_	_
 10	caras	cara	NOUN	NOUN	Gender=Fem|Number=Plur	7	dobj	_	_
 11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -14442,10 +14442,10 @@
 18	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	australiana	australiana	NOUN	NOUN	Gender=Fem|Number=Sing	16	dobj	_	_
 20	en	en	ADP	ADP	AdpType=Prep	21	case	_	_
-21	siete	siete	PRON	PRON	Number=Plur|NumType=Card	16	advmod	_	_
+21	siete	siete	NUM	NUM	Number=Plur|NumType=Card	16	advmod	_	_
 22	de	de	ADP	ADP	AdpType=Prep	25	case	_	_
 23	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
-24	nueve	nueve	DET	DET	Number=Plur|NumType=Card	23	det:nummod	_	_
+24	nueve	nueve	NUM	NUM	Number=Plur|NumType=Card	23	nummod	_	_
 25	veces	vez	NOUN	NOUN	Gender=Fem|Number=Plur	21	nmod	_	_
 26	que	que	PRON	PRON	PronType=Rel	29	nmod	_	_
 27	se	él	PRON	PRON	Person=3	29	dobj	_	_
@@ -14490,7 +14490,7 @@
 18	en	en	ADP	ADP	AdpType=Prep	19	case	_	_
 19	busca	busca	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
 20	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
-21	cinco	cinco	DET	DET	Number=Plur|NumType=Card	22	det:nummod	_	_
+21	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	22	nummod	_	_
 22	oros	oro	NOUN	NOUN	Gender=Masc|Number=Plur	19	nmod	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
 24	incluido	incluido	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
@@ -14553,7 +14553,7 @@
 
 # sent_id es-s401
 # orig_file_sentence 005#1
-1	Ambas	ambos	PRON	PRON	Gender=Fem|Number=Plur|NumType=Card	2	nsubj	_	_
+1	Ambas	ambos	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	2	nsubj	_	_
 2	tienen	tener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	espinas	espina	NOUN	NOUN	Gender=Fem|Number=Plur	2	dobj	_	_
 4	clavadas	clavado	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	3	amod	_	_
@@ -14700,7 +14700,7 @@
 5	Sotomayor	Sotomayor	PROPN	PROPN	_	4	name	_	_
 6	representan	representar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-8	dos	dos	DET	DET	Number=Plur|NumType=Card	7	det:nummod	_	_
+8	dos	dos	NUM	NUM	Number=Plur|NumType=Card	7	nummod	_	_
 9	caras	cara	NOUN	NOUN	Gender=Fem|Number=Plur	6	dobj	_	_
 10	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 11	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -14768,7 +14768,7 @@
 9	y	y	CONJ	CONJ	_	2	cc	_	_
 10	Voronin	Voronin	PROPN	PROPN	_	2	conj	_	_
 11	casi	casi	ADV	ADV	_	13	advmod	_	_
-12	siete	siete	DET	DET	Number=Plur|NumType=Card	13	det:nummod	_	_
+12	siete	siete	NUM	NUM	Number=Plur|NumType=Card	13	nummod	_	_
 13	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod	_	_
 14	después	después	ADV	ADV	_	10	advmod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
@@ -14949,7 +14949,7 @@
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 13	sanción	sanción	NOUN	NOUN	Gender=Fem|Number=Sing	4	dobj	_	_
 14	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
-15	dos	dos	DET	DET	Number=Plur|NumType=Card	16	det:nummod	_	_
+15	dos	dos	NUM	NUM	Number=Plur|NumType=Card	16	nummod	_	_
 16	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	13	nmod	_	_
 17	que	que	PRON	PRON	PronType=Rel	18	dobj	_	_
 18	cumplía	cumplir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl	_	_
@@ -14989,7 +14989,7 @@
 6	Clavet	Clavet	PROPN	PROPN	_	5	name	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 8	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-9	dos	dos	DET	DET	Number=Plur|NumType=Card	8	det:nummod	_	_
+9	dos	dos	NUM	NUM	Number=Plur|NumType=Card	8	nummod	_	_
 10	últimas	último	ADJ	ADJ	Gender=Fem|Number=Plur|NumType=Ord	11	amod	_	_
 11	esperanzas	esperanza	NOUN	NOUN	Gender=Fem|Number=Plur	1	appos	_	_
 12	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	13	case	_	_
@@ -15014,7 +15014,7 @@
 # sent_id es-s414
 # orig_file_sentence 005#14
 1	Los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-2	dos	dos	DET	DET	Number=Plur|NumType=Card	1	det:nummod	_	_
+2	dos	dos	NUM	NUM	Number=Plur|NumType=Card	1	nummod	_	_
 3	partidos	partido	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
 4	habían	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
 5	sido	ser	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
@@ -15138,7 +15138,7 @@
 25	ganado	ganar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 26	en	en	ADP	ADP	AdpType=Prep	27	case	_	_
 27	Melbourne	Melbourne	PROPN	PROPN	_	25	nmod	_	_
-28	dos	dos	DET	DET	Number=Plur|NumType=Card	29	det:nummod	_	_
+28	dos	dos	NUM	NUM	Number=Plur|NumType=Card	29	nummod	_	_
 29	partidos	partido	NOUN	NOUN	Gender=Masc|Number=Plur	25	dobj	_	_
 30	,	,	PUNCT	PUNCT	PunctType=Comm	33	punct	_	_
 31	contra	contra	ADP	ADP	AdpType=Prep	33	case	_	_
@@ -15298,7 +15298,7 @@
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
 4	Johannesburgo	Johannesburgo	PROPN	PROPN	_	2	nmod	_	_
 5	consiguió	conseguir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	quince	quince	DET	DET	Number=Plur|NumType=Card	7	det:nummod	_	_
+6	quince	quince	NUM	NUM	Number=Plur|NumType=Card	7	nummod	_	_
 7	saques	saque	NOUN	NOUN	Gender=Masc|Number=Plur	5	cc	_	_
 8	directos	directo	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	_
 9	y	y	CONJ	CONJ	_	7	cc	_	_
@@ -15403,7 +15403,7 @@
 
 # sent_id es-s427
 # orig_file_sentence 005#27
-1	Ambos	ambos	PRON	PRON	Gender=Masc|Number=Plur|NumType=Card	2	nsubj	_	_
+1	Ambos	ambos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	2	nsubj	_	_
 2	mostraron	mostrar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	sobre	sobre	ADP	ADP	AdpType=Prep	5	case	_	_
 4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -15445,7 +15445,7 @@
 13	6-3	6-3	NUM	NUM	NumForm=Digit	4	conj	_	_
 14	después	después	ADV	ADV	_	2	cc	_	_
 15	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
-16	dos	dos	DET	DET	Number=Plur|NumType=Card	17	det:nummod	_	_
+16	dos	dos	NUM	NUM	Number=Plur|NumType=Card	17	nummod	_	_
 17	horas	hora	NOUN	NOUN	Gender=Fem|Number=Plur	14	cc	_	_
 18	y	y	CONJ	CONJ	_	17	cc	_	_
 19	45	45	NUM	NUM	NumForm=Digit	20	nummod	_	_
@@ -15485,7 +15485,7 @@
 53	para	para	ADP	ADP	AdpType=Prep	48	advmod	_	_
 54	ganar	ganar	VERB	VERB	VerbForm=Inf	53	advcl	_	_
 55	después	después	ADV	ADV	_	54	advmod	_	_
-56	seis	seis	DET	DET	Number=Plur|NumType=Card	57	det:nummod	_	_
+56	seis	seis	NUM	NUM	Number=Plur|NumType=Card	57	nummod	_	_
 57	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	54	dobj	_	_
 58	consecutivos	consecutivo	ADJ	ADJ	Gender=Masc|Number=Plur	57	amod	_	_
 59	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
@@ -15570,7 +15570,7 @@
 7	uno	uno	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	3	dobj	_	_
 8	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 9	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
-10	dos	dos	DET	DET	Number=Plur|NumType=Card	9	det:nummod	_	_
+10	dos	dos	NUM	NUM	Number=Plur|NumType=Card	9	nummod	_	_
 11	marroquíes	marroquí	NOUN	NOUN	Number=Plur	7	nmod	_	_
 12	que	que	PRON	PRON	PronType=Rel	14	nsubj	_	_
 13	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
@@ -15906,7 +15906,7 @@
 32	grande	grande	ADJ	ADJ	Number=Sing	27	amod	_	_
 33	después	después	ADV	ADV	_	24	advmod	_	_
 34	de	de	ADP	ADP	AdpType=Prep	36	case	_	_
-35	siete	siete	DET	DET	Number=Plur|NumType=Card	36	det:nummod	_	_
+35	siete	siete	NUM	NUM	Number=Plur|NumType=Card	36	nummod	_	_
 36	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	33	nmod	_	_
 37	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
@@ -16149,7 +16149,7 @@
 35	través	través	NOUN	NOUN	_	34	mwe	_	_
 36	de	de	ADP	ADP	AdpType=Prep	34	mwe	_	_
 37	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
-38	dos	dos	DET	DET	Number=Plur|NumType=Card	37	det:nummod	_	_
+38	dos	dos	NUM	NUM	Number=Plur|NumType=Card	37	nummod	_	_
 39	extremos	extremo	NOUN	NOUN	Gender=Masc|Number=Plur	31	punct	_	_
 40	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	41	case	_	_
 41	Pirineo	Pirineo	PROPN	PROPN	_	39	nmod	_	_
@@ -16157,7 +16157,7 @@
 43	a	a	ADP	ADP	AdpType=Prep	47	case	_	_
 44	través	través	NOUN	NOUN	_	43	mwe	_	_
 45	de	de	ADP	ADP	AdpType=Prep	43	mwe	_	_
-46	dos	dos	DET	DET	Number=Plur|NumType=Card	47	det:nummod	_	_
+46	dos	dos	NUM	NUM	Number=Plur|NumType=Card	47	nummod	_	_
 47	comunidades	comunidad	NOUN	NOUN	Gender=Fem|Number=Plur	39	conj	_	_
 48	que	que	PRON	PRON	PronType=Rel	59	nsubj	_	_
 49	a	a	ADP	ADP	AdpType=Prep	59	advmod	_	_
@@ -16437,7 +16437,7 @@
 11	hoy	hoy	ADV	ADV	_	10	advmod	_	_
 12	que	que	SCONJ	SCONJ	_	24	mark	_	_
 13	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-14	veinticinco	veinticinco	DET	DET	Number=Plur|NumType=Card	13	det:nummod	_	_
+14	veinticinco	veinticinco	NUM	NUM	Number=Plur|NumType=Card	13	nummod	_	_
 15	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	24	nsubj	_	_
 16	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
 17	reinado	reinado	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -16645,7 +16645,7 @@
 32	había	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cc	_	_
 33	que	que	SCONJ	SCONJ	_	32	cc	_	_
 34	hacer	hacer	VERB	VERB	VerbForm=Inf	32	conj	_	_
-35	tres	tres	DET	DET	Number=Plur|NumType=Card	36	det:nummod	_	_
+35	tres	tres	NUM	NUM	Number=Plur|NumType=Card	36	nummod	_	_
 36	operaciones	operación	NOUN	NOUN	Gender=Fem|Number=Plur	34	dobj	_	_
 37	históricas	histórico	ADJ	ADJ	Gender=Fem|Number=Plur	36	amod	_	_
 38	:	:	PUNCT	PUNCT	PunctType=Colo	39	punct	_	_
@@ -17935,7 +17935,7 @@
 2	España	España	PROPN	PROPN	_	4	nmod	_	_
 3	se	él	PRON	PRON	Person=3	4	dobj	_	_
 4	despidieron	despedir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	dos	dos	PRON	PRON	Number=Plur|NumType=Card	4	nsubj	_	_
+5	dos	dos	NUM	NUM	Number=Plur|NumType=Card	4	nsubj	_	_
 6	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 7	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	seleccionadores	seleccionador	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
@@ -17950,7 +17950,7 @@
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 18	seleccionadores	seleccionador	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod	_	_
 19	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
-20	dos	dos	DET	DET	Number=Plur|NumType=Card	16	det:nummod	_	_
+20	dos	dos	NUM	NUM	Number=Plur|NumType=Card	16	nummod	_	_
 21	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 22	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	deportes	deporte	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
@@ -18190,7 +18190,7 @@
 # sent_id es-s496
 # orig_file_sentence 005#96
 1	Tras	tras	ADP	ADP	AdpType=Prep	3	case	_	_
-2	dos	dos	DET	DET	Number=Plur|NumType=Card	3	det:nummod	_	_
+2	dos	dos	NUM	NUM	Number=Plur|NumType=Card	3	nummod	_	_
 3	paros	paro	NOUN	NOUN	Gender=Masc|Number=Plur	8	nmod	_	_
 4	cardiacos	cardiaco	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
 5	Morales	Morales	PROPN	PROPN	_	8	nsubj	_	_
@@ -18276,7 +18276,7 @@
 4	COI	COI	PROPN	PROPN	_	2	nmod	_	_
 5	bajó	bajar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	a	a	ADP	ADP	AdpType=Prep	8	case	_	_
-7	media	medio	DET	DET	Gender=Fem|Number=Sing|NumType=Card	8	det:nummod	_	_
+7	media	medio	NUM	NUM	Gender=Fem|Number=Sing|NumType=Card	8	nummod	_	_
 8	asta	asta	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
 9	y	y	CONJ	CONJ	_	5	cc	_	_
 10	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
@@ -18741,7 +18741,7 @@
 26	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
 27	escogido	escoger	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
 28	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
-29	dos	dos	DET	DET	Number=Plur|NumType=Card	28	det:nummod	_	_
+29	dos	dos	NUM	NUM	Number=Plur|NumType=Card	28	nummod	_	_
 30	ciudades	ciudad	NOUN	NOUN	Gender=Fem|Number=Plur	27	nsubj	_	_
 31	más	más	ADV	ADV	_	32	nmod	_	_
 32	representativas	representativo	ADJ	ADJ	Gender=Fem|Number=Plur	30	amod	_	_
@@ -19130,7 +19130,7 @@
 # sent_id es-s515
 # orig_file_sentence 006#15
 1	Las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-2	quince	quince	DET	DET	Number=Plur|NumType=Card	1	det:nummod	_	_
+2	quince	quince	NUM	NUM	Number=Plur|NumType=Card	1	nummod	_	_
 3	medallas	medalla	NOUN	NOUN	Gender=Fem|Number=Plur	19	nsubj	_	_
 4	conseguidas	conseguido	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	3	amod	_	_
 5	por	por	ADP	ADP	AdpType=Prep	7	case	_	_
@@ -19205,7 +19205,7 @@
 # sent_id es-s517
 # orig_file_sentence 006#17
 1	Los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-2	ocho	ocho	DET	DET	Number=Plur|NumType=Card	1	det:nummod	_	_
+2	ocho	ocho	NUM	NUM	Number=Plur|NumType=Card	1	nummod	_	_
 3	metales	metal	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
 4	cosechados	cosechado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	3	amod	_	_
 5	en	en	ADP	ADP	AdpType=Prep	8	case	_	_
@@ -19227,7 +19227,7 @@
 21	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 22	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 23	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
-24	dos	dos	DET	DET	Number=Plur|NumType=Card	23	det:nummod	_	_
+24	dos	dos	NUM	NUM	Number=Plur|NumType=Card	23	nummod	_	_
 25	competiciones	competición	NOUN	NOUN	Gender=Fem|Number=Plur	21	nmod	_	_
 26	más	más	ADV	ADV	_	27	nmod	_	_
 27	carismáticas	carismático	ADJ	ADJ	Gender=Fem|Number=Plur	25	amod	_	_
@@ -19250,7 +19250,7 @@
 9	que	que	SCONJ	SCONJ	_	10	mark	_	_
 10	España	España	PROPN	PROPN	_	5	nmod	_	_
 11	:	:	PUNCT	PUNCT	PunctType=Colo	13	punct	_	_
-12	once	once	DET	DET	Number=Plur|NumType=Card	13	det:nummod	_	_
+12	once	once	NUM	NUM	Number=Plur|NumType=Card	13	nummod	_	_
 13	oros	oro	NOUN	NOUN	Gender=Masc|Number=Plur	3	dobj	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
 15	únicamente	únicamente	ADV	ADV	_	16	advmod	_	_
@@ -19406,7 +19406,7 @@
 49	parcial	parcial	ADJ	ADJ	Number=Sing	48	amod	_	_
 50	y	y	CONJ	CONJ	_	48	cc	_	_
 51	con	con	ADP	ADP	AdpType=Prep	53	case	_	_
-52	quince	quince	DET	DET	Number=Plur|NumType=Card	53	det:nummod	_	_
+52	quince	quince	NUM	NUM	Number=Plur|NumType=Card	53	nummod	_	_
 53	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	55	nmod	_	_
 54	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
 55	deportista	deportista	NOUN	NOUN	Number=Sing	48	conj	_	_
@@ -19418,7 +19418,7 @@
 61	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 62	consiguieron	conseguir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	parataxis	_	_
 63	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	65	det	_	_
-64	tres	tres	DET	DET	Number=Plur|NumType=Card	63	det:nummod	_	_
+64	tres	tres	NUM	NUM	Number=Plur|NumType=Card	63	nummod	_	_
 65	bronces	bronce	NOUN	NOUN	Gender=Masc|Number=Plur	62	dobj	_	_
 66	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
 
@@ -19443,7 +19443,7 @@
 # sent_id es-s523
 # orig_file_sentence 006#23
 1	Las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-2	cinco	cinco	DET	DET	Number=Plur|NumType=Card	1	det:nummod	_	_
+2	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	1	nummod	_	_
 3	medallas	medalla	NOUN	NOUN	Gender=Fem|Number=Plur	20	nsubj	_	_
 4	conseguidas	conseguido	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	3	amod	_	_
 5	por	por	ADP	ADP	AdpType=Prep	6	case	_	_
@@ -19468,7 +19468,7 @@
 24	hispanos	hispano	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	_
 25	,	,	PUNCT	PUNCT	PunctType=Comm	28	punct	_	_
 26	con	con	ADP	ADP	AdpType=Prep	28	case	_	_
-27	dieciséis	dieciséis	DET	DET	Number=Plur|NumType=Card	28	det:nummod	_	_
+27	dieciséis	dieciséis	NUM	NUM	Number=Plur|NumType=Card	28	nummod	_	_
 28	premios	premio	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
 29	,	,	PUNCT	PUNCT	PunctType=Comm	28	punct	_	_
 30	como	como	SCONJ	SCONJ	_	33	mark	_	_
@@ -19924,7 +19924,7 @@
 12	he	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	dormido	dormir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
 14	unas	uno	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
-15	cinco	cinco	DET	DET	Number=Plur|NumType=Card	14	det:nummod	_	_
+15	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	14	nummod	_	_
 16	horas	hora	NOUN	NOUN	Gender=Fem|Number=Plur	13	nmod	_	_
 17	y	y	CONJ	CONJ	_	13	cc	_	_
 18	estoy	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
@@ -20483,7 +20483,7 @@
 27	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 28	sumó	sumar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl	_	_
 29	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	32	det	_	_
-30	tres	tres	DET	DET	Number=Plur|NumType=Card	29	det:nummod	_	_
+30	tres	tres	NUM	NUM	Number=Plur|NumType=Card	29	nummod	_	_
 31	primeros	primero	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	32	amod	_	_
 32	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	28	dobj	_	_
 33	en	en	ADP	ADP	AdpType=Prep	35	case	_	_
@@ -20664,7 +20664,7 @@
 37	encuentro	encuentro	NOUN	NOUN	Gender=Masc|Number=Sing	35	nmod	_	_
 38	juego	juego	NOUN	NOUN	Gender=Masc|Number=Sing	32	dobj	_	_
 39	de	de	ADP	ADP	AdpType=Prep	41	case	_	_
-40	medio	medio	DET	DET	Gender=Masc|Number=Sing|NumType=Card	41	det:nummod	_	_
+40	medio	medio	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	41	nummod	_	_
 41	campo	campo	NOUN	NOUN	Gender=Masc|Number=Sing	38	nmod	_	_
 42	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	43	case	_	_
 43	volante	volante	NOUN	NOUN	Gender=Masc|Number=Sing	38	cc	_	_
@@ -20894,7 +20894,7 @@
 25	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
 26	que	que	PRON	PRON	PronType=Rel	27	nsubj	_	_
 27	llevo	llevar	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	acl	_	_
-28	tres	tres	DET	DET	Number=Plur|NumType=Card	29	det:nummod	_	_
+28	tres	tres	NUM	NUM	Number=Plur|NumType=Card	29	nummod	_	_
 29	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	27	nmod	_	_
 30	en	en	ADP	ADP	AdpType=Prep	32	case	_	_
 31	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -21251,7 +21251,7 @@
 18	y	y	CONJ	CONJ	_	5	cc	_	_
 19	ya	ya	ADV	ADV	_	20	advmod	_	_
 20	encadena	encadenar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-21	siete	siete	DET	DET	Number=Plur|NumType=Card	22	det:nummod	_	_
+21	siete	siete	NUM	NUM	Number=Plur|NumType=Card	22	nummod	_	_
 22	jornadas	jornada	NOUN	NOUN	Gender=Fem|Number=Plur	20	dobj	_	_
 23	sin	sin	ADP	ADP	AdpType=Prep	22	nmod	_	_
 24	vencer	vencer	VERB	VERB	VerbForm=Inf	23	advcl	_	_
@@ -21262,7 +21262,7 @@
 29	sólo	sólo	ADV	ADV	_	31	advmod	_	_
 30	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
 31	sumado	sumar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
-32	tres	tres	DET	DET	Number=Plur|NumType=Card	33	det:nummod	_	_
+32	tres	tres	NUM	NUM	Number=Plur|NumType=Card	33	nummod	_	_
 33	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	31	dobj	_	_
 34	de	de	ADP	ADP	AdpType=Prep	36	case	_	_
 35	21	21	NUM	NUM	NumForm=Digit	36	nummod	_	_
@@ -21311,7 +21311,7 @@
 38	puesto	puesto	NOUN	NOUN	Gender=Masc|Number=Sing	34	dobj	_	_
 39	,	,	PUNCT	PUNCT	PunctType=Comm	42	punct	_	_
 40	a	a	ADP	ADP	AdpType=Prep	42	case	_	_
-41	cinco	cinco	DET	DET	Number=Plur|NumType=Card	42	det:nummod	_	_
+41	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	42	nummod	_	_
 42	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	38	nmod	_	_
 43	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	44	case	_	_
 44	descenso	descenso	NOUN	NOUN	Gender=Masc|Number=Sing	42	nmod	_	_
@@ -21501,7 +21501,7 @@
 5	preguntó	preguntar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	si	si	SCONJ	SCONJ	_	12	mark	_	_
 7	estos	este	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
-8	dos	dos	DET	DET	Number=Plur|NumType=Card	7	det:nummod	_	_
+8	dos	dos	NUM	NUM	Number=Plur|NumType=Card	7	nummod	_	_
 9	dirigentes	dirigente	NOUN	NOUN	Number=Plur	12	nsubj	_	_
 10	no	no	ADV	ADV	Negative=Neg	12	neg	_	_
 11	estarían	estar	AUX	AUX	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	12	aux	_	_
@@ -22122,7 +22122,7 @@
 # orig_file_sentence 007#1
 1	Strawberry	Strawberry	PROPN	PROPN	_	15	nsubj	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
-3	ocho	ocho	DET	DET	Number=Plur|NumType=Card	4	det:nummod	_	_
+3	ocho	ocho	NUM	NUM	Number=Plur|NumType=Card	4	nummod	_	_
 4	veces	vez	NOUN	NOUN	Gender=Fem|Number=Plur	5	nmod	_	_
 5	elegido	elegido	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	1	amod	_	_
 6	para	para	ADP	ADP	AdpType=Prep	8	case	_	_
@@ -22135,7 +22135,7 @@
 13	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 14	sido	ser	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux	_	_
 15	suspendido	suspender	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-16	dos	dos	DET	DET	Number=Plur|NumType=Card	17	det:nummod	_	_
+16	dos	dos	NUM	NUM	Number=Plur|NumType=Card	17	nummod	_	_
 17	veces	vez	NOUN	NOUN	Gender=Fem|Number=Plur	15	nmod	_	_
 18	por	por	ADP	ADP	AdpType=Prep	19	case	_	_
 19	consumo	consumo	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -22803,7 +22803,7 @@
 10	sólo	sólo	ADV	ADV	_	11	advmod	_	_
 11	consta	constar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
 12	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
-13	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	14	det:nummod	_	_
+13	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	14	nummod	_	_
 14	fechas	fecha	NOUN	NOUN	Gender=Fem|Number=Plur	11	dobj	_	_
 15	-	-	PUNCT	PUNCT	PunctType=Dash	11	punct	_	_
 16	definirá	definir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -22861,7 +22861,7 @@
 # sent_id es-s619
 # orig_file_sentence 007#19
 1	Con	con	ADP	ADP	AdpType=Prep	3	case	_	_
-2	dos	dos	DET	DET	Number=Plur|NumType=Card	3	det:nummod	_	_
+2	dos	dos	NUM	NUM	Number=Plur|NumType=Card	3	nummod	_	_
 3	goles	gol	NOUN	NOUN	Gender=Masc|Number=Plur	46	nmod	_	_
 4	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	5	case	_	_
 5	internacional	internacional	NOUN	NOUN	Number=Sing	3	cc	_	_
@@ -23140,7 +23140,7 @@
 19	acciones	acción	NOUN	NOUN	Gender=Fem|Number=Plur	15	dobj	_	_
 20	en	en	ADP	ADP	AdpType=Prep	23	case	_	_
 21	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-22	medio	medio	DET	DET	Gender=Masc|Number=Sing|NumType=Card	21	det:nummod	_	_
+22	medio	medio	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	21	nummod	_	_
 23	campo	campo	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
 24	lo	el	PRON	PRON	Definite=Def|Number=Sing|PronType=Art	26	nmod	_	_
 25	que	que	PRON	PRON	PronType=Rel	26	nsubj	_	_
@@ -23390,7 +23390,7 @@
 3	caso	caso	NOUN	NOUN	_	1	mwe	_	_
 4	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 5	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-6	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	5	det:nummod	_	_
+6	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	5	nummod	_	_
 7	goles	gol	NOUN	NOUN	Gender=Masc|Number=Plur	26	nsubj	_	_
 8	que	que	PRON	PRON	PronType=Rel	10	nsubj	_	_
 9	se	se	PRON	PRON	_	10	dobj	_	_
@@ -23855,7 +23855,7 @@
 5	servicios	servicio	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod	_	_
 6	en	en	ADP	ADP	AdpType=Prep	10	case	_	_
 7	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-8	dos	dos	DET	DET	Number=Plur|NumType=Card	7	det:nummod	_	_
+8	dos	dos	NUM	NUM	Number=Plur|NumType=Card	7	nummod	_	_
 9	primeros	primero	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	10	amod	_	_
 10	satélites	satélite	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod	_	_
 11	en	en	ADP	ADP	AdpType=Prep	12	case	_	_
@@ -23957,7 +23957,7 @@
 44	mayor	mayor	ADJ	ADJ	Number=Sing	41	amod	_	_
 45	que	que	SCONJ	SCONJ	_	48	mark	_	_
 46	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
-47	dos	dos	DET	DET	Number=Plur|NumType=Card	46	det:nummod	_	_
+47	dos	dos	NUM	NUM	Number=Plur|NumType=Card	46	nummod	_	_
 48	satélites	satélite	NOUN	NOUN	Gender=Masc|Number=Plur	41	nmod	_	_
 49	anteriores	anterior	ADJ	ADJ	Number=Plur	48	amod	_	_
 50	y	y	CONJ	CONJ	_	20	cc	_	_
@@ -24155,7 +24155,7 @@
 16	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	visto	ver	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
 18	en	en	ADP	ADP	AdpType=Prep	20	case	_	_
-19	tres	tres	DET	DET	Number=Plur|NumType=Card	20	det:nummod	_	_
+19	tres	tres	NUM	NUM	Number=Plur|NumType=Card	20	nummod	_	_
 20	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod	_	_
 21	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 22	visita	visita	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
@@ -24257,7 +24257,7 @@
 13	coreado	coreado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	11	amod	_	_
 14	hoy	hoy	ADV	ADV	_	13	advmod	_	_
 15	por	por	ADP	ADP	AdpType=Prep	16	case	_	_
-16	miles	mil	PRON	PRON	Number=Plur|NumType=Card	13	dobj	_	_
+16	miles	mil	NUM	NUM	Number=Plur|NumType=Card	13	dobj	_	_
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 18	campesinos	campesino	NOUN	NOUN	Gender=Masc|Number=Plur	16	cc	_	_
 19	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
@@ -24284,7 +24284,7 @@
 40	campaña	campaña	NOUN	NOUN	Gender=Fem|Number=Sing	37	nmod	_	_
 41	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	_
 42	en	en	ADP	ADP	AdpType=Prep	44	case	_	_
-43	tres	tres	DET	DET	Number=Plur|NumType=Card	44	det:nummod	_	_
+43	tres	tres	NUM	NUM	Number=Plur|NumType=Card	44	nummod	_	_
 44	estados	estado	NOUN	NOUN	Gender=Masc|Number=Plur	13	nmod	_	_
 45	de	de	ADP	ADP	AdpType=Prep	46	case	_	_
 46	Venezuela	Venezuela	PROPN	PROPN	_	44	nmod	_	_
@@ -24303,7 +24303,7 @@
 59	populista	populista	ADJ	ADJ	Number=Sing	57	amod	_	_
 60	de	de	ADP	ADP	AdpType=Prep	63	case	_	_
 61	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	63	det	_	_
-62	cinco	cinco	DET	DET	Number=Plur|NumType=Card	61	det:nummod	_	_
+62	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	61	nummod	_	_
 63	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	57	nmod	_	_
 64	de	de	ADP	ADP	AdpType=Prep	65	case	_	_
 65	visitas	visita	NOUN	NOUN	Gender=Fem|Number=Plur	63	nmod	_	_
@@ -24429,7 +24429,7 @@
 11	en	en	ADP	ADP	AdpType=Prep	12	case	_	_
 12	Venezuela	Venezuela	PROPN	PROPN	_	10	nmod	_	_
 13	en	en	ADP	ADP	AdpType=Prep	15	case	_	_
-14	tres	tres	DET	DET	Number=Plur|NumType=Card	15	det:nummod	_	_
+14	tres	tres	NUM	NUM	Number=Plur|NumType=Card	15	nummod	_	_
 15	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
 16	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -24584,9 +24584,9 @@
 37	pronosticó	pronosticar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
 38	que	que	SCONJ	SCONJ	_	46	mark	_	_
 39	en	en	ADP	ADP	AdpType=Prep	43	case	_	_
-40	cinco	cinco	PRON	PRON	Number=Plur|NumType=Card	43	cc	_	_
+40	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	43	cc	_	_
 41	o	o	CONJ	CONJ	_	40	cc	_	_
-42	diez	diez	PRON	PRON	Number=Plur|NumType=Card	40	conj	_	_
+42	diez	diez	NUM	NUM	Number=Plur|NumType=Card	40	conj	_	_
 43	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	46	nmod	_	_
 44	será	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	46	cop	_	_
 45	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
@@ -24677,7 +24677,7 @@
 28	en	en	ADP	ADP	AdpType=Prep	32	case	_	_
 29	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
 30	últimos	último	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	29	amod	_	_
-31	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	29	det:nummod	_	_
+31	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	29	nummod	_	_
 32	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	37	nmod	_	_
 33	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 34	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -24751,7 +24751,7 @@
 8	5,5	5.5	NUM	NUM	NumForm=Digit	9	nummod	_	_
 9	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	6	dobj	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
-11	dos	dos	PRON	PRON	Number=Plur|NumType=Card	9	appos	_	_
+11	dos	dos	NUM	NUM	Number=Plur|NumType=Card	9	appos	_	_
 12	más	más	ADV	ADV	_	11	advmod	_	_
 13	que	que	SCONJ	SCONJ	_	18	mark	_	_
 14	a	a	ADP	ADP	AdpType=Prep	18	case	_	_
@@ -24842,7 +24842,7 @@
 20	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	19	punct	_	_
 21	se	se	PRON	PRON	_	22	dobj	_	_
 22	reduzca	reducir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
-23	dos	dos	DET	DET	Number=Plur|NumType=Card	24	det:nummod	_	_
+23	dos	dos	NUM	NUM	Number=Plur|NumType=Card	24	nummod	_	_
 24	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	22	nmod	_	_
 25	hasta	hasta	ADP	ADP	AdpType=Prep	22	advmod	_	_
 26	situarse	situar	VERB	VERB	VerbForm=Inf	25	advcl	_	_
@@ -24952,7 +24952,7 @@
 # orig_file_sentence 007#65
 1	En	en	ADP	ADP	AdpType=Prep	5	case	_	_
 2	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-3	dos	dos	DET	DET	Number=Plur|NumType=Card	2	det:nummod	_	_
+3	dos	dos	NUM	NUM	Number=Plur|NumType=Card	2	nummod	_	_
 4	últimos	último	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
 5	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
@@ -24966,7 +24966,7 @@
 14	deuda	deuda	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
 15	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	aumentado	aumentar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-17	dos	dos	DET	DET	Number=Plur|NumType=Card	18	det:nummod	_	_
+17	dos	dos	NUM	NUM	Number=Plur|NumType=Card	18	nummod	_	_
 18	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	16	dobj	_	_
 19	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 20	encarecimiento	encarecimiento	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
@@ -25094,9 +25094,9 @@
 5	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	bonos	bono	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	_
 7	a	a	ADP	ADP	AdpType=Prep	11	case	_	_
-8	tres	tres	PRON	PRON	Number=Plur|NumType=Card	11	cc	_	_
+8	tres	tres	NUM	NUM	Number=Plur|NumType=Card	11	cc	_	_
 9	y	y	CONJ	CONJ	_	8	cc	_	_
-10	cinco	cinco	PRON	PRON	Number=Plur|NumType=Card	8	conj	_	_
+10	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	8	conj	_	_
 11	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
 12	acumularán	acumular	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	23	parataxis	_	_
 13	mayor	mayor	ADJ	ADJ	Number=Sing	14	amod	_	_
@@ -25104,9 +25104,9 @@
 15	que	que	SCONJ	SCONJ	_	16	mark	_	_
 16	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 17	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
-18	quince	quince	PRON	PRON	Number=Plur|NumType=Card	21	cc	_	_
+18	quince	quince	NUM	NUM	Number=Plur|NumType=Card	21	cc	_	_
 19	y	y	CONJ	CONJ	_	18	cc	_	_
-20	treinta	treinta	PRON	PRON	Number=Plur|NumType=Card	18	conj	_	_
+20	treinta	treinta	NUM	NUM	Number=Plur|NumType=Card	18	conj	_	_
 21	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod	_	_
 22	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 23	en	en	ADP	ADP	AdpType=Prep	0	root	_	_
@@ -25115,9 +25115,9 @@
 26	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
 27	letras	letra	NOUN	NOUN	Gender=Fem|Number=Plur	35	nsubj	_	_
 28	a	a	ADP	ADP	AdpType=Prep	32	case	_	_
-29	doce	doce	PRON	PRON	Number=Plur|NumType=Card	32	cc	_	_
+29	doce	doce	NUM	NUM	Number=Plur|NumType=Card	32	cc	_	_
 30	y	y	CONJ	CONJ	_	29	cc	_	_
-31	dieciocho	dieciocho	PRON	PRON	Number=Plur|NumType=Card	29	conj	_	_
+31	dieciocho	dieciocho	NUM	NUM	Number=Plur|NumType=Card	29	conj	_	_
 32	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	27	nmod	_	_
 33	serán	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	35	cop	_	_
 34	más	más	ADV	ADV	_	35	nmod	_	_
@@ -25125,7 +25125,7 @@
 36	que	que	SCONJ	SCONJ	_	44	mark	_	_
 37	las	el	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	nmod	_	_
 38	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
-39	seis	seis	DET	DET	Number=Plur|NumType=Card	40	det:nummod	_	_
+39	seis	seis	NUM	NUM	Number=Plur|NumType=Card	40	nummod	_	_
 40	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	44	dobj	_	_
 41	,	,	PUNCT	PUNCT	PunctType=Comm	44	punct	_	_
 42	que	que	PRON	PRON	PronType=Rel	44	nsubj	_	_
@@ -25597,7 +25597,7 @@
 42	a	a	ADP	ADP	AdpType=Prep	46	case	_	_
 43	falta	falta	NOUN	NOUN	_	42	mwe	_	_
 44	de	de	ADP	ADP	AdpType=Prep	42	mwe	_	_
-45	cinco	cinco	DET	DET	Number=Plur|NumType=Card	46	det:nummod	_	_
+45	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	46	nummod	_	_
 46	minutos	minuto	NOUN	NOUN	Gender=Masc|Number=Plur	36	nmod	_	_
 47	para	para	ADP	ADP	AdpType=Prep	49	case	_	_
 48	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
@@ -25623,7 +25623,7 @@
 9	encajado	encajado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	8	advmod	_	_
 10	a	a	ADP	ADP	AdpType=Prep	13	case	_	_
 11	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-12	seis	seis	DET	DET	Number=Plur|NumType=Card	11	det:nummod	_	_
+12	seis	seis	NUM	NUM	Number=Plur|NumType=Card	11	nummod	_	_
 13	minutos	minuto	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 15	dominó	dominar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -25715,7 +25715,7 @@
 14	y	y	CONJ	CONJ	_	2	cc	_	_
 15	a	a	ADP	ADP	AdpType=Prep	18	case	_	_
 16	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-17	seis	seis	DET	DET	Number=Plur|NumType=Card	16	det:nummod	_	_
+17	seis	seis	NUM	NUM	Number=Plur|NumType=Card	16	nummod	_	_
 18	minutos	minuto	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
 19	se	él	PRON	PRON	_	20	auxpass:reflex	_	_
 20	adelantó	adelantar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
@@ -25782,7 +25782,7 @@
 34	durante	durante	ADP	ADP	AdpType=Prep	38	case	_	_
 35	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
 36	primeros	primero	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	35	amod	_	_
-37	quince	quince	DET	DET	Number=Plur|NumType=Card	35	det:nummod	_	_
+37	quince	quince	NUM	NUM	Number=Plur|NumType=Card	35	nummod	_	_
 38	minutos	minuto	NOUN	NOUN	Gender=Masc|Number=Plur	33	nmod	_	_
 39	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	_
 40	si	si	SCONJ	SCONJ	_	43	mark	_	_
@@ -25850,8 +25850,8 @@
 
 # sent_id es-s684
 # orig_file_sentence 007#84
-1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	once	once	PRON	PRON	Number=Plur|NumType=Card	6	nsubj	_	_
+1	El	el	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	nmod	_	_
+2	once	once	NUM	NUM	Number=Plur|NumType=Card	6	nsubj	_	_
 3	"	"	PUNCT	PUNCT	PunctType=Quot	4	punct	_	_
 4	rojillo	rojillo	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
 5	"	"	PUNCT	PUNCT	PunctType=Quot	4	punct	_	_
@@ -25973,7 +25973,7 @@
 40	a	a	ADP	ADP	AdpType=Prep	44	case	_	_
 41	falta	falta	NOUN	NOUN	_	40	mwe	_	_
 42	de	de	ADP	ADP	AdpType=Prep	40	mwe	_	_
-43	cinco	cinco	DET	DET	Number=Plur|NumType=Card	44	det:nummod	_	_
+43	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	44	nummod	_	_
 44	minutos	minuto	NOUN	NOUN	Gender=Masc|Number=Plur	36	nmod	_	_
 45	en	en	ADP	ADP	AdpType=Prep	48	case	_	_
 46	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	48	det	_	_
@@ -25981,7 +25981,7 @@
 48	disparo	disparo	NOUN	NOUN	Gender=Masc|Number=Sing	36	nmod	_	_
 49	entre	entre	ADP	ADP	AdpType=Prep	52	case	_	_
 50	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
-51	tres	tres	DET	DET	Number=Plur|NumType=Card	50	det:nummod	_	_
+51	tres	tres	NUM	NUM	Number=Plur|NumType=Card	50	nummod	_	_
 52	palos	palo	NOUN	NOUN	Gender=Masc|Number=Plur	48	nmod	_	_
 53	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
@@ -26091,7 +26091,7 @@
 22	se	él	PRON	PRON	Person=3	23	dobj	_	_
 23	coló	colar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	_
 24	a	a	ADP	ADP	AdpType=Prep	26	case	_	_
-25	media	medio	DET	DET	Gender=Fem|Number=Sing|NumType=Card	26	det:nummod	_	_
+25	media	medio	NUM	NUM	Gender=Fem|Number=Sing|NumType=Card	26	nummod	_	_
 26	altura	altura	NOUN	NOUN	Gender=Fem|Number=Sing	23	nmod	_	_
 27	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
 28	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -26149,7 +26149,7 @@
 16	opuestas	opuesto	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	15	amod	_	_
 17	en	en	ADP	ADP	AdpType=Prep	21	case	_	_
 18	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
-19	dos	dos	DET	DET	Number=Plur|NumType=Card	18	det:nummod	_	_
+19	dos	dos	NUM	NUM	Number=Plur|NumType=Card	18	nummod	_	_
 20	principales	principal	ADJ	ADJ	Number=Plur	21	amod	_	_
 21	índices	índice	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
 22	:	:	PUNCT	PUNCT	PunctType=Colo	24	punct	_	_
@@ -26403,7 +26403,7 @@
 28	en	en	ADP	ADP	AdpType=Prep	32	case	_	_
 29	más	más	ADV	ADV	_	31	advmod	_	_
 30	de	de	ADP	ADP	AdpType=Prep	31	case	_	_
-31	dos	dos	DET	DET	Number=Plur|NumType=Card	32	det:nummod	_	_
+31	dos	dos	NUM	NUM	Number=Plur|NumType=Card	32	nummod	_	_
 32	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
 33	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
@@ -26964,7 +26964,7 @@
 1	Las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	negociaciones	negociación	NOUN	NOUN	Gender=Fem|Number=Plur	16	nsubj	_	_
 3	entre	entre	ADP	ADP	AdpType=Prep	5	case	_	_
-4	ambos	ambos	DET	DET	Gender=Masc|Number=Plur|NumType=Card	5	det:nummod	_	_
+4	ambos	ambos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	5	nummod	_	_
 5	países	país	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 7	enemigos	enemigo	NOUN	NOUN	Gender=Masc|Number=Plur	5	appos	_	_
@@ -27076,7 +27076,7 @@
 # orig_file_sentence 008#15
 1	Posteriormente	posteriormente	ADV	ADV	_	4	advmod	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
-3	ambos	ambos	PRON	PRON	Gender=Masc|Number=Plur|NumType=Card	4	nsubj	_	_
+3	ambos	ambos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	4	nsubj	_	_
 4	viajaron	viajar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	a	a	ADP	ADP	AdpType=Prep	8	case	_	_
 6	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -27115,7 +27115,7 @@
 9	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 10	pero	pero	CONJ	CONJ	_	4	cc	_	_
 11	ahora	ahora	ADV	ADV	_	15	advmod	_	_
-12	ambas	ambos	DET	DET	Gender=Fem|Number=Plur|NumType=Card	13	det:nummod	_	_
+12	ambas	ambos	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	13	nummod	_	_
 13	partes	parte	NOUN	NOUN	Gender=Fem|Number=Plur	15	nsubj	_	_
 14	deben	deber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	analizar	analizar	VERB	VERB	VerbForm=Inf	4	conj	_	_
@@ -27270,7 +27270,7 @@
 11	miembros	miembro	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 12	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 13	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-14	dos	dos	DET	DET	Number=Plur|NumType=Card	13	det:nummod	_	_
+14	dos	dos	NUM	NUM	Number=Plur|NumType=Card	13	nummod	_	_
 15	delegaciones	delegación	NOUN	NOUN	Gender=Fem|Number=Plur	11	nmod	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 17	aunque	aunque	SCONJ	SCONJ	_	19	mark	_	_
@@ -27312,12 +27312,12 @@
 20	alto	alto	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
 21	nivel	nivel	NOUN	NOUN	Gender=Masc|Number=Sing	18	nmod	_	_
 22	entre	entre	ADP	ADP	AdpType=Prep	24	case	_	_
-23	ambos	ambos	DET	DET	Gender=Masc|Number=Plur|NumType=Card	24	det:nummod	_	_
+23	ambos	ambos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	24	nummod	_	_
 24	países	país	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
 25	desde	desde	ADP	ADP	AdpType=Prep	29	case	_	_
 26	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
 27	casi	casi	ADV	ADV	_	29	advmod	_	_
-28	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	29	det:nummod	_	_
+28	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	29	nummod	_	_
 29	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
 30	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
@@ -27422,7 +27422,7 @@
 56	en	en	ADP	ADP	AdpType=Prep	60	case	_	_
 57	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	60	det	_	_
 58	últimos	último	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	57	amod	_	_
-59	nueve	nueve	DET	DET	Number=Plur|NumType=Card	57	det:nummod	_	_
+59	nueve	nueve	NUM	NUM	Number=Plur|NumType=Card	57	nummod	_	_
 60	partidos	partido	NOUN	NOUN	Gender=Masc|Number=Plur	55	nmod	_	_
 61	que	que	PRON	PRON	PronType=Rel	63	dobj	_	_
 62	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	63	aux	_	_
@@ -27450,7 +27450,7 @@
 9	en	en	ADP	ADP	AdpType=Prep	13	case	_	_
 10	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 11	últimos	último	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	10	amod	_	_
-12	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	10	det:nummod	_	_
+12	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	10	nummod	_	_
 13	partidos	partido	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
 14	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	conseguido	conseguir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
@@ -27478,7 +27478,7 @@
 37	13	13	NUM	NUM	NumForm=Digit	38	nummod	_	_
 38	rebotes	rebote	NOUN	NOUN	Gender=Masc|Number=Plur	21	appos	_	_
 39	y	y	CONJ	CONJ	_	21	cc	_	_
-40	cinco	cinco	DET	DET	Number=Plur|NumType=Card	41	det:nummod	_	_
+40	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	41	nummod	_	_
 41	asistencias	asistencia	NOUN	NOUN	Gender=Fem|Number=Plur	21	conj	_	_
 42	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
 
@@ -27506,10 +27506,10 @@
 20	9	9	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	18	compound	_	_
 21	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	16	punct	_	_
 22	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
-23	nueve	nueve	DET	DET	Number=Plur|NumType=Card	24	det:nummod	_	_
+23	nueve	nueve	NUM	NUM	Number=Plur|NumType=Card	24	nummod	_	_
 24	asistencias	asistencia	NOUN	NOUN	Gender=Fem|Number=Plur	14	appos	_	_
 25	y	y	CONJ	CONJ	_	14	cc	_	_
-26	cinco	cinco	DET	DET	Number=Plur|NumType=Card	27	det:nummod	_	_
+26	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	27	nummod	_	_
 27	rebotes	rebote	NOUN	NOUN	Gender=Masc|Number=Plur	14	conj	_	_
 28	para	para	ADP	ADP	AdpType=Prep	12	advmod	_	_
 29	permitir	permitir	AUX	AUX	VerbForm=Inf	33	aux	_	_
@@ -27520,7 +27520,7 @@
 34	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	racha	racha	NOUN	NOUN	Gender=Fem|Number=Sing	33	dobj	_	_
 36	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
-37	dos	dos	DET	DET	Number=Plur|NumType=Card	38	det:nummod	_	_
+37	dos	dos	NUM	NUM	Number=Plur|NumType=Card	38	nummod	_	_
 38	derrotas	derrota	NOUN	NOUN	Gender=Fem|Number=Plur	35	nmod	_	_
 39	consecutivas	consecutivo	ADJ	ADJ	Gender=Fem|Number=Plur	38	amod	_	_
 40	y	y	CONJ	CONJ	_	33	cc	_	_
@@ -27678,11 +27678,11 @@
 23	personal	personal	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
 24	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 25	dio	dar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
-26	ocho	ocho	DET	DET	Number=Plur|NumType=Card	27	det:nummod	_	_
+26	ocho	ocho	NUM	NUM	Number=Plur|NumType=Card	27	nummod	_	_
 27	asistencias	asistencia	NOUN	NOUN	Gender=Fem|Number=Plur	25	dobj	_	_
 28	y	y	CONJ	CONJ	_	6	cc	_	_
 29	capturó	capturar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
-30	siete	siete	DET	DET	Number=Plur|NumType=Card	31	det:nummod	_	_
+30	siete	siete	NUM	NUM	Number=Plur|NumType=Card	31	nummod	_	_
 31	rebotes	rebote	NOUN	NOUN	Gender=Masc|Number=Plur	29	dobj	_	_
 32	,	,	PUNCT	PUNCT	PunctType=Comm	36	punct	_	_
 33	que	que	PRON	PRON	PronType=Rel	36	nsubj	_	_
@@ -27739,14 +27739,14 @@
 37	10	10	NUM	NUM	NumForm=Digit	38	nummod	_	_
 38	rebotes	rebote	NOUN	NOUN	Gender=Masc|Number=Plur	18	appos	_	_
 39	y	y	CONJ	CONJ	_	18	cc	_	_
-40	dos	dos	DET	DET	Number=Plur|NumType=Card	41	det:nummod	_	_
+40	dos	dos	NUM	NUM	Number=Plur|NumType=Card	41	nummod	_	_
 41	asistencias	asistencia	NOUN	NOUN	Gender=Fem|Number=Plur	18	conj	_	_
 42	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 43	rompieron	romper	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 44	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	racha	racha	NOUN	NOUN	Gender=Fem|Number=Sing	43	dobj	_	_
 46	de	de	ADP	ADP	AdpType=Prep	48	case	_	_
-47	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	48	det:nummod	_	_
+47	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	48	nummod	_	_
 48	triunfos	triunfo	NOUN	NOUN	Gender=Masc|Number=Plur	45	nmod	_	_
 49	consecutivos	consecutivo	ADJ	ADJ	Gender=Masc|Number=Plur	48	amod	_	_
 50	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	_
@@ -27976,7 +27976,7 @@
 39	de	de	ADP	ADP	AdpType=Prep	38	nmod	_	_
 40	vencer	vencer	VERB	VERB	VerbForm=Inf	39	advcl	_	_
 41	por	por	ADP	ADP	AdpType=Prep	43	case	_	_
-42	tres	tres	DET	DET	Number=Plur|NumType=Card	43	det:nummod	_	_
+42	tres	tres	NUM	NUM	Number=Plur|NumType=Card	43	nummod	_	_
 43	goles	gol	NOUN	NOUN	Gender=Masc|Number=Plur	40	nmod	_	_
 44	de	de	ADP	ADP	AdpType=Prep	45	case	_	_
 45	diferencia	diferencia	NOUN	NOUN	Gender=Fem|Number=Sing	43	nmod	_	_
@@ -28319,7 +28319,7 @@
 19	Ramos	Ramos	PROPN	PROPN	_	17	nmod	_	_
 20	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 21	por	por	ADP	ADP	AdpType=Prep	23	case	_	_
-22	doble	doble	DET	DET	Number=Sing|NumType=Card	23	det:nummod	_	_
+22	doble	doble	NUM	NUM	Number=Sing|NumType=Card	23	nummod	_	_
 23	amonestación	amonestación	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod	_	_
 24	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
 25	en	en	ADP	ADP	AdpType=Prep	27	case	_	_
@@ -28479,7 +28479,7 @@
 10	increíble	increíble	ADJ	ADJ	Number=Sing	9	amod	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 12	desde	desde	ADP	ADP	AdpType=Prep	14	case	_	_
-13	dos	dos	DET	DET	Number=Plur|NumType=Card	14	det:nummod	_	_
+13	dos	dos	NUM	NUM	Number=Plur|NumType=Card	14	nummod	_	_
 14	metros	metro	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 16	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -29108,7 +29108,7 @@
 
 # sent_id es-s759
 # orig_file_sentence 008#59
-1	Veinticuatro	veinticuatro	DET	DET	Number=Plur|NumType=Card	2	det:nummod	_	_
+1	Veinticuatro	veinticuatro	NUM	NUM	Number=Plur|NumType=Card	2	nummod	_	_
 2	horas	hora	NOUN	NOUN	Gender=Fem|Number=Plur	3	nmod	_	_
 3	después	después	ADV	ADV	_	29	advmod	_	_
 4	de	de	ADP	ADP	AdpType=Prep	3	advmod	_	_
@@ -29368,7 +29368,7 @@
 21	última	último	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	16	appos	_	_
 22	en	en	ADP	ADP	AdpType=Prep	26	case	_	_
 23	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
-24	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	23	det:nummod	_	_
+24	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	23	nummod	_	_
 25	próximos	próximo	ADJ	ADJ	Gender=Masc|Number=Plur	26	amod	_	_
 26	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	21	nmod	_	_
 27	"	"	PUNCT	PUNCT	PunctType=Quot	21	punct	_	_
@@ -29887,7 +29887,7 @@
 14	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	demanda	demanda	NOUN	NOUN	Gender=Fem|Number=Sing	12	dobj	_	_
 16	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
-17	tres	tres	DET	DET	Number=Plur|NumType=Card	18	det:nummod	_	_
+17	tres	tres	NUM	NUM	Number=Plur|NumType=Card	18	nummod	_	_
 18	electores	elector	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
 19	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
 20	Texas	Texas	PROPN	PROPN	_	18	nmod	_	_
@@ -29928,7 +29928,7 @@
 
 # sent_id es-s778
 # orig_file_sentence 008#78
-1	Tres	tres	DET	DET	Number=Plur|NumType=Card	2	det:nummod	_	_
+1	Tres	tres	NUM	NUM	Number=Plur|NumType=Card	2	nummod	_	_
 2	jueces	juez	NOUN	NOUN	Number=Plur	17	nsubj	_	_
 3	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	4	case	_	_
 4	foro	foro	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -30115,7 +30115,7 @@
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	cuarto	cuarto	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	10	appos	_	_
 16	en	en	ADP	ADP	AdpType=Prep	18	case	_	_
-17	veintiún	veintiuno	DET	DET	Number=Plur|NumType=Card	18	det:nummod	_	_
+17	veintiún	veintiuno	NUM	NUM	Number=Plur|NumType=Card	18	nummod	_	_
 18	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
 19	-	-	PUNCT	PUNCT	PunctType=Dash	15	punct	_	_
 20	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
@@ -30355,7 +30355,7 @@
 40	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	capacidad	capacidad	NOUN	NOUN	Gender=Fem|Number=Sing	38	dobj	_	_
 42	de	de	ADP	ADP	AdpType=Prep	44	case	_	_
-43	veinte	veinte	DET	DET	Number=Plur|NumType=Card	44	det:nummod	_	_
+43	veinte	veinte	NUM	NUM	Number=Plur|NumType=Card	44	nummod	_	_
 44	plazas	plaza	NOUN	NOUN	Gender=Fem|Number=Plur	41	nmod	_	_
 45	y	y	CONJ	CONJ	_	38	cc	_	_
 46	que	que	PRON	PRON	PronType=Rel	48	nsubj	_	_
@@ -30603,7 +30603,7 @@
 1	Agregó	agregar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	que	que	SCONJ	SCONJ	_	18	mark	_	_
 3	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
-4	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	3	det:nummod	_	_
+4	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	3	nummod	_	_
 5	nuevos	nuevo	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
 6	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	18	nsubj	_	_
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
@@ -30780,7 +30780,7 @@
 6	uno	uno	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	1	cc	_	_
 7	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 8	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-9	dos	dos	DET	DET	Number=Plur|NumType=Card	8	det:nummod	_	_
+9	dos	dos	NUM	NUM	Number=Plur|NumType=Card	8	nummod	_	_
 10	conductores	conductor	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
 11	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	12	case	_	_
 12	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
@@ -31147,10 +31147,10 @@
 15	Sjeng	Sjeng	PROPN	PROPN	_	14	appos	_	_
 16	Schalken	Schalken	PROPN	PROPN	_	15	name	_	_
 17	en	en	ADP	ADP	AdpType=Prep	19	case	_	_
-18	cinco	cinco	DET	DET	Number=Plur|NumType=Card	19	det:nummod	_	_
+18	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	19	nummod	_	_
 19	horas	hora	NOUN	NOUN	Gender=Fem|Number=Plur	12	cc	_	_
 20	y	y	CONJ	CONJ	_	19	cc	_	_
-21	cinco	cinco	DET	DET	Number=Plur|NumType=Card	22	det:nummod	_	_
+21	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	22	nummod	_	_
 22	minutos	minuto	NOUN	NOUN	Gender=Masc|Number=Plur	19	conj	_	_
 23	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
@@ -31578,10 +31578,10 @@
 
 # sent_id es-s824
 # orig_file_sentence 009#24
-1	Siete	siete	DET	DET	Number=Plur|NumType=Card	2	det:nummod	_	_
+1	Siete	siete	NUM	NUM	Number=Plur|NumType=Card	2	nummod	_	_
 2	Wimbledons	Wimbledons	PROPN	PROPN	_	0	root	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
-4	trece	trece	DET	DET	Number=Plur|NumType=Card	5	det:nummod	_	_
+4	trece	trece	NUM	NUM	Number=Plur|NumType=Card	5	nummod	_	_
 5	Grand	Grand	PROPN	PROPN	_	2	name	_	_
 6	Slams	Slams	PROPN	PROPN	_	5	name	_	_
 7	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
@@ -31604,7 +31604,7 @@
 2	sola	solo	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
 3	derrota	derrota	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 4	en	en	ADP	ADP	AdpType=Prep	6	case	_	_
-5	siete	siete	DET	DET	Number=Plur|NumType=Card	6	det:nummod	_	_
+5	siete	siete	NUM	NUM	Number=Plur|NumType=Card	6	nummod	_	_
 6	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod	_	_
 7	y	y	CONJ	CONJ	_	3	cc	_	_
 8	dice	decir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
@@ -31855,7 +31855,7 @@
 11	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	jugador	jugador	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
 13	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	14	case	_	_
-14	once	once	DET	DET	Number=Plur|NumType=Card	12	det:nummod	_	_
+14	once	once	NUM	NUM	Number=Plur|NumType=Card	12	nummod	_	_
 15	inicial	inicial	ADJ	ADJ	Number=Sing	14	amod	_	_
 16	que	que	PRON	PRON	PronType=Rel	19	nsubj	_	_
 17	ya	ya	ADV	ADV	_	19	advmod	_	_
@@ -31991,7 +31991,7 @@
 12	que	que	PRON	PRON	PronType=Rel	17	nsubj	_	_
 13	después	después	ADV	ADV	_	17	advmod	_	_
 14	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
-15	dos	dos	DET	DET	Number=Plur|NumType=Card	16	det:nummod	_	_
+15	dos	dos	NUM	NUM	Number=Plur|NumType=Card	16	nummod	_	_
 16	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	13	nmod	_	_
 17	volvía	volver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl	_	_
 18	a	a	ADP	ADP	AdpType=Prep	19	case	_	_
@@ -32007,7 +32007,7 @@
 28	,	,	PUNCT	PUNCT	PunctType=Comm	30	punct	_	_
 29	aunque	aunque	SCONJ	SCONJ	_	30	mark	_	_
 30	estuvo	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	advcl	_	_
-31	media	medio	DET	DET	Gender=Fem|Number=Sing|NumType=Card	32	det:nummod	_	_
+31	media	medio	NUM	NUM	Gender=Fem|Number=Sing|NumType=Card	32	nummod	_	_
 32	temporada	temporada	NOUN	NOUN	Gender=Fem|Number=Sing	30	nmod	_	_
 33	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	año	año	NOUN	NOUN	AdvType=Tim	30	nmod	_	_
@@ -32039,7 +32039,7 @@
 6	que	que	PRON	PRON	PronType=Rel	7	nsubj	_	_
 7	formaron	formar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
 8	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	once	once	DET	DET	Number=Plur|NumType=Card	10	det:nummod	_	_
+9	once	once	NUM	NUM	Number=Plur|NumType=Card	10	nummod	_	_
 10	inicial	inicial	ADJ	ADJ	Number=Sing	7	dobj	_	_
 11	ante	ante	ADP	ADP	AdpType=Prep	13	case	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -32246,7 +32246,7 @@
 
 # sent_id es-s839
 # orig_file_sentence 009#39
-1	Ambos	ambos	PRON	PRON	Gender=Masc|Number=Plur|NumType=Card	2	nsubj	_	_
+1	Ambos	ambos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	2	nsubj	_	_
 2	destacan	destacar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	SCONJ	_	7	mark	_	_
 4	esta	este	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
@@ -32709,9 +32709,9 @@
 59	ya	ya	ADV	ADV	_	66	mark	_	_
 60	que	que	SCONJ	SCONJ	_	59	mwe	_	_
 61	cada	cada	DET	DET	Number=Sing|PronType=Ind	63	det	_	_
-62	diez	diez	DET	DET	Number=Plur|NumType=Card	61	det:nummod	_	_
+62	diez	diez	NUM	NUM	Number=Plur|NumType=Card	61	nummod	_	_
 63	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	66	nmod	_	_
-64	seis	seis	DET	DET	Number=Plur|NumType=Card	65	det:nummod	_	_
+64	seis	seis	NUM	NUM	Number=Plur|NumType=Card	65	nummod	_	_
 65	técnicos	técnico	NOUN	NOUN	Gender=Masc|Number=Plur	66	nsubj	_	_
 66	controlan	controlar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
 67	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	68	det	_	_
@@ -33407,7 +33407,7 @@
 5	continúan	continuar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	hoy	hoy	ADV	ADV	_	5	advmod	_	_
 7	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
-8	tres	tres	DET	DET	Number=Plur|NumType=Card	9	det:nummod	_	_
+8	tres	tres	NUM	NUM	Number=Plur|NumType=Card	9	nummod	_	_
 9	estados	estado	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 11	a	a	ADP	ADP	AdpType=Prep	25	mark	_	_
@@ -33653,11 +33653,11 @@
 23	hoy	hoy	ADV	ADV	_	25	advmod	_	_
 24	se	se	PRON	PRON	_	25	dobj	_	_
 25	distribuirán	distribuir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	16	acl	_	_
-26	cuarenta	cuarenta	PRON	PRON	Number=Plur|NumType=Card	31	cc	_	_
+26	cuarenta	cuarenta	NUM	NUM	Number=Plur|NumType=Card	31	cc	_	_
 27	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
-28	veinticuatro	veinticuatro	DET	DET	Number=Plur|NumType=Card	26	det:nummod	_	_
+28	veinticuatro	veinticuatro	NUM	NUM	Number=Plur|NumType=Card	26	compound	_	_
 29	y	y	CONJ	CONJ	_	26	cc	_	_
-30	veintidós	veintidós	PRON	PRON	Number=Plur|NumType=Card	26	conj	_	_
+30	veintidós	veintidós	NUM	NUM	Number=Plur|NumType=Card	26	conj	_	_
 31	delegados	delegado	NOUN	NOUN	Gender=Masc|Number=Plur	25	nsubj	_	_
 32	,	,	PUNCT	PUNCT	PunctType=Comm	33	punct	_	_
 33	respectivamente	respectivamente	ADV	ADV	_	31	advmod	_	_
@@ -33720,7 +33720,7 @@
 11	celebren	celebrar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_
 12	primarias	primario	ADJ	ADJ	Gender=Fem|Number=Plur	11	nsubj	_	_
 13	en	en	ADP	ADP	AdpType=Prep	15	case	_	_
-14	seis	seis	DET	DET	Number=Plur|NumType=Card	15	det:nummod	_	_
+14	seis	seis	NUM	NUM	Number=Plur|NumType=Card	15	nummod	_	_
 15	estados	estado	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	_
 16	sureños	sureño	ADJ	ADJ	Gender=Masc|Number=Plur	15	amod	_	_
 17	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
@@ -34678,7 +34678,7 @@
 8	activos	activo	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	_
 9	menores	menor	ADJ	ADJ	Number=Plur	7	amod	_	_
 10	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
-11	veinticinco	veinticinco	DET	DET	Number=Plur|NumType=Card	12	det:nummod	_	_
+11	veinticinco	veinticinco	NUM	NUM	Number=Plur|NumType=Card	12	nummod	_	_
 12	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
 13	"	"	PUNCT	PUNCT	PunctType=Quot	14	punct	_	_
 14	está	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -34703,7 +34703,7 @@
 33	colectivo	colectivo	NOUN	NOUN	Gender=Masc|Number=Sing	28	nmod	_	_
 34	duplica	duplicar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
 35	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-36	media	medio	DET	DET	Gender=Fem|Number=Sing|NumType=Card	37	det:nummod	_	_
+36	media	medio	NUM	NUM	Gender=Fem|Number=Sing|NumType=Card	37	nummod	_	_
 37	europea	europeo	ADJ	ADJ	Gender=Fem|Number=Sing	34	dobj	_	_
 38	,	,	PUNCT	PUNCT	PunctType=Comm	40	punct	_	_
 39	según	según	ADP	ADP	AdpType=Prep	40	case	_	_
@@ -34770,7 +34770,7 @@
 16	en	en	ADP	ADP	AdpType=Prep	20	case	_	_
 17	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 18	últimos	último	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	17	amod	_	_
-19	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	17	det:nummod	_	_
+19	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	17	nummod	_	_
 20	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
 21	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 22	en	en	ADP	ADP	AdpType=Prep	24	case	_	_
@@ -34823,12 +34823,12 @@
 15	diez	10	NUM	NUM	NumForm=Digit	16	nummod	_	_
 16	jóvenes	joven	NOUN	NOUN	Number=Plur	20	dobj	_	_
 17	activos	activo	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
-18	cuatro	cuatro	PRON	PRON	Number=Plur|NumType=Card	20	nsubj	_	_
+18	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	20	nsubj	_	_
 19	eran	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
 20	parados	parado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	9	cc	_	_
 21	y	y	CONJ	CONJ	_	20	cc	_	_
-22	otros	otro	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
-23	cuatro	cuatro	PRON	PRON	Number=Plur|NumType=Card	24	nsubj	_	_
+22	otros	otro	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	23	nmod	_	_
+23	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	24	nsubj	_	_
 24	tenían	tener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	conj	_	_
 25	contrato	contrato	NOUN	NOUN	Gender=Masc|Number=Sing	24	dobj	_	_
 26	temporal	temporal	ADJ	ADJ	Number=Sing	25	amod	_	_
@@ -34842,10 +34842,10 @@
 34	proporción	proporción	NOUN	NOUN	Gender=Fem|Number=Sing	35	nsubj	_	_
 35	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl	_	_
 36	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
-37	tres	tres	DET	DET	Number=Plur|NumType=Card	38	det:nummod	_	_
+37	tres	tres	NUM	NUM	Number=Plur|NumType=Card	38	nummod	_	_
 38	parados	parado	NOUN	NOUN	Gender=Masc|Number=Plur	35	cc	_	_
 39	y	y	CONJ	CONJ	_	38	cc	_	_
-40	cinco	cinco	DET	DET	Number=Plur|NumType=Card	41	det:nummod	_	_
+40	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	41	nummod	_	_
 41	contratados	contratado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	38	conj	_	_
 42	temporales	temporal	ADJ	ADJ	Number=Plur	41	advmod	_	_
 43	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
@@ -34875,10 +34875,10 @@
 21	duración	duración	NOUN	NOUN	Gender=Fem|Number=Sing	4	ccomp	_	_
 22	-	-	PUNCT	PUNCT	PunctType=Dash	30	punct	_	_
 23	de	de	ADP	ADP	AdpType=Prep	30	case	_	_
-24	dos	dos	DET	DET	Number=Plur|NumType=Card	25	det:nummod	_	_
+24	dos	dos	NUM	NUM	Number=Plur|NumType=Card	25	nummod	_	_
 25	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	30	cc	_	_
 26	y	y	CONJ	CONJ	_	25	cc	_	_
-27	medio	medio	PRON	PRON	Gender=Masc|Number=Sing|NumType=Card	25	conj	_	_
+27	medio	medio	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	25	conj	_	_
 28	según	según	ADP	ADP	AdpType=Prep	30	case	_	_
 29	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	INEM	INEM	PROPN	PROPN	_	21	nmod	_	_
@@ -34937,7 +34937,7 @@
 6	negocios	negocio	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
 7	petrolíferos	petrolífero	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
 8	en	en	ADP	ADP	AdpType=Prep	10	case	_	_
-9	doscientos	doscientos	DET	DET	Gender=Masc|Number=Plur|NumType=Card	10	det:nummod	_	_
+9	doscientos	doscientos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	10	nummod	_	_
 10	países	país	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
 11	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 12	todo	todo	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
@@ -35131,7 +35131,7 @@
 6	de	de	ADP	ADP	AdpType=Prep	7	case	_	_
 7	Navidades	Navidades	PROPN	PROPN	_	5	nmod	_	_
 8	y	y	CONJ	CONJ	_	3	cc	_	_
-9	tres	tres	DET	DET	Number=Plur|NumType=Card	10	det:nummod	_	_
+9	tres	tres	NUM	NUM	Number=Plur|NumType=Card	10	nummod	_	_
 10	semanas	semana	NOUN	NOUN	Gender=Fem|Number=Plur	11	nmod	_	_
 11	después	después	ADV	ADV	_	35	advmod	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -35270,7 +35270,7 @@
 10	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 11	declaró	declarar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	que	que	SCONJ	SCONJ	_	22	mark	_	_
-13	diez	diez	DET	DET	Number=Plur|NumType=Card	14	det:nummod	_	_
+13	diez	diez	NUM	NUM	Number=Plur|NumType=Card	14	nummod	_	_
 14	aviones	avión	NOUN	NOUN	Gender=Masc|Number=Plur	22	nsubj	_	_
 15	más	más	ADV	ADV	_	14	advmod	_	_
 16	que	que	PRON	PRON	Number=Plur|PronType=Rel	17	nsubj	_	_
@@ -35577,7 +35577,7 @@
 3	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 4	de	de	ADP	ADP	AdpType=Prep	7	case	_	_
 5	unas	uno	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
-6	dos	dos	DET	DET	Number=Plur|NumType=Card	5	det:nummod	_	_
+6	dos	dos	NUM	NUM	Number=Plur|NumType=Card	5	nummod	_	_
 7	horas	hora	NOUN	NOUN	Gender=Fem|Number=Plur	2	nmod	_	_
 8	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 9	duración	duración	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
@@ -35842,7 +35842,7 @@
 22	vieron	ver	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	cc	_	_
 23	más	más	ADV	ADV	_	26	advmod	_	_
 24	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
-25	un	un	DET	DET	Gender=Masc|Number=Sing|NumType=Card	26	det	_	_
+25	un	un	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	26	det	_	_
 26	millón	millón	NOUN	NOUN	Gender=Masc|Number=Sing	28	nmod	_	_
 27	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 28	espectadores	espectador	NOUN	NOUN	Gender=Masc|Number=Plur	22	nsubj	_	_
@@ -35944,7 +35944,7 @@
 # sent_id es-s928
 # orig_file_sentence 010#28
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
-2	ambas	ambos	DET	DET	Gender=Fem|Number=Plur|NumType=Card	3	det:nummod	_	_
+2	ambas	ambos	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	3	nummod	_	_
 3	películas	película	NOUN	NOUN	Gender=Fem|Number=Plur	4	nmod	_	_
 4	encontramos	encontrar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -35989,7 +35989,7 @@
 44	y	y	CONJ	CONJ	_	4	cc	_	_
 45	en	en	ADP	ADP	AdpType=Prep	48	case	_	_
 46	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
-47	dos	dos	DET	DET	Number=Plur|NumType=Card	46	det:nummod	_	_
+47	dos	dos	NUM	NUM	Number=Plur|NumType=Card	46	nummod	_	_
 48	filmes	filme	NOUN	NOUN	Gender=Masc|Number=Plur	64	nmod	_	_
 49	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
 50	atmósfera	atmósfera	NOUN	NOUN	Gender=Fem|Number=Sing	64	nsubj	_	_
@@ -36299,7 +36299,7 @@
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	plazo	plazo	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	_
 27	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
-28	seis	seis	DET	DET	Number=Plur|NumType=Card	29	det:nummod	_	_
+28	seis	seis	NUM	NUM	Number=Plur|NumType=Card	29	nummod	_	_
 29	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	26	nmod	_	_
 30	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
 31	elabore	elaborar	VERB	VERB	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	18	ccomp	_	_
@@ -36660,7 +36660,7 @@
 15	diario	diario	NOUN	NOUN	Gender=Masc|Number=Sing	12	iobj	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 17	que	que	SCONJ	SCONJ	_	20	mark	_	_
-18	diez	diez	DET	DET	Number=Plur|NumType=Card	19	det:nummod	_	_
+18	diez	diez	NUM	NUM	Number=Plur|NumType=Card	19	nummod	_	_
 19	motoristas	motorista	NOUN	NOUN	Number=Plur	20	nsubj	_	_
 20	protegían	proteger	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	_
 21	a	a	ADP	ADP	AdpType=Prep	23	case	_	_
@@ -36684,7 +36684,7 @@
 12	se	él	PRON	PRON	Person=3	13	dobj	_	_
 13	reducía	reducir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 14	a	a	ADP	ADP	AdpType=Prep	16	case	_	_
-15	dos	dos	DET	DET	Number=Plur|NumType=Card	16	det:nummod	_	_
+15	dos	dos	NUM	NUM	Number=Plur|NumType=Card	16	nummod	_	_
 16	motos	moto	NOUN	NOUN	Gender=Masc|Number=Plur	13	cc	_	_
 17	y	y	CONJ	CONJ	_	16	cc	_	_
 18	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -36737,7 +36737,7 @@
 39	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
 40	enlaces	enlace	NOUN	NOUN	Gender=Masc|Number=Plur	38	nmod	_	_
 41	y	y	CONJ	CONJ	_	23	cc	_	_
-42	tres	tres	DET	DET	Number=Plur|NumType=Card	43	det:nummod	_	_
+42	tres	tres	NUM	NUM	Number=Plur|NumType=Card	43	nummod	_	_
 43	coches	coche	NOUN	NOUN	Gender=Masc|Number=Plur	23	conj	_	_
 44	policiales	policial	ADJ	ADJ	Number=Plur	43	amod	_	_
 45	se	él	PRON	PRON	Person=3	46	dobj	_	_
@@ -37195,7 +37195,7 @@
 26	Oleg	Oleg	PROPN	PROPN	_	25	appos	_	_
 27	Ogorodov	Ogorodov	PROPN	PROPN	_	26	name	_	_
 28	en	en	ADP	ADP	AdpType=Prep	30	case	_	_
-29	dos	dos	DET	DET	Number=Plur|NumType=Card	30	det:nummod	_	_
+29	dos	dos	NUM	NUM	Number=Plur|NumType=Card	30	nummod	_	_
 30	sets	set	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
 31	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 32	7-6	7-6	NUM	NUM	NumForm=Digit	30	cc	_	_
@@ -37242,7 +37242,7 @@
 32	2	2	NUM	NUM	NumForm=Digit	31	nummod	_	_
 33	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	31	punct	_	_
 34	en	en	ADP	ADP	AdpType=Prep	36	case	_	_
-35	dos	dos	DET	DET	Number=Plur|NumType=Card	36	det:nummod	_	_
+35	dos	dos	NUM	NUM	Number=Plur|NumType=Card	36	nummod	_	_
 36	sets	set	NOUN	NOUN	Gender=Masc|Number=Plur	25	nmod	_	_
 37	,	,	PUNCT	PUNCT	PunctType=Comm	38	punct	_	_
 38	7-6	7-6	NUM	NUM	NumForm=Digit	36	cc	_	_
@@ -37323,7 +37323,7 @@
 11	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	mínimo	mínimo	NOUN	NOUN	Gender=Masc|Number=Sing	10	dobj	_	_
 13	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
-14	ocho	ocho	DET	DET	Number=Plur|NumType=Card	15	det:nummod	_	_
+14	ocho	ocho	NUM	NUM	Number=Plur|NumType=Card	15	nummod	_	_
 15	viajes	viaje	NOUN	NOUN	Gender=Masc|Number=Plur	12	nmod	_	_
 16	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
 17	ida	ida	NOUN	NOUN	Gender=Fem|Number=Sing	15	cc	_	_
@@ -37404,8 +37404,8 @@
 3	a	a	ADP	ADP	AdpType=Prep	7	case	_	_
 4	pesar	pesar	NOUN	NOUN	_	3	mwe	_	_
 5	de	de	ADP	ADP	AdpType=Prep	3	mwe	_	_
-6	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
-7	cientos	ciento	PRON	PRON	Number=Plur|NumType=Card	23	advmod	_	_
+6	sus	su	PRON	PRON	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod	_	_
+7	cientos	ciento	NUM	NUM	Number=Plur|NumType=Card	23	advmod	_	_
 8	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 9	títulos	título	NOUN	NOUN	Gender=Masc|Number=Plur	7	punct	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
@@ -37509,7 +37509,7 @@
 36	campaña	campaña	NOUN	NOUN	Gender=Fem|Number=Sing	34	dobj	_	_
 37	que	que	SCONJ	SCONJ	_	40	mark	_	_
 38	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	40	det	_	_
-39	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	38	det:nummod	_	_
+39	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	38	nummod	_	_
 40	derrotas	derrota	NOUN	NOUN	Gender=Fem|Number=Plur	36	nmod	_	_
 41	consecutivas	consecutivo	ADJ	ADJ	Gender=Fem|Number=Plur	40	amod	_	_
 42	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	34	punct	_	_
@@ -38091,14 +38091,14 @@
 2	placa	placa	NOUN	NOUN	Gender=Fem|Number=Sing	4	iobj	_	_
 3	la	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	dobj	_	_
 4	forman	formar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	6	det:nummod	_	_
+5	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	6	nummod	_	_
 6	plafones	plafón	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 7	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id es-s995
 # orig_file_sentence 010#95
 1	Los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-2	dos	dos	DET	DET	Number=Plur|NumType=Card	1	det:nummod	_	_
+2	dos	dos	NUM	NUM	Number=Plur|NumType=Card	1	nummod	_	_
 3	inferiores	inferior	ADJ	ADJ	Number=Plur	4	nsubj	_	_
 4	resultaron	resultar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	destrozados	destrozado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	4	dobj	_	_
@@ -38511,7 +38511,7 @@
 17	habían	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
 18	empezado	empezar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
 19	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
-20	dos	dos	DET	DET	Number=Plur|NumType=Card	21	det:nummod	_	_
+20	dos	dos	NUM	NUM	Number=Plur|NumType=Card	21	nummod	_	_
 21	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
 22	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	trámites	trámite	NOUN	NOUN	Gender=Masc|Number=Plur	18	dobj	_	_
@@ -39784,7 +39784,7 @@
 5	resultados	resultado	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 7	con	con	ADP	ADP	AdpType=Prep	9	case	_	_
-8	tres	tres	DET	DET	Number=Plur|NumType=Card	9	det:nummod	_	_
+8	tres	tres	NUM	NUM	Number=Plur|NumType=Card	9	nummod	_	_
 9	derrotas	derrota	NOUN	NOUN	Gender=Fem|Number=Plur	2	nmod	_	_
 10	consecutivas	consecutivo	ADJ	ADJ	Gender=Fem|Number=Plur	9	amod	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
@@ -39938,7 +39938,7 @@
 4	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	5	case	_	_
 5	puesto	puesto	NOUN	NOUN	Gender=Masc|Number=Sing	3	dobj	_	_
 6	número	número	NOUN	NOUN	Gender=Masc|Number=Sing	5	appos	_	_
-7	dos	dos	PRON	PRON	Number=Plur|NumType=Card	6	appos	_	_
+7	dos	dos	NUM	NUM	Number=Plur|NumType=Card	6	appos	_	_
 8	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	9	case	_	_
 9	mundo	mundo	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
 10	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
@@ -40361,7 +40361,7 @@
 
 # sent_id es-s1091
 # orig_file_sentence 011#91
-1	Dos	dos	DET	DET	Number=Plur|NumType=Card	2	det:nummod	_	_
+1	Dos	dos	NUM	NUM	Number=Plur|NumType=Card	2	nummod	_	_
 2	cortos	corto	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	españoles	español	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
 4	optan	optar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -40399,7 +40399,7 @@
 23	situarse	situar	VERB	VERB	VerbForm=Inf	22	advcl	_	_
 24	entre	entre	ADP	ADP	AdpType=Prep	27	case	_	_
 25	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
-26	cinco	cinco	DET	DET	Number=Plur|NumType=Card	25	det:nummod	_	_
+26	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	25	nummod	_	_
 27	candidatos	candidato	NOUN	NOUN	Gender=Masc|Number=Plur	23	nmod	_	_
 28	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	29	case	_	_
 29	Oscar	Oscar	PROPN	PROPN	_	27	nmod	_	_
@@ -40833,7 +40833,7 @@
 52	SGAE	SGAE	PROPN	PROPN	_	45	name	_	_
 53	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	52	punct	_	_
 54	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	_
-55	dos	dos	DET	DET	Number=Plur|NumType=Card	56	det:nummod	_	_
+55	dos	dos	NUM	NUM	Number=Plur|NumType=Card	56	nummod	_	_
 56	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	42	nmod	_	_
 57	.	.	PUNCT	PUNCT	PunctType=Peri	33	punct	_	_
 
@@ -41116,7 +41116,7 @@
 9	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	10	case	_	_
 10	Compostela	Compostela	PROPN	PROPN	_	8	dobj	_	_
 11	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-12	tres	tres	DET	DET	Number=Plur|NumType=Card	11	det:nummod	_	_
+12	tres	tres	NUM	NUM	Number=Plur|NumType=Card	11	nummod	_	_
 13	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	8	dobj	_	_
 14	que	que	PRON	PRON	PronType=Rel	15	dobj	_	_
 15	perdió	perder	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl	_	_
@@ -41131,10 +41131,10 @@
 24	alineación	alineación	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
 25	indebida	indebido	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
 26	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
-27	cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	28	det:nummod	_	_
+27	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	28	nummod	_	_
 28	extranjeros	extranjero	NOUN	NOUN	Gender=Masc|Number=Plur	24	nmod	_	_
 29	durante	durante	ADP	ADP	AdpType=Prep	31	case	_	_
-30	cinco	cinco	DET	DET	Number=Plur|NumType=Card	31	det:nummod	_	_
+30	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	31	nummod	_	_
 31	minutos	minuto	NOUN	NOUN	Gender=Masc|Number=Plur	24	nmod	_	_
 32	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	33	case	_	_
 33	equipo	equipo	NOUN	NOUN	Gender=Masc|Number=Sing	24	nmod	_	_
@@ -41459,7 +41459,7 @@
 14	Moscú	Moscú	PROPN	PROPN	_	7	nmod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 16	apenas	apenas	ADV	ADV	_	18	advmod	_	_
-17	tres	tres	DET	DET	Number=Plur|NumType=Card	18	det:nummod	_	_
+17	tres	tres	NUM	NUM	Number=Plur|NumType=Card	18	nummod	_	_
 18	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	19	nmod	_	_
 19	después	después	ADV	ADV	_	7	advmod	_	_
 20	de	de	ADP	ADP	AdpType=Prep	19	advmod	_	_
@@ -42155,7 +42155,7 @@
 4	que	que	PRON	PRON	PronType=Rel	5	nsubj	_	_
 5	llevan	llevar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
 6	ya	ya	ADV	ADV	_	5	advmod	_	_
-7	ocho	ocho	DET	DET	Number=Plur|NumType=Card	8	det:nummod	_	_
+7	ocho	ocho	NUM	NUM	Number=Plur|NumType=Card	8	nummod	_	_
 8	victorias	victoria	NOUN	NOUN	Gender=Fem|Number=Plur	5	dobj	_	_
 9	consecutivas	consecutivo	ADJ	ADJ	Gender=Fem|Number=Plur	8	amod	_	_
 10	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	11	punct	_	_
@@ -42197,10 +42197,10 @@
 10	Lakers	Lakers	PROPN	PROPN	_	12	nsubj	_	_
 11	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	perdido	perder	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-13	dos	dos	PRON	PRON	Number=Plur|NumType=Card	12	dobj	_	_
+13	dos	dos	NUM	NUM	Number=Plur|NumType=Card	12	dobj	_	_
 14	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 15	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
-16	tres	tres	DET	DET	Number=Plur|NumType=Card	15	det:nummod	_	_
+16	tres	tres	NUM	NUM	Number=Plur|NumType=Card	15	nummod	_	_
 17	últimos	último	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	18	amod	_	_
 18	partidos	partido	NOUN	NOUN	Gender=Masc|Number=Plur	13	nmod	_	_
 19	y	y	CONJ	CONJ	_	12	cc	_	_
@@ -42553,7 +42553,7 @@
 8	Balaguer	Balaguer	PROPN	PROPN	_	6	name	_	_
 9	Paredes	Paredes	PROPN	PROPN	_	6	name	_	_
 10	a	a	ADP	ADP	AdpType=Prep	12	case	_	_
-11	seis	seis	DET	DET	Number=Plur|NumType=Card	12	det:nummod	_	_
+11	seis	seis	NUM	NUM	Number=Plur|NumType=Card	12	nummod	_	_
 12	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	4	dobj	_	_
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 14	cárcel	cárcel	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
@@ -44651,7 +44651,7 @@
 # orig_file_sentence 013#69
 1	Después	después	ADV	ADV	_	23	advmod	_	_
 2	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
-3	dos	dos	DET	DET	Number=Plur|NumType=Card	4	det:nummod	_	_
+3	dos	dos	NUM	NUM	Number=Plur|NumType=Card	4	nummod	_	_
 4	rondas	ronda	NOUN	NOUN	Gender=Fem|Number=Plur	1	nmod	_	_
 5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 6	negociaciones	negociación	NOUN	NOUN	Gender=Fem|Number=Plur	4	nmod	_	_
@@ -44669,7 +44669,7 @@
 18	de	de	ADP	ADP	AdpType=Prep	19	case	_	_
 19	Washington	Washington	PROPN	PROPN	_	17	nmod	_	_
 20	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
-21	ambas	ambos	DET	DET	Gender=Fem|Number=Plur|NumType=Card	22	det:nummod	_	_
+21	ambas	ambos	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	22	nummod	_	_
 22	partes	parte	NOUN	NOUN	Gender=Fem|Number=Plur	23	nsubj	_	_
 23	decidieron	decidir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 24	intensificar	intensificar	VERB	VERB	VerbForm=Inf	23	xcomp	_	_
@@ -44896,7 +44896,7 @@
 7	que	que	SCONJ	SCONJ	_	9	mark	_	_
 8	Barak	Barak	PROPN	PROPN	_	9	nsubj	_	_
 9	traspase	traspasar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
-10	tres	tres	DET	DET	Number=Plur|NumType=Card	11	det:nummod	_	_
+10	tres	tres	NUM	NUM	Number=Plur|NumType=Card	11	nummod	_	_
 11	barrios	barrio	NOUN	NOUN	Gender=Masc|Number=Plur	9	dobj	_	_
 12	árabes	árabe	ADJ	ADJ	Number=Plur	11	amod	_	_
 13	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
@@ -44920,7 +44920,7 @@
 7	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 8	a	a	ADP	ADP	AdpType=Prep	10	case	_	_
 9	unos	uno	PRON	PRON	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	10	nmod	_	_
-10	cientos	ciento	DET	DET	Number=Plur|NumType=Card	1	det:nummod	_	_
+10	cientos	ciento	NUM	NUM	Number=Plur|NumType=Card	1	nummod	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 12	metros	metro	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
 13	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
@@ -45505,7 +45505,7 @@
 31	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
 32	Pinochet	Pinochet	PROPN	PROPN	_	30	nmod	_	_
 33	en	en	ADP	ADP	AdpType=Prep	35	case	_	_
-34	dos	dos	DET	DET	Number=Plur|NumType=Card	35	det:nummod	_	_
+34	dos	dos	NUM	NUM	Number=Plur|NumType=Card	35	nummod	_	_
 35	conversaciones	conversación	NOUN	NOUN	Gender=Fem|Number=Plur	28	nmod	_	_
 36	con	con	ADP	ADP	AdpType=Prep	38	case	_	_
 37	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
@@ -46106,7 +46106,7 @@
 41	territorial	territorial	ADJ	ADJ	Number=Sing	40	amod	_	_
 42	única	único	ADJ	ADJ	Gender=Fem|Number=Sing	40	amod	_	_
 43	,	,	PUNCT	PUNCT	PunctType=Comm	45	punct	_	_
-44	dos	dos	DET	DET	Number=Plur|NumType=Card	45	det:nummod	_	_
+44	dos	dos	NUM	NUM	Number=Plur|NumType=Card	45	nummod	_	_
 45	medidas	medida	NOUN	NOUN	Gender=Fem|Number=Plur	30	appos	_	_
 46	que	que	PRON	PRON	PronType=Rel	47	nsubj	_	_
 47	exigirán	exigir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	45	acl	_	_
@@ -46667,7 +46667,7 @@
 # orig_file_sentence 014#32
 1	Blackefer	Blackefer	PROPN	PROPN	_	2	nsubj	_	_
 2	lleva	llevar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	tres	tres	DET	DET	Number=Plur|NumType=Card	4	det:nummod	_	_
+3	tres	tres	NUM	NUM	Number=Plur|NumType=Card	4	nummod	_	_
 4	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	2	dobj	_	_
 5	en	en	ADP	ADP	AdpType=Prep	7	case	_	_
 6	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -47196,7 +47196,7 @@
 11	primera	primero	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
 12	vez	vez	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod	_	_
 13	en	en	ADP	ADP	AdpType=Prep	15	case	_	_
-14	ocho	ocho	DET	DET	Number=Plur|NumType=Card	15	det:nummod	_	_
+14	ocho	ocho	NUM	NUM	Number=Plur|NumType=Card	15	nummod	_	_
 15	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	12	nmod	_	_
 16	acaba	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 17	de	de	ADP	ADP	AdpType=Prep	18	mark	_	_
@@ -47612,7 +47612,7 @@
 34	-	-	PUNCT	PUNCT	PunctType=Dash	29	punct	_	_
 35	para	para	ADP	ADP	AdpType=Prep	22	advmod	_	_
 36	tener	tener	VERB	VERB	VerbForm=Inf	35	cc	_	_
-37	dos	dos	DET	DET	Number=Plur|NumType=Card	38	det:nummod	_	_
+37	dos	dos	NUM	NUM	Number=Plur|NumType=Card	38	nummod	_	_
 38	piernas	pierna	NOUN	NOUN	Gender=Fem|Number=Plur	36	dobj	_	_
 39	como	como	SCONJ	SCONJ	_	36	advmod	_	_
 40	Dios	dios	NOUN	NOUN	_	39	mwe	_	_
@@ -48269,7 +48269,7 @@
 9	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	10	case	_	_
 10	Kremlin	Kremlin	PROPN	PROPN	_	8	nmod	_	_
 11	en	en	ADP	ADP	AdpType=Prep	13	case	_	_
-12	dos	dos	DET	DET	Number=Plur|NumType=Card	13	det:nummod	_	_
+12	dos	dos	NUM	NUM	Number=Plur|NumType=Card	13	nummod	_	_
 13	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
 14	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
@@ -48314,7 +48314,7 @@
 21	segunda	segundo	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	22	amod	_	_
 22	vuelta	vuelta	NOUN	NOUN	Gender=Fem|Number=Sing	14	conj	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
-24	tres	tres	DET	DET	Number=Plur|NumType=Card	25	det:nummod	_	_
+24	tres	tres	NUM	NUM	Number=Plur|NumType=Card	25	nummod	_	_
 25	semanas	semana	NOUN	NOUN	Gender=Fem|Number=Plur	27	nmod	_	_
 26	más	más	ADV	ADV	_	27	nmod	_	_
 27	tarde	tarde	ADV	ADV	_	22	advmod	_	_
@@ -48528,7 +48528,7 @@
 7	entre	entre	ADP	ADP	AdpType=Prep	8	cc	_	_
 8	uno	uno	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	5	cc	_	_
 9	y	y	CONJ	CONJ	_	8	cc	_	_
-10	tres	tres	DET	DET	Number=Plur|NumType=Card	11	det:nummod	_	_
+10	tres	tres	NUM	NUM	Number=Plur|NumType=Card	11	nummod	_	_
 11	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	8	conj	_	_
 12	"	"	PUNCT	PUNCT	PunctType=Quot	8	punct	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
@@ -49259,7 +49259,7 @@
 17	participación	participación	NOUN	NOUN	Gender=Fem|Number=Sing	15	dobj	_	_
 18	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 19	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
-20	seis	seis	DET	DET	Number=Plur|NumType=Card	19	det:nummod	_	_
+20	seis	seis	NUM	NUM	Number=Plur|NumType=Card	19	nummod	_	_
 21	territorios	territorio	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod	_	_
 22	vascos	vasco	ADJ	ADJ	Gender=Masc|Number=Plur	21	amod	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
@@ -49278,7 +49278,7 @@
 36	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	importancia	importancia	NOUN	NOUN	Gender=Fem|Number=Sing	34	dobj	_	_
 38	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
-39	dos	dos	DET	DET	Number=Plur|NumType=Card	40	det:nummod	_	_
+39	dos	dos	NUM	NUM	Number=Plur|NumType=Card	40	nummod	_	_
 40	fechas	fecha	NOUN	NOUN	Gender=Fem|Number=Plur	37	nmod	_	_
 41	futuras	futuro	ADJ	ADJ	Gender=Fem|Number=Plur	40	amod	_	_
 42	:	:	PUNCT	PUNCT	PunctType=Colo	44	punct	_	_
@@ -49442,7 +49442,7 @@
 9	en	en	ADP	ADP	AdpType=Prep	13	case	_	_
 10	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 11	últimas	último	ADJ	ADJ	Gender=Fem|Number=Plur|NumType=Ord	10	amod	_	_
-12	tres	tres	DET	DET	Number=Plur|NumType=Card	10	det:nummod	_	_
+12	tres	tres	NUM	NUM	Number=Plur|NumType=Card	10	nummod	_	_
 13	semanas	semana	NOUN	NOUN	Gender=Fem|Number=Plur	7	nmod	_	_
 14	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	desatado	desatar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -50070,7 +50070,7 @@
 28	turismo	turismo	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod	_	_
 29	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
 30	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
-31	tres	tres	DET	DET	Number=Plur|NumType=Card	30	det:nummod	_	_
+31	tres	tres	NUM	NUM	Number=Plur|NumType=Card	30	nummod	_	_
 32	localidades	localidad	NOUN	NOUN	Gender=Fem|Number=Plur	28	nmod	_	_
 33	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
@@ -50224,7 +50224,7 @@
 29	uno	uno	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	25	nmod	_	_
 30	de	de	ADP	ADP	AdpType=Prep	33	case	_	_
 31	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
-32	tres	tres	DET	DET	Number=Plur|NumType=Card	31	det:nummod	_	_
+32	tres	tres	NUM	NUM	Number=Plur|NumType=Card	31	nummod	_	_
 33	juzgados	juzgado	NOUN	NOUN	Gender=Masc|Number=Plur	29	nmod	_	_
 34	marbellís	marbellí	ADJ	ADJ	Number=Plur	33	amod	_	_
 35	en	en	ADP	ADP	AdpType=Prep	36	case	_	_
@@ -50954,7 +50954,7 @@
 9	obra	obra	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
 10	acabada	acabado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	9	amod	_	_
 11	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-12	dos	dos	DET	DET	Number=Plur|NumType=Card	13	det:nummod	_	_
+12	dos	dos	NUM	NUM	Number=Plur|NumType=Card	13	nummod	_	_
 13	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 15	se	se	PRON	PRON	_	16	dobj	_	_
@@ -51167,7 +51167,7 @@
 13	16	16	NUM	NUM	NumForm=Digit	14	nummod	_	_
 14	vidas	vida	NOUN	NOUN	Gender=Fem|Number=Plur	12	dobj	_	_
 15	en	en	ADP	ADP	AdpType=Prep	17	case	_	_
-16	ocho	ocho	DET	DET	Number=Plur|NumType=Card	17	det:nummod	_	_
+16	ocho	ocho	NUM	NUM	Number=Plur|NumType=Card	17	nummod	_	_
 17	accidentes	accidente	NOUN	NOUN	Gender=Masc|Number=Plur	12	nmod	_	_
 18	mortales	mortal	ADJ	ADJ	Number=Plur	17	amod	_	_
 19	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
@@ -51241,7 +51241,7 @@
 # sent_id es-s1505
 # orig_file_sentence 016#5
 1	Los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-2	cinco	cinco	DET	DET	Number=Plur|NumType=Card	1	det:nummod	_	_
+2	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	1	nummod	_	_
 3	jóvenes	joven	NOUN	NOUN	Number=Plur	16	nsubj	_	_
 4	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 5	entre	entre	ADP	ADP	AdpType=Prep	9	case	_	_
@@ -51312,7 +51312,7 @@
 
 # sent_id es-s1508
 # orig_file_sentence 016#8
-1	Cientos	ciento	PRON	PRON	Number=Plur|NumType=Card	5	nsubj	_	_
+1	Cientos	ciento	NUM	NUM	Number=Plur|NumType=Card	5	nsubj	_	_
 2	de	de	ADP	ADP	AdpType=Prep	3	case	_	_
 3	personas	persona	NOUN	NOUN	Gender=Fem|Number=Plur	1	nmod	_	_
 4	se	él	PRON	PRON	Person=3	5	dobj	_	_
@@ -51668,11 +51668,11 @@
 
 # sent_id es-s1526
 # orig_file_sentence 016#26
-1	Cuatro	cuatro	DET	DET	Number=Plur|NumType=Card	3	det:nummod	_	_
+1	Cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	3	nummod	_	_
 2	grandes	grande	ADJ	ADJ	Number=Plur	3	amod	_	_
 3	grúas	grúa	NOUN	NOUN	Gender=Fem|Number=Plur	16	cc	_	_
 4	y	y	CONJ	CONJ	_	3	cc	_	_
-5	dos	dos	DET	DET	Number=Plur|NumType=Card	6	det:nummod	_	_
+5	dos	dos	NUM	NUM	Number=Plur|NumType=Card	6	nummod	_	_
 6	trenes	tren	NOUN	NOUN	Gender=Masc|Number=Plur	3	conj	_	_
 7	taller	taller	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
@@ -51709,16 +51709,16 @@
 2	se	se	PRON	PRON	_	4	dobj	_	_
 3	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	retirado	retirar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	cuatro	cuatro	PRON	PRON	Number=Plur|NumType=Card	4	nsubj	_	_
+5	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	4	nsubj	_	_
 6	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 7	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-8	seis	seis	DET	DET	Number=Plur|NumType=Card	7	det:nummod	_	_
+8	seis	seis	NUM	NUM	Number=Plur|NumType=Card	7	nummod	_	_
 9	vagones	vagón	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
 10	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	11	case	_	_
 11	Catalunya	Catalunya	PROPN	PROPN	_	9	nmod	_	_
 12	Express	Express	PROPN	PROPN	_	11	name	_	_
 13	y	y	CONJ	CONJ	_	4	cc	_	_
-14	tres	tres	PRON	PRON	Number=Plur|NumType=Card	4	conj	_	_
+14	tres	tres	NUM	NUM	Number=Plur|NumType=Card	4	conj	_	_
 15	y	y	CONJ	CONJ	_	14	cc	_	_
 16	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	cabeza	cabeza	NOUN	NOUN	Gender=Fem|Number=Sing	14	conj	_	_
@@ -51795,7 +51795,7 @@
 4	entre	entre	ADP	ADP	AdpType=Prep	5	case	_	_
 5	una	uno	PRON	PRON	Gender=Fem|Number=Sing|PronType=Ind	3	cc	_	_
 6	y	y	CONJ	CONJ	_	5	cc	_	_
-7	dos	dos	DET	DET	Number=Plur|NumType=Card	8	det:nummod	_	_
+7	dos	dos	NUM	NUM	Number=Plur|NumType=Card	8	nummod	_	_
 8	horas	hora	NOUN	NOUN	Gender=Fem|Number=Plur	5	conj	_	_
 9	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
@@ -51836,7 +51836,7 @@
 
 # sent_id es-s1533
 # orig_file_sentence 016#33
-1	Tres	tres	DET	DET	Number=Plur|NumType=Card	2	det:nummod	_	_
+1	Tres	tres	NUM	NUM	Number=Plur|NumType=Card	2	nummod	_	_
 2	heridos	herido	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	fueron	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 4	ayer	ayer	ADV	ADV	_	5	advmod	_	_
@@ -51874,7 +51874,7 @@
 
 # sent_id es-s1534
 # orig_file_sentence 016#34
-1	Tres	tres	PRON	PRON	Number=Plur|NumType=Card	3	nsubj	_	_
+1	Tres	tres	NUM	NUM	Number=Plur|NumType=Card	3	nsubj	_	_
 2	se	él	PRON	PRON	Person=3	3	dobj	_	_
 3	hallan	hallar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	muy	mucho	ADV	ADV	_	5	nmod	_	_
@@ -51985,11 +51985,11 @@
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	CGPJ	CGPJ	PROPN	PROPN	_	3	nsubj	_	_
 3	abrió	abrir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	tres	tres	DET	DET	Number=Plur|NumType=Card	5	det:nummod	_	_
+4	tres	tres	NUM	NUM	Number=Plur|NumType=Card	5	nummod	_	_
 5	expedientes	expediente	NOUN	NOUN	Gender=Masc|Number=Plur	3	dobj	_	_
 6	disciplinarios	disciplinario	ADJ	ADJ	Gender=Masc|Number=Plur	5	amod	_	_
 7	contra	contra	ADP	ADP	AdpType=Prep	9	case	_	_
-8	dos	dos	DET	DET	Number=Plur|NumType=Card	9	det:nummod	_	_
+8	dos	dos	NUM	NUM	Number=Plur|NumType=Card	9	nummod	_	_
 9	magistrados	magistrado	NOUN	NOUN	Gender=Masc|Number=Plur	5	cc	_	_
 10	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 11	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -52572,7 +52572,7 @@
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	que	que	PRON	PRON	PronType=Rel	7	nmod	_	_
 7	tiene	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
-8	dos	dos	DET	DET	Number=Plur|NumType=Card	9	det:nummod	_	_
+8	dos	dos	NUM	NUM	Number=Plur|NumType=Card	9	nummod	_	_
 9	hijos	hijo	NOUN	NOUN	Gender=Masc|Number=Plur	7	dobj	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 11	fue	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
@@ -52799,7 +52799,7 @@
 8	en	en	ADP	ADP	AdpType=Prep	12	case	_	_
 9	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
 10	primeros	primero	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	9	amod	_	_
-11	seis	seis	DET	DET	Number=Plur|NumType=Card	9	det:nummod	_	_
+11	seis	seis	NUM	NUM	Number=Plur|NumType=Card	9	nummod	_	_
 12	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 14	vida	vida	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
@@ -53034,14 +53034,14 @@
 11	y	y	CONJ	CONJ	_	2	cc	_	_
 12	abrirán	abrir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
 13	desde	desde	ADP	ADP	AdpType=Prep	15	case	_	_
-14	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-15	diez	diez	PRON	PRON	Number=Plur|NumType=Card	12	advmod	_	_
+14	las	el	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	nmod	_	_
+15	diez	diez	NUM	NUM	Number=Plur|NumType=Card	12	advmod	_	_
 16	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 17	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	mañana	mañana	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
 19	a	a	ADP	ADP	AdpType=Prep	21	case	_	_
 20	las	el	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	nmod	_	_
-21	diez	diez	DET	DET	Number=Plur|NumType=Card	15	det:nummod	_	_
+21	diez	diez	NUM	NUM	Number=Plur|NumType=Card	15	compound	_	_
 22	de	de	ADP	ADP	AdpType=Prep	24	case	_	_
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	noche	noche	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
@@ -53338,8 +53338,8 @@
 4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	búsqueda	búsqueda	NOUN	NOUN	Gender=Fem|Number=Sing	3	dobj	_	_
 6	a	a	ADP	ADP	AdpType=Prep	8	case	_	_
-7	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
-8	diez	diez	PRON	PRON	Number=Plur|NumType=Card	3	advmod	_	_
+7	las	el	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	nmod	_	_
+8	diez	diez	NUM	NUM	Number=Plur|NumType=Card	3	advmod	_	_
 9	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 10	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	noche	noche	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
@@ -53387,7 +53387,7 @@
 12	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 13	compuesto	compuesto	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	11	amod	_	_
 14	por	por	ADP	ADP	AdpType=Prep	16	case	_	_
-15	seis	seis	DET	DET	Number=Plur|NumType=Card	16	det:nummod	_	_
+15	seis	seis	NUM	NUM	Number=Plur|NumType=Card	16	nummod	_	_
 16	montañeros	montañero	NOUN	NOUN	Gender=Masc|Number=Plur	13	cc	_	_
 17	y	y	CONJ	CONJ	_	16	cc	_	_
 18	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -54680,10 +54680,10 @@
 18	brigadas	brigada	NOUN	NOUN	Gender=Fem|Number=Plur	15	nmod	_	_
 19	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
 20	limpieza	limpieza	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod	_	_
-21	tres	tres	DET	DET	Number=Plur|NumType=Card	22	det:nummod	_	_
+21	tres	tres	NUM	NUM	Number=Plur|NumType=Card	22	nummod	_	_
 22	horas	hora	NOUN	NOUN	Gender=Fem|Number=Plur	25	cc	_	_
 23	y	y	CONJ	CONJ	_	22	cc	_	_
-24	media	medio	PRON	PRON	Gender=Fem|Number=Sing|NumType=Card	22	conj	_	_
+24	media	medio	NUM	NUM	Gender=Fem|Number=Sing|NumType=Card	22	conj	_	_
 25	Después	después	ADV	ADV	_	13	advmod	_	_
 26	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
 27	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -54895,7 +54895,7 @@
 8	insuficiente	insuficiente	ADJ	ADJ	Number=Sing	0	root	_	_
 9	:	:	PUNCT	PUNCT	PunctType=Colo	13	punct	_	_
 10	sólo	sólo	ADV	ADV	_	12	advmod	_	_
-11	seis	seis	DET	DET	Number=Plur|NumType=Card	12	det:nummod	_	_
+11	seis	seis	NUM	NUM	Number=Plur|NumType=Card	12	nummod	_	_
 12	operarios	operario	NOUN	NOUN	Gender=Masc|Number=Plur	13	nsubj	_	_
 13	llegaron	llegar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	_
 14	entre	entre	ADP	ADP	AdpType=Prep	16	case	_	_
@@ -54908,7 +54908,7 @@
 21	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	madrugada	madrugada	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
 23	con	con	ADP	ADP	AdpType=Prep	25	case	_	_
-24	dos	dos	DET	DET	Number=Plur|NumType=Card	25	det:nummod	_	_
+24	dos	dos	NUM	NUM	Number=Plur|NumType=Card	25	nummod	_	_
 25	máquinas	máquina	NOUN	NOUN	Gender=Fem|Number=Plur	13	nmod	_	_
 26	barredoras	barredor	ADJ	ADJ	Gender=Fem|Number=Plur	25	amod	_	_
 27	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
@@ -54952,8 +54952,8 @@
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	plaza	plaza	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
 14	a	a	ADP	ADP	AdpType=Prep	16	case	_	_
-15	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
-16	dos	dos	PRON	PRON	Number=Plur|NumType=Card	10	advmod	_	_
+15	las	el	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	nmod	_	_
+16	dos	dos	NUM	NUM	Number=Plur|NumType=Card	10	advmod	_	_
 17	mostraron	mostrar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 18	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	desaprobación	desaprobación	NOUN	NOUN	Gender=Fem|Number=Sing	17	dobj	_	_
@@ -54982,17 +54982,17 @@
 19	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 20	provistos	provisto	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	9	dobj	_	_
 21	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
-22	dos	dos	DET	DET	Number=Plur|NumType=Card	23	det:nummod	_	_
+22	dos	dos	NUM	NUM	Number=Plur|NumType=Card	23	nummod	_	_
 23	camiones	camión	NOUN	NOUN	Gender=Masc|Number=Plur	20	cc	_	_
 24	de	de	ADP	ADP	AdpType=Prep	25	case	_	_
 25	recogida	recogida	NOUN	NOUN	Gender=Fem|Number=Sing	23	nmod	_	_
 26	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
-27	dos	dos	DET	DET	Number=Plur|NumType=Card	28	det:nummod	_	_
+27	dos	dos	NUM	NUM	Number=Plur|NumType=Card	28	nummod	_	_
 28	cisternas	cisterna	NOUN	NOUN	Gender=Fem|Number=Plur	23	appos	_	_
 29	de	de	ADP	ADP	AdpType=Prep	30	case	_	_
 30	limpieza	limpieza	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod	_	_
 31	y	y	CONJ	CONJ	_	23	cc	_	_
-32	dos	dos	DET	DET	Number=Plur|NumType=Card	33	det:nummod	_	_
+32	dos	dos	NUM	NUM	Number=Plur|NumType=Card	33	nummod	_	_
 33	barredoras	barredora	NOUN	NOUN	Gender=Fem|Number=Plur	23	conj	_	_
 34	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
@@ -55670,8 +55670,8 @@
 # sent_id es-s1670
 # orig_file_sentence 017#70
 1	Aunque	aunque	SCONJ	SCONJ	_	4	mark	_	_
-2	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	tres	tres	PRON	PRON	Number=Plur|NumType=Card	4	nsubj	_	_
+2	los	el	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	nmod	_	_
+3	tres	tres	NUM	NUM	Number=Plur|NumType=Card	4	nsubj	_	_
 4	admiten	admitir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
 5	que	que	SCONJ	SCONJ	_	9	mark	_	_
 6	quizá	quizá	ADV	ADV	_	9	advmod	_	_
@@ -55848,7 +55848,7 @@
 4	éste	este	PRON	PRON	Gender=Masc|Number=Sing|PronType=Dem	3	cc	_	_
 5	y	y	CONJ	CONJ	_	4	cc	_	_
 6	otros	otro	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
-7	tres	tres	DET	DET	Number=Plur|NumType=Card	6	det:nummod	_	_
+7	tres	tres	NUM	NUM	Number=Plur|NumType=Card	6	nummod	_	_
 8	decretos	decreto	NOUN	NOUN	Gender=Masc|Number=Plur	4	conj	_	_
 9	presentados	presentado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	8	amod	_	_
 10	por	por	ADP	ADP	AdpType=Prep	12	case	_	_
@@ -56054,7 +56054,7 @@
 23	en	en	ADP	ADP	AdpType=Prep	27	case	_	_
 24	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 25	último	último	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	24	amod	_	_
-26	medio	medio	DET	DET	Gender=Masc|Number=Sing|NumType=Card	24	det:nummod	_	_
+26	medio	medio	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	24	nummod	_	_
 27	siglo	siglo	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
 28	en	en	ADP	ADP	AdpType=Prep	30	case	_	_
 29	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -56611,7 +56611,7 @@
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	hora	hora	NOUN	NOUN	Gender=Fem|Number=Sing	18	cc	_	_
 4	y	y	CONJ	CONJ	_	3	cc	_	_
-5	media	medio	PRON	PRON	Gender=Fem|Number=Sing|NumType=Card	3	conj	_	_
+5	media	medio	NUM	NUM	Gender=Fem|Number=Sing|NumType=Card	3	conj	_	_
 6	que	que	PRON	PRON	PronType=Rel	7	dobj	_	_
 7	duró	durar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	_
 8	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_

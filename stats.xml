@@ -17,12 +17,12 @@
     <tag name="ADV">17804</tag><!-- no, más, también, ya, hoy, mucho, ayer, después, sólo, ahora -->
     <tag name="AUX">15729</tag><!-- ser, haber, poder, deber, hacer, estar, ir, seguir, volver, dejar -->
     <tag name="CONJ">14947</tag><!-- y, pero, o, e, ni, sino, i, mientras, u, bien -->
-    <tag name="DET">74117</tag><!-- el, uno, su, este, todo, dos, otro, ese, la, tres -->
+    <tag name="DET">71595</tag><!-- el, uno, su, este, todo, otro, ese, la, alguno, mismo -->
     <tag name="INTJ">106</tag><!-- je, bueno, ay, ojalá, adiós, ah, claro, ja, ojo, qué -->
     <tag name="NOUN">100581</tag><!-- año, presidente, país, partido, millón, día, equipo, vez, parte, mes -->
-    <tag name="NUM">5294</tag><!-- 20, 30, 10, 12, 15, 2, 2000, 16, 24, 25 -->
+    <tag name="NUM">8160</tag><!-- dos, tres, cinco, cuatro, ambos, seis, 20, 30, siete, medio -->
     <tag name="PART">155</tag><!-- no -->
-    <tag name="PRON">26131</tag><!-- que, él, el, se, uno, yo, donde, quien, este, otro -->
+    <tag name="PRON">25787</tag><!-- que, él, el, se, uno, yo, donde, quien, este, otro -->
     <tag name="PROPN">42674</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
     <tag name="PUNCT">65504</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12460</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
@@ -52,7 +52,7 @@
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">262</feat><!-- nuestra, nuestro, nuestros, nuestras, la_nuestra, los_nuestros, las_nuestras, vuestra, vuestras -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">247</feat><!-- mi, mis, tu, tus, mío, el_mío, la_mía, la_tuya, mía, tuyo -->
     <feat name="NumForm" value="Digit" upos="NOUN,NUM,SYM">6319</feat><!-- pesetas, dólares, 20, 30, 10, 12, 15, euros, 2, 16 -->
-    <feat name="NumType" value="Card" upos="DET,NUM,PRON">4260</feat><!-- dos, tres, cinco, cuatro, seis, ambos, siete, diez, ocho, 2000 -->
+    <feat name="NumType" value="Card" upos="DET,NUM">4260</feat><!-- dos, tres, cinco, cuatro, seis, ambos, siete, diez, ocho, 2000 -->
     <feat name="NumType" value="Frac" upos="NUM,SYM">334</feat><!-- %, 50%, 10%, 30%, 60%, 20%, cien_por_cien, 80%, 25%, 5% -->
     <feat name="NumType" value="Ord" upos="ADJ">1956</feat><!-- primer, primera, últimos, segunda, segundo, último, última, primeros, últimas, tercera -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">3739</feat><!-- me, nos, mi, yo, he, hemos, nosotros, creo, nuestra, nuestro -->
@@ -88,7 +88,7 @@
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,NOUN,VERB">11751</feat><!-- pasado, sido, hecho, tenido, pasada, dado, previsto, visto, conseguido, perdido -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="30">
+  <deps unique="29">
     <dep name="acl">7565</dep>
     <dep name="advcl">11562</dep>
     <dep name="advmod">17391</dep>
@@ -99,22 +99,21 @@
     <dep name="case">75204</dep>
     <dep name="cc">25760</dep>
     <dep name="ccomp">3888</dep>
-    <dep name="compound">1379</dep>
+    <dep name="compound">1391</dep>
     <dep name="conj">15779</dep>
     <dep name="cop">6052</dep>
     <dep name="csubj">1075</dep>
     <dep name="dep">290</dep>
-    <dep name="det">71914</dep>
-    <dep name="det:nummod">2425</dep>
+    <dep name="det">71826</dep>
     <dep name="dobj">36001</dep>
     <dep name="iobj">1074</dep>
     <dep name="mark">12474</dep>
     <dep name="mwe">7925</dep>
     <dep name="name">15075</dep>
     <dep name="neg">3519</dep>
-    <dep name="nmod">67382</dep>
+    <dep name="nmod">67470</dep>
     <dep name="nsubj">28587</dep>
-    <dep name="nummod">2948</dep>
+    <dep name="nummod">5361</dep>
     <dep name="parataxis">671</dep>
     <dep name="punct">65640</dep>
     <dep name="root">17683</dep>
