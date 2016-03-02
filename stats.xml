@@ -109,11 +109,11 @@
     <dep name="iobj">1074</dep>
     <dep name="mark">12474</dep>
     <dep name="mwe">7924</dep>
-    <dep name="name">15068</dep>
+    <dep name="name">14942</dep>
     <dep name="neg">3519</dep>
     <dep name="nmod">64225</dep>
     <dep name="nsubj">28587</dep>
-    <dep name="nummod">5361</dep>
+    <dep name="nummod">5487</dep>
     <dep name="parataxis">671</dep>
     <dep name="punct">65640</dep>
     <dep name="root">17683</dep>

@@ -13789,7 +13789,7 @@
 17	Organizador	Organizador	PROPN	PROPN	_	16	name	_	_
 18	de	de	ADP	ADP	AdpType=Prep	19	case	_	_
 19	Edmonton	Edmonton	PROPN	PROPN	_	16	name	_	_
-20	2001	2001	NUM	NUM	NumForm=Digit|NumType=Card	16	name	_	_
+20	2001	2001	NUM	NUM	NumForm=Digit|NumType=Card	16	nummod	_	_
 21	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 22	quien	quien	PRON	PRON	Number=Sing|PronType=Rel	23	nsubj	_	_
 23	argumentó	argumentar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	_
@@ -16491,7 +16491,7 @@
 2	declaraciones	declaración	NOUN	NOUN	Gender=Fem|Number=Plur	11	nmod	_	_
 3	a	a	ADP	ADP	AdpType=Prep	4	case	_	_
 4	Onda	Onda	PROPN	PROPN	_	2	nmod	_	_
-5	Cero	Cero	NUM	NUM	NumType=Card	4	name	_	_
+5	Cero	Cero	NUM	NUM	NumType=Card	4	nummod	_	_
 6	recogidas	recogido	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	2	amod	_	_
 7	por	por	ADP	ADP	AdpType=Prep	8	case	_	_
 8	Efe	Efe	PROPN	PROPN	_	6	dobj	_	_
@@ -20637,7 +20637,7 @@
 10	"	"	PUNCT	PUNCT	PunctType=Quot	11	punct	_	_
 11	Nacional	nacional	PROPN	PROPN	_	9	dobj	_	_
 12	sacó	sacó	PROPN	PROPN	_	11	name	_	_
-13	0,4	0,4	NUM	NUM	NumForm=Digit|NumType=Card	11	name	_	_
+13	0,4	0,4	NUM	NUM	NumForm=Digit|NumType=Card	11	nummod	_	_
 14	en	en	ADP	ADP	AdpType=Prep	16	case	_	_
 15	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Universidad	universidad	PROPN	PROPN	_	11	name	_	_
@@ -21761,7 +21761,7 @@
 10	alemana	alemán	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
 11	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	12	case	_	_
 12	Mundial	Mundial	PROPN	PROPN	_	9	nmod	_	_
-13	2006	2006	NUM	NUM	NumForm=Digit|NumType=Card	12	name	_	_
+13	2006	2006	NUM	NUM	NumForm=Digit|NumType=Card	12	nummod	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 15	considera	considerar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	que	que	SCONJ	SCONJ	_	27	mark	_	_
@@ -21773,7 +21773,7 @@
 22	de	de	ADP	ADP	AdpType=Prep	24	case	_	_
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Eurocopa	Eurocopa	PROPN	PROPN	_	18	nmod	_	_
-25	2000	2000	NUM	NUM	NumForm=Digit|NumType=Card	24	name	_	_
+25	2000	2000	NUM	NUM	NumForm=Digit|NumType=Card	24	nummod	_	_
 26	no	no	ADV	ADV	Negative=Neg	27	neg	_	_
 27	perjudica	perjudicar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
 28	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
@@ -34567,7 +34567,7 @@
 30	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
 31	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	Eurocopa	Eurocopa	PROPN	PROPN	_	28	nmod	_	_
-33	2000	2000	NUM	NUM	NumForm=Digit|NumType=Card	32	name	_	_
+33	2000	2000	NUM	NUM	NumForm=Digit|NumType=Card	32	nummod	_	_
 34	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id es-s889
@@ -37392,7 +37392,7 @@
 21	temen	temer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_
 22	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	23	case	_	_
 23	Camp	Camp	PROPN	PROPN	_	21	dobj	_	_
-24	Nou	Nou	NUM	NUM	NumType=Card	23	name	_	_
+24	Nou	Nou	NUM	NUM	NumType=Card	23	nummod	_	_
 25	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 26	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
 27	porque	porque	SCONJ	SCONJ	_	31	mark	_	_
@@ -37438,7 +37438,7 @@
 1	Temer	temer	VERB	VERB	VerbForm=Inf	6	csubj	_	_
 2	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	3	case	_	_
 3	Camp	Camp	PROPN	PROPN	_	1	dobj	_	_
-4	Nou	Nou	NUM	NUM	NumType=Card	3	name	_	_
+4	Nou	Nou	NUM	NUM	NumType=Card	3	nummod	_	_
 5	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	temer	temer	VERB	VERB	VerbForm=Inf	0	root	_	_
 7	algo	algo	PRON	PRON	Number=Sing|PronType=Ind	6	dobj	_	_
@@ -37574,7 +37574,7 @@
 5	actitud	actitud	NOUN	NOUN	Gender=Fem|Number=Sing	3	dobj	_	_
 6	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	7	case	_	_
 7	Camp	Camp	PROPN	PROPN	_	5	nmod	_	_
-8	Nou	Nou	NUM	NUM	NumType=Card	7	name	_	_
+8	Nou	Nou	NUM	NUM	NumType=Card	7	nummod	_	_
 9	para	para	ADP	ADP	AdpType=Prep	5	nmod	_	_
 10	sugerir	sugerir	VERB	VERB	VerbForm=Inf	9	advcl	_	_
 11	en	en	ADP	ADP	AdpType=Prep	12	case	_	_
@@ -42065,7 +42065,7 @@
 27	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 28	para	para	ADP	ADP	AdpType=Prep	29	case	_	_
 29	Playstation	Playstation	PROPN	PROPN	_	6	conj	_	_
-30	2	2	NUM	NUM	NumForm=Digit|NumType=Card	29	name	_	_
+30	2	2	NUM	NUM	NumForm=Digit|NumType=Card	29	nummod	_	_
 31	y	y	CONJ	CONJ	_	6	cc	_	_
 32	para	para	ADP	ADP	AdpType=Prep	33	case	_	_
 33	PC	PC	PROPN	PROPN	_	6	conj	_	_
@@ -42244,7 +42244,7 @@
 10	Infinito	Infinito	PROPN	PROPN	_	8	appos	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 12	nos	nos	PROPN	PROPN	_	10	name	_	_
-13	dois	dois	NUM	NUM	Gender=Masc|NumType=Card	10	name	_	_
+13	dois	dois	NUM	NUM	Gender=Masc|NumType=Card	12	nummod	_	_
 14	'	'	SYM	SYM	_	10	nmod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
 16	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -42331,7 +42331,7 @@
 4	Rambla	Rambla	PROPN	PROPN	_	1	name	_	_
 5	Just	Just	PROPN	PROPN	_	1	name	_	_
 6	Oliveras	Oliveras	PROPN	PROPN	_	1	name	_	_
-7	56	56	NUM	NUM	NumForm=Digit|NumType=Card	1	name	_	_
+7	56	56	NUM	NUM	NumForm=Digit|NumType=Card	1	nummod	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 9	22.00	22.00	NOUN	NOUN	AdvType=Tim	10	nmod	_	_
 10	horas	hora	NOUN	NOUN	Gender=Fem|Number=Plur	1	appos	_	_
@@ -42390,7 +42390,7 @@
 2	Boîte	Boîte	PROPN	PROPN	_	0	root	_	_
 3	Avenida	Avenida	PROPN	PROPN	_	2	name	_	_
 4	Diagonal	Diagonal	PROPN	PROPN	_	2	name	_	_
-5	477	477	NUM	NUM	NumForm=Digit|NumType=Card	2	name	_	_
+5	477	477	NUM	NUM	NumForm=Digit|NumType=Card	2	nummod	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 7	hoy	hoy	ADV	ADV	_	2	cc	_	_
 8	y	y	CONJ	CONJ	_	7	cc	_	_
@@ -53846,7 +53846,7 @@
 25	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 26	Premios	Premios	PROPN	PROPN	_	23	nmod	_	_
 27	Defensa	Defensa	PROPN	PROPN	_	26	name	_	_
-28	2001	2001	NUM	NUM	NumForm=Digit|NumType=Card	26	name	_	_
+28	2001	2001	NUM	NUM	NumForm=Digit|NumType=Card	26	nummod	_	_
 29	en	en	ADP	ADP	AdpType=Prep	31	case	_	_
 30	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	apartado	apartado	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
