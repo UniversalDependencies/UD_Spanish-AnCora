@@ -130,7 +130,7 @@
 26	Unión	Unión	PROPN	PROPN	_	33	nsubj	_	_
 27	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
 28	Fuerzas	Fuerzas	PROPN	PROPN	_	26	name	_	_
-29	Democráticas	Democráticas	PROPN	PROPN	_	26	name	_	_
+29	Democráticas	Democráticas	PROPN	PROPN	_	28	name	_	_
 30	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	31	punct	_	_
 31	SDS	SDS	PROPN	PROPN	_	26	name	_	_
 32	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	31	punct	_	_
@@ -392,7 +392,7 @@
 24	Organización	Organización	PROPN	PROPN	_	21	nmod	_	_
 25	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 26	Estados	Estados	PROPN	PROPN	_	24	name	_	_
-27	Americanos	Americanos	PROPN	PROPN	_	24	name	_	_
+27	Americanos	Americanos	PROPN	PROPN	_	26	name	_	_
 28	hicieron	hacer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
 29	aumentar	aumentar	VERB	VERB	VerbForm=Inf	0	root	_	_
 30	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
@@ -6831,7 +6831,7 @@
 12	-	-	PUNCT	PUNCT	PunctType=Dash	13	punct	_	_
 13	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Oso	Oso	PROPN	PROPN	_	10	nmod	_	_
-15	Malayo	Malayo	PROPN	PROPN	_	13	name	_	_
+15	Malayo	Malayo	PROPN	PROPN	_	14	name	_	_
 16	-	-	PUNCT	PUNCT	PunctType=Dash	4	punct	_	_
 17	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
@@ -10368,9 +10368,9 @@
 31	Organización	Organización	PROPN	PROPN	_	28	nmod	_	_
 32	de	de	ADP	ADP	AdpType=Prep	33	case	_	_
 33	Países	Países	PROPN	PROPN	_	31	name	_	_
-34	Exportadores	Exportadores	PROPN	PROPN	_	31	name	_	_
+34	Exportadores	Exportadores	PROPN	PROPN	_	33	name	_	_
 35	de	de	ADP	ADP	AdpType=Prep	36	case	_	_
-36	Petróleo	Petróleo	PROPN	PROPN	_	31	name	_	_
+36	Petróleo	Petróleo	PROPN	PROPN	_	33	name	_	_
 37	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	38	punct	_	_
 38	OPEP	OPEP	PROPN	PROPN	_	31	name	_	_
 39	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	38	punct	_	_
@@ -10553,7 +10553,7 @@
 17	Acuerdo	Acuerdo	PROPN	PROPN	_	15	nsubj	_	_
 18	de	de	ADP	ADP	AdpType=Prep	19	case	_	_
 19	San	San	PROPN	PROPN	_	17	name	_	_
-20	José	José	PROPN	PROPN	_	17	name	_	_
+20	José	José	PROPN	PROPN	_	19	name	_	_
 21	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 22	que	que	PRON	PRON	PronType=Rel	25	nsubj	_	_
 23	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
@@ -10585,7 +10585,7 @@
 3	Pacto	Pacto	PROPN	PROPN	_	12	nmod	_	_
 4	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
 5	San	San	PROPN	PROPN	_	3	name	_	_
-6	José	José	PROPN	PROPN	_	3	name	_	_
+6	José	José	PROPN	PROPN	_	5	name	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 8	Venezuela	Venezuela	PROPN	PROPN	_	12	cc	_	_
 9	y	y	CONJ	CONJ	_	8	cc	_	_
@@ -11653,7 +11653,7 @@
 9	Investigación	Investigación	PROPN	PROPN	_	6	name	_	_
 10	y	y	CONJ	CONJ	_	6	name	_	_
 11	Desarrollo	Desarrollo	PROPN	PROPN	_	6	name	_	_
-12	Pesquero	Pesquero	PROPN	PROPN	_	6	name	_	_
+12	Pesquero	Pesquero	PROPN	PROPN	_	11	name	_	_
 13	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	14	punct	_	_
 14	INIDEP	INIDEP	PROPN	PROPN	_	6	name	_	_
 15	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	14	punct	_	_
@@ -11821,7 +11821,7 @@
 27	Ley	Ley	PROPN	PROPN	_	22	dobj	_	_
 28	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
 29	Emergencia	Emergencia	PROPN	PROPN	_	27	name	_	_
-30	Pesquera	Pesquera	PROPN	PROPN	_	27	name	_	_
+30	Pesquera	Pesquera	PROPN	PROPN	_	29	name	_	_
 31	para	para	ADP	ADP	AdpType=Prep	27	nmod	_	_
 32	frenar	frenar	VERB	VERB	VerbForm=Inf	31	advcl	_	_
 33	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
@@ -11873,7 +11873,7 @@
 6	Ley	Ley	PROPN	PROPN	_	3	nmod	_	_
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 8	Emergencia	Emergencia	PROPN	PROPN	_	6	name	_	_
-9	Pesquera	Pesquera	PROPN	PROPN	_	6	name	_	_
+9	Pesquera	Pesquera	PROPN	PROPN	_	8	name	_	_
 10	que	que	PRON	PRON	PronType=Rel	12	nsubj	_	_
 11	se	se	PRON	PRON	_	12	dobj	_	_
 12	decretó	decretar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	_
@@ -12153,7 +12153,7 @@
 17	Cuando	Cuando	ADV	ADV	_	15	appos	_	_
 18	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Luna	Luna	PROPN	PROPN	_	17	name	_	_
-20	cambie	cambie	PROPN	PROPN	_	17	name	_	_
+20	cambie	cambie	PROPN	PROPN	_	19	name	_	_
 21	"	"	PUNCT	PUNCT	PunctType=Quot	17	punct	_	_
 22	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 23	obra	obra	NOUN	NOUN	Gender=Fem|Number=Sing	15	appos	_	_
@@ -17191,8 +17191,8 @@
 23	Roma	Roma	PROPN	PROPN	_	21	name	_	_
 24	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	25	case	_	_
 25	Tribunal	Tribunal	PROPN	PROPN	_	21	name	_	_
-26	Penal	Penal	PROPN	PROPN	_	21	name	_	_
-27	Internacional	Internacional	PROPN	PROPN	_	21	name	_	_
+26	Penal	Penal	PROPN	PROPN	_	25	name	_	_
+27	Internacional	Internacional	PROPN	PROPN	_	25	name	_	_
 28	,	,	PUNCT	PUNCT	PunctType=Comm	30	punct	_	_
 29	según	según	SCONJ	SCONJ	_	30	mark	_	_
 30	informó	informar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_
@@ -22031,7 +22031,7 @@
 27	Yanquis	Yanquis	PROPN	PROPN	_	24	nmod	_	_
 28	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
 29	Nueva	Nueva	PROPN	PROPN	_	27	name	_	_
-30	York	York	PROPN	PROPN	_	27	name	_	_
+30	York	York	PROPN	PROPN	_	29	name	_	_
 31	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 32	Joe	Joe	PROPN	PROPN	_	24	appos	_	_
 33	Torre	Torre	PROPN	PROPN	_	32	name	_	_
@@ -24637,9 +24637,9 @@
 36	Ley	Ley	PROPN	PROPN	_	34	name	_	_
 37	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
 38	Presupuestos	Presupuestos	PROPN	PROPN	_	34	name	_	_
-39	Generales	Generales	PROPN	PROPN	_	34	name	_	_
+39	Generales	Generales	PROPN	PROPN	_	38	name	_	_
 40	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	41	case	_	_
-41	Estado	Estado	PROPN	PROPN	_	34	name	_	_
+41	Estado	Estado	PROPN	PROPN	_	38	name	_	_
 42	para	para	ADP	ADP	AdpType=Prep	44	case	_	_
 43	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	2001	2001	NOUN	NOUN	AdvType=Tim	34	nmod	_	_
@@ -27351,7 +27351,7 @@
 24	Warriors	Warriors	PROPN	PROPN	_	28	nsubj	_	_
 25	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 26	Golden	Golden	PROPN	PROPN	_	24	name	_	_
-27	State	State	PROPN	PROPN	_	24	name	_	_
+27	State	State	PROPN	PROPN	_	26	name	_	_
 28	ganaron	ganar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	acl	_	_
 29	en	en	ADP	ADP	AdpType=Prep	31	case	_	_
 30	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -27647,7 +27647,7 @@
 54	Spurs	Spurs	PROPN	PROPN	_	51	nmod	_	_
 55	de	de	ADP	ADP	AdpType=Prep	56	case	_	_
 56	San	San	PROPN	PROPN	_	54	name	_	_
-57	Antonio	Antonio	PROPN	PROPN	_	54	name	_	_
+57	Antonio	Antonio	PROPN	PROPN	_	56	name	_	_
 58	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
 59	pasado	pasado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	60	amod	_	_
 60	viernes	viernes	NOUN	NOUN	AdvType=Tim	51	nmod	_	_
@@ -29225,7 +29225,7 @@
 10	Transferencias	Transferencias	PROPN	PROPN	_	7	name	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 12	Bienes	Bienes	PROPN	PROPN	_	7	name	_	_
-13	Industriales	Industriales	PROPN	PROPN	_	7	name	_	_
+13	Industriales	Industriales	PROPN	PROPN	_	12	name	_	_
 14	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	15	punct	_	_
 15	ITBIS	ITBIS	PROPN	PROPN	_	7	name	_	_
 16	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	15	punct	_	_
@@ -29881,7 +29881,7 @@
 4	Apelaciones	Apelaciones	PROPN	PROPN	_	2	name	_	_
 5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 6	Nueva	Nueva	PROPN	PROPN	_	2	name	_	_
-7	Orleans	Orleans	PROPN	PROPN	_	2	name	_	_
+7	Orleans	Orleans	PROPN	PROPN	_	6	name	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 9	en	en	ADP	ADP	AdpType=Prep	10	case	_	_
 10	Luisiana	Luisiana	PROPN	PROPN	_	2	nmod	_	_
@@ -30374,7 +30374,7 @@
 55	Comunidades	Comunidades	PROPN	PROPN	_	53	name	_	_
 56	de	de	ADP	ADP	AdpType=Prep	57	case	_	_
 57	Castilla-La	Castilla-La	PROPN	PROPN	_	53	name	_	_
-58	Mancha	Mancha	PROPN	PROPN	_	53	name	_	_
+58	Mancha	Mancha	PROPN	PROPN	_	57	name	_	_
 59	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id es-s788
@@ -30398,7 +30398,7 @@
 17	Familias	Familias	PROPN	PROPN	_	13	name	_	_
 18	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	19	case	_	_
 19	Ambito	Ambito	PROPN	PROPN	_	13	name	_	_
-20	Rural	Rural	PROPN	PROPN	_	13	name	_	_
+20	Rural	Rural	PROPN	PROPN	_	19	name	_	_
 21	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	22	punct	_	_
 22	AMFAR	AMFAR	PROPN	PROPN	_	13	name	_	_
 23	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	22	punct	_	_
@@ -32367,7 +32367,7 @@
 12	Escuela	Escuela	PROPN	PROPN	_	9	nmod	_	_
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 14	Capacitación	Capacitación	PROPN	PROPN	_	12	name	_	_
-15	Agraria	Agraria	PROPN	PROPN	_	12	name	_	_
+15	Agraria	Agraria	PROPN	PROPN	_	14	name	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 17	subraya	subrayar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -32853,8 +32853,8 @@
 4	Ministerio	Ministerio	PROPN	PROPN	_	2	nmod	_	_
 5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 6	Agricultura	Agricultura	PROPN	PROPN	_	4	name	_	_
-7	,	,	PUNCT	PUNCT	_	4	name	_	_
-8	Pesca	Pesca	PROPN	PROPN	_	4	name	_	_
+7	,	,	PUNCT	PUNCT	_	6	name	_	_
+8	Pesca	Pesca	PROPN	PROPN	_	6	name	_	_
 9	y	y	CONJ	CONJ	_	4	name	_	_
 10	Alimentación	Alimentación	PROPN	PROPN	_	4	name	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
@@ -34093,7 +34093,7 @@
 24	Ley	Ley	PROPN	PROPN	_	21	nmod	_	_
 25	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 26	Protección	Protección	PROPN	PROPN	_	24	name	_	_
-27	Ambiental	Ambiental	PROPN	PROPN	_	24	name	_	_
+27	Ambiental	Ambiental	PROPN	PROPN	_	26	name	_	_
 28	presentada	presentado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	21	amod	_	_
 29	por	por	ADP	ADP	AdpType=Prep	31	case	_	_
 30	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -34521,7 +34521,7 @@
 36	a	a	ADP	ADP	AdpType=Prep	38	case	_	_
 37	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	central	central	PROPN	PROPN	_	32	nmod	_	_
-39	eléctrica	eléctrica	PROPN	PROPN	_	35	name	_	_
+39	eléctrica	eléctrica	PROPN	PROPN	_	38	name	_	_
 40	"	"	PUNCT	PUNCT	PunctType=Quot	35	punct	_	_
 41	,	,	PUNCT	PUNCT	PunctType=Comm	28	punct	_	_
 42	y	y	CONJ	CONJ	_	28	cc	_	_
@@ -35313,7 +35313,7 @@
 47	de	de	ADP	ADP	AdpType=Prep	49	case	_	_
 48	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
 49	Aviación	Aviación	PROPN	PROPN	_	43	name	_	_
-50	Civil	Civil	PROPN	PROPN	_	43	name	_	_
+50	Civil	Civil	PROPN	PROPN	_	49	name	_	_
 51	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	52	punct	_	_
 52	CASA	CASA	PROPN	PROPN	_	43	name	_	_
 53	,	,	PUNCT	PUNCT	PunctType=Comm	54	punct	_	_
@@ -35683,7 +35683,7 @@
 19	Maria	Maria	PROPN	PROPN	_	16	punct	_	_
 20	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	21	case	_	_
 21	Mar	Mar	PROPN	PROPN	_	19	name	_	_
-22	Bonet	Bonet	PROPN	PROPN	_	19	name	_	_
+22	Bonet	Bonet	PROPN	PROPN	_	21	name	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 24	Toti	Toti	PROPN	PROPN	_	19	conj	_	_
 25	Soler	Soler	PROPN	PROPN	_	24	name	_	_
@@ -35839,7 +35839,7 @@
 13	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 14	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	puta	puta	PROPN	PROPN	_	12	name	_	_
-16	mili	mili	PROPN	PROPN	_	12	name	_	_
+16	mili	mili	PROPN	PROPN	_	15	name	_	_
 17	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 18	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	montaje	montaje	NOUN	NOUN	Gender=Masc|Number=Sing	12	appos	_	_
@@ -35923,7 +35923,7 @@
 12	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 13	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	dulce	dulce	PROPN	PROPN	_	10	nmod	_	_
-15	porvenir	porvenir	PROPN	PROPN	_	13	name	_	_
+15	porvenir	porvenir	PROPN	PROPN	_	14	name	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 17	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 18	anterior	anterior	ADJ	ADJ	Number=Sing	21	cc	_	_
@@ -37582,17 +37582,17 @@
 13	alta	alto	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
 14	algo	algo	PRON	PRON	Number=Sing|PronType=Ind	10	dobj	_	_
 15	así	así	ADV	ADV	_	14	advmod	_	_
-16	como	como	SCONJ	SCONJ	_	20	mark	_	_
+16	como	como	SCONJ	SCONJ	_	19	mark	_	_
 17	"	"	PUNCT	PUNCT	PunctType=Quot	18	punct	_	_
-18	No	no	PART	PART	Negative=Neg	20	neg	_	_
-19	nos	nos	ADP	ADP	AdpType=Prep	20	case	_	_
-20	vais	vais	PROPN	PROPN	_	14	nmod	_	_
+18	No	no	PART	PART	Negative=Neg	19	neg	_	_
+19	nos	nos	PROPN	PROPN	_	14	nmod	_	_
+20	vais	vais	PROPN	PROPN	_	19	name	_	_
 21	a	a	ADP	ADP	AdpType=Prep	22	case	_	_
-22	pitar	pitar	PROPN	PROPN	_	18	name	_	_
-23	,	,	PUNCT	PUNCT	_	18	name	_	_
-24	¿	¿	PUNCT	PUNCT	_	18	name	_	_
-25	verdad	verdad	PROPN	PROPN	_	18	name	_	_
-26	?	?	PUNCT	PUNCT	_	18	name	_	_
+22	pitar	pitar	PROPN	PROPN	_	19	name	_	_
+23	,	,	PUNCT	PUNCT	_	19	name	_	_
+24	¿	¿	PUNCT	PUNCT	_	19	name	_	_
+25	verdad	verdad	PROPN	PROPN	_	19	name	_	_
+26	?	?	PUNCT	PUNCT	_	19	name	_	_
 27	"	"	PUNCT	PUNCT	PunctType=Quot	18	punct	_	_
 28	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
@@ -37720,7 +37720,7 @@
 3	mañana	mañana	ADV	ADV	_	2	advmod	_	_
 4	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Chanson	Chanson	PROPN	PROPN	_	2	dobj	_	_
-6	Flamenca	Flamenca	PROPN	PROPN	_	4	name	_	_
+6	Flamenca	Flamenca	PROPN	PROPN	_	5	name	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 8	y	y	CONJ	CONJ	_	2	cc	_	_
 9	Taha	Taha	PROPN	PROPN	_	10	nsubj	_	_
@@ -37730,7 +37730,7 @@
 13	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Fiesta	Fiesta	PROPN	PROPN	_	10	dobj	_	_
-16	Mediterránea	Mediterránea	PROPN	PROPN	_	14	name	_	_
+16	Mediterránea	Mediterránea	PROPN	PROPN	_	15	name	_	_
 17	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id es-s982
@@ -40810,9 +40810,9 @@
 23	Música	Música	PROPN	PROPN	_	21	name	_	_
 24	y	y	CONJ	CONJ	_	21	name	_	_
 25	Jazz	Jazz	PROPN	PROPN	_	21	name	_	_
-26	San	San	PROPN	PROPN	_	21	name	_	_
-27	Juan	Juan	PROPN	PROPN	_	21	name	_	_
-28	Evangelista	Evangelista	PROPN	PROPN	_	21	name	_	_
+26	San	San	PROPN	PROPN	_	25	name	_	_
+27	Juan	Juan	PROPN	PROPN	_	25	name	_	_
+28	Evangelista	Evangelista	PROPN	PROPN	_	25	name	_	_
 29	de	de	ADP	ADP	AdpType=Prep	30	case	_	_
 30	Madrid	Madrid	PROPN	PROPN	_	21	nmod	_	_
 31	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
@@ -40823,8 +40823,8 @@
 36	Premios	Premios	PROPN	PROPN	_	33	nmod	_	_
 37	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
 38	Honor	Honor	PROPN	PROPN	_	36	name	_	_
-39	Tete	Tete	PROPN	PROPN	_	36	name	_	_
-40	Montoliu	Montoliu	PROPN	PROPN	_	36	name	_	_
+39	Tete	Tete	PROPN	PROPN	_	38	name	_	_
+40	Montoliu	Montoliu	PROPN	PROPN	_	38	name	_	_
 41	,	,	PUNCT	PUNCT	PunctType=Comm	42	punct	_	_
 42	instaurados	instaurado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	36	amod	_	_
 43	por	por	ADP	ADP	AdpType=Prep	45	case	_	_
@@ -42242,8 +42242,8 @@
 8	disco	disco	NOUN	NOUN	Gender=Masc|Number=Sing	5	dobj	_	_
 9	'	'	SYM	SYM	_	10	nmod	_	_
 10	Infinito	Infinito	PROPN	PROPN	_	8	appos	_	_
-11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
-12	nos	nos	ADP	ADP	AdpType=Prep	13	case	_	_
+11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
+12	nos	nos	PROPN	PROPN	_	10	name	_	_
 13	dois	dois	NUM	NUM	Gender=Masc|NumType=Card	10	name	_	_
 14	'	'	SYM	SYM	_	10	nmod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
@@ -42633,7 +42633,7 @@
 22	matins	matins	PROPN	PROPN	_	16	nmod	_	_
 23	amb	amb	ADP	ADP	AdpType=Prep	24	case	_	_
 24	Josep	Josep	PROPN	PROPN	_	21	name	_	_
-25	Cuní	Cuní	PROPN	PROPN	_	21	name	_	_
+25	Cuní	Cuní	PROPN	PROPN	_	24	name	_	_
 26	'	'	SYM	SYM	_	21	nmod	_	_
 27	,	,	PUNCT	PUNCT	PunctType=Comm	29	punct	_	_
 28	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
@@ -45749,9 +45749,9 @@
 5	Comité	Comité	PROPN	PROPN	_	3	nmod	_	_
 6	de	de	ADP	ADP	AdpType=Prep	7	case	_	_
 7	Derechos	Derechos	PROPN	PROPN	_	5	name	_	_
-8	Humanos	Humanos	PROPN	PROPN	_	5	name	_	_
+8	Humanos	Humanos	PROPN	PROPN	_	7	name	_	_
 9	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	10	case	_	_
-10	Parlamento	Parlamento	PROPN	PROPN	_	5	name	_	_
+10	Parlamento	Parlamento	PROPN	PROPN	_	7	name	_	_
 11	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	12	punct	_	_
 12	compuesto	compuesto	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	5	amod	_	_
 13	por	por	ADP	ADP	AdpType=Prep	14	case	_	_
@@ -47398,7 +47398,7 @@
 # orig_file_sentence 014#59
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	príncipe	príncipe	PROPN	PROPN	_	6	nsubj	_	_
-3	enamorado	enamorado	PROPN	PROPN	_	1	name	_	_
+3	enamorado	enamorado	PROPN	PROPN	_	2	name	_	_
 4	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	libro	libro	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -48100,11 +48100,11 @@
 3	publicaré	publicar	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	La	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	política	política	PROPN	PROPN	_	3	dobj	_	_
-6	humana	humana	PROPN	PROPN	_	4	name	_	_
-7	según	según	PROPN	PROPN	_	4	name	_	_
+6	humana	humana	PROPN	PROPN	_	5	name	_	_
+7	según	según	PROPN	PROPN	_	5	name	_	_
 8	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	terrorista	terrorista	PROPN	PROPN	_	4	name	_	_
-10	cultural	cultural	PROPN	PROPN	_	4	name	_	_
+9	terrorista	terrorista	PROPN	PROPN	_	5	name	_	_
+10	cultural	cultural	PROPN	PROPN	_	5	name	_	_
 11	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s1400
@@ -49312,7 +49312,7 @@
 64	Asamblea	Asamblea	PROPN	PROPN	_	61	nmod	_	_
 65	de	de	ADP	ADP	AdpType=Prep	66	case	_	_
 66	Municipios	Municipios	PROPN	PROPN	_	64	name	_	_
-67	Vascos	Vascos	PROPN	PROPN	_	64	name	_	_
+67	Vascos	Vascos	PROPN	PROPN	_	66	name	_	_
 68	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id es-s1442
@@ -52327,7 +52327,7 @@
 6	Asistencia	Asistencia	PROPN	PROPN	_	2	name	_	_
 7	a	a	ADP	ADP	AdpType=Prep	8	case	_	_
 8	Mujeres	Mujeres	PROPN	PROPN	_	2	name	_	_
-9	Violadas	Violadas	PROPN	PROPN	_	2	name	_	_
+9	Violadas	Violadas	PROPN	PROPN	_	8	name	_	_
 10	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	11	punct	_	_
 11	FAAMV	FAAMV	PROPN	PROPN	_	2	name	_	_
 12	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	11	punct	_	_
@@ -52645,7 +52645,7 @@
 29	de	de	ADP	ADP	AdpType=Prep	31	case	_	_
 30	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	Cruz	Cruz	PROPN	PROPN	_	28	name	_	_
-32	Roja	Roja	PROPN	PROPN	_	28	name	_	_
+32	Roja	Roja	PROPN	PROPN	_	31	name	_	_
 33	de	de	ADP	ADP	AdpType=Prep	35	case	_	_
 34	esta	este	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	35	det	_	_
 35	ciudad	ciudad	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod	_	_
@@ -53867,7 +53867,7 @@
 9	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 10	las	las	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	Fuerzas	Fuerzas	PROPN	PROPN	_	8	name	_	_
-12	Armadas	Armadas	PROPN	PROPN	_	8	name	_	_
+12	Armadas	Armadas	PROPN	PROPN	_	11	name	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 14	asistieron	asistir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 15	también	también	ADV	ADV	_	14	advmod	_	_
@@ -57314,7 +57314,7 @@
 13	Juegos	Juegos	PROPN	PROPN	_	3	nmod	_	_
 14	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 15	Salt	Salt	PROPN	PROPN	_	13	name	_	_
-16	Lake	Lake	PROPN	PROPN	_	13	name	_	_
+16	Lake	Lake	PROPN	PROPN	_	15	name	_	_
 17	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s1717

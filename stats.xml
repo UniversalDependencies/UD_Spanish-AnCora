@@ -13,7 +13,7 @@
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="17">
     <tag name="ADJ">36445</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, mayor, segundo, buen -->
-    <tag name="ADP">87812</tag><!-- de, en, a, del, por, con, para, al, entre, sobre -->
+    <tag name="ADP">87809</tag><!-- de, en, a, del, por, con, para, al, entre, sobre -->
     <tag name="ADV">17804</tag><!-- no, más, también, ya, hoy, mucho, ayer, después, sólo, ahora -->
     <tag name="AUX">15729</tag><!-- ser, haber, poder, deber, hacer, estar, ir, seguir, volver, dejar -->
     <tag name="CONJ">14947</tag><!-- y, pero, o, e, ni, sino, i, mientras, u, bien -->
@@ -23,7 +23,7 @@
     <tag name="NUM">8711</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PART">155</tag><!-- no -->
     <tag name="PRON">22603</tag><!-- que, él, se, yo, uno, donde, quien, este, otro, todo -->
-    <tag name="PROPN">42628</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
+    <tag name="PROPN">42631</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
     <tag name="PUNCT">65504</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12460</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">491</tag><!-- ', %, 50/100, 30/100, 60/100, 20/100, 10/100, 80/100, 20, 25/100 -->
@@ -32,7 +32,7 @@
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="54">
-    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV,PUNCT">77484</feat><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
+    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV,PUNCT">77481</feat><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
     <feat name="AdpType" value="Preppron" upos="ADJ,ADP,ADV">10770</feat><!-- del, al, junto, además, debido, debajo, acerca, detrás, do, da -->
     <feat name="AdvType" value="Tim" upos="ADJ,ADV,NOUN,NUM,PUNCT">2712</feat><!-- 1999, domingo, 2000, 1998, viernes, miércoles, sábado, lunes, martes, jueves -->
     <feat name="Case" value="Acc" upos="PRON">1045</feat><!-- lo, la, le, los, las, les, se, Nos -->
@@ -96,7 +96,7 @@
     <dep name="appos">7100</dep>
     <dep name="aux">9735</dep>
     <dep name="auxpass:reflex">503</dep>
-    <dep name="case">75228</dep>
+    <dep name="case">75225</dep>
     <dep name="cc">25760</dep>
     <dep name="ccomp">3888</dep>
     <dep name="compound">1855</dep>
@@ -109,7 +109,7 @@
     <dep name="iobj">1074</dep>
     <dep name="mark">12474</dep>
     <dep name="mwe">7924</dep>
-    <dep name="name">15065</dep>
+    <dep name="name">15068</dep>
     <dep name="neg">3519</dep>
     <dep name="nmod">64225</dep>
     <dep name="nsubj">28587</dep>
