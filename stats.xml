@@ -23,8 +23,8 @@
     <tag name="NUM">8711</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PART">155</tag><!-- no -->
     <tag name="PRON">22603</tag><!-- que, él, se, yo, uno, donde, quien, este, otro, todo -->
-    <tag name="PROPN">42631</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
-    <tag name="PUNCT">65504</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
+    <tag name="PROPN">42637</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
+    <tag name="PUNCT">65498</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12460</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">491</tag><!-- ', %, 50/100, 30/100, 60/100, 20/100, 10/100, 80/100, 20, 25/100 -->
     <tag name="VERB">46051</tag><!-- tener, estar, hacer, decir, dar, ver, querer, llegar, asegurar, mantener -->
