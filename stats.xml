@@ -5,7 +5,7 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>17683</sentences><tokens>547663</tokens><words>547663</words><fused>0</fused></total>
+    <total><sentences>17680</sentences><tokens>547660</tokens><words>547660</words><fused>0</fused></total>
   </size>
   <lemmas unique="26181" /><!-- el, de, ,, ., que, en, y, uno, a, ", del, ser, él, por, su -->
   <forms unique="39809" /><!-- de, ,, la, el, ., que, en, y, a, ", los, del, un, las, se -->
@@ -22,7 +22,7 @@
     <tag name="NOUN">100558</tag><!-- año, presidente, país, partido, millón, día, equipo, vez, parte, mes -->
     <tag name="NUM">8767</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PART">155</tag><!-- no -->
-    <tag name="PRON">22570</tag><!-- que, él, se, yo, uno, donde, quien, este, otro, todo -->
+    <tag name="PRON">22567</tag><!-- que, él, se, yo, uno, donde, quien, este, otro, todo -->
     <tag name="PROPN">42635</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
     <tag name="PUNCT">65501</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12471</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
@@ -116,7 +116,7 @@
     <dep name="nummod">5495</dep>
     <dep name="parataxis">671</dep>
     <dep name="punct">65703</dep>
-    <dep name="root">17683</dep>
+    <dep name="root">17680</dep>
     <dep name="xcomp">1539</dep>
   </deps>
 </treebank>

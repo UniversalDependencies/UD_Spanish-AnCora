@@ -33296,7 +33296,7 @@
 16	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id es-s873
-# orig_file_sentence 009#73
+# orig_file_sentence 009#72
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	inversión	inversión	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	PRON	_	4	dobj	_	_
@@ -33337,7 +33337,7 @@
 38	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id es-s874
-# orig_file_sentence 009#74
+# orig_file_sentence 009#73
 1	A	a	ADP	ADP	AdpType=Prep	8	mark	_	MWE=A_pesar_de_que|MWEPOS=SCONJ
 2	pesar	pesar	NOUN	NOUN	_	1	mwe	_	_
 3	de	de	ADP	ADP	AdpType=Prep	1	mwe	_	_
@@ -33382,7 +33382,7 @@
 42	.	.	PUNCT	PUNCT	PunctType=Peri	32	punct	_	_
 
 # sent_id es-s875
-# orig_file_sentence 009#75
+# orig_file_sentence 009#74
 1	Horacio	Horacio	PROPN	PROPN	_	10	nsubj	_	MWE=Horacio_Gómez|MWEPOS=PROPN
 2	Gómez	Gómez	PROPN	PROPN	_	1	name	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
@@ -33427,7 +33427,7 @@
 42	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id es-s876
-# orig_file_sentence 009#76
+# orig_file_sentence 009#75
 1	Tanto	tanto	ADV	ADV	_	3	cc	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	10	cc	_	_
@@ -33449,7 +33449,7 @@
 19	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id es-s877
-# orig_file_sentence 009#77
+# orig_file_sentence 009#76
 1	"	"	PUNCT	PUNCT	PunctType=Quot	2	punct	_	_
 2	Hablaremos	hablar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	12	ccomp	_	_
 3	con	con	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -33476,7 +33476,7 @@
 24	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id es-s878
-# orig_file_sentence 009#78
+# orig_file_sentence 009#77
 1	Salgado	Salgado	PROPN	PROPN	_	3	nsubj	_	_
 2	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	despreciado	despreciar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -33494,7 +33494,7 @@
 15	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s879
-# orig_file_sentence 009#79
+# orig_file_sentence 009#78
 1	Bruguera	Bruguera	PROPN	PROPN	_	2	nsubj	_	_
 2	pierde	perder	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -33504,7 +33504,7 @@
 7	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id es-s880
-# orig_file_sentence 009#80
+# orig_file_sentence 009#79
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tenista	tenista	NOUN	NOUN	Number=Sing	5	nsubj	_	_
 3	catalán	catalán	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
@@ -33542,7 +33542,7 @@
 35	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id es-s881
-# orig_file_sentence 009#81
+# orig_file_sentence 009#80
 1	Bruguera	Bruguera	PROPN	PROPN	_	4	nsubj	_	_
 2	no	no	ADV	ADV	Negative=Neg	4	neg	_	_
 3	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -33574,7 +33574,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id es-s882
-# orig_file_sentence 009#82
+# orig_file_sentence 009#81
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	catalán	catalán	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tendrá	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -33594,7 +33594,7 @@
 17	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s883
-# orig_file_sentence 009#83
+# orig_file_sentence 009#82
 1	Diferencias	diferencia	NOUN	NOUN	Gender=Fem|Number=Plur	18	cc	_	_
 2	en	en	ADP	ADP	AdpType=Prep	4	case	_	_
 3	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -33625,7 +33625,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
 
 # sent_id es-s884
-# orig_file_sentence 009#84
+# orig_file_sentence 009#83
 1	Al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	25	advmod	_	MWE=Al_inicio|MWEPOS=ADV
 2	inicio	inicio	NOUN	NOUN	_	1	mwe	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
@@ -33656,7 +33656,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	25	punct	_	_
 
 # sent_id es-s885
-# orig_file_sentence 009#85
+# orig_file_sentence 009#84
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	escena	escena	NOUN	NOUN	Gender=Fem|Number=Sing	31	nmod	_	_
@@ -33701,7 +33701,7 @@
 42	.	.	PUNCT	PUNCT	PunctType=Peri	31	punct	_	_
 
 # sent_id es-s886
-# orig_file_sentence 009#86
+# orig_file_sentence 009#85
 1	Cuando	cuando	SCONJ	SCONJ	_	9	mark	_	_
 2	Sam	Sam	PROPN	PROPN	_	9	cc	_	_
 3	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	4	punct	_	_
@@ -33731,7 +33731,7 @@
 27	.	.	PUNCT	PUNCT	PunctType=Peri	17	punct	_	_
 
 # sent_id es-s887
-# orig_file_sentence 009#87
+# orig_file_sentence 009#86
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	expedición	expedición	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -33767,7 +33767,7 @@
 33	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id es-s888
-# orig_file_sentence 009#88
+# orig_file_sentence 009#87
 1	Es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	efecto	efecto	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -33779,7 +33779,7 @@
 9	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s889
-# orig_file_sentence 009#89
+# orig_file_sentence 009#88
 1	Las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	proporciones	proporción	NOUN	NOUN	Gender=Fem|Number=Plur	19	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
@@ -33807,7 +33807,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
 
 # sent_id es-s890
-# orig_file_sentence 009#90
+# orig_file_sentence 009#89
 1	Un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ejemplo	ejemplo	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 3	:	:	PUNCT	PUNCT	PunctType=Colo	8	punct	_	_
@@ -33831,7 +33831,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id es-s891
-# orig_file_sentence 009#91
+# orig_file_sentence 009#90
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	barandilla	barandilla	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	dobj	_	_
@@ -33842,7 +33842,7 @@
 8	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id es-s892
-# orig_file_sentence 009#92
+# orig_file_sentence 009#91
 1	Teniendo	tener	VERB	VERB	VerbForm=Ger	17	advcl	_	MWE=Teniendo_en_cuenta|MWEPOS=VERB
 2	en	en	ADP	ADP	AdpType=Prep	1	compound	_	_
 3	cuenta	cuenta	VERB	VERB	VerbForm=Ger	1	compound	_	_
@@ -33868,7 +33868,7 @@
 23	.	.	PUNCT	PUNCT	PunctType=Peri	17	punct	_	_
 
 # sent_id es-s893
-# orig_file_sentence 009#93
+# orig_file_sentence 009#92
 1	Tras	tras	ADP	ADP	AdpType=Prep	3	case	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	pelea	pelea	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
@@ -33919,7 +33919,7 @@
 48	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
 
 # sent_id es-s894
-# orig_file_sentence 009#94
+# orig_file_sentence 009#93
 1	Los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	protagonistas	protagonista	NOUN	NOUN	Number=Plur	3	nsubj	_	_
 3	pasan	pasar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -33938,7 +33938,7 @@
 16	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s895
-# orig_file_sentence 009#95
+# orig_file_sentence 009#94
 1	En	en	ADP	ADP	AdpType=Prep	4	case	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	siguiente	siguiente	ADJ	ADJ	Number=Sing	4	amod	_	_
@@ -33967,7 +33967,7 @@
 26	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id es-s896
-# orig_file_sentence 009#96
+# orig_file_sentence 009#95
 1	Que	que	SCONJ	SCONJ	_	2	case	_	MWE=Que_inventen_ellas|MWEPOS=PROPN
 2	inventen	inventen	PROPN	PROPN	_	6	nsubj	_	_
 3	ellas	ellas	PROPN	PROPN	_	2	name	_	_
@@ -34005,7 +34005,7 @@
 35	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id es-s897
-# orig_file_sentence 009#97
+# orig_file_sentence 009#96
 1	Un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	roble	roblar	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	devastado	devastado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	26	cc	_	_
@@ -34061,7 +34061,7 @@
 53	.	.	PUNCT	PUNCT	PunctType=Peri	26	punct	_	_
 
 # sent_id es-s898
-# orig_file_sentence 009#98
+# orig_file_sentence 009#97
 1	Si	si	SCONJ	SCONJ	_	11	advmod	_	_
 2	en	en	ADP	ADP	AdpType=Prep	3	case	_	_
 3	Florencia	Florencia	PROPN	PROPN	_	11	nmod	_	_
@@ -34083,7 +34083,7 @@
 19	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id es-s899
-# orig_file_sentence 009#99
+# orig_file_sentence 009#98
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	producción	producción	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -34099,7 +34099,7 @@
 13	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id es-s900
-# orig_file_sentence 009#100
+# orig_file_sentence 009#99
 1	Y	y	CONJ	CONJ	_	3	advmod	_	_
 2	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	dobj	_	_
 3	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
