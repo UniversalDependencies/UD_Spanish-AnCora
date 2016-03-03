@@ -32,23 +32,23 @@
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="54">
-    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV,PUNCT">77481</feat><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
+    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV">77480</feat><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
     <feat name="AdpType" value="Preppron" upos="ADJ,ADP,ADV">10770</feat><!-- del, al, junto, además, debido, debajo, acerca, detrás, do, da -->
-    <feat name="AdvType" value="Tim" upos="ADJ,ADV,NOUN,NUM,PUNCT">2712</feat><!-- 1999, domingo, 2000, 1998, viernes, miércoles, sábado, lunes, martes, jueves -->
+    <feat name="AdvType" value="Tim" upos="ADJ,ADV,NOUN">1902</feat><!-- 1999, domingo, viernes, miércoles, sábado, lunes, martes, jueves, 1998, año -->
     <feat name="Case" value="Acc" upos="PRON">1045</feat><!-- lo, la, le, los, las, les, se, Nos -->
     <feat name="Case" value="Dat" upos="PRON">966</feat><!-- le, les, se -->
     <feat name="Case" value="Nom" upos="PRON">155</feat><!-- yo, tú -->
     <feat name="Definite" value="Def" upos="ADP,DET">54401</feat><!-- la, el, los, las, lo, del, al, les, do, els -->
     <feat name="Definite" value="Ind" upos="DET">9367</feat><!-- un, una, unos, unas, la, El, LO, les -->
-    <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,VERB">84822</feat><!-- la, las, una, esta, política, esa, primera, personas, parte, vida -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PUNCT,VERB">115036</feat><!-- el, los, del, un, al, este, años, presidente, lo, millones -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,VERB">84821</feat><!-- la, las, una, esta, política, esa, primera, personas, parte, vida -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">115033</feat><!-- el, los, del, un, al, este, años, presidente, lo, millones -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">843</feat><!-- sería, podría, habría, debería, podrían, deberían, tendría, estaría, haría, habrían -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">311</feat><!-- mira, vaya, añade, afirma, asegura, lean, sea, véase, He, apunta -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">39131</feat><!-- es, ha, han, fue, está, tiene, son, dijo, había, hay -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2872</feat><!-- sea, haya, hubiera, pueda, puedan, fuera, sean, esté, pudiera, tenga -->
     <feat name="Negative" value="Neg" upos="ADV,PART">3761</feat><!-- no, ni -->
-    <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PUNCT,VERB">71703</feat><!-- los, las, sus, dos, años, han, millones, son, tres, otros -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">199823</feat><!-- la, el, del, un, una, su, al, es, ha, lo -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">71701</feat><!-- los, las, sus, dos, años, han, millones, son, tres, otros -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">199822</feat><!-- la, el, del, un, una, su, al, es, ha, lo -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">262</feat><!-- nuestra, nuestro, nuestros, nuestras, la_nuestra, los_nuestros, las_nuestras, vuestra, vuestras -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">247</feat><!-- mi, mis, tu, tus, mío, el_mío, la_mía, la_tuya, mía, tuyo -->
     <feat name="NumForm" value="Digit" upos="NOUN,NUM,SYM">6292</feat><!-- pesetas, dólares, 20, 30, 10, 12, 15, euros, 2, 16 -->
@@ -109,13 +109,13 @@
     <dep name="iobj">1074</dep>
     <dep name="mark">12474</dep>
     <dep name="mwe">7924</dep>
-    <dep name="name">14942</dep>
+    <dep name="name">14871</dep>
     <dep name="neg">3519</dep>
     <dep name="nmod">64225</dep>
     <dep name="nsubj">28587</dep>
-    <dep name="nummod">5487</dep>
+    <dep name="nummod">5495</dep>
     <dep name="parataxis">671</dep>
-    <dep name="punct">65640</dep>
+    <dep name="punct">65703</dep>
     <dep name="root">17683</dep>
     <dep name="xcomp">1539</dep>
   </deps>
