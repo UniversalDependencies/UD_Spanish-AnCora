@@ -93,7 +93,7 @@
     <dep name="advcl">12526</dep>
     <dep name="advmod">17616</dep>
     <dep name="amod">29599</dep>
-    <dep name="appos">7603</dep>
+    <dep name="appos">7604</dep>
     <dep name="aux">9736</dep>
     <dep name="auxpass:reflex">503</dep>
     <dep name="case">75230</dep>
@@ -109,10 +109,10 @@
     <dep name="iobj">1210</dep>
     <dep name="mark">12469</dep>
     <dep name="mwe">7924</dep>
-    <dep name="name">14463</dep>
+    <dep name="name">14459</dep>
     <dep name="neg">3523</dep>
-    <dep name="nmod">67383</dep>
-    <dep name="nsubj">29712</dep>
+    <dep name="nmod">67385</dep>
+    <dep name="nsubj">29713</dep>
     <dep name="nummod">5601</dep>
     <dep name="parataxis">703</dep>
     <dep name="punct">65465</dep>
