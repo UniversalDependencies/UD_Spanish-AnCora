@@ -10906,7 +10906,7 @@
 36	Rica	Rica	PROPN	PROPN	_	35	name	_	_
 37	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	_
 38	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	MWE=El_Salvador|MWEPOS=PROPN
-39	Salvador	Salvador	PROPN	PROPN	_	35	nmod	_	_
+39	Salvador	Salvador	PROPN	PROPN	_	35	conj	_	_
 40	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	_
 41	Guatemala	Guatemala	PROPN	PROPN	_	35	conj	_	_
 42	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	_
@@ -13304,8 +13304,8 @@
 41	Asociación	Asociación	PROPN	PROPN	_	37	nmod	_	MWE=Asociación_de_Familias_y_Mujeres_del_Medio_Rural|MWEPOS=PROPN
 42	de	de	ADP	ADP	AdpType=Prep	43	case	_	_
 43	Familias	Familias	PROPN	PROPN	_	41	name	_	_
-44	y	y	CONJ	CONJ	_	41	name	_	_
-45	Mujeres	Mujeres	PROPN	PROPN	_	41	name	_	_
+44	y	y	CONJ	CONJ	_	43	cc	_	_
+45	Mujeres	Mujeres	PROPN	PROPN	_	43	conj	_	_
 46	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	47	case	_	_
 47	Medio	Medio	PROPN	PROPN	_	41	name	_	_
 48	Rural	Rural	PROPN	PROPN	_	47	name	_	_
@@ -14411,9 +14411,9 @@
 38	para	para	ADP	ADP	AdpType=Prep	40	case	_	_
 39	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	Seguridad	Seguridad	PROPN	PROPN	_	37	name	_	_
-41	y	y	CONJ	CONJ	_	37	name	_	_
+41	y	y	CONJ	CONJ	_	40	cc	_	_
 42	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	Cooperación	Cooperación	PROPN	PROPN	_	37	name	_	_
+43	Cooperación	Cooperación	PROPN	PROPN	_	40	conj	_	_
 44	en	en	ADP	ADP	AdpType=Prep	45	case	_	_
 45	Europa	Europa	PROPN	PROPN	_	37	name	_	_
 46	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	47	punct	_	_
@@ -15175,9 +15175,9 @@
 41	ejemplo	ejemplo	NOUN	NOUN	_	40	mwe	_	_
 42	en	en	ADP	ADP	AdpType=Prep	40	case	_	_
 43	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	MWE=La_Coruña|MWEPOS=PROPN
-44	Coruña	Coruña	PROPN	PROPN	_	46	nmod	_	_
-45	o	o	CONJ	CONJ	_	46	cc	_	_
-46	Jerez	Jerez	PROPN	PROPN	_	40	nmod	_	_
+44	Coruña	Coruña	PROPN	PROPN	_	40	nmod	_	_
+45	o	o	CONJ	CONJ	_	44	cc	_	_
+46	Jerez	Jerez	PROPN	PROPN	_	44	conj	_	_
 47	"	"	PUNCT	PUNCT	PunctType=Quot	13	punct	_	_
 48	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
@@ -15424,7 +15424,7 @@
 14	Aires	Aires	PROPN	PROPN	_	13	name	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 16	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	MWE=La_Habana|MWEPOS=PROPN
-17	Habana	Habana	PROPN	PROPN	_	11	nmod	_	_
+17	Habana	Habana	PROPN	PROPN	_	11	conj	_	_
 18	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 19	París	París	PROPN	PROPN	_	11	conj	_	_
 20	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
@@ -18142,8 +18142,8 @@
 14	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 15	Obras	Obras	PROPN	PROPN	_	12	nmod	_	MWE=Obras_Públicas_y_Transportes|MWEPOS=PROPN
 16	Públicas	Públicas	PROPN	PROPN	_	15	name	_	_
-17	y	y	CONJ	CONJ	_	15	name	_	_
-18	Transportes	Transportes	PROPN	PROPN	_	15	name	_	_
+17	y	y	CONJ	CONJ	_	15	cc	_	_
+18	Transportes	Transportes	PROPN	PROPN	_	15	conj	_	_
 19	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 20	Concepción	Concepción	PROPN	PROPN	_	12	appos	_	MWE=Concepción_Gutiérrez_del_Castillo|MWEPOS=PROPN
 21	Gutiérrez	Gutiérrez	PROPN	PROPN	_	20	name	_	_
@@ -21534,12 +21534,12 @@
 63	con	con	ADP	ADP	AdpType=Prep	62	mwe	_	_
 64	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	65	det	_	_
 65	Arrows	Arrows	PROPN	PROPN	_	62	nsubj	_	_
-66	de	de	ADP	ADP	AdpType=Prep	71	case	_	_
+66	de	de	ADP	ADP	AdpType=Prep	69	case	_	_
 67	De	De	ADP	ADP	AdpType=Prep	69	case	_	MWE=De_la_Rosa|MWEPOS=PROPN
 68	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
-69	Rosa	Rosa	PROPN	PROPN	_	71	nmod	_	_
-70	y	y	CONJ	CONJ	_	71	cc	_	_
-71	Verstappen	Verstappen	PROPN	PROPN	_	65	nmod	_	_
+69	Rosa	Rosa	PROPN	PROPN	_	65	nmod	_	_
+70	y	y	CONJ	CONJ	_	69	cc	_	_
+71	Verstappen	Verstappen	PROPN	PROPN	_	69	conj	_	_
 72	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 73	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	77	cop	_	_
 74	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	77	det	_	_
@@ -30302,8 +30302,8 @@
 33	Brasileiro	Brasileiro	PROPN	PROPN	_	32	name	_	_
 34	de	de	ADP	ADP	AdpType=Prep	35	case	_	_
 35	Geografía	Geografía	PROPN	PROPN	_	32	name	_	_
-36	y	y	CONJ	CONJ	_	32	name	_	_
-37	Estadísticas	Estadísticas	PROPN	PROPN	_	32	name	_	_
+36	y	y	CONJ	CONJ	_	32	cc	_	_
+37	Estadísticas	Estadísticas	PROPN	PROPN	_	32	conj	_	_
 38	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	39	punct	_	_
 39	IBGE	IBGE	PROPN	PROPN	_	32	name	_	_
 40	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	39	punct	_	_
@@ -32925,8 +32925,8 @@
 46	Nacional	Nacional	PROPN	PROPN	_	45	name	_	_
 47	de	de	ADP	ADP	AdpType=Prep	48	case	_	_
 48	Moneda	Moneda	PROPN	PROPN	_	45	name	_	_
-49	y	y	CONJ	CONJ	_	45	name	_	_
-50	Timbre	Timbre	PROPN	PROPN	_	45	name	_	_
+49	y	y	CONJ	CONJ	_	45	cc	_	_
+50	Timbre	Timbre	PROPN	PROPN	_	45	conj	_	_
 51	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id es-s862
@@ -34473,7 +34473,7 @@
 30	ni	ni	CONJ	CONJ	_	27	cc	_	_
 31	De	De	ADP	ADP	AdpType=Prep	33	case	_	MWE=De_la_Peña|MWEPOS=PROPN
 32	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	Peña	Peña	PROPN	PROPN	_	27	nsubj	_	_
+33	Peña	Peña	PROPN	PROPN	_	27	conj	_	_
 34	.	.	PUNCT	PUNCT	PunctType=Peri	25	punct	_	_
 
 # sent_id es-s914
@@ -36410,7 +36410,7 @@
 46	Tortosa	Tortosa	PROPN	PROPN	_	42	conj	_	_
 47	,	,	PUNCT	PUNCT	PunctType=Comm	42	punct	_	_
 48	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	MWE=El_Vendrell|MWEPOS=PROPN
-49	Vendrell	Vendrell	PROPN	PROPN	_	42	nmod	_	_
+49	Vendrell	Vendrell	PROPN	PROPN	_	42	conj	_	_
 50	,	,	PUNCT	PUNCT	PunctType=Comm	42	punct	_	_
 51	Vic	Vic	PROPN	PROPN	_	42	conj	_	_
 52	,	,	PUNCT	PUNCT	PunctType=Comm	42	punct	_	_
@@ -38375,7 +38375,7 @@
 18	Palo	Palo	PROPN	PROPN	_	16	name	_	_
 19	y	y	CONJ	CONJ	_	16	cc	_	_
 20	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	MWE=La_Oreja_de_Van_Gogh|MWEPOS=PROPN
-21	Oreja	Oreja	PROPN	PROPN	_	16	nmod	_	_
+21	Oreja	Oreja	PROPN	PROPN	_	16	conj	_	_
 22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 23	Van	Van	PROPN	PROPN	_	20	name	_	_
 24	Gogh	Gogh	PROPN	PROPN	_	23	name	_	_
@@ -42324,12 +42324,12 @@
 11	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 12	privados	privado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	10	amod	_	_
 13	todavía	todavía	ADV	ADV	_	12	advmod	_	_
-14	de	de	ADP	ADP	AdpType=Prep	19	case	_	_
+14	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
 15	De	De	ADP	ADP	AdpType=Prep	17	case	_	MWE=De_la_Fuente|MWEPOS=PROPN
 16	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	Fuente	Fuente	PROPN	PROPN	_	19	dobj	_	_
-18	y	y	CONJ	CONJ	_	19	cc	_	_
-19	Rodríguez	Rodríguez	PROPN	PROPN	_	12	dobj	_	_
+17	Fuente	Fuente	PROPN	PROPN	_	12	dobj	_	_
+18	y	y	CONJ	CONJ	_	17	cc	_	_
+19	Rodríguez	Rodríguez	PROPN	PROPN	_	17	conj	_	_
 20	y	y	CONJ	CONJ	_	12	cc	_	_
 21	con	con	ADP	ADP	AdpType=Prep	22	case	_	_
 22	Rentzias	Rentzias	PROPN	PROPN	_	12	conj	_	_
@@ -42828,8 +42828,8 @@
 11	popular	popular	ADJ	ADJ	Number=Sing	12	amod	_	_
 12	dúo	dúo	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
 13	Martes	Martes	PROPN	PROPN	_	12	appos	_	MWE=Martes_y_Trece|MWEPOS=PROPN
-14	y	y	CONJ	CONJ	_	13	name	_	_
-15	Trece	Trece	NUM	NUM	NumType=Card	13	nummod	_	_
+14	y	y	CONJ	CONJ	_	13	cc	_	_
+15	Trece	Trece	NUM	NUM	NumType=Card	13	conj	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 17	presentó	presentar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 18	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -43857,8 +43857,8 @@
 1	Euskadi	euskadi	PROPN	PROPN	_	8	nsubj	_	MWE=Euskadi_:_dolor_y_esperanza|MWEPOS=PROPN
 2	:	:	PUNCT	PUNCT	_	1	punct	_	_
 3	dolor	dolor	PROPN	PROPN	_	1	name	_	_
-4	y	y	CONJ	CONJ	_	1	name	_	_
-5	esperanza	esperanza	PROPN	PROPN	_	1	name	_	_
+4	y	y	CONJ	CONJ	_	3	cc	_	_
+5	esperanza	esperanza	PROPN	PROPN	_	3	conj	_	_
 6	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	título	título	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -48706,8 +48706,8 @@
 28	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	26	case	_	_
 29	movimiento	movimiento	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod	_	_
 30	Justicia	Justicia	PROPN	PROPN	_	29	appos	_	MWE=Justicia_y_Caridad|MWEPOS=PROPN
-31	y	y	CONJ	CONJ	_	30	name	_	_
-32	Caridad	Caridad	PROPN	PROPN	_	30	name	_	_
+31	y	y	CONJ	CONJ	_	30	cc	_	_
+32	Caridad	Caridad	PROPN	PROPN	_	30	conj	_	_
 33	,	,	PUNCT	PUNCT	PunctType=Comm	41	punct	_	_
 34	que	que	PRON	PRON	PronType=Rel	41	nsubj	_	_
 35	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
@@ -51556,9 +51556,9 @@
 4	autobús	autobús	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
 5	une	unir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	MWE=El_Vendrell|MWEPOS=PROPN
-7	Vendrell	Vendrell	PROPN	PROPN	_	9	dobj	_	_
-8	y	y	CONJ	CONJ	_	9	cc	_	_
-9	Andorra	Andorra	PROPN	PROPN	_	5	dobj	_	_
+7	Vendrell	Vendrell	PROPN	PROPN	_	5	dobj	_	_
+8	y	y	CONJ	CONJ	_	7	cc	_	_
+9	Andorra	Andorra	PROPN	PROPN	_	7	conj	_	_
 10	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id es-s1480
@@ -51579,11 +51579,11 @@
 14	transporte	transporte	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	_
 15	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 16	viajeros	viajero	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod	_	_
-17	entre	entre	ADP	ADP	AdpType=Prep	21	case	_	_
+17	entre	entre	ADP	ADP	AdpType=Prep	19	case	_	_
 18	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	MWE=El_Vendrell|MWEPOS=PROPN
-19	Vendrell	Vendrell	PROPN	PROPN	_	21	nmod	_	_
-20	y	y	CONJ	CONJ	_	21	cc	_	_
-21	Andorra	Andorra	PROPN	PROPN	_	11	nmod	_	_
+19	Vendrell	Vendrell	PROPN	PROPN	_	11	nmod	_	_
+20	y	y	CONJ	CONJ	_	19	cc	_	_
+21	Andorra	Andorra	PROPN	PROPN	_	19	conj	_	_
 22	que	que	PRON	PRON	PronType=Rel	24	nsubj	_	_
 23	será	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	cop	_	_
 24	operativa	operativo	ADJ	ADJ	Gender=Fem|Number=Sing	11	acl	_	_
@@ -55309,8 +55309,8 @@
 6	General	General	PROPN	PROPN	_	5	name	_	_
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 8	Medianos	Medianos	PROPN	PROPN	_	5	name	_	_
-9	y	y	CONJ	CONJ	_	5	name	_	_
-10	Pequeños	Pequeños	PROPN	PROPN	_	5	name	_	_
+9	y	y	CONJ	CONJ	_	5	cc	_	_
+10	Pequeños	Pequeños	PROPN	PROPN	_	5	conj	_	_
 11	Empresarios	Empresarios	PROPN	PROPN	_	10	name	_	_
 12	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	13	punct	_	_
 13	Copyme	Copyme	PROPN	PROPN	_	5	name	_	_
@@ -55360,8 +55360,8 @@
 3	Nacional	Nacional	PROPN	PROPN	_	2	name	_	_
 4	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
 5	Centrales	Centrales	PROPN	PROPN	_	2	name	_	_
-6	y	y	CONJ	CONJ	_	2	name	_	_
-7	Grupos	Grupos	PROPN	PROPN	_	2	name	_	_
+6	y	y	CONJ	CONJ	_	2	cc	_	_
+7	Grupos	Grupos	PROPN	PROPN	_	2	conj	_	_
 8	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 9	Compra	Compra	PROPN	PROPN	_	2	name	_	_
 10	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	11	punct	_	_
@@ -55864,8 +55864,8 @@
 32	Mercat	Mercat	PROPN	PROPN	_	30	nmod	_	_
 33	y	y	CONJ	CONJ	_	32	cc	_	_
 34	Font	Font	PROPN	PROPN	_	32	conj	_	MWE=Font_i_Sagué|MWEPOS=PROPN
-35	i	i	CONJ	CONJ	_	34	name	_	_
-36	Sagué	Sagué	PROPN	PROPN	_	34	name	_	_
+35	i	i	CONJ	CONJ	_	34	cc	_	_
+36	Sagué	Sagué	PROPN	PROPN	_	34	conj	_	_
 37	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id es-s1616
@@ -56542,22 +56542,22 @@
 46	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	27	punct	_	_
 47	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
 48	sintonías	sintonía	NOUN	NOUN	Gender=Fem|Number=Plur	22	conj	_	_
-49	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	56	punct	_	_
+49	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	51	punct	_	_
 50	De	De	ADP	ADP	AdpType=Prep	54	case	_	MWE=De_España_para_los_españoles|MWEPOS=PROPN
-51	España	España	PROPN	PROPN	_	56	appos	_	_
+51	España	España	PROPN	PROPN	_	48	appos	_	_
 52	para	para	ADP	ADP	AdpType=Prep	54	case	_	_
 53	los	los	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
 54	españoles	españoles	PROPN	PROPN	_	51	name	_	_
-55	,	,	PUNCT	PUNCT	PunctType=Comm	56	punct	_	_
-56	Elena	Elena	PROPN	PROPN	_	48	appos	_	MWE=Elena_Francis|MWEPOS=PROPN
+55	,	,	PUNCT	PUNCT	PunctType=Comm	51	punct	_	_
+56	Elena	Elena	PROPN	PROPN	_	51	conj	_	MWE=Elena_Francis|MWEPOS=PROPN
 57	Francis	Francis	PROPN	PROPN	_	56	name	_	_
-58	,	,	PUNCT	PUNCT	PunctType=Comm	56	punct	_	_
-59	Fantasía	Fantasía	PROPN	PROPN	_	56	conj	_	_
-60	,	,	PUNCT	PUNCT	PunctType=Comm	56	punct	_	_
-61	Protagonistas	Protagonistas	PROPN	PROPN	_	56	conj	_	MWE=Protagonistas_nosotros|MWEPOS=PROPN
+58	,	,	PUNCT	PUNCT	PunctType=Comm	51	punct	_	_
+59	Fantasía	Fantasía	PROPN	PROPN	_	51	conj	_	_
+60	,	,	PUNCT	PUNCT	PunctType=Comm	51	punct	_	_
+61	Protagonistas	Protagonistas	PROPN	PROPN	_	51	conj	_	MWE=Protagonistas_nosotros|MWEPOS=PROPN
 62	nosotros	nosotros	PROPN	PROPN	_	61	name	_	_
-63	...	...	PUNCT	PUNCT	PunctType=Comm	56	punct	_	_
-64	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	56	punct	_	_
+63	...	...	PUNCT	PUNCT	PunctType=Comm	51	punct	_	_
+64	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	51	punct	_	_
 65	y	y	CONJ	CONJ	_	22	cc	_	_
 66	hasta	hasta	ADV	ADV	_	67	advmod	_	_
 67	anuncios	anuncio	NOUN	NOUN	Gender=Masc|Number=Plur	22	conj	_	_
@@ -56565,7 +56565,7 @@
 69	Telefunken	Telefunken	PROPN	PROPN	_	67	appos	_	_
 70	,	,	PUNCT	PUNCT	PunctType=Comm	69	punct	_	_
 71	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	MWE=La_Lechera|MWEPOS=PROPN
-72	Lechera	Lechera	PROPN	PROPN	_	69	appos	_	_
+72	Lechera	Lechera	PROPN	PROPN	_	69	conj	_	_
 73	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	69	punct	_	_
 74	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
@@ -56840,8 +56840,8 @@
 48	ministro	ministro	NOUN	NOUN	Gender=Masc|Number=Sing	45	appos	_	_
 49	de	de	ADP	ADP	AdpType=Prep	50	case	_	_
 50	Información	Información	PROPN	PROPN	_	48	nmod	_	MWE=Información_y_Turismo|MWEPOS=PROPN
-51	y	y	CONJ	CONJ	_	50	name	_	_
-52	Turismo	Turismo	PROPN	PROPN	_	50	name	_	_
+51	y	y	CONJ	CONJ	_	50	cc	_	_
+52	Turismo	Turismo	PROPN	PROPN	_	50	conj	_	_
 53	que	que	PRON	PRON	PronType=Rel	64	nsubj	_	_
 54	,	,	PUNCT	PUNCT	PunctType=Comm	56	punct	_	_
 55	en	en	ADP	ADP	AdpType=Prep	56	case	_	_
