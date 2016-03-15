@@ -2126,11 +2126,11 @@
 21	defraudado	defraudado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	3	advmod	_	_
 22	por	por	ADP	ADP	AdpType=Prep	23	case	_	_
 23	hombres	hombre	NOUN	NOUN	Gender=Masc|Number=Plur	21	dobj	_	_
-24	cuya	cuyo	PRON	PRON	Gender=Fem|Number=Sing|PronType=Rel	30	nsubj	_	_
-25	permanencia	permanencia	NOUN	NOUN	Gender=Fem|Number=Sing	24	case	_	_
+24	cuya	cuyo	PRON	PRON	Gender=Fem|Number=Sing|PronType=Rel	25	nmod	_	_
+25	permanencia	permanencia	NOUN	NOUN	Gender=Fem|Number=Sing	30	nsubj	_	_
 26	en	en	ADP	ADP	AdpType=Prep	28	case	_	_
 27	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	equipo	equipo	NOUN	NOUN	Gender=Masc|Number=Sing	24	nmod	_	_
+28	equipo	equipo	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
 29	estaba	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	cop	_	_
 30	más	más	ADV	ADV	_	23	acl	_	_
 31	que	que	SCONJ	SCONJ	_	32	mark	_	_
@@ -4146,8 +4146,8 @@
 15	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 16	selenio	selenio	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
 17	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
-18	cuya	cuyo	PRON	PRON	Gender=Fem|Number=Sing|PronType=Rel	21	nsubj	_	_
-19	distancia	distancia	NOUN	NOUN	Gender=Fem|Number=Sing	18	case	_	_
+18	cuya	cuyo	PRON	PRON	Gender=Fem|Number=Sing|PronType=Rel	19	nmod	_	_
+19	distancia	distancia	NOUN	NOUN	Gender=Fem|Number=Sing	21	nsubj	_	_
 20	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 21	menor	menor	ADJ	ADJ	Number=Sing	16	acl	_	_
 22	que	que	SCONJ	SCONJ	_	24	mark	_	_
@@ -8242,10 +8242,10 @@
 4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	decoración	decoración	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
-7	en	en	ADP	ADP	AdpType=Prep	8	case	_	_
-8	cuyos	cuyo	PRON	PRON	Gender=Masc|Number=Plur|PronType=Rel	11	iobj	_	_
-9	torpes	torpe	ADJ	ADJ	Number=Plur	8	amod	_	_
-10	misterios	misterio	NOUN	NOUN	Gender=Masc|Number=Plur	8	case	_	_
+7	en	en	ADP	ADP	AdpType=Prep	10	case	_	_
+8	cuyos	cuyo	PRON	PRON	Gender=Masc|Number=Plur|PronType=Rel	10	nmod	_	_
+9	torpes	torpe	ADJ	ADJ	Number=Plur	10	amod	_	_
+10	misterios	misterio	NOUN	NOUN	Gender=Masc|Number=Plur	11	iobj	_	_
 11	decidiera	decidir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl	_	_
 12	iniciarse	iniciar	VERB	VERB	VerbForm=Inf	11	xcomp	_	_
 13	con	con	ADP	ADP	AdpType=Prep	16	case	_	_
@@ -8976,9 +8976,9 @@
 # orig_file_sentence 003#73
 1	Atencia	Atencia	PROPN	PROPN	_	2	nsubj	_	_
 2	calificó	calificar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	ADP	AdpType=Prep	2	dobj	_	_
+3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
 4	"	"	PUNCT	PUNCT	PunctType=Quot	5	punct	_	_
-5	históricos	histórico	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
+5	históricos	histórico	ADJ	ADJ	Gender=Masc|Number=Plur	2	dobj	_	_
 6	"	"	PUNCT	PUNCT	PunctType=Quot	5	punct	_	_
 7	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	resultados	resultado	NOUN	NOUN	Gender=Masc|Number=Plur	2	dobj	_	_
@@ -16383,7 +16383,7 @@
 # orig_file_sentence 005#48
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	MWE=En_referencia|MWEPOS=ADP
 2	referencia	referencia	NOUN	NOUN	_	1	mwe	_	_
-3	concreta	concreto	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+3	concreta	concreto	ADJ	ADJ	Gender=Fem|Number=Sing	10	advmod	_	_
 4	a	a	ADP	ADP	AdpType=Prep	1	mwe	_	_
 5	Navarra	Navarra	PROPN	PROPN	_	3	nmod	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
@@ -18385,15 +18385,15 @@
 8	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 9	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	contrario	contrario	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
-11	que	que	PRON	PRON	PronType=Rel	10	nmod	_	_
-12	Edie	Edie	PROPN	PROPN	_	11	case	_	MWE=Edie_Payne|MWEPOS=PROPN
-13	Payne	Payne	PROPN	PROPN	_	11	name	_	_
+11	que	que	PRON	PRON	PronType=Rel	12	nmod	_	_
+12	Edie	Edie	PROPN	PROPN	_	10	nmod	_	MWE=Edie_Payne|MWEPOS=PROPN
+13	Payne	Payne	PROPN	PROPN	_	12	name	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
 15	ex	ex	ADJ	ADJ	_	16	amod	_	_
-16	atleta	atleta	NOUN	NOUN	Number=Sing	11	appos	_	_
+16	atleta	atleta	NOUN	NOUN	Number=Sing	12	appos	_	_
 17	australiana	australiano	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
 18	que	que	PRON	PRON	PronType=Rel	19	nsubj	_	_
-19	participó	participar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	_
+19	participó	participar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	_
 20	en	en	ADP	ADP	AdpType=Prep	22	case	_	_
 21	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	JJ.OO.	JJ.OO.	PROPN	PROPN	_	19	dobj	_	_
@@ -20561,8 +20561,8 @@
 28	aprovechando	aprovechar	VERB	VERB	VerbForm=Ger	46	advcl	_	_
 29	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
 30	condición	condición	NOUN	NOUN	Gender=Fem|Number=Sing	28	dobj	_	_
-31	de	de	ADP	ADP	AdpType=Prep	30	nmod	_	_
-32	local	local	ADJ	ADJ	Number=Sing	31	amod	_	_
+31	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
+32	local	local	ADJ	ADJ	Number=Sing	30	amod	_	_
 33	y	y	CONJ	CONJ	_	30	cc	_	_
 34	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	talento	talento	NOUN	NOUN	Gender=Masc|Number=Sing	30	conj	_	_
@@ -23974,13 +23974,13 @@
 24	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	26	punct	_	_
 25	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 26	mismos	mismo	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	20	appos	_	_
-27	que	que	PRON	PRON	PronType=Rel	26	nmod	_	_
-28	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-29	1A	1A	PROPN	PROPN	_	27	case	_	_
-30	y	y	CONJ	CONJ	_	27	cc	_	_
+27	que	que	PRON	PRON	PronType=Rel	29	nmod	_	_
+28	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	1A	1A	PROPN	PROPN	_	26	nmod	_	_
+30	y	y	CONJ	CONJ	_	29	cc	_	_
 31	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	1B	1B	PROPN	PROPN	_	27	conj	_	_
-33	juntos	junto	ADJ	ADJ	Gender=Masc|Number=Plur	27	amod	_	_
+32	1B	1B	PROPN	PROPN	_	29	conj	_	_
+33	juntos	junto	ADJ	ADJ	Gender=Masc|Number=Plur	29	amod	_	_
 34	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	26	punct	_	_
 35	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 36	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
@@ -34109,8 +34109,8 @@
 37	Storting	Storting	PROPN	PROPN	_	35	nmod	_	_
 38	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	_
 39	gobernarán	gobernar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	28	csubj	_	_
-40	en	en	ADP	ADP	AdpType=Prep	39	advmod	_	_
-41	solitario	solitario	ADJ	ADJ	Gender=Masc|Number=Sing	40	amod	_	_
+40	en	en	ADP	ADP	AdpType=Prep	41	case	_	_
+41	solitario	solitario	ADJ	ADJ	Gender=Masc|Number=Sing	39	advmod	_	_
 42	con	con	ADP	ADP	AdpType=Prep	45	case	_	_
 43	sus	su	PRON	PRON	Number=Plur|Person=3|Poss=Yes|PronType=Prs	44	nmod	_	_
 44	65	65	NUM	NUM	NumForm=Digit	45	nummod	_	_
@@ -48029,8 +48029,8 @@
 3	¿	¿	PUNCT	PUNCT	PunctSide=Ini|PunctType=Qest	5	punct	_	_
 4	Es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	iconoclasta	iconoclasta	ADJ	ADJ	Number=Sing	0	root	_	_
-6	por	por	ADP	ADP	AdpType=Prep	5	advmod	_	_
-7	valenciano	valenciano	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+6	por	por	ADP	ADP	AdpType=Prep	7	case	_	_
+7	valenciano	valenciano	ADJ	ADJ	Gender=Masc|Number=Sing	5	advmod	_	_
 8	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	5	punct	_	_
 9	-	-	PUNCT	PUNCT	PunctType=Dash	5	punct	_	_
 10	-	-	PUNCT	PUNCT	PunctType=Dash	5	punct	_	_
@@ -48038,11 +48038,11 @@
 
 # sent_id es-s1391
 # orig_file_sentence 014#91
-1	¿	¿	PUNCT	PUNCT	PunctSide=Ini|PunctType=Qest	2	punct	_	_
-2	Por	por	ADP	ADP	AdpType=Prep	0	root	_	_
-3	valenciano	valenciano	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
-4	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	2	punct	_	_
-5	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
+1	¿	¿	PUNCT	PUNCT	PunctSide=Ini|PunctType=Qest	3	punct	_	_
+2	Por	por	ADP	ADP	AdpType=Prep	3	case	_	_
+3	valenciano	valenciano	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+4	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	3	punct	_	_
+5	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s1392
 # orig_file_sentence 014#92
@@ -48314,9 +48314,9 @@
 3	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	régimen	régimen	NOUN	NOUN	Gender=Masc|Number=Sing	2	dobj	_	_
 5	calificado	calificado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	4	amod	_	_
-6	de	de	ADP	ADP	AdpType=Prep	5	dobj	_	_
+6	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 7	"	"	PUNCT	PUNCT	PunctType=Quot	8	punct	_	_
-8	semilaboral	semilaboral	ADJ	ADJ	Number=Sing	6	amod	_	_
+8	semilaboral	semilaboral	ADJ	ADJ	Number=Sing	5	dobj	_	_
 9	"	"	PUNCT	PUNCT	PunctType=Quot	8	punct	_	_
 10	por	por	ADP	ADP	AdpType=Prep	12	case	_	_
 11	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
@@ -49122,9 +49122,9 @@
 23	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 24	que	que	PRON	PRON	PronType=Rel	25	dobj	_	_
 25	calificó	calificar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	acl	_	_
-26	de	de	ADP	ADP	AdpType=Prep	25	dobj	_	_
+26	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
 27	"	"	PUNCT	PUNCT	PunctType=Quot	28	punct	_	_
-28	inaceptables	inaceptable	ADJ	ADJ	Number=Plur	26	amod	_	_
+28	inaceptables	inaceptable	ADJ	ADJ	Number=Plur	25	dobj	_	_
 29	"	"	PUNCT	PUNCT	PunctType=Quot	28	punct	_	_
 30	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 31	y	y	CONJ	CONJ	_	17	cc	_	_
@@ -54367,9 +54367,9 @@
 29	y	y	CONJ	CONJ	_	17	cc	_	_
 30	que	que	PRON	PRON	PronType=Rel	31	dobj	_	_
 31	calificó	calificar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
-32	de	de	ADP	ADP	AdpType=Prep	31	dobj	_	_
+32	de	de	ADP	ADP	AdpType=Prep	34	case	_	_
 33	"	"	PUNCT	PUNCT	PunctType=Quot	34	punct	_	_
-34	rupturista	rupturista	ADJ	ADJ	Number=Sing	32	amod	_	_
+34	rupturista	rupturista	ADJ	ADJ	Number=Sing	31	dobj	_	_
 35	con	con	ADP	ADP	AdpType=Prep	37	case	_	_
 36	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	Pacto	Pacto	PROPN	PROPN	_	34	nmod	_	MWE=Pacto_de_Toledo|MWEPOS=PROPN

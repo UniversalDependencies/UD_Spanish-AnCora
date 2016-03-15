@@ -91,12 +91,12 @@
   <deps unique="29">
     <dep name="acl">10550</dep>
     <dep name="advcl">8572</dep>
-    <dep name="advmod">14491</dep>
-    <dep name="amod">29599</dep>
+    <dep name="advmod">14492</dep>
+    <dep name="amod">29511</dep>
     <dep name="appos">7604</dep>
     <dep name="aux">9736</dep>
     <dep name="auxpass:reflex">503</dep>
-    <dep name="case">75229</dep>
+    <dep name="case">75302</dep>
     <dep name="cc">15239</dep>
     <dep name="ccomp">5103</dep>
     <dep name="compound">2722</dep>
@@ -111,7 +111,7 @@
     <dep name="mwe">7930</dep>
     <dep name="name">14459</dep>
     <dep name="neg">3522</dep>
-    <dep name="nmod">65253</dep>
+    <dep name="nmod">65267</dep>
     <dep name="nsubj">29710</dep>
     <dep name="nummod">5658</dep>
     <dep name="parataxis">703</dep>
