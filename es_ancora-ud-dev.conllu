@@ -631,8 +631,8 @@
 14	obligado	obligado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	13	dobj	_	_
 15	a	a	ADP	ADP	AdpType=Prep	16	mark	_	_
 16	salir	salir	VERB	VERB	VerbForm=Inf	14	advcl	_	MWE=salir_al_paso|MWEPOS=VERB
-17	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	16	compound	_	_
-18	paso	paso	VERB	VERB	VerbForm=Inf	16	compound	_	_
+17	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	18	case	_	_
+18	paso	paso	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound	_	_
 19	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 20	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 21	ya	ya	ADV	ADV	_	23	advmod	_	_
@@ -4404,7 +4404,7 @@
 2	macho	macho	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	él	PRON	PRON	Person=3	4	dobj	_	_
 4	hace	hacerse	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=hace_cargo|MWEPOS=VERB
-5	cargo	cargo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	compound	_	_
+5	cargo	cargo	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound	_	_
 6	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	responsabilidad	responsabilidad	NOUN	NOUN	Gender=Fem|Number=Sing	4	dobj	_	_
@@ -4412,7 +4412,7 @@
 10	onerosa	oneroso	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	mark	_	_
 12	sacar	sacar	VERB	VERB	VerbForm=Inf	8	acl	_	MWE=sacar_adelante|MWEPOS=VERB
-13	adelante	adelante	VERB	VERB	VerbForm=Inf	12	compound	_	_
+13	adelante	adelante	NOUN	NOUN	Number=Sing	12	compound	_	_
 14	por	por	ADP	ADP	AdpType=Prep	15	case	_	_
 15	sí	él	PRON	PRON	Person=3|PrepCase=Pre|PronType=Prs	12	nmod	_	_
 16	solo	solo	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
@@ -5107,7 +5107,7 @@
 15	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	16	case	_	_
 16	rojo	rojo	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
 17	tuvo	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	MWE=tuvo_lugar|MWEPOS=VERB
-18	lugar	lugar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	compound	_	_
+18	lugar	lugar	NOUN	NOUN	Number=Sing	17	compound	_	_
 19	en	en	ADP	ADP	AdpType=Prep	20	case	_	_
 20	1976	1976	NOUN	NOUN	AdvType=Tim	17	nmod	_	_
 21	.	.	PUNCT	PUNCT	PunctType=Peri	17	punct	_	_
@@ -5425,7 +5425,7 @@
 5	que	que	PRON	PRON	PronType=Rel	6	nsubj	_	_
 6	intentó	intentar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	_
 7	hacer	hacer	VERB	VERB	VerbForm=Inf	6	xcomp	_	MWE=hacer_frente|MWEPOS=VERB
-8	frente	frente	VERB	VERB	VerbForm=Inf	7	compound	_	_
+8	frente	frente	NOUN	NOUN	Number=Sing	7	compound	_	_
 9	a	a	ADP	ADP	AdpType=Prep	11	case	_	_
 10	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	seguidores	seguidor	NOUN	NOUN	Gender=Masc|Number=Plur	7	dobj	_	_
@@ -6031,7 +6031,7 @@
 29	hay	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
 30	que	que	SCONJ	SCONJ	_	29	cc	_	_
 31	poner	poner	VERB	VERB	VerbForm=Inf	29	conj	_	MWE=poner_fin|MWEPOS=VERB
-32	fin	fin	VERB	VERB	VerbForm=Inf	31	compound	_	_
+32	fin	fin	NOUN	NOUN	Number=Sing	31	compound	_	_
 33	a	a	ADP	ADP	AdpType=Prep	35	case	_	_
 34	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
 35	noches	noche	NOUN	NOUN	Gender=Fem|Number=Plur	31	dobj	_	_
@@ -6614,7 +6614,7 @@
 5	nos	yo	PRON	PRON	Number=Plur|Person=1	7	dobj	_	_
 6	habremos	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	7	aux	_	_
 7	dado	dar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	MWE=dado_cuenta|MWEPOS=VERB
-8	cuenta	cuenta	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	compound	_	_
+8	cuenta	cuenta	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound	_	_
 9	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	7	punct	_	_
 10	'	'	SYM	SYM	_	7	nmod	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
@@ -8512,8 +8512,8 @@
 29	Gobierno	Gobierno	PROPN	PROPN	_	27	iobj	_	_
 30	de	de	ADP	ADP	AdpType=Prep	31	mark	_	_
 31	llevar	llevar	VERB	VERB	VerbForm=Inf	27	xcomp	_	MWE=llevar_a_cabo|MWEPOS=VERB
-32	a	a	ADP	ADP	AdpType=Prep	31	compound	_	_
-33	cabo	cabo	VERB	VERB	VerbForm=Inf	31	compound	_	_
+32	a	a	ADP	ADP	AdpType=Prep	33	case	_	_
+33	cabo	cabo	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound	_	_
 34	estas	este	DET	DET	Gender=Fem|Number=Plur|PronType=Dem	35	det	_	_
 35	acciones	acción	NOUN	NOUN	Gender=Fem|Number=Plur	31	dobj	_	_
 36	para	para	ADP	ADP	AdpType=Prep	57	mark	_	_
@@ -14716,7 +14716,7 @@
 28	"	"	PUNCT	PUNCT	PunctType=Quot	22	punct	_	_
 29	y	y	CONJ	CONJ	_	22	cc	_	_
 30	pusiera	poner	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj	_	MWE=pusiera_fin|MWEPOS=VERB
-31	fin	fin	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	compound	_	_
+31	fin	fin	NOUN	NOUN	Number=Sing	30	compound	_	_
 32	"	"	PUNCT	PUNCT	PunctType=Quot	34	punct	_	_
 33	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	34	case	_	_
 34	uso	uso	NOUN	NOUN	Gender=Masc|Number=Sing	30	dobj	_	_
@@ -14756,8 +14756,8 @@
 23	o	o	CONJ	CONJ	_	18	cc	_	_
 24	de	de	ADP	ADP	AdpType=Prep	25	mark	_	_
 25	llevar	llevar	VERB	VERB	VerbForm=Inf	18	conj	_	MWE=llevar_a_cabo|MWEPOS=VERB
-26	a	a	ADP	ADP	AdpType=Prep	25	compound	_	_
-27	cabo	cabo	VERB	VERB	VerbForm=Inf	25	compound	_	_
+26	a	a	ADP	ADP	AdpType=Prep	27	case	_	_
+27	cabo	cabo	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound	_	_
 28	alguna	alguno	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_
 29	fusión	fusión	NOUN	NOUN	Gender=Fem|Number=Sing	25	dobj	_	_
 30	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
@@ -17185,8 +17185,8 @@
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	lehendakari	lehendakari	NOUN	NOUN	Number=Sing	3	nsubj	_	_
 3	puso	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	MWE=puso_de_relieve|MWEPOS=VERB
-4	de	de	ADP	ADP	AdpType=Prep	3	compound	_	_
-5	relieve	relieve	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	compound	_	_
+4	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
+5	relieve	relieve	NOUN	NOUN	Number=Sing	3	compound	_	_
 6	que	que	SCONJ	SCONJ	_	11	mark	_	_
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	PNV	PNV	PROPN	PROPN	_	11	nsubj	_	_
@@ -17523,7 +17523,7 @@
 25	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 26	para	para	ADP	ADP	AdpType=Prep	27	mark	_	_
 27	tomar	tomar	VERB	VERB	VerbForm=Inf	12	advcl	_	MWE=tomar_contacto|MWEPOS=VERB
-28	contacto	contacto	VERB	VERB	VerbForm=Inf	27	compound	_	_
+28	contacto	contacto	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound	_	_
 29	con	con	ADP	ADP	AdpType=Prep	31	case	_	_
 30	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	tramo	tramo	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod	_	_
@@ -17971,8 +17971,8 @@
 24	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
 25	quien	quien	PRON	PRON	Number=Sing|PronType=Rel	26	nsubj	_	_
 26	puso	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl	_	MWE=puso_de_manifiesto|MWEPOS=VERB
-27	de	de	ADP	ADP	AdpType=Prep	26	compound	_	_
-28	manifiesto	manifiesto	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	compound	_	_
+27	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
+28	manifiesto	manifiesto	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound	_	_
 29	que	que	SCONJ	SCONJ	_	35	mark	_	_
 30	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	política	política	NOUN	NOUN	Gender=Fem|Number=Sing	35	nsubj	_	_
@@ -18242,8 +18242,8 @@
 7	encuentro	encuentro	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
 8	se	se	PRON	PRON	_	9	dobj	_	_
 9	puso	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	MWE=puso_de_manifiesto|MWEPOS=VERB
-10	de	de	ADP	ADP	AdpType=Prep	9	compound	_	_
-11	manifiesto	manifiesto	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	compound	_	_
+10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
+11	manifiesto	manifiesto	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	voluntad	voluntad	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
 14	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
@@ -18960,7 +18960,7 @@
 21	manifestaciones	manifestación	NOUN	NOUN	Gender=Fem|Number=Plur	20	nsubj	_	_
 22	y	y	CONJ	CONJ	_	20	cc	_	_
 23	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	MWE=hace_falta|MWEPOS=VERB
-24	falta	falta	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	compound	_	_
+24	falta	falta	NOUN	NOUN	Gender=Fem|Number=Sing	23	compound	_	_
 25	algo	algo	PRON	PRON	Number=Sing|PronType=Ind	23	nsubj	_	_
 26	más	más	ADV	ADV	_	25	advmod	_	_
 27	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
@@ -19054,8 +19054,8 @@
 32	cuando	cuando	SCONJ	SCONJ	_	34	mark	_	_
 33	les	él	PRON	PRON	Case=Dat|Number=Plur|Person=3|PronType=Prs	34	dobj	_	_
 34	dé	dar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	MWE=dé_la_gana|MWEPOS=VERB
-35	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	compound	_	_
-36	gana	gana	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	compound	_	_
+35	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	case	_	_
+36	gana	gana	NOUN	NOUN	Gender=Fem|Number=Sing	34	compound	_	_
 37	pero	pero	CONJ	CONJ	_	22	cc	_	_
 38	deberían	deber	AUX	AUX	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	39	aux	_	_
 39	saber	saber	VERB	VERB	VerbForm=Inf	22	conj	_	_
@@ -22419,7 +22419,7 @@
 31	Organización	Organización	PROPN	PROPN	_	33	nsubj	_	MWE=Organización_Electoral|MWEPOS=PROPN
 32	Electoral	Electoral	PROPN	PROPN	_	31	name	_	_
 33	puso	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	MWE=puso_fin|MWEPOS=VERB
-34	fin	fin	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	compound	_	_
+34	fin	fin	NOUN	NOUN	Number=Sing	33	compound	_	_
 35	a	a	ADP	ADP	AdpType=Prep	37	case	_	_
 36	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	jornada	jornada	NOUN	NOUN	Gender=Fem|Number=Sing	33	dobj	_	_
@@ -23799,8 +23799,8 @@
 8	va	ir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 9	a	a	ADP	ADP	AdpType=Prep	10	mark	_	_
 10	llevar	llevar	VERB	VERB	VerbForm=Inf	25	csubj	_	MWE=llevar_a_cabo|MWEPOS=VERB
-11	a	a	ADP	ADP	AdpType=Prep	10	compound	_	_
-12	cabo	cabo	VERB	VERB	VerbForm=Inf	10	compound	_	_
+11	a	a	ADP	ADP	AdpType=Prep	12	case	_	_
+12	cabo	cabo	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound	_	_
 13	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	campaña	campaña	NOUN	NOUN	Gender=Fem|Number=Sing	10	dobj	_	_
 15	para	para	ADP	ADP	AdpType=Prep	20	mark	_	_
@@ -24009,8 +24009,8 @@
 6	Ministerio	Ministerio	PROPN	PROPN	_	4	nmod	_	_
 7	se	se	PRON	PRON	_	8	dobj	_	_
 8	pondrá	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=pondrá_en_marcha|MWEPOS=VERB
-9	en	en	ADP	ADP	AdpType=Prep	8	compound	_	_
-10	marcha	marcha	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	compound	_	_
+9	en	en	ADP	ADP	AdpType=Prep	10	case	_	_
+10	marcha	marcha	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound	_	_
 11	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	número	número	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
@@ -24040,8 +24040,8 @@
 37	según	según	SCONJ	SCONJ	_	39	mark	_	_
 38	se	se	PRON	PRON	_	39	dobj	_	_
 39	puso	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	MWE=puso_de_manifiesto|MWEPOS=VERB
-40	de	de	ADP	ADP	AdpType=Prep	39	compound	_	_
-41	manifiesto	manifiesto	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	compound	_	_
+40	de	de	ADP	ADP	AdpType=Prep	41	case	_	_
+41	manifiesto	manifiesto	NOUN	NOUN	Gender=Masc|Number=Sing	39	compound	_	_
 42	hoy	hoy	ADV	ADV	_	39	advmod	_	_
 43	durante	durante	ADP	ADP	AdpType=Prep	45	case	_	_
 44	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
@@ -27232,7 +27232,7 @@
 1	EL	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	RAYO	rayo	PROPN	PROPN	_	3	nsubj	_	_
 3	PONE	pone	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=PONE_FIN|MWEPOS=VERB
-4	FIN	fin	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	compound	_	_
+4	FIN	fin	NOUN	NOUN	Number=Sing	3	compound	_	_
 5	A	a	ADP	ADP	AdpType=Prep	8	case	_	_
 6	SU	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
 7	MALA	mala	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
@@ -27250,7 +27250,7 @@
 2	Rayo	Rayo	PROPN	PROPN	_	4	nsubj	_	MWE=Rayo_Vallecano|MWEPOS=PROPN
 3	Vallecano	Vallecano	PROPN	PROPN	_	2	name	_	_
 4	puso	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	MWE=puso_fin|MWEPOS=VERB
-5	fin	fin	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	compound	_	_
+5	fin	fin	NOUN	NOUN	Number=Sing	4	compound	_	_
 6	a	a	ADP	ADP	AdpType=Prep	8	case	_	_
 7	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	racha	racha	NOUN	NOUN	Gender=Fem|Number=Sing	4	dobj	_	_
@@ -28292,7 +28292,7 @@
 9	Barak	Barak	PROPN	PROPN	_	8	name	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 11	pone	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=pone_fin|MWEPOS=VERB
-12	fin	fin	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	compound	_	_
+12	fin	fin	NOUN	NOUN	Number=Sing	11	compound	_	_
 13	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	14	case	_	_
 14	Gobierno	Gobierno	PROPN	PROPN	_	11	dobj	_	_
 15	más	más	ADV	ADV	_	16	advmod	_	_
@@ -29082,7 +29082,7 @@
 24	oposición	oposición	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
 25	para	para	ADP	ADP	AdpType=Prep	26	mark	_	_
 26	hacer	hacer	VERB	VERB	VerbForm=Inf	13	advcl	_	MWE=hacer_frente|MWEPOS=VERB
-27	frente	frente	VERB	VERB	VerbForm=Inf	26	compound	_	_
+27	frente	frente	NOUN	NOUN	Number=Sing	26	compound	_	_
 28	a	a	ADP	ADP	AdpType=Prep	30	case	_	_
 29	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	crisis	crisis	NOUN	NOUN	Gender=Fem	26	dobj	_	_
@@ -29760,7 +29760,7 @@
 42	gusta	gustar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	ccomp	_	_
 43	"	"	PUNCT	PUNCT	PunctType=Quot	44	punct	_	_
 44	hacer	hacer	VERB	VERB	VerbForm=Inf	42	csubj	_	MWE=hacer_gala|MWEPOS=VERB
-45	gala	gala	VERB	VERB	VerbForm=Inf	44	compound	_	_
+45	gala	gala	NOUN	NOUN	Gender=Fem|Number=Sing	44	compound	_	_
 46	de	de	ADP	ADP	AdpType=Prep	51	mark	_	_
 47	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
 48	que	que	PRON	PRON	PronType=Rel	51	nsubj	_	_
@@ -29809,7 +29809,7 @@
 16	como	como	SCONJ	SCONJ	_	18	mark	_	MWE=como_para|MWEPOS=SCONJ
 17	para	para	ADP	ADP	AdpType=Prep	16	mwe	_	_
 18	hacer	hacer	VERB	VERB	VerbForm=Inf	5	advcl	_	MWE=hacer_gala|MWEPOS=VERB
-19	gala	gala	VERB	VERB	VerbForm=Inf	18	compound	_	_
+19	gala	gala	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound	_	_
 20	de	de	ADP	ADP	AdpType=Prep	22	mark	_	_
 21	haber	haber	AUX	AUX	VerbForm=Inf	22	aux	_	_
 22	tenido	tener	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	_
@@ -29842,7 +29842,7 @@
 49	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	det	_	_
 50	escolta	escolta	NOUN	NOUN	Number=Sing	51	nsubj	_	_
 51	dio	dar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	conj	_	MWE=dio_parte|MWEPOS=VERB
-52	parte	parte	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	51	compound	_	_
+52	parte	parte	NOUN	NOUN	Number=Sing	51	compound	_	_
 53	de	de	ADP	ADP	AdpType=Prep	55	case	_	_
 54	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	55	det	_	_
 55	ocurrido	ocurrido	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	51	dobj	_	_
@@ -30235,7 +30235,7 @@
 44	Ejecutivo	Ejecutivo	PROPN	PROPN	_	46	nsubj	_	_
 45	se	él	PRON	PRON	Person=3	46	iobj	_	_
 46	diera	dar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	advcl	_	MWE=diera_cuenta|MWEPOS=VERB
-47	cuenta	cuenta	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	46	compound	_	_
+47	cuenta	cuenta	NOUN	NOUN	Gender=Fem|Number=Sing	46	compound	_	_
 48	de	de	ADP	ADP	AdpType=Prep	52	mark	_	_
 49	que	que	SCONJ	SCONJ	_	52	mark	_	_
 50	era	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	52	cop	_	_
@@ -32826,8 +32826,8 @@
 5	que	que	PRON	PRON	PronType=Rel	7	nmod	_	_
 6	se	se	PRON	PRON	_	7	dobj	_	_
 7	pone	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	MWE=pone_en_funcionamiento|MWEPOS=VERB
-8	en	en	ADP	ADP	AdpType=Prep	7	compound	_	_
-9	funcionamiento	funcionamiento	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	compound	_	_
+8	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
+9	funcionamiento	funcionamiento	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound	_	_
 10	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	servicio	servicio	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
 12	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
@@ -33179,8 +33179,8 @@
 17	que	que	SCONJ	SCONJ	_	19	mark	_	_
 18	se	se	PRON	PRON	_	19	dobj	_	_
 19	tengan	tener	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	MWE=tengan_en_cuenta|MWEPOS=VERB
-20	en	en	ADP	ADP	AdpType=Prep	19	compound	_	_
-21	cuenta	cuenta	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	compound	_	_
+20	en	en	ADP	ADP	AdpType=Prep	21	case	_	_
+21	cuenta	cuenta	NOUN	NOUN	Gender=Fem|Number=Sing	19	compound	_	_
 22	en	en	ADP	ADP	AdpType=Prep	24	case	_	_
 23	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	proceso	proceso	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
@@ -33844,8 +33844,8 @@
 # sent_id es-s892
 # orig_file_sentence 009#91
 1	Teniendo	tener	VERB	VERB	VerbForm=Ger	17	advcl	_	MWE=Teniendo_en_cuenta|MWEPOS=VERB
-2	en	en	ADP	ADP	AdpType=Prep	1	compound	_	_
-3	cuenta	cuenta	VERB	VERB	VerbForm=Ger	1	compound	_	_
+2	en	en	ADP	ADP	AdpType=Prep	3	case	_	_
+3	cuenta	cuenta	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound	_	_
 4	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
 5	escasa	escaso	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
 6	estatura	estatura	NOUN	NOUN	Gender=Fem|Number=Sing	1	dobj	_	_
@@ -35972,8 +35972,8 @@
 18	candidatos	candidato	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
 19	que	que	PRON	PRON	PronType=Rel	20	nsubj	_	_
 20	puso	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl	_	MWE=puso_de_manifiesto|MWEPOS=VERB
-21	de	de	ADP	ADP	AdpType=Prep	20	compound	_	_
-22	manifiesto	manifiesto	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	compound	_	_
+21	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
+22	manifiesto	manifiesto	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound	_	_
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	existencia	existencia	NOUN	NOUN	Gender=Fem|Number=Sing	20	dobj	_	_
 25	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
@@ -36202,7 +36202,7 @@
 7	que	que	SCONJ	SCONJ	_	9	mark	_	_
 8	se	él	PRON	PRON	Person=3	9	dobj	_	_
 9	haga	hacerse	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	MWE=haga_cargo|MWEPOS=VERB
-10	cargo	cargo	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	compound	_	_
+10	cargo	cargo	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 12	Paral.lel	Paral.lel	PROPN	PROPN	_	9	dobj	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
@@ -38068,8 +38068,8 @@
 11	que	que	PRON	PRON	PronType=Rel	13	nsubj	_	_
 12	me	yo	PRON	PRON	Number=Sing|Person=1|PronType=Prs	13	dobj	_	_
 13	da	dar	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing	7	ccomp	_	MWE=da_la_gana|MWEPOS=VERB
-14	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	compound	_	_
-15	gana	gana	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	compound	_	_
+14	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	case	_	_
+15	gana	gana	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound	_	_
 16	;	;	PUNCT	PUNCT	PunctType=Semi	7	punct	_	_
 17	no	no	ADV	ADV	Negative=Neg	18	neg	_	_
 18	atiendo	atender	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
@@ -40621,8 +40621,8 @@
 9	equipo	equipo	NOUN	NOUN	Gender=Masc|Number=Sing	2	acl	_	_
 10	neriazzurro	neriazzurro	ADJ	ADJ	_	9	amod	_	_
 11	tiene	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=tiene_que_ver|MWEPOS=VERB
-12	que	que	SCONJ	SCONJ	_	11	compound	_	_
-13	ver	ver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	compound	_	_
+12	que	que	SCONJ	SCONJ	_	13	case	_	_
+13	ver	ver	NOUN	NOUN	Number=Sing	11	compound	_	_
 14	con	con	ADP	ADP	AdpType=Prep	16	case	_	_
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	pasado	pasado	NOUN	NOUN	Gender=Masc|Number=Sing	11	dobj	_	_
@@ -43454,8 +43454,8 @@
 12	a	a	ADP	ADP	AdpType=Prep	14	mark	_	_
 13	"	"	PUNCT	PUNCT	PunctType=Quot	14	punct	_	_
 14	tirar	tirar	VERB	VERB	VerbForm=Inf	3	xcomp	_	MWE=tirar_al_monte|MWEPOS=VERB
-15	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	14	compound	_	_
-16	monte	monte	VERB	VERB	VerbForm=Inf	14	compound	_	_
+15	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	16	case	_	_
+16	monte	monte	NOUN	NOUN	Number=Sing	14	compound	_	_
 17	"	"	PUNCT	PUNCT	PunctType=Quot	14	punct	_	_
 18	en	en	ADP	ADP	AdpType=Prep	19	case	_	_
 19	septiembre	septiembre	NOUN	NOUN	AdvType=Tim	14	nmod	_	_
@@ -43492,8 +43492,8 @@
 2	No	no	ADV	ADV	Negative=Neg	4	neg	_	_
 3	nos	yo	PRON	PRON	Number=Plur|Person=1	4	dobj	_	_
 4	echaremos	echar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	MWE=echaremos_al_monte|MWEPOS=VERB
-5	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	4	compound	_	_
-6	monte	monte	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	compound	_	_
+5	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	6	case	_	_
+6	monte	monte	NOUN	NOUN	Number=Sing	4	compound	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 8	pero	pero	CONJ	CONJ	_	4	cc	_	_
 9	tampoco	tampoco	ADV	ADV	_	13	advmod	_	_
@@ -47131,7 +47131,7 @@
 11	PSOE	PSOE	PROPN	PROPN	_	8	conj	_	_
 12	que	que	PRON	PRON	PronType=Rel	13	nsubj	_	_
 13	tuvo	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	MWE=tuvo_lugar|MWEPOS=VERB
-14	lugar	lugar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	compound	_	_
+14	lugar	lugar	NOUN	NOUN	Number=Sing	13	compound	_	_
 15	ayer	ayer	ADV	ADV	_	13	advmod	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -47219,8 +47219,8 @@
 21	democráticos	democrático	ADJ	ADJ	Gender=Masc|Number=Plur	20	amod	_	_
 22	para	para	ADP	ADP	AdpType=Prep	23	mark	_	_
 23	poner	poner	VERB	VERB	VerbForm=Inf	17	advcl	_	MWE=poner_en_marcha|MWEPOS=VERB
-24	en	en	ADP	ADP	AdpType=Prep	23	compound	_	_
-25	marcha	marcha	VERB	VERB	VerbForm=Inf	23	compound	_	_
+24	en	en	ADP	ADP	AdpType=Prep	25	case	_	_
+25	marcha	marcha	NOUN	NOUN	Gender=Fem|Number=Sing	23	compound	_	_
 26	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 27	profundo	profundo	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	_
 28	proceso	proceso	NOUN	NOUN	Gender=Masc|Number=Sing	23	dobj	_	_
@@ -47444,8 +47444,8 @@
 15	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 16	para	para	ADP	ADP	AdpType=Prep	17	mark	_	_
 17	poner	poner	VERB	VERB	VerbForm=Inf	4	advcl	_	MWE=poner_en_práctica|MWEPOS=VERB
-18	en	en	ADP	ADP	AdpType=Prep	17	compound	_	_
-19	práctica	práctica	VERB	VERB	VerbForm=Inf	17	compound	_	_
+18	en	en	ADP	ADP	AdpType=Prep	19	case	_	_
+19	práctica	práctica	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound	_	_
 20	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	programa	programa	NOUN	NOUN	Gender=Masc|Number=Sing	17	dobj	_	_
 22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
@@ -49234,8 +49234,8 @@
 31	que	que	PRON	PRON	PronType=Rel	33	nsubj	_	_
 32	nada	nada	PRON	PRON	Number=Sing|PronType=Ind	33	nmod	_	_
 33	tiene	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl	_	MWE=tiene_que_ver|MWEPOS=VERB
-34	que	que	SCONJ	SCONJ	_	33	compound	_	_
-35	ver	ver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	compound	_	_
+34	que	que	SCONJ	SCONJ	_	35	case	_	_
+35	ver	ver	NOUN	NOUN	Number=Sing	33	compound	_	_
 36	con	con	ADP	ADP	AdpType=Prep	38	case	_	_
 37	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	informe	informe	NOUN	NOUN	Gender=Masc|Number=Sing	33	dobj	_	_
@@ -49444,8 +49444,8 @@
 3	especial	especial	ADJ	ADJ	Number=Sing	2	amod	_	_
 4	que	que	PRON	PRON	PronType=Rel	5	nsubj	_	_
 5	lleva	llevar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	MWE=lleva_a_cabo|MWEPOS=VERB
-6	a	a	ADP	ADP	AdpType=Prep	5	compound	_	_
-7	cabo	cabo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	compound	_	_
+6	a	a	ADP	ADP	AdpType=Prep	7	case	_	_
+7	cabo	cabo	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound	_	_
 8	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	censo	censo	NOUN	NOUN	Gender=Masc|Number=Sing	5	dobj	_	_
 10	está	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
@@ -49988,7 +49988,7 @@
 10	Aires	Aires	PROPN	PROPN	_	9	name	_	_
 11	que	que	PRON	PRON	PronType=Rel	12	nsubj	_	_
 12	daba	dar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	MWE=daba_cuenta|MWEPOS=VERB
-13	cuenta	cuenta	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	compound	_	_
+13	cuenta	cuenta	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound	_	_
 14	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 15	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	suceso	suceso	NOUN	NOUN	Gender=Masc|Number=Sing	12	dobj	_	_
@@ -51570,8 +51570,8 @@
 5	MonBus	MonBus	PROPN	PROPN	_	4	appos	_	_
 6	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	puesto	poner	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	MWE=puesto_en_marcha|MWEPOS=VERB
-8	en	en	ADP	ADP	AdpType=Prep	7	compound	_	_
-9	marcha	marcha	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	compound	_	_
+8	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
+9	marcha	marcha	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound	_	_
 10	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	línea	línea	NOUN	NOUN	Gender=Fem|Number=Sing	7	dobj	_	_
 12	regular	regular	ADJ	ADJ	Number=Sing	11	amod	_	_
@@ -52376,8 +52376,8 @@
 34	,	,	PUNCT	PUNCT	PunctType=Comm	30	punct	_	_
 35	pero	pero	CONJ	CONJ	_	30	cc	_	_
 36	están	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	MWE=están_de_acuerdo|MWEPOS=VERB
-37	de	de	ADP	ADP	AdpType=Prep	36	compound	_	_
-38	acuerdo	acuerdo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	compound	_	_
+37	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
+38	acuerdo	acuerdo	NOUN	NOUN	Gender=Masc|Number=Sing	36	compound	_	_
 39	en	en	ADP	ADP	AdpType=Prep	44	mark	_	_
 40	que	que	SCONJ	SCONJ	_	44	mark	_	_
 41	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	42	det	_	_
@@ -52634,7 +52634,7 @@
 14	colectivo	colectivo	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
 15	para	para	ADP	ADP	AdpType=Prep	16	mark	_	_
 16	sacar	sacar	VERB	VERB	VerbForm=Inf	10	advcl	_	MWE=sacar_adelante|MWEPOS=VERB
-17	adelante	adelante	VERB	VERB	VerbForm=Inf	16	compound	_	_
+17	adelante	adelante	NOUN	NOUN	Number=Sing	16	compound	_	_
 18	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	código	código	NOUN	NOUN	Gender=Masc|Number=Sing	16	dobj	_	_
 20	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
@@ -53162,8 +53162,8 @@
 2	reforma	reforma	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	PRON	_	4	dobj	_	_
 4	puso	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	MWE=puso_en_marcha|MWEPOS=VERB
-5	en	en	ADP	ADP	AdpType=Prep	4	compound	_	_
-6	marcha	marcha	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	compound	_	_
+5	en	en	ADP	ADP	AdpType=Prep	6	case	_	_
+6	marcha	marcha	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound	_	_
 7	originalmente	originalmente	ADV	ADV	_	4	advmod	_	_
 8	para	para	ADP	ADP	AdpType=Prep	16	mark	_	_
 9	adaptarla	adaptar	AUX	AUX	VerbForm=Inf	16	aux	_	_
@@ -54670,8 +54670,8 @@
 8	docentes	docente	ADJ	ADJ	Number=Plur	7	amod	_	_
 9	y	y	CONJ	CONJ	_	5	cc	_	_
 10	poner	poner	VERB	VERB	VerbForm=Inf	5	conj	_	MWE=poner_en_marcha|MWEPOS=VERB
-11	en	en	ADP	ADP	AdpType=Prep	10	compound	_	_
-12	marcha	marcha	VERB	VERB	VerbForm=Inf	10	compound	_	_
+11	en	en	ADP	ADP	AdpType=Prep	12	case	_	_
+12	marcha	marcha	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound	_	_
 13	medidas	medida	NOUN	NOUN	Gender=Fem|Number=Plur	10	dobj	_	_
 14	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 15	refuerzo	refuerzo	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
@@ -56242,7 +56242,7 @@
 23	calle	calle	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
 24	que	que	PRON	PRON	PronType=Rel	25	nsubj	_	_
 25	pondrá	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	acl	_	MWE=pondrá_fin|MWEPOS=VERB
-26	fin	fin	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	compound	_	_
+26	fin	fin	NOUN	NOUN	Number=Sing	25	compound	_	_
 27	a	a	ADP	ADP	AdpType=Prep	30	case	_	_
 28	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 29	actual	actual	ADJ	ADJ	Number=Sing	30	amod	_	_
