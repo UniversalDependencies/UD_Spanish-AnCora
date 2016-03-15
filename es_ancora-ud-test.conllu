@@ -668,7 +668,7 @@
 2	cercanos	cercano	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 4	en	en	ADP	ADP	AdpType=Prep	1	advmod	_	MWE=en_todo_caso|MWEPOS=ADV
-5	todo	todo	NOUN	NOUN	_	4	mwe	_	_
+5	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	4	mwe	_	_
 6	caso	caso	NOUN	NOUN	_	4	mwe	_	_
 7	:	:	PUNCT	PUNCT	PunctType=Colo	10	punct	_	_
 8	todo	todo	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
@@ -1441,7 +1441,7 @@
 2	Indurain	Indurain	PROPN	PROPN	_	1	name	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 4	por	por	ADP	ADP	AdpType=Prep	7	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
-5	ejemplo	ejemplo	NOUN	NOUN	_	4	mwe	_	_
+5	ejemplo	ejemplo	NOUN	NOUN	Gender=Masc|Number=Sing	4	mwe	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 7	necesita	necesitar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	correr	correr	VERB	VERB	VerbForm=Inf	7	xcomp	_	_
@@ -1782,7 +1782,7 @@
 29	personajillos	personajillo	NOUN	NOUN	Gender=Masc|Number=Plur	26	dobj	_	_
 30	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
 31	sobre	sobre	ADP	ADP	AdpType=Prep	34	advmod	_	MWE=sobre_todo|MWEPOS=ADV
-32	todo	todo	NOUN	NOUN	_	31	mwe	_	_
+32	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	31	mwe	_	_
 33	esos	ese	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	34	det	_	_
 34	caciques	cacique	NOUN	NOUN	Gender=Masc|Number=Plur	29	appos	_	_
 35	provincianos	provinciano	ADJ	ADJ	Gender=Masc|Number=Plur	34	amod	_	_
@@ -2089,7 +2089,7 @@
 2	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 4	sobre	sobre	ADP	ADP	AdpType=Prep	8	advmod	_	MWE=sobre_todo|MWEPOS=ADV
-5	todo	todo	NOUN	NOUN	_	4	mwe	_	_
+5	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	4	mwe	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 7	otra	otro	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
 8	cosa	cosa	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
@@ -2681,7 +2681,7 @@
 # sent_id es-s83
 # orig_file_sentence 001#83
 1	Sin	sin	ADP	ADP	AdpType=Prep	4	advmod	_	MWE=Sin_embargo|MWEPOS=CONJ
-2	embargo	embargo	NOUN	NOUN	_	1	mwe	_	_
+2	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	1	mwe	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 4	logran	lograr	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	poner	poner	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
@@ -3170,7 +3170,7 @@
 4	resolver	resolver	VERB	VERB	VerbForm=Inf	2	advcl	_	_
 5	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 6	sin	sin	ADP	ADP	AdpType=Prep	2	advmod	_	MWE=sin_embargo|MWEPOS=CONJ
-7	embargo	embargo	NOUN	NOUN	_	6	mwe	_	_
+7	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	6	mwe	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 9	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	mecanismo	mecanismo	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -3685,7 +3685,7 @@
 24	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	25	dobj	_	_
 25	resultará	resultar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 26	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	28	advmod	_	MWE=del_todo|MWEPOS=ADV
-27	todo	todo	NOUN	NOUN	_	26	mwe	_	_
+27	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	26	mwe	_	_
 28	desconocido	desconocido	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	25	dobj	_	_
 29	.	.	PUNCT	PUNCT	PunctType=Peri	25	punct	_	_
 
@@ -3739,7 +3739,7 @@
 12	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 13	esencial	esencial	ADJ	ADJ	Number=Sing	10	amod	_	_
 14	sobre	sobre	ADP	ADP	AdpType=Prep	13	advmod	_	MWE=sobre_todo|MWEPOS=ADV
-15	todo	todo	NOUN	NOUN	_	14	mwe	_	_
+15	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	14	mwe	_	_
 16	en	en	ADP	ADP	AdpType=Prep	14	case	_	_
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	caso	caso	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
@@ -4130,7 +4130,7 @@
 # sent_id es-s125
 # orig_file_sentence 002#25
 1	Sin	sin	ADP	ADP	AdpType=Prep	11	advmod	_	MWE=Sin_embargo|MWEPOS=CONJ
-2	embargo	embargo	NOUN	NOUN	_	1	mwe	_	_
+2	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	1	mwe	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 4	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	hecho	hecho	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -4969,7 +4969,7 @@
 2	esto	este	PRON	PRON	Number=Sing|PronType=Dem	8	nmod	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 4	sin	sin	ADP	ADP	AdpType=Prep	8	advmod	_	MWE=sin_embargo|MWEPOS=ADV
-5	embargo	embargo	NOUN	NOUN	_	4	mwe	_	_
+5	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	4	mwe	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 7	se	se	PRON	PRON	_	8	auxpass:reflex	_	_
 8	dice	decir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6304,7 +6304,7 @@
 22	y	y	CONJ	CONJ	_	18	cc	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
 24	sobre	sobre	ADP	ADP	AdpType=Prep	28	advmod	_	MWE=sobre_todo|MWEPOS=ADV
-25	todo	todo	NOUN	NOUN	_	24	mwe	_	_
+25	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	24	mwe	_	_
 26	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
 27	tan	tanto	ADV	ADV	_	28	advmod	_	_
 28	satisfecha	satisfecho	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	18	conj	_	_
@@ -7430,7 +7430,7 @@
 31	débil	débil	ADJ	ADJ	Number=Sing	22	ccomp	_	_
 32	,	,	PUNCT	PUNCT	PunctType=Comm	37	punct	_	_
 33	sobre	sobre	ADP	ADP	AdpType=Prep	37	advmod	_	MWE=sobre_todo|MWEPOS=ADV
-34	todo	todo	NOUN	NOUN	_	33	mwe	_	_
+34	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	33	mwe	_	_
 35	cuando	cuando	SCONJ	SCONJ	_	37	mark	_	_
 36	nos	yo	PRON	PRON	Number=Plur|Person=1	37	dobj	_	_
 37	encontramos	encontrar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	advcl	_	_
@@ -10363,7 +10363,7 @@
 9	convenio	convenio	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
 10	servirá	servir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	41	ccomp	_	_
 11	no	no	PART	PART	Negative=Neg	41	cc	_	MWE=no_sólo|MWEPOS=ADV
-12	sólo	sólo	NOUN	NOUN	_	11	mwe	_	_
+12	sólo	sólo	ADV	ADV	_	11	mwe	_	_
 13	para	para	ADP	ADP	AdpType=Prep	14	mark	_	_
 14	buscar	buscar	VERB	VERB	VerbForm=Inf	41	xcomp	_	_
 15	más	más	ADV	ADV	_	16	advmod	_	_
@@ -11699,7 +11699,7 @@
 37	merluza	merluza	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
 38	común	común	ADJ	ADJ	Number=Sing	37	amod	_	_
 39	,	,	PUNCT	PUNCT	PunctType=Comm	40	punct	_	_
-40	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+40	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 41	que	que	SCONJ	SCONJ	_	40	mwe	_	_
 42	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	número	número	NOUN	NOUN	Gender=Masc|Number=Sing	47	nsubj	_	_
@@ -13467,7 +13467,7 @@
 32	incluyendo	incluir	VERB	VERB	VerbForm=Ger	4	advcl	_	_
 33	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
 34	por	por	ADP	ADP	AdpType=Prep	32	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
-35	ejemplo	ejemplo	NOUN	NOUN	_	34	mwe	_	_
+35	ejemplo	ejemplo	NOUN	NOUN	Gender=Masc|Number=Sing	34	mwe	_	_
 36	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
 37	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
 38	depósitos	depósito	NOUN	NOUN	Gender=Masc|Number=Plur	32	dobj	_	_
@@ -13867,7 +13867,7 @@
 6	beneficiados	beneficiado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	5	dobj	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 8	no	no	PART	PART	Negative=Neg	11	advmod	_	MWE=no_sólo|MWEPOS=ADV
-9	sólo	sólo	NOUN	NOUN	_	8	mwe	_	_
+9	sólo	sólo	ADV	ADV	_	8	mwe	_	_
 10	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	espectadores	espectador	NOUN	NOUN	Gender=Masc|Number=Plur	5	dobj	_	_
 12	y	y	CONJ	CONJ	_	1	cc	_	_
@@ -15864,7 +15864,7 @@
 34	y	y	CONJ	CONJ	_	33	cc	_	_
 35	6-4	6-4	NUM	NUM	NumForm=Digit	33	conj	_	_
 36	,	,	PUNCT	PUNCT	PunctType=Comm	37	punct	_	_
-37	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+37	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 38	que	que	SCONJ	SCONJ	_	37	mwe	_	_
 39	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	estadounidense	estadounidense	NOUN	NOUN	Number=Sing	43	nsubj	_	_
@@ -16036,7 +16036,7 @@
 51	comentó	comentar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	conj	_	_
 52	que	que	SCONJ	SCONJ	_	61	mark	_	_
 53	en	en	ADP	ADP	AdpType=Prep	61	advmod	_	MWE=en_todo_caso|MWEPOS=ADV
-54	todo	todo	NOUN	NOUN	_	53	mwe	_	_
+54	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	53	mwe	_	_
 55	caso	caso	NOUN	NOUN	_	53	mwe	_	_
 56	esta	este	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	58	det	_	_
 57	nueva	nuevo	ADJ	ADJ	Gender=Fem|Number=Sing	58	amod	_	_
@@ -16185,7 +16185,7 @@
 50	veces	veces	NOUN	NOUN	_	49	mwe	_	_
 51	,	,	PUNCT	PUNCT	PunctType=Comm	54	punct	_	_
 52	sobre	sobre	ADP	ADP	AdpType=Prep	54	advmod	_	MWE=sobre_todo|MWEPOS=ADV
-53	todo	todo	NOUN	NOUN	_	52	mwe	_	_
+53	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	52	mwe	_	_
 54	una	uno	PRON	PRON	Gender=Fem|Number=Sing|PronType=Ind	59	nmod	_	_
 55	de	de	ADP	ADP	AdpType=Prep	56	case	_	_
 56	ellas	él	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	54	nmod	_	_
@@ -16267,7 +16267,7 @@
 57	por	por	ADP	ADP	AdpType=Prep	58	mark	_	_
 58	albergar	albergar	VERB	VERB	VerbForm=Inf	48	advcl	_	_
 59	por	por	ADP	ADP	AdpType=Prep	61	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
-60	ejemplo	ejemplo	NOUN	NOUN	_	59	mwe	_	_
+60	ejemplo	ejemplo	NOUN	NOUN	Gender=Masc|Number=Sing	59	mwe	_	_
 61	rutas	ruta	NOUN	NOUN	Gender=Fem|Number=Plur	58	dobj	_	_
 62	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	63	case	_	_
 63	Camino	Camino	PROPN	PROPN	_	61	nmod	_	MWE=Camino_de_Santiago|MWEPOS=PROPN
@@ -16481,7 +16481,7 @@
 32	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
 33	pero	pero	CONJ	CONJ	_	26	cc	_	_
 34	sobre	sobre	ADP	ADP	AdpType=Prep	38	advmod	_	MWE=sobre_todo|MWEPOS=ADV
-35	todo	todo	NOUN	NOUN	_	34	mwe	_	_
+35	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	34	mwe	_	_
 36	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
 37	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	historia	historia	NOUN	NOUN	Gender=Fem|Number=Sing	26	conj	_	_
@@ -18783,7 +18783,7 @@
 44	2008	2008	NOUN	NOUN	AdvType=Tim	41	nmod	_	_
 45	"	"	PUNCT	PUNCT	PunctType=Quot	47	punct	_	_
 46	,	,	PUNCT	PUNCT	PunctType=Comm	47	punct	_	_
-47	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+47	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 48	que	que	SCONJ	SCONJ	_	47	mwe	_	_
 49	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	50	case	_	_
 50	resto	resto	NOUN	NOUN	Gender=Masc|Number=Sing	54	nmod	_	_
@@ -18807,7 +18807,7 @@
 68	en	en	ADP	ADP	AdpType=Prep	69	case	_	_
 69	Atenas	Atenas	PROPN	PROPN	_	67	nmod	_	_
 70	,	,	PUNCT	PUNCT	PunctType=Comm	71	punct	_	_
-71	mientras	mientras	NOUN	NOUN	_	54	cc	_	MWE=mientras_que|MWEPOS=CONJ
+71	mientras	mientras	CONJ	CONJ	_	54	cc	_	MWE=mientras_que|MWEPOS=CONJ
 72	que	que	SCONJ	SCONJ	_	71	mwe	_	_
 73	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	77	nsubj	_	_
 74	de	de	ADP	ADP	AdpType=Prep	75	case	_	_
@@ -19399,7 +19399,7 @@
 16	400	400	NUM	NUM	NumForm=Digit	17	nummod	_	_
 17	estilos	estilo	NOUN	NOUN	Gender=Masc|Number=Plur	12	nmod	_	_
 18	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
-19	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+19	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 20	que	que	SCONJ	SCONJ	_	19	mwe	_	_
 21	Samuel	Samuel	PROPN	PROPN	_	62	nsubj	_	MWE=Samuel_Soler|MWEPOS=PROPN
 22	Soler	Soler	PROPN	PROPN	_	21	name	_	_
@@ -20431,7 +20431,7 @@
 6	prensa	prensa	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
 7	deportiva	deportivo	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
 8	no	no	PART	PART	Negative=Neg	10	advmod	_	MWE=no_sólo|MWEPOS=ADV
-9	sólo	sólo	NOUN	NOUN	_	8	mwe	_	_
+9	sólo	sólo	ADV	ADV	_	8	mwe	_	_
 10	destaca	destacar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
 11	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	12	case	_	_
 12	portero	portero	NOUN	NOUN	Gender=Masc|Number=Sing	10	dobj	_	_
@@ -20553,7 +20553,7 @@
 20	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 21	juego	juego	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
 22	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
-23	mientras	mientras	NOUN	NOUN	_	4	cc	_	MWE=mientras_que|MWEPOS=CONJ
+23	mientras	mientras	CONJ	CONJ	_	4	cc	_	MWE=mientras_que|MWEPOS=CONJ
 24	que	que	SCONJ	SCONJ	_	23	mwe	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	rival	rival	NOUN	NOUN	Number=Sing	46	nsubj	_	_
@@ -20708,7 +20708,7 @@
 49	Rodrigo	Rodrigo	PROPN	PROPN	_	43	conj	_	MWE=Rodrigo_Tello|MWEPOS=PROPN
 50	Tello	Tello	PROPN	PROPN	_	49	name	_	_
 51	,	,	PUNCT	PUNCT	PunctType=Comm	52	punct	_	_
-52	mientras	mientras	NOUN	NOUN	_	21	cc	_	MWE=mientras_que|MWEPOS=CONJ
+52	mientras	mientras	CONJ	CONJ	_	21	cc	_	MWE=mientras_que|MWEPOS=CONJ
 53	que	que	SCONJ	SCONJ	_	52	mwe	_	_
 54	Nacional	Nacional	PROPN	PROPN	_	57	nsubj	_	_
 55	nunca	nunca	ADV	ADV	_	57	advmod	_	_
@@ -22347,7 +22347,7 @@
 
 # sent_id es-s608
 # orig_file_sentence 007#8
-1	Mientras	mientras	NOUN	NOUN	_	3	mark	_	MWE=Mientras_que|MWEPOS=SCONJ
+1	Mientras	mientras	CONJ	CONJ	_	3	mark	_	MWE=Mientras_que|MWEPOS=SCONJ
 2	que	que	SCONJ	SCONJ	_	1	mwe	_	_
 3	esperan	esperar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 4	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -22432,7 +22432,7 @@
 21	por	por	ADP	ADP	AdpType=Prep	22	case	_	_
 22	ciento	ciento	NUM	NUM	NumType=Card	20	compound	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
-24	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+24	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 25	que	que	SCONJ	SCONJ	_	24	mwe	_	_
 26	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 27	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
@@ -22578,7 +22578,7 @@
 29	23	23	NUM	NUM	NumForm=Digit	30	nummod	_	_
 30	pesetas	peseta	NOUN	NOUN	NumForm=Digit	27	nmod	_	_
 31	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
-32	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+32	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 33	que	que	SCONJ	SCONJ	_	32	mwe	_	_
 34	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	máximo	máximo	ADJ	ADJ	Gender=Masc|Number=Sing	42	nsubj	_	_
@@ -23423,7 +23423,7 @@
 # sent_id es-s632
 # orig_file_sentence 007#32
 1	En	en	ADP	ADP	AdpType=Prep	26	advmod	_	MWE=En_todo_caso|MWEPOS=ADV
-2	todo	todo	NOUN	NOUN	_	1	mwe	_	_
+2	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	1	mwe	_	_
 3	caso	caso	NOUN	NOUN	_	1	mwe	_	_
 4	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 5	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
@@ -23485,7 +23485,7 @@
 19	70`	70	NUM	NUM	NumForm=Digit	16	appos	_	_
 20	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	19	punct	_	_
 21	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
-22	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+22	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 23	que	que	SCONJ	SCONJ	_	22	mwe	_	_
 24	para	para	ADP	ADP	AdpType=Prep	26	case	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -23636,7 +23636,7 @@
 18	congeladora	congelador	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
 19	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
 20	sobre	sobre	ADP	ADP	AdpType=Prep	22	advmod	_	MWE=sobre_todo|MWEPOS=ADV
-21	todo	todo	NOUN	NOUN	_	20	mwe	_	_
+21	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	20	mwe	_	_
 22	atunera	atunero	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
 23	y	y	CONJ	CONJ	_	22	cc	_	_
 24	bacaladera	bacaladero	ADJ	ADJ	Gender=Fem|Number=Sing	22	conj	_	_
@@ -25114,7 +25114,7 @@
 11	y	y	CONJ	CONJ	_	10	cc	_	_
 12	obligaciones	obligación	NOUN	NOUN	Gender=Fem|Number=Plur	10	conj	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
-14	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+14	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 15	que	que	SCONJ	SCONJ	_	14	mwe	_	_
 16	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	emisiones	emisión	NOUN	NOUN	Gender=Fem|Number=Plur	21	nsubj	_	_
@@ -25383,7 +25383,7 @@
 9	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 10	"	"	PUNCT	PUNCT	PunctType=Quot	9	punct	_	_
 11	no	no	PART	PART	Negative=Neg	10	cc	_	MWE=no_sólo|MWEPOS=ADV
-12	sólo	sólo	NOUN	NOUN	_	11	mwe	_	_
+12	sólo	sólo	ADV	ADV	Negative=Neg	11	mwe	_	_
 13	importante	importante	ADJ	ADJ	Number=Sing	10	conj	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 15	sino	sino	CONJ	CONJ	_	10	cc	_	_
@@ -25462,7 +25462,7 @@
 4	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 5	"	"	PUNCT	PUNCT	PunctType=Quot	3	punct	_	_
 6	no	no	PART	PART	Negative=Neg	3	cc	_	MWE=no_sólo|MWEPOS=ADV
-7	sólo	sólo	NOUN	NOUN	_	6	mwe	_	_
+7	sólo	sólo	ADV	ADV	_	6	mwe	_	_
 8	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	cuestión	cuestión	NOUN	NOUN	Gender=Fem|Number=Sing	3	conj	_	_
 10	de	de	ADP	ADP	AdpType=Prep	26	mark	_	_
@@ -25528,7 +25528,7 @@
 6	segunda	segundo	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
 7	pista	pista	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	_
 8	no	no	PART	PART	Negative=Neg	12	advmod	_	MWE=no_sólo|MWEPOS=ADV
-9	sólo	sólo	NOUN	NOUN	_	8	mwe	_	_
+9	sólo	sólo	ADV	ADV	_	8	mwe	_	_
 10	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	planteamiento	planteamiento	NOUN	NOUN	Gender=Masc|Number=Sing	42	ccomp	_	_
@@ -25944,7 +25944,7 @@
 50	y	y	CONJ	CONJ	_	41	cc	_	_
 51	,	,	PUNCT	PUNCT	PunctType=Comm	52	punct	_	_
 52	sobre	sobre	ADP	ADP	AdpType=Prep	57	advmod	_	MWE=sobre_todo|MWEPOS=ADV
-53	todo	todo	NOUN	NOUN	_	52	mwe	_	_
+53	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	52	mwe	_	_
 54	,	,	PUNCT	PUNCT	PunctType=Comm	52	punct	_	_
 55	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
 56	nuevo	nuevo	ADJ	ADJ	Gender=Masc|Number=Sing	57	amod	_	_
@@ -26680,7 +26680,7 @@
 # sent_id es-s704
 # orig_file_sentence 008#4
 1	Sin	sin	ADP	ADP	AdpType=Prep	6	advmod	_	MWE=Sin_embargo|MWEPOS=ADV
-2	embargo	embargo	NOUN	NOUN	_	1	mwe	_	_
+2	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	1	mwe	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 4	muchos	mucho	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
 5	analistas	analista	NOUN	NOUN	Number=Plur	6	nsubj	_	_
@@ -27217,7 +27217,7 @@
 20	Seis	Seis	NUM	NUM	NumType=Card	17	nummod	_	_
 21	Días	Días	PROPN	PROPN	_	17	name	_	_
 22	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
-23	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+23	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 24	que	que	SCONJ	SCONJ	_	23	mwe	_	_
 25	Israel	Israel	PROPN	PROPN	_	26	nsubj	_	_
 26	exige	exigir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
@@ -27309,7 +27309,7 @@
 6	principio	principio	NOUN	NOUN	_	5	mwe	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 8	sin	sin	ADP	ADP	AdpType=Prep	4	advmod	_	MWE=sin_embargo|MWEPOS=ADV
-9	embargo	embargo	NOUN	NOUN	_	8	mwe	_	_
+9	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	8	mwe	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 11	miembros	miembro	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 12	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
@@ -28359,7 +28359,7 @@
 10	disimuló	disimular	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 12	sobre	sobre	ADP	ADP	AdpType=Prep	14	advmod	_	MWE=sobre_todo|MWEPOS=ADV
-13	todo	todo	NOUN	NOUN	_	12	mwe	_	_
+13	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	12	mwe	_	_
 14	después	después	ADV	ADV	_	10	advmod	_	_
 15	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
 16	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -29324,7 +29324,7 @@
 11	primera	primero	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
 12	necesidad	necesidad	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
-14	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+14	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 15	que	que	SCONJ	SCONJ	_	14	mwe	_	_
 16	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	cigarrillos	cigarrillo	NOUN	NOUN	Gender=Masc|Number=Plur	19	nsubj	_	_
@@ -31587,7 +31587,7 @@
 12	Kournikova	Kournikova	PROPN	PROPN	_	11	name	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	_
 14	"	"	PUNCT	PUNCT	PunctType=Quot	15	punct	_	_
-15	sólo	sólo	NOUN	NOUN	_	28	dobj	_	MWE=sólo_las_bolas_deben_botar|MWEPOS=NOUN
+15	sólo	sólo	ADV	ADV	_	28	dobj	_	MWE=sólo_las_bolas_deben_botar|MWEPOS=NOUN
 16	las	las	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	bolas	bolas	NOUN	NOUN	_	15	compound	_	_
 18	deben	deben	NOUN	NOUN	_	15	compound	_	_
@@ -31906,7 +31906,7 @@
 7	División	División	PROPN	PROPN	_	6	name	_	_
 8	con	con	ADP	ADP	AdpType=Prep	12	case	_	_
 9	tan	tan	NOUN	NOUN	_	12	advmod	_	MWE=tan_sólo|MWEPOS=ADV
-10	sólo	sólo	NOUN	NOUN	_	9	mwe	_	_
+10	sólo	sólo	ADV	ADV	_	9	mwe	_	_
 11	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	jugador	jugador	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
 13	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	14	case	_	_
@@ -32152,7 +32152,7 @@
 13	español	español	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
 14	y	y	CONJ	CONJ	_	4	cc	_	_
 15	tan	tan	NOUN	NOUN	_	17	advmod	_	MWE=tan_sólo|MWEPOS=ADV
-16	sólo	sólo	NOUN	NOUN	_	15	mwe	_	_
+16	sólo	sólo	ADV	ADV	_	15	mwe	_	_
 17	Walter	Walter	PROPN	PROPN	_	31	nsubj	_	MWE=Walter_Gaitán|MWEPOS=PROPN
 18	Gaitán	Gaitán	PROPN	PROPN	_	17	name	_	_
 19	y	y	CONJ	CONJ	_	17	cc	_	_
@@ -33821,7 +33821,7 @@
 8	1.424	1424	NUM	NUM	NumForm=Digit	9	nummod	_	_
 9	delegados	delegado	NOUN	NOUN	Gender=Masc|Number=Plur	7	dobj	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
-11	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+11	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 12	que	que	SCONJ	SCONJ	_	11	mwe	_	_
 13	Bill	Bill	PROPN	PROPN	_	15	nsubj	_	MWE=Bill_Bradley|MWEPOS=PROPN
 14	Bradley	Bradley	PROPN	PROPN	_	13	name	_	_
@@ -33870,7 +33870,7 @@
 14	en	en	ADP	ADP	AdpType=Prep	15	case	_	_
 15	Michigan	Michigan	PROPN	PROPN	_	12	nmod	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
-17	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+17	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 18	que	que	SCONJ	SCONJ	_	17	mwe	_	_
 19	durante	durante	ADP	ADP	AdpType=Prep	22	case	_	_
 20	todo	todo	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
@@ -34037,7 +34037,7 @@
 11	próxima	próximo	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
 12	semana	semana	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
 13	y	y	CONJ	CONJ	_	7	cc	_	_
-14	mientras	mientras	NOUN	NOUN	_	16	advmod	_	MWE=mientras_tanto|MWEPOS=ADV
+14	mientras	mientras	CONJ	CONJ	_	16	advmod	_	MWE=mientras_tanto|MWEPOS=ADV
 15	tanto	tanto	NOUN	NOUN	_	14	mwe	_	_
 16	permanecerá	permanecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	conj	_	_
 17	en	en	ADP	ADP	AdpType=Prep	18	case	_	_
@@ -35535,7 +35535,7 @@
 
 # sent_id es-s912
 # orig_file_sentence 010#12
-1	Mientras	mientras	NOUN	NOUN	_	11	advmod	_	MWE=Mientras_tanto|MWEPOS=ADV
+1	Mientras	mientras	CONJ	CONJ	_	11	advmod	_	MWE=Mientras_tanto|MWEPOS=ADV
 2	tanto	tanto	NOUN	NOUN	_	1	mwe	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 4	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -37931,7 +37931,7 @@
 9	condiciones	condición	NOUN	NOUN	Gender=Fem|Number=Plur	4	nmod	_	_
 10	legales	legal	ADJ	ADJ	Number=Plur	9	amod	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
-12	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+12	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 13	que	que	SCONJ	SCONJ	_	12	mwe	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	líder	líder	NOUN	NOUN	Number=Sing	20	nsubj	_	_
@@ -38535,7 +38535,7 @@
 # sent_id es-s1011
 # orig_file_sentence 011#11
 1	En	en	ADP	ADP	AdpType=Prep	12	advmod	_	MWE=En_todo_caso|MWEPOS=ADV
-2	todo	todo	NOUN	NOUN	_	1	mwe	_	_
+2	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	1	mwe	_	_
 3	caso	caso	NOUN	NOUN	_	1	mwe	_	_
 4	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 5	y	y	CONJ	CONJ	_	9	advmod	_	_
@@ -40567,7 +40567,7 @@
 15	haga	hacer	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 16	marxista	marxista	ADJ	ADJ	Number=Sing	15	dobj	_	_
 17	tan	tan	NOUN	NOUN	_	23	advmod	_	MWE=tan_sólo|MWEPOS=ADV
-18	sólo	sólo	NOUN	NOUN	_	17	mwe	_	_
+18	sólo	sólo	ADV	ADV	_	17	mwe	_	_
 19	porque	porque	SCONJ	SCONJ	_	23	mark	_	_
 20	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
 21	pueblo	pueblo	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	_
@@ -43068,7 +43068,7 @@
 1	Y	y	CONJ	CONJ	_	18	advmod	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 3	sin	sin	ADP	ADP	AdpType=Prep	18	advmod	_	MWE=sin_embargo|MWEPOS=ADV
-4	embargo	embargo	NOUN	NOUN	_	3	mwe	_	_
+4	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	3	mwe	_	_
 5	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 6	a	a	ADP	ADP	AdpType=Prep	8	case	_	_
 7	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
@@ -45503,7 +45503,7 @@
 # sent_id es-s1294
 # orig_file_sentence 013#94
 1	Sin	sin	ADP	ADP	AdpType=Prep	5	advmod	_	MWE=Sin_embargo|MWEPOS=ADV
-2	embargo	embargo	NOUN	NOUN	_	1	mwe	_	_
+2	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	1	mwe	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 4	según	según	SCONJ	SCONJ	_	5	mark	_	_
 5	reveló	revelar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -45939,7 +45939,7 @@
 21	que	que	SCONJ	SCONJ	_	34	mark	_	_
 22	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 23	en	en	ADP	ADP	AdpType=Prep	34	advmod	_	MWE=en_todo_caso|MWEPOS=ADV
-24	todo	todo	NOUN	NOUN	_	23	mwe	_	_
+24	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	23	mwe	_	_
 25	caso	caso	NOUN	NOUN	_	23	mwe	_	_
 26	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 27	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
@@ -47858,7 +47858,7 @@
 4	historia	historia	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 5	rompe	romper	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	no	no	PART	PART	Negative=Neg	10	cc	_	MWE=no_sólo|MWEPOS=CONJ
-7	sólo	sólo	NOUN	NOUN	_	6	mwe	_	_
+7	sólo	sólo	ADV	ADV	_	6	mwe	_	_
 8	con	con	ADP	ADP	AdpType=Prep	10	case	_	_
 9	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	concepto	concepto	NOUN	NOUN	Gender=Masc|Number=Sing	5	dobj	_	_
@@ -48974,7 +48974,7 @@
 16	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	17	case	_	_
 17	público	público	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
 18	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
-19	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+19	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 20	que	que	SCONJ	SCONJ	_	19	mwe	_	_
 21	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	coalición	coalición	NOUN	NOUN	Gender=Fem|Number=Sing	24	nsubj	_	_
@@ -49815,7 +49815,7 @@
 
 # sent_id es-s1456
 # orig_file_sentence 015#56
-1	Todo	todo	NOUN	NOUN	_	0	root	_	MWE=Todo_lo_contrario|MWEPOS=ADV
+1	Todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	0	root	_	MWE=Todo_lo_contrario|MWEPOS=ADV
 2	lo	lo	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	mwe	_	_
 3	contrario	contrario	NOUN	NOUN	_	1	mwe	_	_
 4	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -50628,7 +50628,7 @@
 6	Chaves	Chaves	PROPN	PROPN	_	5	name	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 8	sin	sin	ADP	ADP	AdpType=Prep	13	advmod	_	MWE=sin_embargo|MWEPOS=ADV
-9	embargo	embargo	NOUN	NOUN	_	8	mwe	_	_
+9	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	8	mwe	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 11	no	no	ADV	ADV	Negative=Neg	13	neg	_	_
 12	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	dobj	_	_
@@ -54868,7 +54868,7 @@
 7	todo	todo	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
 8	tipo	tipo	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
 9	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
-10	mientras	mientras	NOUN	NOUN	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
+10	mientras	mientras	CONJ	CONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CONJ
 11	que	que	SCONJ	SCONJ	_	10	mwe	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Cruz	Cruz	PROPN	PROPN	_	15	nsubj	_	MWE=Cruz_Roja|MWEPOS=PROPN
@@ -54967,7 +54967,7 @@
 2	previsión	previsión	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 4	sin	sin	ADP	ADP	AdpType=Prep	8	advmod	_	MWE=sin_embargo|MWEPOS=ADV
-5	embargo	embargo	NOUN	NOUN	_	4	mwe	_	_
+5	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	4	mwe	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 7	fue	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
 8	insuficiente	insuficiente	ADJ	ADJ	Number=Sing	0	root	_	_
@@ -55882,7 +55882,7 @@
 15	y	y	CONJ	CONJ	_	14	cc	_	_
 16	servicios	servicio	NOUN	NOUN	Gender=Masc|Number=Plur	14	conj	_	_
 17	no	no	PART	PART	Negative=Neg	19	advmod	_	MWE=no_sólo|MWEPOS=ADV
-18	sólo	sólo	NOUN	NOUN	_	17	mwe	_	_
+18	sólo	sólo	ADV	ADV	_	17	mwe	_	_
 19	incluía	incluir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	parataxis	_	_
 20	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	libertad	libertad	NOUN	NOUN	Gender=Fem|Number=Sing	19	dobj	_	_
@@ -55894,7 +55894,7 @@
 27	también	también	NOUN	NOUN	_	26	mwe	_	_
 28	,	,	PUNCT	PUNCT	PunctType=Comm	29	punct	_	_
 29	por	por	ADP	ADP	AdpType=Prep	33	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
-30	ejemplo	ejemplo	NOUN	NOUN	_	29	mwe	_	_
+30	ejemplo	ejemplo	NOUN	NOUN	Gender=Masc|Number=Sing	29	mwe	_	_
 31	,	,	PUNCT	PUNCT	PunctType=Comm	29	punct	_	_
 32	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
 33	medidas	medida	NOUN	NOUN	Gender=Fem|Number=Plur	26	parataxis	_	_
@@ -56892,7 +56892,7 @@
 2	fórmula	fórmula	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 4	sin	sin	ADP	ADP	AdpType=Prep	7	advmod	_	MWE=sin_embargo|MWEPOS=ADV
-5	embargo	embargo	NOUN	NOUN	_	4	mwe	_	_
+5	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	4	mwe	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 7	cuenta	contar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	con	con	ADP	ADP	AdpType=Prep	10	case	_	_

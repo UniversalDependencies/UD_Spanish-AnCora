@@ -12,18 +12,18 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="17">
-    <tag name="ADJ">36445</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, mayor, segundo, buen -->
+    <tag name="ADJ">36444</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, mayor, segundo, buen -->
     <tag name="ADP">88049</tag><!-- de, en, a, del, por, con, para, al, entre, sobre -->
-    <tag name="ADV">17806</tag><!-- no, más, también, ya, hoy, mucho, ayer, después, sólo, ahora -->
+    <tag name="ADV">17892</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
     <tag name="AUX">15723</tag><!-- ser, haber, poder, deber, hacer, estar, ir, seguir, volver, dejar -->
-    <tag name="CONJ">14957</tag><!-- y, pero, o, e, ni, sino, i, mientras, u, bien -->
-    <tag name="DET">74902</tag><!-- el, uno, su, este, todo, otro, ese, la, alguno, mismo -->
-    <tag name="INTJ">104</tag><!-- je, bueno, ay, ojalá, adiós, ah, claro, ja, ojo, qué -->
-    <tag name="NOUN">101036</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
+    <tag name="CONJ">15118</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
+    <tag name="DET">74911</tag><!-- el, uno, su, este, todo, otro, ese, la, alguno, mismo -->
+    <tag name="INTJ">102</tag><!-- je, bueno, ay, ojalá, adiós, ah, claro, ja, ojo, qué -->
+    <tag name="NOUN">100654</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
     <tag name="NUM">8767</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PART">155</tag><!-- no -->
-    <tag name="PRON">22551</tag><!-- que, él, se, yo, uno, donde, quien, este, otro, todo -->
-    <tag name="PROPN">42635</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
+    <tag name="PRON">22688</tag><!-- que, él, se, yo, uno, todo, donde, quien, este, otro -->
+    <tag name="PROPN">42627</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
     <tag name="PUNCT">65501</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12471</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">491</tag><!-- ', %, 50/100, 30/100, 60/100, 20/100, 10/100, 80/100, 20, 25/100 -->
@@ -31,7 +31,7 @@
     <tag name="X">2</tag><!-- tanto, uno -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="54">
+  <feats unique="55">
     <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV">77704</feat><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
     <feat name="AdpType" value="Preppron" upos="ADJ,ADP,ADV">10786</feat><!-- del, al, junto, da, además, debido, debajo, acerca, detrás, do -->
     <feat name="AdvType" value="Tim" upos="ADJ,ADV,NOUN">1902</feat><!-- 1999, domingo, viernes, miércoles, sábado, lunes, martes, jueves, 1998, año -->
@@ -41,14 +41,14 @@
     <feat name="Definite" value="Def" upos="ADP,DET">54471</feat><!-- la, el, los, las, lo, del, al, da, les, do -->
     <feat name="Definite" value="Ind" upos="DET">9369</feat><!-- un, una, unos, unas, la, El, LO, les -->
     <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,VERB">85024</feat><!-- la, las, una, esta, política, esa, primera, personas, parte, vida -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">115187</feat><!-- el, los, del, un, al, este, años, presidente, lo, millones -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">115572</feat><!-- el, los, del, un, al, este, años, presidente, lo, millones -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">843</feat><!-- sería, podría, habría, debería, podrían, deberían, tendría, estaría, haría, habrían -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">311</feat><!-- mira, vaya, añade, afirma, asegura, lean, sea, véase, He, apunta -->
     <feat name="Mood" value="Ind" upos="ADV,AUX,VERB">39134</feat><!-- es, ha, han, fue, está, tiene, son, dijo, había, hay -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2873</feat><!-- sea, haya, hubiera, pueda, puedan, fuera, sean, tenga, esté, haga -->
-    <feat name="Negative" value="Neg" upos="ADV,PART">3761</feat><!-- no, ni -->
+    <feat name="Negative" value="Neg" upos="ADV,PART">3767</feat><!-- no, sólo, ni -->
     <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">71720</feat><!-- los, las, sus, dos, años, han, millones, son, tres, otros -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">200362</feat><!-- la, el, del, un, una, su, al, es, ha, lo -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">200747</feat><!-- la, el, del, un, una, su, al, es, ha, lo -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">263</feat><!-- nuestra, nuestro, nuestros, nuestras, vuestra, vuestras -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">249</feat><!-- mi, mis, tu, mío, mía, tus, tuya, tuyo -->
     <feat name="NumForm" value="Digit" upos="NOUN,NUM,SYM">6287</feat><!-- pesetas, dólares, 20, 30, 10, 12, 15, euros, 2, 16 -->
@@ -67,6 +67,7 @@
     <feat name="PronType" value="Int" upos="DET,PRON">479</feat><!-- qué, cómo, quién, cuál, dónde, cuándo, cuáles, cuánto, cuántos, quiénes -->
     <feat name="PronType" value="Prs" upos="DET,PRON">9453</feat><!-- su, sus, le, lo, me, nos, él, les, ellos, la -->
     <feat name="PronType" value="Rel" upos="DET,PRON">9689</feat><!-- que, donde, quien, cuando, quienes, cual, cuyo, cuya, cuales, cuyos -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">146</feat><!-- todo -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">2272</feat><!-- ), ?, !, ¿ -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">2145</feat><!-- (, ¿, ¡ -->
     <feat name="PunctType" value="Brck" upos="PUNCT">3651</feat><!-- (, ) -->
@@ -89,27 +90,27 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="29">
-    <dep name="acl">10576</dep>
-    <dep name="advcl">8559</dep>
+    <dep name="acl">10573</dep>
+    <dep name="advcl">8562</dep>
     <dep name="advmod">16546</dep>
-    <dep name="amod">29515</dep>
+    <dep name="amod">29514</dep>
     <dep name="appos">7604</dep>
     <dep name="aux">9736</dep>
     <dep name="auxpass:reflex">503</dep>
     <dep name="case">76033</dep>
     <dep name="cc">15239</dep>
     <dep name="ccomp">5101</dep>
-    <dep name="compound">2515</dep>
+    <dep name="compound">2514</dep>
     <dep name="conj">16084</dep>
     <dep name="cop">6428</dep>
     <dep name="csubj">1197</dep>
     <dep name="dep">281</dep>
-    <dep name="det">74438</dep>
+    <dep name="det">74443</dep>
     <dep name="dobj">35651</dep>
     <dep name="iobj">1759</dep>
     <dep name="mark">19427</dep>
     <dep name="mwe">7930</dep>
-    <dep name="name">14459</dep>
+    <dep name="name">14456</dep>
     <dep name="neg">3521</dep>
     <dep name="nmod">62760</dep>
     <dep name="nsubj">29708</dep>
