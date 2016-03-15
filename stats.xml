@@ -17,12 +17,12 @@
     <tag name="ADV">17808</tag><!-- no, más, también, ya, hoy, mucho, ayer, después, sólo, ahora -->
     <tag name="AUX">15740</tag><!-- ser, haber, poder, deber, hacer, estar, ir, seguir, volver, dejar -->
     <tag name="CONJ">14957</tag><!-- y, pero, o, e, ni, sino, i, mientras, u, bien -->
-    <tag name="DET">74900</tag><!-- el, uno, su, este, todo, otro, ese, la, alguno, mismo -->
+    <tag name="DET">74902</tag><!-- el, uno, su, este, todo, otro, ese, la, alguno, mismo -->
     <tag name="INTJ">104</tag><!-- je, bueno, ay, ojalá, adiós, ah, claro, ja, ojo, qué -->
     <tag name="NOUN">100558</tag><!-- año, presidente, país, partido, millón, día, equipo, vez, parte, mes -->
     <tag name="NUM">8767</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PART">155</tag><!-- no -->
-    <tag name="PRON">22553</tag><!-- que, él, se, yo, uno, donde, quien, este, otro, todo -->
+    <tag name="PRON">22551</tag><!-- que, él, se, yo, uno, donde, quien, este, otro, todo -->
     <tag name="PROPN">42635</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
     <tag name="PUNCT">65501</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12471</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
@@ -89,34 +89,34 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="29">
-    <dep name="acl">8161</dep>
-    <dep name="advcl">12526</dep>
-    <dep name="advmod">17616</dep>
+    <dep name="acl">10550</dep>
+    <dep name="advcl">8572</dep>
+    <dep name="advmod">14491</dep>
     <dep name="amod">29599</dep>
     <dep name="appos">7604</dep>
     <dep name="aux">9736</dep>
     <dep name="auxpass:reflex">503</dep>
-    <dep name="case">75230</dep>
+    <dep name="case">75229</dep>
     <dep name="cc">15239</dep>
-    <dep name="ccomp">4680</dep>
+    <dep name="ccomp">5103</dep>
     <dep name="compound">2722</dep>
     <dep name="conj">16084</dep>
-    <dep name="cop">6431</dep>
-    <dep name="csubj">1193</dep>
-    <dep name="dep">302</dep>
-    <dep name="det">74672</dep>
-    <dep name="dobj">37554</dep>
-    <dep name="iobj">1210</dep>
-    <dep name="mark">12469</dep>
-    <dep name="mwe">7924</dep>
+    <dep name="cop">6433</dep>
+    <dep name="csubj">1197</dep>
+    <dep name="dep">304</dep>
+    <dep name="det">74438</dep>
+    <dep name="dobj">35669</dep>
+    <dep name="iobj">1756</dep>
+    <dep name="mark">19456</dep>
+    <dep name="mwe">7930</dep>
     <dep name="name">14459</dep>
-    <dep name="neg">3523</dep>
-    <dep name="nmod">67385</dep>
-    <dep name="nsubj">29713</dep>
-    <dep name="nummod">5601</dep>
+    <dep name="neg">3522</dep>
+    <dep name="nmod">65253</dep>
+    <dep name="nsubj">29710</dep>
+    <dep name="nummod">5658</dep>
     <dep name="parataxis">703</dep>
     <dep name="punct">65465</dep>
     <dep name="root">17680</dep>
-    <dep name="xcomp">1676</dep>
+    <dep name="xcomp">2595</dep>
   </deps>
 </treebank>
