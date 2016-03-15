@@ -77,7 +77,7 @@
 9	jueves	jueves	NOUN	NOUN	_	8	compound	_	_
 10	con	con	ADP	ADP	AdpType=Prep	14	case	_	_
 11	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
-12	más	más	ADV	ADV	_	13	nmod	_	_
+12	más	más	ADV	ADV	_	13	advmod	_	_
 13	breve	breve	ADJ	ADJ	Number=Sing	14	amod	_	_
 14	discurso	discurso	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
 15	por	por	ADP	ADP	AdpType=Prep	16	case	_	_
@@ -119,8 +119,8 @@
 
 # sent_id es-s3
 # orig_file_sentence 001#3
-1	Desde	desde	ADP	ADP	AdpType=Prep	3	advmod	_	_
-2	entonces	entonces	ADV	ADV	_	1	advmod	_	_
+1	Desde	desde	ADP	ADP	AdpType=Prep	2	case	_	_
+2	entonces	entonces	ADV	ADV	_	3	advmod	_	_
 3	entró	entrar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	en	en	ADP	ADP	AdpType=Prep	5	case	_	_
 5	silencio	silencio	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -535,7 +535,7 @@
 33	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	34	case	_	_
 34	CNE	CNE	PROPN	PROPN	_	29	nmod	_	_
 35	,	,	PUNCT	PUNCT	PunctType=Comm	37	punct	_	_
-36	supuestamente	supuestamente	ADV	ADV	_	37	nmod	_	_
+36	supuestamente	supuestamente	ADV	ADV	_	37	advmod	_	_
 37	garante	garante	ADJ	ADJ	Number=Sing	29	amod	_	_
 38	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
 39	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
@@ -656,7 +656,7 @@
 39	filas	fila	NOUN	NOUN	Gender=Fem|Number=Plur	35	nmod	_	_
 40	castrenses	castrense	ADJ	ADJ	Number=Plur	39	amod	_	_
 41	y	y	CONJ	CONJ	_	35	cc	_	_
-42	mucho	mucho	ADV	ADV	_	43	nmod	_	_
+42	mucho	mucho	ADV	ADV	_	43	advmod	_	_
 43	menos	menos	ADV	ADV	_	47	advmod	_	_
 44	que	que	SCONJ	SCONJ	_	47	mark	_	_
 45	esté	estar	VERB	VERB	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	47	cop	_	_
@@ -1408,7 +1408,7 @@
 59	contenedor	contenedor	NOUN	NOUN	Gender=Masc|Number=Sing	17	appos	_	_
 60	amarillo	amarillo	ADJ	ADJ	Gender=Masc|Number=Sing	59	amod	_	_
 61	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	59	punct	_	_
-62	más	más	ADV	ADV	_	63	nmod	_	_
+62	más	más	ADV	ADV	_	63	advmod	_	_
 63	pequeño	pequeño	ADJ	ADJ	Gender=Masc|Number=Sing	59	amod	_	_
 64	,	,	PUNCT	PUNCT	PunctType=Comm	63	punct	_	_
 65	acoplado	acoplado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	63	advmod	_	_
@@ -1424,7 +1424,7 @@
 75	;	;	PUNCT	PUNCT	PunctType=Semi	59	punct	_	_
 76	y	y	CONJ	CONJ	_	17	cc	_	_
 77	otro	otro	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	17	conj	_	_
-78	más	más	ADV	ADV	_	79	nmod	_	_
+78	más	más	ADV	ADV	_	79	advmod	_	_
 79	pequeño	pequeño	ADJ	ADJ	Gender=Masc|Number=Sing	77	amod	_	_
 80	aún	aún	ADV	ADV	_	79	advmod	_	_
 81	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	77	punct	_	_
@@ -1677,11 +1677,11 @@
 39	ecological	ecological	ADJ	ADJ	_	38	amod	_	_
 40	para	para	ADP	ADP	AdpType=Prep	41	mark	_	_
 41	regalar	regalar	VERB	VERB	VerbForm=Inf	37	acl	_	_
-42	por	por	ADP	ADP	AdpType=Prep	41	advmod	_	MWE=por_ejemplo|MWEPOS=ADV
+42	por	por	ADP	ADP	AdpType=Prep	41	dobj	_	MWE=por_ejemplo|MWEPOS=ADV
 43	ejemplo	ejemplo	NOUN	NOUN	_	42	mwe	_	_
 44	a	a	ADP	ADP	AdpType=Prep	42	case	_	_
 45	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-46	asistenta	asistenta	NOUN	NOUN	Gender=Fem|Number=Sing	42	dobj	_	_
+46	asistenta	asistenta	NOUN	NOUN	Gender=Fem|Number=Sing	42	nmod	_	_
 47	.	.	PUNCT	PUNCT	PunctType=Peri	34	punct	_	_
 
 # sent_id es-s39
@@ -1732,7 +1732,7 @@
 # sent_id es-s43
 # orig_file_sentence 001#43
 1	Resultaban	resultar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-2	demasiado	demasiado	ADV	ADV	_	3	nmod	_	_
+2	demasiado	demasiado	ADV	ADV	_	3	advmod	_	_
 3	baratos	barato	ADJ	ADJ	Gender=Masc|Number=Plur	1	dobj	_	_
 4	para	para	ADP	ADP	AdpType=Prep	6	mark	_	_
 5	ser	ser	AUX	AUX	VerbForm=Inf	6	cop	_	_
@@ -1850,8 +1850,8 @@
 
 # sent_id es-s49
 # orig_file_sentence 001#49
-1	De	de	ADP	ADP	AdpType=Prep	4	nmod	_	_
-2	allí	allí	ADV	ADV	_	1	advmod	_	_
+1	De	de	ADP	ADP	AdpType=Prep	2	case	_	_
+2	allí	allí	ADV	ADV	_	4	advmod	_	_
 3	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	rebajas	rebaja	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
 5	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
@@ -1880,7 +1880,7 @@
 4	y	y	CONJ	CONJ	_	3	cc	_	_
 5	enrabietado	enrabietado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	3	conj	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
-7	bastante	bastante	ADV	ADV	_	8	nmod	_	_
+7	bastante	bastante	ADV	ADV	_	8	advmod	_	_
 8	cochambrosete	cochambrosete	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
 9	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 10	que	que	PRON	PRON	PronType=Rel	11	dobj	_	_
@@ -2176,13 +2176,13 @@
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Real	Real	PROPN	PROPN	_	9	nsubj	_	MWE=Real_Madrid|MWEPOS=PROPN
 4	Madrid	Madrid	PROPN	PROPN	_	3	name	_	_
-5	de	de	ADP	ADP	AdpType=Prep	3	nmod	_	_
-6	anoche	anoche	ADV	ADV	_	5	advmod	_	_
+5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
+6	anoche	anoche	ADV	ADV	_	3	advmod	_	_
 7	era	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
-8	tan	tanto	ADV	ADV	_	9	nmod	_	_
+8	tan	tanto	ADV	ADV	_	9	advmod	_	_
 9	terrenal	terrenal	ADJ	ADJ	Number=Sing	0	root	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
-11	tan	tanto	ADV	ADV	_	12	nmod	_	_
+11	tan	tanto	ADV	ADV	_	12	advmod	_	_
 12	rural	rural	ADJ	ADJ	Number=Sing	9	amod	_	_
 13	incluso	incluso	ADV	ADV	_	12	advmod	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
@@ -2299,7 +2299,7 @@
 25	fiar	fiar	VERB	VERB	VerbForm=Inf	8	advcl	_	_
 26	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 27	pero	pero	CONJ	CONJ	_	8	cc	_	_
-28	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	MWE=al_menos|MWEPOS=ADV
+28	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	30	advmod	_	MWE=al_menos|MWEPOS=ADV
 29	menos	menos	ADV	ADV	_	28	mwe	_	_
 30	anoche	anoche	ADV	ADV	_	32	advmod	_	_
 31	fue	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	cop	_	_
@@ -2382,7 +2382,7 @@
 39	clara	claro	ADJ	ADJ	Gender=Fem|Number=Sing	40	amod	_	_
 40	alternativa	alternativa	NOUN	NOUN	Gender=Fem|Number=Sing	37	iobj	_	_
 41	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	43	punct	_	_
-42	acaso	acaso	ADV	ADV	_	43	nmod	_	_
+42	acaso	acaso	ADV	ADV	_	43	advmod	_	_
 43	también	también	ADV	ADV	_	37	advmod	_	_
 44	en	en	ADP	ADP	AdpType=Prep	43	case	_	_
 45	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
@@ -2461,7 +2461,7 @@
 2	Quizá	quizá	ADV	ADV	_	4	advmod	_	_
 3	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	dobj	_	_
 4	lamentemos	lamentar	VERB	VERB	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
-5	más	más	ADV	ADV	_	6	nmod	_	_
+5	más	más	ADV	ADV	_	6	advmod	_	_
 6	tarde	tarde	ADV	ADV	_	4	advmod	_	_
 7	-	-	PUNCT	PUNCT	PunctType=Dash	4	punct	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
@@ -2475,14 +2475,14 @@
 1	De	de	ADP	ADP	AdpType=Prep	5	advmod	_	MWE=De_antemano|MWEPOS=ADV
 2	antemano	antemano	NOUN	NOUN	_	1	mwe	_	_
 3	estaba	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
-4	muy	mucho	ADV	ADV	_	5	nmod	_	_
+4	muy	mucho	ADV	ADV	_	5	advmod	_	_
 5	claro	claro	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
 6	que	que	SCONJ	SCONJ	_	9	mark	_	_
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Barcelona	Barcelona	PROPN	PROPN	_	9	nsubj	_	_
 9	tenía	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	csubj	_	_
 10	mucho	mucho	ADV	ADV	_	11	advmod	_	_
-11	más	más	ADV	ADV	_	12	nmod	_	_
+11	más	más	ADV	ADV	_	12	advmod	_	_
 12	margen	margen	NOUN	NOUN	Number=Sing	9	dobj	_	_
 13	para	para	ADP	ADP	AdpType=Prep	14	mark	_	_
 14	mejorar	mejorar	VERB	VERB	VerbForm=Inf	9	advcl	_	_
@@ -2520,8 +2520,8 @@
 28	blancos	blanco	NOUN	NOUN	Gender=Masc|Number=Plur	29	nsubj	_	_
 29	encestaban	encestar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
 30	poco	poco	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	29	nmod	_	_
-31	desde	desde	ADP	ADP	AdpType=Prep	29	advmod	_	_
-32	lejos	lejos	ADV	ADV	_	31	advmod	_	_
+31	desde	desde	ADP	ADP	AdpType=Prep	32	case	_	_
+32	lejos	lejos	ADV	ADV	_	29	advmod	_	_
 33	y	y	CONJ	CONJ	_	29	cc	_	_
 34	debería	deber	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	37	aux	_	_
 35	haber	haber	AUX	AUX	VerbForm=Inf	37	aux	_	_
@@ -2531,7 +2531,7 @@
 39	flotar	flotar	VERB	VERB	VerbForm=Inf	37	csubj	_	_
 40	-	-	PUNCT	PUNCT	PunctType=Dash	39	punct	_	_
 41	con	con	ADP	ADP	AdpType=Prep	43	case	_	_
-42	más	más	ADV	ADV	_	43	nmod	_	_
+42	más	más	ADV	ADV	_	43	advmod	_	_
 43	eficacia	eficacia	NOUN	NOUN	Gender=Fem|Number=Sing	39	nmod	_	_
 44	sobre	sobre	ADP	ADP	AdpType=Prep	46	case	_	_
 45	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
@@ -2626,7 +2626,7 @@
 32	ya	ya	ADV	ADV	_	36	advmod	_	_
 33	no	no	ADV	ADV	Negative=Neg	36	neg	_	_
 34	sería	ser	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	36	cop	_	_
-35	tan	tanto	ADV	ADV	_	36	nmod	_	_
+35	tan	tanto	ADV	ADV	_	36	advmod	_	_
 36	fácil	fácil	ADJ	ADJ	Number=Sing	3	ccomp	_	_
 37	ante	ante	ADP	ADP	AdpType=Prep	42	case	_	_
 38	unos	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
@@ -2677,7 +2677,7 @@
 12	hacer	hacer	VERB	VERB	VerbForm=Inf	10	conj	_	_
 13	Aíto	Aíto	PROPN	PROPN	_	12	nsubj	_	_
 14	tenían	tener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-15	más	más	ADV	ADV	_	16	nmod	_	_
+15	más	más	ADV	ADV	_	16	advmod	_	_
 16	miga	miga	NOUN	NOUN	Gender=Fem|Number=Sing	14	dobj	_	_
 17	que	que	SCONJ	SCONJ	_	19	mark	_	_
 18	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -2745,7 +2745,7 @@
 20	y	y	CONJ	CONJ	_	6	cc	_	_
 21	sí	sí	ADV	ADV	_	6	conj	_	_
 22	en	en	ADP	ADP	AdpType=Prep	21	case	_	_
-23	Barcelona	Barcelona	PROPN	PROPN	_	21	parataxis	_	_
+23	Barcelona	Barcelona	PROPN	PROPN	_	21	nmod	_	_
 24	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	6	punct	_	_
 
 # sent_id es-s73
@@ -2763,8 +2763,8 @@
 11	acabó	acabar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	partido	partido	NOUN	NOUN	Gender=Masc|Number=Sing	11	dobj	_	_
-14	de	de	ADP	ADP	AdpType=Prep	13	nmod	_	_
-15	ayer	ayer	ADV	ADV	_	14	advmod	_	_
+14	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
+15	ayer	ayer	ADV	ADV	_	13	advmod	_	_
 16	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id es-s74
@@ -2779,7 +2779,7 @@
 8	se	él	PRON	PRON	Person=3|PronType=Prs	10	iobj	_	_
 9	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	dobj	_	_
 10	reprochaba	reprochar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
-11	apenas	apenas	ADV	ADV	_	12	nmod	_	_
+11	apenas	apenas	ADV	ADV	_	12	advmod	_	_
 12	veladamente	veladamente	ADV	ADV	_	10	advmod	_	_
 13	en	en	ADP	ADP	AdpType=Prep	15	case	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -2790,8 +2790,8 @@
 19	-	-	PUNCT	PUNCT	PunctType=Dash	28	punct	_	_
 20	si	si	SCONJ	SCONJ	_	25	mark	_	_
 21	también	también	ADV	ADV	_	25	advmod	_	_
-22	de	de	ADP	ADP	AdpType=Prep	25	advmod	_	_
-23	lejos	lejos	ADV	ADV	_	22	advmod	_	_
+22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
+23	lejos	lejos	ADV	ADV	_	25	advmod	_	_
 24	nos	yo	PRON	PRON	Number=Plur|Person=1|PronType=Prs	25	dobj	_	_
 25	zurráis	zurrar	VERB	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	28	advcl	_	_
 26	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
@@ -2812,7 +2812,7 @@
 5	Barcelona	Barcelona	PROPN	PROPN	_	7	nsubj	_	_
 6	no	no	ADV	ADV	Negative=Neg	7	neg	_	_
 7	podrá	poder	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	acl	_	_
-8	quizá	quizá	ADV	ADV	_	9	nmod	_	_
+8	quizá	quizá	ADV	ADV	_	9	advmod	_	_
 9	nunca	nunca	ADV	ADV	_	7	advmod	_	_
 10	resolver	resolver	VERB	VERB	VerbForm=Inf	7	xcomp	_	_
 11	contra	contra	ADP	ADP	AdpType=Prep	13	case	_	_
@@ -2856,7 +2856,7 @@
 # orig_file_sentence 001#77
 1	Otra	otro	PRON	PRON	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
-3	más	más	ADV	ADV	_	4	nmod	_	_
+3	más	más	ADV	ADV	_	4	advmod	_	_
 4	específica	específico	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
 5	:	:	PUNCT	PUNCT	PunctType=Colo	10	punct	_	_
 6	con	con	ADP	ADP	AdpType=Prep	7	case	_	_
@@ -2937,7 +2937,7 @@
 1	Salvo	salvo	ADP	ADP	AdpType=Prep	3	case	_	_
 2	contra	contra	ADP	ADP	AdpType=Prep	3	case	_	_
 3	equipos	equipo	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
-4	más	más	ADV	ADV	_	5	nmod	_	_
+4	más	más	ADV	ADV	_	5	advmod	_	_
 5	pequeños	pequeño	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
 6	en	en	ADP	ADP	AdpType=Prep	8	case	_	_
 7	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
@@ -3085,8 +3085,8 @@
 7	Madrid	Madrid	PROPN	PROPN	_	5	nmod	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 9	viajaste	viajar	VERB	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	advcl	_	_
-10	por	por	ADP	ADP	AdpType=Prep	9	advmod	_	_
-11	ahí	ahí	ADV	ADV	_	10	advmod	_	_
+10	por	por	ADP	ADP	AdpType=Prep	11	case	_	_
+11	ahí	ahí	ADV	ADV	_	9	advmod	_	_
 12	y	y	CONJ	CONJ	_	1	cc	_	_
 13	en	en	ADP	ADP	AdpType=Prep	16	case	_	_
 14	todos	todo	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
@@ -3141,7 +3141,7 @@
 13	regresaste	regresar	VERB	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	conj	_	_
 14	con	con	ADP	ADP	AdpType=Prep	17	case	_	_
 15	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
-16	más	más	ADV	ADV	_	17	nmod	_	_
+16	más	más	ADV	ADV	_	17	advmod	_	_
 17	bonito	bonito	ADJ	ADJ	Gender=Masc|Number=Sing	13	advmod	_	_
 18	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	19	case	_	_
 19	sueño	sueño	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
@@ -3228,7 +3228,7 @@
 9	sí	él	PRON	PRON	Person=3|PrepCase=Pre|PronType=Prs	7	nmod	_	_
 10	sola	solo	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
 11	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
-12	más	más	ADV	ADV	_	13	nmod	_	_
+12	más	más	ADV	ADV	_	13	advmod	_	_
 13	grandes	grande	ADJ	ADJ	Number=Plur	14	amod	_	_
 14	diferencias	diferencia	NOUN	NOUN	Gender=Fem|Number=Plur	7	dobj	_	_
 15	que	que	PRON	PRON	PronType=Rel	17	nsubj	_	_
@@ -3407,10 +3407,10 @@
 5	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 6	que	que	PRON	PRON	PronType=Rel	9	nsubj	_	_
 7	pareció	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
-8	muy	mucho	ADV	ADV	_	9	nmod	_	_
+8	muy	mucho	ADV	ADV	_	9	advmod	_	_
 9	largo	largo	ADJ	ADJ	Gender=Masc|Number=Sing	4	acl	_	_
 10	y	y	CONJ	CONJ	_	9	cc	_	_
-11	muy	mucho	ADV	ADV	_	12	nmod	_	_
+11	muy	mucho	ADV	ADV	_	12	advmod	_	_
 12	corto	corto	ADJ	ADJ	Gender=Masc|Number=Sing	9	conj	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -3539,7 +3539,7 @@
 # orig_file_sentence 002#8
 1	Esperemos	esperar	VERB	VERB	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	que	que	SCONJ	SCONJ	_	4	mark	_	_
-3	muy	mucho	ADV	ADV	_	4	nmod	_	_
+3	muy	mucho	ADV	ADV	_	4	advmod	_	_
 4	pronto	pronto	ADV	ADV	_	1	dobj	_	_
 5	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
@@ -3696,7 +3696,7 @@
 3	llevó	llevar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	etapa	etapa	NOUN	NOUN	Gender=Fem|Number=Sing	3	dobj	_	_
-6	más	más	ADV	ADV	_	7	nmod	_	_
+6	más	más	ADV	ADV	_	7	advmod	_	_
 7	bonita	bonito	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
 8	de	de	ADP	ADP	AdpType=Prep	11	mark	_	_
 9	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
@@ -3742,7 +3742,7 @@
 22	de	de	ADP	ADP	AdpType=Prep	24	case	_	_
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	forma	forma	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
-25	más	más	ADV	ADV	_	26	nmod	_	_
+25	más	más	ADV	ADV	_	26	advmod	_	_
 26	rotunda	rotundo	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
 27	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
 28	supremacía	supremacía	NOUN	NOUN	Gender=Fem|Number=Sing	21	dobj	_	_
@@ -3750,10 +3750,10 @@
 
 # sent_id es-s118
 # orig_file_sentence 002#18
-1	A	a	ADP	ADP	AdpType=Prep	9	advmod	_	MWE=A_partir_de|MWEPOS=ADP
+1	A	a	ADP	ADP	AdpType=Prep	4	case	_	MWE=A_partir_de|MWEPOS=ADP
 2	partir	partir	NOUN	NOUN	_	1	mwe	_	_
 3	de	de	ADP	ADP	AdpType=Prep	1	mwe	_	_
-4	ayer	ayer	ADV	ADV	_	1	advmod	_	_
+4	ayer	ayer	ADV	ADV	_	9	advmod	_	_
 5	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 6	además	además	ADV	ADV	_	18	advmod	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
@@ -3915,7 +3915,7 @@
 11	en	en	ADP	ADP	AdpType=Prep	13	case	_	_
 12	esta	este	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	Vuelta	Vuelta	PROPN	PROPN	_	10	nmod	_	_
-14	mucho	mucho	ADV	ADV	_	15	nmod	_	_
+14	mucho	mucho	ADV	ADV	_	15	advmod	_	_
 15	más	más	ADV	ADV	_	10	dobj	_	_
 16	de	de	ADP	ADP	AdpType=Prep	26	mark	_	_
 17	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
@@ -3932,7 +3932,7 @@
 
 # sent_id es-s126
 # orig_file_sentence 002#26
-1	Muy	mucho	ADV	ADV	_	2	nmod	_	_
+1	Muy	mucho	ADV	ADV	_	2	advmod	_	_
 2	entero	entero	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
 3	debe	deber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 4	de	de	ADP	ADP	AdpType=Prep	2	case	_	_
@@ -4019,7 +4019,7 @@
 30	,	,	PUNCT	PUNCT	PunctType=Comm	29	punct	_	_
 31	les	él	PRON	PRON	Case=Dat|Number=Plur|Person=3|PronType=Prs	32	dobj	_	_
 32	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_
-33	muy	mucho	ADV	ADV	_	34	nmod	_	_
+33	muy	mucho	ADV	ADV	_	34	advmod	_	_
 34	resbaladizos	resbaladizo	ADJ	ADJ	Gender=Masc|Number=Plur	32	dobj	_	_
 35	para	para	ADP	ADP	AdpType=Prep	37	case	_	_
 36	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	37	det	_	_
@@ -4064,7 +4064,7 @@
 75	hacen	hacer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
 76	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	77	det	_	_
 77	comparación	comparación	NOUN	NOUN	Gender=Fem|Number=Sing	75	dobj	_	_
-78	más	más	ADV	ADV	_	79	nmod	_	_
+78	más	más	ADV	ADV	_	79	advmod	_	_
 79	problemática	problemático	ADJ	ADJ	Gender=Fem|Number=Sing	77	amod	_	_
 80	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
@@ -4104,7 +4104,7 @@
 5	individuo	individuo	NOUN	NOUN	Gender=Masc|Number=Sing	3	dobj	_	_
 6	protección	protección	NOUN	NOUN	Gender=Fem|Number=Sing	3	dobj	_	_
 7	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
-8	muy	mucho	ADV	ADV	_	9	nmod	_	_
+8	muy	mucho	ADV	ADV	_	9	advmod	_	_
 9	diversa	diverso	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
 10	índole	índole	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
 11	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
@@ -4295,18 +4295,18 @@
 5	pese	pese	NOUN	NOUN	_	7	mark	_	MWE=pese_a|MWEPOS=ADP
 6	a	a	ADP	ADP	AdpType=Prep	5	mwe	_	_
 7	resultar	resultar	VERB	VERB	VerbForm=Inf	14	advcl	_	_
-8	casi	casi	ADV	ADV	_	9	nmod	_	_
+8	casi	casi	ADV	ADV	_	9	advmod	_	_
 9	insultante	insultante	ADJ	ADJ	Number=Sing	7	dobj	_	_
-10	de	de	ADP	ADP	AdpType=Prep	7	advmod	_	_
-11	cerca	cerca	ADV	ADV	_	10	advmod	_	_
+10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
+11	cerca	cerca	ADV	ADV	_	7	advmod	_	_
 12	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 13	se	él	PRON	PRON	Person=3	14	dobj	_	_
 14	convierte	convertir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	en	en	ADP	ADP	AdpType=Prep	17	case	_	_
-16	prácticamente	prácticamente	ADV	ADV	_	17	nmod	_	_
+16	prácticamente	prácticamente	ADV	ADV	_	17	advmod	_	_
 17	invisible	invisible	ADJ	ADJ	Number=Sing	14	dobj	_	_
-18	de	de	ADP	ADP	AdpType=Prep	14	advmod	_	_
-19	lejos	lejos	ADV	ADV	_	18	advmod	_	_
+18	de	de	ADP	ADP	AdpType=Prep	19	case	_	_
+19	lejos	lejos	ADV	ADV	_	14	advmod	_	_
 20	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id es-s136
@@ -4376,7 +4376,7 @@
 43	en	en	ADP	ADP	AdpType=Prep	42	case	_	_
 44	verano	verano	NOUN	NOUN	Gender=Masc|Number=Sing	42	nmod	_	_
 45	y	y	CONJ	CONJ	_	42	cc	_	_
-46	totalmente	totalmente	ADV	ADV	_	47	nmod	_	_
+46	totalmente	totalmente	ADV	ADV	_	47	advmod	_	_
 47	blancas	blanco	ADJ	ADJ	Gender=Fem|Number=Plur	42	conj	_	_
 48	en	en	ADP	ADP	AdpType=Prep	47	case	_	_
 49	invierno	invierno	NOUN	NOUN	Gender=Masc|Number=Sing	47	nmod	_	_
@@ -4408,7 +4408,7 @@
 6	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	responsabilidad	responsabilidad	NOUN	NOUN	Gender=Fem|Number=Sing	4	dobj	_	_
-9	poco	poco	ADV	ADV	_	10	nmod	_	_
+9	poco	poco	ADV	ADV	_	10	advmod	_	_
 10	onerosa	oneroso	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	mark	_	_
 12	sacar	sacar	VERB	VERB	VerbForm=Inf	8	acl	_	MWE=sacar_adelante|MWEPOS=VERB
@@ -4490,7 +4490,7 @@
 15	reproducción	reproducción	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 17	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
-18	más	más	ADV	ADV	_	19	nmod	_	_
+18	más	más	ADV	ADV	_	19	advmod	_	_
 19	probable	probable	ADJ	ADJ	Number=Sing	0	root	_	_
 20	que	que	SCONJ	SCONJ	_	21	mark	_	_
 21	sobreviva	sobrevivir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	csubj	_	_
@@ -4659,7 +4659,7 @@
 7	macho	macho	NOUN	NOUN	Gender=Masc|Number=Sing	5	dobj	_	_
 8	que	que	PRON	PRON	PronType=Rel	11	nsubj	_	_
 9	esté	estar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-10	inmediatamente	inmediatamente	ADV	ADV	_	11	nmod	_	_
+10	inmediatamente	inmediatamente	ADV	ADV	_	11	advmod	_	_
 11	dispuesto	dispuesto	ADJ	ADJ	Gender=Masc|Number=Sing	7	acl	_	_
 12	para	para	ADP	ADP	AdpType=Prep	15	case	_	_
 13	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -4702,7 +4702,7 @@
 9	por	por	ADP	ADP	AdpType=Prep	11	case	_	_
 10	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	actitud	actitud	NOUN	NOUN	Gender=Fem|Number=Sing	8	dobj	_	_
-12	excesivamente	excesivamente	ADV	ADV	_	13	nmod	_	_
+12	excesivamente	excesivamente	ADV	ADV	_	13	advmod	_	_
 13	galante	galante	ADJ	ADJ	Number=Sing	11	amod	_	_
 14	hacia	hacia	ADP	ADP	AdpType=Prep	16	case	_	_
 15	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
@@ -4804,8 +4804,8 @@
 33	:	:	PUNCT	PUNCT	PunctType=Colo	35	punct	_	_
 34	habían	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
 35	callado	callar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
-36	para	para	ADP	ADP	AdpType=Prep	35	advmod	_	_
-37	siempre	siempre	ADV	ADV	_	36	advmod	_	_
+36	para	para	ADP	ADP	AdpType=Prep	37	case	_	_
+37	siempre	siempre	ADV	ADV	_	35	advmod	_	_
 38	a	a	ADP	ADP	AdpType=Prep	40	case	_	_
 39	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	poeta	poeta	NOUN	NOUN	Gender=Masc|Number=Sing	35	dobj	_	_
@@ -5093,7 +5093,7 @@
 1	Pero	pero	CONJ	CONJ	_	17	advmod	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	test	test	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
-4	más	más	ADV	ADV	_	5	nmod	_	_
+4	más	más	ADV	ADV	_	5	advmod	_	_
 5	preciso	preciso	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
 6	realizado	realizado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	3	amod	_	_
 7	hasta	hasta	ADP	ADP	AdpType=Prep	9	case	_	_
@@ -5170,7 +5170,7 @@
 19	aquel	aquel	PRON	PRON	Gender=Masc|Number=Sing|PronType=Dem	18	mwe	_	_
 20	entonces	entonces	ADV	ADV	_	18	mwe	_	_
 21	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-22	más	más	ADV	ADV	_	23	nmod	_	_
+22	más	más	ADV	ADV	_	23	advmod	_	_
 23	exacto	exacto	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
 24	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	25	case	_	_
 25	mundo	mundo	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
@@ -5271,7 +5271,7 @@
 4	en	en	ADP	ADP	AdpType=Prep	6	case	_	_
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	punto	punto	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	_
-7	más	más	ADV	ADV	_	8	nmod	_	_
+7	más	más	ADV	ADV	_	8	advmod	_	_
 8	alto	alto	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
 9	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 10	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -5297,7 +5297,7 @@
 30	volante	volante	ADJ	ADJ	Number=Sing	29	amod	_	_
 31	resultó	resultar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 32	ser	ser	AUX	AUX	VerbForm=Inf	34	cop	_	_
-33	más	más	ADV	ADV	_	34	nmod	_	_
+33	más	más	ADV	ADV	_	34	advmod	_	_
 34	alta	alto	ADJ	ADJ	Gender=Fem|Number=Sing	31	xcomp	_	_
 35	que	que	SCONJ	SCONJ	_	36	mark	_	_
 36	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
@@ -5931,13 +5931,13 @@
 9	casita	casita	NOUN	NOUN	Gender=Fem|Number=Sing	4	appos	_	_
 10	-	-	PUNCT	PUNCT	PunctType=Dash	9	punct	_	_
 11	con	con	ADP	ADP	AdpType=Prep	13	case	_	_
-12	más	más	ADV	ADV	_	13	nmod	_	_
+12	más	más	ADV	ADV	_	13	advmod	_	_
 13	solera	solera	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
 14	en	en	ADP	ADP	AdpType=Prep	16	case	_	_
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	barrio	barrio	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
 17	con	con	ADP	ADP	AdpType=Prep	19	case	_	_
-18	más	más	ADV	ADV	_	19	nmod	_	_
+18	más	más	ADV	ADV	_	19	advmod	_	_
 19	miseria	miseria	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
 20	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 21	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -5967,8 +5967,8 @@
 2	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	pasado	pasar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	desde	desde	ADP	ADP	AdpType=Prep	4	advmod	_	_
-6	entonces	entonces	ADV	ADV	_	5	advmod	_	_
+5	desde	desde	ADP	ADP	AdpType=Prep	6	case	_	_
+6	entonces	entonces	ADV	ADV	_	4	advmod	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 8	y	y	CONJ	CONJ	_	4	cc	_	_
 9	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
@@ -5991,7 +5991,7 @@
 26	en	en	ADP	ADP	AdpType=Prep	28	case	_	_
 27	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
 28	zonas	zona	NOUN	NOUN	Gender=Fem|Number=Plur	24	nmod	_	_
-29	más	más	ADV	ADV	_	30	nmod	_	_
+29	más	más	ADV	ADV	_	30	advmod	_	_
 30	lumpen	lumpen	ADJ	ADJ	_	28	amod	_	_
 31	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
 32	Nueva	Nueva	PROPN	PROPN	_	28	nmod	_	MWE=Nueva_York|MWEPOS=PROPN
@@ -6511,7 +6511,7 @@
 37	porque	porque	SCONJ	SCONJ	_	39	mark	_	_
 38	él	él	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
 39	juega	jugar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
-40	muy	mucho	ADV	ADV	_	41	nmod	_	_
+40	muy	mucho	ADV	ADV	_	41	advmod	_	_
 41	bien	bien	ADV	ADV	_	39	advmod	_	_
 42	,	,	PUNCT	PUNCT	PunctType=Comm	45	punct	_	_
 43	con	con	ADP	ADP	AdpType=Prep	45	case	_	_
@@ -6839,7 +6839,7 @@
 21	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	ola	ola	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
-24	muy	mucho	ADV	ADV	_	25	nmod	_	_
+24	muy	mucho	ADV	ADV	_	25	advmod	_	_
 25	feliz	feliz	ADJ	ADJ	Number=Sing	2	advcl	_	_
 26	incluso	incluso	ADV	ADV	_	25	advmod	_	_
 27	por	por	ADP	ADP	AdpType=Prep	29	case	_	_
@@ -6925,7 +6925,7 @@
 4	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	mal	mal	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
 6	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-7	más	más	ADV	ADV	_	8	nmod	_	_
+7	más	más	ADV	ADV	_	8	advmod	_	_
 8	importante	importante	ADJ	ADJ	Number=Sing	0	root	_	_
 9	que	que	SCONJ	SCONJ	_	12	mark	_	_
 10	en	en	ADP	ADP	AdpType=Prep	12	case	_	_
@@ -7205,7 +7205,7 @@
 24	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 25	cosa	cosa	NOUN	NOUN	Gender=Fem|Number=Sing	10	dobj	_	_
 26	muy	mucho	ADV	ADV	_	25	advmod	_	_
-27	de	de	ADP	ADP	AdpType=Prep	26	mark	_	_
+27	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 28	estimar	estimar	VERB	VERB	VerbForm=Inf	26	acl	_	_
 29	en	en	ADP	ADP	AdpType=Prep	31	case	_	_
 30	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -7237,7 +7237,7 @@
 4	en	en	ADP	ADP	AdpType=Prep	9	mark	_	_
 5	que	que	SCONJ	SCONJ	_	9	mark	_	_
 6	era	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
-7	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	nmod	_	MWE=un_poco|MWEPOS=ADV
+7	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	MWE=un_poco|MWEPOS=ADV
 8	poco	poco	ADV	ADV	_	7	mwe	_	_
 9	misterioso	misterioso	ADJ	ADJ	Gender=Masc|Number=Sing	3	ccomp	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	_
@@ -7476,7 +7476,7 @@
 13	ponía	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
 14	roja	rojo	ADJ	ADJ	Gender=Fem|Number=Sing	13	dobj	_	_
 15	y	y	CONJ	CONJ	_	14	cc	_	_
-16	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	nmod	_	MWE=un_poco|MWEPOS=ADV
+16	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	advmod	_	MWE=un_poco|MWEPOS=ADV
 17	poco	poco	ADV	ADV	_	16	mwe	_	_
 18	transparente	transparente	ADJ	ADJ	Number=Sing	14	conj	_	_
 19	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
@@ -7572,7 +7572,7 @@
 12	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 13	que	que	SCONJ	SCONJ	_	16	mark	_	_
 14	seas	ser	AUX	AUX	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	cop	_	_
-15	más	más	ADV	ADV	_	16	nmod	_	_
+15	más	más	ADV	ADV	_	16	advmod	_	_
 16	pequeña	pequeño	ADJ	ADJ	Gender=Fem|Number=Sing	4	advcl	_	_
 17	que	que	SCONJ	SCONJ	_	18	mark	_	_
 18	yo	yo	PRON	PRON	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nmod	_	_
@@ -7656,9 +7656,9 @@
 
 # sent_id es-s269
 # orig_file_sentence 003#69
-1	Como	como	ADP	ADP	AdpType=Prep	0	root	_	_
-2	ahora	ahora	ADV	ADV	_	1	advmod	_	_
-3	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
+1	Como	como	ADP	ADP	AdpType=Prep	2	case	_	_
+2	ahora	ahora	ADV	ADV	_	0	root	_	_
+3	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id es-s270
 # orig_file_sentence 003#70
@@ -7708,8 +7708,8 @@
 44	cunaba	cunar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	acl	_	_
 45	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	codo	codo	NOUN	NOUN	Gender=Masc|Number=Sing	44	dobj	_	_
-47	hacia	hacia	ADP	ADP	AdpType=Prep	44	advmod	_	_
-48	dentro	dentro	ADV	ADV	_	47	advmod	_	_
+47	hacia	hacia	ADP	ADP	AdpType=Prep	48	case	_	_
+48	dentro	dentro	ADV	ADV	_	44	advmod	_	_
 49	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id es-s271
@@ -7867,10 +7867,10 @@
 10	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 11	que	que	PRON	PRON	PronType=Rel	12	nsubj	_	_
 12	estaría	estar	VERB	VERB	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	9	acl	_	_
-13	todavía	todavía	ADV	ADV	_	12	advmod	_	_
+13	todavía	todavía	ADV	ADV	_	12	dobj	_	_
 14	en	en	ADP	ADP	AdpType=Prep	13	case	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	cama	cama	NOUN	NOUN	Gender=Fem|Number=Sing	13	dobj	_	_
+16	cama	cama	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
 17	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 18	feliz	feliz	ADJ	ADJ	Number=Sing	12	dobj	_	_
 19	ante	ante	ADP	ADP	AdpType=Prep	21	case	_	_
@@ -7898,7 +7898,7 @@
 # sent_id es-s277
 # orig_file_sentence 003#77
 1	Era	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
-2	muy	mucho	ADV	ADV	_	3	nmod	_	_
+2	muy	mucho	ADV	ADV	_	3	advmod	_	_
 3	mona	mono	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
 4	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 5	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
@@ -7911,7 +7911,7 @@
 2	luego	luego	ADV	ADV	_	1	mwe	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 4	vale	valer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
-5	mucho	mucho	ADV	ADV	_	6	nmod	_	_
+5	mucho	mucho	ADV	ADV	_	6	advmod	_	_
 6	más	más	ADV	ADV	_	4	advmod	_	_
 7	que	que	SCONJ	SCONJ	_	8	mark	_	_
 8	tú	tú	PRON	PRON	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nmod	_	_
@@ -7946,7 +7946,7 @@
 5	intuición	intuición	NOUN	NOUN	Gender=Fem|Number=Sing	3	dobj	_	_
 6	de	de	ADP	ADP	AdpType=Prep	7	case	_	_
 7	naturaleza	naturaleza	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
-8	casi	casi	ADV	ADV	_	9	nmod	_	_
+8	casi	casi	ADV	ADV	_	9	advmod	_	_
 9	sobrenatural	sobrenatural	ADJ	ADJ	Number=Sing	7	amod	_	_
 10	con	con	ADP	ADP	AdpType=Prep	13	case	_	MWE=con_respecto_al|MWEPOS=ADP
 11	respecto	respecto	NOUN	NOUN	_	10	mwe	_	_
@@ -7957,7 +7957,7 @@
 16	pan	pan	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
 17	tostado	tostado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	20	advmod	_	_
 18	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
-19	siempre	siempre	ADV	ADV	_	20	nmod	_	_
+19	siempre	siempre	ADV	ADV	_	20	advmod	_	_
 20	perfecto	perfecto	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
 21	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
@@ -7966,8 +7966,8 @@
 1	No	no	ADV	ADV	Negative=Neg	3	neg	_	_
 2	la	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	dobj	_	_
 3	echaba	echar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	de	de	ADP	ADP	AdpType=Prep	3	advmod	_	_
-5	menos	menos	ADV	ADV	_	4	advmod	_	_
+4	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
+5	menos	menos	ADV	ADV	_	3	advmod	_	_
 6	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s281
@@ -7986,7 +7986,7 @@
 12	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
 13	impasibidad	impasibidad	NOUN	NOUN	Gender=Fem|Number=Sing	21	nsubj	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
-15	tan	tanto	ADV	ADV	_	16	nmod	_	_
+15	tan	tanto	ADV	ADV	_	16	advmod	_	_
 16	pura	puro	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
 17	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
 18	no	no	ADV	ADV	Negative=Neg	21	neg	_	_
@@ -8126,8 +8126,8 @@
 6	arrogante	arrogante	ADJ	ADJ	Number=Sing	3	dobj	_	_
 7	e	e	CONJ	CONJ	_	6	cc	_	_
 8	imposible	imposible	ADJ	ADJ	Number=Sing	6	conj	_	_
-9	como	como	ADP	ADP	AdpType=Prep	6	nmod	_	_
-10	siempre	siempre	ADV	ADV	_	9	advmod	_	_
+9	como	como	ADP	ADP	AdpType=Prep	10	case	_	_
+10	siempre	siempre	ADV	ADV	_	6	advmod	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 12	pero	pero	CONJ	CONJ	_	3	cc	_	_
 13	encima	encima	ADV	ADV	_	30	advmod	_	_
@@ -8293,8 +8293,8 @@
 37	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
 38	elecciones	elección	NOUN	NOUN	Gender=Fem|Number=Plur	29	nmod	_	_
 39	presidenciales	presidencial	ADJ	ADJ	Number=Plur	38	amod	_	_
-40	de	de	ADP	ADP	AdpType=Prep	38	nmod	_	_
-41	mañana	mañana	ADV	ADV	_	40	advmod	_	_
+40	de	de	ADP	ADP	AdpType=Prep	41	case	_	_
+41	mañana	mañana	ADV	ADV	_	38	advmod	_	_
 42	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	_
 43	martes	martes	NOUN	NOUN	AdvType=Tim	41	nmod	_	_
 44	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
@@ -8456,8 +8456,8 @@
 10	justo	justo	ADV	ADV	_	15	advmod	_	_
 11	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	10	case	_	_
 12	día	día	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
-13	de	de	ADP	ADP	AdpType=Prep	12	nmod	_	_
-14	hoy	hoy	ADV	ADV	_	13	advmod	_	_
+13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
+14	hoy	hoy	ADV	ADV	_	12	advmod	_	_
 15	triplicaron	triplicar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	_
 16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	operativo	operativo	NOUN	NOUN	Gender=Masc|Number=Sing	15	dobj	_	_
@@ -8488,7 +8488,7 @@
 5	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	formación	formación	NOUN	NOUN	Gender=Fem|Number=Sing	3	appos	_	_
 7	con	con	ADP	ADP	AdpType=Prep	9	case	_	_
-8	más	más	ADV	ADV	_	9	nmod	_	_
+8	más	más	ADV	ADV	_	9	advmod	_	_
 9	posibilidades	posibilidad	NOUN	NOUN	Gender=Fem|Number=Plur	6	nmod	_	_
 10	de	de	ADP	ADP	AdpType=Prep	11	mark	_	_
 11	ganar	ganar	VERB	VERB	VerbForm=Inf	9	acl	_	_
@@ -9181,7 +9181,7 @@
 3	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	13	nmod	_	_
 4	y	y	CONJ	CONJ	_	3	cc	_	_
 5	privado	privado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	3	conj	_	_
-6	casi	casi	ADV	ADV	_	7	nmod	_	_
+6	casi	casi	ADV	ADV	_	7	advmod	_	_
 7	totalmente	totalmente	ADV	ADV	_	5	advmod	_	_
 8	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -9658,7 +9658,7 @@
 20	y	y	CONJ	CONJ	_	19	cc	_	_
 21	también	también	ADV	ADV	_	19	conj	_	_
 22	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	21	case	_	_
-23	candidato	candidato	NOUN	NOUN	Gender=Masc|Number=Sing	21	dobj	_	_
+23	candidato	candidato	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
 24	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	26	case	_	_
 25	oficialista	oficialista	ADJ	ADJ	Number=Sing	26	amod	_	_
 26	Partido	Partido	PROPN	PROPN	_	23	nmod	_	MWE=Partido_de_la_Liberación_Dominicana|MWEPOS=PROPN
@@ -9752,8 +9752,8 @@
 24	22.00	22.00	NOUN	NOUN	AdvType=Tim	20	appos	_	_
 25	GMT	GMT	NOUN	NOUN	_	24	appos	_	_
 26	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	24	punct	_	_
-27	de	de	ADP	ADP	AdpType=Prep	11	nmod	_	_
-28	hoy	hoy	ADV	ADV	_	27	advmod	_	_
+27	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
+28	hoy	hoy	ADV	ADV	_	11	advmod	_	_
 29	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 30	en	en	ADP	ADP	AdpType=Prep	33	case	_	_
 31	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
@@ -9793,7 +9793,7 @@
 21	y	y	CONJ	CONJ	_	20	cc	_	_
 22	mujeres	mujer	NOUN	NOUN	Gender=Fem|Number=Plur	20	conj	_	_
 23	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
-24	muy	mucho	ADV	ADV	_	25	nmod	_	_
+24	muy	mucho	ADV	ADV	_	25	advmod	_	_
 25	superior	superior	ADJ	ADJ	Number=Sing	10	acl	_	_
 26	a	a	ADP	ADP	AdpType=Prep	27	case	_	_
 27	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -10547,7 +10547,7 @@
 17	Berlín	Berlín	PROPN	PROPN	_	12	nmod	_	_
 18	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 19	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-20	más	más	ADV	ADV	_	21	nmod	_	_
+20	más	más	ADV	ADV	_	21	advmod	_	_
 21	importante	importante	ADJ	ADJ	Number=Sing	12	appos	_	_
 22	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	23	case	_	_
 23	mundo	mundo	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
@@ -10556,7 +10556,7 @@
 26	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	balance	balance	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
 28	preliminar	preliminar	ADJ	ADJ	Number=Sing	27	amod	_	_
-29	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	nmod	_	MWE=un_tanto|MWEPOS=ADV
+29	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	advmod	_	MWE=un_tanto|MWEPOS=ADV
 30	tanto	tanto	NOUN	NOUN	_	29	mwe	_	_
 31	pesimista	pesimista	ADJ	ADJ	Number=Sing	27	amod	_	_
 32	porque	porque	SCONJ	SCONJ	_	34	mark	_	_
@@ -10873,7 +10873,7 @@
 3	esperábamos	esperar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	27	ccomp	_	_
 4	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	movimiento	movimiento	NOUN	NOUN	Gender=Masc|Number=Sing	3	dobj	_	_
-6	tan	tanto	ADV	ADV	_	7	nmod	_	_
+6	tan	tanto	ADV	ADV	_	7	advmod	_	_
 7	flojo	flojo	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 9	pero	pero	CONJ	CONJ	_	3	cc	_	_
@@ -11026,7 +11026,7 @@
 44	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
 45	precios	precio	NOUN	NOUN	Gender=Masc|Number=Plur	48	nsubj	_	_
 46	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
-47	más	más	ADV	ADV	_	48	nmod	_	_
+47	más	más	ADV	ADV	_	48	advmod	_	_
 48	baratos	barato	ADJ	ADJ	Gender=Masc|Number=Plur	30	advcl	_	_
 49	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
@@ -11063,13 +11063,13 @@
 29	cantidad	cantidad	NOUN	NOUN	Gender=Fem|Number=Sing	27	nmod	_	_
 30	"	"	PUNCT	PUNCT	PunctType=Quot	27	punct	_	_
 31	que	que	SCONJ	SCONJ	_	32	mark	_	_
-32	antes	antes	ADV	ADV	_	27	nmod	_	_
+32	antes	antes	ADV	ADV	_	27	advmod	_	_
 33	y	y	CONJ	CONJ	_	24	cc	_	_
 34	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	det	_	_
 35	país	país	NOUN	NOUN	Gender=Masc|Number=Sing	36	nsubj	_	_
 36	ofreció	ofrecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
 37	destinos	destino	NOUN	NOUN	Gender=Masc|Number=Plur	36	dobj	_	_
-38	más	más	ADV	ADV	_	39	nmod	_	_
+38	más	más	ADV	ADV	_	39	advmod	_	_
 39	acordes	acorde	ADJ	ADJ	Number=Plur	37	amod	_	_
 40	a	a	ADP	ADP	AdpType=Prep	42	case	_	_
 41	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
@@ -11371,7 +11371,7 @@
 45	que	que	PRON	PRON	PronType=Rel	46	nsubj	_	_
 46	contará	contar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	41	acl	_	_
 47	con	con	ADP	ADP	AdpType=Prep	51	case	_	_
-48	más	más	ADV	ADV	_	51	nmod	_	_
+48	más	más	ADV	ADV	_	51	advmod	_	_
 49	de	de	ADP	ADP	AdpType=Prep	48	case	_	_
 50	60.000	60000	NUM	NUM	NumForm=Digit	48	nummod	_	_
 51	soldados	soldado	NOUN	NOUN	Gender=Masc|Number=Plur	46	dobj	_	_
@@ -11564,7 +11564,7 @@
 15	lunes	lunes	NOUN	NOUN	AdvType=Tim	13	nmod	_	_
 16	tendrá	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 17	"	"	PUNCT	PUNCT	PunctType=Quot	21	punct	_	_
-18	más	más	ADV	ADV	_	21	nmod	_	_
+18	más	más	ADV	ADV	_	21	advmod	_	_
 19	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 20	60.000	60000	NUM	NUM	NumForm=Digit	18	nummod	_	_
 21	soldados	soldado	NOUN	NOUN	Gender=Masc|Number=Plur	16	dobj	_	_
@@ -11750,7 +11750,7 @@
 10	de	de	ADP	ADP	AdpType=Prep	14	mark	_	_
 11	que	que	SCONJ	SCONJ	_	14	mark	_	_
 12	sería	ser	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	14	cop	_	_
-13	más	más	ADV	ADV	_	14	nmod	_	_
+13	más	más	ADV	ADV	_	14	advmod	_	_
 14	fácil	fácil	ADJ	ADJ	Number=Sing	9	acl	_	_
 15	vencer	vencer	VERB	VERB	VerbForm=Inf	14	csubj	_	_
 16	a	a	ADP	ADP	AdpType=Prep	19	case	_	_
@@ -11880,7 +11880,7 @@
 20	va	ir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 21	a	a	ADP	ADP	AdpType=Prep	22	mark	_	_
 22	venir	venir	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
-23	muy	mucho	ADV	ADV	_	24	nmod	_	_
+23	muy	mucho	ADV	ADV	_	24	advmod	_	_
 24	bien	bien	ADV	ADV	_	22	advmod	_	_
 25	a	a	ADP	ADP	AdpType=Prep	27	case	_	_
 26	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
@@ -11971,7 +11971,7 @@
 30	va	ir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
 31	a	a	ADP	ADP	AdpType=Prep	34	case	_	_
 32	ser	ser	AUX	AUX	VerbForm=Inf	34	cop	_	_
-33	muy	mucho	ADV	ADV	_	34	nmod	_	_
+33	muy	mucho	ADV	ADV	_	34	advmod	_	_
 34	difícil	difícil	ADJ	ADJ	Number=Sing	12	advcl	_	_
 35	"	"	PUNCT	PUNCT	PunctType=Quot	3	punct	_	_
 36	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
@@ -11993,7 +11993,7 @@
 7	va	ir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 8	a	a	ADP	ADP	AdpType=Prep	9	mark	_	_
 9	ir	ir	VERB	VERB	VerbForm=Inf	2	xcomp	_	_
-10	muy	mucho	ADV	ADV	_	11	nmod	_	_
+10	muy	mucho	ADV	ADV	_	11	advmod	_	_
 11	bien	bien	ADV	ADV	_	9	advmod	_	_
 12	para	para	ADP	ADP	AdpType=Prep	14	case	_	_
 13	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -12058,11 +12058,11 @@
 3	tienen	tener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
 4	unas	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	plantillas	plantilla	NOUN	NOUN	Gender=Fem|Number=Plur	3	dobj	_	_
-6	más	más	ADV	ADV	_	7	nmod	_	_
+6	más	más	ADV	ADV	_	7	advmod	_	_
 7	amplias	amplio	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
 8	y	y	CONJ	CONJ	_	7	cc	_	_
 9	con	con	ADP	ADP	AdpType=Prep	11	case	_	_
-10	más	más	ADV	ADV	_	11	nmod	_	_
+10	más	más	ADV	ADV	_	11	advmod	_	_
 11	calidad	calidad	NOUN	NOUN	Gender=Fem|Number=Sing	7	conj	_	_
 12	que	que	SCONJ	SCONJ	_	13	mark	_	_
 13	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	nmod	_	MWE=la_nuestra|MWEPOS=PRON
@@ -12111,7 +12111,7 @@
 
 # sent_id es-s369
 # orig_file_sentence 004#69
-1	Más	más	ADV	ADV	_	2	nmod	_	_
+1	Más	más	ADV	ADV	_	2	advmod	_	_
 2	gráfico	gráfico	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
 3	que	que	SCONJ	SCONJ	_	5	mark	_	_
 4	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
@@ -12160,7 +12160,7 @@
 5	además	además	ADV	ADV	_	3	conj	_	_
 6	en	en	ADP	ADP	AdpType=Prep	5	case	_	_
 7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	final	final	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	final	final	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
 9	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 10	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Copa	Copa	PROPN	PROPN	_	8	nmod	_	MWE=Copa_del_Rey|MWEPOS=PROPN
@@ -12183,7 +12183,7 @@
 
 # sent_id es-s372
 # orig_file_sentence 004#72
-1	Menos	menos	ADV	ADV	_	2	nmod	_	_
+1	Menos	menos	ADV	ADV	_	2	advmod	_	_
 2	tajantes	tajante	ADJ	ADJ	Number=Plur	0	root	_	_
 3	que	que	SCONJ	SCONJ	_	5	mark	_	_
 4	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -12319,7 +12319,7 @@
 8	pasar	pasar	VERB	VERB	VerbForm=Inf	10	csubj	_	_
 9	se	él	PRON	PRON	_	10	dobj	_	_
 10	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
-11	mucho	mucho	ADV	ADV	_	13	nmod	_	_
+11	mucho	mucho	ADV	ADV	_	13	advmod	_	_
 12	más	más	ADV	ADV	_	11	advmod	_	_
 13	competitivo	competitivo	ADJ	ADJ	Gender=Masc|Number=Sing	10	dobj	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
@@ -12591,7 +12591,7 @@
 43	,	,	PUNCT	PUNCT	PunctType=Comm	45	punct	_	_
 44	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
 45	capas	capa	NOUN	NOUN	Gender=Fem|Number=Plur	32	appos	_	_
-46	más	más	ADV	ADV	_	47	nmod	_	_
+46	más	más	ADV	ADV	_	47	advmod	_	_
 47	bajas	bajo	ADJ	ADJ	Gender=Fem|Number=Plur	45	amod	_	_
 48	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
@@ -12694,12 +12694,12 @@
 2	alivio	alivio	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	fiscal	fiscal	ADJ	ADJ	Number=Sing	2	amod	_	_
 4	beneficiará	beneficiar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	parataxis	_	_
-5	sobre	sobre	ADP	ADP	AdpType=Prep	4	advmod	_	MWE=sobre_todo|MWEPOS=ADV
+5	sobre	sobre	ADP	ADP	AdpType=Prep	4	dobj	_	MWE=sobre_todo|MWEPOS=ADV
 6	todo	todo	NOUN	NOUN	_	5	mwe	_	_
 7	a	a	ADP	ADP	AdpType=Prep	5	case	_	_
 8	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-9	hogares	hogar	NOUN	NOUN	Gender=Masc|Number=Plur	5	dobj	_	_
-10	más	más	ADV	ADV	_	11	nmod	_	_
+9	hogares	hogar	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
+10	más	más	ADV	ADV	_	11	advmod	_	_
 11	modestos	modesto	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
 12	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 13	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -12857,7 +12857,7 @@
 1	Con	con	ADP	ADP	AdpType=Prep	3	case	_	_
 2	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	discurso	discurso	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
-4	claramente	claramente	ADV	ADV	_	6	nmod	_	_
+4	claramente	claramente	ADV	ADV	_	6	advmod	_	_
 5	"	"	PUNCT	PUNCT	PunctType=Quot	6	punct	_	_
 6	electoralista	electoralista	ADJ	ADJ	Number=Sing	3	amod	_	_
 7	"	"	PUNCT	PUNCT	PunctType=Quot	6	punct	_	_
@@ -12922,7 +12922,7 @@
 19	apunta	apuntar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	ccomp	_	_
 20	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	mérito	mérito	NOUN	NOUN	Gender=Masc|Number=Sing	19	dobj	_	_
-22	muy	mucho	ADV	ADV	_	24	nmod	_	_
+22	muy	mucho	ADV	ADV	_	24	advmod	_	_
 23	"	"	PUNCT	PUNCT	PunctType=Quot	24	punct	_	_
 24	político	político	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
 25	"	"	PUNCT	PUNCT	PunctType=Quot	24	punct	_	_
@@ -13047,8 +13047,8 @@
 23	hoy	hoy	ADV	ADV	_	22	advmod	_	_
 24	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	promesas	promesa	NOUN	NOUN	Gender=Fem|Number=Plur	22	dobj	_	_
-26	de	de	ADP	ADP	AdpType=Prep	25	nmod	_	_
-27	anoche	anoche	ADV	ADV	_	26	advmod	_	_
+26	de	de	ADP	ADP	AdpType=Prep	27	case	_	_
+27	anoche	anoche	ADV	ADV	_	25	advmod	_	_
 28	como	como	SCONJ	SCONJ	_	31	mark	_	_
 29	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	"	"	PUNCT	PUNCT	PunctType=Quot	31	punct	_	_
@@ -13699,8 +13699,8 @@
 10	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	mejor	mejor	ADJ	ADJ	Number=Sing	3	acl	_	_
 12	logrado	logrado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	11	advmod	_	_
-13	hasta	hasta	ADP	ADP	AdpType=Prep	12	advmod	_	_
-14	ahora	ahora	ADV	ADV	_	13	advmod	_	_
+13	hasta	hasta	ADP	ADP	AdpType=Prep	14	case	_	_
+14	ahora	ahora	ADV	ADV	_	12	advmod	_	_
 15	por	por	ADP	ADP	AdpType=Prep	17	case	_	_
 16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	equipo	equipo	NOUN	NOUN	Gender=Masc|Number=Sing	12	dobj	_	_
@@ -13838,7 +13838,7 @@
 45	Reynard/Ford	Reynard/Ford	PROPN	PROPN	_	42	name	_	_
 46	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	45	punct	_	_
 47	y	y	CONJ	CONJ	_	40	cc	_	_
-48	poco	poco	ADV	ADV	_	49	nmod	_	_
+48	poco	poco	ADV	ADV	_	49	advmod	_	_
 49	después	después	ADV	ADV	_	40	conj	_	_
 50	de	de	ADP	ADP	AdpType=Prep	51	case	_	_
 51	Paul	Paul	PROPN	PROPN	_	49	nmod	_	MWE=Paul_Tracy|MWEPOS=PROPN
@@ -14293,8 +14293,8 @@
 10	fondos	fondo	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	_
 11	se	se	PRON	PRON	_	12	dobj	_	_
 12	emplean	emplear	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	desde	desde	ADP	ADP	AdpType=Prep	12	advmod	_	_
-14	entonces	entonces	ADV	ADV	_	13	advmod	_	_
+13	desde	desde	ADP	ADP	AdpType=Prep	14	case	_	_
+14	entonces	entonces	ADV	ADV	_	12	advmod	_	_
 15	sólo	sólo	ADV	ADV	_	12	advmod	_	_
 16	para	para	ADP	ADP	AdpType=Prep	15	case	_	_
 17	"	"	PUNCT	PUNCT	PunctType=Quot	18	punct	_	_
@@ -14670,14 +14670,14 @@
 22	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	Quince	quince	NUM	NUM	Number=Plur|NumType=Card	24	nsubj	_	_
 24	optaron	optar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-25	sólo	sólo	ADV	ADV	_	24	advmod	_	_
+25	sólo	sólo	ADV	ADV	_	24	dobj	_	_
 26	por	por	ADP	ADP	AdpType=Prep	25	case	_	_
 27	tibias	tibio	ADJ	ADJ	Gender=Fem|Number=Plur	28	amod	_	_
-28	sanciones	sanción	NOUN	NOUN	Gender=Fem|Number=Plur	25	dobj	_	_
+28	sanciones	sanción	NOUN	NOUN	Gender=Fem|Number=Plur	25	nmod	_	_
 29	de	de	ADP	ADP	AdpType=Prep	30	case	_	_
 30	castigo	castigo	NOUN	NOUN	Gender=Masc|Number=Sing	28	nmod	_	_
 31	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
-32	mucho	mucho	ADV	ADV	_	33	nmod	_	_
+32	mucho	mucho	ADV	ADV	_	33	advmod	_	_
 33	más	más	ADV	ADV	_	34	advmod	_	_
 34	testimoniales	testimonial	ADJ	ADJ	Number=Plur	28	amod	_	_
 35	que	que	SCONJ	SCONJ	_	36	mark	_	_
@@ -14831,7 +14831,7 @@
 10	hay	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
 11	"	"	PUNCT	PUNCT	PunctType=Quot	12	punct	_	_
 12	acuerdos	acuerdo	NOUN	NOUN	Gender=Masc|Number=Plur	10	dobj	_	_
-13	muy	mucho	ADV	ADV	_	14	nmod	_	_
+13	muy	mucho	ADV	ADV	_	14	advmod	_	_
 14	satisfactorios	satisfactorio	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
 15	con	con	ADP	ADP	AdpType=Prep	17	case	_	_
 16	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -15033,7 +15033,7 @@
 31	cada	cada	DET	DET	Number=Sing|PronType=Ind	32	det	_	_
 32	uno	uno	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	35	nsubj	_	_
 33	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
-34	muy	mucho	ADV	ADV	_	35	nmod	_	_
+34	muy	mucho	ADV	ADV	_	35	advmod	_	_
 35	libre	libre	ADJ	ADJ	Number=Sing	24	advcl	_	_
 36	de	de	ADP	ADP	AdpType=Prep	39	mark	_	_
 37	actuar	actuar	AUX	AUX	VerbForm=Inf	39	aux	_	_
@@ -15522,7 +15522,7 @@
 43	buen	buen	ADJ	ADJ	Gender=Masc|Number=Sing	44	amod	_	_
 44	camino	camino	NOUN	NOUN	Gender=Masc|Number=Sing	19	conj	_	_
 45	con	con	ADP	ADP	AdpType=Prep	49	case	_	_
-46	más	más	ADV	ADV	_	49	nmod	_	_
+46	más	más	ADV	ADV	_	49	advmod	_	_
 47	de	de	ADP	ADP	AdpType=Prep	46	case	_	_
 48	400	400	NUM	NUM	NumForm=Digit	46	nummod	_	_
 49	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	44	nmod	_	_
@@ -15618,8 +15618,8 @@
 
 # sent_id es-s455
 # orig_file_sentence 005#55
-1	Hasta	hasta	ADP	ADP	AdpType=Prep	6	advmod	_	_
-2	ahora	ahora	ADV	ADV	_	1	advmod	_	_
+1	Hasta	hasta	ADP	ADP	AdpType=Prep	2	case	_	_
+2	ahora	ahora	ADV	ADV	_	6	advmod	_	_
 3	ya	ya	ADV	ADV	_	6	advmod	_	_
 4	se	se	PRON	PRON	_	6	dobj	_	_
 5	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -15821,11 +15821,11 @@
 5	a	a	ADP	ADP	AdpType=Prep	6	case	_	_
 6	Pavón	Pavón	PROPN	PROPN	_	4	dobj	_	_
 7	y	y	CONJ	CONJ	_	4	cc	_	_
-8	poco	poco	ADV	ADV	_	9	nmod	_	_
+8	poco	poco	ADV	ADV	_	9	advmod	_	_
 9	después	después	ADV	ADV	_	4	conj	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
-11	por	por	ADP	ADP	AdpType=Prep	9	mark	_	_
-12	empujarlo	empujar	VERB	VERB	VerbForm=Inf	9	parataxis	_	_
+11	por	por	ADP	ADP	AdpType=Prep	9	case	_	_
+12	empujarlo	empujar	VERB	VERB	VerbForm=Inf	9	acl	_	_
 13	en	en	ADP	ADP	AdpType=Prep	14	case	_	_
 14	protesta	protesta	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
@@ -16002,7 +16002,7 @@
 4	planteamiento	planteamiento	NOUN	NOUN	Gender=Masc|Number=Sing	2	dobj	_	_
 5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 6	partido	partido	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
-7	muy	mucho	ADV	ADV	_	8	nmod	_	_
+7	muy	mucho	ADV	ADV	_	8	advmod	_	_
 8	serio	serio	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
 9	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 10	con	con	ADP	ADP	AdpType=Prep	12	case	_	_
@@ -16056,8 +16056,8 @@
 22	Lobatón	Lobatón	PROPN	PROPN	_	20	nmod	_	_
 23	se	él	PRON	PRON	Person=3	24	dobj	_	_
 24	colocó	colocar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
-25	por	por	ADP	ADP	AdpType=Prep	24	advmod	_	_
-26	delante	delante	ADV	ADV	_	25	advmod	_	_
+25	por	por	ADP	ADP	AdpType=Prep	26	case	_	_
+26	delante	delante	ADV	ADV	_	24	advmod	_	_
 27	en	en	ADP	ADP	AdpType=Prep	29	case	_	_
 28	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	marcador	marcador	NOUN	NOUN	Gender=Masc|Number=Sing	24	nmod	_	_
@@ -16142,8 +16142,8 @@
 23	de	de	ADP	ADP	AdpType=Prep	25	case	_	_
 24	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	demostrada	demostrado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	22	amod	_	_
-26	hasta	hasta	ADP	ADP	AdpType=Prep	25	advmod	_	_
-27	entonces	entonces	ADV	ADV	_	26	advmod	_	_
+26	hasta	hasta	ADP	ADP	AdpType=Prep	27	case	_	_
+27	entonces	entonces	ADV	ADV	_	25	advmod	_	_
 28	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s472
@@ -16278,7 +16278,7 @@
 29	ya	ya	ADV	ADV	_	31	advmod	_	_
 30	se	se	PRON	PRON	_	31	dobj	_	_
 31	veía	ver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	acl	_	_
-32	prácticamente	prácticamente	ADV	ADV	_	33	nmod	_	_
+32	prácticamente	prácticamente	ADV	ADV	_	33	advmod	_	_
 33	imposible	imposible	ADJ	ADJ	Number=Sing	31	dobj	_	_
 34	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
@@ -16496,7 +16496,7 @@
 12	ETA	ETA	PROPN	PROPN	_	14	nsubj	_	_
 13	"	"	PUNCT	PUNCT	PunctType=Quot	14	punct	_	_
 14	sabe	saber	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
-15	muy	mucho	ADV	ADV	_	16	nmod	_	_
+15	muy	mucho	ADV	ADV	_	16	advmod	_	_
 16	bien	bien	ADV	ADV	_	14	advmod	_	_
 17	que	que	SCONJ	SCONJ	_	19	mark	_	_
 18	nunca	nunca	ADV	ADV	_	19	advmod	_	_
@@ -16623,7 +16623,7 @@
 38	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
 39	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
 40	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
-41	pistolas	pistola	NOUN	NOUN	Gender=Fem|Number=Plur	37	nsubj	_	_
+41	pistolas	pistola	NOUN	NOUN	Gender=Fem|Number=Plur	37	nmod	_	_
 42	,	,	PUNCT	PUNCT	PunctType=Comm	45	punct	_	_
 43	con	con	ADP	ADP	AdpType=Prep	45	case	_	_
 44	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	45	det	_	_
@@ -16671,7 +16671,7 @@
 29	ello	él	PRON	PRON	Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 30	supondrá	suponer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
 31	"	"	PUNCT	PUNCT	PunctType=Quot	33	punct	_	_
-32	más	más	ADV	ADV	_	33	nmod	_	_
+32	más	más	ADV	ADV	_	33	advmod	_	_
 33	abono	abono	NOUN	NOUN	Gender=Masc|Number=Sing	30	dobj	_	_
 34	para	para	ADP	ADP	AdpType=Prep	36	case	_	_
 35	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
@@ -16983,7 +16983,7 @@
 60	chillan	chillar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
 61	,	,	PUNCT	PUNCT	PunctType=Comm	60	punct	_	_
 62	nosotros	yo	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	60	dobj	_	_
-63	más	más	ADV	ADV	_	64	nmod	_	_
+63	más	más	ADV	ADV	_	64	advmod	_	_
 64	quietos	quieto	ADJ	ADJ	Gender=Masc|Number=Plur	60	amod	_	_
 65	,	,	PUNCT	PUNCT	PunctType=Comm	60	punct	_	_
 66	y	y	CONJ	CONJ	_	60	cc	_	_
@@ -17654,7 +17654,7 @@
 11	vasca	vasco	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
 12	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 13	"	"	PUNCT	PUNCT	PunctType=Quot	15	punct	_	_
-14	bastante	bastante	ADV	ADV	_	15	nmod	_	_
+14	bastante	bastante	ADV	ADV	_	15	advmod	_	_
 15	duro	duro	ADJ	ADJ	Gender=Masc|Number=Sing	3	ccomp	_	_
 16	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
 17	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -17753,7 +17753,7 @@
 58	,	,	PUNCT	PUNCT	PunctType=Comm	62	punct	_	_
 59	que	que	PRON	PRON	PronType=Rel	62	nsubj	_	_
 60	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	62	cop	_	_
-61	bastante	bastante	ADV	ADV	_	62	nmod	_	_
+61	bastante	bastante	ADV	ADV	_	62	advmod	_	_
 62	duros	duro	ADJ	ADJ	Gender=Masc|Number=Plur	57	acl	_	_
 63	"	"	PUNCT	PUNCT	PunctType=Quot	35	punct	_	_
 64	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
@@ -18268,7 +18268,7 @@
 33	que	que	PRON	PRON	PronType=Rel	37	nsubj	_	_
 34	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
 35	"	"	PUNCT	PUNCT	PunctType=Quot	37	punct	_	_
-36	absolutamente	absolutamente	ADV	ADV	_	37	nmod	_	_
+36	absolutamente	absolutamente	ADV	ADV	_	37	advmod	_	_
 37	prioritarios	prioritario	ADJ	ADJ	Gender=Masc|Number=Plur	30	acl	_	_
 38	"	"	PUNCT	PUNCT	PunctType=Quot	37	punct	_	_
 39	y	y	CONJ	CONJ	_	37	cc	_	_
@@ -19354,7 +19354,7 @@
 11	inhumano	inhumano	ADJ	ADJ	Gender=Masc|Number=Sing	4	ccomp	_	_
 12	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 13	pero	pero	CONJ	CONJ	_	4	cc	_	_
-14	más	más	ADV	ADV	_	15	nmod	_	_
+14	más	más	ADV	ADV	_	15	advmod	_	_
 15	inhumano	inhumano	ADJ	ADJ	Gender=Masc|Number=Sing	4	conj	_	_
 16	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 17	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -19511,7 +19511,7 @@
 21	se	se	PRON	PRON	_	22	dobj	_	_
 22	registraron	registrar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	_
 23	marcas	marca	NOUN	NOUN	Gender=Fem|Number=Plur	22	nsubj	_	_
-24	poco	poco	ADV	ADV	_	25	nmod	_	_
+24	poco	poco	ADV	ADV	_	25	advmod	_	_
 25	brillantes	brillante	ADJ	ADJ	Number=Plur	23	amod	_	_
 26	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
@@ -20207,7 +20207,7 @@
 5	en	en	ADP	ADP	AdpType=Prep	7	case	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	que	que	PRON	PRON	PronType=Rel	16	nmod	_	_
-8	más	más	ADV	ADV	_	10	nmod	_	_
+8	más	más	ADV	ADV	_	10	advmod	_	_
 9	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	_
 10	95	95	NUM	NUM	NumForm=Digit|NumType=Card	16	nsubj	_	MWE=95_por_ciento|MWEPOS=NUM
 11	por	por	ADP	ADP	AdpType=Prep	12	case	_	_
@@ -20953,7 +20953,7 @@
 6	encuentra	encontrar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	cada	cada	DET	DET	Number=Sing|PronType=Ind	8	det	_	_
 8	vez	vez	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
-9	más	más	ADV	ADV	_	10	nmod	_	_
+9	más	más	ADV	ADV	_	10	advmod	_	_
 10	cerca	cerca	ADV	ADV	_	6	advmod	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	mark	_	_
 12	conseguir	conseguir	VERB	VERB	VerbForm=Inf	10	advcl	_	_
@@ -21154,7 +21154,7 @@
 8	con	con	ADP	ADP	AdpType=Prep	10	case	_	_
 9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	curva	curva	NOUN	NOUN	Gender=Fem|Number=Sing	7	dobj	_	_
-11	más	más	ADV	ADV	_	12	nmod	_	_
+11	más	más	ADV	ADV	_	12	advmod	_	_
 12	larga	largo	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
 13	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	14	case	_	_
 14	mundial	mundial	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
@@ -21162,11 +21162,11 @@
 16	una	uno	PRON	PRON	Gender=Fem|Number=Sing|PronType=Ind	10	appos	_	_
 17	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
 18	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
-19	más	más	ADV	ADV	_	20	nmod	_	_
+19	más	más	ADV	ADV	_	20	advmod	_	_
 20	lentas	lento	ADJ	ADJ	Gender=Fem|Number=Plur	16	amod	_	_
 21	y	y	CONJ	CONJ	_	16	cc	_	_
 22	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-23	más	más	ADV	ADV	_	24	nmod	_	_
+23	más	más	ADV	ADV	_	24	advmod	_	_
 24	difícil	difícil	ADJ	ADJ	Number=Sing	16	conj	_	_
 25	para	para	ADP	ADP	AdpType=Prep	26	mark	_	_
 26	entrar	entrar	VERB	VERB	VerbForm=Inf	24	acl	_	_
@@ -21418,7 +21418,7 @@
 35	en	en	ADP	ADP	AdpType=Prep	36	case	_	_
 36	carrera	carrera	NOUN	NOUN	Gender=Fem|Number=Sing	34	nmod	_	_
 37	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
-38	sensiblemente	sensiblemente	ADV	ADV	_	40	nmod	_	_
+38	sensiblemente	sensiblemente	ADV	ADV	_	40	advmod	_	_
 39	más	más	ADV	ADV	_	38	advmod	_	_
 40	rápidos	rápido	ADJ	ADJ	Gender=Masc|Number=Plur	14	conj	_	_
 41	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
@@ -21442,7 +21442,7 @@
 15	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	12	nmod	_	_
 16	promete	prometer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	ser	ser	AUX	AUX	VerbForm=Inf	19	cop	_	_
-18	tan	tanto	ADV	ADV	_	19	nmod	_	_
+18	tan	tanto	ADV	ADV	_	19	advmod	_	_
 19	interesante	interesante	ADJ	ADJ	Number=Sing	16	xcomp	_	_
 20	y	y	CONJ	CONJ	_	19	cc	_	_
 21	espectacular	espectacular	ADJ	ADJ	Number=Sing	19	conj	_	_
@@ -21877,7 +21877,7 @@
 
 # sent_id es-s598
 # orig_file_sentence 006#98
-1	Cerca	cerca	ADV	ADV	_	4	nmod	_	_
+1	Cerca	cerca	ADV	ADV	_	4	advmod	_	_
 2	de	de	ADP	ADP	AdpType=Prep	1	case	_	_
 3	10	10	NUM	NUM	NumForm=Digit	1	nummod	_	_
 4	millones	millón	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
@@ -22955,7 +22955,7 @@
 18	nos	yo	PRON	PRON	Number=Plur|Person=1	20	dobj	_	_
 19	hemos	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	sentido	sentir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
-21	extraordinariamente	extraordinariamente	ADV	ADV	_	22	nmod	_	_
+21	extraordinariamente	extraordinariamente	ADV	ADV	_	22	advmod	_	_
 22	cerca	cerca	ADV	ADV	_	20	advmod	_	_
 23	de	de	ADP	ADP	AdpType=Prep	25	case	_	_
 24	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
@@ -23132,10 +23132,10 @@
 33	hoy	hoy	ADV	ADV	_	32	advmod	_	_
 34	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 35	y	y	CONJ	CONJ	_	32	cc	_	_
-36	a	a	ADP	ADP	AdpType=Prep	41	advmod	_	MWE=a_partir_de|MWEPOS=ADP
+36	a	a	ADP	ADP	AdpType=Prep	39	case	_	MWE=a_partir_de|MWEPOS=ADP
 37	partir	partir	NOUN	NOUN	_	36	mwe	_	_
 38	de	de	ADP	ADP	AdpType=Prep	36	mwe	_	_
-39	ahora	ahora	ADV	ADV	_	36	advmod	_	_
+39	ahora	ahora	ADV	ADV	_	41	advmod	_	_
 40	se	se	PRON	PRON	_	41	auxpass:reflex	_	_
 41	abre	abrir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	_
 42	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
@@ -23453,7 +23453,7 @@
 23	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 24	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	zonas	zona	NOUN	NOUN	Gender=Fem|Number=Plur	22	dobj	_	_
-26	más	más	ADV	ADV	_	27	nmod	_	_
+26	más	más	ADV	ADV	_	27	advmod	_	_
 27	dinámicas	dinámico	ADJ	ADJ	Gender=Fem|Number=Plur	25	amod	_	_
 28	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
 29	Andalucía	Andalucía	PROPN	PROPN	_	25	nmod	_	_
@@ -23605,7 +23605,7 @@
 27	a	a	ADP	ADP	AdpType=Prep	29	case	_	_
 28	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	valor	valor	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod	_	_
-30	muy	mucho	ADV	ADV	_	31	nmod	_	_
+30	muy	mucho	ADV	ADV	_	31	advmod	_	_
 31	inferior	inferior	ADJ	ADJ	Number=Sing	29	amod	_	_
 32	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	34	case	_	_
 33	de	de	ADP	ADP	AdpType=Prep	34	case	_	_
@@ -24168,8 +24168,8 @@
 8	intención	intención	NOUN	NOUN	Gender=Fem|Number=Sing	6	dobj	_	_
 9	de	de	ADP	ADP	AdpType=Prep	10	mark	_	_
 10	aunar	aunar	VERB	VERB	VerbForm=Inf	8	acl	_	_
-11	desde	desde	ADP	ADP	AdpType=Prep	10	advmod	_	_
-12	hoy	hoy	ADV	ADV	_	11	advmod	_	_
+11	desde	desde	ADP	ADP	AdpType=Prep	12	case	_	_
+12	hoy	hoy	ADV	ADV	_	10	advmod	_	_
 13	a	a	ADP	ADP	AdpType=Prep	16	case	_	_
 14	toda	todo	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -24297,8 +24297,8 @@
 4	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 5	aseguró	asegurar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	que	que	SCONJ	SCONJ	_	9	mark	_	_
-7	desde	desde	ADP	ADP	AdpType=Prep	9	advmod	_	_
-8	hoy	hoy	ADV	ADV	_	7	advmod	_	_
+7	desde	desde	ADP	ADP	AdpType=Prep	8	case	_	_
+8	hoy	hoy	ADV	ADV	_	9	advmod	_	_
 9	propondrá	proponer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	ccomp	_	_
 10	"	"	PUNCT	PUNCT	PunctType=Quot	9	punct	_	_
 11	a	a	ADP	ADP	AdpType=Prep	13	case	_	_
@@ -24512,7 +24512,7 @@
 14	parisiense	parisiense	ADJ	ADJ	Number=Sing	13	amod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-17	también	también	ADV	ADV	_	18	nmod	_	_
+17	también	también	ADV	ADV	_	18	advmod	_	_
 18	neogaullista	neogaullista	ADJ	ADJ	Number=Sing	19	amod	_	_
 19	Jean	Jean	PROPN	PROPN	_	13	appos	_	MWE=Jean_Tiberi|MWEPOS=PROPN
 20	Tiberi	Tiberi	PROPN	PROPN	_	19	name	_	_
@@ -24842,7 +24842,7 @@
 25	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
 26	que	que	PRON	PRON	PronType=Rel	27	nsubj	_	_
 27	fortalecerían	fortalecer	VERB	VERB	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	11	acl	_	_
-28	aún	aún	ADV	ADV	_	29	nmod	_	_
+28	aún	aún	ADV	ADV	_	29	advmod	_	_
 29	más	más	ADV	ADV	_	27	advmod	_	_
 30	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	libra	libra	NOUN	NOUN	Number=Sing	27	dobj	_	_
@@ -24857,7 +24857,7 @@
 5	interés	interés	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
 6	podrían	poder	AUX	AUX	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	7	aux	_	_
 7	provocar	provocar	VERB	VERB	VerbForm=Inf	22	xcomp	_	_
-8	más	más	ADV	ADV	_	9	nmod	_	_
+8	más	más	ADV	ADV	_	9	advmod	_	_
 9	adelante	adelante	ADV	ADV	_	7	advmod	_	_
 10	rebrotes	rebrote	NOUN	NOUN	Gender=Masc|Number=Plur	7	dobj	_	_
 11	inflacionistas	inflacionista	ADJ	ADJ	Number=Plur	10	amod	_	_
@@ -25543,7 +25543,7 @@
 10	salud	salud	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
 11	delicada	delicado	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
 12	y	y	CONJ	CONJ	_	10	cc	_	_
-13	casi	casi	ADV	ADV	_	14	nmod	_	_
+13	casi	casi	ADV	ADV	_	14	advmod	_	_
 14	ciego	ciego	ADJ	ADJ	Gender=Masc|Number=Sing	10	conj	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 16	está	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -26187,7 +26187,7 @@
 # orig_file_sentence 007#95
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Bolsa	Bolsa	PROPN	PROPN	_	17	nsubj	_	_
-3	más	más	ADV	ADV	_	4	nmod	_	_
+3	más	más	ADV	ADV	_	4	advmod	_	_
 4	grande	grande	ADJ	ADJ	Number=Sing	2	amod	_	_
 5	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	6	case	_	_
 6	mundo	mundo	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -26274,7 +26274,7 @@
 10	mercado	mercado	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 12	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
-13	muy	mucho	ADV	ADV	_	14	nmod	_	_
+13	muy	mucho	ADV	ADV	_	14	advmod	_	_
 14	anticuado	anticuado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 15	y	y	CONJ	CONJ	_	14	cc	_	_
 16	no	no	ADV	ADV	Negative=Neg	17	neg	_	_
@@ -26327,8 +26327,8 @@
 6	permite	permitir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	_	_
 7	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	acceso	acceso	NOUN	NOUN	Gender=Masc|Number=Sing	6	dobj	_	_
-9	mucho	mucho	ADV	ADV	_	10	nmod	_	_
-10	más	más	ADV	ADV	_	11	nmod	_	_
+9	mucho	mucho	ADV	ADV	_	10	advmod	_	_
+10	más	más	ADV	ADV	_	11	advmod	_	_
 11	directo	directo	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
 12	y	y	CONJ	CONJ	_	11	cc	_	_
 13	eficiente	eficiente	ADJ	ADJ	Number=Sing	11	conj	_	_
@@ -26867,9 +26867,9 @@
 12	vuelve	volver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 13	a	a	ADP	ADP	AdpType=Prep	14	mark	_	_
 14	ver	ver	VERB	VERB	VerbForm=Inf	0	root	_	_
-15	desde	desde	ADP	ADP	AdpType=Prep	14	advmod	_	_
-16	muy	mucho	ADV	ADV	_	17	nmod	_	_
-17	lejos	lejos	ADV	ADV	_	15	advmod	_	_
+15	desde	desde	ADP	ADP	AdpType=Prep	17	case	_	_
+16	muy	mucho	ADV	ADV	_	17	advmod	_	_
+17	lejos	lejos	ADV	ADV	_	14	advmod	_	_
 18	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	19	case	_	_
 19	Deportivo	Deportivo	PROPN	PROPN	_	14	dobj	_	_
 20	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
@@ -27013,8 +27013,8 @@
 
 # sent_id es-s715
 # orig_file_sentence 008#15
-1	Desde	desde	ADP	ADP	AdpType=Prep	5	advmod	_	_
-2	entonces	entonces	ADV	ADV	_	1	advmod	_	_
+1	Desde	desde	ADP	ADP	AdpType=Prep	2	case	_	_
+2	entonces	entonces	ADV	ADV	_	5	advmod	_	_
 3	sólo	sólo	ADV	ADV	_	5	advmod	_	_
 4	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	conseguido	conseguir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -27036,9 +27036,9 @@
 # orig_file_sentence 008#16
 1	Además	además	ADV	ADV	_	9	advmod	_	MWE=Además_de|MWEPOS=ADV
 2	de	de	ADP	ADP	AdpType=Prep	1	mwe	_	_
-3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	de	de	ADP	ADP	AdpType=Prep	1	advmod	_	_
-5	hoy	hoy	ADV	ADV	_	4	advmod	_	_
+3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	de	de	ADP	ADP	AdpType=Prep	3	case	_	_
+5	hoy	hoy	ADV	ADV	_	3	advmod	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 7	dos	dos	NUM	NUM	Number=Plur|NumType=Card	8	nummod	_	_
 8	veces	vez	NOUN	NOUN	Gender=Fem|Number=Plur	9	nmod	_	_
@@ -27686,8 +27686,8 @@
 40	Copa	Copa	PROPN	PROPN	_	38	nmod	_	_
 41	-	-	PUNCT	PUNCT	PunctType=Dash	34	punct	_	_
 42	disputados	disputado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	32	amod	_	_
-43	hasta	hasta	ADP	ADP	AdpType=Prep	42	advmod	_	_
-44	ahora	ahora	ADV	ADV	_	43	advmod	_	_
+43	hasta	hasta	ADP	ADP	AdpType=Prep	44	case	_	_
+44	ahora	ahora	ADV	ADV	_	42	advmod	_	_
 45	con	con	ADP	ADP	AdpType=Prep	46	case	_	_
 46	Paco	Paco	PROPN	PROPN	_	42	nmod	_	MWE=Paco_Flores|MWEPOS=PROPN
 47	Flores	Flores	PROPN	PROPN	_	46	name	_	_
@@ -27851,7 +27851,7 @@
 6	Peiró	Peiró	PROPN	PROPN	_	5	name	_	_
 7	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	marcado	marcar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	más	más	ADV	ADV	_	10	nmod	_	_
+9	más	más	ADV	ADV	_	10	advmod	_	_
 10	goles	gol	NOUN	NOUN	Gender=Masc|Number=Plur	8	dobj	_	_
 11	a	a	ADP	ADP	AdpType=Prep	10	advmod	_	MWE=a_domicilio|MWEPOS=ADV
 12	domicilio	domicilio	NOUN	NOUN	_	11	mwe	_	_
@@ -28223,7 +28223,7 @@
 45	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
 46	que	que	PRON	PRON	PronType=Rel	48	nsubj	_	_
 47	ya	ya	ADV	ADV	_	48	advmod	_	_
-48	pertenecían	pertenecer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	42	advcl	_	_
+48	pertenecían	pertenecer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	42	acl	_	_
 49	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	50	case	_	_
 50	índice	índice	NOUN	NOUN	Gender=Masc|Number=Sing	48	dobj	_	_
 51	selectivo	selectivo	ADJ	ADJ	Gender=Masc|Number=Sing	50	amod	_	_
@@ -28295,7 +28295,7 @@
 12	fin	fin	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	compound	_	_
 13	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	14	case	_	_
 14	Gobierno	Gobierno	PROPN	PROPN	_	11	dobj	_	_
-15	más	más	ADV	ADV	_	16	nmod	_	_
+15	más	más	ADV	ADV	_	16	advmod	_	_
 16	corto	corto	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
 17	y	y	CONJ	CONJ	_	16	cc	_	_
 18	accidentado	accidentado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	16	conj	_	_
@@ -28475,7 +28475,7 @@
 33	en	en	ADP	ADP	AdpType=Prep	35	case	_	_
 34	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	comisión	comisión	NOUN	NOUN	Gender=Fem|Number=Sing	25	nmod	_	_
-36	más	más	ADV	ADV	_	37	nmod	_	_
+36	más	más	ADV	ADV	_	37	advmod	_	_
 37	importante	importante	ADJ	ADJ	Number=Sing	35	amod	_	_
 38	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	39	case	_	_
 39	Parlamento	Parlamento	PROPN	PROPN	_	35	nmod	_	_
@@ -29354,7 +29354,7 @@
 8	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 9	tiene	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	ya	ya	ADV	ADV	_	9	advmod	_	_
-11	muy	mucho	ADV	ADV	_	12	nmod	_	_
+11	muy	mucho	ADV	ADV	_	12	advmod	_	_
 12	difícil	difícil	ADJ	ADJ	Number=Sing	9	iobj	_	_
 13	estar	estar	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	_
@@ -29565,7 +29565,7 @@
 27	pensamiento	pensamiento	NOUN	NOUN	Gender=Masc|Number=Sing	41	nsubj	_	_
 28	,	,	PUNCT	PUNCT	PunctType=Comm	31	punct	_	_
 29	"	"	PUNCT	PUNCT	PunctType=Quot	31	punct	_	_
-30	más	más	ADV	ADV	_	31	nmod	_	_
+30	más	más	ADV	ADV	_	31	advmod	_	_
 31	allá	allá	ADV	ADV	_	41	advmod	_	_
 32	de	de	ADP	ADP	AdpType=Prep	37	mark	_	_
 33	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
@@ -29642,7 +29642,7 @@
 4	eludió	eludir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	referirse	referir	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
 6	a	a	ADP	ADP	AdpType=Prep	8	case	_	_
-7	más	más	ADV	ADV	_	8	nmod	_	_
+7	más	más	ADV	ADV	_	8	advmod	_	_
 8	detalles	detalle	NOUN	NOUN	Gender=Masc|Number=Plur	5	dobj	_	_
 9	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 10	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
@@ -29749,7 +29749,7 @@
 31	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
 32	tenido	tener	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	ccomp	_	_
 33	"	"	PUNCT	PUNCT	PunctType=Quot	35	punct	_	_
-34	más	más	ADV	ADV	_	35	nmod	_	_
+34	más	más	ADV	ADV	_	35	advmod	_	_
 35	problemas	problema	NOUN	NOUN	Gender=Masc|Number=Plur	32	dobj	_	_
 36	"	"	PUNCT	PUNCT	PunctType=Quot	35	punct	_	_
 37	pero	pero	CONJ	CONJ	_	25	cc	_	_
@@ -30171,7 +30171,7 @@
 19	en	en	ADP	ADP	AdpType=Prep	20	case	_	_
 20	algo	algo	PRON	PRON	Number=Sing|PronType=Ind	17	nmod	_	_
 21	"	"	PUNCT	PUNCT	PunctType=Quot	23	punct	_	_
-22	tan	tanto	ADV	ADV	_	23	nmod	_	_
+22	tan	tanto	ADV	ADV	_	23	advmod	_	_
 23	simple	simple	ADJ	ADJ	Number=Sing	20	amod	_	_
 24	como	como	SCONJ	SCONJ	_	25	mark	_	_
 25	defender	defender	VERB	VERB	VerbForm=Inf	23	advcl	_	_
@@ -30223,7 +30223,7 @@
 32	autonómico	autonómico	ADJ	ADJ	Gender=Masc|Number=Sing	31	amod	_	_
 33	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
 34	"	"	PUNCT	PUNCT	PunctType=Quot	36	punct	_	_
-35	muy	mucho	ADV	ADV	_	36	nmod	_	_
+35	muy	mucho	ADV	ADV	_	36	advmod	_	_
 36	débil	débil	ADJ	ADJ	Number=Sing	26	ccomp	_	_
 37	e	e	CONJ	CONJ	_	36	cc	_	_
 38	inestable	inestable	ADJ	ADJ	Number=Sing	36	conj	_	_
@@ -32049,7 +32049,7 @@
 25	votaciones	votación	NOUN	NOUN	Gender=Fem|Number=Plur	23	nmod	_	_
 26	45	45	NUM	NUM	NumForm=Digit	27	nummod	_	_
 27	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	29	nmod	_	_
-28	más	más	ADV	ADV	_	29	nmod	_	_
+28	más	más	ADV	ADV	_	29	advmod	_	_
 29	tarde	tarde	ADV	ADV	_	19	advmod	_	_
 30	.	.	PUNCT	PUNCT	PunctType=Peri	17	punct	_	_
 
@@ -32059,15 +32059,15 @@
 2	organizadores	organizador	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	4	case	_	_
 4	mitin	mitin	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
-5	de	de	ADP	ADP	AdpType=Prep	4	nmod	_	_
-6	hoy	hoy	ADV	ADV	_	5	advmod	_	_
+5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
+6	hoy	hoy	ADV	ADV	_	4	advmod	_	_
 7	esperan	esperar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	reunir	reunir	VERB	VERB	VerbForm=Inf	7	xcomp	_	_
-9	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	8	advmod	_	MWE=al_menos|MWEPOS=ADV
+9	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	8	dobj	_	MWE=al_menos|MWEPOS=ADV
 10	menos	menos	ADV	ADV	_	9	mwe	_	_
 11	a	a	ADP	ADP	AdpType=Prep	9	case	_	_
 12	300.000	300000	NUM	NUM	NumForm=Digit	13	nummod	_	_
-13	seguidores	seguidor	NOUN	NOUN	Gender=Masc|Number=Plur	9	dobj	_	_
+13	seguidores	seguidor	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
 14	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 15	Balaguer	Balaguer	PROPN	PROPN	_	13	nmod	_	_
 16	en	en	ADP	ADP	AdpType=Prep	18	case	_	_
@@ -32249,7 +32249,7 @@
 28	,	,	PUNCT	PUNCT	PunctType=Comm	30	punct	_	_
 29	que	que	PRON	PRON	PronType=Rel	30	nsubj	_	_
 30	duraron	durar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	27	acl	_	_
-31	menos	menos	ADV	ADV	_	34	nmod	_	_
+31	menos	menos	ADV	ADV	_	34	advmod	_	_
 32	de	de	ADP	ADP	AdpType=Prep	31	case	_	_
 33	15	15	NUM	NUM	NumForm=Digit	31	nummod	_	_
 34	minutos	minuto	NOUN	NOUN	Gender=Masc|Number=Plur	30	dobj	_	_
@@ -32295,8 +32295,8 @@
 74	celebrará	celebrar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	71	acl	_	_
 75	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
 76	mitin	mitin	NOUN	NOUN	Gender=Masc|Number=Sing	74	nsubj	_	_
-77	de	de	ADP	ADP	AdpType=Prep	76	nmod	_	_
-78	hoy	hoy	ADV	ADV	_	77	advmod	_	_
+77	de	de	ADP	ADP	AdpType=Prep	78	case	_	_
+78	hoy	hoy	ADV	ADV	_	76	advmod	_	_
 79	.	.	PUNCT	PUNCT	PunctType=Peri	23	punct	_	_
 
 # sent_id es-s846
@@ -32462,7 +32462,7 @@
 8	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 9	pero	pero	CONJ	CONJ	_	7	cc	_	_
 10	estoy	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
-11	especialmente	especialmente	ADV	ADV	_	12	nmod	_	_
+11	especialmente	especialmente	ADV	ADV	_	12	advmod	_	_
 12	contento	contento	ADJ	ADJ	Gender=Masc|Number=Sing	7	conj	_	_
 13	porque	porque	SCONJ	SCONJ	_	21	mark	_	_
 14	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -32471,7 +32471,7 @@
 17	equipo	equipo	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
 18	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 19	sido	ser	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	cop	_	_
-20	muy	mucho	ADV	ADV	_	21	nmod	_	_
+20	muy	mucho	ADV	ADV	_	21	advmod	_	_
 21	buena	buen	ADJ	ADJ	Gender=Fem|Number=Sing	12	advcl	_	_
 22	"	"	PUNCT	PUNCT	PunctType=Quot	7	punct	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
@@ -32642,7 +32642,7 @@
 54	sendas	sendos	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	55	det	_	_
 55	acciones	acción	NOUN	NOUN	Gender=Fem|Number=Plur	36	nmod	_	_
 56	"	"	PUNCT	PUNCT	PunctType=Quot	58	punct	_	_
-57	totalmente	totalmente	ADV	ADV	_	58	nmod	_	_
+57	totalmente	totalmente	ADV	ADV	_	58	advmod	_	_
 58	evitables	evitable	ADJ	ADJ	Number=Plur	55	amod	_	_
 59	"	"	PUNCT	PUNCT	PunctType=Quot	58	punct	_	_
 60	,	,	PUNCT	PUNCT	PunctType=Comm	64	punct	_	_
@@ -32716,12 +32716,12 @@
 19	peroné	peroné	NOUN	NOUN	Gender=Masc|Number=Sing	17	conj	_	_
 20	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	12	punct	_	_
 21	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
-22	demasiado	demasiado	ADV	ADV	_	23	nmod	_	_
+22	demasiado	demasiado	ADV	ADV	_	23	advmod	_	_
 23	graves	grave	ADJ	ADJ	Number=Plur	32	ccomp	_	_
 24	y	y	CONJ	CONJ	_	23	cc	_	_
 25	así	así	ADV	ADV	_	28	advmod	_	_
 26	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
-27	prácticamente	prácticamente	ADV	ADV	_	28	nmod	_	_
+27	prácticamente	prácticamente	ADV	ADV	_	28	advmod	_	_
 28	imposible	imposible	ADJ	ADJ	Number=Sing	23	conj	_	_
 29	correr	correr	VERB	VERB	VerbForm=Inf	28	csubj	_	_
 30	"	"	PUNCT	PUNCT	PunctType=Quot	23	punct	_	_
@@ -33410,7 +33410,7 @@
 25	madridista	madridista	ADJ	ADJ	Number=Sing	24	amod	_	_
 26	no	no	ADV	ADV	Negative=Neg	27	neg	_	_
 27	tendrá	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	advcl	_	_
-28	más	más	ADV	ADV	_	29	nmod	_	_
+28	más	más	ADV	ADV	_	29	advmod	_	_
 29	remedio	remedio	NOUN	NOUN	Gender=Masc|Number=Sing	27	dobj	_	_
 30	que	que	SCONJ	SCONJ	_	31	mark	_	_
 31	pagar	pagar	VERB	VERB	VerbForm=Inf	29	acl	_	_
@@ -33906,7 +33906,7 @@
 35	claramente	claramente	ADV	ADV	_	37	advmod	_	_
 36	que	que	SCONJ	SCONJ	_	37	mark	_	_
 37	pesan	pesar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	_
-38	muy	mucho	ADV	ADV	_	39	nmod	_	_
+38	muy	mucho	ADV	ADV	_	39	advmod	_	_
 39	poco	poco	ADV	ADV	_	37	dobj	_	_
 40	y	y	CONJ	CONJ	_	37	cc	_	_
 41	no	no	ADV	ADV	Negative=Neg	47	neg	_	_
@@ -34225,8 +34225,8 @@
 25	ornamentación	ornamentación	NOUN	NOUN	Gender=Fem|Number=Sing	22	conj	_	_
 26	final	final	ADJ	ADJ	Number=Sing	25	amod	_	_
 27	aparecieran	aparecer	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
-28	por	por	ADP	ADP	AdpType=Prep	27	advmod	_	_
-29	allá	allá	ADV	ADV	_	28	advmod	_	_
+28	por	por	ADP	ADP	AdpType=Prep	29	case	_	_
+29	allá	allá	ADV	ADV	_	27	advmod	_	_
 30	como	como	SCONJ	SCONJ	_	31	mark	_	_
 31	fuegos	fuego	NOUN	NOUN	Gender=Masc|Number=Plur	27	nmod	_	_
 32	fatuos	fatuo	ADJ	ADJ	Gender=Masc|Number=Plur	31	amod	_	_
@@ -34294,7 +34294,7 @@
 4	empezó	empezar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_
 5	frío	frío	ADJ	ADJ	Gender=Masc|Number=Sing	4	dobj	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
-7	poco	poco	ADV	ADV	_	8	nmod	_	_
+7	poco	poco	ADV	ADV	_	8	advmod	_	_
 8	expresivo	expresivo	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
 9	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 10	Bros	Bros	PROPN	PROPN	_	12	nsubj	_	_
@@ -34385,7 +34385,7 @@
 5	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	campo	campo	NOUN	NOUN	Gender=Masc|Number=Sing	2	appos	_	_
 7	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
-8	mal	mal	ADV	ADV	_	9	nmod	_	_
+8	mal	mal	ADV	ADV	_	9	advmod	_	_
 9	estado	estado	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 11	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -34553,7 +34553,7 @@
 28	esa	ese	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
 29	elección	elección	NOUN	NOUN	Gender=Fem|Number=Sing	30	nsubj	_	_
 30	resulta	resultar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
-31	más	más	ADV	ADV	_	33	nmod	_	MWE=más_que|MWEPOS=ADV
+31	más	más	ADV	ADV	_	33	advmod	_	MWE=más_que|MWEPOS=ADV
 32	que	que	SCONJ	SCONJ	_	31	mwe	_	_
 33	cuestionable	cuestionable	ADJ	ADJ	Number=Sing	30	dobj	_	_
 34	.	.	PUNCT	PUNCT	PunctType=Peri	22	punct	_	_
@@ -34713,9 +34713,9 @@
 14	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	16	dobj	_	_
 15	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	llevado	llevar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-17	incluso	incluso	ADV	ADV	_	16	advmod	_	_
-18	a	a	ADP	ADP	AdpType=Prep	17	mark	_	_
-19	mantener	mantener	VERB	VERB	VerbForm=Inf	17	xcomp	_	_
+17	incluso	incluso	ADV	ADV	_	16	dobj	_	_
+18	a	a	ADP	ADP	AdpType=Prep	17	case	_	_
+19	mantener	mantener	VERB	VERB	VerbForm=Inf	17	acl	_	_
 20	charlas	charla	NOUN	NOUN	Gender=Fem|Number=Plur	19	dobj	_	_
 21	individuales	individual	ADJ	ADJ	Number=Plur	20	amod	_	_
 22	con	con	ADP	ADP	AdpType=Prep	24	case	_	_
@@ -34775,7 +34775,7 @@
 2	Los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	informes	informe	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
 4	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-5	muy	mucho	ADV	ADV	_	6	nmod	_	_
+5	muy	mucho	ADV	ADV	_	6	advmod	_	_
 6	buenos	buen	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
 7	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
@@ -34802,7 +34802,7 @@
 3	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	4	case	_	_
 4	equipo	equipo	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
 5	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-6	muy	mucho	ADV	ADV	_	7	nmod	_	_
+6	muy	mucho	ADV	ADV	_	7	advmod	_	_
 7	alto	alto	ADJ	ADJ	Gender=Masc|Number=Sing	18	ccomp	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 9	juegan	jugar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
@@ -34810,7 +34810,7 @@
 11	ordenados	ordenado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	9	dobj	_	_
 12	y	y	CONJ	CONJ	_	7	cc	_	_
 13	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
-14	muy	mucho	ADV	ADV	_	15	nmod	_	_
+14	muy	mucho	ADV	ADV	_	15	advmod	_	_
 15	competitivos	competitivo	ADJ	ADJ	Gender=Masc|Number=Plur	7	conj	_	_
 16	"	"	PUNCT	PUNCT	PunctType=Quot	7	punct	_	_
 17	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
@@ -35251,7 +35251,7 @@
 12	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 13	se	él	PRON	PRON	Person=3	14	dobj	_	_
 14	sienten	sentir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
-15	más	más	ADV	ADV	_	16	nmod	_	_
+15	más	más	ADV	ADV	_	16	advmod	_	_
 16	orgullosos	orgulloso	ADJ	ADJ	Gender=Masc|Number=Plur	14	dobj	_	_
 17	de	de	ADP	ADP	AdpType=Prep	19	case	_	_
 18	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -35580,7 +35580,7 @@
 23	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 24	pero	pero	CONJ	CONJ	_	8	cc	_	_
 25	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
-26	aun	aun	ADV	ADV	_	27	nmod	_	_
+26	aun	aun	ADV	ADV	_	27	advmod	_	_
 27	así	así	ADV	ADV	_	29	advmod	_	_
 28	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
 29	dijo	decir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
@@ -35610,7 +35610,7 @@
 # orig_file_sentence 010#58
 1	En	en	ADP	ADP	AdpType=Prep	6	case	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-3	más	más	ADV	ADV	_	5	nmod	_	MWE=más_que|MWEPOS=ADV
+3	más	más	ADV	ADV	_	5	advmod	_	MWE=más_que|MWEPOS=ADV
 4	que	que	SCONJ	SCONJ	_	3	mwe	_	_
 5	probable	probable	ADJ	ADJ	Number=Sing	6	amod	_	_
 6	caso	caso	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -36774,8 +36774,8 @@
 4	Jané	Jané	PROPN	PROPN	_	2	nmod	_	_
 5	se	él	PRON	PRON	Person=3	6	dobj	_	_
 6	puso	poner	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-7	por	por	ADP	ADP	AdpType=Prep	6	advmod	_	_
-8	delante	delante	ADV	ADV	_	7	advmod	_	_
+7	por	por	ADP	ADP	AdpType=Prep	8	case	_	_
+8	delante	delante	ADV	ADV	_	6	advmod	_	_
 9	por	por	ADP	ADP	AdpType=Prep	11	case	_	_
 10	primera	primero	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
 11	vez	vez	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -36854,7 +36854,7 @@
 6	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	españoles	español	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
 8	anularon	anular	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	casi	casi	ADV	ADV	_	10	nmod	_	_
+9	casi	casi	ADV	ADV	_	10	advmod	_	_
 10	siempre	siempre	ADV	ADV	_	8	advmod	_	_
 11	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	intenciones	intención	NOUN	NOUN	Gender=Fem|Number=Plur	8	dobj	_	_
@@ -36898,7 +36898,7 @@
 15	en	en	ADP	ADP	AdpType=Prep	17	case	_	_
 16	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	muralla	muralla	NOUN	NOUN	Gender=Fem|Number=Sing	14	dobj	_	_
-18	casi	casi	ADV	ADV	_	19	nmod	_	_
+18	casi	casi	ADV	ADV	_	19	advmod	_	_
 19	inexpugnable	inexpugnable	ADJ	ADJ	Number=Sing	17	amod	_	_
 20	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
@@ -37001,7 +37001,7 @@
 # orig_file_sentence 011#1
 1	"	"	PUNCT	PUNCT	PunctType=Quot	4	punct	_	_
 2	Estoy	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	muy	mucho	ADV	ADV	_	4	nmod	_	_
+3	muy	mucho	ADV	ADV	_	4	advmod	_	_
 4	orgulloso	orgulloso	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
 5	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	6	case	_	_
 6	equipo	equipo	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
@@ -37333,8 +37333,8 @@
 25	reservada	reservado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	22	amod	_	_
 26	a	a	ADP	ADP	AdpType=Prep	27	case	_	_
 27	barcos	barco	NOUN	NOUN	Gender=Masc|Number=Plur	25	dobj	_	_
-28	de	de	ADP	ADP	AdpType=Prep	27	nmod	_	_
-29	menos	menos	ADV	ADV	_	28	advmod	_	_
+28	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
+29	menos	menos	ADV	ADV	_	27	advmod	_	_
 30	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
 31	6,5	6.5	NUM	NUM	NumForm=Digit	32	nummod	_	_
 32	metros	metro	NOUN	NOUN	Gender=Masc|Number=Plur	29	nmod	_	_
@@ -37358,8 +37358,8 @@
 14	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 15	aunque	aunque	SCONJ	SCONJ	_	22	mark	_	_
 16	afortunadamente	afortunadamente	ADV	ADV	_	22	advmod	_	_
-17	por	por	ADP	ADP	AdpType=Prep	22	advmod	_	_
-18	ahora	ahora	ADV	ADV	_	17	advmod	_	_
+17	por	por	ADP	ADP	AdpType=Prep	18	case	_	_
+18	ahora	ahora	ADV	ADV	_	22	advmod	_	_
 19	no	no	ADV	ADV	Negative=Neg	22	neg	_	_
 20	hay	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 21	que	que	SCONJ	SCONJ	_	20	cc	_	_
@@ -37786,7 +37786,7 @@
 # sent_id es-s1032
 # orig_file_sentence 011#32
 1	Como	como	SCONJ	SCONJ	_	3	mark	_	_
-2	casi	casi	ADV	ADV	_	3	nmod	_	_
+2	casi	casi	ADV	ADV	_	3	advmod	_	_
 3	siempre	siempre	ADV	ADV	_	6	advmod	_	_
 4	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 5	no	no	ADV	ADV	Negative=Neg	6	neg	_	_
@@ -37811,7 +37811,7 @@
 12	porque	porque	SCONJ	SCONJ	_	14	mark	_	_
 13	Sentir	Sentir	PROPN	PROPN	_	14	nsubj	_	_
 14	suena	sonar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
-15	más	más	ADV	ADV	_	17	nmod	_	MWE=más_bien|MWEPOS=ADV
+15	más	más	ADV	ADV	_	17	advmod	_	MWE=más_bien|MWEPOS=ADV
 16	bien	bien	ADV	ADV	_	15	mwe	_	_
 17	italiana	italiano	ADJ	ADJ	Gender=Fem|Number=Sing	14	dobj	_	_
 18	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
@@ -37861,7 +37861,7 @@
 # orig_file_sentence 011#37
 1	Ambas	ambos	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	2	nsubj	_	_
 2	sabemos	saber	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	bastante	bastante	ADV	ADV	_	4	nmod	_	_
+3	bastante	bastante	ADV	ADV	_	4	advmod	_	_
 4	bien	bien	ADV	ADV	_	2	advmod	_	_
 5	cómo	cómo	PRON	PRON	PronType=Int	7	nmod	_	_
 6	nos	yo	PRON	PRON	Number=Plur|Person=1	7	dobj	_	_
@@ -37920,8 +37920,8 @@
 16	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	tópico	tópico	NOUN	NOUN	Gender=Masc|Number=Sing	15	dobj	_	_
 18	sólo	sólo	ADV	ADV	_	15	advmod	_	_
-19	por	por	ADP	ADP	AdpType=Prep	18	mark	_	_
-20	mantener	mantener	VERB	VERB	VerbForm=Inf	18	advcl	_	_
+19	por	por	ADP	ADP	AdpType=Prep	18	case	_	_
+20	mantener	mantener	VERB	VERB	VerbForm=Inf	18	acl	_	_
 21	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
 22	que	que	PRON	PRON	PronType=Rel	24	nsubj	_	_
 23	se	se	PRON	PRON	_	24	dobj	_	_
@@ -37938,10 +37938,10 @@
 4	voy	ir	AUX	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	a	a	ADP	ADP	AdpType=Prep	6	mark	_	_
 6	sonar	sonar	VERB	VERB	VerbForm=Inf	2	xcomp	_	_
-7	más	más	ADV	ADV	_	8	nmod	_	_
+7	más	más	ADV	ADV	_	8	advmod	_	_
 8	dura	duro	ADJ	ADJ	Gender=Fem|Number=Sing	6	dobj	_	_
 9	o	o	CONJ	CONJ	_	8	cc	_	_
-10	más	más	ADV	ADV	_	11	nmod	_	_
+10	más	más	ADV	ADV	_	11	advmod	_	_
 11	blanda	blando	ADJ	ADJ	Gender=Fem|Number=Sing	8	conj	_	_
 12	;	;	PUNCT	PUNCT	PunctType=Semi	2	punct	_	_
 13	doy	dar	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
@@ -38000,16 +38000,16 @@
 3	pensar	pensar	AUX	AUX	VerbForm=Inf	5	aux	_	_
 4	que	que	SCONJ	SCONJ	_	5	mark	_	_
 5	avanzo	avanzar	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	csubj	_	_
-6	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
-7	aunque	aunque	SCONJ	SCONJ	_	12	mark	_	_
-8	a	a	ADP	ADP	AdpType=Prep	12	advmod	_	MWE=a_veces|MWEPOS=ADV
+6	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
+7	aunque	aunque	SCONJ	SCONJ	_	13	mark	_	_
+8	a	a	ADP	ADP	AdpType=Prep	13	advmod	_	MWE=a_veces|MWEPOS=ADV
 9	veces	veces	NOUN	NOUN	_	8	mwe	_	_
-10	no	no	ADV	ADV	Negative=Neg	12	neg	_	_
-11	sea	ser	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-12	hacia	hacia	ADP	ADP	AdpType=Prep	2	advcl	_	_
-13	adelante	adelante	ADV	ADV	_	12	advmod	_	_
-14	sino	sino	CONJ	CONJ	_	12	cc	_	_
-15	dando	dar	VERB	VERB	VerbForm=Ger	12	conj	_	_
+10	no	no	ADV	ADV	Negative=Neg	13	neg	_	_
+11	sea	ser	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	hacia	hacia	ADP	ADP	AdpType=Prep	13	case	_	_
+13	adelante	adelante	ADV	ADV	_	2	advcl	_	_
+14	sino	sino	CONJ	CONJ	_	13	cc	_	_
+15	dando	dar	VERB	VERB	VerbForm=Ger	13	conj	_	_
 16	giros	giro	NOUN	NOUN	Gender=Masc|Number=Plur	15	dobj	_	_
 17	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
@@ -38219,7 +38219,7 @@
 7	parece	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	persona	persona	NOUN	NOUN	Gender=Fem|Number=Sing	2	acl	_	_
-10	más	más	ADV	ADV	_	11	nmod	_	_
+10	más	más	ADV	ADV	_	11	advmod	_	_
 11	preclara	preclaro	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
 12	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 13	empezó	empezar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
@@ -38401,7 +38401,7 @@
 2	guiris	guiri	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	me	yo	PRON	PRON	Number=Sing|Person=1|PronType=Prs	4	dobj	_	_
 4	pillan	pillar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	más	más	ADV	ADV	_	6	nmod	_	_
+5	más	más	ADV	ADV	_	6	advmod	_	_
 6	lejos	lejos	ADV	ADV	_	4	advmod	_	_
 7	y	y	CONJ	CONJ	_	4	cc	_	_
 8	puedo	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -38409,7 +38409,7 @@
 10	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 11	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	manera	manera	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
-13	más	más	ADV	ADV	_	14	nmod	_	_
+13	más	más	ADV	ADV	_	14	advmod	_	_
 14	libre	libre	ADJ	ADJ	Number=Sing	12	amod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 16	pero	pero	CONJ	CONJ	_	4	cc	_	_
@@ -38424,7 +38424,7 @@
 25	y	y	CONJ	CONJ	_	18	cc	_	_
 26	me	yo	PRON	PRON	Number=Sing|Person=1|PronType=Prs	29	dobj	_	_
 27	parece	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
-28	poco	poco	ADV	ADV	_	29	nmod	_	_
+28	poco	poco	ADV	ADV	_	29	advmod	_	_
 29	ético	ético	ADJ	ADJ	Gender=Masc|Number=Sing	18	conj	_	_
 30	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
@@ -38487,7 +38487,7 @@
 2	tengo	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ni	ni	ADV	ADV	_	7	advmod	_	_
 4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-5	más	más	ADV	ADV	_	6	nmod	_	_
+5	más	más	ADV	ADV	_	6	advmod	_	_
 6	remota	remoto	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
 7	idea	idea	NOUN	NOUN	Gender=Fem|Number=Sing	2	dobj	_	_
 8	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
@@ -38628,7 +38628,7 @@
 6	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 7	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	canción	canción	NOUN	NOUN	Gender=Fem|Number=Sing	4	appos	_	_
-9	muy	mucho	ADV	ADV	_	10	nmod	_	_
+9	muy	mucho	ADV	ADV	_	10	advmod	_	_
 10	ochentera	ochentero	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
 11	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
@@ -38872,7 +38872,7 @@
 14	mantuvo	mantener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	advcl	_	_
 15	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	comportamiento	comportamiento	NOUN	NOUN	Gender=Masc|Number=Sing	14	dobj	_	_
-17	altamente	altamente	ADV	ADV	_	18	nmod	_	_
+17	altamente	altamente	ADV	ADV	_	18	advmod	_	_
 18	dinámico	dinámico	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
 19	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 20	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -39274,7 +39274,7 @@
 18	oleada	oleada	NOUN	NOUN	Gender=Fem|Number=Sing	9	conj	_	_
 19	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
 20	histeria	histeria	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod	_	_
-21	más	más	ADV	ADV	_	22	nmod	_	_
+21	más	más	ADV	ADV	_	22	advmod	_	_
 22	curiosa	curioso	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
 23	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	24	case	_	_
 24	siglo	siglo	NOUN	NOUN	_	18	nmod	_	MWE=siglo_XX|MWEPOS=NOUN
@@ -39377,7 +39377,7 @@
 10	Badalona	Badalona	PROPN	PROPN	_	8	nmod	_	_
 11	y	y	CONJ	CONJ	_	8	cc	_	_
 12	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
-13	muy	mucho	ADV	ADV	_	14	nmod	_	_
+13	muy	mucho	ADV	ADV	_	14	advmod	_	_
 14	niño	niño	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
 15	empezó	empezar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
 16	a	a	ADP	ADP	AdpType=Prep	17	mark	_	_
@@ -39481,7 +39481,7 @@
 
 # sent_id es-s1104
 # orig_file_sentence 012#4
-1	Muy	mucho	ADV	ADV	_	2	nmod	_	_
+1	Muy	mucho	ADV	ADV	_	2	advmod	_	_
 2	distinto	distinto	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
 3	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	ser	ser	AUX	AUX	VerbForm=Inf	5	cop	_	_
@@ -39612,7 +39612,7 @@
 34	ser	ser	AUX	AUX	VerbForm=Inf	36	cop	_	_
 35	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
-37	tan	tanto	ADV	ADV	_	38	nmod	_	_
+37	tan	tanto	ADV	ADV	_	38	advmod	_	_
 38	brillante	brillante	ADJ	ADJ	Number=Sing	36	amod	_	_
 39	como	como	SCONJ	SCONJ	_	40	mark	_	_
 40	lo	él	PRON	PRON	Case=Acc|Person=3|PronType=Prs	38	advcl	_	_
@@ -40363,7 +40363,7 @@
 31	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	empresario	empresario	NOUN	NOUN	Gender=Masc|Number=Sing	23	appos	_	_
 33	petrolero	petrolero	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
-34	más	más	ADV	ADV	_	35	nmod	_	_
+34	más	más	ADV	ADV	_	35	advmod	_	_
 35	rico	rico	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
 36	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
 37	Italia	Italia	PROPN	PROPN	_	32	nmod	_	_
@@ -40381,7 +40381,7 @@
 49	club	club	NOUN	NOUN	Gender=Masc|Number=Sing	47	dobj	_	_
 50	en	en	ADP	ADP	AdpType=Prep	53	case	_	_
 51	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	53	det	_	_
-52	más	más	ADV	ADV	_	53	nmod	_	_
+52	más	más	ADV	ADV	_	53	advmod	_	_
 53	alto	alto	ADJ	ADJ	Gender=Masc|Number=Sing	47	advmod	_	_
 54	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
@@ -40600,7 +40600,7 @@
 19	con	con	ADP	ADP	AdpType=Prep	18	case	_	_
 20	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
 21	que	que	PRON	PRON	PronType=Rel	22	dobj	_	_
-22	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+22	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_
 23	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Inter	Inter	PROPN	PROPN	_	22	nsubj	_	_
 25	en	en	ADP	ADP	AdpType=Prep	27	case	_	_
@@ -40657,7 +40657,7 @@
 # sent_id es-s1131
 # orig_file_sentence 012#31
 1	Lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-2	más	más	ADV	ADV	_	3	nmod	_	_
+2	más	más	ADV	ADV	_	3	advmod	_	_
 3	formidable	formidable	ADJ	ADJ	Number=Sing	15	nsubj	_	_
 4	de	de	ADP	ADP	AdpType=Prep	7	case	_	_
 5	esta	este	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
@@ -40907,7 +40907,7 @@
 23	a	a	ADP	ADP	AdpType=Prep	15	case	_	_
 24	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	forma	forma	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
-26	muy	mucho	ADV	ADV	_	27	nmod	_	_
+26	muy	mucho	ADV	ADV	_	27	advmod	_	_
 27	personal	personal	ADJ	ADJ	Number=Sing	25	amod	_	_
 28	de	de	ADP	ADP	AdpType=Prep	29	mark	_	_
 29	tratar	tratar	VERB	VERB	VerbForm=Inf	25	acl	_	_
@@ -40969,7 +40969,7 @@
 47	actor	actor	NOUN	NOUN	Gender=Masc|Number=Sing	45	nmod	_	_
 48	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
 49	atmósfera	atmósfera	NOUN	NOUN	Gender=Fem|Number=Sing	35	dobj	_	_
-50	auténticamente	auténticamente	ADV	ADV	_	51	nmod	_	_
+50	auténticamente	auténticamente	ADV	ADV	_	51	advmod	_	_
 51	inquietante	inquietante	ADJ	ADJ	Number=Sing	49	amod	_	_
 52	y	y	CONJ	CONJ	_	51	cc	_	_
 53	malsana	malsano	ADJ	ADJ	Gender=Fem|Number=Sing	51	conj	_	_
@@ -41218,7 +41218,7 @@
 88	de	de	ADP	ADP	AdpType=Prep	95	case	_	_
 89	enfermizo	enfermizo	ADJ	ADJ	Gender=Masc|Number=Sing	95	amod	_	_
 90	y	y	CONJ	CONJ	_	89	cc	_	_
-91	a	a	ADP	ADP	AdpType=Prep	94	nmod	_	MWE=a_la_vez|MWEPOS=ADV
+91	a	a	ADP	ADP	AdpType=Prep	94	advmod	_	MWE=a_la_vez|MWEPOS=ADV
 92	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	91	mwe	_	_
 93	vez	vez	NOUN	NOUN	_	91	mwe	_	_
 94	realista	realista	ADJ	ADJ	Number=Sing	89	conj	_	_
@@ -41360,8 +41360,8 @@
 12	se	él	PRON	PRON	Person=3	13	dobj	_	_
 13	dan	dar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	cita	cita	NOUN	NOUN	Gender=Fem|Number=Sing	13	dobj	_	_
-15	desde	desde	ADP	ADP	AdpType=Prep	13	advmod	_	_
-16	ayer	ayer	ADV	ADV	_	15	advmod	_	_
+15	desde	desde	ADP	ADP	AdpType=Prep	16	case	_	_
+16	ayer	ayer	ADV	ADV	_	13	advmod	_	_
 17	en	en	ADP	ADP	AdpType=Prep	18	case	_	_
 18	Valencia	Valencia	PROPN	PROPN	_	13	nmod	_	_
 19	para	para	ADP	ADP	AdpType=Prep	20	mark	_	_
@@ -41431,7 +41431,7 @@
 2	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	10	10	NUM	NUM	NumForm=Digit	4	nummod	_	_
 4	piezas	pieza	NOUN	NOUN	Gender=Fem|Number=Plur	10	nsubj	_	_
-5	más	más	ADV	ADV	_	6	nmod	_	_
+5	más	más	ADV	ADV	_	6	advmod	_	_
 6	relevantes	relevante	ADJ	ADJ	Number=Plur	4	amod	_	_
 7	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -41595,7 +41595,7 @@
 21	instrumentos	instrumento	NOUN	NOUN	Gender=Masc|Number=Plur	18	appos	_	_
 22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 23	arco	arco	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
-24	más	más	ADV	ADV	_	25	nmod	_	_
+24	más	más	ADV	ADV	_	25	advmod	_	_
 25	pequeños	pequeño	ADJ	ADJ	Gender=Masc|Number=Plur	21	amod	_	_
 26	que	que	PRON	PRON	PronType=Rel	27	nsubj	_	_
 27	existen	existir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	_
@@ -41731,7 +41731,7 @@
 7	por	por	ADP	ADP	AdpType=Prep	9	case	_	_
 8	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	vía	vía	NOUN	NOUN	Gender=Fem|Number=Sing	6	dobj	_	_
-10	más	más	ADV	ADV	_	11	nmod	_	_
+10	más	más	ADV	ADV	_	11	advmod	_	_
 11	instintiva	instintivo	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
 12	"	"	PUNCT	PUNCT	PunctType=Quot	6	punct	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
@@ -41957,7 +41957,7 @@
 8	en	en	ADP	ADP	AdpType=Prep	10	case	_	_
 9	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	familia	familia	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
-11	tan	tanto	ADV	ADV	_	12	nmod	_	_
+11	tan	tanto	ADV	ADV	_	12	advmod	_	_
 12	pacífica	pacífico	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
 13	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	6	punct	_	_
 14	"	"	PUNCT	PUNCT	PunctType=Quot	6	punct	_	_
@@ -42017,13 +42017,13 @@
 # orig_file_sentence 012#69
 1	Es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	golpear	golpear	VERB	VERB	VerbForm=Inf	0	root	_	_
-3	sólo	sólo	ADV	ADV	_	2	advmod	_	_
+3	sólo	sólo	ADV	ADV	_	2	dobj	_	_
 4	a	a	ADP	ADP	AdpType=Prep	3	case	_	_
 5	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	grupo	grupo	NOUN	NOUN	Gender=Masc|Number=Sing	3	dobj	_	_
+6	grupo	grupo	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
 7	y	y	CONJ	CONJ	_	6	cc	_	_
 8	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	más	más	ADV	ADV	_	10	nmod	_	_
+9	más	más	ADV	ADV	_	10	advmod	_	_
 10	débil	débil	ADJ	ADJ	Number=Sing	6	conj	_	_
 11	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
@@ -42210,7 +42210,7 @@
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 18	Gobierno	Gobierno	PROPN	PROPN	_	16	nmod	_	_
 19	japonés	japonés	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
-20	más	más	ADV	ADV	_	21	nmod	_	_
+20	más	más	ADV	ADV	_	21	advmod	_	_
 21	popular	popular	ADJ	ADJ	Number=Sing	16	amod	_	_
 22	después	después	ADV	ADV	_	13	advmod	_	_
 23	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
@@ -42398,7 +42398,7 @@
 39	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
 40	dos	dos	NUM	NUM	Number=Plur|NumType=Card	39	nummod	_	_
 41	equipos	equipo	NOUN	NOUN	Gender=Masc|Number=Plur	37	dobj	_	_
-42	más	más	ADV	ADV	_	43	nmod	_	_
+42	más	más	ADV	ADV	_	43	advmod	_	_
 43	efectivos	efectivo	ADJ	ADJ	Gender=Masc|Number=Plur	41	amod	_	_
 44	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	45	case	_	_
 45	campeonato	campeonato	NOUN	NOUN	Gender=Masc|Number=Sing	41	nmod	_	_
@@ -42549,7 +42549,7 @@
 14	supieron	saber	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	_
 15	afrontar	afrontar	VERB	VERB	VerbForm=Inf	14	xcomp	_	_
 16	con	con	ADP	ADP	AdpType=Prep	18	case	_	_
-17	más	más	ADV	ADV	_	18	nmod	_	_
+17	más	más	ADV	ADV	_	18	advmod	_	_
 18	serenidad	serenidad	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
 19	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
@@ -42896,7 +42896,7 @@
 16	libro	libro	NOUN	NOUN	Gender=Masc|Number=Sing	20	nsubj	_	_
 17	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 18	"	"	PUNCT	PUNCT	PunctType=Quot	20	punct	_	_
-19	muy	mucho	ADV	ADV	_	20	nmod	_	_
+19	muy	mucho	ADV	ADV	_	20	advmod	_	_
 20	distinto	distinto	ADJ	ADJ	Gender=Masc|Number=Sing	12	ccomp	_	_
 21	"	"	PUNCT	PUNCT	PunctType=Quot	20	punct	_	_
 22	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	25	mark	_	_
@@ -42910,7 +42910,7 @@
 
 # sent_id es-s1197
 # orig_file_sentence 012#97
-1	Más	más	ADV	ADV	_	2	nmod	_	_
+1	Más	más	ADV	ADV	_	2	advmod	_	_
 2	atención	atención	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 3	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	4	case	_	_
 4	judo	judo	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -43198,7 +43198,7 @@
 3	sólo	sólo	ADV	ADV	_	1	advmod	_	_
 4	en	en	ADP	ADP	AdpType=Prep	1	case	_	_
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Banco	Banco	PROPN	PROPN	_	1	dep	_	MWE=Banco_de_España|MWEPOS=PROPN
+6	Banco	Banco	PROPN	PROPN	_	1	nmod	_	MWE=Banco_de_España|MWEPOS=PROPN
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 8	España	España	PROPN	PROPN	_	6	name	_	_
 9	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
@@ -43510,8 +43510,8 @@
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ley	ley	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	da	dar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
-4	para	para	ADP	ADP	AdpType=Prep	3	advmod	_	_
-5	mucho	mucho	ADV	ADV	_	4	advmod	_	_
+4	para	para	ADP	ADP	AdpType=Prep	5	case	_	_
+5	mucho	mucho	ADV	ADV	_	3	advmod	_	_
 6	y	y	CONJ	CONJ	_	3	cc	_	_
 7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	voluntad	voluntad	NOUN	NOUN	Gender=Fem|Number=Sing	3	conj	_	_
@@ -43818,9 +43818,9 @@
 8	Rio	Rio	PROPN	PROPN	_	6	name	_	_
 9	fue	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	criticada	criticar	VERB	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
-11	hasta	hasta	ADV	ADV	_	10	advmod	_	_
+11	hasta	hasta	ADV	ADV	_	10	dobj	_	_
 12	por	por	ADP	ADP	AdpType=Prep	11	case	_	_
-13	Dave	Dave	PROPN	PROPN	_	11	dobj	_	MWE=Dave_Mustaine|MWEPOS=PROPN
+13	Dave	Dave	PROPN	PROPN	_	11	nmod	_	MWE=Dave_Mustaine|MWEPOS=PROPN
 14	Mustaine	Mustaine	PROPN	PROPN	_	13	name	_	_
 15	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	17	punct	_	_
 16	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
@@ -43963,7 +43963,7 @@
 22	estampa	estampa	NOUN	NOUN	Gender=Fem|Number=Sing	20	dobj	_	_
 23	-	-	PUNCT	PUNCT	PunctType=Dash	27	punct	_	_
 24	-	-	PUNCT	PUNCT	PunctType=Dash	27	punct	_	_
-25	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	nmod	_	MWE=un_tanto|MWEPOS=ADV
+25	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	advmod	_	MWE=un_tanto|MWEPOS=ADV
 26	tanto	tanto	NOUN	NOUN	_	25	mwe	_	_
 27	añeja	añejo	ADJ	ADJ	Gender=Fem|Number=Sing	22	amod	_	_
 28	,	,	PUNCT	PUNCT	PunctType=Comm	31	punct	_	_
@@ -44335,7 +44335,7 @@
 9	nuestra	nuestro	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det	_	_
 10	capacidad	capacidad	NOUN	NOUN	Gender=Fem|Number=Sing	7	conj	_	_
 11	en	en	ADP	ADP	AdpType=Prep	14	case	_	_
-12	tan	tanto	ADV	ADV	_	13	nmod	_	_
+12	tan	tanto	ADV	ADV	_	13	advmod	_	_
 13	poco	poco	ADV	ADV	_	14	advmod	_	_
 14	tiempo	tiempo	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
 15	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	5	punct	_	_
@@ -44614,8 +44614,8 @@
 34	comunitarios	comunitario	ADJ	ADJ	Gender=Masc|Number=Plur	33	amod	_	_
 35	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 36	pero	pero	CONJ	CONJ	_	4	cc	_	_
-37	hasta	hasta	ADP	ADP	AdpType=Prep	39	advmod	_	_
-38	entonces	entonces	ADV	ADV	_	37	advmod	_	_
+37	hasta	hasta	ADP	ADP	AdpType=Prep	38	case	_	_
+38	entonces	entonces	ADV	ADV	_	39	advmod	_	_
 39	mantendrá	mantener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
 40	como	como	SCONJ	SCONJ	_	41	mark	_	_
 41	candidato	candidato	NOUN	NOUN	Gender=Masc|Number=Sing	39	dobj	_	_
@@ -45070,7 +45070,7 @@
 10	Herzl	Herzl	PROPN	PROPN	_	9	appos	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-13	más	más	ADV	ADV	_	14	nmod	_	_
+13	más	más	ADV	ADV	_	14	advmod	_	_
 14	importante	importante	ADJ	ADJ	Number=Sing	9	appos	_	_
 15	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
 16	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -45308,8 +45308,8 @@
 7	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	madrugada	madrugada	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
-10	de	de	ADP	ADP	AdpType=Prep	9	nmod	_	_
-11	ayer	ayer	ADV	ADV	_	10	advmod	_	_
+10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
+11	ayer	ayer	ADV	ADV	_	9	advmod	_	_
 12	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	incidente	incidente	NOUN	NOUN	Number=Sing	6	nsubj	_	_
 14	armado	armado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	13	amod	_	_
@@ -45812,8 +45812,8 @@
 17	en	en	ADP	ADP	AdpType=Prep	19	case	_	_
 18	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	madrugada	madrugada	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
-20	de	de	ADP	ADP	AdpType=Prep	19	nmod	_	_
-21	ayer	ayer	ADV	ADV	_	20	advmod	_	_
+20	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
+21	ayer	ayer	ADV	ADV	_	19	advmod	_	_
 22	como	como	SCONJ	SCONJ	_	23	mark	_	_
 23	resultado	resultado	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
 24	de	de	ADP	ADP	AdpType=Prep	25	case	_	_
@@ -46162,8 +46162,8 @@
 24	aprovechen	aprovechar	VERB	VERB	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	4	ccomp	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	encuentro	encuentro	NOUN	NOUN	Gender=Masc|Number=Sing	24	dobj	_	_
-27	de	de	ADP	ADP	AdpType=Prep	26	nmod	_	_
-28	mañana	mañana	ADV	ADV	_	27	advmod	_	_
+27	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
+28	mañana	mañana	ADV	ADV	_	26	advmod	_	_
 29	y	y	CONJ	CONJ	_	24	cc	_	_
 30	se	él	PRON	PRON	Person=3|PronType=Prs	32	dobj	_	_
 31	"	"	PUNCT	PUNCT	PunctType=Quot	32	punct	_	_
@@ -46218,7 +46218,7 @@
 9	Redondo	Redondo	PROPN	PROPN	_	8	name	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 11	fue	ir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-12	más	más	ADV	ADV	_	13	nmod	_	_
+12	más	más	ADV	ADV	_	13	advmod	_	_
 13	lejos	lejos	ADV	ADV	_	11	advmod	_	_
 14	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	35	mark	_	_
 15	precisar	precisar	AUX	AUX	VerbForm=Inf	35	aux	_	_
@@ -46289,7 +46289,7 @@
 2	Zapatero	Zapatero	PROPN	PROPN	_	1	name	_	_
 3	se	él	PRON	PRON	Person=3	4	dobj	_	_
 4	mostró	mostrar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	muy	mucho	ADV	ADV	_	6	nmod	_	_
+5	muy	mucho	ADV	ADV	_	6	advmod	_	_
 6	cuidadoso	cuidadoso	ADJ	ADJ	Gender=Masc|Number=Sing	4	dobj	_	_
 7	a	a	ADP	ADP	AdpType=Prep	9	case	_	_
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -46386,7 +46386,7 @@
 # orig_file_sentence 014#18
 1	Redondo	Redondo	PROPN	PROPN	_	5	nsubj	_	_
 2	fue	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
-3	mucho	mucho	ADV	ADV	_	5	nmod	_	_
+3	mucho	mucho	ADV	ADV	_	5	advmod	_	_
 4	menos	menos	ADV	ADV	_	3	advmod	_	_
 5	remilgado	remilgado	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
 6	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
@@ -46531,7 +46531,7 @@
 57	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	cop	_	_
 58	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
 59	instrumento	instrumento	NOUN	NOUN	Gender=Masc|Number=Sing	44	ccomp	_	_
-60	más	más	ADV	ADV	_	61	nmod	_	_
+60	más	más	ADV	ADV	_	61	advmod	_	_
 61	amplio	amplio	ADJ	ADJ	Gender=Masc|Number=Sing	59	amod	_	_
 62	de	de	ADP	ADP	AdpType=Prep	63	case	_	_
 63	convivencia	convivencia	NOUN	NOUN	Gender=Fem|Number=Sing	59	nmod	_	_
@@ -47250,7 +47250,7 @@
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	democracia	democracia	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	vendrá	venir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-4	más	más	ADV	ADV	_	5	nmod	_	_
+4	más	más	ADV	ADV	_	5	advmod	_	_
 5	adelante	adelante	ADV	ADV	_	3	advmod	_	_
 6	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
@@ -47417,7 +47417,7 @@
 24	que	que	PRON	PRON	PronType=Rel	25	nsubj	_	_
 25	parece	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	_
 26	ir	ir	VERB	VERB	VerbForm=Inf	25	xcomp	_	_
-27	más	más	ADV	ADV	_	28	nmod	_	_
+27	más	más	ADV	ADV	_	28	advmod	_	_
 28	allá	allá	ADV	ADV	_	26	advmod	_	_
 29	de	de	ADP	ADP	AdpType=Prep	31	case	_	_
 30	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
@@ -47478,8 +47478,8 @@
 7	que	que	PRON	PRON	PronType=Rel	9	nsubj	_	_
 8	se	él	PRON	PRON	Person=3	9	iobj	_	_
 9	limita	limitar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
-10	por	por	ADP	ADP	AdpType=Prep	9	advmod	_	_
-11	ahora	ahora	ADV	ADV	_	10	advmod	_	_
+10	por	por	ADP	ADP	AdpType=Prep	11	case	_	_
+11	ahora	ahora	ADV	ADV	_	9	advmod	_	_
 12	a	a	ADP	ADP	AdpType=Prep	13	mark	_	_
 13	instaurar	instaurar	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
 14	valores	valor	NOUN	NOUN	Gender=Masc|Number=Plur	13	dobj	_	_
@@ -47528,7 +47528,7 @@
 7	somos	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	país	país	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
-10	totalmente	totalmente	ADV	ADV	_	11	nmod	_	_
+10	totalmente	totalmente	ADV	ADV	_	11	advmod	_	_
 11	análogo	análogo	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
 12	a	a	ADP	ADP	AdpType=Prep	14	case	_	_
 13	muchos	mucho	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
@@ -47698,7 +47698,7 @@
 14	democrática	democrático	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
 15	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 16	aún	aún	ADV	ADV	_	18	advmod	_	_
-17	demasiado	demasiado	ADV	ADV	_	18	nmod	_	_
+17	demasiado	demasiado	ADV	ADV	_	18	advmod	_	_
 18	débil	débil	ADJ	ADJ	Number=Sing	32	ccomp	_	_
 19	como	como	SCONJ	SCONJ	_	21	mark	_	_
 20	para	para	ADP	ADP	AdpType=Prep	21	mark	_	_
@@ -47815,7 +47815,7 @@
 7	a	a	ADP	ADP	AdpType=Prep	8	mark	_	_
 8	haber	haber	AUX	AUX	VerbForm=Inf	47	xcomp	_	_
 9	elecciones	elección	NOUN	NOUN	Gender=Fem|Number=Plur	8	dobj	_	_
-10	verdaderamente	verdaderamente	ADV	ADV	_	11	nmod	_	_
+10	verdaderamente	verdaderamente	ADV	ADV	_	11	advmod	_	_
 11	libres	libre	ADJ	ADJ	Number=Plur	9	amod	_	_
 12	ya	ya	ADV	ADV	_	17	mark	_	MWE=ya_que|MWEPOS=SCONJ
 13	que	que	SCONJ	SCONJ	_	12	mwe	_	_
@@ -48005,7 +48005,7 @@
 20	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 21	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	capítulos	capítulo	NOUN	NOUN	Gender=Masc|Number=Plur	19	nmod	_	_
-23	más	más	ADV	ADV	_	24	nmod	_	_
+23	más	más	ADV	ADV	_	24	advmod	_	_
 24	oscuros	oscuro	ADJ	ADJ	Gender=Masc|Number=Plur	22	amod	_	_
 25	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	26	case	_	_
 26	reinado	reinado	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
@@ -48034,7 +48034,7 @@
 16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	preso	preso	NOUN	NOUN	Gender=Masc|Number=Sing	14	dobj	_	_
 18	político	político	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
-19	más	más	ADV	ADV	_	20	nmod	_	_
+19	más	más	ADV	ADV	_	20	advmod	_	_
 20	longevo	longevo	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
 21	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 22	Africa	Africa	PROPN	PROPN	_	17	nmod	_	_
@@ -48152,7 +48152,7 @@
 9	que	que	PRON	PRON	PronType=Rel	11	nsubj	_	_
 10	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	suscitado	suscitar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
-12	más	más	ADV	ADV	_	13	nmod	_	_
+12	más	más	ADV	ADV	_	13	advmod	_	_
 13	comentarios	comentario	NOUN	NOUN	Gender=Masc|Number=Plur	11	dobj	_	_
 14	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 15	sido	ser	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
@@ -48385,7 +48385,7 @@
 14	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 15	transfuguismo	transfuguismo	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
 16	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
-17	tan	tanto	ADV	ADV	_	18	nmod	_	_
+17	tan	tanto	ADV	ADV	_	18	advmod	_	_
 18	habituales	habitual	ADJ	ADJ	Number=Plur	8	conj	_	_
 19	que	que	SCONJ	SCONJ	_	25	mark	_	_
 20	ya	ya	ADV	ADV	_	25	advmod	_	_
@@ -48443,8 +48443,8 @@
 11	no	no	ADV	ADV	Negative=Neg	13	neg	_	_
 12	puede	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	hacerse	hacer	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
-14	desde	desde	ADP	ADP	AdpType=Prep	13	advmod	_	_
-15	dentro	dentro	ADV	ADV	_	14	advmod	_	_
+14	desde	desde	ADP	ADP	AdpType=Prep	15	case	_	_
+15	dentro	dentro	ADV	ADV	_	13	advmod	_	_
 16	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	17	case	_	_
 17	sistema	sistema	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
 18	acuñado	acuñado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	17	amod	_	_
@@ -48721,7 +48721,7 @@
 43	de	de	ADP	ADP	AdpType=Prep	44	mark	_	_
 44	movilizar	movilizar	VERB	VERB	VerbForm=Inf	42	acl	_	_
 45	a	a	ADP	ADP	AdpType=Prep	47	case	_	_
-46	más	más	ADV	ADV	_	47	nmod	_	_
+46	más	más	ADV	ADV	_	47	advmod	_	_
 47	gente	gente	NOUN	NOUN	Gender=Fem|Number=Sing	44	dobj	_	_
 48	en	en	ADP	ADP	AdpType=Prep	50	case	_	_
 49	todo	todo	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	50	det	_	_
@@ -48802,7 +48802,7 @@
 18	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	acción	acción	NOUN	NOUN	Gender=Fem|Number=Sing	12	conj	_	_
 20	política	política	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	_
-21	mucho	mucho	ADV	ADV	_	23	nmod	_	_
+21	mucho	mucho	ADV	ADV	_	23	advmod	_	_
 22	más	más	ADV	ADV	_	21	advmod	_	_
 23	social	social	ADJ	ADJ	Number=Sing	19	amod	_	_
 24	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
@@ -49687,7 +49687,7 @@
 2	Mi	mi	DET	DET	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
 3	marido	marido	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 4	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-5	extrañamente	extrañamente	ADV	ADV	_	6	nmod	_	_
+5	extrañamente	extrañamente	ADV	ADV	_	6	advmod	_	_
 6	supersticioso	supersticioso	ADJ	ADJ	Gender=Masc|Number=Sing	9	ccomp	_	_
 7	"	"	PUNCT	PUNCT	PunctType=Quot	6	punct	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
@@ -50057,7 +50057,7 @@
 # orig_file_sentence 015#25
 1	Hoy	hoy	ADV	ADV	_	4	advmod	_	_
 2	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	más	más	ADV	ADV	_	4	nmod	_	_
+3	más	más	ADV	ADV	_	4	advmod	_	_
 4	difícil	difícil	ADJ	ADJ	Number=Sing	0	root	_	_
 5	que	que	SCONJ	SCONJ	_	6	mark	_	_
 6	pase	pasar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	_	_
@@ -50159,7 +50159,7 @@
 22	tenido	tener	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
 23	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	adaptación	adaptación	NOUN	NOUN	Gender=Fem|Number=Sing	22	dobj	_	_
-25	más	más	ADV	ADV	_	26	nmod	_	_
+25	más	más	ADV	ADV	_	26	advmod	_	_
 26	rápida	rápido	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
 27	que	que	SCONJ	SCONJ	_	30	mark	_	_
 28	en	en	ADP	ADP	AdpType=Prep	30	case	_	_
@@ -50561,8 +50561,8 @@
 41	les	él	PRON	PRON	Case=Dat|Number=Plur|Person=3|PronType=Prs	42	dobj	_	_
 42	detiene	detener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	_
 43	sólo	sólo	ADV	ADV	_	42	advmod	_	_
-44	por	por	ADP	ADP	AdpType=Prep	43	mark	_	_
-45	estar	estar	VERB	VERB	VerbForm=Inf	43	advcl	_	_
+44	por	por	ADP	ADP	AdpType=Prep	43	case	_	_
+45	estar	estar	VERB	VERB	VerbForm=Inf	43	acl	_	_
 46	en	en	ADP	ADP	AdpType=Prep	47	case	_	_
 47	situación	situación	NOUN	NOUN	Gender=Fem|Number=Sing	45	nmod	_	_
 48	irregular	irregular	ADJ	ADJ	Number=Sing	47	amod	_	_
@@ -50743,7 +50743,7 @@
 14	día	día	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
 15	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	16	case	_	_
 16	Mundial	Mundial	PROPN	PROPN	_	14	nmod	_	_
-17	más	más	ADV	ADV	_	18	nmod	_	_
+17	más	más	ADV	ADV	_	18	advmod	_	_
 18	exótico	exótico	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
 19	jamás	jamás	ADV	ADV	_	20	advmod	_	_
 20	organizado	organizado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	14	amod	_	_
@@ -50813,7 +50813,7 @@
 11	se	él	PRON	PRON	Person=3	12	dobj	_	_
 12	hará	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	acl	_	_
 13	familiar	familiar	ADJ	ADJ	Number=Sing	12	dobj	_	_
-14	muy	mucho	ADV	ADV	_	15	nmod	_	_
+14	muy	mucho	ADV	ADV	_	15	advmod	_	_
 15	pronto	pronto	ADV	ADV	_	12	advmod	_	_
 16	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	17	punct	_	_
 17	El-Hadji	El-Hadji	PROPN	PROPN	_	8	appos	_	MWE=El-Hadji_Diouf|MWEPOS=PROPN
@@ -50936,7 +50936,7 @@
 3	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 4	en	en	ADP	ADP	AdpType=Prep	2	case	_	_
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	fútbol	fútbol	NOUN	NOUN	Gender=Masc|Number=Sing	2	dep	_	_
+6	fútbol	fútbol	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
 7	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id es-s1455
@@ -51191,7 +51191,7 @@
 19	dispone	disponer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
 20	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	21	case	_	_
 21	capital	capital	NOUN	NOUN	Gender=Masc|Number=Sing	19	dobj	_	_
-22	más	más	ADV	ADV	_	23	nmod	_	_
+22	más	más	ADV	ADV	_	23	advmod	_	_
 23	valioso	valioso	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
 24	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
@@ -51302,7 +51302,7 @@
 # orig_file_sentence 015#70
 1	"	"	PUNCT	PUNCT	PunctType=Quot	4	punct	_	_
 2	Estamos	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	muy	mucho	ADV	ADV	_	4	nmod	_	_
+3	muy	mucho	ADV	ADV	_	4	advmod	_	_
 4	contentos	contento	ADJ	ADJ	Gender=Masc|Number=Plur	13	ccomp	_	_
 5	de	de	ADP	ADP	AdpType=Prep	7	mark	_	_
 6	haber	haber	AUX	AUX	VerbForm=Inf	7	aux	_	_
@@ -51336,8 +51336,8 @@
 7	vegetal	vegetal	ADJ	ADJ	Number=Sing	3	conj	_	_
 8	podrá	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
 9	patentarse	patentar	VERB	VERB	VerbForm=Inf	0	root	_	_
-10	desde	desde	ADP	ADP	AdpType=Prep	9	advmod	_	_
-11	hoy	hoy	ADV	ADV	_	10	advmod	_	_
+10	desde	desde	ADP	ADP	AdpType=Prep	11	case	_	_
+11	hoy	hoy	ADV	ADV	_	9	advmod	_	_
 12	en	en	ADP	ADP	AdpType=Prep	14	case	_	_
 13	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	países	país	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
@@ -51390,10 +51390,10 @@
 # sent_id es-s1473
 # orig_file_sentence 015#73
 1	Europa	Europa	PROPN	PROPN	_	6	nsubj	_	_
-2	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
-3	hasta	hasta	ADP	ADP	AdpType=Prep	6	advmod	_	_
-4	ahora	ahora	ADV	ADV	_	3	advmod	_	_
-5	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
+2	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
+3	hasta	hasta	ADP	ADP	AdpType=Prep	4	case	_	_
+4	ahora	ahora	ADV	ADV	_	6	advmod	_	_
+5	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 6	tenía	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	prohibidos	prohibido	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	6	dobj	_	_
 8	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
@@ -52089,7 +52089,7 @@
 3	"	"	PUNCT	PUNCT	PunctType=Quot	2	punct	_	_
 4	y	y	CONJ	CONJ	_	2	cc	_	_
 5	"	"	PUNCT	PUNCT	PunctType=Quot	7	punct	_	_
-6	muy	mucho	ADV	ADV	_	7	nmod	_	_
+6	muy	mucho	ADV	ADV	_	7	advmod	_	_
 7	benévola	benévolo	ADJ	ADJ	Gender=Fem|Number=Sing	2	conj	_	_
 8	"	"	PUNCT	PUNCT	PunctType=Quot	7	punct	_	_
 9	fueron	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
@@ -53251,10 +53251,10 @@
 19	cuestiones	cuestión	NOUN	NOUN	Gender=Fem|Number=Plur	15	nmod	_	_
 20	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 21	que	que	SCONJ	SCONJ	_	27	mark	_	_
-22	a	a	ADP	ADP	AdpType=Prep	27	advmod	_	MWE=a_partir_de|MWEPOS=ADP
+22	a	a	ADP	ADP	AdpType=Prep	25	case	_	MWE=a_partir_de|MWEPOS=ADP
 23	partir	partir	NOUN	NOUN	_	22	mwe	_	_
 24	de	de	ADP	ADP	AdpType=Prep	22	mwe	_	_
-25	ahora	ahora	ADV	ADV	_	22	advmod	_	_
+25	ahora	ahora	ADV	ADV	_	27	advmod	_	_
 26	será	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	cop	_	_
 27	necesario	necesario	ADJ	ADJ	Gender=Masc|Number=Sing	15	ccomp	_	_
 28	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -53311,7 +53311,7 @@
 3	pacientes	paciente	NOUN	NOUN	Number=Plur	5	nsubj	_	_
 4	llevan	llevar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	esperando	esperar	VERB	VERB	VerbForm=Ger	0	root	_	_
-6	más	más	ADV	ADV	_	9	nmod	_	_
+6	más	más	ADV	ADV	_	9	advmod	_	_
 7	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 8	90	90	NUM	NUM	NumForm=Digit	6	nummod	_	_
 9	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	5	dobj	_	_
@@ -53561,7 +53561,7 @@
 2	operación	operación	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	más	más	ADV	ADV	_	6	nmod	_	_
+5	más	más	ADV	ADV	_	6	advmod	_	_
 6	importante	importante	ADJ	ADJ	Number=Sing	0	root	_	_
 7	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	_
 8	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -53575,7 +53575,7 @@
 16	una	uno	PRON	PRON	Gender=Fem|Number=Sing|PronType=Ind	6	conj	_	_
 17	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
 18	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
-19	más	más	ADV	ADV	_	20	nmod	_	_
+19	más	más	ADV	ADV	_	20	advmod	_	_
 20	costosas	costoso	ADJ	ADJ	Gender=Fem|Number=Plur	16	amod	_	_
 21	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	22	case	_	_
 22	mercado	mercado	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
@@ -53696,7 +53696,7 @@
 14	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 15	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	inmuebles	inmueble	NOUN	NOUN	Gender=Masc|Number=Plur	13	nmod	_	_
-17	más	más	ADV	ADV	_	18	nmod	_	_
+17	más	más	ADV	ADV	_	18	advmod	_	_
 18	emblemáticos	emblemático	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
 19	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 20	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -53894,7 +53894,7 @@
 26	España	España	PROPN	PROPN	_	22	nmod	_	_
 27	-	-	PUNCT	PUNCT	PunctType=Dash	32	punct	_	_
 28	-	-	PUNCT	PUNCT	PunctType=Dash	32	punct	_	_
-29	más	más	ADV	ADV	_	32	nmod	_	_
+29	más	más	ADV	ADV	_	32	advmod	_	_
 30	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
 31	80.000	80000	NUM	NUM	NumForm=Digit	29	nummod	_	_
 32	millones	millón	NOUN	NOUN	Gender=Masc|Number=Plur	17	appos	_	_
@@ -54098,7 +54098,7 @@
 13	no	no	ADV	ADV	Negative=Neg	17	neg	_	_
 14	hayan	haber	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 15	sido	ser	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
-16	muy	mucho	ADV	ADV	_	17	nmod	_	_
+16	muy	mucho	ADV	ADV	_	17	advmod	_	_
 17	buenas	buen	ADJ	ADJ	Gender=Fem|Number=Plur	2	csubj	_	_
 18	para	para	ADP	ADP	AdpType=Prep	19	case	_	_
 19	Catalunya	Catalunya	PROPN	PROPN	_	17	nmod	_	_
@@ -54150,7 +54150,7 @@
 9	no	no	ADV	ADV	Negative=Neg	13	neg	_	_
 10	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 11	sido	ser	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
-12	especialmente	especialmente	ADV	ADV	_	13	nmod	_	_
+12	especialmente	especialmente	ADV	ADV	_	13	advmod	_	_
 13	brillantes	brillante	ADJ	ADJ	Number=Plur	4	csubj	_	_
 14	para	para	ADP	ADP	AdpType=Prep	17	case	_	_
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -54533,8 +54533,8 @@
 7	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	noche	noche	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
-10	de	de	ADP	ADP	AdpType=Prep	9	nmod	_	_
-11	ayer	ayer	ADV	ADV	_	10	advmod	_	_
+10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
+11	ayer	ayer	ADV	ADV	_	9	advmod	_	_
 12	cuando	cuando	SCONJ	SCONJ	_	29	mark	_	_
 13	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	víctima	víctima	NOUN	NOUN	Gender=Fem|Number=Sing	29	nsubj	_	_
@@ -54733,7 +54733,7 @@
 2	tiendas	tienda	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	tradicionales	tradicional	ADJ	ADJ	Number=Plur	2	amod	_	_
 4	reclaman	reclamar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	más	más	ADV	ADV	_	6	nmod	_	_
+5	más	más	ADV	ADV	_	6	advmod	_	_
 6	ayudas	ayuda	NOUN	NOUN	Gender=Fem|Number=Plur	4	dobj	_	_
 7	para	para	ADP	ADP	AdpType=Prep	8	mark	_	_
 8	asegurar	asegurar	VERB	VERB	VerbForm=Inf	6	acl	_	_
@@ -54999,7 +54999,7 @@
 21	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	firma	firma	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
 23	controle	controlar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
-24	más	más	ADV	ADV	_	26	nmod	_	_
+24	más	más	ADV	ADV	_	26	advmod	_	_
 25	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	24	case	_	_
 26	25%	25/100	SYM	SYM	NumForm=Digit|NumType=Frac	23	dobj	_	_
 27	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	28	case	_	_
@@ -55176,7 +55176,7 @@
 16	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	autoservicios	autoservicio	NOUN	NOUN	Gender=Masc|Number=Plur	27	nsubj	_	_
 18	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
-19	menos	menos	ADV	ADV	_	22	nmod	_	_
+19	menos	menos	ADV	ADV	_	22	advmod	_	_
 20	de	de	ADP	ADP	AdpType=Prep	19	case	_	_
 21	100	100	NUM	NUM	NumForm=Digit	19	nummod	_	_
 22	metros	metro	NOUN	NOUN	_	17	nmod	_	MWE=metros_cuadrados|MWEPOS=NOUN
@@ -55778,7 +55778,7 @@
 8	a	a	ADP	ADP	AdpType=Prep	10	case	_	_
 9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	oferta	oferta	NOUN	NOUN	Gender=Fem|Number=Sing	7	dobj	_	_
-11	ya	ya	ADV	ADV	_	12	nmod	_	_
+11	ya	ya	ADV	ADV	_	12	advmod	_	_
 12	existente	existente	ADJ	ADJ	Number=Sing	10	amod	_	_
 13	en	en	ADP	ADP	AdpType=Prep	14	case	_	_
 14	Rogent	Rogent	PROPN	PROPN	_	10	nmod	_	_
@@ -55845,7 +55845,7 @@
 13	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	zona	zona	NOUN	NOUN	Gender=Fem|Number=Sing	6	dobj	_	_
 15	peatonal	peatonal	ADJ	ADJ	Number=Sing	14	amod	_	_
-16	ya	ya	ADV	ADV	_	17	nmod	_	_
+16	ya	ya	ADV	ADV	_	17	advmod	_	_
 17	existente	existente	ADJ	ADJ	Number=Sing	14	amod	_	_
 18	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
 19	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
@@ -56419,8 +56419,8 @@
 10	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 11	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	ondas	onda	NOUN	NOUN	Gender=Fem|Number=Plur	9	nmod	_	_
-13	de	de	ADP	ADP	AdpType=Prep	12	nmod	_	_
-14	hoy	hoy	ADV	ADV	_	13	advmod	_	_
+13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
+14	hoy	hoy	ADV	ADV	_	12	advmod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 16	políticos	político	NOUN	NOUN	Gender=Masc|Number=Plur	1	conj	_	_
 17	de	de	ADP	ADP	AdpType=Prep	19	case	_	_
@@ -56746,7 +56746,7 @@
 35	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
 36	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
 37	ondas	onda	NOUN	NOUN	Gender=Fem|Number=Plur	33	nmod	_	_
-38	tan	tanto	ADV	ADV	_	39	nmod	_	_
+38	tan	tanto	ADV	ADV	_	39	advmod	_	_
 39	dispares	dispar	ADJ	ADJ	Number=Plur	33	amod	_	_
 40	como	como	SCONJ	SCONJ	_	41	mark	_	_
 41	Josep	Josep	PROPN	PROPN	_	39	nmod	_	MWE=Josep_Cuní|MWEPOS=PROPN
@@ -56784,7 +56784,7 @@
 24	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	mesa	mesa	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
 26	sin	sin	ADP	ADP	AdpType=Prep	28	case	_	_
-27	más	más	ADV	ADV	_	28	nmod	_	_
+27	más	más	ADV	ADV	_	28	advmod	_	_
 28	compañía	compañía	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
 29	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
@@ -57081,7 +57081,7 @@
 7	seno	seno	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
 8	materno	materno	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
 9	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-10	demasiado	demasiado	ADV	ADV	_	11	nmod	_	_
+10	demasiado	demasiado	ADV	ADV	_	11	advmod	_	_
 11	fuerte	fuerte	ADJ	ADJ	Number=Sing	0	root	_	_
 12	para	para	ADP	ADP	AdpType=Prep	13	mark	_	_
 13	destruirlo	destruir	VERB	VERB	VerbForm=Inf	11	acl	_	_
