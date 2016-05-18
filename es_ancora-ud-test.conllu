@@ -376,6 +376,7 @@
 30	puesto	poner	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
 31	bajo	bajo	ADP	ADP	AdpType=Prep	32	case	_	_
 32	presión	presión	NOUN	NOUN	Gender=Fem|Number=Sing	30	nmod	_	_
+33-34	al	_	_	_	_	_	_	_	_
 33	a	a	ADP	ADP	AdpType=Prep	35	case	_	_
 34	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	30	dobj	_	_
@@ -389,7 +390,6 @@
 43	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 44	único	único	ADJ	ADJ	Gender=Masc|Number=Sing	45	amod	_	_
 45	candidato	candidato	NOUN	NOUN	Gender=Masc|Number=Sing	41	nmod	_	_
-46-47	al	_	_	_	_	_	_	_	_
 46	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id es-s9
@@ -1441,17 +1441,18 @@
 17	atrayentes	atrayente	ADJ	ADJ	Number=Plur	12	acl	_	_
 18	de	de	ADP	ADP	AdpType=Prep	22	case	_	MWE=de_cara_al|MWEPOS=ADP
 19	cara	cara	NOUN	NOUN	_	18	mwe	_	_
+20-21	al	_	_	_	_	_	_	_	_
 20	a	a	ADP	ADP	AdpType=Prep	18	mwe	_	_
 21	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	mwe	_	_
 22	resto	resto	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
 23	de	de	ADP	ADP	AdpType=Prep	25	case	_	_
 24	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	élite	élite	NOUN	NOUN	Gender=Fem|Number=Sing	22	nmod	_	_
+26-27	del	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
 27	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	ciclismo	ciclismo	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
 29	mundial	mundial	ADJ	ADJ	Number=Sing	28	amod	_	_
-30-31	al	_	_	_	_	_	_	_	_
 30	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s43
@@ -1925,11 +1926,11 @@
 38	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	era	era	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
 40	Mendoza	Mendoza	PROPN	PROPN	_	39	nmod	_	_
+41-42	al	_	_	_	_	_	_	_	_
 41	a	a	ADP	ADP	AdpType=Prep	43	case	_	_
 42	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	Real	Real	PROPN	PROPN	_	36	nmod	_	MWE=Real_Madrid|MWEPOS=PROPN
 44	Madrid	Madrid	PROPN	PROPN	_	43	name	_	_
-45-46	al	_	_	_	_	_	_	_	_
 45	.	.	PUNCT	PUNCT	PunctType=Peri	32	punct	_	_
 
 # sent_id es-s56
@@ -5182,6 +5183,7 @@
 31	que	que	SCONJ	SCONJ	_	37	mark	_	_
 32	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	verdad	verdad	NOUN	NOUN	Gender=Fem|Number=Sing	37	nsubj	_	_
+34-35	del	_	_	_	_	_	_	_	_
 34	de	de	ADP	ADP	AdpType=Prep	36	case	_	_
 35	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	cogito	cogito	NOUN	NOUN	Gender=Masc|Number=Sing	33	nmod	_	_
@@ -5222,7 +5224,6 @@
 71	con	con	ADP	ADP	AdpType=Prep	73	case	_	_
 72	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
 73	autoconciencia	autoconciencia	NOUN	NOUN	Gender=Fem|Number=Sing	69	nmod	_	_
-74-75	del	_	_	_	_	_	_	_	_
 74	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	8	punct	_	_
 
 # sent_id es-s150
@@ -6567,6 +6568,7 @@
 22-23	irse	_	_	_	_	_	_	_	_
 22	ir	ir	VERB	VERB	VerbForm=Inf	14	conj	_	_
 23	se	él	PRON	PRON	Person=3	22	dobj	_	_
+24-25	al	_	_	_	_	_	_	_	_
 24	a	a	ADP	ADP	AdpType=Prep	26	case	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	infierno	infierno	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
@@ -6576,7 +6578,6 @@
 30	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
 31	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	sátira	sátira	NOUN	NOUN	Gender=Fem|Number=Sing	29	dobj	_	_
-33-34	al	_	_	_	_	_	_	_	_
 33	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id es-s196
@@ -7257,6 +7258,7 @@
 23	razonable	razonable	ADJ	ADJ	Number=Sing	22	amod	_	_
 24	nos	yo	PRON	PRON	Number=Plur|Person=1|PronType=Prs	25	dobj	_	_
 25	lleva	llevar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+26-27	al	_	_	_	_	_	_	_	_
 26	a	a	ADP	ADP	AdpType=Prep	28	case	_	_
 27	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	caos	caos	NOUN	NOUN	Gender=Masc	25	dobj	_	_
@@ -7267,7 +7269,6 @@
 33	guerras	guerra	NOUN	NOUN	Gender=Fem|Number=Plur	25	nmod	_	_
 34	cada	cada	DET	DET	Number=Sing|PronType=Ind	35	det	_	_
 35	siglo	siglo	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
-36-37	al	_	_	_	_	_	_	_	_
 36	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id es-s218
@@ -8193,6 +8194,7 @@
 38-39	cerrándose	_	_	_	_	_	_	_	_
 38	cerrando	cerrar	VERB	VERB	VerbForm=Ger	36	advcl	_	_
 39	se	él	PRON	PRON	Person=3	38	dobj	_	_
+40-41	al	_	_	_	_	_	_	_	_
 40	a	a	ADP	ADP	AdpType=Prep	42	case	_	_
 41	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	aire	aire	NOUN	NOUN	Gender=Masc|Number=Sing	38	nmod	_	_
@@ -8248,6 +8250,7 @@
 92	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	94	det	_	_
 93	irregular	irregular	ADJ	ADJ	Number=Sing	94	amod	_	_
 94	perfil	perfil	NOUN	NOUN	Gender=Masc|Number=Sing	85	dobj	_	_
+95-96	del	_	_	_	_	_	_	_	_
 95	de	de	ADP	ADP	AdpType=Prep	97	case	_	_
 96	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	97	det	_	_
 97	suelo	suelo	NOUN	NOUN	Gender=Masc|Number=Sing	94	nmod	_	_
@@ -8267,6 +8270,7 @@
 111	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	113	det	_	_
 112	frágiles	frágil	ADJ	ADJ	Number=Plur	113	amod	_	_
 113	puertas	puerta	NOUN	NOUN	Gender=Fem|Number=Plur	110	dobj	_	_
+114-115	del	_	_	_	_	_	_	_	_
 114	de	de	ADP	ADP	AdpType=Prep	116	case	_	_
 115	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	116	det	_	_
 116	armario	armario	NOUN	NOUN	Gender=Masc|Number=Sing	113	nmod	_	_
@@ -8287,7 +8291,6 @@
 130	sucia	sucio	ADJ	ADJ	Gender=Fem|Number=Sing	131	amod	_	_
 131	pared	pared	NOUN	NOUN	Gender=Fem|Number=Sing	124	nmod	_	_
 132	alicatada	alicatado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	131	amod	_	_
-133-134	al	_	_	_	_	_	_	_	_
 133	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id es-s252
@@ -8595,6 +8598,7 @@
 56	detalles	detalle	NOUN	NOUN	Gender=Masc|Number=Plur	51	nmod	_	_
 57	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
 58	distribución	distribución	NOUN	NOUN	Gender=Fem|Number=Sing	50	dobj	_	_
+59-60	del	_	_	_	_	_	_	_	_
 59	de	de	ADP	ADP	AdpType=Prep	61	case	_	_
 60	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
 61	jardín	jardín	NOUN	NOUN	Gender=Masc|Number=Sing	58	nmod	_	_
@@ -8669,7 +8673,6 @@
 129	,	,	PUNCT	PUNCT	PunctType=Comm	128	punct	_	_
 130	espléndidamente	espléndidamente	ADV	ADV	_	131	advmod	_	_
 131	decorada	decorado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	128	advmod	_	_
-132-133	del	_	_	_	_	_	_	_	_
 132	.	.	PUNCT	PUNCT	PunctType=Peri	24	punct	_	_
 
 # sent_id es-s262
@@ -10747,6 +10750,7 @@
 37	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 38	pasada	pasado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	39	amod	_	_
 39	Cumbre	Cumbre	PROPN	PROPN	_	30	nmod	_	MWE=Cumbre_del_Milenio_de_la_ONU|MWEPOS=PROPN
+40-41	del	_	_	_	_	_	_	_	_
 40	de	de	ADP	ADP	AdpType=Prep	42	case	_	_
 41	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	Milenio	Milenio	PROPN	PROPN	_	39	name	_	_
@@ -10756,7 +10760,6 @@
 46	en	en	ADP	ADP	AdpType=Prep	47	case	_	_
 47	Nueva	Nueva	PROPN	PROPN	_	30	nmod	_	MWE=Nueva_York|MWEPOS=PROPN
 48	York	York	PROPN	PROPN	_	47	name	_	_
-49-50	del	_	_	_	_	_	_	_	_
 49	.	.	PUNCT	PUNCT	PunctType=Peri	23	punct	_	_
 
 # sent_id es-s303
@@ -13091,6 +13094,7 @@
 13	tras	tras	ADP	ADP	AdpType=Prep	14	mark	_	_
 14	sufrir	sufrir	VERB	VERB	VerbForm=Inf	9	advcl	_	_
 15	pérdidas	pérdida	NOUN	NOUN	Gender=Fem|Number=Plur	14	dobj	_	_
+16-17	del	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	AdpType=Prep	22	case	_	MWE=del_orden_de|MWEPOS=ADP
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	mwe	_	_
 18	orden	orden	NOUN	NOUN	_	16	mwe	_	_
@@ -13105,7 +13109,6 @@
 27	adquisición	adquisición	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
 28	en	en	ADP	ADP	AdpType=Prep	29	case	_	_
 29	1994	1994	NOUN	NOUN	AdvType=Tim	27	nmod	_	_
-30-31	del	_	_	_	_	_	_	_	_
 30	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s350
@@ -16385,9 +16388,11 @@
 13	alcanzó	alcanzar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
 14	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	cuartos	cuarto	NOUN	NOUN	Gender=Masc|Number=Plur	13	dobj	_	_
+16-17	al	_	_	_	_	_	_	_	_
 16	a	a	ADP	ADP	AdpType=Prep	18	mark	_	_
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	derrotar	derrotar	VERB	VERB	VerbForm=Inf	13	advcl	_	_
+19-20	al	_	_	_	_	_	_	_	_
 19	a	a	ADP	ADP	AdpType=Prep	21	case	_	_
 20	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	checo	checo	NOUN	NOUN	Gender=Masc|Number=Sing	18	dobj	_	_
@@ -16401,7 +16406,6 @@
 29	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 30	y	y	CONJ	CONJ	_	25	cc	_	_
 31	6-1	6-1	NUM	NUM	NumForm=Digit	25	conj	_	_
-32-33	al	_	_	_	_	_	_	_	_
 32	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id es-s438
@@ -16804,6 +16808,7 @@
 38	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
 39	dos	dos	NUM	NUM	Number=Plur|NumType=Card	38	nummod	_	_
 40	extremos	extremo	NOUN	NOUN	Gender=Masc|Number=Plur	31	nmod	_	_
+41-42	del	_	_	_	_	_	_	_	_
 41	de	de	ADP	ADP	AdpType=Prep	43	case	_	_
 42	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	Pirineo	Pirineo	PROPN	PROPN	_	40	nmod	_	_
@@ -16837,7 +16842,6 @@
 71	de	de	ADP	ADP	AdpType=Prep	72	case	_	_
 72	territorialidad	territorialidad	NOUN	NOUN	Gender=Fem|Number=Sing	69	conj	_	_
 73	"	"	PUNCT	PUNCT	PunctType=Quot	31	punct	_	_
-74-75	del	_	_	_	_	_	_	_	_
 74	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id es-s445
@@ -19648,6 +19652,7 @@
 21	preparar	preparar	VERB	VERB	VerbForm=Inf	15	advcl	_	_
 22	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	candidatura	candidatura	NOUN	NOUN	Gender=Fem|Number=Sing	21	dobj	_	_
+24-25	del	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	2012	2012	NOUN	NOUN	AdvType=Tim	23	nmod	_	_
@@ -19703,7 +19708,6 @@
 75	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
 76	candidatura	candidatura	NOUN	NOUN	Gender=Fem|Number=Sing	73	dobj	_	_
 77	"	"	PUNCT	PUNCT	PunctType=Quot	73	punct	_	_
-78-79	del	_	_	_	_	_	_	_	_
 78	.	.	PUNCT	PUNCT	PunctType=Peri	28	punct	_	_
 
 # sent_id es-s512
@@ -25884,12 +25888,12 @@
 41	y	y	CONJ	CONJ	_	39	cc	_	_
 42	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	contención	contención	NOUN	NOUN	Gender=Fem|Number=Sing	39	conj	_	_
+44-45	del	_	_	_	_	_	_	_	_
 44	de	de	ADP	ADP	AdpType=Prep	46	case	_	_
 45	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	déficit	déficit	NOUN	NOUN	Gender=Masc|Number=Sing	43	nmod	_	_
 47	público	público	ADJ	ADJ	Gender=Masc|Number=Sing	46	amod	_	_
 48	"	"	PUNCT	PUNCT	PunctType=Quot	39	punct	_	_
-49-50	del	_	_	_	_	_	_	_	_
 49	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id es-s663
@@ -26665,11 +26669,11 @@
 52	con	con	ADP	ADP	AdpType=Prep	54	case	_	_
 53	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
 54	gol	gol	NOUN	NOUN	Gender=Masc|Number=Sing	38	nmod	_	_
+55-56	del	_	_	_	_	_	_	_	_
 55	de	de	ADP	ADP	AdpType=Prep	57	case	_	_
 56	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
 57	noruego	noruego	NOUN	NOUN	Gender=Masc|Number=Sing	54	nmod	_	_
 58	Carew	Carew	PROPN	PROPN	_	57	appos	_	_
-59-60	del	_	_	_	_	_	_	_	_
 59	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id es-s679
@@ -29443,12 +29447,12 @@
 31-32	irse	_	_	_	_	_	_	_	_
 31	ir	ir	VERB	VERB	VerbForm=Inf	25	advcl	_	_
 32	se	él	PRON	PRON	Person=3	31	dobj	_	_
+33-34	al	_	_	_	_	_	_	_	_
 33	a	a	ADP	ADP	AdpType=Prep	35	case	_	_
 34	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	descanso	descanso	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	_
 36	en	en	ADP	ADP	AdpType=Prep	37	case	_	_
 37	ventaja	ventaja	NOUN	NOUN	Gender=Fem|Number=Sing	31	nmod	_	_
-38-39	al	_	_	_	_	_	_	_	_
 38	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id es-s741
@@ -32015,6 +32019,7 @@
 51	desde	desde	ADP	ADP	AdpType=Prep	53	case	_	_
 52	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	estación	estación	NOUN	NOUN	Gender=Fem|Number=Sing	50	nmod	_	_
+54-55	del	_	_	_	_	_	_	_	_
 54	de	de	ADP	ADP	AdpType=Prep	56	case	_	_
 55	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	AVE	AVE	PROPN	PROPN	_	53	nmod	_	_
@@ -32033,7 +32038,6 @@
 69	esta	este	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	70	det	_	_
 70	población	población	NOUN	NOUN	Gender=Fem|Number=Sing	64	nmod	_	_
 71	industrial	industrial	ADJ	ADJ	Number=Sing	70	amod	_	_
-72-73	del	_	_	_	_	_	_	_	_
 72	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id es-s796
@@ -32582,6 +32586,7 @@
 39	escuchó	escuchar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	advcl	_	_
 40	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	voz	voz	NOUN	NOUN	Gender=Fem|Number=Sing	39	dobj	_	_
+42-43	del	_	_	_	_	_	_	_	_
 42	de	de	ADP	ADP	AdpType=Prep	44	case	_	_
 43	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	juez	juez	NOUN	NOUN	Number=Sing	41	nmod	_	_
@@ -32591,7 +32596,6 @@
 48	bolas	bolas	NOUN	NOUN	_	41	appos	_	MWE=bolas_nuevas|MWEPOS=NOUN
 49	nuevas	nuevas	NOUN	NOUN	_	48	compound	_	_
 50	"	"	PUNCT	PUNCT	PunctType=Quot	48	punct	_	_
-51-52	del	_	_	_	_	_	_	_	_
 51	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s812
@@ -34740,6 +34744,7 @@
 47	sea	ser	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
 48	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 49	resultado	resultado	NOUN	NOUN	Gender=Masc|Number=Sing	44	advcl	_	_
+50-51	del	_	_	_	_	_	_	_	_
 50	de	de	ADP	ADP	AdpType=Prep	52	case	_	_
 51	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	combate	combate	NOUN	NOUN	Gender=Masc|Number=Sing	49	nmod	_	_
@@ -34748,6 +34753,7 @@
 55	retiraré	retirar	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	38	ccomp	_	_
 56	para	para	ADP	ADP	AdpType=Prep	57	case	_	_
 57	siempre	siempre	ADV	ADV	_	55	advmod	_	_
+58-59	del	_	_	_	_	_	_	_	_
 58	de	de	ADP	ADP	AdpType=Prep	60	case	_	_
 59	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
 60	boxeo	boxeo	NOUN	NOUN	Gender=Masc|Number=Sing	55	nmod	_	_
@@ -34755,7 +34761,6 @@
 62	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 63	declaró	declarar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 64	Saleta	Saleta	PROPN	PROPN	_	63	nsubj	_	_
-65-66	del	_	_	_	_	_	_	_	_
 65	.	.	PUNCT	PUNCT	PunctType=Peri	63	punct	_	_
 
 # sent_id es-s862
@@ -36934,9 +36939,11 @@
 11	extender	extender	VERB	VERB	VerbForm=Inf	0	root	_	_
 12	se	él	PRON	PRON	Person=3	11	dobj	_	_
 13	fuera	fuera	ADV	ADV	_	11	advmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	país	país	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	al	_	_	_	_	_	_	_	_
 17	a	a	ADP	ADP	AdpType=Prep	19	mark	_	_
 18	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19-20	descubrirse	_	_	_	_	_	_	_	_
@@ -36973,7 +36980,6 @@
 49	en	en	ADP	ADP	AdpType=Prep	50	case	_	_
 50	Timor	Timor	PROPN	PROPN	_	40	nmod	_	MWE=Timor_Oriental|MWEPOS=PROPN
 51	Oriental	Oriental	PROPN	PROPN	_	50	name	_	_
-52-53	del	_	_	_	_	_	_	_	_
 52	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id es-s914
@@ -37680,6 +37686,7 @@
 22	Egoyan	Egoyan	PROPN	PROPN	_	21	name	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
 24	atrapa	atrapar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	_
+25-26	al	_	_	_	_	_	_	_	_
 25	a	a	ADP	ADP	AdpType=Prep	27	case	_	_
 26	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	espectador	espectador	NOUN	NOUN	Gender=Masc|Number=Sing	24	dobj	_	_
@@ -37692,7 +37699,6 @@
 34	emociones	emoción	NOUN	NOUN	Gender=Fem|Number=Plur	31	conj	_	_
 35	a	a	ADP	ADP	AdpType=Prep	34	advmod	_	MWE=a_contrapié|MWEPOS=ADV
 36	contrapié	contrapié	NOUN	NOUN	_	35	mwe	_	_
-37-38	al	_	_	_	_	_	_	_	_
 37	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id es-s934
@@ -38716,6 +38722,7 @@
 23	en	en	ADP	ADP	AdpType=Prep	25	case	_	_
 24	segunda	segundo	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	25	amod	_	_
 25	ronda	ronda	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
+26-27	al	_	_	_	_	_	_	_	_
 26	a	a	ADP	ADP	AdpType=Prep	28	case	_	_
 27	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	uzbeco	uzbeco	NOUN	NOUN	Gender=Masc|Number=Sing	21	dobj	_	_
@@ -38731,7 +38738,6 @@
 38	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	37	punct	_	_
 39	y	y	CONJ	CONJ	_	35	cc	_	_
 40	6-2	6-2	NUM	NUM	NumForm=Digit	35	conj	_	_
-41-42	al	_	_	_	_	_	_	_	_
 41	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id es-s965
@@ -38864,10 +38870,10 @@
 19	y	y	CONJ	CONJ	_	18	cc	_	_
 20	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 21	vuelta	vuelta	NOUN	NOUN	Gender=Fem|Number=Sing	18	conj	_	_
+22-23	al	_	_	_	_	_	_	_	_
 22	a	a	ADP	ADP	AdpType=Prep	24	case	_	_
 23	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	mes	mes	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	_
-25-26	al	_	_	_	_	_	_	_	_
 25	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id es-s969
@@ -38877,6 +38883,7 @@
 3-4	acogerse	_	_	_	_	_	_	_	_
 3	acoger	acoger	VERB	VERB	VerbForm=Inf	2	xcomp	_	_
 4	se	él	PRON	PRON	Person=3	3	dobj	_	_
+5-6	al	_	_	_	_	_	_	_	_
 5	a	a	ADP	ADP	AdpType=Prep	7	case	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	convenio	convenio	NOUN	NOUN	Gender=Masc|Number=Sing	3	dobj	_	_
@@ -38898,7 +38905,6 @@
 23	Comercio	Comercio	PROPN	PROPN	_	21	name	_	_
 24	de	de	ADP	ADP	AdpType=Prep	25	case	_	_
 25	Lleida	Lleida	PROPN	PROPN	_	21	name	_	_
-26-27	al	_	_	_	_	_	_	_	_
 26	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id es-s970
@@ -39597,6 +39603,7 @@
 26	en	en	ADP	ADP	AdpType=Prep	28	case	_	_
 27	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	placa	placa	NOUN	NOUN	Gender=Fem|Number=Sing	24	dobj	_	_
+29-30	del	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	AdpType=Prep	31	case	_	_
 30	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	ceramista	ceramista	NOUN	NOUN	Number=Sing	28	nmod	_	_
@@ -39609,7 +39616,6 @@
 38	calle	calle	NOUN	NOUN	Gender=Fem|Number=Sing	32	nmod	_	_
 39	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
 40	Balmes	Balmes	PROPN	PROPN	_	38	nmod	_	_
-41-42	del	_	_	_	_	_	_	_	_
 41	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id es-s992
@@ -39749,10 +39755,10 @@
 27	a	a	ADP	ADP	AdpType=Prep	29	case	_	_
 28	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	aseguradora	aseguradora	NOUN	NOUN	Gender=Fem|Number=Sing	25	dobj	_	_
+30-31	del	_	_	_	_	_	_	_	_
 30	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
 31	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	camión	camión	NOUN	NOUN	Gender=Masc|Number=Sing	29	nmod	_	_
-33-34	del	_	_	_	_	_	_	_	_
 33	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s998
@@ -39961,6 +39967,7 @@
 8	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	acción	acción	NOUN	NOUN	Gender=Fem|Number=Sing	6	dobj	_	_
+11-12	del	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Comando	Comando	PROPN	PROPN	_	10	nmod	_	MWE=Comando_Ciudadano_Justiciero|MWEPOS=PROPN
@@ -40013,9 +40020,9 @@
 59	que	que	SCONJ	SCONJ	_	61	mark	_	_
 60	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	61	dobj	_	_
 61	costó	costar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	advcl	_	_
+62-63	encontrarlos	_	_	_	_	_	_	_	_
 62	encontrar	encontrar	VERB	VERB	VerbForm=Inf	61	csubj	_	_
 63	los	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	62	dobj	_	_
-64-65	del	_	_	_	_	_	_	_	_
 64	.	.	PUNCT	PUNCT	PunctType=Peri	26	punct	_	_
 
 # sent_id es-s1008
@@ -41195,6 +41202,7 @@
 24	por	por	ADP	ADP	AdpType=Prep	26	case	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	resultado	resultado	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
+27-28	del	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
 28	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	partido	partido	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod	_	_
@@ -41203,6 +41211,7 @@
 32	de	de	ADP	ADP	AdpType=Prep	34	case	_	_
 33	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	Copa	Copa	PROPN	PROPN	_	29	nmod	_	MWE=Copa_del_Rey|MWEPOS=PROPN
+35-36	del	_	_	_	_	_	_	_	_
 35	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
 36	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	Rey	Rey	PROPN	PROPN	_	34	name	_	_
@@ -41214,7 +41223,6 @@
 43	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	44	punct	_	_
 44	4-2	4-2	NUM	NUM	NumForm=Digit	26	appos	_	_
 45	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	44	punct	_	_
-46-47	del	_	_	_	_	_	_	_	_
 46	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id es-s1059
@@ -42101,14 +42109,15 @@
 26	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 27	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	26	nummod	_	_
 28	candidatos	candidato	NOUN	NOUN	Gender=Masc|Number=Plur	23	nmod	_	_
+29-30	al	_	_	_	_	_	_	_	_
 29	a	a	ADP	ADP	AdpType=Prep	31	case	_	_
 30	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	Oscar	Oscar	PROPN	PROPN	_	28	nmod	_	_
+32-33	al	_	_	_	_	_	_	_	_
 32	a	a	ADP	ADP	AdpType=Prep	35	case	_	_
 33	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 34	mejor	mejor	ADJ	ADJ	Number=Sing	35	amod	_	_
 35	corto	corto	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	_
-36-37	al	_	_	_	_	_	_	_	_
 36	.	.	PUNCT	PUNCT	PunctType=Peri	21	punct	_	_
 
 # sent_id es-s1093
@@ -43162,6 +43171,7 @@
 60	se	él	PRON	PRON	Person=3	59	dobj	_	_
 61	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
 62	revisión	revisión	NOUN	NOUN	Gender=Fem|Number=Sing	59	dobj	_	_
+63-64	del	_	_	_	_	_	_	_	_
 63	de	de	ADP	ADP	AdpType=Prep	65	case	_	_
 64	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
 65	número	número	NOUN	NOUN	Gender=Masc|Number=Sing	62	nmod	_	_
@@ -43178,7 +43188,6 @@
 75	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	76	det	_	_
 76	descensos	descenso	NOUN	NOUN	Gender=Masc|Number=Plur	72	dobj	_	_
 77	"	"	PUNCT	PUNCT	PunctType=Quot	47	punct	_	_
-78-79	del	_	_	_	_	_	_	_	_
 78	.	.	PUNCT	PUNCT	PunctType=Peri	22	punct	_	_
 
 # sent_id es-s1123
@@ -43220,13 +43229,13 @@
 21	proclamar	proclamar	VERB	VERB	VerbForm=Inf	19	advcl	_	_
 22	se	él	PRON	PRON	Person=3	21	dobj	_	_
 23	campeona	campeona	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
+24-25	del	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	mundo	mundo	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
 27	frente	frente	NOUN	NOUN	_	29	case	_	MWE=frente_a|MWEPOS=ADP
 28	a	a	ADP	ADP	AdpType=Prep	27	mwe	_	_
 29	Brasil	Brasil	PROPN	PROPN	_	21	nmod	_	_
-30-31	del	_	_	_	_	_	_	_	_
 30	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id es-s1125
@@ -44314,6 +44323,7 @@
 45	"	"	PUNCT	PUNCT	PunctType=Quot	47	punct	_	_
 46	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	voluntad	voluntad	NOUN	NOUN	Gender=Fem|Number=Sing	44	dobj	_	_
+48-49	del	_	_	_	_	_	_	_	_
 48	de	de	ADP	ADP	AdpType=Prep	50	case	_	_
 49	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	pueblo	pueblo	NOUN	NOUN	Gender=Masc|Number=Sing	47	nmod	_	_
@@ -44325,7 +44335,6 @@
 56	cambio	cambio	NOUN	NOUN	Gender=Masc|Number=Sing	47	nmod	_	_
 57	democrático	democrático	ADJ	ADJ	Gender=Masc|Number=Sing	56	amod	_	_
 58	"	"	PUNCT	PUNCT	PunctType=Quot	47	punct	_	_
-59-60	del	_	_	_	_	_	_	_	_
 59	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id es-s1163
@@ -44553,6 +44562,7 @@
 35	ceñir	ceñir	VERB	VERB	VerbForm=Inf	45	advcl	_	_
 36	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	dobj	_	_
 37	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	35	dobj	_	_
+38-39	al	_	_	_	_	_	_	_	_
 38	a	a	ADP	ADP	AdpType=Prep	40	case	_	_
 39	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	ámbito	ámbito	NOUN	NOUN	Gender=Masc|Number=Sing	35	dobj	_	_
@@ -44580,7 +44590,6 @@
 62	comparten	compartir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	56	conj	_	_
 63	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 64	etcétera	etcétera	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
-65-66	al	_	_	_	_	_	_	_	_
 65	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id es-s1169
@@ -45498,10 +45507,10 @@
 8	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 9	por	por	ADP	ADP	AdpType=Prep	13	case	_	MWE=por_parte_del|MWEPOS=ADP
 10	parte	parte	NOUN	NOUN	_	9	mwe	_	_
+11-12	del	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	AdpType=Prep	9	mwe	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	mwe	_	_
 13	elector	elector	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
-14-15	del	_	_	_	_	_	_	_	_
 14	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id es-s1220
@@ -45942,6 +45951,7 @@
 6	si	si	SCONJ	SCONJ	_	18	mark	_	_
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	escrutinio	escrutinio	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
+9-10	al	_	_	_	_	_	_	_	_
 9	a	a	ADP	ADP	AdpType=Prep	11	case	_	_
 10	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	que	que	PRON	PRON	PronType=Rel	12	dobj	_	_
@@ -45952,7 +45962,6 @@
 16	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	correcto	correcto	ADJ	ADJ	Gender=Masc|Number=Sing	4	ccomp	_	_
-19-20	al	_	_	_	_	_	_	_	_
 19	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id es-s1245
@@ -47170,6 +47179,7 @@
 39	agua	agua	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
 40	por	por	ADP	ADP	AdpType=Prep	41	case	_	_
 41	dentro	dentro	ADV	ADV	_	36	advmod	_	_
+42-43	al	_	_	_	_	_	_	_	_
 42	a	a	ADP	ADP	AdpType=Prep	44	case	_	_
 43	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	personaje	personaje	NOUN	NOUN	Gender=Masc|Number=Sing	36	dobj	_	_
@@ -47181,7 +47191,6 @@
 50	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	cuerpo	cuerpo	NOUN	NOUN	Gender=Masc|Number=Sing	48	nmod	_	_
 52	"	"	PUNCT	PUNCT	PunctType=Quot	20	punct	_	_
-53-54	al	_	_	_	_	_	_	_	_
 53	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id es-s1290
@@ -48284,13 +48293,13 @@
 45-46	reducirse	_	_	_	_	_	_	_	_
 45	reducir	reducir	VERB	VERB	VerbForm=Inf	30	conj	_	_
 46	se	él	PRON	PRON	Person=3	45	dobj	_	_
+47-48	al	_	_	_	_	_	_	_	_
 47	a	a	ADP	ADP	AdpType=Prep	50	case	_	_
 48	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 49	mero	mero	ADJ	ADJ	Gender=Masc|Number=Sing	50	amod	_	_
 50	castigo	castigo	NOUN	NOUN	Gender=Masc|Number=Sing	45	nmod	_	_
 51	social	social	ADJ	ADJ	Number=Sing	50	amod	_	_
 52	"	"	PUNCT	PUNCT	PunctType=Quot	45	punct	_	_
-53-54	al	_	_	_	_	_	_	_	_
 53	.	.	PUNCT	PUNCT	PunctType=Peri	22	punct	_	_
 
 # sent_id es-s1319
@@ -51594,6 +51603,7 @@
 38	Luis	Luis	PROPN	PROPN	_	33	appos	_	MWE=Luis_Marfil|MWEPOS=PROPN
 39	Marfil	Marfil	PROPN	PROPN	_	38	name	_	_
 40	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	_
+41-42	al	_	_	_	_	_	_	_	_
 41	a	a	ADP	ADP	AdpType=Prep	43	mark	_	_
 42	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43-44	estallarle	_	_	_	_	_	_	_	_
@@ -51605,7 +51615,6 @@
 48	en	en	ADP	ADP	AdpType=Prep	50	case	_	_
 49	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
 50	arena	arena	NOUN	NOUN	Gender=Fem|Number=Sing	47	nmod	_	_
-51-52	al	_	_	_	_	_	_	_	_
 51	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
 
 # sent_id es-s1449
@@ -52464,16 +52473,17 @@
 24	en	en	ADP	ADP	AdpType=Prep	26	case	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	candidato	candidato	NOUN	NOUN	Gender=Masc|Number=Sing	22	dobj	_	_
+27-28	del	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
 28	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	PSOE	PSOE	PROPN	PROPN	_	26	nmod	_	_
 30	a	a	ADP	ADP	AdpType=Prep	32	case	_	_
 31	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	presidencia	presidencia	NOUN	NOUN	Gender=Fem|Number=Sing	26	nmod	_	_
+33-34	del	_	_	_	_	_	_	_	_
 33	de	de	ADP	ADP	AdpType=Prep	35	case	_	_
 34	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	Gobierno	Gobierno	PROPN	PROPN	_	32	nmod	_	_
-36-37	del	_	_	_	_	_	_	_	_
 36	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id es-s1479
@@ -52598,6 +52608,7 @@
 7	se	él	PRON	PRON	Person=3	6	dobj	_	_
 8	como	como	SCONJ	SCONJ	_	9	mark	_	_
 9	diputado	diputado	NOUN	NOUN	Gender=Masc|Number=Sing	6	dobj	_	_
+10-11	al	_	_	_	_	_	_	_	_
 10	a	a	ADP	ADP	AdpType=Prep	12	case	_	_
 11	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Congreso	Congreso	PROPN	PROPN	_	9	nmod	_	_
@@ -52623,7 +52634,6 @@
 32	a	a	ADP	ADP	AdpType=Prep	34	case	_	_
 33	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	Moncloa	Moncloa	PROPN	PROPN	_	31	nmod	_	_
-35-36	al	_	_	_	_	_	_	_	_
 35	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id es-s1483
@@ -53004,12 +53014,12 @@
 53-54	abrirse	_	_	_	_	_	_	_	_
 53	abrir	abrir	VERB	VERB	VerbForm=Inf	46	acl	_	_
 54	se	él	PRON	PRON	Person=3	53	dobj	_	_
+55-56	al	_	_	_	_	_	_	_	_
 55	a	a	ADP	ADP	AdpType=Prep	57	case	_	_
 56	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
 57	tráfico	tráfico	NOUN	NOUN	Gender=Masc|Number=Sing	53	nmod	_	_
 58	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	59	det	_	_
 59	mes	mes	NOUN	NOUN	Gender=Masc|Number=Sing	53	nmod	_	_
-60-61	al	_	_	_	_	_	_	_	_
 60	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id es-s1493
@@ -54248,11 +54258,11 @@
 53	adecuada	adecuado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	54	amod	_	_
 54	coordinación	coordinación	NOUN	NOUN	Gender=Fem|Number=Sing	48	nmod	_	_
 55	interna	interno	ADJ	ADJ	Gender=Fem|Number=Sing	54	amod	_	_
+56-57	del	_	_	_	_	_	_	_	_
 56	de	de	ADP	ADP	AdpType=Prep	58	case	_	_
 57	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
 58	tribunal	tribunal	NOUN	NOUN	Gender=Masc|Number=Sing	54	nmod	_	_
 59	"	"	PUNCT	PUNCT	PunctType=Quot	54	punct	_	_
-60-61	del	_	_	_	_	_	_	_	_
 60	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id es-s1541
@@ -56374,6 +56384,7 @@
 30	se	se	PRON	PRON	_	31	dobj	_	_
 31	hará	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	28	ccomp	_	_
 32	antes	antes	ADV	ADV	_	31	advmod	_	_
+33-34	del	_	_	_	_	_	_	_	_
 33	de	de	ADP	ADP	AdpType=Prep	36	case	_	_
 34	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 35	próximo	próximo	ADJ	ADJ	Gender=Masc|Number=Sing	36	amod	_	_
@@ -56387,7 +56398,6 @@
 43	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
 44	elecciones	elección	NOUN	NOUN	Gender=Fem|Number=Plur	41	nmod	_	_
 45	catalanas	catalán	ADJ	ADJ	Gender=Fem|Number=Plur	44	amod	_	_
-46-47	del	_	_	_	_	_	_	_	_
 46	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id es-s1614
@@ -57179,6 +57189,7 @@
 4-5	dedicarse	_	_	_	_	_	_	_	_
 4	dedicar	dedicar	VERB	VERB	VerbForm=Inf	0	root	_	_
 5	se	él	PRON	PRON	Person=3	4	dobj	_	_
+6-7	al	_	_	_	_	_	_	_	_
 6	a	a	ADP	ADP	AdpType=Prep	8	case	_	_
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	perímetro	perímetro	NOUN	NOUN	Gender=Masc|Number=Sing	4	dobj	_	_
@@ -57189,6 +57200,7 @@
 13	iniciar	iniciar	VERB	VERB	VerbForm=Inf	4	conj	_	_
 14	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	limpieza	limpieza	NOUN	NOUN	Gender=Fem|Number=Sing	13	dobj	_	_
+16-17	del	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	interior	interior	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -57196,7 +57208,6 @@
 20	ésta	este	PRON	PRON	Gender=Fem|Number=Sing|PronType=Dem	22	nsubj	_	_
 21	se	se	PRON	PRON	_	22	dobj	_	_
 22	desalojase	desalojar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
-23-24	al	_	_	_	_	_	_	_	_
 23	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id es-s1639
@@ -58261,6 +58272,7 @@
 25	como	como	SCONJ	SCONJ	_	27	mark	_	_
 26	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	apoyo	apoyo	NOUN	NOUN	Gender=Masc|Number=Sing	24	dobj	_	_
+28-29	al	_	_	_	_	_	_	_	_
 28	a	a	ADP	ADP	AdpType=Prep	30	case	_	_
 29	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	decreto	decreto	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod	_	_
@@ -58268,7 +58280,6 @@
 32	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 33	dijo	decir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 34	Imaz	Imaz	PROPN	PROPN	_	33	nsubj	_	_
-35-36	al	_	_	_	_	_	_	_	_
 35	.	.	PUNCT	PUNCT	PunctType=Peri	33	punct	_	_
 
 # sent_id es-s1676
