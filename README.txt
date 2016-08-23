@@ -7,4 +7,5 @@ Data available since: UD v1.3
 License: GNU GPL 3.0
 Genre: news
 Contributors: Martínez Alonso, Héctor; Zeman, Daniel
+Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
