@@ -9,3 +9,8 @@ Genre: news
 Contributors: Martínez Alonso, Héctor; Zeman, Daniel
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
+
+
+Changelog
+
+  * No changes since UD release 1.3.
