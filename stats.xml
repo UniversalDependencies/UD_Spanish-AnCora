@@ -5,11 +5,11 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>17680</sentences><tokens>547820</tokens><words>560188</words><fused>12368</fused></total>
+    <total><sentences>17680</sentences><tokens>547681</tokens><words>560188</words><fused>12507</fused></total>
   </size>
   <lemmas unique="26181" /><!-- el, de, ,, ., que, en, a, y, uno, ", él, ser, por, su, haber -->
   <forms unique="38941" /><!-- de, ,, el, la, ., que, en, a, y, ", los, se, un, las, por -->
-  <fusions unique="1081" /><!-- del, al, hacerlo, hacerse, haberse, convertirse, darle, enfrentarse, encontrarse, darse, presentarse, reunirse, situarse, ponerse, producirse -->
+  <fusions unique="1084" /><!-- del, al, hacerlo, hacerse, haberse, convertirse, darle, enfrentarse, encontrarse, darse, presentarse, reunirse, situarse, ponerse, producirse -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="17">
     <tag name="ADJ">36444</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, mayor, segundo, buen -->
