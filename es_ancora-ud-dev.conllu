@@ -672,7 +672,7 @@
 42	mucho	mucho	ADV	ADV	_	43	advmod	_	_
 43	menos	menos	ADV	ADV	_	47	advmod	_	_
 44	que	que	SCONJ	SCONJ	_	47	mark	_	_
-45	esté	estar	VERB	VERB	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	47	cop	_	_
+45	esté	estar	AUX	AUX	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	47	cop	_	_
 46	en	en	ADP	ADP	AdpType=Prep	47	case	_	_
 47	marcha	marcha	NOUN	NOUN	Gender=Fem|Number=Sing	35	conj	_	_
 48	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
@@ -1652,7 +1652,7 @@
 4	que	que	SCONJ	SCONJ	_	3	fixed	_	_
 5	en	en	ADP	ADP	AdpType=Prep	6	case	_	_
 6	eso	ese	PRON	PRON	Number=Sing|PronType=Dem	0	root	_	_
-7	estamos	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+7	estamos	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 9	otro	otro	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
 10	consejo	consejo	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
@@ -1830,7 +1830,7 @@
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	nica	nico	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
 3	diferencia	diferencia	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
-4	estaba	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+4	estaba	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
 5	en	en	ADP	ADP	AdpType=Prep	7	case	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	color	color	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -2267,7 +2267,7 @@
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	campo	campo	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
-10	parecía	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	parecía	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	estar	estar	AUX	AUX	VerbForm=Inf	12	aux	_	_
 12	haciendo	hacer	VERB	VERB	VerbForm=Ger	10	ccomp	_	_
 13	novillos	novillo	NOUN	NOUN	Gender=Masc|Number=Plur	12	obj	_	_
@@ -3187,7 +3187,7 @@
 # sent_id = dev-s87/es
 # text = Estabas arriba con el gozo puesto y a punto de ganar.
 # orig_file_sentence 001#87
-1	Estabas	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	5	cop	_	_
+1	Estabas	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	5	cop	_	_
 2	arriba	arriba	ADV	ADV	_	5	obj	_	_
 3	con	con	ADP	ADP	AdpType=Prep	5	case	_	_
 4	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -3508,7 +3508,7 @@
 4	lapso	lapso	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 6	que	que	PRON	PRON	PronType=Rel	9	nsubj	_	_
-7	pareció	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+7	pareció	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
 8	muy	mucho	ADV	ADV	_	9	advmod	_	_
 9	largo	largo	ADJ	ADJ	Gender=Masc|Number=Sing	4	acl	_	_
 10	y	y	CCONJ	CCONJ	_	12	cc	_	_
@@ -5004,7 +5004,7 @@
 9	Pushkin	Pushkin	PROPN	PROPN	_	8	flat	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 11	se	él	PRON	PRON	Person=3	14	obj	_	_
-12	encontraba	encontrar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+12	encontraba	encontrar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 13	en	en	ADP	ADP	AdpType=Prep	14	case	_	_
 14	juego	juego	NOUN	NOUN	Gender=Masc|Number=Sing	24	advcl	_	_
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -6397,7 +6397,7 @@
 2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 3	¿	¿	PUNCT	PUNCT	PunctSide=Ini|PunctType=Qest	9	punct	_	SpaceAfter=No
 4	no	no	ADV	ADV	Polarity=Neg	9	advmod	_	_
-5	estabais	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	9	cop	_	_
+5	estabais	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	9	cop	_	_
 6	en	en	ADP	ADP	AdpType=Prep	9	case	_	MWE=en_contra_del|MWEPOS=ADP
 7	contra	contra	NOUN	NOUN	_	6	fixed	_	_
 8	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	6	fixed	_	_
@@ -6418,7 +6418,7 @@
 # sent_id = dev-s209/es
 # text = Estamos contra la miseria del subsidio agrario.
 # orig_file_sentence 003#9
-1	Estamos	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+1	Estamos	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 2	contra	contra	ADP	ADP	AdpType=Prep	4	case	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	miseria	miseria	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
@@ -6874,7 +6874,7 @@
 22	situación	situación	NOUN	NOUN	Gender=Fem|Number=Sing	25	nsubj	_	_
 23	personal	personal	ADJ	ADJ	Number=Sing	22	amod	_	_
 24	no	no	ADV	ADV	Polarity=Neg	25	advmod	_	_
-25	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+25	parece	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 26	preocuparle	preocupar	VERB	VERB	VerbForm=Inf	25	ccomp	_	_
 27	mucho	mucho	ADV	ADV	_	26	advmod	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
@@ -7470,7 +7470,7 @@
 4	dijo	decir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	PUNCT	PunctType=Colo	9	punct	_	_
 6	-	-	PUNCT	PUNCT	PunctType=Dash	9	punct	_	_
-7	Parecía	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+7	Parecía	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 8	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	cura	cura	NOUN	NOUN	Gender=Masc|Number=Sing	4	ccomp	_	_
 10	o	o	CCONJ	CCONJ	_	11	cc	_	_
@@ -15249,7 +15249,7 @@
 31	nunca	nunca	ADV	ADV	_	38	advmod	_	_
 32	dejará	dejar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	38	aux	_	_
 33	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
-34	estar	estar	VERB	VERB	VerbForm=Inf	38	cop	_	_
+34	estar	estar	AUX	AUX	VerbForm=Inf	38	cop	_	_
 35	mayoritariamente	mayoritariamente	ADV	ADV	_	38	advmod	_	_
 36	en	en	ADP	ADP	AdpType=Prep	38	case	_	_
 37	nuestras	nuestro	DET	DET	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	38	det	_	_
@@ -15588,7 +15588,7 @@
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	fusión	fusión	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
-11	parece	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
 13	recibo	recibo	NOUN	NOUN	Gender=Masc|Number=Sing	2	ccomp	_	_
 14	que	que	SCONJ	SCONJ	_	25	mark	_	_
@@ -15968,7 +15968,7 @@
 37	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
 38	y	y	CCONJ	CCONJ	_	44	cc	_	_
 39	ahora	ahora	ADV	ADV	_	44	advmod	_	_
-40	estamos	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	44	cop	_	_
+40	estamos	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	44	cop	_	_
 41	en	en	ADP	ADP	AdpType=Prep	44	case	_	_
 42	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 43	buen	buen	ADJ	ADJ	Gender=Masc|Number=Sing	44	amod	_	_
@@ -16041,7 +16041,7 @@
 # text = Spanair está en fase de incorporación de nuevos Airbus del modelo 321 a su flota, a los que va dando el nombre de personajes famosos españoles actuales.
 # orig_file_sentence 005#54
 1	Spanair	Spanair	PROPN	PROPN	_	4	nsubj	_	_
-2	está	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	está	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	en	en	ADP	ADP	AdpType=Prep	4	case	_	_
 4	fase	fase	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
@@ -16596,7 +16596,7 @@
 6	filas	fila	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
 7	hondureñas	hondureño	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	_
 8	y	y	CCONJ	CCONJ	_	9	cc	_	_
-9	pareció	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	pareció	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 10	espolear	espolear	VERB	VERB	VerbForm=Inf	9	ccomp	_	_
 11	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
 12	juego	juego	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
@@ -17326,7 +17326,7 @@
 11	o	o	CCONJ	CCONJ	_	12	cc	_	_
 12	Nicolás	Nicolás	PROPN	PROPN	_	10	conj	_	MWE=Nicolás_Redondo|MWEPOS=PROPN
 13	Redondo	Redondo	PROPN	PROPN	_	12	flat	_	_
-14	están	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	están	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 15	como	como	SCONJ	SCONJ	_	16	mark	_	_
 16	lehendakari	lehendakari	NOUN	NOUN	Number=Sing	19	advcl	_	SpaceAfter=No
 17	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
@@ -18490,7 +18490,7 @@
 31	política	política	NOUN	NOUN	Gender=Fem|Number=Sing	35	nsubj	_	_
 32	vasca	vasco	ADJ	ADJ	Gender=Fem|Number=Sing	31	amod	_	_
 33	"	"	PUNCT	PUNCT	PunctType=Quot	35	punct	_	SpaceAfter=No
-34	está	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	está	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
 35	colapsada	colapsado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	26	ccomp	_	_
 36	y	y	CCONJ	CCONJ	_	37	cc	_	_
 37	polarizada	polarizado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	35	conj	_	_
@@ -22100,7 +22100,7 @@
 39	que	que	SCONJ	SCONJ	_	36	fixed	_	_
 40	no	no	ADV	ADV	Polarity=Neg	45	advmod	_	_
 41	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
-42	estado	estar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	cop	_	_
+42	estado	estar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	cop	_	_
 43	a	a	ADP	ADP	AdpType=Prep	45	case	_	_
 44	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	altura	altura	NOUN	NOUN	Gender=Fem|Number=Sing	25	acl	_	_
@@ -24414,7 +24414,7 @@
 33	,	,	PUNCT	PUNCT	PunctType=Comm	42	punct	_	_
 34	cuyo	cuyo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Rel	35	nmod	_	_
 35	cultivo	cultivo	NOUN	NOUN	Gender=Masc|Number=Sing	42	nsubj	_	_
-36	está	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+36	está	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
 37	en	en	ADP	ADP	AdpType=Prep	42	case	_	MWE=en_manos_de|MWEPOS=ADP
 38	manos	manos	NOUN	NOUN	_	37	fixed	_	_
 39	de	de	ADP	ADP	AdpType=Prep	37	fixed	_	_
@@ -31763,7 +31763,7 @@
 16	IU	IU	PROPN	PROPN	_	14	conj	_	_
 17	anunciaron	anunciar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 18	que	que	SCONJ	SCONJ	_	24	mark	_	_
-19	estaban	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	cop	_	_
+19	estaban	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	cop	_	_
 20	a	a	ADP	ADP	AdpType=Prep	24	case	_	MWE=a_favor_de|MWEPOS=ADP
 21	favor	favor	NOUN	NOUN	_	20	fixed	_	_
 22	de	de	ADP	ADP	AdpType=Prep	20	fixed	_	_
@@ -41551,7 +41551,7 @@
 40	proyecto	proyecto	NOUN	NOUN	Gender=Masc|Number=Sing	49	obl	_	SpaceAfter=No
 41	,	,	PUNCT	PUNCT	PunctType=Comm	40	punct	_	_
 42	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
-43	estar	estar	VERB	VERB	VerbForm=Inf	49	cop	_	_
+43	estar	estar	AUX	AUX	VerbForm=Inf	49	cop	_	_
 44	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	49	advmod	_	MWE=al_fin|MWEPOS=ADV
 45	fin	fin	NOUN	NOUN	_	44	fixed	_	_
 46	en	en	ADP	ADP	AdpType=Prep	49	case	_	_
@@ -42119,7 +42119,7 @@
 3	secuencia	secuencia	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
 4	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	5	case	_	_
 5	filme	filme	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
-6	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	parece	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	situarnos	situar	VERB	VERB	VerbForm=Inf	6	ccomp	_	_
 8	en	en	ADP	ADP	AdpType=Prep	10	case	_	_
 9	otro	otro	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
@@ -42473,8 +42473,8 @@
 82	interpretar	interpretar	VERB	VERB	VerbForm=Inf	75	acl	_	_
 83	personajes	personaje	NOUN	NOUN	Gender=Masc|Number=Plur	82	obj	_	_
 84	que	que	PRON	PRON	PronType=Rel	85	nsubj	_	_
-85	parecen	parecer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	83	acl	_	_
-86	estar	estar	VERB	VERB	VerbForm=Inf	89	cop	_	_
+85	parecen	parecer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	83	acl	_	_
+86	estar	estar	AUX	AUX	VerbForm=Inf	89	cop	_	_
 87	siempre	siempre	ADV	ADV	_	89	advmod	_	_
 88	en	en	ADP	ADP	AdpType=Prep	89	case	_	_
 89	duermevela	duermevela	NOUN	NOUN	Gender=Masc|Number=Sing	85	ccomp	_	_
@@ -44982,7 +44982,7 @@
 9	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 10	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 11	que	que	PRON	PRON	PronType=Rel	12	iobj	_	_
-12	parecen	parecer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+12	parecen	parecer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
 13	traer	traer	VERB	VERB	VerbForm=Inf	12	ccomp	_	_
 14	algunos	alguno	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	12	nsubj	_	_
 15	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
@@ -54599,7 +54599,7 @@
 14	y	y	CCONJ	CCONJ	_	19	cc	_	_
 15	que	que	PRON	PRON	PronType=Rel	19	nsubj	_	_
 16	se	él	PRON	PRON	Person=3	19	obj	_	_
-17	encuentra	encontrar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	encuentra	encontrar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 18	en	en	ADP	ADP	AdpType=Prep	19	case	_	_
 19	busca	busca	NOUN	NOUN	Gender=Fem|Number=Sing	4	conj	_	_
 20	y	y	CCONJ	CCONJ	_	21	cc	_	_
