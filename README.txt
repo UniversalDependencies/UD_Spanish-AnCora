@@ -13,4 +13,7 @@ Contact: zeman@ufal.mff.cuni.cz
 
 Changelog
 
-  * No changes since UD release 1.3.
+2017-03-01 v2.0
+  * Converted to UD v2 guidelines.
+2016-05-01 v1.3
+  * Initial release.
