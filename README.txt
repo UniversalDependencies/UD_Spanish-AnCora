@@ -1,14 +1,20 @@
-Spanish data from the AnCora corpus.
-
 === Machine-readable metadata =================================================
-Documentation status: partial
-Data source: semi-automatic
 Data available since: UD v1.3
 License: GNU GPL 3.0
+Includes text: yes
 Genre: news
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: not available
+Features: converted from manual
+Relations: converted from manual
 Contributors: Martínez Alonso, Héctor; Zeman, Daniel
+Contributing: here
 Contact: zeman@ufal.mff.cuni.cz
+Paragraphs to web: 1
 ===============================================================================
+
+Spanish data from the AnCora corpus.
 
 
 Changelog
