@@ -1,3 +1,16 @@
+# Summary
+
+Spanish data from the AnCora corpus.
+
+
+# Changelog
+
+* 2017-03-01 v2.0
+  * Converted to UD v2 guidelines.
+* 2016-05-01 v1.3
+  * Initial release.
+
+
 === Machine-readable metadata =================================================
 Data available since: UD v1.3
 License: GNU GPL 3.0
@@ -11,15 +24,4 @@ Relations: converted from manual
 Contributors: Martínez Alonso, Héctor; Zeman, Daniel
 Contributing: here
 Contact: zeman@ufal.mff.cuni.cz
-Paragraphs to web: 1
 ===============================================================================
-
-Spanish data from the AnCora corpus.
-
-
-Changelog
-
-2017-03-01 v2.0
-  * Converted to UD v2 guidelines.
-2016-05-01 v1.3
-  * Initial release.
