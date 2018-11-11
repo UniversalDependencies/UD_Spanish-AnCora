@@ -1,11 +1,11 @@
 Running the following version of tools/evaluate_treebank.pl:
-commit 87d374bbd458d29331d76014d05c52eaac32518d
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 09:21:53 2018 +0200
+Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Spanish-AnCora:
-commit 1bf8b421092da2d35bddcdd29d1372b3957d947a
+commit e97361e271b15bb57529b276e2679a8d8ee97679
+Merge: 451e939 824f3fb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 22:24:09 2018 +0100
 Size: counted 549570 of 549570 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.618272308531.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -21,7 +21,7 @@ Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi: found 18377 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 549570 words.
-Genres: found 1 out of 14 known.
+Genres: found 1 out of 17 known.
 validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-dev.conllu
 *** PASSED ***
 validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-test.conllu
@@ -30,13 +30,13 @@ validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0714285714285714) = 0.00549450549450549
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.913341005791267) = 0.23419000148494
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.665611296104227) = 0.204803475724378
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.730281468497309) * (availability=1) * (validity=1) = 0.730281468497309
+(TOTAL score=0.729311849880631) * (availability=1) * (validity=1) = 0.729311849880631
 STARS = 3.5
-UD_Spanish-AnCora	0.730281468497309	3.5
+UD_Spanish-AnCora	0.729311849880631	3.5
