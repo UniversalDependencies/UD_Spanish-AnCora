@@ -113,7 +113,7 @@
     <dep name="csubj">1190</dep>
     <dep name="csubj:pass">1</dep>
     <dep name="dep">280</dep>
-    <dep name="det">74436</dep>
+    <dep name="det">74426</dep>
     <dep name="expl:pass">503</dep>
     <dep name="fixed">7930</dep>
     <dep name="flat">14464</dep>
@@ -122,7 +122,7 @@
     <dep name="nmod">38620</dep>
     <dep name="nsubj">29634</dep>
     <dep name="nsubj:pass">41</dep>
-    <dep name="nummod">5663</dep>
+    <dep name="nummod">5673</dep>
     <dep name="obj">37439</dep>
     <dep name="obl">24552</dep>
     <dep name="orphan">33</dep>

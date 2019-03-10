@@ -37039,7 +37039,7 @@
 22	vieron	ver	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	acl	_	_
 23	más	más	ADV	ADV	_	26	advmod	_	_
 24	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
-25	un	un	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	26	det	_	_
+25	un	un	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	26	nummod	_	_
 26	millón	millón	NOUN	NOUN	Gender=Masc|Number=Sing	28	nmod	_	_
 27	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 28	espectadores	espectador	NOUN	NOUN	Gender=Masc|Number=Plur	22	nsubj	_	_
