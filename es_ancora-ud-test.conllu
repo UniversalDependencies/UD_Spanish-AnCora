@@ -2093,8 +2093,8 @@
 52	contra	contra	ADP	ADP	AdpType=Prep	54	case	_	_
 53	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
 54	enfermedad	enfermedad	NOUN	NOUN	Gender=Fem|Number=Sing	50	nmod	_	SpaceAfter=No
-55	:	:	PUNCT	PUNCT	PunctType=Colo	56	punct	_	_
-56	como	como	SCONJ	SCONJ	_	5	advmod	_	_
+55	:	:	PUNCT	PUNCT	PunctType=Colo	71	punct	_	_
+56	como	como	SCONJ	SCONJ	_	71	mark	_	_
 57	si	si	SCONJ	SCONJ	_	71	mark	_	_
 58	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
 59	sino	sino	NOUN	NOUN	Gender=Masc|Number=Sing	71	nsubj	_	_
@@ -2109,7 +2109,7 @@
 68	esa	ese	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	69	det	_	_
 69	sección	sección	NOUN	NOUN	Gender=Fem|Number=Sing	66	obj	_	_
 70	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	71	obj	_	_
-71	dirigiera	dirigir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	56	advcl	_	_
+71	dirigiera	dirigir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
 72	ahora	ahora	ADV	ADV	_	71	advmod	_	_
 73	a	a	ADP	ADP	AdpType=Prep	74	case	_	_
 74	una	uno	PRON	PRON	Gender=Fem|Number=Sing|PronType=Ind	71	obj	_	_
@@ -3536,8 +3536,8 @@
 # sent_id = test-s104
 # text = Es como si, desde el principio, la vida se pusiera sus propios frenos, estableciendo unos sutiles mecanismos de regulación, los virus, que actuarían como factores correctores en esa especie de juego que llamamos equilibrio ecológico.
 # orig_file_sentence 002#4
-1	Es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-2	como	como	SCONJ	SCONJ	_	0	root	_	_
+1	Es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	advcl	_	_
+2	como	como	SCONJ	SCONJ	_	1	mark	_	_
 3	si	si	SCONJ	SCONJ	_	12	mark	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 5	desde	desde	ADP	ADP	AdpType=Prep	7	case	_	_
@@ -3547,7 +3547,7 @@
 9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	vida	vida	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
 11	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	obj	_	_
-12	pusiera	poner	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+12	pusiera	poner	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
 13	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
 14	propios	propio	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
 15	frenos	freno	NOUN	NOUN	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
@@ -3576,7 +3576,7 @@
 38	llamamos	llamar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	36	acl	_	_
 39	equilibrio	equilibrio	NOUN	NOUN	Gender=Masc|Number=Sing	38	obj	_	_
 40	ecológico	ecológico	ADJ	ADJ	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
-41	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
+41	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id = test-s105
 # text = Los científicos parecen estar hoy día de acuerdo en que los virus son algo así como genes vagabundos, que en algún momento se habrían separado de las células donde residían para hacerse independientes y autónomos.
@@ -20867,9 +20867,9 @@
 1	"	"	PUNCT	PUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	No	no	ADV	ADV	Polarity=Neg	3	advmod	_	_
 3	sé	saber	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	ccomp	_	_
-4	como	como	PRON	PRON	PronType=Int	3	ccomp	_	_
-5	está	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-6	Raúl	Raúl	PROPN	PROPN	_	4	nsubj	_	SpaceAfter=No
+4	como	como	PRON	PRON	PronType=Int	5	mark	_	_
+5	está	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	Raúl	Raúl	PROPN	PROPN	_	5	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 8	pero	pero	CCONJ	CCONJ	_	13	cc	_	_
 9	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -49348,16 +49348,16 @@
 22	vender	vender	VERB	VERB	VerbForm=Inf	20	conj	_	_
 23	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
 24	voz	voz	NOUN	NOUN	Gender=Fem|Number=Sing	22	obj	_	_
-25	-	-	PUNCT	PUNCT	PunctType=Dash	29	punct	_	_
-26	-	-	PUNCT	PUNCT	PunctType=Dash	29	punct	_	_
-27	que	que	SCONJ	SCONJ	_	29	mark	_	_
-28	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
-29	como	como	SCONJ	SCONJ	_	22	advcl	_	_
-30	vender	vender	VERB	VERB	VerbForm=Inf	29	advcl	_	_
+25	-	-	PUNCT	PUNCT	PunctType=Dash	28	punct	_	_
+26	-	-	PUNCT	PUNCT	PunctType=Dash	28	punct	_	_
+27	que	que	SCONJ	SCONJ	_	28	mark	_	_
+28	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+29	como	como	SCONJ	SCONJ	_	28	mark	_	_
+30	vender	vender	VERB	VERB	VerbForm=Inf	28	advcl	_	_
 31	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	det	_	_
 32	alma	alma	NOUN	NOUN	Gender=Fem|Number=Sing	30	obj	_	_
-33	-	-	PUNCT	PUNCT	PunctType=Dash	29	punct	_	_
-34	-	-	PUNCT	PUNCT	PunctType=Dash	29	punct	_	_
+33	-	-	PUNCT	PUNCT	PunctType=Dash	28	punct	_	_
+34	-	-	PUNCT	PUNCT	PunctType=Dash	28	punct	_	_
 35	para	para	ADP	ADP	AdpType=Prep	36	mark	_	_
 36	tener	tener	VERB	VERB	VerbForm=Inf	22	advcl	_	_
 37	dos	dos	NUM	NUM	Number=Plur|NumType=Card	38	nummod	_	_

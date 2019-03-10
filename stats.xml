@@ -99,17 +99,17 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="32">
     <dep name="acl">10543</dep>
-    <dep name="advcl">8533</dep>
-    <dep name="advmod">19557</dep>
+    <dep name="advcl">8539</dep>
+    <dep name="advmod">19541</dep>
     <dep name="amod">29503</dep>
     <dep name="appos">7597</dep>
     <dep name="aux">9736</dep>
-    <dep name="case">76115</dep>
+    <dep name="case">76114</dep>
     <dep name="cc">15152</dep>
-    <dep name="ccomp">5752</dep>
+    <dep name="ccomp">5751</dep>
     <dep name="compound">2515</dep>
-    <dep name="conj">16415</dep>
-    <dep name="cop">5737</dep>
+    <dep name="conj">16412</dep>
+    <dep name="cop">5731</dep>
     <dep name="csubj">1190</dep>
     <dep name="csubj:pass">1</dep>
     <dep name="dep">280</dep>
@@ -118,17 +118,17 @@
     <dep name="fixed">7930</dep>
     <dep name="flat">14464</dep>
     <dep name="iobj">1783</dep>
-    <dep name="mark">19424</dep>
-    <dep name="nmod">38626</dep>
-    <dep name="nsubj">29635</dep>
+    <dep name="mark">19456</dep>
+    <dep name="nmod">38620</dep>
+    <dep name="nsubj">29634</dep>
     <dep name="nsubj:pass">41</dep>
     <dep name="nummod">5663</dep>
-    <dep name="obj">37440</dep>
+    <dep name="obj">37439</dep>
     <dep name="obl">24552</dep>
     <dep name="orphan">33</dep>
     <dep name="parataxis">692</dep>
     <dep name="punct">65473</dep>
-    <dep name="root">17680</dep>
+    <dep name="root">17677</dep>
     <dep name="xcomp">2571</dep>
   </deps>
 </treebank>
