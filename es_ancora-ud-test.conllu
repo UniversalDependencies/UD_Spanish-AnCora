@@ -4969,7 +4969,7 @@
 2	Es	es	NOUN	NOUN	_	16	advmod	_	MWE=Es_decir|MWEPOS=CCONJ
 3	decir	decir	NOUN	NOUN	_	2	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
-5	que	que	SCONJ	SCONJ	_	16	advmod	_	_
+5	que	que	SCONJ	SCONJ	_	16	mark	_	_
 6	sin	sin	ADP	ADP	AdpType=Prep	8	case	_	_
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	vigor	vigor	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
@@ -20943,7 +20943,7 @@
 26	y	y	CCONJ	CCONJ	_	31	cc	_	_
 27	que	que	PRON	PRON	PronType=Rel	31	nsubj	_	_
 28	seguro	seguro	ADV	ADV	_	31	advmod	_	_
-29	que	que	SCONJ	SCONJ	_	28	advmod	_	_
+29	que	que	SCONJ	SCONJ	_	28	mark	_	_
 30	nos	yo	PRON	PRON	Case=Acc,Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	31	obj	_	_
 31	apoyará	apoyar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	conj	_	_
 32	desde	desde	ADP	ADP	AdpType=Prep	34	case	_	_
@@ -32180,7 +32180,7 @@
 # sent_id = test-s806
 # text = Tantas veces como "aces" hizo ese día Philippoussis para vencer al holandés Sjeng Schalken en cinco horas y cinco minutos.
 # orig_file_sentence 009#6
-1	Tantas	tanto	PRON	PRON	Gender=Fem|Number=Plur|PronType=Ind	2	cc	_	_
+1	Tantas	tanto	PRON	PRON	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	veces	vez	NOUN	NOUN	Gender=Fem|Number=Plur	7	obj	_	_
 3	como	como	SCONJ	SCONJ	_	5	cc	_	_
 4	"	"	PUNCT	PUNCT	PunctType=Quot	5	punct	_	SpaceAfter=No
@@ -38655,7 +38655,7 @@
 # sent_id = test-s971
 # text = Porque, a pesar de sus cientos de títulos, de victorias, de fichajes, de millones, no acaban de cautivar a la afición.
 # orig_file_sentence 010#70
-1	Porque	porque	SCONJ	SCONJ	_	23	advmod	_	SpaceAfter=No
+1	Porque	porque	SCONJ	SCONJ	_	23	mark	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 3	a	a	ADP	ADP	AdpType=Prep	7	case	_	MWE=a_pesar_de|MWEPOS=ADP
 4	pesar	pesar	NOUN	NOUN	_	3	fixed	_	_
@@ -38956,7 +38956,7 @@
 # sent_id = test-s980
 # text = Porque, digo yo, Llorenç sigue en el Barça, ¿no?.
 # orig_file_sentence 010#79
-1	Porque	porque	SCONJ	SCONJ	_	3	advmod	_	SpaceAfter=No
+1	Porque	porque	SCONJ	SCONJ	_	3	mark	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 3	digo	decir	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	yo	yo	PRON	PRON	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
@@ -49196,7 +49196,7 @@
 12	hacía	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
 13	30	30	NUM	NUM	NumForm=Digit|NumType=Card	14	nummod	_	_
 14	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	17	obl	_	_
-15	que	que	SCONJ	SCONJ	_	17	advmod	_	_
+15	que	que	SCONJ	SCONJ	_	17	mark	_	_
 16	no	no	ADV	ADV	Polarity=Neg	17	advmod	_	_
 17	cogía	coger	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl	_	_
 18	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -50237,8 +50237,8 @@
 # sent_id = test-s1414
 # text = Mientras, la campaña militar en Chechenia también prosigue, ajena a las noticias sobre la salud del presidente.
 # orig_file_sentence 015#14
-1	Mientras	mientras	SCONJ	SCONJ	_	9	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
+1	Mientras	mientras	SCONJ	SCONJ	_	9	mark	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	campaña	campaña	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
 5	militar	militar	ADJ	ADJ	Number=Sing	4	amod	_	_
@@ -57251,7 +57251,7 @@
 30	y	y	CCONJ	CCONJ	_	32	cc	_	_
 31	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	32	expl:pass	_	_
 32	supone	suponer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
-33	que	que	SCONJ	SCONJ	_	32	advmod	_	_
+33	que	que	SCONJ	SCONJ	_	32	mark	_	_
 34	también	también	ADV	ADV	_	32	advmod	_	_
 35	de	de	ADP	ADP	AdpType=Prep	32	mark	_	_
 36	rentabilidad	rentabilidad	NOUN	NOUN	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
@@ -57380,7 +57380,7 @@
 # sent_id = test-s1655
 # text = Pues imagínense llegar en coche a El Prat sin conocer de antemano la terminal desde la que sale el vuelo que debemos tomar.
 # orig_file_sentence 017#55
-1	Pues	pues	SCONJ	SCONJ	_	2	advmod	_	_
+1	Pues	pues	SCONJ	SCONJ	_	2	mark	_	_
 2-3	imagínense	_	_	_	_	_	_	_	_
 2	imaginen	imaginar	VERB	VERB	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
 3	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	2	obj	_	_

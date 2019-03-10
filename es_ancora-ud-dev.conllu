@@ -3517,7 +3517,7 @@
 28	gentil	gentil	ADJ	ADJ	Number=Sing	26	conj	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 30	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
-31	tanta	tanto	PRON	PRON	Gender=Fem|Number=Sing|PronType=Ind	32	cc	_	_
+31	tanta	tanto	PRON	PRON	Gender=Fem|Number=Sing|PronType=Ind	32	det	_	_
 32	paciencia	paciencia	NOUN	NOUN	Gender=Fem|Number=Sing	20	obj	_	_
 33	como	como	SCONJ	SCONJ	_	34	cc	_	_
 34	veneno	veneno	NOUN	NOUN	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
@@ -5151,7 +5151,7 @@
 # sent_id = dev-s155
 # text = Porque, más que patrimonio y hacienda, más que la propia vida, el honor y la honra culminaban la escala de valores del hombre hasta hace poco menos de un siglo.
 # orig_file_sentence 002#55
-1	Porque	porque	SCONJ	SCONJ	_	20	advmod	_	SpaceAfter=No
+1	Porque	porque	SCONJ	SCONJ	_	20	mark	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 3	más	más	ADV	ADV	_	20	advmod	_	_
 4	que	que	SCONJ	SCONJ	_	5	mark	_	_
@@ -6506,7 +6506,7 @@
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	PER	PER	PROPN	PROPN	_	13	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
-5	que	que	SCONJ	SCONJ	_	7	advmod	_	_
+5	que	que	SCONJ	SCONJ	_	7	mark	_	_
 6	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	obj	_	_
 7	enteren	enterar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
@@ -35196,7 +35196,7 @@
 # sent_id = dev-s898
 # text = Si en Florencia, en su estreno, la producción recibió silbidos, en Barcelona pasó sin problemas.
 # orig_file_sentence 009#97
-1	Si	si	SCONJ	SCONJ	_	11	advmod	_	_
+1	Si	si	SCONJ	SCONJ	_	11	mark	_	_
 2	en	en	ADP	ADP	AdpType=Prep	3	case	_	_
 3	Florencia	Florencia	PROPN	PROPN	_	11	obl	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
@@ -36394,7 +36394,7 @@
 1	Hacía	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
 2	muchos	mucho	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
-4	que	que	SCONJ	SCONJ	_	5	advmod	_	_
+4	que	que	SCONJ	SCONJ	_	5	mark	_	_
 5	estuve	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 6	y	y	CCONJ	CCONJ	_	9	cc	_	_
 7	no	no	ADV	ADV	Polarity=Neg	9	advmod	_	_
@@ -41730,7 +41730,7 @@
 1	Hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	dos	dos	NUM	NUM	Number=Plur|NumType=Card	3	nummod	_	_
 3	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
-4	que	que	SCONJ	SCONJ	_	8	advmod	_	_
+4	que	que	SCONJ	SCONJ	_	8	mark	_	_
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Inter	Inter	PROPN	PROPN	_	8	nsubj	_	_
 7	no	no	ADV	ADV	Polarity=Neg	8	advmod	_	_
