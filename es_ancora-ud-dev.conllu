@@ -243,7 +243,7 @@
 10	prevista	previsto	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	8	amod	_	_
 11	entre	entre	ADP	ADP	AdpType=Prep	13	case	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	16	16	NUM	NUM	NumForm=Digit|NumType=Card	10	advmod	_	_
+13	16	16	NUM	NUM	NumForm=Digit|NumType=Card	10	obl	_	_
 14	y	y	CCONJ	CCONJ	_	16	cc	_	_
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	25	25	NUM	NUM	NumForm=Digit|NumType=Card	13	conj	_	MWE=25_de_junio|MWEPOS=NOUN
@@ -6277,7 +6277,7 @@
 2	ya	ya	ADV	ADV	_	3	advmod	_	_
 3	más	más	ADV	ADV	_	0	root	_	_
 4	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
-5	cincuenta	cincuenta	NUM	NUM	Number=Plur|NumType=Card	3	advmod	_	SpaceAfter=No
+5	cincuenta	cincuenta	NUM	NUM	Number=Plur|NumType=Card	3	obl	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 7	y	y	CCONJ	CCONJ	_	12	cc	_	_
 8	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	9	case	_	_
@@ -6403,7 +6403,7 @@
 1	Intentan	intentar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	rebajar	rebajar	VERB	VERB	VerbForm=Inf	1	xcomp	_	_
 3	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	30	30	NUM	NUM	NumForm=Digit|NumType=Card	2	advmod	_	MWE=30_por_ciento|MWEPOS=NUM
+4	30	30	NUM	NUM	NumForm=Digit|NumType=Card	2	obl	_	MWE=30_por_ciento|MWEPOS=NUM
 5	por	por	ADP	ADP	AdpType=Prep	6	case	_	_
 6	ciento	ciento	NUM	NUM	NumType=Card	4	compound	_	_
 7	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
@@ -9001,7 +9001,7 @@
 27	partir	partir	NOUN	NOUN	_	26	fixed	_	_
 28	de	de	ADP	ADP	AdpType=Prep	26	fixed	_	_
 29	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
-30	12:00	12:00	NUM	NUM	NumForm=Digit|NumType=Card	17	advmod	_	_
+30	12:00	12:00	NUM	NUM	NumForm=Digit|NumType=Card	17	obl	_	_
 31	horas	hora	NOUN	NOUN	Gender=Fem|Number=Plur	30	appos	_	_
 32	locales	local	ADJ	ADJ	Number=Plur	31	amod	_	_
 33	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	35	punct	_	SpaceAfter=No
@@ -9270,7 +9270,7 @@
 15	electorales	electoral	ADJ	ADJ	Number=Plur	14	amod	_	_
 16	desde	desde	ADP	ADP	AdpType=Prep	18	case	_	_
 17	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
-18	6:00	6:00	NUM	NUM	NumForm=Digit|NumType=Card	8	advmod	_	_
+18	6:00	6:00	NUM	NUM	NumForm=Digit|NumType=Card	8	obl	_	_
 19	horas	hora	NOUN	NOUN	Gender=Fem|Number=Plur	18	appos	_	_
 20	locales	local	ADJ	ADJ	Number=Plur	19	amod	_	_
 21	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	23	punct	_	SpaceAfter=No
@@ -9333,7 +9333,7 @@
 26	,	,	PUNCT	PUNCT	PunctType=Comm	29	punct	_	_
 27	hasta	hasta	ADP	ADP	AdpType=Prep	29	case	_	_
 28	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
-29	9:30	9:30	NUM	NUM	NumForm=Digit|NumType=Card	15	advmod	_	_
+29	9:30	9:30	NUM	NUM	NumForm=Digit|NumType=Card	15	obl	_	_
 30	hora	hora	NOUN	NOUN	Gender=Fem|Number=Sing	29	appos	_	_
 31	local	local	ADJ	ADJ	Number=Sing	30	amod	_	_
 32	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	34	punct	_	SpaceAfter=No
@@ -12963,7 +12963,7 @@
 27	público	público	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
 28	a	a	ADP	ADP	AdpType=Prep	30	case	_	_
 29	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	1,5	1,5	NUM	NUM	NumForm=Digit|NumType=Card	24	advmod	_	MWE=1,5_por_ciento|MWEPOS=NUM
+30	1,5	1,5	NUM	NUM	NumForm=Digit|NumType=Card	24	obl	_	MWE=1,5_por_ciento|MWEPOS=NUM
 31	por	por	ADP	ADP	AdpType=Prep	32	case	_	_
 32	ciento	ciento	NUM	NUM	NumType=Card	30	compound	_	_
 33	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	34	case	_	_
@@ -13805,7 +13805,7 @@
 10	Europea	Europea	PROPN	PROPN	_	9	flat	_	_
 11	con	con	ADP	ADP	AdpType=Prep	13	case	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	27,9	27,9	NUM	NUM	NumForm=Digit|NumType=Card	2	advmod	_	MWE=27,9_por_ciento|MWEPOS=NUM
+13	27,9	27,9	NUM	NUM	NumForm=Digit|NumType=Card	2	obl	_	MWE=27,9_por_ciento|MWEPOS=NUM
 14	por	por	ADP	ADP	AdpType=Prep	15	case	_	_
 15	ciento	ciento	NUM	NUM	NumType=Card	13	compound	_	_
 16	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
@@ -15899,7 +15899,7 @@
 37	frente	frente	NOUN	NOUN	_	40	case	_	MWE=frente_a|MWEPOS=ADP
 38	a	a	ADP	ADP	AdpType=Prep	37	fixed	_	_
 39	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
-40	5.757.292	5757292	NUM	NUM	NumForm=Digit|NumType=Card	27	advmod	_	_
+40	5.757.292	5757292	NUM	NUM	NumForm=Digit|NumType=Card	27	obl	_	_
 41	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	42	case	_	_
 42	año	año	NOUN	NOUN	AdvType=Tim	40	nmod	_	_
 43	pasado	pasado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	42	amod	_	SpaceAfter=No
@@ -16309,7 +16309,7 @@
 16	a	a	ADP	ADP	AdpType=Prep	17	case	_	_
 17	Honduras	Honduras	PROPN	PROPN	_	15	obj	_	_
 18	por	por	ADP	ADP	AdpType=Prep	19	case	_	_
-19	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	15	advmod	_	_
+19	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	15	obl	_	_
 20	a	a	ADP	ADP	AdpType=Prep	22	case	_	_
 21	tres	tres	NUM	NUM	Number=Plur|NumType=Card	22	nummod	_	_
 22	goles	gol	NOUN	NOUN	Gender=Masc|Number=Plur	19	nmod	_	_
@@ -20307,7 +20307,7 @@
 15	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 16	después	después	ADV	ADV	AdpType=Preppron|Gender=Masc|Number=Sing	18	case	_	MWE=después_del|MWEPOS=ADP
 17	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	16	fixed	_	_
-18	km.24	24	NUM	NUM	NumForm=Digit|NumType=Card	14	advmod	_	SpaceAfter=No
+18	km.24	24	NUM	NUM	NumForm=Digit|NumType=Card	14	obl	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 20	a	a	ADP	ADP	AdpType=Prep	22	case	_	_
 21	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
@@ -20486,7 +20486,7 @@
 44	42,195	42.195	NUM	NUM	NumForm=Digit|NumType=Card	45	nummod	_	_
 45	kms.	km	NUM	NUM	NumForm=Digit|NumType=Card	42	nummod	_	_
 46	en	en	ADP	ADP	AdpType=Prep	47	case	_	_
-47	2.16:44	2.16:44	NUM	NUM	NumForm=Digit|NumType=Card	40	advmod	_	SpaceAfter=No
+47	2.16:44	2.16:44	NUM	NUM	NumForm=Digit|NumType=Card	40	obl	_	SpaceAfter=No
 48	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id = dev-s551
@@ -20563,7 +20563,7 @@
 29	medio	medio	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	28	nummod	_	_
 30	maratón	maratón	NOUN	NOUN	Gender=Masc|Number=Sing	27	obj	_	_
 31	en	en	ADP	ADP	AdpType=Prep	32	case	_	_
-32	1.04:32	1.04:32	NUM	NUM	NumForm=Digit|NumType=Card	27	advmod	_	SpaceAfter=No
+32	1.04:32	1.04:32	NUM	NUM	NumForm=Digit|NumType=Card	27	obl	_	SpaceAfter=No
 33	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s553
@@ -20662,7 +20662,7 @@
 4	Hattab	Hattab	PROPN	PROPN	_	2	appos	_	_
 5	finalizó	finalizar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	en	en	ADP	ADP	AdpType=Prep	7	case	_	_
-7	2.14:50	2.14:50	NUM	NUM	NumForm=Digit|NumType=Card	5	advmod	_	SpaceAfter=No
+7	2.14:50	2.14:50	NUM	NUM	NumForm=Digit|NumType=Card	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s557
@@ -21310,7 +21310,7 @@
 33	Sucre	Sucre	PROPN	PROPN	_	29	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	PUNCT	PunctType=Comm	33	punct	_	_
 35	por	por	ADP	ADP	AdpType=Prep	36	case	_	_
-36	2-1	2-1	NUM	NUM	NumForm=Digit|NumType=Card	27	advmod	_	SpaceAfter=No
+36	2-1	2-1	NUM	NUM	NumForm=Digit|NumType=Card	27	obl	_	SpaceAfter=No
 37	,	,	PUNCT	PUNCT	PunctType=Comm	40	punct	_	_
 38	con	con	ADP	ADP	AdpType=Prep	40	case	_	_
 39	dos	dos	NUM	NUM	Number=Plur|NumType=Card	40	nummod	_	_
@@ -21360,7 +21360,7 @@
 10	Cruz	Cruz	PROPN	PROPN	_	9	flat	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 12	venció	vencer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-13	2-0	2-0	NUM	NUM	NumForm=Digit|NumType=Card	12	advmod	_	_
+13	2-0	2-0	NUM	NUM	NumForm=Digit|NumType=Card	12	obl	_	_
 14	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	15	case	_	_
 15	Wilstermann	Wilstermann	PROPN	PROPN	_	12	obj	_	MWE=Wilstermann_de_Cochabamba|MWEPOS=PROPN
 16	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
@@ -22783,7 +22783,7 @@
 4	muestran	mostrar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	que	que	SCONJ	SCONJ	_	15	mark	_	_
 6	en	en	ADP	ADP	AdpType=Prep	7	case	_	_
-7	18	18	NUM	NUM	NumForm=Digit|NumType=Card	15	advmod	_	_
+7	18	18	NUM	NUM	NumForm=Digit|NumType=Card	15	obl	_	_
 8	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 9	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 10	principales	principal	ADJ	ADJ	Number=Plur	11	amod	_	_
@@ -22836,7 +22836,7 @@
 57	frente	frente	ADV	ADV	_	49	advmod	_	_
 58	a	a	ADP	ADP	AdpType=Prep	60	case	_	_
 59	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	60	det	_	_
-60	504.480	504480	NUM	NUM	NumForm=Digit|NumType=Card	57	advmod	_	_
+60	504.480	504480	NUM	NUM	NumForm=Digit|NumType=Card	57	obl	_	_
 61	de	de	ADP	ADP	AdpType=Prep	63	case	_	_
 62	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
 63	candidata	candidata	NOUN	NOUN	Gender=Fem|Number=Sing	60	nmod	_	_
@@ -23128,7 +23128,7 @@
 29	votos	voto	NOUN	NOUN	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
 30	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 31	contra	contra	ADP	ADP	AdpType=Prep	32	case	_	_
-32	602	602	NUM	NUM	NumForm=Digit|NumType=Card	21	advmod	_	_
+32	602	602	NUM	NUM	NumForm=Digit|NumType=Card	21	obl	_	_
 33	que	que	PRON	PRON	PronType=Rel	34	obj	_	_
 34	alcanzó	alcanzar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	advcl	_	_
 35	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -26316,7 +26316,7 @@
 32	Estados	Estados	PROPN	PROPN	_	30	obl	_	MWE=Estados_Unidos|MWEPOS=PROPN
 33	Unidos	Unidos	PROPN	PROPN	_	32	flat	_	_
 34	por	por	ADP	ADP	AdpType=Prep	35	case	_	_
-35	2-1	2-1	NUM	NUM	NumForm=Digit|NumType=Card	27	advmod	_	SpaceAfter=No
+35	2-1	2-1	NUM	NUM	NumForm=Digit|NumType=Card	27	obl	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id = dev-s679
@@ -26359,7 +26359,7 @@
 35	a	a	ADP	ADP	AdpType=Prep	36	case	_	_
 36	Eslovaquia	Eslovaquia	PROPN	PROPN	_	33	obj	_	_
 37	por	por	ADP	ADP	AdpType=Prep	38	case	_	_
-38	3-0	3-0	NUM	NUM	NumForm=Digit|NumType=Card	33	advmod	_	SpaceAfter=No
+38	3-0	3-0	NUM	NUM	NumForm=Digit|NumType=Card	33	obl	_	SpaceAfter=No
 39	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id = dev-s680
@@ -27686,7 +27686,7 @@
 22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 23	Madrid	Madrid	PROPN	PROPN	_	21	flat	_	_
 24	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	25	punct	_	SpaceAfter=No
-25	2-2	2-2	NUM	NUM	NumForm=Digit|NumType=Card	18	advmod	_	SpaceAfter=No
+25	2-2	2-2	NUM	NUM	NumForm=Digit|NumType=Card	18	obl	_	SpaceAfter=No
 26	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	25	punct	_	_
 27	en	en	ADP	ADP	AdpType=Prep	29	case	_	_
 28	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -27697,7 +27697,7 @@
 33	ya	ya	ADV	ADV	_	34	advmod	_	_
 34	tiene	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 35	a	a	ADP	ADP	AdpType=Prep	36	case	_	_
-36	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	34	advmod	_	_
+36	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	34	obl	_	_
 37	a	a	ADP	ADP	AdpType=Prep	39	case	_	_
 38	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	FC	FC	PROPN	PROPN	_	34	obj	_	MWE=FC_Barcelona|MWEPOS=PROPN
@@ -27712,7 +27712,7 @@
 48	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 49	Alavés	Alavés	PROPN	PROPN	_	42	obl	_	_
 50	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	51	punct	_	SpaceAfter=No
-51	0-1	0-1	NUM	NUM	NumForm=Digit|NumType=Card	42	advmod	_	SpaceAfter=No
+51	0-1	0-1	NUM	NUM	NumForm=Digit|NumType=Card	42	obl	_	SpaceAfter=No
 52	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	51	punct	_	SpaceAfter=No
 53	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
@@ -27747,7 +27747,7 @@
 26	Rayo	Rayo	PROPN	PROPN	_	23	obl	_	MWE=Rayo_Vallecano|MWEPOS=PROPN
 27	Vallecano	Vallecano	PROPN	PROPN	_	26	flat	_	_
 28	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	29	punct	_	SpaceAfter=No
-29	1-0	1-0	NUM	NUM	NumForm=Digit|NumType=Card	23	advmod	_	SpaceAfter=No
+29	1-0	1-0	NUM	NUM	NumForm=Digit|NumType=Card	23	obl	_	SpaceAfter=No
 30	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	29	punct	_	SpaceAfter=No
 31	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 32	está	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
@@ -27973,7 +27973,7 @@
 8	veces	vez	NOUN	NOUN	Gender=Fem|Number=Plur	9	obl	_	_
 9	perdió	perder	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 10	por	por	ADP	ADP	AdpType=Prep	11	case	_	_
-11	4-0	4-0	NUM	NUM	NumForm=Digit|NumType=Card	9	advmod	_	SpaceAfter=No
+11	4-0	4-0	NUM	NUM	NumForm=Digit|NumType=Card	9	obl	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 13	una	uno	PRON	PRON	Gender=Fem|Number=Sing|PronType=Ind	9	obl	_	_
 14	por	por	ADP	ADP	AdpType=Prep	15	case	_	_
@@ -28032,7 +28032,7 @@
 31	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
 32	arrollara	arrollar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	advcl	_	_
 33	por	por	ADP	ADP	AdpType=Prep	34	case	_	_
-34	7-1	7-1	NUM	NUM	NumForm=Digit|NumType=Card	32	advmod	_	SpaceAfter=No
+34	7-1	7-1	NUM	NUM	NumForm=Digit|NumType=Card	32	obl	_	SpaceAfter=No
 35	,	,	PUNCT	PUNCT	PunctType=Comm	36	punct	_	_
 36	puntuó	puntuar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
 37	a	a	ADP	ADP	AdpType=Prep	36	advmod	_	MWE=a_domicilio|MWEPOS=ADV
@@ -28146,7 +28146,7 @@
 35	tras	tras	ADP	ADP	AdpType=Prep	36	mark	_	_
 36	vencer	vencer	VERB	VERB	VerbForm=Inf	22	advcl	_	_
 37	por	por	ADP	ADP	AdpType=Prep	38	case	_	_
-38	2-1	2-1	NUM	NUM	NumForm=Digit|NumType=Card	36	advmod	_	_
+38	2-1	2-1	NUM	NUM	NumForm=Digit|NumType=Card	36	obl	_	_
 39	a	a	ADP	ADP	AdpType=Prep	41	case	_	_
 40	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	Numancia	Numancia	PROPN	PROPN	_	36	obj	_	_
@@ -28249,7 +28249,7 @@
 9	decimotercera	decimotercero	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
 10	jornada	jornada	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
 11	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	12	punct	_	SpaceAfter=No
-12	1-0	1-0	NUM	NUM	NumForm=Digit|NumType=Card	3	advmod	_	SpaceAfter=No
+12	1-0	1-0	NUM	NUM	NumForm=Digit|NumType=Card	3	obl	_	SpaceAfter=No
 13	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	12	punct	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -28371,7 +28371,7 @@
 20	partido	partido	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
 21	que	que	PRON	PRON	PronType=Rel	22	obj	_	_
 22	perdía	perder	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl	_	_
-23	2-0	2-0	NUM	NUM	NumForm=Digit|NumType=Card	22	advmod	_	_
+23	2-0	2-0	NUM	NUM	NumForm=Digit|NumType=Card	22	obl	_	_
 24	a	a	ADP	ADP	AdpType=Prep	28	case	_	MWE=a_falta_de|MWEPOS=ADP
 25	falta	falta	NOUN	NOUN	_	24	fixed	_	_
 26	de	de	ADP	ADP	AdpType=Prep	24	fixed	_	_
@@ -28433,7 +28433,7 @@
 26	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	27	case	_	_
 27	Valencia	Valencia	PROPN	PROPN	_	25	nmod	_	_
 28	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	29	punct	_	SpaceAfter=No
-29	3-1	3-1	NUM	NUM	NumForm=Digit|NumType=Card	19	advmod	_	SpaceAfter=No
+29	3-1	3-1	NUM	NUM	NumForm=Digit|NumType=Card	19	obl	_	SpaceAfter=No
 30	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	29	punct	_	SpaceAfter=No
 31	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
 32	y	y	CCONJ	CCONJ	_	34	cc	_	_
@@ -28514,7 +28514,7 @@
 10	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	9	fixed	_	_
 11	Mallorca	Mallorca	PROPN	PROPN	_	4	obl	_	_
 12	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	13	punct	_	SpaceAfter=No
-13	2-1	2-1	NUM	NUM	NumForm=Digit|NumType=Card	4	advmod	_	SpaceAfter=No
+13	2-1	2-1	NUM	NUM	NumForm=Digit|NumType=Card	4	obl	_	SpaceAfter=No
 14	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	13	punct	_	_
 15	y	y	CCONJ	CCONJ	_	16	cc	_	_
 16	sigue	seguir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
@@ -28704,7 +28704,7 @@
 17	Sevilla	Sevilla	PROPN	PROPN	_	7	obj	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 19	por	por	ADP	ADP	AdpType=Prep	20	case	_	_
-20	1-0	1-0	NUM	NUM	NumForm=Digit|NumType=Frac	7	advmod	_	_
+20	1-0	1-0	NUM	NUM	NumForm=Digit|NumType=Frac	7	obl	_	_
 21	sobre	sobre	ADP	ADP	AdpType=Prep	23	case	_	_
 22	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Racing	Racing	PROPN	PROPN	_	20	nmod	_	MWE=Racing_de_Santander|MWEPOS=PROPN
@@ -28748,7 +28748,7 @@
 11	se	él	PRON	PRON	Person=3	12	obj	_	_
 12	impuso	imponer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
 13	por	por	ADP	ADP	AdpType=Prep	14	case	_	_
-14	2-1	2-1	NUM	NUM	NumForm=Digit|NumType=Card	12	advmod	_	_
+14	2-1	2-1	NUM	NUM	NumForm=Digit|NumType=Card	12	obl	_	_
 15	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	16	case	_	_
 16	Atlético	Atlético	PROPN	PROPN	_	12	obj	_	MWE=Atlético_de_Madrid|MWEPOS=PROPN
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
@@ -29404,7 +29404,7 @@
 26	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	Ejecutivo	Ejecutivo	PROPN	PROPN	_	25	obj	_	_
 28	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
-29	18	18	NUM	NUM	NumForm=Digit|NumType=Card	25	advmod	_	_
+29	18	18	NUM	NUM	NumForm=Digit|NumType=Card	25	obl	_	_
 30	a	a	ADP	ADP	AdpType=Prep	32	case	_	_
 31	24	24	NUM	NUM	NumForm=Digit|NumType=Card	32	nummod	_	_
 32	ministros	ministro	NOUN	NOUN	Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
@@ -30210,7 +30210,7 @@
 9	con	con	ADP	ADP	AdpType=Prep	10	case	_	_
 10	Francia	Francia	PROPN	PROPN	_	7	obl	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
-12	2-2	2-2	NUM	NUM	NumForm=Digit|NumType=Card	7	advmod	_	SpaceAfter=No
+12	2-2	2-2	NUM	NUM	NumForm=Digit|NumType=Card	7	obl	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 14	en	en	ADP	ADP	AdpType=Prep	19	case	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -30252,7 +30252,7 @@
 11	pero	pero	CCONJ	CCONJ	_	23	cc	_	_
 12	en	en	ADP	ADP	AdpType=Prep	14	case	_	_
 13	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	segundo	segundo	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	23	advmod	_	SpaceAfter=No
+14	segundo	segundo	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	23	obl	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	reciente	reciente	ADJ	ADJ	Number=Sing	18	amod	_	_
@@ -30362,7 +30362,7 @@
 17	entre	entre	ADP	ADP	AdpType=Prep	20	case	_	_
 18	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 19	diez	diez	NUM	NUM	Number=Plur|NumType=Card	18	nummod	_	_
-20	primeros	primero	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	13	advmod	_	SpaceAfter=No
+20	primeros	primero	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	13	obl	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id = dev-s785
@@ -30462,7 +30462,7 @@
 14	entre	entre	ADP	ADP	AdpType=Prep	17	case	_	_
 15	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 16	diez	diez	NUM	NUM	Number=Plur|NumType=Card	15	nummod	_	_
-17	primeras	primero	ADJ	ADJ	Gender=Fem|Number=Plur|NumType=Ord	13	advmod	_	_
+17	primeras	primero	ADJ	ADJ	Gender=Fem|Number=Plur|NumType=Ord	13	obl	_	_
 18	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
 19	que	que	PRON	PRON	PronType=Rel	23	nsubj	_	_
 20	sería	ser	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	23	cop	_	_
@@ -31348,7 +31348,7 @@
 9	en	en	ADP	ADP	AdpType=Prep	12	case	_	MWE=en_relación_al|MWEPOS=ADP
 10	relación	relación	NOUN	NOUN	_	9	fixed	_	_
 11	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	9	fixed	_	_
-12	1,31	1,31	NUM	NUM	NumForm=Digit|NumType=Card	7	advmod	_	MWE=1,31_por_ciento|MWEPOS=NUM
+12	1,31	1,31	NUM	NUM	NumForm=Digit|NumType=Card	7	obl	_	MWE=1,31_por_ciento|MWEPOS=NUM
 13	por	por	ADP	ADP	AdpType=Prep	14	case	_	_
 14	ciento	ciento	NUM	NUM	NumType=Card	12	compound	_	_
 15	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
@@ -31525,7 +31525,7 @@
 16	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 17	con	con	ADP	ADP	AdpType=Prep	19	case	_	_
 18	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	1,08	1,08	NUM	NUM	NumForm=Digit|NumType=Card	9	advmod	_	MWE=1,08_por_ciento|MWEPOS=NUM
+19	1,08	1,08	NUM	NUM	NumForm=Digit|NumType=Card	9	obl	_	MWE=1,08_por_ciento|MWEPOS=NUM
 20	por	por	ADP	ADP	AdpType=Prep	21	case	_	_
 21	ciento	ciento	NUM	NUM	NumType=Card	19	compound	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
@@ -31554,7 +31554,7 @@
 10	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 11	con	con	ADP	ADP	AdpType=Prep	13	case	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	0,07	0,07	NUM	NUM	NumForm=Digit|NumType=Card	5	advmod	_	MWE=0,07_por_ciento|MWEPOS=NUM
+13	0,07	0,07	NUM	NUM	NumForm=Digit|NumType=Card	5	obl	_	MWE=0,07_por_ciento|MWEPOS=NUM
 14	por	por	ADP	ADP	AdpType=Prep	15	case	_	_
 15	ciento	ciento	NUM	NUM	NumType=Card	13	compound	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
@@ -32285,7 +32285,7 @@
 35	un	uno	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	38	nmod	_	_
 36	máximo	máximo	ADJ	ADJ	Gender=Masc|Number=Sing	35	amod	_	_
 37	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	35	case	_	_
-38	0,5	0,5	NUM	NUM	NumForm=Digit|NumType=Card	27	advmod	_	MWE=0,5_por_ciento|MWEPOS=NUM
+38	0,5	0,5	NUM	NUM	NumForm=Digit|NumType=Card	27	obl	_	MWE=0,5_por_ciento|MWEPOS=NUM
 39	por	por	ADP	ADP	AdpType=Prep	40	case	_	_
 40	ciento	ciento	NUM	NUM	NumType=Card	38	compound	_	_
 41	de	de	ADP	ADP	AdpType=Prep	43	case	_	_
@@ -32848,7 +32848,7 @@
 30	voto	voto	NOUN	NOUN	Gender=Masc|Number=Sing	28	nmod	_	_
 31	con	con	ADP	ADP	AdpType=Prep	33	case	_	_
 32	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	27	27	NUM	NUM	NumForm=Digit|NumType=Card	23	advmod	_	MWE=27_por_ciento|MWEPOS=NUM
+33	27	27	NUM	NUM	NumForm=Digit|NumType=Card	23	obl	_	MWE=27_por_ciento|MWEPOS=NUM
 34	por	por	ADP	ADP	AdpType=Prep	35	case	_	_
 35	ciento	ciento	NUM	NUM	NumType=Card	33	compound	_	SpaceAfter=No
 36	,	,	PUNCT	PUNCT	PunctType=Comm	39	punct	_	_
@@ -34632,7 +34632,7 @@
 9	Mariano	Mariano	PROPN	PROPN	_	8	appos	_	MWE=Mariano_Hood|MWEPOS=PROPN
 10	Hood	Hood	PROPN	PROPN	_	9	flat	_	_
 11	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	12	punct	_	SpaceAfter=No
-12	7-6	7-6	NUM	NUM	NumForm=Digit|NumType=Card	5	advmod	_	SpaceAfter=No
+12	7-6	7-6	NUM	NUM	NumForm=Digit|NumType=Card	5	obl	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 14	6-4	6-4	NUM	NUM	NumForm=Digit|NumType=Card	12	conj	_	SpaceAfter=No
 15	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	12	punct	_	_
@@ -36676,7 +36676,7 @@
 12	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 13	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
 14	con	con	ADP	ADP	AdpType=Prep	15	case	_	_
-15	10	10	NUM	NUM	NumForm=Digit|NumType=Card	13	advmod	_	_
+15	10	10	NUM	NUM	NumForm=Digit|NumType=Card	13	obl	_	_
 16	y	y	CCONJ	CCONJ	_	18	cc	_	_
 17	ahora	ahora	ADV	ADV	_	18	advmod	_	_
 18	esto	este	PRON	PRON	Number=Sing|PronType=Dem	4	conj	_	_
@@ -37724,7 +37724,7 @@
 7	a	a	ADP	ADP	AdpType=Prep	8	case	_	_
 8	Australia	Australia	PROPN	PROPN	_	6	obj	_	_
 9	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	10	punct	_	SpaceAfter=No
-10	6-5	6-5	NUM	NUM	NumForm=Digit|NumType=Card	6	advmod	_	SpaceAfter=No
+10	6-5	6-5	NUM	NUM	NumForm=Digit|NumType=Card	6	obl	_	SpaceAfter=No
 11	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	10	punct	_	_
 12	y	y	CCONJ	CCONJ	_	14	cc	_	_
 13	se	él	PRON	PRON	Person=3	14	obj	_	_
@@ -37874,7 +37874,7 @@
 18	entre	entre	ADP	ADP	AdpType=Prep	21	case	_	_
 19	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 20	tres	tres	NUM	NUM	Number=Plur|NumType=Card	19	nummod	_	_
-21	primeros	primero	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	17	advmod	_	_
+21	primeros	primero	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	17	obl	_	_
 22	de	de	ADP	ADP	AdpType=Prep	24	case	_	_
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Copa	Copa	PROPN	PROPN	_	21	nmod	_	MWE=Copa_del_Mundo|MWEPOS=PROPN
@@ -37987,7 +37987,7 @@
 12	a	a	ADP	ADP	AdpType=Prep	13	mark	_	_
 13	dominar	dominar	VERB	VERB	VerbForm=Inf	8	acl	_	_
 14	por	por	ADP	ADP	AdpType=Prep	15	case	_	_
-15	3-1	3-1	NUM	NUM	NumForm=Digit|NumType=Card	13	advmod	_	_
+15	3-1	3-1	NUM	NUM	NumForm=Digit|NumType=Card	13	obl	_	_
 16	en	en	ADP	ADP	AdpType=Prep	18	case	_	_
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	inicio	inicio	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
@@ -38209,7 +38209,7 @@
 8	australianos	australiano	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
 9	se	él	PRON	PRON	Person=3	10	obj	_	_
 10	pusieron	poner	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
-11	3-1	3-1	NUM	NUM	NumForm=Digit|NumType=Card	10	advmod	_	SpaceAfter=No
+11	3-1	3-1	NUM	NUM	NumForm=Digit|NumType=Card	10	obl	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s1000
@@ -38710,7 +38710,7 @@
 19	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
 20	Irún	Irún	PROPN	PROPN	_	18	flat	_	_
 21	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	22	punct	_	SpaceAfter=No
-22	22-22	22-22	NUM	NUM	NumForm=Digit|NumType=Card	6	advmod	_	SpaceAfter=No
+22	22-22	22-22	NUM	NUM	NumForm=Digit|NumType=Card	6	obl	_	SpaceAfter=No
 23	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	22	punct	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
@@ -38920,7 +38920,7 @@
 10	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 11	a	a	ADP	ADP	AdpType=Prep	13	case	_	_
 12	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
-13	diez	diez	NUM	NUM	Number=Plur|NumType=Card	9	advmod	_	_
+13	diez	diez	NUM	NUM	Number=Plur|NumType=Card	9	obl	_	_
 14	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	noche	noche	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
@@ -40018,7 +40018,7 @@
 7	caerá	caer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 8	hasta	hasta	ADP	ADP	AdpType=Prep	10	case	_	_
 9	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	4%	4/100	SYM	SYM	NumForm=Digit|NumType=Frac	7	advmod	_	_
+10	4%	4/100	SYM	SYM	NumForm=Digit|NumType=Frac	7	obl	_	_
 11	en	en	ADP	ADP	AdpType=Prep	13	case	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	2001	2001	NOUN	NOUN	AdvType=Tim	7	obl	_	_
@@ -40291,11 +40291,11 @@
 7	ventas	venta	NOUN	NOUN	Gender=Fem|Number=Plur	2	nmod	_	_
 8	pasó	pasar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 9	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	10	case	_	_
-10	70,1%	70.1/100	SYM	SYM	NumForm=Digit|NumType=Frac	8	advmod	_	_
+10	70,1%	70.1/100	SYM	SYM	NumForm=Digit|NumType=Frac	8	obl	_	_
 11	en	en	ADP	ADP	AdpType=Prep	12	case	_	_
 12	1997	1997	NOUN	NOUN	AdvType=Tim	10	nmod	_	_
 13	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	14	case	_	_
-14	78,2%	78.2/100	SYM	SYM	NumForm=Digit|NumType=Frac	8	advmod	_	_
+14	78,2%	78.2/100	SYM	SYM	NumForm=Digit|NumType=Frac	8	obl	_	_
 15	en	en	ADP	ADP	AdpType=Prep	16	case	_	_
 16	1999	1999	NOUN	NOUN	AdvType=Tim	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
@@ -40410,7 +40410,7 @@
 16	se	se	PRON	PRON	_	17	obj	_	_
 17	estima	estimar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 18	en	en	ADP	ADP	AdpType=Prep	19	case	_	_
-19	45	45	NUM	NUM	NumForm=Digit|NumType=Card	17	advmod	_	_
+19	45	45	NUM	NUM	NumForm=Digit|NumType=Card	17	obl	_	_
 20	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	número	número	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
 22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
@@ -44104,7 +44104,7 @@
 33	acabara	acabar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	advcl	_	_
 34	empatado	empatado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	33	obj	_	_
 35	a	a	ADP	ADP	AdpType=Prep	36	case	_	_
-36	72	72	NUM	NUM	NumForm=Digit|NumType=Card	34	advmod	_	SpaceAfter=No
+36	72	72	NUM	NUM	NumForm=Digit|NumType=Card	34	obl	_	SpaceAfter=No
 37	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s1188
@@ -44677,7 +44677,7 @@
 17	cambiar	cambiar	VERB	VERB	VerbForm=Inf	0	root	_	_
 18	pesetas	peseta	NOUN	NOUN	NumForm=Digit	17	nsubj	_	_
 19	por	por	ADP	ADP	AdpType=Prep	20	case	_	_
-20	euros	euro	NUM	NUM	Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	17	advmod	_	_
+20	euros	euro	NUM	NUM	Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	17	obl	_	_
 21	en	en	ADP	ADP	AdpType=Prep	23	case	_	_
 22	cualquier	cualquiera	DET	DET	Number=Sing|PronType=Ind	23	det	_	_
 23	banco	banco	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
@@ -45692,7 +45692,7 @@
 8	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 9	en	en	ADP	ADP	AdpType=Prep	11	case	_	_
 10	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
-11	70	70	NUM	NUM	NumForm=Digit|NumType=Card	7	advmod	_	SpaceAfter=No
+11	70	70	NUM	NUM	NumForm=Digit|NumType=Card	7	obl	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 13	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	controversia	controversia	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
@@ -48620,7 +48620,7 @@
 10	desarrolló	desarrollar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 11	entre	entre	ADP	ADP	AdpType=Prep	13	case	_	_
 12	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
-13	tres	tres	NUM	NUM	Number=Plur|NumType=Card	10	advmod	_	_
+13	tres	tres	NUM	NUM	Number=Plur|NumType=Card	10	obl	_	_
 14	y	y	CCONJ	CCONJ	_	16	cc	_	_
 15	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	13	conj	_	_
@@ -51219,7 +51219,7 @@
 7	coche	coche	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
 8	en	en	ADP	ADP	AdpType=Prep	10	case	_	_
 9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	A-7	a-7	NUM	NUM	NumForm=Digit|NumType=Card	2	advmod	_	SpaceAfter=No
+10	A-7	a-7	NUM	NUM	NumForm=Digit|NumType=Card	2	obl	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id = dev-s1406
@@ -52264,7 +52264,7 @@
 19	bien	bien	ADV	ADV	_	18	fixed	_	_
 20	descendió	descender	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	advcl	_	_
 21	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	22	case	_	_
-22	74%	74/100	SYM	SYM	NumForm=Digit|NumType=Frac	20	advmod	_	_
+22	74%	74/100	SYM	SYM	NumForm=Digit|NumType=Frac	20	obl	_	_
 23	hasta	hasta	ADP	ADP	AdpType=Prep	25	case	_	_
 24	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	31	31	NUM	NUM	NumForm=Digit|NumType=Card	20	obl	_	MWE=31_de_marzo|MWEPOS=NOUN
@@ -52325,7 +52325,7 @@
 48	irregular	irregular	ADJ	ADJ	Number=Sing	47	amod	_	SpaceAfter=No
 49	;	;	PUNCT	PUNCT	PunctType=Semi	56	punct	_	_
 50	y	y	CCONJ	CCONJ	_	56	cc	_	_
-51	segundo	segundo	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	56	advmod	_	SpaceAfter=No
+51	segundo	segundo	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	56	obl	_	SpaceAfter=No
 52	,	,	PUNCT	PUNCT	PunctType=Comm	51	punct	_	_
 53	que	que	SCONJ	SCONJ	_	56	mark	_	_
 54	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
@@ -52420,9 +52420,9 @@
 33	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
 34	aumentado	aumentar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
 35	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	36	case	_	_
-36	8,9	8.9	NUM	NUM	NumForm=Digit|NumType=Card	34	advmod	_	_
+36	8,9	8.9	NUM	NUM	NumForm=Digit|NumType=Card	34	obl	_	_
 37	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	38	case	_	_
-38	20,4%	20.4/100	SYM	SYM	NumForm=Digit|NumType=Frac	34	advmod	_	SpaceAfter=No
+38	20,4%	20.4/100	SYM	SYM	NumForm=Digit|NumType=Frac	34	obl	_	SpaceAfter=No
 39	.	.	PUNCT	PUNCT	PunctType=Peri	22	punct	_	_
 
 # sent_id = dev-s1443
@@ -54264,7 +54264,7 @@
 16	déficit	déficit	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
 17	hasta	hasta	ADP	ADP	AdpType=Prep	19	case	_	_
 18	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	2,5%	2.5/100	SYM	SYM	NumForm=Digit|NumType=Frac	14	advmod	_	_
+19	2,5%	2.5/100	SYM	SYM	NumForm=Digit|NumType=Frac	14	obl	_	_
 20	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	21	case	_	_
 21	PIB	PIB	PROPN	PROPN	_	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
@@ -54693,7 +54693,7 @@
 9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	retención	retención	NOUN	NOUN	Gender=Fem|Number=Sing	8	obj	_	_
 11	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	12	case	_	_
-12	18%	18/100	SYM	SYM	NumForm=Digit|NumType=Frac	8	advmod	_	SpaceAfter=No
+12	18%	18/100	SYM	SYM	NumForm=Digit|NumType=Frac	8	obl	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
 14	lo	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
 15	que	que	PRON	PRON	PronType=Rel	22	nsubj	_	SpaceAfter=No
@@ -56445,7 +56445,7 @@
 3	ocurrió	ocurrir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	pasadas	pasado	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	6	advmod	_	_
 5	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
-6	once	once	NUM	NUM	Number=Plur|NumType=Card	3	advmod	_	_
+6	once	once	NUM	NUM	Number=Plur|NumType=Card	3	obl	_	_
 7	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	noche	noche	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
