@@ -27168,7 +27168,7 @@
 39	.	.	PUNCT	PUNCT	PunctType=Peri	22	punct	_	_
 
 # sent_id = test-s694
-# text = El S &amp; P500, que evalúa 500 empresas, y que algunos analistas consideran más representativo del mercado que el Dow Jones, bajó 0,60 puntos, hasta los 1.424,37.
+# text = El S & P500, que evalúa 500 empresas, y que algunos analistas consideran más representativo del mercado que el Dow Jones, bajó 0,60 puntos, hasta los 1.424,37.
 # orig_file_sentence 007#94
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	S	S	PROPN	PROPN	_	25	nsubj	_	MWE=S_&amp;_P500|MWEPOS=PROPN

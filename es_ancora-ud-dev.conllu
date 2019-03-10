@@ -32814,7 +32814,7 @@
 58	.	.	PUNCT	PUNCT	PunctType=Peri	25	punct	_	_
 
 # sent_id = dev-s836
-# text = Un sondeo realizado para El Siglo por la firma estadounidense Penn, Schoen &amp; Berland, divulgado hoy, revela que Balaguer figura en segunda posición de intención de voto con el 27 por ciento, detrás del socialdemócrata Hipólito Mejía, del Partido Revolucionario Dominicano (PRD), en la oposición, que tiene el 46, y por encima del candidato del Partido de la Liberación Dominicana (PLD), en el Gobierno, Danilo Medina, que cuenta con el 26 por ciento.
+# text = Un sondeo realizado para El Siglo por la firma estadounidense Penn, Schoen & Berland, divulgado hoy, revela que Balaguer figura en segunda posición de intención de voto con el 27 por ciento, detrás del socialdemócrata Hipólito Mejía, del Partido Revolucionario Dominicano (PRD), en la oposición, que tiene el 46, y por encima del candidato del Partido de la Liberación Dominicana (PLD), en el Gobierno, Danilo Medina, que cuenta con el 26 por ciento.
 # orig_file_sentence 009#36
 1	Un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sondeo	sondeo	NOUN	NOUN	Gender=Masc|Number=Sing	20	nsubj	_	_
