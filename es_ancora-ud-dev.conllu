@@ -170,16 +170,16 @@
 # orig_file_sentence 001#5
 1	Por	por	ADP	ADP	AdpType=Prep	3	case	_	_
 2	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
-3	boca	boca	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
-4	suelen	soler	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	hablar	hablar	VERB	VERB	VerbForm=Inf	0	root	_	_
-6	de	de	ADP	ADP	AdpType=Prep	5	advmod	_	MWE=de_vez_en_cuando|MWEPOS=ADV
+3	boca	boca	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	suelen	soler	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	hablar	hablar	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
+6	de	de	ADP	ADP	AdpType=Prep	4	advmod	_	MWE=de_vez_en_cuando|MWEPOS=ADV
 7	vez	vez	NOUN	NOUN	_	6	fixed	_	_
 8	en	en	ADP	ADP	AdpType=Prep	6	fixed	_	_
 9	cuando	cuando	ADV	ADV	_	6	fixed	_	_
 10	tanto	tanto	ADV	ADV	_	12	cc	_	_
 11	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	ministro	ministro	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+12	ministro	ministro	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 14	Relaciones	Relaciones	PROPN	PROPN	_	12	nmod	_	MWE=Relaciones_Exteriores|MWEPOS=PROPN
 15	Exteriores	Exteriores	PROPN	PROPN	_	14	flat	_	SpaceAfter=No
@@ -226,7 +226,7 @@
 56	nuevo	nuevo	ADJ	ADJ	Gender=Masc|Number=Sing	57	amod	_	_
 57	escenario	escenario	NOUN	NOUN	Gender=Masc|Number=Sing	50	obl	_	_
 58	electoral	electoral	ADJ	ADJ	Number=Sing	57	amod	_	SpaceAfter=No
-59	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
+59	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s6
 # text = Por la Cancillería se sabe que la gira presidencial prevista entre el 16 y el 25 de junio por varios países de la Organización de Países Exportadores de Petróleo (OPEP), con el fin de afinar detalles de cara a la II Cumbre de ese cartel petrolero en Caracas, está en el alero hasta que se fijen los comicios.
@@ -7224,10 +7224,10 @@
 6	no	no	ADV	ADV	Polarity=Neg	8	advmod	_	_
 7	la	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	8	obj	_	_
 8	escuchamos	escuchar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
-9	porque	porque	SCONJ	SCONJ	_	11	mark	_	_
-10	suele	soler	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	porque	porque	SCONJ	SCONJ	_	10	mark	_	_
+10	suele	soler	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 11-12	decirnos	_	_	_	_	_	_	_	_
-11	decir	decir	VERB	VERB	VerbForm=Inf	8	advcl	_	_
+11	decir	decir	VERB	VERB	VerbForm=Inf	10	xcomp	_	_
 12	nos	yo	PRON	PRON	Case=Acc,Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	11	obj	_	_
 13	impertinencias	impertinencia	NOUN	NOUN	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
@@ -7826,15 +7826,15 @@
 # text = De pequeña solía jugar a esto con su hermano.
 # orig_file_sentence 003#60
 1	De	de	ADP	ADP	AdpType=Prep	2	case	_	_
-2	pequeña	pequeño	ADJ	ADJ	Gender=Fem|Number=Sing	4	advmod	_	_
-3	solía	soler	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
-4	jugar	jugar	VERB	VERB	VerbForm=Inf	0	root	_	_
+2	pequeña	pequeño	ADJ	ADJ	Gender=Fem|Number=Sing	3	advmod	_	_
+3	solía	soler	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	jugar	jugar	VERB	VERB	VerbForm=Inf	3	xcomp	_	_
 5	a	a	ADP	ADP	AdpType=Prep	6	case	_	_
 6	esto	este	PRON	PRON	Number=Sing|PronType=Dem	4	obj	_	_
 7	con	con	ADP	ADP	AdpType=Prep	9	case	_	_
 8	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
-9	hermano	hermano	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
-10	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
+9	hermano	hermano	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s261
 # text = A las radiografías.
@@ -8617,14 +8617,14 @@
 52	ese	ese	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	53	det	_	_
 53	orden	orden	NOUN	NOUN	Gender=Masc|Number=Sing	51	obj	_	_
 54	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	55	case	_	_
-55	que	que	PRON	PRON	PronType=Rel	58	obl	_	_
+55	que	que	PRON	PRON	PronType=Rel	57	obl	_	_
 56	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	58	obj	_	_
-57	suele	soler	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	aux	_	_
-58	decir	decir	VERB	VERB	VerbForm=Inf	53	acl	_	_
+57	suele	soler	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	acl	_	_
+58	decir	decir	VERB	VERB	VerbForm=Inf	57	xcomp	_	_
 59	que	que	SCONJ	SCONJ	_	62	mark	_	_
 60	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	cop	_	_
 61	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
-62	curso	curso	NOUN	NOUN	Gender=Masc|Number=Sing	58	csubj	_	_
+62	curso	curso	NOUN	NOUN	Gender=Masc|Number=Sing	57	csubj	_	_
 63	lógico	lógico	ADJ	ADJ	Gender=Masc|Number=Sing	62	amod	_	_
 64	de	de	ADP	ADP	AdpType=Prep	66	case	_	_
 65	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	66	det	_	_

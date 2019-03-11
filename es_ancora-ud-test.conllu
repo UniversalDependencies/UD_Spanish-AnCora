@@ -44401,15 +44401,15 @@
 # sent_id = test-s1173
 # text = Además, el exceso de normas siempre suele ser un instrumento para los aparatos de los partidos en vez de favorecer el libre debate.
 # orig_file_sentence 012#71
-1	Además	además	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+1	Además	además	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 3	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	exceso	exceso	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	exceso	exceso	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
 5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 6	normas	norma	NOUN	NOUN	Gender=Fem|Number=Plur	4	nmod	_	_
-7	siempre	siempre	ADV	ADV	_	9	advmod	_	_
-8	suele	soler	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-9	ser	ser	AUX	AUX	VerbForm=Inf	0	root	_	_
+7	siempre	siempre	ADV	ADV	_	8	advmod	_	_
+8	suele	soler	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	ser	ser	AUX	AUX	VerbForm=Inf	8	xcomp	_	_
 10	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 11	instrumento	instrumento	NOUN	NOUN	Gender=Masc|Number=Sing	14	cc	_	_
 12	para	para	ADP	ADP	AdpType=Prep	14	case	_	_
@@ -44425,7 +44425,7 @@
 22	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 23	libre	libre	ADJ	ADJ	Number=Sing	24	amod	_	_
 24	debate	debate	NOUN	NOUN	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
-25	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
+25	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id = test-s1174
 # text = ¿Se imaginan a un concejal, a un diputado, a un militante de un partido expedientado por ser infiel a su mujer? ¿O la introducción de la figura de un confesor laico para perdonar nuestras faltas contra el reglamento?.
