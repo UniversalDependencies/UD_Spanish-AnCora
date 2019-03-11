@@ -17618,9 +17618,9 @@
 48	cosa	cosa	NOUN	NOUN	Gender=Fem|Number=Sing	45	obl	_	SpaceAfter=No
 49	"	"	PUNCT	PUNCT	PunctType=Quot	45	punct	_	SpaceAfter=No
 50	,	,	PUNCT	PUNCT	PunctType=Comm	60	punct	_	_
-51	ante	ante	ADP	ADP	AdpType=Prep	60	advmod	_	_
+51	ante	ante	ADP	ADP	AdpType=Prep	53	case	_	_
 52	lo	él	PRON	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	53	det	_	_
-53	cual	cual	PRON	PRON	Number=Sing|PronType=Rel	51	obl	_	SpaceAfter=No
+53	cual	cual	PRON	PRON	Number=Sing|PronType=Rel	60	obl	_	SpaceAfter=No
 54	,	,	PUNCT	PUNCT	PunctType=Comm	55	punct	_	_
 55	subrayó	subrayar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	60	parataxis	_	SpaceAfter=No
 56	,	,	PUNCT	PUNCT	PunctType=Comm	55	punct	_	_
@@ -23552,9 +23552,9 @@
 15	aunque	aunque	SCONJ	SCONJ	_	17	mark	_	_
 16	no	no	ADV	ADV	Polarity=Neg	17	advmod	_	_
 17	precisó	precisar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
-18	en	en	ADP	ADP	AdpType=Prep	17	advmod	_	_
+18	en	en	ADP	ADP	AdpType=Prep	20	case	_	_
 19	qué	qué	DET	DET	PronType=Int	20	det	_	_
-20	cuantía	cuantía	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+20	cuantía	cuantía	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s616
@@ -27738,10 +27738,10 @@
 17	cuesta	cuesta	NOUN	NOUN	_	14	advmod	_	MWE=cuesta_abajo|MWEPOS=ADV
 18	abajo	abajo	NOUN	NOUN	_	17	fixed	_	_
 19	y	y	CCONJ	CCONJ	_	32	cc	_	SpaceAfter=No
-20	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
-21	tras	tras	ADP	ADP	AdpType=Prep	32	advmod	_	_
+20	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
+21	tras	tras	ADP	ADP	AdpType=Prep	23	case	_	_
 22	caer	caer	AUX	AUX	VerbForm=Inf	23	aux	_	_
-23	derrotado	derrotado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	21	advmod	_	_
+23	derrotado	derrotado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	32	obl	_	_
 24	ante	ante	ADP	ADP	AdpType=Prep	26	case	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Rayo	Rayo	PROPN	PROPN	_	23	obl	_	MWE=Rayo_Vallecano|MWEPOS=PROPN
@@ -27749,7 +27749,7 @@
 28	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	29	punct	_	SpaceAfter=No
 29	1-0	1-0	NUM	NUM	NumForm=Digit|NumType=Card	23	obl	_	SpaceAfter=No
 30	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	29	punct	_	SpaceAfter=No
-31	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
+31	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 32	está	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
 33	a	a	ADP	ADP	AdpType=Prep	35	case	_	_
 34	ocho	ocho	NUM	NUM	Number=Plur|NumType=Card	35	nummod	_	_
@@ -34683,11 +34683,11 @@
 21	pistas	pista	NOUN	NOUN	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 23	después	después	ADV	ADV	_	18	advmod	_	_
-24	de	de	ADP	ADP	AdpType=Prep	23	advmod	_	_
+24	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
 25	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 26	largo	largo	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	_
 27	periodo	periodo	NOUN	NOUN	Gender=Masc|Number=Sing	28	obj	_	_
-28	lesionado	lesionado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	24	advmod	_	SpaceAfter=No
+28	lesionado	lesionado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	23	obl	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s882
@@ -41398,8 +41398,8 @@
 23	Diamantopoulou	Diamantopoulou	PROPN	PROPN	_	22	flat	_	SpaceAfter=No
 24	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	22	punct	_	_
 25	comunicaron	comunicar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-26	por	por	ADP	ADP	AdpType=Prep	25	advmod	_	_
-27	escrito	escrito	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	26	advmod	_	_
+26	por	por	ADP	ADP	AdpType=Prep	27	case	_	_
+27	escrito	escrito	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	25	obl	_	_
 28	a	a	ADP	ADP	AdpType=Prep	31	case	_	_
 29	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 30	dos	dos	NUM	NUM	Number=Plur|NumType=Card	29	nummod	_	_
@@ -45946,13 +45946,13 @@
 34-35	multarnos	_	_	_	_	_	_	_	_
 34	multar	multar	VERB	VERB	VerbForm=Inf	32	xcomp	_	_
 35	nos	yo	PRON	PRON	Case=Acc,Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	34	obj	_	_
-36	por	por	ADP	ADP	AdpType=Prep	34	advmod	_	_
+36	por	por	ADP	ADP	AdpType=Prep	42	case	_	_
 37	llevar	llevar	AUX	AUX	VerbForm=Inf	42	aux	_	_
 38	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	luz	luz	NOUN	NOUN	Gender=Fem|Number=Sing	42	obj	_	_
 40	de	de	ADP	ADP	AdpType=Prep	41	case	_	_
 41	posición	posición	NOUN	NOUN	Gender=Fem|Number=Sing	39	nmod	_	_
-42	encendida	encendido	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	36	advmod	_	_
+42	encendida	encendido	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	34	obl	_	_
 43	durante	durante	ADP	ADP	AdpType=Prep	45	case	_	_
 44	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	día	día	NOUN	NOUN	Gender=Masc|Number=Sing	42	obl	_	_
