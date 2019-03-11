@@ -2422,9 +2422,9 @@
 7	Ayuntamiento	Ayuntamiento	PROPN	PROPN	_	2	nmod	_	MWE=Ayuntamiento_de_Madrid|MWEPOS=PROPN
 8	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 9	Madrid	Madrid	PROPN	PROPN	_	7	flat	_	SpaceAfter=No
-10	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
-11	doña	doña	NOUN	NOUN	Gender=Fem|Number=Sing	12	appos	_	_
-12	Esperanza	Esperanza	PROPN	PROPN	_	2	appos	_	MWE=Esperanza_Aguirre|MWEPOS=PROPN
+10	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
+11	doña	doña	NOUN	NOUN	Gender=Fem|Number=Sing	2	appos	_	_
+12	Esperanza	Esperanza	PROPN	PROPN	_	11	flat	_	MWE=Esperanza_Aguirre|MWEPOS=PROPN
 13	Aguirre	Aguirre	PROPN	PROPN	_	12	flat	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 15	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
@@ -2542,9 +2542,9 @@
 23	solitario	solitario	ADJ	ADJ	Gender=Masc|Number=Sing	20	advmod	_	_
 24	no	no	ADV	ADV	Polarity=Neg	25	advmod	_	_
 25	necesita	necesitar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	_
-26	-	-	PUNCT	PUNCT	PunctType=Dash	28	punct	_	_
-27	basket	basket	NOUN	NOUN	Gender=Masc|Number=Sing	28	appos	_	_
-28	average	average	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	_
+26	-	-	PUNCT	PUNCT	PunctType=Dash	27	punct	_	_
+27	basket	basket	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	_
+28	average	average	NOUN	NOUN	Gender=Masc|Number=Sing	27	flat	_	_
 29	-	-	PUNCT	PUNCT	PunctType=Dash	28	punct	_	SpaceAfter=No
 30	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 31	piensan	pensar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No
@@ -7514,8 +7514,8 @@
 2	vecinos	vecino	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	aseguran	asegurar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	que	que	SCONJ	SCONJ	_	10	mark	_	_
-5	don	don	NOUN	NOUN	Gender=Masc|Number=Sing	6	appos	_	_
-6	Antonio	Antonio	PROPN	PROPN	_	10	nsubj	_	_
+5	don	don	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+6	Antonio	Antonio	PROPN	PROPN	_	5	flat	_	_
 7	fue	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 8	siempre	siempre	ADV	ADV	_	10	advmod	_	_
 9	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -7592,8 +7592,8 @@
 4	podido	poder	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux	_	_
 5	saber	saber	VERB	VERB	VerbForm=Inf	0	root	_	_
 6	que	que	SCONJ	SCONJ	_	11	mark	_	_
-7	don	don	NOUN	NOUN	Gender=Masc|Number=Sing	8	appos	_	_
-8	Antonio	Antonio	PROPN	PROPN	_	11	nsubj	_	_
+7	don	don	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+8	Antonio	Antonio	PROPN	PROPN	_	7	flat	_	_
 9	iba	ir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
 10	a	a	ADP	ADP	AdpType=Prep	11	mark	_	_
 11	contraer	contraer	VERB	VERB	VerbForm=Inf	5	xcomp	_	_
@@ -7624,8 +7624,8 @@
 2	tarde	tarde	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
 4	autos	auto	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
-5	don	don	NOUN	NOUN	Gender=Masc|Number=Sing	6	appos	_	_
-6	Antonio	Antonio	PROPN	PROPN	_	8	nsubj	_	_
+5	don	don	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	Antonio	Antonio	PROPN	PROPN	_	5	flat	_	_
 7	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	obj	_	_
 8	encontraba	encontrar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	en	en	ADP	ADP	AdpType=Prep	11	case	_	_
@@ -9424,8 +9424,8 @@
 23	ciego	ciego	ADJ	ADJ	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
 24	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 25	siete	siete	NUM	NUM	Number=Plur|NumType=Card	26	nummod	_	_
-26	veces	vez	NOUN	NOUN	Gender=Fem|Number=Plur	27	appos	_	_
-27	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	16	appos	_	_
+26	veces	vez	NOUN	NOUN	Gender=Fem|Number=Plur	16	appos	_	_
+27	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	26	flat	_	_
 28	de	de	ADP	ADP	AdpType=Prep	30	case	_	_
 29	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	República	República	PROPN	PROPN	_	27	nmod	_	SpaceAfter=No
@@ -9606,8 +9606,8 @@
 21	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	20	punct	_	_
 22	y	y	CCONJ	CCONJ	_	25	cc	_	_
 23	siete	siete	NUM	NUM	Number=Plur|NumType=Card	24	nummod	_	_
-24	veces	vez	NOUN	NOUN	Gender=Fem|Number=Plur	25	appos	_	_
-25	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	13	conj	_	_
+24	veces	vez	NOUN	NOUN	Gender=Fem|Number=Plur	13	conj	_	_
+25	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	24	flat	_	_
 26	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
 27	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	República	República	PROPN	PROPN	_	25	nmod	_	_
@@ -14294,14 +14294,14 @@
 # sent_id = dev-s407
 # text = Duodécimo en la parrilla de salida, Serviá se ha mantenido constantemente en la zona de puntos y cuando tras el primer tercio de carrera se ha detenido para repostar y cambiar neumáticos ya era séptimo.
 # orig_file_sentence 005#7
-1	Duodécimo	duodécimo	NOUN	NOUN	Gender=Masc|Number=Sing	8	appos	_	_
+1	Duodécimo	duodécimo	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
 2	en	en	ADP	ADP	AdpType=Prep	4	case	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	parrilla	parrilla	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
 5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 6	salida	salida	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
-8	Serviá	Serviá	PROPN	PROPN	_	11	nsubj	_	_
+8	Serviá	Serviá	PROPN	PROPN	_	1	flat	_	_
 9	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	obj	_	_
 10	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	mantenido	mantener	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -41210,7 +41210,7 @@
 # sent_id = dev-s1112
 # text = Cofundador y miembro del consejo de administración de Ona Catalana desde su creación, Puigbó dirigió el diseño de la parrilla y de los informativos de esta cadena que, con 18 frecuencias, es la primera radio privada de Catalunya.
 # orig_file_sentence 012#12
-1	Cofundador	cofundador	NOUN	NOUN	Gender=Masc|Number=Sing	15	appos	_	_
+1	Cofundador	cofundador	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
 2	y	y	CCONJ	CCONJ	_	3	cc	_	_
 3	miembro	miembro	NOUN	NOUN	Gender=Masc|Number=Sing	1	conj	_	_
 4	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	5	case	_	_
@@ -41224,7 +41224,7 @@
 12	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
 13	creación	creación	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
-15	Puigbó	Puigbó	PROPN	PROPN	_	16	nsubj	_	_
+15	Puigbó	Puigbó	PROPN	PROPN	_	1	flat	_	_
 16	dirigió	dirigir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	diseño	diseño	NOUN	NOUN	Gender=Masc|Number=Sing	16	obj	_	_
