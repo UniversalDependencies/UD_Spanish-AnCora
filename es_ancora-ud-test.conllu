@@ -3282,7 +3282,7 @@
 46	todo	todo	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	44	conj	_	_
 47	orgánico	orgánico	ADJ	ADJ	Gender=Masc|Number=Sing	46	amod	_	_
 48	-	-	PUNCT	PUNCT	PunctType=Dash	44	punct	_	SpaceAfter=No
-49	;	;	PUNCT	PUNCT	PunctType=Semi	55	punct	_	_
+49	;	;	PUNCT	PUNCT	PunctType=Semi	43	punct	_	_
 50	es	es	NOUN	NOUN	_	55	cc	_	MWE=es_decir|MWEPOS=CCONJ
 51	decir	decir	NOUN	NOUN	_	50	fixed	_	SpaceAfter=No
 52	,	,	PUNCT	PUNCT	PunctType=Comm	50	punct	_	_
@@ -12654,7 +12654,7 @@
 14	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 15	Televisión	Televisión	PROPN	PROPN	_	13	nmod	_	MWE=Televisión_Española|MWEPOS=PROPN
 16	Española	Española	PROPN	PROPN	_	15	flat	_	_
-17	"	"	PUNCT	PUNCT	PunctType=Quot	19	punct	_	SpaceAfter=No
+17	"	"	PUNCT	PUNCT	PunctType=Quot	13	punct	_	SpaceAfter=No
 18	Al	Al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	22	case	_	MWE=Al_filo_de_lo_imposible|MWEPOS=PROPN
 19	filo	filo	PROPN	PROPN	_	13	appos	_	_
 20	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
@@ -14099,7 +14099,7 @@
 38	instrumento	instrumento	NOUN	NOUN	Gender=Masc|Number=Sing	33	obj	_	_
 39	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
 40	ahorro	ahorro	NOUN	NOUN	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
-41	"	"	PUNCT	PUNCT	PunctType=Quot	44	punct	_	_
+41	"	"	PUNCT	PUNCT	PunctType=Quot	40	punct	_	_
 42	y	y	CCONJ	CCONJ	_	44	cc	_	_
 43	que	que	PRON	PRON	PronType=Rel	47	obj	_	_
 44	hay	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	conj	_	_
@@ -16661,7 +16661,7 @@
 21	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	continente	continente	NOUN	NOUN	Gender=Masc|Number=Sing	19	conj	_	_
 23	europeo	europeo	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
-24	,	,	PUNCT	PUNCT	PunctType=Comm	39	punct	_	_
+24	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 25	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	39	cc	_	MWE=al_igual_que|MWEPOS=CCONJ
 26	igual	igual	ADJ	ADJ	_	25	fixed	_	_
 27	que	que	SCONJ	SCONJ	_	25	fixed	_	_
@@ -26388,7 +26388,7 @@
 12	planteamiento	planteamiento	NOUN	NOUN	Gender=Masc|Number=Sing	42	ccomp	_	_
 13	con	con	ADP	ADP	AdpType=Prep	14	case	_	_
 14	fundamento	fundamento	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	PUNCT	PunctType=Comm	30	punct	_	_
+15	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 16	sino	sino	CCONJ	CCONJ	_	30	cc	_	_
 17	con	con	ADP	ADP	AdpType=Prep	18	case	_	_
 18	rigor	rigor	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
@@ -44379,7 +44379,7 @@
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	PP	PP	PROPN	PROPN	_	4	obl	_	SpaceAfter=No
 8	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	4	punct	_	_
-9	¿	¿	PUNCT	PUNCT	PunctSide=Ini|PunctType=Qest	22	punct	_	SpaceAfter=No
+9	¿	¿	PUNCT	PUNCT	PunctSide=Ini|PunctType=Qest	4	punct	_	SpaceAfter=No
 10	Y	y	CCONJ	CCONJ	_	22	cc	_	_
 11	cuántos	cuánto	DET	DET	Gender=Masc|Number=Plur|PronType=Int	12	det	_	_
 12	providas	provida	NOUN	NOUN	_	4	obl	_	_
@@ -46816,7 +46816,7 @@
 37	"	"	PUNCT	PUNCT	PunctType=Quot	39	punct	_	SpaceAfter=No
 38	-	-	PUNCT	PUNCT	PunctType=Dash	39	punct	_	_
 39	lacónico	lacónico	ADJ	ADJ	Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
-40	"	"	PUNCT	PUNCT	PunctType=Quot	51	punct	_	SpaceAfter=No
+40	"	"	PUNCT	PUNCT	PunctType=Quot	39	punct	_	SpaceAfter=No
 41	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	_
 42	"	"	PUNCT	PUNCT	PunctType=Quot	43	punct	_	SpaceAfter=No
 43	aburrido	aburrido	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	39	advmod	_	SpaceAfter=No
@@ -46840,8 +46840,8 @@
 61	de	de	ADP	ADP	AdpType=Prep	63	case	_	_
 62	pocos	poco	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	63	det	_	_
 63	amigos	amigo	NOUN	NOUN	Gender=Masc|Number=Plur	60	nmod	_	SpaceAfter=No
-64	"	"	PUNCT	PUNCT	PunctType=Quot	75	punct	_	SpaceAfter=No
-65	,	,	PUNCT	PUNCT	PunctType=Comm	66	punct	_	_
+64	"	"	PUNCT	PUNCT	PunctType=Quot	60	punct	_	SpaceAfter=No
+65	,	,	PUNCT	PUNCT	PunctType=Comm	69	punct	_	_
 66	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	69	det	_	_
 67	"	"	PUNCT	PUNCT	PunctType=Quot	69	punct	_	SpaceAfter=No
 68	gélido	gélido	ADJ	ADJ	Gender=Masc|Number=Sing	69	amod	_	_

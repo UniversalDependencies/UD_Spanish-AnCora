@@ -13577,7 +13577,7 @@
 29	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	"	"	PUNCT	PUNCT	PunctType=Quot	31	punct	_	SpaceAfter=No
 31	propina	propina	NOUN	NOUN	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
-32	"	"	PUNCT	PUNCT	PunctType=Quot	41	punct	_	SpaceAfter=No
+32	"	"	PUNCT	PUNCT	PunctType=Quot	31	punct	_	SpaceAfter=No
 33	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	_
 34	"	"	PUNCT	PUNCT	PunctType=Quot	35	punct	_	SpaceAfter=No
 35	migajas	migaja	NOUN	NOUN	Gender=Fem|Number=Plur	31	appos	_	SpaceAfter=No
@@ -25062,7 +25062,7 @@
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	militancia	militancia	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	_
 17	socialista	socialista	ADJ	ADJ	Number=Sing	16	amod	_	SpaceAfter=No
-18	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
+18	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 19	es	es	NOUN	NOUN	_	23	cc	_	MWE=es_decir|MWEPOS=CCONJ
 20	decir	decir	NOUN	NOUN	_	19	fixed	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
