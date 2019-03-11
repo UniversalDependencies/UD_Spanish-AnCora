@@ -515,10 +515,10 @@
 12	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 13	desde	desde	ADP	ADP	AdpType=Prep	21	mark	_	_
 14	que	que	SCONJ	SCONJ	_	21	mark	_	SpaceAfter=No
-15	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
-16	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+15	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
+16	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
 17	150	150	NUM	NUM	NumForm=Digit|NumType=Card	18	nummod	_	_
-18	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+18	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 20	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	obj	_	_
 21	produjera	producir	VERB	VERB	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	advcl	_	_
@@ -533,10 +533,10 @@
 # sent_id = test-s13
 # text = Hace escasamente un mes, el canciller peruano, Fernando de Trazegnies, viajó a Pekín en visita oficial para mantener consultas políticas con el canciller chino y cerrar acuerdos de cooperación económica, política, social y científica
 # orig_file_sentence 001#13
-1	Hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+1	Hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 2	escasamente	escasamente	ADV	ADV	_	4	advmod	_	_
 3	un	uno	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
-4	mes	mes	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+4	mes	mes	NOUN	NOUN	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	canciller	canciller	NOUN	NOUN	Number=Sing	14	nsubj	_	_
@@ -1406,10 +1406,10 @@
 26	no	no	ADV	ADV	Polarity=Neg	28	advmod	_	_
 27	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
 28	unánimes	unánime	ADJ	ADJ	Number=Plur	0	root	_	_
-29	como	como	SCONJ	SCONJ	_	32	mark	_	_
-30	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+29	como	como	SCONJ	SCONJ	_	30	mark	_	_
+30	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
 31	unos	uno	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	32	det	_	_
-32	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+32	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	30	obj	_	SpaceAfter=No
 33	.	.	PUNCT	PUNCT	PunctType=Peri	28	punct	_	_
 
 # sent_id = test-s42
@@ -1605,8 +1605,8 @@
 # text = Cuando hace días dimitía, por sus prácticas fiscales, digamos, atípicas (cada vez menos atípicas, es cierto, a la vista de la que está cayendo...), el "conselleiro" del Gobierno gallego Juan Fernández, el lector medio de periódicos no cayó sin duda en la cuenta de que se trataba del mismo Juan Fernández que hizo a pulso el OAR Ferrol, tarea por la que es universalmente aplaudido... pero en la que ya lució una reprobable afición a jugar con ventaja.
 # orig_file_sentence 001#49
 1	Cuando	cuando	SCONJ	SCONJ	_	4	mark	_	_
-2	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+2	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+3	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	2	obj	_	_
 4	dimitía	dimitir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	50	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 6	por	por	ADP	ADP	AdpType=Prep	8	case	_	_
@@ -1711,9 +1711,9 @@
 # sent_id = test-s51
 # text = Hace unos años, en una rara participación en la Copa Korac, Fernández intentó (con la habitual y bien conocida connivencia federativa en Madrid) "colar" a un tercer extranjero, el argentino Ricardo García, como jugador autóctono en la plantilla europea del OAR, aprovechando el casticismo del nombre y del apellido.
 # orig_file_sentence 001#51
-1	Hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+1	Hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
 2	unos	uno	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
-3	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+3	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 5	en	en	ADP	ADP	AdpType=Prep	8	case	_	_
 6	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -2327,9 +2327,9 @@
 42	de	de	ADP	ADP	AdpType=Prep	43	case	_	_
 43	optimismo	optimismo	NOUN	NOUN	Gender=Masc|Number=Sing	41	nmod	_	_
 44	que	que	PRON	PRON	PronType=Rel	48	nsubj	_	_
-45	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
+45	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	advcl	_	_
 46	diez	diez	NUM	NUM	Number=Plur|NumType=Card	47	nummod	_	_
-47	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	48	obl	_	_
+47	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	45	obj	_	_
 48	parecía	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	acl	_	_
 49	no	no	ADV	ADV	Polarity=Neg	50	advmod	_	_
 50	existir	existir	VERB	VERB	VerbForm=Inf	48	ccomp	_	SpaceAfter=No
@@ -3511,12 +3511,12 @@
 8	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	vida	vida	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
-12	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+11	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
+12	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 13	cuatro	cuatro	NUM	NUM	NumType=Card	16	nummod	_	MWE=cuatro_mil_quinientos|MWEPOS=NUM
 14	mil	mil	NUM	NUM	NumType=Card	13	compound	_	_
 15	quinientos	quinientos	NUM	NUM	Number=Plur|NumType=Card	13	compound	_	_
-16	millones	millón	NOUN	NOUN	Gender=Masc|Number=Plur	7	appos	_	_
+16	millones	millón	NOUN	NOUN	Gender=Masc|Number=Plur	12	obj	_	_
 17	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 18	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
@@ -3681,9 +3681,9 @@
 # sent_id = test-s108
 # text = Hasta hace poco los investigadores y científicos no se explicaban muy bien esta circunstancia: - cómo era posible que el organismo humano pudiera atacar con el arma particular más adecuada para cada caso a cada uno de sus enemigos?
 # orig_file_sentence 002#8
-1	Hasta	hasta	ADP	ADP	AdpType=Prep	3	case	_	_
-2	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	poco	poco	ADV	ADV	_	10	advmod	_	_
+1	Hasta	hasta	ADP	ADP	AdpType=Prep	2	case	_	_
+2	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+3	poco	poco	ADV	ADV	_	2	obj	_	_
 4	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	investigadores	investigador	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
 6	y	y	CCONJ	CCONJ	_	7	cc	_	_
@@ -5504,9 +5504,9 @@
 # sent_id = test-s161
 # text = Desde hace días están concentrados.
 # orig_file_sentence 002#61
-1	Desde	desde	ADP	ADP	AdpType=Prep	3	case	_	_
-2	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+1	Desde	desde	ADP	ADP	AdpType=Prep	2	case	_	_
+2	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+3	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	2	obj	_	_
 4	están	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	concentrados	concentrado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
@@ -13456,8 +13456,8 @@
 3	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 5	hasta	hasta	ADV	ADV	_	12	advmod	_	_
-6	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-7	unos	uno	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	5	obl	_	_
+6	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+7	unos	uno	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	6	obj	_	_
 8	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	7	det	_	_
 9	no	no	ADV	ADV	Polarity=Neg	12	advmod	_	_
 10	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	obj	_	_
@@ -23738,8 +23738,8 @@
 48	contundente	contundente	ADJ	ADJ	Number=Sing	49	amod	_	_
 49	triunfo	triunfo	NOUN	NOUN	Gender=Masc|Number=Sing	46	obj	_	_
 50	que	que	PRON	PRON	PronType=Rel	53	obj	_	_
-51	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	aux	_	_
-52	tiempo	tiempo	NOUN	NOUN	Gender=Masc|Number=Sing	53	obl	_	_
+51	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	advcl	_	_
+52	tiempo	tiempo	NOUN	NOUN	Gender=Masc|Number=Sing	51	obj	_	_
 53	reclamaban	reclamar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	49	acl	_	_
 54	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	55	det	_	_
 55	hinchas	hincha	NOUN	NOUN	Number=Plur	53	nsubj	_	SpaceAfter=No
@@ -23852,9 +23852,9 @@
 25	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 26	apertura	apertura	NOUN	NOUN	Gender=Fem|Number=Sing	24	nmod	_	_
 27	cuando	cuando	SCONJ	SCONJ	_	31	mark	_	_
-28	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+28	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_
 29	una	uno	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	30	det	_	_
-30	semana	semana	NOUN	NOUN	Gender=Fem|Number=Sing	31	obl	_	_
+30	semana	semana	NOUN	NOUN	Gender=Fem|Number=Sing	28	obj	_	_
 31	viajó	viajar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
 32	a	a	ADP	ADP	AdpType=Prep	33	case	_	_
 33	Calama	Calama	PROPN	PROPN	_	31	obl	_	SpaceAfter=No
@@ -25349,10 +25349,10 @@
 65	esperanzas	esperanza	NOUN	NOUN	Gender=Fem|Number=Plur	61	obl	_	_
 66	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	67	case	_	_
 67	poder	poder	NOUN	NOUN	Gender=Masc|Number=Sing	61	obl	_	SpaceAfter=No
-68	,	,	PUNCT	PUNCT	PunctType=Comm	71	punct	_	_
-69	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	aux	_	_
+68	,	,	PUNCT	PUNCT	PunctType=Comm	69	punct	_	_
+69	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	advcl	_	_
 70	20	20	NUM	NUM	NumForm=Digit|NumType=Card	71	nummod	_	_
-71	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	61	obl	_	SpaceAfter=No
+71	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	69	obj	_	SpaceAfter=No
 72	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id = test-s655
@@ -27752,9 +27752,9 @@
 # sent_id = test-s708
 # text = Hace algunas semanas las autoridades anunciaron que disminuirán el volumen de emisión de estos títulos, al tiempo que aumentarán su recompra.
 # orig_file_sentence 008#8
-1	Hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+1	Hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
 2	algunas	alguno	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
-3	semanas	semana	NOUN	NOUN	Gender=Fem|Number=Plur	6	obl	_	_
+3	semanas	semana	NOUN	NOUN	Gender=Fem|Number=Plur	1	obj	_	_
 4	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	autoridades	autoridad	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
 6	anunciaron	anunciar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -27905,12 +27905,12 @@
 5	países	país	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 7	enemigos	enemigo	NOUN	NOUN	Gender=Masc|Number=Plur	5	appos	_	_
-8	desde	desde	ADP	ADP	AdpType=Prep	13	case	_	_
-9	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+8	desde	desde	ADP	ADP	AdpType=Prep	9	case	_	_
+9	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 10	más	más	ADV	ADV	_	13	advmod	_	_
 11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
 12	50	50	NUM	NUM	NumForm=Digit|NumType=Card	13	nummod	_	_
-13	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+13	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 15	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	_	_
 16	interrumpieron	interrumpir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -28263,11 +28263,11 @@
 22	entre	entre	ADP	ADP	AdpType=Prep	24	case	_	_
 23	ambos	ambos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	24	nummod	_	_
 24	países	país	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
-25	desde	desde	ADP	ADP	AdpType=Prep	29	case	_	_
-26	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+25	desde	desde	ADP	ADP	AdpType=Prep	26	case	_	_
+26	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
 27	casi	casi	ADV	ADV	_	29	advmod	_	_
 28	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	29	nummod	_	_
-29	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+29	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
 30	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id = test-s722
@@ -31757,9 +31757,9 @@
 17	a	a	ADP	ADP	AdpType=Prep	19	case	_	_
 18	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	pueblo	pueblo	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
-20	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+20	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
 21	unos	uno	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
-22	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	13	obl	_	_
+22	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	20	obj	_	_
 23	y	y	CCONJ	CCONJ	_	25	cc	_	_
 24	hoy	hoy	ADV	ADV	_	25	advmod	_	_
 25	manifestó	manifestar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
@@ -37689,9 +37689,9 @@
 # sent_id = test-s941
 # text = Hace un año los camiones te adelantaban a 70 o 80 kilómetros por hora.
 # orig_file_sentence 010#40
-1	Hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+1	Hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 2	un	uno	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
-3	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+3	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	1	obj	_	_
 4	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	camiones	camión	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
 6	te	tú	PRON	PRON	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	7	obj	_	_
@@ -37743,10 +37743,10 @@
 # orig_file_sentence 010#42
 1	Al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	10	advmod	_	MWE=Al_menos|MWEPOS=ADV
 2	menos	menos	ADV	ADV	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
-4	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
+4	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 5	un	uno	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
-6	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+6	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 8	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	camiones	camión	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
@@ -38147,9 +38147,9 @@
 3	que	que	PRON	PRON	PronType=Rel	4	nsubj	_	_
 4	corrían	correr	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	acl	_	_
 5	conmigo	yo	PRON	PRON	Case=Com|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	4	obl	_	_
-6	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 7	un	uno	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
-8	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
 9	explicaban	explicar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	34	ccomp	_	_
 10	que	que	SCONJ	SCONJ	_	16	mark	_	_
 11	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
@@ -39823,9 +39823,9 @@
 16	que	que	SCONJ	SCONJ	_	18	mark	_	_
 17	habían	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
 18	empezado	empezar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
-19	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+19	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
 20	dos	dos	NUM	NUM	Number=Plur|NumType=Card	21	nummod	_	_
-21	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	18	obl	_	_
+21	meses	mes	NOUN	NOUN	Gender=Masc|Number=Plur	19	obj	_	_
 22	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	trámites	trámite	NOUN	NOUN	Gender=Masc|Number=Plur	18	obj	_	_
 24	para	para	ADP	ADP	AdpType=Prep	25	mark	_	_
@@ -42262,9 +42262,9 @@
 51	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	52	punct	_	SpaceAfter=No
 52	SGAE	SGAE	PROPN	PROPN	_	45	flat	_	SpaceAfter=No
 53	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	52	punct	_	_
-54	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	_
+54	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advcl	_	_
 55	dos	dos	NUM	NUM	Number=Plur|NumType=Card	56	nummod	_	_
-56	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	42	obl	_	SpaceAfter=No
+56	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	54	obj	_	SpaceAfter=No
 57	.	.	PUNCT	PUNCT	PunctType=Peri	33	punct	_	_
 
 # sent_id = test-s1108
@@ -47569,9 +47569,9 @@
 1	Córcega	Córcega	PROPN	PROPN	_	13	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 3	sacudida	sacudido	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	1	amod	_	_
-4	desde	desde	ADP	ADP	AdpType=Prep	6	case	_	_
-5	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+4	desde	desde	ADP	ADP	AdpType=Prep	5	case	_	_
+5	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	_
 7	por	por	ADP	ADP	AdpType=Prep	9	case	_	_
 8	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	atentados	atentado	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
@@ -48575,9 +48575,9 @@
 4	tejado	tejado	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 6	arreglado	arreglado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	4	amod	_	_
-7	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
 8	un	uno	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
-9	mes	mes	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	mes	mes	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 11	sobre	sobre	ADP	ADP	AdpType=Prep	14	case	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -50798,9 +50798,9 @@
 11	que	que	SCONJ	SCONJ	_	12	mark	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 13	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
-14	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+14	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 15	un	uno	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
-16	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
 17	"	"	PUNCT	PUNCT	PunctType=Quot	22	punct	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
 19	y	y	CCONJ	CCONJ	_	22	cc	_	_
@@ -51706,9 +51706,9 @@
 7	echó	echar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	MWE=echó_en_cara|MWEPOS=VERB
 8	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
 9	cara	cara	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound	_	_
-10	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 11	una	uno	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
-12	semana	semana	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+12	semana	semana	NOUN	NOUN	Gender=Fem|Number=Sing	10	obj	_	_
 13	a	a	ADP	ADP	AdpType=Prep	14	case	_	_
 14	Esteve	Esteve	PROPN	PROPN	_	7	iobj	_	MWE=Esteve_Ferran|MWEPOS=PROPN
 15	Ferran	Ferran	PROPN	PROPN	_	14	flat	_	SpaceAfter=No
@@ -52309,9 +52309,9 @@
 31	Protagonizó	protagonizar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	acl	_	_
 32	Josep	Josep	PROPN	PROPN	_	31	nsubj	_	MWE=Josep_Borrell|MWEPOS=PROPN
 33	Borrell	Borrell	PROPN	PROPN	_	32	flat	_	_
-34	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+34	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_
 35	un	uno	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	36	det	_	_
-36	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+36	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
 37	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 38	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	det	_	_
 39	designación	designación	NOUN	NOUN	Gender=Fem|Number=Sing	47	nsubj	_	_
@@ -52473,10 +52473,10 @@
 # sent_id = test-s1484
 # text = Hace unos 25 años, John de Mol empezó en el mundo de la televisión holandesa como ayudante de producción de un programa deportivo.
 # orig_file_sentence 015#84
-1	Hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+1	Hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 2	unos	uno	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
 3	25	25	NUM	NUM	NumForm=Digit|NumType=Card	4	nummod	_	_
-4	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+4	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 6	John	John	PROPN	PROPN	_	9	nsubj	_	MWE=John_de_Mol|MWEPOS=PROPN
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
@@ -52856,9 +52856,9 @@
 8	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	obra	obra	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
 10	acabada	acabado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	9	amod	_	_
-11	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 12	dos	dos	NUM	NUM	Number=Plur|NumType=Card	13	nummod	_	_
-13	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+13	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 15	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	_	_
 16	detectó	detectar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_

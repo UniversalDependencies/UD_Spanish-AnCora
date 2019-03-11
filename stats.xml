@@ -18,7 +18,7 @@
     <tag name="ADJ">36444</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, mayor, segundo, buen -->
     <tag name="ADP">88049</tag><!-- de, en, a, del, por, con, para, al, entre, sobre -->
     <tag name="ADV">17882</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
-    <tag name="AUX">16916</tag><!-- ser, haber, estar, poder, deber, hacer, ir, seguir, parecer, volver -->
+    <tag name="AUX">16649</tag><!-- ser, haber, estar, poder, deber, ir, seguir, parecer, volver, hacer -->
     <tag name="CCONJ">15118</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
     <tag name="DET">73644</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">102</tag><!-- je, bueno, ay, ojalá, adiós, ah, claro, ja, ojo, qué -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">65507</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12471</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">487</tag><!-- ', %, 50/100, 30/100, 60/100, 20/100, 10/100, 80/100, 20, 25/100 -->
-    <tag name="VERB">44870</tag><!-- tener, hacer, decir, dar, ver, querer, llevar, llegar, asegurar, estar -->
+    <tag name="VERB">45137</tag><!-- tener, hacer, decir, dar, ver, querer, llevar, llegar, asegurar, estar -->
     <tag name="X">2</tag><!-- tanto, uno -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -99,11 +99,11 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="32">
     <dep name="acl">10543</dep>
-    <dep name="advcl">8539</dep>
-    <dep name="advmod">19304</dep>
+    <dep name="advcl">8799</dep>
+    <dep name="advmod">19294</dep>
     <dep name="amod">29503</dep>
-    <dep name="appos">7538</dep>
-    <dep name="aux">9735</dep>
+    <dep name="appos">7531</dep>
+    <dep name="aux">9468</dep>
     <dep name="case">76176</dep>
     <dep name="cc">15150</dep>
     <dep name="ccomp">5751</dep>
@@ -119,12 +119,12 @@
     <dep name="flat">14523</dep>
     <dep name="iobj">1783</dep>
     <dep name="mark">19573</dep>
-    <dep name="nmod">38620</dep>
+    <dep name="nmod">38606</dep>
     <dep name="nsubj">29634</dep>
     <dep name="nsubj:pass">41</dep>
     <dep name="nummod">5673</dep>
-    <dep name="obj">37439</dep>
-    <dep name="obl">24611</dep>
+    <dep name="obj">37703</dep>
+    <dep name="obl">24385</dep>
     <dep name="orphan">33</dep>
     <dep name="parataxis">692</dep>
     <dep name="punct">65473</dep>
