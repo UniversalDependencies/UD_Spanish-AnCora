@@ -872,12 +872,12 @@
 # orig_file_sentence 001#21
 1	Y	y	CCONJ	CCONJ	_	2	advmod	_	_
 2	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	que	que	SCONJ	SCONJ	_	8	mark	_	_
-4	ahora	ahora	ADV	ADV	_	8	advmod	_	_
+3	que	que	SCONJ	SCONJ	_	7	mark	_	_
+4	ahora	ahora	ADV	ADV	_	7	advmod	_	_
 5	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
-6	oídos	oído	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
-7	parecen	parecer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	hechos	hecho	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	2	ccomp	_	_
+6	oídos	oído	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	parecen	parecer	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	hechos	hecho	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	7	xcomp	_	_
 9	para	para	ADP	ADP	AdpType=Prep	10	mark	_	_
 10	acomodar	acomodar	VERB	VERB	VerbForm=Inf	8	advcl	_	_
 11	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
@@ -6528,16 +6528,16 @@
 6	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
 7	tiempo	tiempo	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
-9	ahora	ahora	ADV	ADV	_	18	advmod	_	_
+9	ahora	ahora	ADV	ADV	_	16	advmod	_	_
 10	también	también	ADV	ADV	_	18	obj	_	_
 11	a	a	ADP	ADP	AdpType=Prep	10	case	_	_
 12	nosotros	yo	PRON	PRON	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	10	nmod	_	_
 13	nuestra	nuestro	DET	DET	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
-14	democracia	democracia	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj	_	_
+14	democracia	democracia	NOUN	NOUN	Gender=Fem|Number=Sing	16	nsubj	_	_
 15	nos	yo	PRON	PRON	Case=Acc,Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	18	obj	_	_
-16	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
-17	tan	tanto	ADV	ADV	_	18	advmod	_	_
-18	firme	firme	ADJ	ADJ	Number=Sing	0	root	_	_
+16	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	tan	tanto	ADV	ADV	_	16	advmod	_	_
+18	firme	firme	ADJ	ADJ	Number=Sing	16	xcomp	_	_
 19	y	y	CCONJ	CCONJ	_	21	cc	_	_
 20	tan	tanto	ADV	ADV	_	21	advmod	_	_
 21	segura	seguro	ADJ	ADJ	Gender=Fem|Number=Sing	18	conj	_	_
@@ -6555,7 +6555,7 @@
 32	echando	echar	VERB	VERB	VerbForm=Ger	31	advcl	_	_
 33	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
 34	piedras	piedra	NOUN	NOUN	Gender=Fem|Number=Plur	32	obj	_	SpaceAfter=No
-35	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
+35	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id = test-s195
 # text = NOS GUSTA La CRÍTICA FEROZ, pero tal vez ignoremos cuál es la resistencia del material y si esto puede irse al infierno si se abusa de la sátira.
@@ -16683,12 +16683,12 @@
 43	plena	pleno	ADJ	ADJ	Gender=Fem|Number=Sing	44	amod	_	_
 44	voluntad	voluntad	NOUN	NOUN	Gender=Fem|Number=Sing	41	nsubj	_	SpaceAfter=No
 45	"	"	PUNCT	PUNCT	PunctType=Quot	44	punct	_	_
-46	porque	porque	SCONJ	SCONJ	_	50	mark	_	_
-47	"	"	PUNCT	PUNCT	PunctType=Quot	50	punct	_	SpaceAfter=No
-48	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	cop	_	_
-49	muy	mucho	ADV	ADV	_	50	advmod	_	_
-50	razonable	razonable	ADJ	ADJ	Number=Sing	41	advcl	_	_
-51	abrir	abrir	VERB	VERB	VerbForm=Inf	50	csubj	_	_
+46	porque	porque	SCONJ	SCONJ	_	48	mark	_	_
+47	"	"	PUNCT	PUNCT	PunctType=Quot	48	punct	_	SpaceAfter=No
+48	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	advcl	_	_
+49	muy	mucho	ADV	ADV	_	48	advmod	_	_
+50	razonable	razonable	ADJ	ADJ	Number=Sing	48	xcomp	_	_
+51	abrir	abrir	VERB	VERB	VerbForm=Inf	48	csubj	_	_
 52	otro	otro	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	53	det	_	_
 53	eje	eje	NOUN	NOUN	Gender=Masc|Number=Sing	51	obj	_	_
 54	distinto	distinto	ADJ	ADJ	Gender=Masc|Number=Sing	53	amod	_	_
@@ -16703,7 +16703,7 @@
 63	oriental	oriental	ADJ	ADJ	Number=Sing	62	amod	_	_
 64	y	y	CCONJ	CCONJ	_	65	cc	_	_
 65	occidental	occidental	ADJ	ADJ	Number=Sing	63	conj	_	SpaceAfter=No
-66	"	"	PUNCT	PUNCT	PunctType=Quot	50	punct	_	SpaceAfter=No
+66	"	"	PUNCT	PUNCT	PunctType=Quot	48	punct	_	SpaceAfter=No
 67	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id = test-s444
@@ -34035,14 +34035,14 @@
 # sent_id = test-s851
 # text = "Me parece absurdo que Golota haya aceptado medir sus fuerzas con Tyson apenas unas semanas después del combate que libraremos el 23 de septiembre en Wroclaw", declaró hoy, Sábado, Saleta.
 # orig_file_sentence 009#51
-1	"	"	PUNCT	PUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	PUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	Me	yo	PRON	PRON	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	4	obj	_	_
-3	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	absurdo	absurdo	ADJ	ADJ	Gender=Masc|Number=Sing	30	ccomp	_	_
+3	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	_	_
+4	absurdo	absurdo	ADJ	ADJ	Gender=Masc|Number=Sing	3	xcomp	_	_
 5	que	que	SCONJ	SCONJ	_	8	mark	_	_
 6	Golota	Golota	PROPN	PROPN	_	8	nsubj	_	_
 7	haya	haber	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-8	aceptado	aceptar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	csubj	_	_
+8	aceptado	aceptar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	csubj	_	_
 9	medir	medir	VERB	VERB	VerbForm=Inf	8	xcomp	_	_
 10	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
 11	fuerzas	fuerza	NOUN	NOUN	Gender=Fem|Number=Plur	9	obj	_	_
@@ -34062,8 +34062,8 @@
 25	septiembre	septiembre	NOUN	NOUN	_	23	compound	_	_
 26	en	en	ADP	ADP	AdpType=Prep	27	case	_	_
 27	Wroclaw	Wroclaw	PROPN	PROPN	_	21	obl	_	SpaceAfter=No
-28	"	"	PUNCT	PUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
-29	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
+28	"	"	PUNCT	PUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 30	declaró	declarar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 31	hoy	hoy	ADV	ADV	_	30	advmod	_	SpaceAfter=No
 32	,	,	PUNCT	PUNCT	PunctType=Comm	33	punct	_	_
@@ -35179,10 +35179,10 @@
 22	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	tarea	tarea	NOUN	NOUN	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
 24	"	"	PUNCT	PUNCT	PunctType=Quot	21	punct	_	SpaceAfter=No
-25	,	,	PUNCT	PUNCT	PunctType=Comm	28	punct	_	_
-26	aunque	aunque	SCONJ	SCONJ	_	28	mark	_	_
-27	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
-28	seguro	seguro	ADJ	ADJ	Gender=Masc|Number=Sing	21	advcl	_	_
+25	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
+26	aunque	aunque	SCONJ	SCONJ	_	27	mark	_	_
+27	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+28	seguro	seguro	ADJ	ADJ	Gender=Masc|Number=Sing	27	xcomp	_	_
 29	que	que	SCONJ	SCONJ	_	39	mark	_	_
 30	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	laboristas	laborista	NOUN	NOUN	Number=Plur	39	nsubj	_	SpaceAfter=No
@@ -35193,7 +35193,7 @@
 36	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	37	case	_	_
 37	Storting	Storting	PROPN	PROPN	_	35	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	_
-39	gobernarán	gobernar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	28	csubj	_	_
+39	gobernarán	gobernar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	27	csubj	_	_
 40	en	en	ADP	ADP	AdpType=Prep	41	case	_	_
 41	solitario	solitario	ADJ	ADJ	Gender=Masc|Number=Sing	39	advmod	_	_
 42	con	con	ADP	ADP	AdpType=Prep	45	case	_	_

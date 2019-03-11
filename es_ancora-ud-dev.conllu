@@ -2179,21 +2179,21 @@
 # sent_id = dev-s55
 # text = Anoche, en el Calderón, el Real Madrid parecía recién llegado de Chiapas.
 # orig_file_sentence 001#55
-1	Anoche	anoche	ADV	ADV	_	12	advmod	_	SpaceAfter=No
+1	Anoche	anoche	ADV	ADV	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 3	en	en	ADP	ADP	AdpType=Prep	5	case	_	_
 4	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Calderón	Calderón	PROPN	PROPN	_	12	obl	_	SpaceAfter=No
+5	Calderón	Calderón	PROPN	PROPN	_	10	obl	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Real	Real	PROPN	PROPN	_	12	nsubj	_	MWE=Real_Madrid|MWEPOS=PROPN
+8	Real	Real	PROPN	PROPN	_	10	nsubj	_	MWE=Real_Madrid|MWEPOS=PROPN
 9	Madrid	Madrid	PROPN	PROPN	_	8	flat	_	_
-10	parecía	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
-11	recién	recién	ADV	ADV	_	12	advmod	_	_
-12	llegado	llegado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+10	parecía	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	recién	recién	ADV	ADV	_	10	advmod	_	_
+12	llegado	llegado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	10	xcomp	_	_
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
-14	Chiapas	Chiapas	PROPN	PROPN	_	12	obl	_	SpaceAfter=No
-15	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
+14	Chiapas	Chiapas	PROPN	PROPN	_	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id = dev-s56
 # text = El Madrid se encontró con un adversario acalambrado y descoyuntado, y frente a un Atlético así el Madrid de los buenos tiempos, aquel Madrid al que quisimos tanto, habría hecho virguerías, habría desplegado una lección de poderío y clase, se habría puesto antipático como sólo un señor puede ponerse.
@@ -2323,29 +2323,29 @@
 # sent_id = dev-s59
 # text = Anoche todo el Madrid parecía haberse olvidado de que es el Madrid, parecía a salvo no sólo de sus calamidades, sino también de su historia, y se portó como un hombre.
 # orig_file_sentence 001#59
-1	Anoche	anoche	ADV	ADV	_	8	advmod	_	_
+1	Anoche	anoche	ADV	ADV	_	5	advmod	_	_
 2	todo	todo	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	Madrid	Madrid	PROPN	PROPN	_	8	nsubj	_	_
-5	parecía	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+4	Madrid	Madrid	PROPN	PROPN	_	5	nsubj	_	_
+5	parecía	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6-7	haberse	_	_	_	_	_	_	_	_
-6	haber	haber	AUX	AUX	VerbForm=Inf	8	aux	_	_
+6	haber	haber	AUX	AUX	VerbForm=Inf	5	aux	_	_
 7	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	obj	_	_
-8	olvidado	olvidar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	olvidado	olvidar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
 9	de	de	ADP	ADP	AdpType=Prep	13	mark	_	_
 10	que	que	SCONJ	SCONJ	_	13	mark	_	_
 11	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Madrid	Madrid	PROPN	PROPN	_	8	ccomp	_	SpaceAfter=No
-14	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
-15	parecía	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
-16	a	a	ADP	ADP	AdpType=Prep	8	advcl	_	MWE=a_salvo|MWEPOS=ADV
+14	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	_
+15	parecía	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+16	a	a	ADP	ADP	AdpType=Prep	15	xcomp	_	MWE=a_salvo|MWEPOS=ADV
 17	salvo	salvo	NOUN	NOUN	_	16	fixed	_	_
 18	no	no	PART	PART	_	22	cc	_	MWE=no_sólo|MWEPOS=ADV
 19	sólo	sólo	ADV	ADV	_	18	fixed	_	_
 20	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 21	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	det	_	_
-22	calamidades	calamidad	NOUN	NOUN	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+22	calamidades	calamidad	NOUN	NOUN	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	PunctType=Comm	28	punct	_	_
 24	sino	sino	CCONJ	CCONJ	_	28	cc	_	MWE=sino_también|MWEPOS=CCONJ
 25	también	también	NOUN	NOUN	_	24	fixed	_	_
@@ -2359,7 +2359,7 @@
 33	como	como	SCONJ	SCONJ	_	35	mark	_	_
 34	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	hombre	hombre	NOUN	NOUN	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
-36	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
+36	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s60
 # text = Por supuesto, el Real Madrid puede hacer otra vez el ridículo el domingo que viene, porque este Real Madrid no es de fiar, pero al menos anoche fue capaz de exhibir el cuajo bravío y la estética compulsiva de los insurgentes.
@@ -3554,15 +3554,15 @@
 2	todo	todo	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	ese	ese	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	lapso	lapso	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
-5	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
-6	que	que	PRON	PRON	PronType=Rel	9	nsubj	_	_
-7	pareció	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
-8	muy	mucho	ADV	ADV	_	9	advmod	_	_
-9	largo	largo	ADJ	ADJ	Gender=Masc|Number=Sing	4	acl	_	_
+5	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
+6	que	que	PRON	PRON	PronType=Rel	7	nsubj	_	_
+7	pareció	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	_
+8	muy	mucho	ADV	ADV	_	7	advmod	_	_
+9	largo	largo	ADJ	ADJ	Gender=Masc|Number=Sing	7	xcomp	_	_
 10	y	y	CCONJ	CCONJ	_	12	cc	_	_
 11	muy	mucho	ADV	ADV	_	12	advmod	_	_
 12	corto	corto	ADJ	ADJ	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
-13	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
+13	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Madrid	Madrid	PROPN	PROPN	_	18	nsubj	_	_
 16	fue	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
@@ -7550,11 +7550,11 @@
 2	vecina	vecina	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	nos	yo	PRON	PRON	Case=Acc,Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	4	iobj	_	_
 4	dijo	decir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	:	:	PUNCT	PUNCT	PunctType=Colo	9	punct	_	_
-6	-	-	PUNCT	PUNCT	PunctType=Dash	9	punct	_	_
-7	Parecía	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+5	:	:	PUNCT	PUNCT	PunctType=Colo	7	punct	_	_
+6	-	-	PUNCT	PUNCT	PunctType=Dash	7	punct	_	_
+7	Parecía	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
 8	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	cura	cura	NOUN	NOUN	Gender=Masc|Number=Sing	4	ccomp	_	_
+9	cura	cura	NOUN	NOUN	Gender=Masc|Number=Sing	7	xcomp	_	_
 10	o	o	CCONJ	CCONJ	_	11	cc	_	_
 11	algo	algo	PRON	PRON	Number=Sing|PronType=Ind	9	conj	_	_
 12	así	así	ADV	ADV	_	11	advmod	_	_
@@ -8710,15 +8710,15 @@
 24	de	de	ADP	ADP	AdpType=Prep	25	case	_	_
 25	ciudadanos	ciudadano	NOUN	NOUN	Gender=Masc|Number=Plur	23	nmod	_	_
 26	negros	negro	ADJ	ADJ	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
-27	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
-28	muchos	mucho	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	34	nsubj	_	_
+27	,	,	PUNCT	PUNCT	PunctType=Comm	33	punct	_	_
+28	muchos	mucho	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	33	nsubj	_	_
 29	de	de	ADP	ADP	AdpType=Prep	31	case	_	_
 30	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	cuales	cual	PRON	PRON	Number=Plur|PronType=Rel	28	nmod	_	_
-32	"	"	PUNCT	PUNCT	PunctType=Quot	34	punct	_	SpaceAfter=No
-33	parecen	parecer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
-34	haitianos	haitiano	ADJ	ADJ	Gender=Masc|Number=Plur	25	acl	_	SpaceAfter=No
-35	"	"	PUNCT	PUNCT	PunctType=Quot	34	punct	_	_
+32	"	"	PUNCT	PUNCT	PunctType=Quot	33	punct	_	SpaceAfter=No
+33	parecen	parecer	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	_
+34	haitianos	haitiano	ADJ	ADJ	Gender=Masc|Number=Plur	33	xcomp	_	SpaceAfter=No
+35	"	"	PUNCT	PUNCT	PunctType=Quot	37	punct	_	_
 36	según	según	SCONJ	SCONJ	_	37	mark	_	_
 37	aseguran	asegurar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	_
 38	testigos	testigo	NOUN	NOUN	Gender=Masc|Number=Plur	37	nsubj	_	_
@@ -15718,17 +15718,17 @@
 # orig_file_sentence 005#46
 1	Pascual	Pascual	PROPN	PROPN	_	2	nsubj	_	_
 2	aclaró	aclarar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	que	que	SCONJ	SCONJ	_	13	mark	_	_
-4	"	"	PUNCT	PUNCT	PunctType=Quot	13	punct	_	SpaceAfter=No
+3	que	que	SCONJ	SCONJ	_	11	mark	_	_
+4	"	"	PUNCT	PUNCT	PunctType=Quot	11	punct	_	SpaceAfter=No
 5	cuando	cuando	SCONJ	SCONJ	_	7	mark	_	_
 6	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	obj	_	_
 7	produzca	producir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	fusión	fusión	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
-11	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 12	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
-13	recibo	recibo	NOUN	NOUN	Gender=Masc|Number=Sing	2	ccomp	_	_
+13	recibo	recibo	NOUN	NOUN	Gender=Masc|Number=Sing	11	xcomp	_	_
 14	que	que	SCONJ	SCONJ	_	25	mark	_	_
 15	en	en	ADP	ADP	AdpType=Prep	17	case	_	_
 16	aquellos	aquel	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	17	det	_	_
@@ -15740,7 +15740,7 @@
 22	e	e	CCONJ	CCONJ	_	23	cc	_	_
 23	Iberia	Iberia	PROPN	PROPN	_	20	conj	_	SpaceAfter=No
 24	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
-25	dejen	dejar	VERB	VERB	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	13	csubj	_	_
+25	dejen	dejar	VERB	VERB	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	11	csubj	_	_
 26	libre	libre	ADJ	ADJ	Number=Sing	25	obj	_	_
 27	uno	uno	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	25	obj	_	_
 28	de	de	ADP	ADP	AdpType=Prep	31	case	_	_
@@ -15762,7 +15762,7 @@
 44	Coruña	Coruña	PROPN	PROPN	_	40	nmod	_	_
 45	o	o	CCONJ	CCONJ	_	46	cc	_	_
 46	Jerez	Jerez	PROPN	PROPN	_	44	conj	_	SpaceAfter=No
-47	"	"	PUNCT	PUNCT	PunctType=Quot	13	punct	_	SpaceAfter=No
+47	"	"	PUNCT	PUNCT	PunctType=Quot	11	punct	_	SpaceAfter=No
 48	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id = dev-s447
@@ -31994,13 +31994,13 @@
 24	propuesta	propuesta	NOUN	NOUN	Gender=Fem|Number=Sing	17	ccomp	_	_
 25	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	26	case	_	_
 26	PSOE	PSOE	PROPN	PROPN	_	24	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
-28	porque	porque	SCONJ	SCONJ	_	32	mark	_	_
+27	,	,	PUNCT	PUNCT	PunctType=Comm	30	punct	_	_
+28	porque	porque	SCONJ	SCONJ	_	30	mark	_	_
 29	les	él	PRON	PRON	Case=Dat|Number=Plur|Person=3|PronType=Prs	32	obj	_	_
-30	parecía	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	cop	_	_
-31	"	"	PUNCT	PUNCT	PunctType=Quot	32	punct	_	SpaceAfter=No
-32	razonable	razonable	ADJ	ADJ	Number=Sing	24	advcl	_	SpaceAfter=No
-33	"	"	PUNCT	PUNCT	PunctType=Quot	32	punct	_	_
+30	parecía	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	_
+31	"	"	PUNCT	PUNCT	PunctType=Quot	30	punct	_	SpaceAfter=No
+32	razonable	razonable	ADJ	ADJ	Number=Sing	30	xcomp	_	SpaceAfter=No
+33	"	"	PUNCT	PUNCT	PunctType=Quot	39	punct	_	_
 34	y	y	CCONJ	CCONJ	_	39	cc	_	_
 35	"	"	PUNCT	PUNCT	PunctType=Quot	39	punct	_	SpaceAfter=No
 36	era	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	cop	_	_
@@ -35788,11 +35788,11 @@
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	técnico	técnico	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
 17	optará	optar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	conj	_	SpaceAfter=No
-18	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
-19	como	como	SCONJ	SCONJ	_	21	mark	_	_
-20	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
-21	probable	probable	ADJ	ADJ	Number=Sing	17	advcl	_	SpaceAfter=No
-22	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
+18	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
+19	como	como	SCONJ	SCONJ	_	20	mark	_	_
+20	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+21	probable	probable	ADJ	ADJ	Number=Sing	20	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 23	por	por	ADP	ADP	AdpType=Prep	24	mark	_	_
 24	mantener	mantener	VERB	VERB	VerbForm=Inf	17	xcomp	_	_
 25	a	a	ADP	ADP	AdpType=Prep	26	case	_	_
@@ -36248,13 +36248,13 @@
 15	hecho	hacer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
 16	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	dueños	dueño	NOUN	NOUN	Gender=Masc|Number=Plur	15	nsubj	_	_
-18	para	para	ADP	ADP	AdpType=Prep	24	mark	_	_
-19	que	que	SCONJ	SCONJ	_	24	mark	_	_
+18	para	para	ADP	ADP	AdpType=Prep	22	mark	_	_
+19	que	que	SCONJ	SCONJ	_	22	mark	_	_
 20	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	sala	sala	NOUN	NOUN	Gender=Fem|Number=Sing	24	nsubj	_	_
-22	pareciera	parecer	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	cop	_	_
+21	sala	sala	NOUN	NOUN	Gender=Fem|Number=Sing	22	nsubj	_	_
+22	pareciera	parecer	VERB	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
 23	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	cueva	cueva	NOUN	NOUN	Gender=Fem|Number=Sing	15	advcl	_	_
+24	cueva	cueva	NOUN	NOUN	Gender=Fem|Number=Sing	22	xcomp	_	_
 25	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 26	vicio	vicio	NOUN	NOUN	Gender=Masc|Number=Sing	24	nmod	_	_
 27	y	y	CCONJ	CCONJ	_	28	cc	_	_
@@ -39505,23 +39505,23 @@
 # sent_id = dev-s1054
 # text = - - ¿Le parece aprovechable la recuperación de la música popular cubana? - -.
 # orig_file_sentence 011#54
-1	-	-	PUNCT	PUNCT	PunctType=Dash	6	punct	_	_
-2	-	-	PUNCT	PUNCT	PunctType=Dash	6	punct	_	_
-3	¿	¿	PUNCT	PUNCT	PunctSide=Ini|PunctType=Qest	6	punct	_	SpaceAfter=No
+1	-	-	PUNCT	PUNCT	PunctType=Dash	5	punct	_	_
+2	-	-	PUNCT	PUNCT	PunctType=Dash	5	punct	_	_
+3	¿	¿	PUNCT	PUNCT	PunctSide=Ini|PunctType=Qest	5	punct	_	SpaceAfter=No
 4	Le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
-5	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-6	aprovechable	aprovechable	ADJ	ADJ	Number=Sing	0	root	_	_
+5	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	aprovechable	aprovechable	ADJ	ADJ	Number=Sing	5	xcomp	_	_
 7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	recuperación	recuperación	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+8	recuperación	recuperación	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 9	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 10	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	música	música	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
 12	popular	popular	ADJ	ADJ	Number=Sing	11	amod	_	_
 13	cubana	cubano	ADJ	ADJ	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
-14	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	6	punct	_	_
-15	-	-	PUNCT	PUNCT	PunctType=Dash	6	punct	_	_
-16	-	-	PUNCT	PUNCT	PunctType=Dash	6	punct	_	SpaceAfter=No
-17	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
+14	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	5	punct	_	_
+15	-	-	PUNCT	PUNCT	PunctType=Dash	5	punct	_	_
+16	-	-	PUNCT	PUNCT	PunctType=Dash	5	punct	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s1055
 # text = Cuando Santiago Auserón, que me parece la persona más preclara, empezó a rescatarla me pareció maravilloso.
@@ -39529,24 +39529,24 @@
 1	Cuando	cuando	SCONJ	SCONJ	_	15	mark	_	_
 2	Santiago	Santiago	PROPN	PROPN	_	15	nsubj	_	MWE=Santiago_Auserón|MWEPOS=PROPN
 3	Auserón	Auserón	PROPN	PROPN	_	2	flat	_	SpaceAfter=No
-4	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
-5	que	que	PRON	PRON	PronType=Rel	9	nsubj	_	_
+4	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
+5	que	que	PRON	PRON	PronType=Rel	7	nsubj	_	_
 6	me	yo	PRON	PRON	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	9	obj	_	_
-7	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	persona	persona	NOUN	NOUN	Gender=Fem|Number=Sing	2	acl	_	_
+9	persona	persona	NOUN	NOUN	Gender=Fem|Number=Sing	7	xcomp	_	_
 10	más	más	ADV	ADV	_	11	advmod	_	_
 11	preclara	preclaro	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
-12	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
+12	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 13	empezó	empezar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 14	a	a	ADP	ADP	AdpType=Prep	15	mark	_	_
 15-16	rescatarla	_	_	_	_	_	_	_	_
 15	rescatar	rescatar	VERB	VERB	VerbForm=Inf	19	advcl	_	_
 16	la	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	15	obj	_	_
 17	me	yo	PRON	PRON	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	19	obj	_	_
-18	pareció	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
-19	maravilloso	maravilloso	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-20	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
+18	pareció	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	maravilloso	maravilloso	ADJ	ADJ	Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
 
 # sent_id = dev-s1056
 # text = Pero el exceso te cansa y acabas deseando ver a un grupo de chavales de 16 años que peguen alaridos o que utilicen 400 samplers.
@@ -39630,11 +39630,11 @@
 4	ningún	ninguno	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
 5	grupo	grupo	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
 6	nuevo	nuevo	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
-7	que	que	PRON	PRON	PronType=Rel	11	nsubj	_	_
+7	que	que	PRON	PRON	PronType=Rel	9	nsubj	_	_
 8	me	yo	PRON	PRON	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	11	obj	_	_
-9	parezca	parecer	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	parezca	parecer	VERB	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
 10	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	bombazo	bombazo	NOUN	NOUN	Gender=Masc|Number=Sing	5	acl	_	SpaceAfter=No
+11	bombazo	bombazo	NOUN	NOUN	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s1060
@@ -39748,11 +39748,11 @@
 22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 23	gente	gente	NOUN	NOUN	Gender=Fem|Number=Sing	21	obj	_	_
 24	española	español	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	_
-25	y	y	CCONJ	CCONJ	_	29	cc	_	_
+25	y	y	CCONJ	CCONJ	_	27	cc	_	_
 26	me	yo	PRON	PRON	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	29	obj	_	_
-27	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
-28	poco	poco	ADV	ADV	_	29	advmod	_	_
-29	ético	ético	ADJ	ADJ	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+27	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+28	poco	poco	ADV	ADV	_	27	advmod	_	_
+29	ético	ético	ADJ	ADJ	Gender=Masc|Number=Sing	27	xcomp	_	SpaceAfter=No
 30	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s1065
@@ -49450,12 +49450,12 @@
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	rey	rey	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 7	que	que	PRON	PRON	PronType=Rel	16	nsubj	_	SpaceAfter=No
-8	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
-9	aunque	aunque	SCONJ	SCONJ	_	12	mark	_	_
-10	parezca	parecer	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+8	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
+9	aunque	aunque	SCONJ	SCONJ	_	10	mark	_	_
+10	parezca	parecer	VERB	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 11	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	contrasentido	contrasentido	NOUN	NOUN	Gender=Masc|Number=Sing	16	advcl	_	SpaceAfter=No
-13	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
+12	contrasentido	contrasentido	NOUN	NOUN	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 14	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	_	_
 15	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	convertido	convertir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
@@ -50078,13 +50078,13 @@
 # orig_file_sentence 014#73
 1	Ante	ante	ADP	ADP	AdpType=Prep	3	case	_	_
 2	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-3	panorama	panorama	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+3	panorama	panorama	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 5	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	reforma	reforma	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	reforma	reforma	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
 7	parlamentaria	parlamentario	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
-8	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-9	imperativa	imperativo	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+8	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	imperativa	imperativo	ADJ	ADJ	Gender=Fem|Number=Sing	8	xcomp	_	_
 10	para	para	ADP	ADP	AdpType=Prep	12	case	_	_
 11	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	rey	rey	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
@@ -50104,7 +50104,7 @@
 26	en	en	ADP	ADP	AdpType=Prep	27	case	_	_
 27	Marruecos	Marruecos	PROPN	PROPN	_	23	nmod	_	SpaceAfter=No
 28	"	"	PUNCT	PUNCT	PunctType=Quot	23	punct	_	SpaceAfter=No
-29	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
+29	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s1374
 # text = Mohamed VI ha entendido que la reforma que pretende realizar no puede hacerse desde dentro del sistema acuñado por su padre.
@@ -52598,11 +52598,11 @@
 29	nada	nada	PRON	PRON	Number=Sing|PronType=Ind	30	nsubj	_	_
 30	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	_
 31	lo	él	PRON	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	32	det	_	_
-32	que	que	PRON	PRON	PronType=Rel	30	ccomp	_	_
-33	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+32	que	que	PRON	PRON	PronType=Rel	33	xcomp	_	_
+33	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	_	_
 34	en	en	ADP	ADP	AdpType=Prep	36	case	_	_
 35	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	fútbol	fútbol	NOUN	NOUN	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+36	fútbol	fútbol	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
 37	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s1449
@@ -53057,12 +53057,12 @@
 8	estudioso	estudioso	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
 9	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	10	case	_	_
 10	fútbol	fútbol	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
-12	más	más	ADV	ADV	_	16	advmod	_	MWE=más_bien|MWEPOS=ADV
+11	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
+12	más	más	ADV	ADV	_	14	advmod	_	MWE=más_bien|MWEPOS=ADV
 13	bien	bien	ADV	ADV	_	12	fixed	_	_
-14	parece	parecer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	parece	parecer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 15	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	bonvivant	bonvivant	NOUN	NOUN	_	5	advcl	_	SpaceAfter=No
+16	bonvivant	bonvivant	NOUN	NOUN	_	14	xcomp	_	SpaceAfter=No
 17	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 18	pero	pero	CCONJ	CCONJ	_	21	cc	_	_
 19	que	que	PRON	PRON	PronType=Rel	21	nsubj	_	_
