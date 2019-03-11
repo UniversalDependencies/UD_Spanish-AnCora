@@ -353,12 +353,12 @@
 13	Defensoría	Defensoría	PROPN	PROPN	_	10	nmod	_	MWE=Defensoría_del_Pueblo|MWEPOS=PROPN
 14	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	15	case	_	_
 15	Pueblo	Pueblo	PROPN	PROPN	_	13	flat	_	_
-16	para	para	ADP	ADP	AdpType=Prep	21	mark	_	_
-17	evitar	evitar	AUX	AUX	VerbForm=Inf	21	aux	_	_
+16	para	para	ADP	ADP	AdpType=Prep	17	mark	_	_
+17	evitar	evitar	VERB	AUX	VerbForm=Inf	8	advcl	_	_
 18	que	que	SCONJ	SCONJ	_	21	mark	_	_
 19	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Congresillo	Congresillo	PROPN	PROPN	_	21	nsubj	_	_
-21	designe	designar	VERB	VERB	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+21	designe	designar	VERB	VERB	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
 22	"	"	PUNCT	PUNCT	PunctType=Quot	23	punct	_	SpaceAfter=No
 23	a	a	ADP	ADP	AdpType=Prep	21	advmod	_	MWE=a_dedo|MWEPOS=ADV
 24	dedo	dedo	NOUN	NOUN	_	23	fixed	_	SpaceAfter=No
@@ -8903,8 +8903,8 @@
 33	cabo	cabo	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound	_	_
 34	estas	este	DET	DET	Gender=Fem|Number=Plur|PronType=Dem	35	det	_	_
 35	acciones	acción	NOUN	NOUN	Gender=Fem|Number=Plur	31	obj	_	_
-36	para	para	ADP	ADP	AdpType=Prep	57	mark	_	_
-37	evitar	evitar	AUX	AUX	VerbForm=Inf	57	aux	_	_
+36	para	para	ADP	ADP	AdpType=Prep	37	mark	_	_
+37	evitar	evitar	VERB	AUX	VerbForm=Inf	31	advcl	_	_
 38	que	que	SCONJ	SCONJ	_	57	mark	_	_
 39	opositores	opositor	NOUN	NOUN	Gender=Masc|Number=Plur	57	nsubj	_	_
 40	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	41	case	_	_
@@ -8924,7 +8924,7 @@
 54	Medina	Medina	PROPN	PROPN	_	53	flat	_	SpaceAfter=No
 55	,	,	PUNCT	PUNCT	PunctType=Comm	53	punct	_	_
 56	puedan	poder	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	57	aux	_	_
-57	votar	votar	VERB	VERB	VerbForm=Inf	31	advcl	_	SpaceAfter=No
+57	votar	votar	VERB	VERB	VerbForm=Inf	37	ccomp	_	SpaceAfter=No
 58	.	.	PUNCT	PUNCT	PunctType=Peri	27	punct	_	_
 
 # sent_id = dev-s294
