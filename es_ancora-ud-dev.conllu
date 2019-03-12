@@ -41986,11 +41986,11 @@
 2	y	y	CCONJ	CCONJ	_	3	cc	_	_
 3	taciturno	taciturno	ADJ	ADJ	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
-5	Cúper	Cúper	PROPN	PROPN	_	9	nsubj	_	_
-6	no	no	ADV	ADV	Polarity=Neg	9	advmod	_	_
-7	trata	tratar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+5	Cúper	Cúper	PROPN	PROPN	_	7	nsubj	_	_
+6	no	no	ADV	ADV	Polarity=Neg	7	advmod	_	_
+7	trata	tratar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	de	de	ADP	ADP	AdpType=Prep	9	mark	_	_
-9	convencer	convencer	VERB	VERB	VerbForm=Inf	0	root	_	_
+9	convencer	convencer	VERB	VERB	VerbForm=Inf	7	xcomp	_	_
 10	a	a	ADP	ADP	AdpType=Prep	11	case	_	_
 11	nadie	nadie	PRON	PRON	Number=Sing|PronType=Ind	9	obj	_	_
 12	con	con	ADP	ADP	AdpType=Prep	15	mark	_	_
@@ -42009,7 +42009,7 @@
 25	en	en	ADP	ADP	AdpType=Prep	27	case	_	_
 26	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	campo	campo	NOUN	NOUN	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
-28	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
+28	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s1129
 # text = Y nada de lo que hoy es el equipo neriazzurro tiene que ver con el pasado.
