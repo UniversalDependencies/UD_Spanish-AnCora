@@ -38655,13 +38655,13 @@
 # sent_id = test-s971
 # text = Porque, a pesar de sus cientos de títulos, de victorias, de fichajes, de millones, no acaban de cautivar a la afición.
 # orig_file_sentence 010#70
-1	Porque	porque	SCONJ	SCONJ	_	23	mark	_	SpaceAfter=No
+1	Porque	porque	SCONJ	SCONJ	_	21	mark	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 3	a	a	ADP	ADP	AdpType=Prep	7	case	_	MWE=a_pesar_de|MWEPOS=ADP
 4	pesar	pesar	NOUN	NOUN	_	3	fixed	_	_
 5	de	de	ADP	ADP	AdpType=Prep	3	fixed	_	_
 6	sus	su	PRON	PRON	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod	_	_
-7	cientos	ciento	NUM	NUM	Number=Plur|NumType=Card	23	obl	_	_
+7	cientos	ciento	NUM	NUM	Number=Plur|NumType=Card	21	obl	_	_
 8	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 9	títulos	título	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
@@ -38674,14 +38674,14 @@
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 18	millones	millón	NOUN	NOUN	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
-20	no	no	ADV	ADV	Polarity=Neg	23	advmod	_	_
-21	acaban	acabar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+20	no	no	ADV	ADV	Polarity=Neg	21	advmod	_	_
+21	acaban	acabar	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 22	de	de	ADP	ADP	AdpType=Prep	23	mark	_	_
-23	cautivar	cautivar	VERB	VERB	VerbForm=Inf	0	root	_	_
+23	cautivar	cautivar	VERB	VERB	VerbForm=Inf	21	xcomp	_	_
 24	a	a	ADP	ADP	AdpType=Prep	26	case	_	_
 25	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	afición	afición	NOUN	NOUN	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
-27	.	.	PUNCT	PUNCT	PunctType=Peri	23	punct	_	_
+27	.	.	PUNCT	PUNCT	PunctType=Peri	21	punct	_	_
 
 # sent_id = test-s972
 # text = Temer al Camp Nou es temer algo más que al entorno.
@@ -38876,11 +38876,11 @@
 20	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	22	case	_	_
 21	mejor	mejor	ADJ	ADJ	Number=Sing	22	amod	_	_
 22	Ajax	Ajax	PROPN	PROPN	_	19	nmod	_	_
-23	que	que	PRON	PRON	PronType=Rel	27	nsubj	_	_
-24	no	no	ADV	ADV	Polarity=Neg	27	advmod	_	_
-25	acaba	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+23	que	que	PRON	PRON	PronType=Rel	25	nsubj	_	_
+24	no	no	ADV	ADV	Polarity=Neg	25	advmod	_	_
+25	acaba	acabar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	_
 26	de	de	ADP	ADP	AdpType=Prep	27	mark	_	_
-27	cuajar	cuajar	VERB	VERB	VerbForm=Inf	22	acl	_	_
+27	cuajar	cuajar	VERB	VERB	VerbForm=Inf	25	xcomp	_	_
 28	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	31	punct	_	SpaceAfter=No
 29	Van	Van	PROPN	PROPN	_	31	nsubj	_	MWE=Van_Gaal|MWEPOS=PROPN
 30	Gaal	Gaal	PROPN	PROPN	_	29	flat	_	_
@@ -48918,19 +48918,19 @@
 5	reduciendo	reducir	VERB	VERB	VerbForm=Ger	3	csubj	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	desempleo	desempleo	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
-8	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
-9	que	que	PRON	PRON	PronType=Rel	18	nsubj	_	_
+8	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
+9	que	que	PRON	PRON	PronType=Rel	16	nsubj	_	_
 10	por	por	ADP	ADP	AdpType=Prep	12	case	_	_
 11	primera	primero	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
-12	vez	vez	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+12	vez	vez	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
 13	en	en	ADP	ADP	AdpType=Prep	15	case	_	_
 14	ocho	ocho	NUM	NUM	Number=Plur|NumType=Card	15	nummod	_	_
 15	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	12	nmod	_	_
-16	acaba	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	acaba	acabar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_
 17	de	de	ADP	ADP	AdpType=Prep	18	mark	_	_
-18	bajar	bajar	VERB	VERB	VerbForm=Inf	7	acl	_	_
+18	bajar	bajar	VERB	VERB	VerbForm=Inf	16	xcomp	_	_
 19	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	20	case	_	_
-20	10%	10/100	SYM	SYM	NumForm=Digit|NumType=Frac	18	obl	_	SpaceAfter=No
+20	10%	10/100	SYM	SYM	NumForm=Digit|NumType=Frac	16	obl	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 22	y	y	CCONJ	CCONJ	_	24	cc	_	_
 23	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_

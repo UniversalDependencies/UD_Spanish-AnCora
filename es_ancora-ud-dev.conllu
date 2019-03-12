@@ -1884,16 +1884,16 @@
 8	alarmante	alarmante	ADJ	ADJ	Number=Sing	6	conj	_	SpaceAfter=No
 9	:	:	PUNCT	PUNCT	PunctType=Colo	10	punct	_	_
 10	significaba	significar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
-11	que	que	SCONJ	SCONJ	_	17	mark	_	_
+11	que	que	SCONJ	SCONJ	_	15	mark	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	ola	ola	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
+13	ola	ola	NOUN	NOUN	Gender=Fem|Number=Sing	15	nsubj	_	_
 14	racista	racista	ADJ	ADJ	Number=Sing	13	amod	_	_
-15	acababa	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+15	acababa	acabar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	xcomp	_	_
 16	de	de	ADP	ADP	AdpType=Prep	17	mark	_	_
-17	llegar	llegar	VERB	VERB	VerbForm=Inf	10	xcomp	_	_
+17	llegar	llegar	VERB	VERB	VerbForm=Inf	15	xcomp	_	_
 18	hasta	hasta	ADP	ADP	AdpType=Prep	20	case	_	_
 19	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
-20	belenes	belén	NOUN	NOUN	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+20	belenes	belén	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id = dev-s48
@@ -5740,12 +5740,12 @@
 6	de	de	ADP	ADP	AdpType=Prep	7	case	_	_
 7	judías	judía	NOUN	NOUN	Gender=Fem|Number=Plur	5	nmod	_	_
 8	que	que	PRON	PRON	PronType=Rel	11	obj	_	_
-9	acaban	acabar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	acaban	acabar	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
 10	de	de	ADP	ADP	AdpType=Prep	11	mark	_	_
-11	repartir	repartir	VERB	VERB	VerbForm=Inf	5	acl	_	_
+11	repartir	repartir	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
 12	desde	desde	ADP	ADP	AdpType=Prep	14	case	_	_
 13	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	vehículo	vehículo	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+14	vehículo	vehículo	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
 15	municipal	municipal	ADJ	ADJ	Number=Sing	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
@@ -8209,14 +8209,14 @@
 # sent_id = dev-s275
 # text = Acababa de cumplir cuarenta y un años.
 # orig_file_sentence 003#75
-1	Acababa	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+1	Acababa	acabar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	de	de	ADP	ADP	AdpType=Prep	3	mark	_	_
-3	cumplir	cumplir	VERB	VERB	VerbForm=Inf	0	root	_	_
+3	cumplir	cumplir	VERB	VERB	VerbForm=Inf	1	xcomp	_	_
 4	cuarenta	cuarenta	NUM	NUM	NumForm=Digit|NumType=Card	7	nummod	_	MWE=cuarenta_y_un|MWEPOS=NUM
 5	y	y	CCONJ	CCONJ	_	4	compound	_	_
 6	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Art	4	compound	_	_
 7	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
-8	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
+8	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id = dev-s276
 # text = Se le quemaron las tostadas y pensó en Auri, que estaría todavía en la cama, feliz ante la perspectiva de echar raíces entre las sábanas mientras le imaginaba en Salamanca, batallando con alguna oscura contrata.
@@ -40805,9 +40805,9 @@
 67	a	a	ADP	ADP	AdpType=Prep	69	case	_	_
 68	cuya	cuyo	PRON	PRON	Gender=Fem|Number=Sing|PronType=Rel	69	nmod	_	_
 69	presidencia	presidencia	NOUN	NOUN	Gender=Fem|Number=Sing	72	obj	_	_
-70	acaba	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	72	aux	_	_
+70	acaba	acabar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	66	acl	_	_
 71	de	de	ADP	ADP	AdpType=Prep	72	mark	_	_
-72	acceder	acceder	VERB	VERB	VerbForm=Inf	66	acl	_	SpaceAfter=No
+72	acceder	acceder	VERB	VERB	VerbForm=Inf	70	xcomp	_	SpaceAfter=No
 73	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s1103
