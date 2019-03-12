@@ -2683,12 +2683,12 @@
 41	cosas	cosa	NOUN	NOUN	Gender=Fem|Number=Plur	39	obj	_	_
 42	contra	contra	ADP	ADP	AdpType=Prep	43	case	_	_
 43	Sabas	Sabas	PROPN	PROPN	_	39	obl	_	_
-44	y	y	CCONJ	CCONJ	_	47	cc	_	_
+44	y	y	CCONJ	CCONJ	_	45	cc	_	_
 45-46	hacerle	_	_	_	_	_	_	_	_
-45	hacer	hacer	AUX	AUX	VerbForm=Inf	47	aux	_	_
-46	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	47	obj	_	_
-47	cometer	cometer	VERB	VERB	VerbForm=Inf	39	conj	_	_
-48	faltas	falta	NOUN	NOUN	Gender=Fem|Number=Plur	47	obj	_	SpaceAfter=No
+45	hacer	hacer	VERB	AUX	VerbForm=Inf	39	conj	_	_
+46	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	45	obj	_	_
+47	cometer	cometer	VERB	VERB	VerbForm=Inf	45	xcomp	_	_
+48	faltas	falta	NOUN	NOUN	Gender=Fem|Number=Plur	45	obj	_	SpaceAfter=No
 49	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id = dev-s68
@@ -3798,12 +3798,12 @@
 # sent_id = dev-s112
 # text = Pero sin hacer peligrar la integridad física de los ciclistas ni interferirse en guerras ajenas que nada pueden solucionar.
 # orig_file_sentence 002#12
-1	Pero	pero	CCONJ	CCONJ	_	4	mark	_	_
+1	Pero	pero	CCONJ	CCONJ	_	3	mark	_	_
 2	sin	sin	ADP	ADP	AdpType=Prep	1	fixed	_	_
-3	hacer	hacer	AUX	AUX	VerbForm=Inf	4	aux	_	_
-4	peligrar	peligrar	VERB	VERB	VerbForm=Inf	0	root	_	_
+3	hacer	hacer	VERB	AUX	VerbForm=Inf	0	root	_	_
+4	peligrar	peligrar	VERB	VERB	VerbForm=Inf	3	xcomp	_	_
 5	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	integridad	integridad	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+6	integridad	integridad	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
 7	física	físico	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
 8	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 9	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
@@ -3819,7 +3819,7 @@
 18	nada	nada	PRON	PRON	Number=Sing|PronType=Ind	20	obj	_	_
 19	pueden	poder	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	solucionar	solucionar	VERB	VERB	VerbForm=Inf	15	acl	_	SpaceAfter=No
-21	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
+21	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s113
 # text = Una desagradable anécdota.
@@ -6318,14 +6318,14 @@
 43	-	-	PUNCT	PUNCT	PunctType=Dash	42	punct	_	SpaceAfter=No
 44	,	,	PUNCT	PUNCT	PunctType=Comm	45	punct	_	_
 45	hay	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
-46	que	que	SCONJ	SCONJ	_	48	cc	_	_
-47	hacer	hacer	AUX	AUX	VerbForm=Inf	48	aux	_	_
-48	bailar	bailar	VERB	VERB	VerbForm=Inf	45	conj	_	_
+46	que	que	SCONJ	SCONJ	_	47	cc	_	_
+47	hacer	hacer	VERB	AUX	VerbForm=Inf	45	conj	_	_
+48	bailar	bailar	VERB	VERB	VerbForm=Inf	47	xcomp	_	_
 49	a	a	ADP	ADP	AdpType=Prep	50	case	_	_
-50	todos	todo	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	48	obj	_	_
+50	todos	todo	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	47	obj	_	_
 51	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	53	case	_	_
 52	mismo	mismo	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	53	det	_	_
-53	son	son	NOUN	NOUN	Gender=Masc|Number=Sing	48	obl	_	SpaceAfter=No
+53	son	son	NOUN	NOUN	Gender=Masc|Number=Sing	47	obl	_	SpaceAfter=No
 54	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s202
@@ -16648,15 +16648,15 @@
 # sent_id = dev-s468
 # text = Así, el primer gol no se hizo esperar y a los siete minutos Holsen, tras un gran pase de Lobatón se colocó por delante en el marcador.
 # orig_file_sentence 005#68
-1	Así	así	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+1	Así	así	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 3	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	primer	primero	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
-5	gol	gol	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
-6	no	no	ADV	ADV	Polarity=Neg	9	advmod	_	_
-7	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	_	_
-8	hizo	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
-9	esperar	esperar	VERB	VERB	VerbForm=Inf	0	root	_	_
+5	gol	gol	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	no	no	ADV	ADV	Polarity=Neg	8	advmod	_	_
+7	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	obj	_	_
+8	hizo	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	esperar	esperar	VERB	VERB	VerbForm=Inf	8	xcomp	_	_
 10	y	y	CCONJ	CCONJ	_	24	cc	_	_
 11	a	a	ADP	ADP	AdpType=Prep	14	case	_	_
 12	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
@@ -16677,7 +16677,7 @@
 27	en	en	ADP	ADP	AdpType=Prep	29	case	_	_
 28	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	marcador	marcador	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
-30	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
+30	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s469
 # text = Lejos de echarse atrás y defender su ventaja, la selección continuó presionando y cuando Soto se iba derecho a la portería hondureña fue agarrado en falta por Lagos.
@@ -29933,12 +29933,12 @@
 20	61	61	NUM	NUM	NumForm=Digit|NumType=Card	21	nummod	_	_
 21	votos	voto	NOUN	NOUN	Gender=Masc|Number=Plur	18	obj	_	_
 22	necesarios	necesario	ADJ	ADJ	Gender=Masc|Number=Plur	21	amod	_	_
-23	para	para	ADP	ADP	AdpType=Prep	25	mark	_	_
-24	hacer	hacer	AUX	AUX	VerbForm=Inf	25	aux	_	_
-25	caer	caer	VERB	VERB	VerbForm=Inf	21	acl	_	_
+23	para	para	ADP	ADP	AdpType=Prep	24	mark	_	_
+24	hacer	hacer	VERB	AUX	VerbForm=Inf	21	acl	_	_
+25	caer	caer	VERB	VERB	VerbForm=Inf	24	xcomp	_	_
 26	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	28	case	_	_
 27	primer	primero	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	28	amod	_	_
-28	ministro	ministro	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	ministro	ministro	NOUN	NOUN	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s772
@@ -41854,7 +41854,7 @@
 1	Con	con	ADP	ADP	AdpType=Prep	4	case	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	misma	mismo	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
-4	humildad	humildad	NOUN	NOUN	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+4	humildad	humildad	NOUN	NOUN	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 6	prudencia	prudencia	NOUN	NOUN	Gender=Fem|Number=Sing	4	conj	_	_
 7	y	y	CCONJ	CCONJ	_	8	cc	_	_
@@ -41875,15 +41875,15 @@
 22	Valencia	Valencia	PROPN	PROPN	_	18	conj	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 24	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	efecto	efecto	NOUN	NOUN	Gender=Masc|Number=Sing	31	nsubj	_	_
+25	efecto	efecto	NOUN	NOUN	Gender=Masc|Number=Sing	30	nsubj	_	_
 26	Cúper	Cúper	PROPN	PROPN	_	25	appos	_	_
-27	también	también	ADV	ADV	_	31	advmod	_	_
-28	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	31	obj	_	_
-29	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
-30	hecho	hacer	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	aux	_	_
-31	notar	notar	VERB	VERB	VerbForm=Inf	0	root	_	_
+27	también	también	ADV	ADV	_	30	advmod	_	_
+28	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	30	obj	_	_
+29	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	hecho	hacer	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+31	notar	notar	VERB	VERB	VerbForm=Inf	30	xcomp	_	_
 32	en	en	ADP	ADP	AdpType=Prep	33	case	_	_
-33	Milán	Milán	PROPN	PROPN	_	31	obl	_	SpaceAfter=No
+33	Milán	Milán	PROPN	PROPN	_	30	obl	_	SpaceAfter=No
 34	,	,	PUNCT	PUNCT	PunctType=Comm	39	punct	_	_
 35	con	con	ADP	ADP	AdpType=Prep	39	mark	_	_
 36	lo	él	PRON	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	39	det	_	_
@@ -41895,7 +41895,7 @@
 42	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	43	case	_	_
 43	técnico	técnico	NOUN	NOUN	Gender=Masc|Number=Sing	41	nmod	_	_
 44	argentino	argentino	ADJ	ADJ	Gender=Masc|Number=Sing	43	amod	_	SpaceAfter=No
-45	.	.	PUNCT	PUNCT	PunctType=Peri	31	punct	_	_
+45	.	.	PUNCT	PUNCT	PunctType=Peri	30	punct	_	_
 
 # sent_id = dev-s1125
 # text = En un vestuario convulsionado por los constantes cambios, Cúper ha obrado el milagro.
@@ -57474,19 +57474,19 @@
 32	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	pacto	pacto	NOUN	NOUN	Gender=Masc|Number=Sing	31	obj	_	_
 34	anti-Gil	anti-gil	ADJ	ADJ	_	33	amod	_	SpaceAfter=No
-35	,	,	PUNCT	PUNCT	PunctType=Comm	38	punct	_	_
-36	que	que	PRON	PRON	PronType=Rel	38	nsubj	_	_
-37	haría	hacer	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	38	aux	_	_
-38	perder	perder	VERB	VERB	VerbForm=Inf	33	acl	_	_
+35	,	,	PUNCT	PUNCT	PunctType=Comm	37	punct	_	_
+36	que	que	PRON	PRON	PronType=Rel	37	nsubj	_	_
+37	haría	hacer	VERB	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	33	acl	_	_
+38	perder	perder	VERB	VERB	VerbForm=Inf	37	xcomp	_	_
 39	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	alcaldía	alcaldía	NOUN	NOUN	Gender=Fem|Number=Sing	38	obj	_	_
+40	alcaldía	alcaldía	NOUN	NOUN	Gender=Fem|Number=Sing	37	obj	_	_
 41	de	de	ADP	ADP	AdpType=Prep	42	case	_	_
 42	Estepona	Estepona	PROPN	PROPN	_	40	nmod	_	_
 43	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	44	punct	_	SpaceAfter=No
 44	Málaga	Málaga	PROPN	PROPN	_	42	flat	_	SpaceAfter=No
 45	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	44	punct	_	_
 46	a	a	ADP	ADP	AdpType=Prep	47	case	_	_
-47	Jesús	Jesús	PROPN	PROPN	_	38	obj	_	MWE=Jesús_Gil_Marín|MWEPOS=PROPN
+47	Jesús	Jesús	PROPN	PROPN	_	37	obj	_	MWE=Jesús_Gil_Marín|MWEPOS=PROPN
 48	Gil	Gil	PROPN	PROPN	_	47	flat	_	_
 49	Marín	Marín	PROPN	PROPN	_	47	flat	_	SpaceAfter=No
 50	,	,	PUNCT	PUNCT	PunctType=Comm	51	punct	_	_

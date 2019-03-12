@@ -378,7 +378,7 @@
 # text = La retirada del candidato opositor, el economista Alejandro Toledo, y la salida del país de la misión de observación de la Organización de Estados Americanos hicieron aumentar las sospechas de "irregularidades" en el proceso.
 # orig_file_sentence 001#9
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	retirada	retirada	NOUN	NOUN	Gender=Fem|Number=Sing	29	nsubj	_	_
+2	retirada	retirada	NOUN	NOUN	Gender=Fem|Number=Sing	28	nsubj	_	_
 3	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	4	case	_	_
 4	candidato	candidato	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
 5	opositor	opositor	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
@@ -404,10 +404,10 @@
 25	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 26	Estados	Estados	PROPN	PROPN	_	24	flat	_	_
 27	Americanos	Americanos	PROPN	PROPN	_	26	flat	_	_
-28	hicieron	hacer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
-29	aumentar	aumentar	VERB	VERB	VerbForm=Inf	0	root	_	_
+28	hicieron	hacer	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+29	aumentar	aumentar	VERB	VERB	VerbForm=Inf	28	xcomp	_	_
 30	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
-31	sospechas	sospecha	NOUN	NOUN	Gender=Fem|Number=Plur	29	obj	_	_
+31	sospechas	sospecha	NOUN	NOUN	Gender=Fem|Number=Plur	28	obj	_	_
 32	de	de	ADP	ADP	AdpType=Prep	34	case	_	_
 33	"	"	PUNCT	PUNCT	PunctType=Quot	34	punct	_	SpaceAfter=No
 34	irregularidades	irregularidad	NOUN	NOUN	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
@@ -415,7 +415,7 @@
 36	en	en	ADP	ADP	AdpType=Prep	38	case	_	_
 37	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	proceso	proceso	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	PUNCT	PunctType=Peri	29	punct	_	_
+39	.	.	PUNCT	PUNCT	PunctType=Peri	28	punct	_	_
 
 # sent_id = test-s10
 # text = "China está dispuesta a trabajar y colaborar con el Gobierno de Perú, bajo el liderazgo del presidente Alberto Fujimori", reiteró Zhang Qiyue para dejar clara la postura oficial.
@@ -2831,15 +2831,15 @@
 2	éste	este	PRON	PRON	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	hecho	hecho	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
-5	que	que	PRON	PRON	PronType=Rel	7	nsubj	_	_
-6	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-7	temblar	temblar	VERB	VERB	VerbForm=Inf	4	acl	_	SpaceAfter=No
+5	que	que	PRON	PRON	PronType=Rel	6	nsubj	_	_
+6	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
+7	temblar	temblar	VERB	VERB	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 9	para	para	ADP	ADP	AdpType=Prep	10	case	_	_
-10	algunos	alguno	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	7	obl	_	SpaceAfter=No
+10	algunos	alguno	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	6	obl	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	edificio	edificio	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+13	edificio	edificio	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
 14	que	que	PRON	PRON	PronType=Rel	18	obj	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	humanidad	humanidad	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj	_	_
@@ -4941,9 +4941,9 @@
 17	corderos	cordero	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod	_	_
 18	a	a	ADP	ADP	AdpType=Prep	20	case	_	_
 19	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
-20	que	que	PRON	PRON	PronType=Rel	22	obj	_	_
-21	hacen	hacer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
-22	pastar	pastar	VERB	VERB	VerbForm=Inf	17	acl	_	SpaceAfter=No
+20	que	que	PRON	PRON	PronType=Rel	21	obj	_	_
+21	hacen	hacer	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_
+22	pastar	pastar	VERB	VERB	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
 24	y	y	CCONJ	CCONJ	_	26	cc	_	_
 25	apenas	apenas	ADV	ADV	_	26	advmod	_	_
@@ -5208,11 +5208,11 @@
 51	moléculas	molécula	NOUN	NOUN	Gender=Fem|Number=Plur	49	nmod	_	_
 52	de	de	ADP	ADP	AdpType=Prep	53	case	_	_
 53	aire	aire	NOUN	NOUN	Gender=Masc|Number=Sing	51	nmod	_	_
-54	que	que	PRON	PRON	PronType=Rel	56	nsubj	_	_
-55	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	_
-56	vibrar	vibrar	VERB	VERB	VerbForm=Inf	49	acl	_	_
+54	que	que	PRON	PRON	PronType=Rel	55	nsubj	_	_
+55	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	acl	_	_
+56	vibrar	vibrar	VERB	VERB	VerbForm=Inf	55	xcomp	_	_
 57	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
-58	tímpano	tímpano	NOUN	NOUN	Gender=Masc|Number=Sing	56	obj	_	_
+58	tímpano	tímpano	NOUN	NOUN	Gender=Masc|Number=Sing	55	obj	_	_
 59	y	y	CCONJ	CCONJ	_	67	cc	_	SpaceAfter=No
 60	,	,	PUNCT	PUNCT	PunctType=Comm	67	punct	_	_
 61	por	por	ADP	ADP	AdpType=Prep	62	case	_	_
@@ -8925,17 +8925,17 @@
 6	estado	estado	NOUN	NOUN	Gender=Masc|Number=Sing	1	obj	_	_
 7	bastante	bastante	ADV	ADV	_	8	advmod	_	_
 8	aceptable	aceptable	ADJ	ADJ	Number=Sing	6	amod	_	SpaceAfter=No
-9	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
-10	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	13	obj	_	_
-11	había	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
-12	hecho	hacer	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux	_	_
-13	limpiar	limpiar	VERB	VERB	VerbForm=Inf	1	advcl	_	_
-14	a	a	ADP	ADP	AdpType=Prep	13	advmod	_	MWE=a_conciencia|MWEPOS=ADV
+9	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
+10	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	12	obj	_	_
+11	había	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	hecho	hacer	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+13	limpiar	limpiar	VERB	VERB	VerbForm=Inf	12	xcomp	_	_
+14	a	a	ADP	ADP	AdpType=Prep	12	advmod	_	MWE=a_conciencia|MWEPOS=ADV
 15	conciencia	conciencia	NOUN	NOUN	_	14	fixed	_	_
 16	cuando	cuando	SCONJ	SCONJ	_	18	mark	_	_
 17	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	18	obj	_	_
 18	marchó	marchar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	SpaceAfter=No
-19	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
+19	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 20	y	y	CCONJ	CCONJ	_	37	cc	_	_
 21	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	24	case	_	MWE=al_margen_del|MWEPOS=ADP
 22	margen	margen	NOUN	NOUN	_	21	fixed	_	_
@@ -12843,10 +12843,10 @@
 22	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
 23	quien	quien	PRON	PRON	Number=Sing|PronType=Rel	24	nsubj	_	_
 24	señaló	señalar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	acl	_	_
-25	que	que	SCONJ	SCONJ	_	48	mark	_	_
+25	que	que	SCONJ	SCONJ	_	47	mark	_	_
 26	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 27	"	"	PUNCT	PUNCT	PunctType=Quot	28	punct	_	SpaceAfter=No
-28	industrialización	industrialización	NOUN	NOUN	Gender=Fem|Number=Sing	48	nsubj	_	SpaceAfter=No
+28	industrialización	industrialización	NOUN	NOUN	Gender=Fem|Number=Sing	47	nsubj	_	SpaceAfter=No
 29	"	"	PUNCT	PUNCT	PunctType=Quot	28	punct	_	_
 30	que	que	PRON	PRON	PronType=Rel	37	obj	_	SpaceAfter=No
 31	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
@@ -12863,12 +12863,12 @@
 42	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
 43	últimos	último	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	44	amod	_	_
 44	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	37	obl	_	_
-45	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	48	obj	_	_
-46	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	_
-47	hecho	hacer	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	aux	_	_
-48	perder	perder	VERB	VERB	VerbForm=Inf	24	xcomp	_	_
+45	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	47	obj	_	_
+46	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
+47	hecho	hacer	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	xcomp	_	_
+48	perder	perder	VERB	VERB	VerbForm=Inf	47	xcomp	_	_
 49	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
-50	ilusión	ilusión	NOUN	NOUN	Gender=Fem|Number=Sing	48	obj	_	_
+50	ilusión	ilusión	NOUN	NOUN	Gender=Fem|Number=Sing	47	obj	_	_
 51	de	de	ADP	ADP	AdpType=Prep	52	mark	_	_
 52	participar	participar	VERB	VERB	VerbForm=Inf	50	acl	_	_
 53	en	en	ADP	ADP	AdpType=Prep	55	case	_	_
@@ -12929,10 +12929,10 @@
 4	intento	intentar	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
 5	describir	describir	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
 6	lo	él	PRON	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	10	det	_	_
-7	que	que	PRON	PRON	PronType=Rel	10	obj	_	_
-8	nos	yo	PRON	PRON	Case=Acc,Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	10	obj	_	_
-9	hacía	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
-10	sentir	sentir	VERB	VERB	VerbForm=Inf	5	xcomp	_	_
+7	que	que	PRON	PRON	PronType=Rel	9	obj	_	_
+8	nos	yo	PRON	PRON	Case=Acc,Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	9	obj	_	_
+9	hacía	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	xcomp	_	_
+10	sentir	sentir	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
 11	lo	él	PRON	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	13	det	_	_
 12	que	que	PRON	PRON	PronType=Rel	13	obj	_	_
 13	veíamos	ver	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	4	csubj	_	_
@@ -18048,17 +18048,17 @@
 8	milenio	milenio	NOUN	NOUN	Gender=Masc|Number=Sing	5	appos	_	_
 9	y	y	CCONJ	CCONJ	_	10	cc	_	_
 10	aquellos	aquel	PRON	PRON	Gender=Masc|Number=Plur|PronType=Dem	5	conj	_	_
-11	que	que	PRON	PRON	PronType=Rel	16	nsubj	_	_
+11	que	que	PRON	PRON	PronType=Rel	15	nsubj	_	_
 12	con	con	ADP	ADP	AdpType=Prep	14	case	_	_
 13	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
-14	gestas	gesta	NOUN	NOUN	Gender=Fem|Number=Plur	16	obl	_	_
-15	hicieron	hacer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
-16	vibrar	vibrar	VERB	VERB	VerbForm=Inf	10	acl	_	_
+14	gestas	gesta	NOUN	NOUN	Gender=Fem|Number=Plur	15	obl	_	_
+15	hicieron	hacer	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	acl	_	_
+16	vibrar	vibrar	VERB	VERB	VerbForm=Inf	15	xcomp	_	_
 17	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	21	case	_	_
 18	resto	resto	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
 19	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 20	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-21	humanidad	humanidad	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+21	humanidad	humanidad	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id = test-s470
@@ -27780,14 +27780,14 @@
 # text = A juicio de muchos analistas, la nueva política del Gobierno para con los títulos de 30 años hace pensar en que estos títulos pronto dejarán de ser el mejor indicador de las tendencias futuras de la inflación, y que en su preponderancia serán reemplazados por los bonos a 10 años.
 # orig_file_sentence 008#9
 1	A	a	ADP	ADP	AdpType=Prep	2	case	_	_
-2	juicio	juicio	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+2	juicio	juicio	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
 4	muchos	mucho	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
 5	analistas	analista	NOUN	NOUN	Number=Plur	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	nueva	nuevo	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
-9	política	política	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
+9	política	política	NOUN	NOUN	Gender=Fem|Number=Sing	19	nsubj	_	_
 10	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	11	case	_	_
 11	Gobierno	Gobierno	PROPN	PROPN	_	9	nmod	_	_
 12	para	para	ADP	ADP	AdpType=Prep	15	case	_	_
@@ -27797,8 +27797,8 @@
 16	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 17	30	30	NUM	NUM	NumForm=Digit|NumType=Card	18	nummod	_	_
 18	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
-19	hace	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
-20	pensar	pensar	VERB	VERB	VerbForm=Inf	0	root	_	_
+19	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	pensar	pensar	VERB	VERB	VerbForm=Inf	19	xcomp	_	_
 21	en	en	ADP	ADP	AdpType=Prep	31	mark	_	_
 22	que	que	SCONJ	SCONJ	_	31	mark	_	_
 23	estos	este	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	24	det	_	_
@@ -27831,7 +27831,7 @@
 50	a	a	ADP	ADP	AdpType=Prep	52	case	_	_
 51	10	10	NUM	NUM	NumForm=Digit|NumType=Card	52	nummod	_	_
 52	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	49	nmod	_	SpaceAfter=No
-53	.	.	PUNCT	PUNCT	PunctType=Peri	20	punct	_	_
+53	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
 
 # sent_id = test-s710
 # text = Los bonos a 30 años cerraron con su tasa en el 6,27 por ciento desde el 6,14 por ciento del cierre de ayer.
@@ -29178,14 +29178,14 @@
 # text = El gol no hizo cambiar el ritmo a River ni a la "U", que logró el empate a los 36, cuando el árbitro Carlos Amarilla se dejó engañar por Arancibia, que apretado por Sarabia se lanzó en el área, y concedió el penalti, convertido por González.
 # orig_file_sentence 008#39
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	gol	gol	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	no	no	ADV	ADV	Polarity=Neg	5	advmod	_	_
-4	hizo	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
-5	cambiar	cambiar	VERB	VERB	VerbForm=Inf	0	root	_	_
+2	gol	gol	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	no	no	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	hizo	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	cambiar	cambiar	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	ritmo	ritmo	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	_
+7	ritmo	ritmo	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
 8	a	a	ADP	ADP	AdpType=Prep	9	case	_	_
-9	River	River	PROPN	PROPN	_	5	obj	_	_
+9	River	River	PROPN	PROPN	_	4	obj	_	_
 10	ni	ni	CCONJ	CCONJ	_	14	cc	_	_
 11	a	a	ADP	ADP	AdpType=Prep	14	case	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -29230,7 +29230,7 @@
 51	convertido	convertido	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	49	amod	_	_
 52	por	por	ADP	ADP	AdpType=Prep	53	case	_	_
 53	González	González	PROPN	PROPN	_	51	obj	_	SpaceAfter=No
-54	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
+54	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = test-s740
 # text = En el 38, Bonano se lució al desviar un cabezazo de Rivarola que iba adentro, en la ocasión más clara que tuvo la "U" para irse al descanso en ventaja.
@@ -32591,10 +32591,10 @@
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	mejor	mejor	ADJ	ADJ	Number=Sing	3	amod	_	_
 3	eslogan	eslogan	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-4	:	:	PUNCT	PUNCT	PunctType=Colo	28	punct	_	_
+4	:	:	PUNCT	PUNCT	PunctType=Colo	27	punct	_	_
 5	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 6	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	7	case	_	_
-7	anuncio	anuncio	NOUN	NOUN	Gender=Masc|Number=Sing	28	obj	_	_
+7	anuncio	anuncio	NOUN	NOUN	Gender=Masc|Number=Sing	27	obj	_	_
 8	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 9	sujetadores	sujetador	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
 10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
@@ -32602,21 +32602,21 @@
 12	Kournikova	Kournikova	PROPN	PROPN	_	11	flat	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	_
 14	"	"	PUNCT	PUNCT	PunctType=Quot	15	punct	_	SpaceAfter=No
-15	sólo	sólo	ADV	ADV	_	28	obj	_	MWE=sólo_las_bolas_deben_botar|MWEPOS=NOUN
+15	sólo	sólo	ADV	ADV	_	27	obj	_	MWE=sólo_las_bolas_deben_botar|MWEPOS=NOUN
 16	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	bolas	bolas	NOUN	NOUN	_	15	compound	_	_
 18	deben	deben	NOUN	NOUN	_	15	compound	_	_
 19	botar	botar	NOUN	NOUN	_	15	compound	_	SpaceAfter=No
 20	"	"	PUNCT	PUNCT	PunctType=Quot	15	punct	_	_
-21	que	que	SCONJ	SCONJ	_	28	mark	_	_
+21	que	que	SCONJ	SCONJ	_	27	mark	_	_
 22	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	streaker	streaker	NOUN	NOUN	_	28	nsubj	_	_
+23	streaker	streaker	NOUN	NOUN	_	27	nsubj	_	_
 24	Mark	Mark	PROPN	PROPN	_	23	appos	_	MWE=Mark_Robbers|MWEPOS=PROPN
 25	Robbers	Robbers	PROPN	PROPN	_	24	flat	_	_
-26	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	28	obj	_	_
-27	hizo	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	_
-28	escribir	escribir	VERB	VERB	VerbForm=Inf	3	appos	_	_
-29	también	también	ADV	ADV	_	28	advmod	_	_
+26	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	27	obj	_	_
+27	hizo	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	appos	_	_
+28	escribir	escribir	VERB	VERB	VerbForm=Inf	27	xcomp	_	_
+29	también	también	ADV	ADV	_	27	advmod	_	_
 30	en	en	ADP	ADP	AdpType=Prep	29	case	_	_
 31	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	det	_	_
 32	pecho	pecho	NOUN	NOUN	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
@@ -38151,15 +38151,15 @@
 7	un	uno	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
 8	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
 9	explicaban	explicar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	34	ccomp	_	_
-10	que	que	SCONJ	SCONJ	_	16	mark	_	_
+10	que	que	SCONJ	SCONJ	_	15	mark	_	_
 11	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-12	policías	policía	NOUN	NOUN	Number=Plur	16	nsubj	_	_
+12	policías	policía	NOUN	NOUN	Number=Plur	15	nsubj	_	_
 13	argentinos	argentino	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
-14	les	él	PRON	PRON	Case=Dat|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
-15	hacían	hacer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
-16	parar	parar	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
+14	les	él	PRON	PRON	Case=Dat|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+15	hacían	hacer	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	xcomp	_	_
+16	parar	parar	VERB	VERB	VerbForm=Inf	15	xcomp	_	_
 17	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	vehículos	vehículo	NOUN	NOUN	Gender=Masc|Number=Plur	16	obj	_	_
+18	vehículos	vehículo	NOUN	NOUN	Gender=Masc|Number=Plur	15	obj	_	_
 19	y	y	CCONJ	CCONJ	_	21	cc	_	_
 20	ellos	él	PRON	PRON	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
 21	seguían	seguir	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
@@ -40195,12 +40195,12 @@
 11	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	jubilaciones	jubilación	NOUN	NOUN	Gender=Fem|Number=Plur	3	obj	_	_
 13	anticipadas	anticipado	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	12	amod	_	_
-14	para	para	ADP	ADP	AdpType=Prep	16	mark	_	_
-15	hacer	hacer	AUX	AUX	VerbForm=Inf	16	aux	_	_
-16	recaer	recaer	VERB	VERB	VerbForm=Inf	3	advcl	_	_
+14	para	para	ADP	ADP	AdpType=Prep	15	mark	_	_
+15	hacer	hacer	VERB	AUX	VerbForm=Inf	3	advcl	_	_
+16	recaer	recaer	VERB	VERB	VerbForm=Inf	15	xcomp	_	_
 17	sobre	sobre	ADP	ADP	AdpType=Prep	19	case	_	_
 18	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Seguridad	Seguridad	PROPN	PROPN	_	16	obl	_	MWE=Seguridad_Social|MWEPOS=PROPN
+19	Seguridad	Seguridad	PROPN	PROPN	_	15	obl	_	MWE=Seguridad_Social|MWEPOS=PROPN
 20	Social	Social	PROPN	PROPN	_	19	flat	_	_
 21	-	-	PUNCT	PUNCT	PunctType=Dash	24	punct	_	_
 22	-	-	PUNCT	PUNCT	PunctType=Dash	24	punct	_	_
@@ -40215,7 +40215,7 @@
 31	-	-	PUNCT	PUNCT	PunctType=Dash	24	punct	_	_
 32	-	-	PUNCT	PUNCT	PunctType=Dash	24	punct	_	_
 33	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	parte	parte	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	_
+34	parte	parte	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
 35	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
 36	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
 37	costes	coste	NOUN	NOUN	Gender=Masc|Number=Plur	34	nmod	_	_
@@ -42790,11 +42790,11 @@
 18	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	16	obj	_	_
 19	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	20	case	_	_
 20	Getafe	Getafe	PROPN	PROPN	_	16	obj	_	_
-21	para	para	ADP	ADP	AdpType=Prep	23	mark	_	_
-22	hacer	hacer	AUX	AUX	VerbForm=Inf	23	aux	_	_
-23	valer	valer	VERB	VERB	VerbForm=Inf	12	acl	_	_
+21	para	para	ADP	ADP	AdpType=Prep	22	mark	_	_
+22	hacer	hacer	VERB	AUX	VerbForm=Inf	12	acl	_	_
+23	valer	valer	VERB	VERB	VerbForm=Inf	22	xcomp	_	_
 24	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	det	_	_
-25	reivindicaciones	reivindicación	NOUN	NOUN	Gender=Fem|Number=Plur	23	obj	_	SpaceAfter=No
+25	reivindicaciones	reivindicación	NOUN	NOUN	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
 26	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = test-s1122
@@ -47913,7 +47913,7 @@
 # text = El ministro del Interior, Jean-Pierre Chevènement, quien expresó públicamente su profundo desacuerdo con el plan del Gobierno antes de su presentación a los representantes corsos, incluidos los nacionalistas, ha hecho saber que no defenderá el proyecto ante el Parlamento.
 # orig_file_sentence 014#15
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	ministro	ministro	NOUN	NOUN	Gender=Masc|Number=Sing	35	nsubj	_	_
+2	ministro	ministro	NOUN	NOUN	Gender=Masc|Number=Sing	34	nsubj	_	_
 3	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	4	case	_	_
 4	Interior	Interior	PROPN	PROPN	_	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
@@ -47944,9 +47944,9 @@
 30	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	nacionalistas	nacionalista	NOUN	NOUN	Number=Plur	29	nsubj	_	SpaceAfter=No
 32	,	,	PUNCT	PUNCT	PunctType=Comm	29	punct	_	_
-33	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
-34	hecho	hacer	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	aux	_	_
-35	saber	saber	VERB	VERB	VerbForm=Inf	0	root	_	_
+33	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	hecho	hacer	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+35	saber	saber	VERB	VERB	VerbForm=Inf	34	xcomp	_	_
 36	que	que	SCONJ	SCONJ	_	38	mark	_	_
 37	no	no	ADV	ADV	Polarity=Neg	38	advmod	_	_
 38	defenderá	defender	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	ccomp	_	_
@@ -47955,7 +47955,7 @@
 41	ante	ante	ADP	ADP	AdpType=Prep	43	case	_	_
 42	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	Parlamento	Parlamento	PROPN	PROPN	_	38	obl	_	SpaceAfter=No
-44	.	.	PUNCT	PUNCT	PunctType=Peri	35	punct	_	_
+44	.	.	PUNCT	PUNCT	PunctType=Peri	34	punct	_	_
 
 # sent_id = test-s1316
 # text = El futuro de Chevènement en el Gobierno está en suspenso hasta la vuelta de las vacaciones.
@@ -58337,13 +58337,13 @@
 # text = El presidente blanco les hizo ver la necesidad de alcanzar de una vez la regularidad necesaria para rendir al mismo nivel que en la Copa de Europa en las competiciones españolas.
 # orig_file_sentence 017#86
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	blanco	blanco	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
-4	les	él	PRON	PRON	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
-5	hizo	hacer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
-6	ver	ver	VERB	VERB	VerbForm=Inf	0	root	_	_
+4	les	él	PRON	PRON	Case=Dat|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+5	hizo	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ver	ver	VERB	VERB	VerbForm=Inf	5	xcomp	_	_
 7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	necesidad	necesidad	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
+8	necesidad	necesidad	NOUN	NOUN	Gender=Fem|Number=Sing	5	obj	_	_
 9	de	de	ADP	ADP	AdpType=Prep	10	mark	_	_
 10	alcanzar	alcanzar	VERB	VERB	VerbForm=Inf	8	acl	_	_
 11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
@@ -58367,7 +58367,7 @@
 29	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
 30	competiciones	competición	NOUN	NOUN	Gender=Fem|Number=Plur	18	obl	_	_
 31	españolas	español	ADJ	ADJ	Gender=Fem|Number=Plur	30	amod	_	SpaceAfter=No
-32	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
+32	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id = test-s1687
 # text = "La temporada pasada quizá estuvimos demasiado pendientes de la Champions y los aficionados quieren que seamos campeones de Liga. de eso hablamos con el presidente y esperamos que los socios puedan disfrutar con el equipo, especialmente los domingos", añadió Roberto Carlos.
