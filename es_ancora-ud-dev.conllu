@@ -18118,15 +18118,15 @@
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	violencia	violencia	NOUN	NOUN	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
 25	"	"	PUNCT	PUNCT	PunctType=Quot	21	punct	_	SpaceAfter=No
-26	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
-27	por	por	ADP	ADP	AdpType=Prep	34	mark	_	_
+26	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
+27	por	por	ADP	ADP	AdpType=Prep	32	mark	_	_
 28	lo	él	PRON	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	34	det	_	_
-29	que	que	PRON	PRON	PronType=Rel	34	obl	_	_
+29	que	que	PRON	PRON	PronType=Rel	32	obl	_	_
 30	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	PNV	PNV	PROPN	PROPN	_	34	nsubj	_	_
-32	seguirá	seguir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	34	aux	_	_
-33	"	"	PUNCT	PUNCT	PunctType=Quot	34	punct	_	SpaceAfter=No
-34	haciendo	hacer	VERB	VERB	VerbForm=Ger	21	advcl	_	_
+31	PNV	PNV	PROPN	PROPN	_	32	nsubj	_	_
+32	seguirá	seguir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	advcl	_	_
+33	"	"	PUNCT	PUNCT	PunctType=Quot	32	punct	_	SpaceAfter=No
+34	haciendo	hacer	VERB	VERB	VerbForm=Ger	32	xcomp	_	_
 35	lo	él	PRON	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	36	det	_	_
 36	posible	posible	ADJ	ADJ	Number=Sing	34	obj	_	_
 37	y	y	CCONJ	CCONJ	_	39	cc	_	_
@@ -18138,11 +18138,11 @@
 43	definitivamente	definitivamente	ADV	ADV	_	45	advmod	_	_
 44	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	45	obj	_	_
 45	acabe	acabar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl	_	SpaceAfter=No
-46	"	"	PUNCT	PUNCT	PunctType=Quot	34	punct	_	SpaceAfter=No
+46	"	"	PUNCT	PUNCT	PunctType=Quot	32	punct	_	SpaceAfter=No
 47	,	,	PUNCT	PUNCT	PunctType=Comm	50	punct	_	_
 48	con	con	ADP	ADP	AdpType=Prep	50	case	_	_
 49	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
-50	convencimiento	convencimiento	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	_
+50	convencimiento	convencimiento	NOUN	NOUN	Gender=Masc|Number=Sing	32	obl	_	_
 51	de	de	ADP	ADP	AdpType=Prep	55	mark	_	_
 52	que	que	SCONJ	SCONJ	_	55	mark	_	_
 53	"	"	PUNCT	PUNCT	PunctType=Quot	55	punct	_	SpaceAfter=No
@@ -30545,10 +30545,10 @@
 2	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 3	quien	quien	PRON	PRON	Number=Sing|PronType=Rel	4	nsubj	_	_
 4	aseguró	asegurar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl	_	_
-5	que	que	SCONJ	SCONJ	_	8	mark	_	_
-6	seguirá	seguir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	_
-7	"	"	PUNCT	PUNCT	PunctType=Quot	8	punct	_	SpaceAfter=No
-8	luchando	luchar	VERB	VERB	VerbForm=Ger	4	ccomp	_	_
+5	que	que	SCONJ	SCONJ	_	6	mark	_	_
+6	seguirá	seguir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+7	"	"	PUNCT	PUNCT	PunctType=Quot	6	punct	_	SpaceAfter=No
+8	luchando	luchar	VERB	VERB	VerbForm=Ger	6	xcomp	_	_
 9	por	por	ADP	ADP	AdpType=Prep	11	case	_	_
 10	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	paz	paz	NOUN	NOUN	Gender=Fem|Number=Sing	8	obj	_	_
@@ -30557,12 +30557,12 @@
 14	libertad	libertad	NOUN	NOUN	Gender=Fem|Number=Sing	11	conj	_	_
 15	en	en	ADP	ADP	AdpType=Prep	17	case	_	_
 16	primera	primero	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	17	amod	_	_
-17	fila	fila	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+17	fila	fila	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
 18	en	en	ADP	ADP	AdpType=Prep	20	case	_	_
 19	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	País	País	PROPN	PROPN	_	8	obl	_	MWE=País_Vasco|MWEPOS=PROPN
+20	País	País	PROPN	PROPN	_	6	obl	_	MWE=País_Vasco|MWEPOS=PROPN
 21	Vasco	Vasco	PROPN	PROPN	_	20	flat	_	SpaceAfter=No
-22	"	"	PUNCT	PUNCT	PunctType=Quot	8	punct	_	SpaceAfter=No
+22	"	"	PUNCT	PUNCT	PunctType=Quot	6	punct	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 24	dijo	decir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 25	que	que	SCONJ	SCONJ	_	41	mark	_	_
@@ -31061,9 +31061,9 @@
 5	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	obj	_	_
 6	encuentra	encontrar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	decidido	decidido	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	3	ccomp	_	_
-8	a	a	ADP	ADP	AdpType=Prep	10	mark	_	_
-9	seguir	seguir	AUX	AUX	VerbForm=Inf	10	aux	_	_
-10	luchando	luchar	VERB	VERB	VerbForm=Ger	7	ccomp	_	_
+8	a	a	ADP	ADP	AdpType=Prep	9	mark	_	_
+9	seguir	seguir	VERB	AUX	VerbForm=Inf	7	ccomp	_	_
+10	luchando	luchar	VERB	VERB	VerbForm=Ger	9	xcomp	_	_
 11	"	"	PUNCT	PUNCT	PunctType=Quot	17	punct	_	SpaceAfter=No
 12	por	por	ADP	ADP	AdpType=Prep	17	mark	_	_
 13	lo	él	PRON	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	17	det	_	_
@@ -32478,7 +32478,7 @@
 # orig_file_sentence 009#28
 1	Una	uno	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 2	buena	buen	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
-3	parte	parte	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	parte	parte	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
 4	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 5	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	parque	parque	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
@@ -32487,8 +32487,8 @@
 9	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	ministro	ministro	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
-12	sigue	seguir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	utilizando	utilizar	VERB	VERB	VerbForm=Ger	0	root	_	_
+12	sigue	seguir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	utilizando	utilizar	VERB	VERB	VerbForm=Ger	12	xcomp	_	_
 14	gasolina	gasolina	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	_
 15	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
 16	97	97	NUM	NUM	NumForm=Digit|NumType=Card	17	nummod	_	_
@@ -32502,7 +32502,7 @@
 24	sin	sin	ADP	ADP	AdpType=Prep	25	case	_	_
 25	riesgo	riesgo	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
 26	alguno	alguno	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
-27	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
+27	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id = dev-s829
 # text = Según el Real Decreto aprobado el pasado 24 de marzo por el Consejo de Ministros, estas gasolinas con plomo deberán cumplir, en todo caso, las especificaciones vigentes.
@@ -32650,15 +32650,15 @@
 9	solicitud	solicitud	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
 10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 11	excepción	excepción	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
-12	para	para	ADP	ADP	AdpType=Prep	14	mark	_	_
-13	seguir	seguir	AUX	AUX	VerbForm=Inf	14	aux	_	_
-14	comercializando	comercializar	VERB	VERB	VerbForm=Ger	11	acl	_	_
+12	para	para	ADP	ADP	AdpType=Prep	13	mark	_	_
+13	seguir	seguir	VERB	AUX	VerbForm=Inf	11	acl	_	_
+14	comercializando	comercializar	VERB	VERB	VerbForm=Ger	13	xcomp	_	_
 15	gasolina	gasolina	NOUN	NOUN	Gender=Fem|Number=Sing	14	obj	_	_
 16	con	con	ADP	ADP	AdpType=Prep	17	case	_	_
 17	plomo	plomo	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
 18	hasta	hasta	ADP	ADP	AdpType=Prep	20	case	_	_
 19	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	1	1	NUM	NUM	NumForm=Digit|NumType=Card	14	obl	_	MWE=1_de_julio_de_2003|MWEPOS=NOUN
+20	1	1	NUM	NUM	NumForm=Digit|NumType=Card	13	obl	_	MWE=1_de_julio_de_2003|MWEPOS=NOUN
 21	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 22	julio	julio	NOUN	NOUN	_	20	compound	_	_
 23	de	de	ADP	ADP	AdpType=Prep	24	case	_	_
@@ -39640,11 +39640,11 @@
 # sent_id = dev-s1060
 # text = Pero sigo escuchando música; siempre me rodeo de cuatro o cinco discos.
 # orig_file_sentence 011#60
-1	Pero	pero	CCONJ	CCONJ	_	3	advmod	_	_
-2	sigo	seguir	AUX	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	escuchando	escuchar	VERB	VERB	VerbForm=Ger	0	root	_	_
+1	Pero	pero	CCONJ	CCONJ	_	2	advmod	_	_
+2	sigo	seguir	VERB	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	escuchando	escuchar	VERB	VERB	VerbForm=Ger	2	xcomp	_	_
 4	música	música	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
-5	;	;	PUNCT	PUNCT	PunctType=Semi	3	punct	_	_
+5	;	;	PUNCT	PUNCT	PunctType=Semi	8	punct	_	_
 6	siempre	siempre	ADV	ADV	_	8	advmod	_	_
 7	me	yo	PRON	PRON	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	8	obj	_	_
 8	rodeo	rodear	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
@@ -39653,7 +39653,7 @@
 11	o	o	CCONJ	CCONJ	_	12	cc	_	_
 12	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	10	conj	_	_
 13	discos	disco	NOUN	NOUN	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
-14	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
+14	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id = dev-s1061
 # text = Ultimamente he recuperado a Scritti Politti y escucho a Alex Gopher, Beck, Smashing Pumpkins....
@@ -40620,7 +40620,7 @@
 # sent_id = dev-s1099
 # text = Inglaterra, el país que ha producido la minifalda, los Beatles, los hooligans y la oleada de histeria más curiosa del siglo XX después de la muerte de Lady Di, seguirá describiéndose como su avinagrado carácter flemático, inalterable y estreñido.
 # orig_file_sentence 011#99
-1	Inglaterra	Inglaterra	PROPN	PROPN	_	35	nsubj	_	SpaceAfter=No
+1	Inglaterra	Inglaterra	PROPN	PROPN	_	34	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 3	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	país	país	NOUN	NOUN	Gender=Masc|Number=Sing	1	appos	_	_
@@ -40653,20 +40653,20 @@
 31	Lady	Lady	PROPN	PROPN	_	29	nmod	_	MWE=Lady_Di|MWEPOS=PROPN
 32	Di	Di	PROPN	PROPN	_	31	flat	_	SpaceAfter=No
 33	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
-34	seguirá	seguir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	aux	_	_
+34	seguirá	seguir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 35-36	describiéndose	_	_	_	_	_	_	_	_
-35	describiendo	describir	VERB	VERB	VerbForm=Ger	0	root	_	_
+35	describiendo	describir	VERB	VERB	VerbForm=Ger	34	xcomp	_	_
 36	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	35	obj	_	_
 37	como	como	SCONJ	SCONJ	_	40	mark	_	_
 38	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	det	_	_
 39	avinagrado	avinagrado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	40	amod	_	_
-40	carácter	carácter	NOUN	NOUN	Gender=Masc|Number=Sing	35	obl	_	_
+40	carácter	carácter	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	_
 41	flemático	flemático	ADJ	ADJ	Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
 42	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	_
 43	inalterable	inalterable	ADJ	ADJ	Number=Sing	41	amod	_	_
 44	y	y	CCONJ	CCONJ	_	45	cc	_	_
 45	estreñido	estreñido	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	41	conj	_	SpaceAfter=No
-46	.	.	PUNCT	PUNCT	PunctType=Peri	35	punct	_	_
+46	.	.	PUNCT	PUNCT	PunctType=Peri	34	punct	_	_
 
 # sent_id = dev-s1100
 # text = Contra los tópicos nacionales sólo cabe la paciencia, y el ridículo de los que los utilizan como facilonga explicación.
@@ -41639,10 +41639,10 @@
 18	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	19	punct	_	SpaceAfter=No
 19	Fifpro	Fifpro	PROPN	PROPN	_	15	appos	_	SpaceAfter=No
 20	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	19	punct	_	SpaceAfter=No
-21	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
-22	que	que	PRON	PRON	PronType=Rel	24	nsubj	_	_
-23	sigue	seguir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
-24	defendiendo	defender	VERB	VERB	VerbForm=Ger	15	acl	_	_
+21	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
+22	que	que	PRON	PRON	PronType=Rel	23	nsubj	_	_
+23	sigue	seguir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_
+24	defendiendo	defender	VERB	VERB	VerbForm=Ger	23	xcomp	_	_
 25	que	que	SCONJ	SCONJ	_	29	mark	_	_
 26	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	jugadores	jugador	NOUN	NOUN	Gender=Masc|Number=Plur	29	nsubj	_	_
@@ -57595,15 +57595,15 @@
 # sent_id = dev-s1609
 # text = Sin embargo, en Sevilla el PA sigue manteniendo negociaciones a dos bandas, con el PP y el PSOE.
 # orig_file_sentence 017#9
-1	Sin	sin	ADP	ADP	AdpType=Prep	9	advmod	_	MWE=Sin_embargo|MWEPOS=ADV
+1	Sin	sin	ADP	ADP	AdpType=Prep	8	advmod	_	MWE=Sin_embargo|MWEPOS=ADV
 2	embargo	embargo	NOUN	NOUN	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 4	en	en	ADP	ADP	AdpType=Prep	5	case	_	_
-5	Sevilla	Sevilla	PROPN	PROPN	_	9	obl	_	_
+5	Sevilla	Sevilla	PROPN	PROPN	_	8	obl	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	PA	PA	PROPN	PROPN	_	9	nsubj	_	_
-8	sigue	seguir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-9	manteniendo	mantener	VERB	VERB	VerbForm=Ger	0	root	_	_
+7	PA	PA	PROPN	PROPN	_	8	nsubj	_	_
+8	sigue	seguir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	manteniendo	mantener	VERB	VERB	VerbForm=Ger	8	xcomp	_	_
 10	negociaciones	negociación	NOUN	NOUN	Gender=Fem|Number=Plur	9	obj	_	_
 11	a	a	ADP	ADP	AdpType=Prep	13	case	_	_
 12	dos	dos	NUM	NUM	Number=Plur|NumType=Card	13	nummod	_	_
@@ -57615,7 +57615,7 @@
 18	y	y	CCONJ	CCONJ	_	19	mark	_	_
 19	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 20	PSOE	PSOE	PROPN	PROPN	_	19	mark	_	SpaceAfter=No
-21	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
+21	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s1610
 # text = Por otra parte, un periodista de El Pueblo de Ceuta ha denunciado al candidato del GIL en la ciudad autónoma Andrés Jesús Sánchez por agresión y amenazas.
