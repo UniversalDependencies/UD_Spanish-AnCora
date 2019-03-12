@@ -1418,11 +1418,11 @@
 1	Quizá	quizá	ADV	ADV	_	3	advmod	_	_
 2	sería	ser	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	cop	_	_
 3	conveniente	conveniente	ADJ	ADJ	Number=Sing	0	root	_	_
-4	que	que	SCONJ	SCONJ	_	7	mark	_	_
-5	comenzaran	comenzar	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+4	que	que	SCONJ	SCONJ	_	5	mark	_	_
+5	comenzaran	comenzar	VERB	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	csubj	_	_
 6	a	a	ADP	ADP	AdpType=Prep	7	mark	_	_
 7-8	preocuparse	_	_	_	_	_	_	_	_
-7	preocupar	preocupar	VERB	VERB	VerbForm=Inf	3	csubj	_	_
+7	preocupar	preocupar	VERB	VERB	VerbForm=Inf	5	xcomp	_	_
 8	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	obj	_	_
 9	en	en	ADP	ADP	AdpType=Prep	10	mark	_	_
 10	encontrar	encontrar	VERB	VERB	VerbForm=Inf	7	advcl	_	_
@@ -2806,10 +2806,10 @@
 7	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
 8	servicio	servicio	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
-10	incluso	incluso	ADV	ADV	_	13	advmod	_	_
-11	llegan	llegar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+10	incluso	incluso	ADV	ADV	_	11	advmod	_	_
+11	llegan	llegar	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 12	a	a	ADP	ADP	AdpType=Prep	13	mark	_	_
-13	matar	matar	VERB	VERB	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+13	matar	matar	VERB	VERB	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
 15	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	16	case	_	_
 16	organismo	organismo	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
@@ -7804,19 +7804,19 @@
 6	víctima	víctima	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
 7	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	_
 8	suelo	suelo	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
-9	y	y	CCONJ	CCONJ	_	21	cc	_	_
-10	entonces	entonces	ADV	ADV	_	21	advmod	_	SpaceAfter=No
+9	y	y	CCONJ	CCONJ	_	19	cc	_	_
+10	entonces	entonces	ADV	ADV	_	19	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	_
 12	como	como	SCONJ	SCONJ	_	15	mark	_	_
 13	en	en	ADP	ADP	AdpType=Prep	15	case	_	_
 14	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	rapto	rapto	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+15	rapto	rapto	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
 16	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
 17	locura	locura	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	_
-19	comenzó	comenzar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	_
+19	comenzó	comenzar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 20	a	a	ADP	ADP	AdpType=Prep	21	mark	_	_
-21	destrozar	destrozar	VERB	VERB	VerbForm=Inf	3	conj	_	_
+21	destrozar	destrozar	VERB	VERB	VerbForm=Inf	19	xcomp	_	_
 22	toda	todo	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	23	det	_	_
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	casa	casa	NOUN	NOUN	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
@@ -8061,19 +8061,19 @@
 75	blanquecina	blanquecino	ADJ	ADJ	Gender=Fem|Number=Sing	74	amod	_	SpaceAfter=No
 76	,	,	PUNCT	PUNCT	PunctType=Comm	75	punct	_	_
 77	fofa	fofo	ADJ	ADJ	Gender=Fem|Number=Sing	75	amod	_	SpaceAfter=No
-78	,	,	PUNCT	PUNCT	PunctType=Comm	82	punct	_	_
-79	que	que	PRON	PRON	PronType=Rel	82	nsubj	_	_
-80	comenzaba	comenzar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	82	aux	_	_
+78	,	,	PUNCT	PUNCT	PunctType=Comm	80	punct	_	_
+79	que	que	PRON	PRON	PronType=Rel	80	nsubj	_	_
+80	comenzaba	comenzar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	74	acl	_	_
 81	a	a	ADP	ADP	AdpType=Prep	82	mark	_	_
 82-83	acumularse	_	_	_	_	_	_	_	_
-82	acumular	acumular	VERB	VERB	VerbForm=Inf	74	acl	_	_
+82	acumular	acumular	VERB	VERB	VerbForm=Inf	80	xcomp	_	_
 83	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	82	obj	_	_
 84	en	en	ADP	ADP	AdpType=Prep	88	case	_	MWE=en_torno_a|MWEPOS=ADP
 85	torno	torno	NOUN	NOUN	_	84	fixed	_	_
 86	a	a	ADP	ADP	AdpType=Prep	84	fixed	_	_
 87	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	88	det	_	_
-88	cintura	cintura	NOUN	NOUN	Gender=Fem|Number=Sing	82	obl	_	SpaceAfter=No
-89	,	,	PUNCT	PUNCT	PunctType=Comm	82	punct	_	_
+88	cintura	cintura	NOUN	NOUN	Gender=Fem|Number=Sing	80	obl	_	SpaceAfter=No
+89	,	,	PUNCT	PUNCT	PunctType=Comm	91	punct	_	_
 90	a	a	ADP	ADP	AdpType=Prep	91	mark	_	_
 91-92	descolgarse	_	_	_	_	_	_	_	_
 91	descolgar	descolgar	VERB	VERB	VerbForm=Inf	82	advcl	_	_
@@ -8477,10 +8477,10 @@
 7	esta	este	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 8	irreversible	irreversible	ADJ	ADJ	Number=Sing	9	amod	_	_
 9	agonía	agonía	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
-10	llegó	llegar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+10	llegó	llegar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	a	a	ADP	ADP	AdpType=Prep	12	mark	_	_
 12-13	considerarse	_	_	_	_	_	_	_	_
-12	considerar	considerar	VERB	VERB	VerbForm=Inf	0	root	_	_
+12	considerar	considerar	VERB	VERB	VerbForm=Inf	10	xcomp	_	_
 13	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	obj	_	_
 14	vagamente	vagamente	ADV	ADV	_	15	advmod	_	_
 15	culpable	culpable	ADJ	ADJ	Number=Sing	12	obj	_	_
@@ -8541,7 +8541,7 @@
 70	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	71	det	_	_
 71	hojas	hoja	NOUN	NOUN	Gender=Fem|Number=Plur	68	nmod	_	_
 72	verdes	verde	ADJ	ADJ	Number=Plur	71	amod	_	SpaceAfter=No
-73	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
+73	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id = test-s258
 # text = No habrían pasado más de seis meses desde su boda.
@@ -8851,11 +8851,11 @@
 3	mucho	mucho	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
 4	trabajo	trabajo	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
 5	aparcar	aparcar	VERB	VERB	VerbForm=Inf	2	csubj	_	_
-6	y	y	CCONJ	CCONJ	_	9	cc	_	_
-7	llegó	llegar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+6	y	y	CCONJ	CCONJ	_	7	cc	_	_
+7	llegó	llegar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 8	a	a	ADP	ADP	AdpType=Prep	9	mark	_	_
 9-10	arrepentirse	_	_	_	_	_	_	_	_
-9	arrepentir	arrepentirse	VERB	VERB	VerbForm=Inf	2	conj	_	_
+9	arrepentir	arrepentirse	VERB	VERB	VerbForm=Inf	7	xcomp	_	_
 10	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	_	_
 11	de	de	ADP	ADP	AdpType=Prep	13	mark	_	_
 12	haber	haber	AUX	AUX	VerbForm=Inf	13	aux	_	_
@@ -12203,18 +12203,18 @@
 # text = La escasez de la merluza comenzó a preocupar a las autoridades argentinas después de que en 1997 se registrara una captura de 584.048 toneladas de esa especie, que descendió a 458.433 en 1998.
 # orig_file_sentence 004#30
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	escasez	escasez	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+2	escasez	escasez	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
 4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	merluza	merluza	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
-6	comenzó	comenzar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+6	comenzó	comenzar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	a	a	ADP	ADP	AdpType=Prep	8	mark	_	_
-8	preocupar	preocupar	VERB	VERB	VerbForm=Inf	0	root	_	_
+8	preocupar	preocupar	VERB	VERB	VerbForm=Inf	6	xcomp	_	_
 9	a	a	ADP	ADP	AdpType=Prep	11	case	_	_
 10	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	autoridades	autoridad	NOUN	NOUN	Gender=Fem|Number=Plur	8	obj	_	_
 12	argentinas	argentino	ADJ	ADJ	Gender=Fem|Number=Plur	11	amod	_	_
-13	después	después	ADV	ADV	_	8	advmod	_	_
+13	después	después	ADV	ADV	_	6	advmod	_	_
 14	de	de	ADP	ADP	AdpType=Prep	19	mark	_	_
 15	que	que	SCONJ	SCONJ	_	19	mark	_	_
 16	en	en	ADP	ADP	AdpType=Prep	17	case	_	_
@@ -12236,7 +12236,7 @@
 32	458.433	458433	NUM	NUM	NumForm=Digit|NumType=Card	30	obl	_	_
 33	en	en	ADP	ADP	AdpType=Prep	34	case	_	_
 34	1998	1998	NOUN	NOUN	AdvType=Tim	30	obl	_	SpaceAfter=No
-35	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
+35	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id = test-s331
 # text = Aunque el cupo de pesca de la merluza se limitó a 238.000 toneladas el año pasado, el Parlamento argentino debió sancionar en junio pasado una Ley de Emergencia Pesquera para frenar la sobreexplotación.
@@ -23134,11 +23134,11 @@
 7	comisionado	comisionado	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 9	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	Yanquis	Yanquis	PROPN	PROPN	_	14	nsubj	_	_
-11	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
-12	comenzado	comenzar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux	_	_
+10	Yanquis	Yanquis	PROPN	PROPN	_	12	nsubj	_	_
+11	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	comenzado	comenzar	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 13	a	a	ADP	ADP	AdpType=Prep	14	mark	_	_
-14	formular	formular	VERB	VERB	VerbForm=Inf	0	root	_	_
+14	formular	formular	VERB	VERB	VerbForm=Inf	12	xcomp	_	_
 15	planes	plan	NOUN	NOUN	Gender=Masc|Number=Plur	14	obj	_	_
 16	por	por	ADP	ADP	AdpType=Prep	23	mark	_	_
 17	si	si	SCONJ	SCONJ	_	23	mark	_	_
@@ -23148,7 +23148,7 @@
 21	con	con	ADP	ADP	AdpType=Prep	23	case	_	_
 22	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	equipo	equipo	NOUN	NOUN	Gender=Masc|Number=Sing	14	advcl	_	SpaceAfter=No
-24	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
+24	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id = test-s609
 # text = Torre dio como una posible solución al problema del bateador designado el de usar jugadores como Bernie Williams, Paul O`Neill y Tino Martínez en vez de darle días de descanso.
@@ -24342,20 +24342,20 @@
 22	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Unión	Unión	PROPN	PROPN	_	20	iobj	_	MWE=Unión_Europea|MWEPOS=PROPN
 24	Europea	Europea	PROPN	PROPN	_	23	flat	_	_
-25	que	que	SCONJ	SCONJ	_	29	mark	_	_
+25	que	que	SCONJ	SCONJ	_	27	mark	_	_
 26	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	29	obj	_	_
-27	comiencen	comenzar	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+27	comiencen	comenzar	VERB	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	xcomp	_	_
 28	a	a	ADP	ADP	AdpType=Prep	29	mark	_	_
-29	recuperar	recuperar	VERB	VERB	VerbForm=Inf	20	xcomp	_	_
-30	caladeros	caladero	NOUN	NOUN	Gender=Masc|Number=Plur	29	nsubj	_	_
+29	recuperar	recuperar	VERB	VERB	VerbForm=Inf	27	xcomp	_	_
+30	caladeros	caladero	NOUN	NOUN	Gender=Masc|Number=Plur	27	nsubj	_	_
 31	propios	propio	ADJ	ADJ	Gender=Masc|Number=Plur	30	amod	_	_
 32	en	en	ADP	ADP	AdpType=Prep	33	case	_	_
-33	aguas	agua	NOUN	NOUN	Gender=Fem|Number=Plur	29	obl	_	_
+33	aguas	agua	NOUN	NOUN	Gender=Fem|Number=Plur	27	obl	_	_
 34	de	de	ADP	ADP	AdpType=Prep	36	case	_	_
 35	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	UE	UE	PROPN	PROPN	_	33	nmod	_	_
 37	como	como	SCONJ	SCONJ	_	38	mark	_	_
-38	alternativa	alternativa	NOUN	NOUN	Gender=Fem|Number=Sing	29	obl	_	_
+38	alternativa	alternativa	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
 39	a	a	ADP	ADP	AdpType=Prep	41	case	_	_
 40	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
 41	dificultades	dificultad	NOUN	NOUN	Gender=Fem|Number=Plur	38	nmod	_	_
@@ -25851,21 +25851,21 @@
 18	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 20	encarecimiento	encarecimiento	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
-21	que	que	PRON	PRON	PronType=Rel	24	nsubj	_	_
-22	comenzará	comenzar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	aux	_	_
+21	que	que	PRON	PRON	PronType=Rel	22	nsubj	_	_
+22	comenzará	comenzar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	acl	_	_
 23	a	a	ADP	ADP	AdpType=Prep	24	mark	_	_
 24-25	mostrarse	_	_	_	_	_	_	_	_
-24	mostrar	mostrar	VERB	VERB	VerbForm=Inf	20	acl	_	_
+24	mostrar	mostrar	VERB	VERB	VerbForm=Inf	22	xcomp	_	_
 25	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	24	obj	_	_
 26	en	en	ADP	ADP	AdpType=Prep	28	case	_	_
 27	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	coste	coste	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+28	coste	coste	NOUN	NOUN	Gender=Masc|Number=Sing	22	obl	_	_
 29	de	de	ADP	ADP	AdpType=Prep	31	case	_	_
 30	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	deuda	deuda	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod	_	_
 32	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 33	próximo	próximo	ADJ	ADJ	Gender=Masc|Number=Sing	34	amod	_	_
-34	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+34	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
 35	,	,	PUNCT	PUNCT	PunctType=Comm	39	punct	_	_
 36	cuando	cuando	PRON	PRON	PronType=Rel	39	obl	_	_
 37	además	además	ADV	ADV	_	39	advmod	_	_
@@ -36155,14 +36155,14 @@
 19	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 20	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	motores	motor	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
-22	y	y	CCONJ	CCONJ	_	29	cc	_	SpaceAfter=No
+22	y	y	CCONJ	CCONJ	_	27	cc	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 24	en	en	ADP	ADP	AdpType=Prep	25	case	_	_
-25	ocasiones	ocasión	NOUN	NOUN	Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+25	ocasiones	ocasión	NOUN	NOUN	Gender=Fem|Number=Plur	27	obl	_	SpaceAfter=No
 26	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
-27	llega	llegar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+27	llega	llegar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
 28	a	a	ADP	ADP	AdpType=Prep	29	mark	_	_
-29	causar	causar	VERB	VERB	VerbForm=Inf	16	conj	_	_
+29	causar	causar	VERB	VERB	VerbForm=Inf	27	xcomp	_	_
 30	que	que	SCONJ	SCONJ	_	33	mark	_	_
 31	dejen	dejar	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 32	de	de	ADP	ADP	AdpType=Prep	33	mark	_	_
