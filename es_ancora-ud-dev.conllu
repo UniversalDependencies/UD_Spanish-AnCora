@@ -2747,7 +2747,7 @@
 51	vez	vez	NOUN	NOUN	_	50	fixed	_	_
 52	de	de	ADP	ADP	AdpType=Prep	50	fixed	_	_
 53-54	quedarse	_	_	_	_	_	_	_	_
-53	quedar	quedar	VERB	AUX	VerbForm=Inf	50	advmod	_	_
+53	quedar	quedar	VERB	AUX	VerbForm=Inf	50	advcl	_	_
 54	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	53	obj	_	_
 55	incomprensiblemente	incomprensiblemente	ADV	ADV	_	53	advmod	_	_
 56	paralizados	paralizado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	53	xcomp	_	SpaceAfter=No

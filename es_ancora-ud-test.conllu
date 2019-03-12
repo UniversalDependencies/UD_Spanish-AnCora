@@ -32614,7 +32614,7 @@
 24	Mark	Mark	PROPN	PROPN	_	23	appos	_	MWE=Mark_Robbers|MWEPOS=PROPN
 25	Robbers	Robbers	PROPN	PROPN	_	24	flat	_	_
 26	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	27	obj	_	_
-27	hizo	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	appos	_	_
+27	hizo	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	_
 28	escribir	escribir	VERB	VERB	VerbForm=Inf	27	xcomp	_	_
 29	también	también	ADV	ADV	_	27	advmod	_	_
 30	en	en	ADP	ADP	AdpType=Prep	29	case	_	_
@@ -42041,7 +42041,7 @@
 20	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 21	julio	julio	NOUN	NOUN	AdvType=Tim	19	obl	_	_
 22	para	para	ADP	ADP	AdpType=Prep	24	case	_	_
-23	quedar	quedar	VERB	AUX	VerbForm=Inf	10	obl	_	_
+23	quedar	quedar	VERB	AUX	VerbForm=Inf	10	advcl	_	_
 24	instalada	instalado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	23	xcomp	_	_
 25	enseguida	enseguida	ADV	ADV	_	23	advmod	_	_
 26	con	con	ADP	ADP	AdpType=Prep	27	case	_	_
