@@ -42041,11 +42041,11 @@
 20	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 21	julio	julio	NOUN	NOUN	AdvType=Tim	19	obl	_	_
 22	para	para	ADP	ADP	AdpType=Prep	24	case	_	_
-23	quedar	quedar	AUX	AUX	VerbForm=Inf	24	aux	_	_
-24	instalada	instalado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	10	obl	_	_
-25	enseguida	enseguida	ADV	ADV	_	24	advmod	_	_
+23	quedar	quedar	VERB	AUX	VerbForm=Inf	10	obl	_	_
+24	instalada	instalado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	23	xcomp	_	_
+25	enseguida	enseguida	ADV	ADV	_	23	advmod	_	_
 26	con	con	ADP	ADP	AdpType=Prep	27	case	_	_
-27	carácter	carácter	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+27	carácter	carácter	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
 28	poco	poco	ADV	ADV	_	31	advmod	_	MWE=poco_menos_que|MWEPOS=ADV
 29	menos	menos	ADV	ADV	_	28	fixed	_	_
 30	que	que	SCONJ	SCONJ	_	28	fixed	_	_

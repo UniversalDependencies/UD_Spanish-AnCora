@@ -2747,10 +2747,10 @@
 51	vez	vez	NOUN	NOUN	_	50	fixed	_	_
 52	de	de	ADP	ADP	AdpType=Prep	50	fixed	_	_
 53-54	quedarse	_	_	_	_	_	_	_	_
-53	quedar	quedar	AUX	AUX	VerbForm=Inf	56	aux	_	_
-54	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	56	obj	_	_
-55	incomprensiblemente	incomprensiblemente	ADV	ADV	_	56	advmod	_	_
-56	paralizados	paralizado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	50	advmod	_	SpaceAfter=No
+53	quedar	quedar	VERB	AUX	VerbForm=Inf	50	advmod	_	_
+54	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	53	obj	_	_
+55	incomprensiblemente	incomprensiblemente	ADV	ADV	_	53	advmod	_	_
+56	paralizados	paralizado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	53	xcomp	_	SpaceAfter=No
 57	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s69
@@ -59063,13 +59063,13 @@
 # text = Los pechos femeninos vuelven a estar tapados.
 # orig_file_sentence 017#52
 1	Los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	pechos	pecho	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
+2	pechos	pecho	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	femeninos	femenino	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
-4	vuelven	volver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	vuelven	volver	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	a	a	ADP	ADP	AdpType=Prep	7	case	_	_
 6	estar	estar	AUX	AUX	VerbForm=Inf	7	cop	_	_
-7	tapados	tapado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
+7	tapados	tapado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	4	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s1653
 # text = ¿Será que el tabú del seno materno es demasiado fuerte para destruirlo?.
