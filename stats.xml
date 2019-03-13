@@ -18,7 +18,7 @@
     <tag name="ADJ">36451</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, mayor, segundo, buen -->
     <tag name="ADP">88047</tag><!-- de, en, a, del, por, con, para, al, entre, sobre -->
     <tag name="ADV">17818</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
-    <tag name="AUX">15708</tag><!-- ser, haber, estar, poder, deber, ir, empezar, dejar, decir, intentar -->
+    <tag name="AUX">15336</tag><!-- ser, haber, estar, poder, deber, ir, intentar, tener, acabar, venir -->
     <tag name="CCONJ">15118</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
     <tag name="DET">73632</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">173</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, ja, ojo, qué -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">65507</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12475</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">486</tag><!-- ', %, 50/100, 30/100, 60/100, 20/100, 10/100, 80/100, 20, 25/100 -->
-    <tag name="VERB">46088</tag><!-- tener, hacer, decir, dar, llegar, ver, querer, seguir, llevar, asegurar -->
+    <tag name="VERB">46460</tag><!-- tener, hacer, decir, dar, llegar, ver, querer, seguir, llevar, asegurar -->
     <tag name="X">1</tag><!-- tanto -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -103,10 +103,10 @@
     <dep name="advmod">19188</dep>
     <dep name="amod">29509</dep>
     <dep name="appos">7532</dep>
-    <dep name="aux">8647</dep>
+    <dep name="aux">8275</dep>
     <dep name="case">76108</dep>
     <dep name="cc">15147</dep>
-    <dep name="ccomp">5808</dep>
+    <dep name="ccomp">6051</dep>
     <dep name="compound">2460</dep>
     <dep name="conj">16401</dep>
     <dep name="cop">5593</dep>
@@ -131,6 +131,6 @@
     <dep name="parataxis">702</dep>
     <dep name="punct">65495</dep>
     <dep name="root">17680</dep>
-    <dep name="xcomp">3450</dep>
+    <dep name="xcomp">3579</dep>
   </deps>
 </treebank>
