@@ -2729,7 +2729,7 @@
 6	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 7	incluso	incluso	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
-9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
+9	de	de	ADP	ADP	AdpType=Prep	10	mark	_	_
 10	sufrir	sufrir	VERB	AUX	VerbForm=Inf	7	advcl	_	_
 11	mutaciones	mutación	NOUN	NOUN	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
@@ -3681,7 +3681,7 @@
 # sent_id = test-s108
 # text = Hasta hace poco los investigadores y científicos no se explicaban muy bien esta circunstancia: - cómo era posible que el organismo humano pudiera atacar con el arma particular más adecuada para cada caso a cada uno de sus enemigos?
 # orig_file_sentence 002#8
-1	Hasta	hasta	ADP	ADP	AdpType=Prep	2	case	_	_
+1	Hasta	hasta	ADP	ADP	AdpType=Prep	2	mark	_	_
 2	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 3	poco	poco	ADV	ADV	_	2	obj	_	_
 4	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -5504,7 +5504,7 @@
 # sent_id = test-s161
 # text = Desde hace días están concentrados.
 # orig_file_sentence 002#61
-1	Desde	desde	ADP	ADP	AdpType=Prep	2	case	_	_
+1	Desde	desde	ADP	ADP	AdpType=Prep	2	mark	_	_
 2	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 3	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	2	obj	_	_
 4	están	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -20867,9 +20867,9 @@
 1	"	"	PUNCT	PUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	No	no	ADV	ADV	Polarity=Neg	3	advmod	_	_
 3	sé	saber	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	ccomp	_	_
-4	como	como	PRON	PRON	PronType=Int	3	ccomp	_	_
-5	está	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-6	Raúl	Raúl	PROPN	PROPN	_	4	nsubj	_	SpaceAfter=No
+4	como	como	PRON	PRON	PronType=Int	5	mark	_	_
+5	está	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	Raúl	Raúl	PROPN	PROPN	_	5	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 8	pero	pero	CCONJ	CCONJ	_	13	cc	_	_
 9	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -25899,7 +25899,7 @@
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	próximo	próximo	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
 17	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
-18	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
+18	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
 19	en	en	ADP	ADP	AdpType=Prep	22	case	_	MWE=en_línea|MWEPOS=ADV
 20	línea	línea	NOUN	NOUN	_	19	fixed	_	_
 21	con	con	ADP	ADP	AdpType=Prep	22	case	_	_
@@ -27905,7 +27905,7 @@
 5	países	país	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 7	enemigos	enemigo	NOUN	NOUN	Gender=Masc|Number=Plur	5	appos	_	_
-8	desde	desde	ADP	ADP	AdpType=Prep	9	case	_	_
+8	desde	desde	ADP	ADP	AdpType=Prep	9	mark	_	_
 9	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 10	más	más	ADV	ADV	_	13	advmod	_	_
 11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
@@ -28263,7 +28263,7 @@
 22	entre	entre	ADP	ADP	AdpType=Prep	24	case	_	_
 23	ambos	ambos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	24	nummod	_	_
 24	países	país	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
-25	desde	desde	ADP	ADP	AdpType=Prep	26	case	_	_
+25	desde	desde	ADP	ADP	AdpType=Prep	26	mark	_	_
 26	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
 27	casi	casi	ADV	ADV	_	29	advmod	_	_
 28	cuatro	cuatro	NUM	NUM	Number=Plur|NumType=Card	29	nummod	_	_
@@ -47569,7 +47569,7 @@
 1	Córcega	Córcega	PROPN	PROPN	_	13	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 3	sacudida	sacudido	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	1	amod	_	_
-4	desde	desde	ADP	ADP	AdpType=Prep	5	case	_	_
+4	desde	desde	ADP	ADP	AdpType=Prep	5	mark	_	_
 5	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 6	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	_
 7	por	por	ADP	ADP	AdpType=Prep	9	case	_	_

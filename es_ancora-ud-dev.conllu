@@ -5177,7 +5177,7 @@
 24	valores	valor	NOUN	NOUN	Gender=Masc|Number=Plur	22	nmod	_	_
 25	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	26	case	_	_
 26	hombre	hombre	NOUN	NOUN	Gender=Masc|Number=Sing	24	nmod	_	_
-27	hasta	hasta	ADP	ADP	AdpType=Prep	28	case	_	_
+27	hasta	hasta	ADP	ADP	AdpType=Prep	28	mark	_	_
 28	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 29	poco	poco	ADV	ADV	_	33	advmod	_	_
 30	menos	menos	ADV	ADV	_	33	advmod	_	_
@@ -7536,7 +7536,7 @@
 24	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 25	cosa	cosa	NOUN	NOUN	Gender=Fem|Number=Sing	16	parataxis	_	_
 26	muy	mucho	ADV	ADV	_	28	advmod	_	_
-27	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
+27	de	de	ADP	ADP	AdpType=Prep	28	mark	_	_
 28	estimar	estimar	VERB	VERB	VerbForm=Inf	25	acl	_	_
 29	en	en	ADP	ADP	AdpType=Prep	31	case	_	_
 30	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -20915,7 +20915,7 @@
 21	islámicos	islámico	ADJ	ADJ	Gender=Masc|Number=Plur	19	amod	_	_
 22	que	que	PRON	PRON	PronType=Rel	29	nsubj	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
-24	desde	desde	ADP	ADP	AdpType=Prep	25	case	_	_
+24	desde	desde	ADP	ADP	AdpType=Prep	25	mark	_	_
 25	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
 26	ocho	ocho	NUM	NUM	Number=Plur|NumType=Card	27	nummod	_	_
 27	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
@@ -21906,7 +21906,7 @@
 17	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	escudería	escudería	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
 19	italiana	italiano	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
-20	desde	desde	ADP	ADP	AdpType=Prep	21	case	_	_
+20	desde	desde	ADP	ADP	AdpType=Prep	21	mark	_	_
 21	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
 22	veintiún	veintiuno	NUM	NUM	Number=Plur|NumType=Card	23	nummod	_	_
 23	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
@@ -25609,15 +25609,15 @@
 26	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
 27	miércoles	miércoles	NOUN	NOUN	AdvType=Tim	25	obl	_	SpaceAfter=No
 28	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
-29	que	que	SCONJ	SCONJ	_	37	mark	_	_
+29	que	que	SCONJ	SCONJ	_	36	mark	_	_
 30	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 31	alto	alto	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
-32	valor	valor	NOUN	NOUN	Gender=Masc|Number=Sing	37	nsubj	_	_
+32	valor	valor	NOUN	NOUN	Gender=Masc|Number=Sing	36	nsubj	_	_
 33	de	de	ADP	ADP	AdpType=Prep	35	case	_	_
 34	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	libra	libra	NOUN	NOUN	Number=Sing	32	nmod	_	_
-36	terminará	terminar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	aux	_	_
-37	afectando	afectar	VERB	VERB	VerbForm=Ger	24	ccomp	_	_
+36	terminará	terminar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	ccomp	_	_
+37	afectando	afectar	VERB	VERB	VerbForm=Ger	36	xcomp	_	_
 38	a	a	ADP	ADP	AdpType=Prep	37	advmod	_	MWE=a_largo_plazo|MWEPOS=ADV
 39	largo	largo	NOUN	NOUN	_	38	fixed	_	_
 40	plazo	plazo	NOUN	NOUN	_	38	fixed	_	_
@@ -27904,7 +27904,7 @@
 34	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	estadio	estadio	NOUN	NOUN	Gender=Masc|Number=Sing	32	appos	_	_
 36	que	que	PRON	PRON	PronType=Rel	42	nsubj	_	_
-37	desde	desde	ADP	ADP	AdpType=Prep	38	case	_	_
+37	desde	desde	ADP	ADP	AdpType=Prep	38	mark	_	_
 38	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advcl	_	_
 39	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	38	obj	_	_
 40	suele	soler	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
@@ -33708,7 +33708,7 @@
 33	general	general	NOUN	NOUN	_	32	fixed	_	SpaceAfter=No
 34	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 35	aunque	aunque	SCONJ	SCONJ	_	36	mark	_	_
-36	sí	él	INTJ	ADV	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	24	advcl	_	_
+36	sí	él	PRON	ADV	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	24	advcl	_	_
 37	puntualmente	puntualmente	ADV	ADV	_	36	advmod	_	_
 38	por	por	ADP	ADP	AdpType=Prep	36	case	_	_
 39	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
@@ -36429,7 +36429,7 @@
 # text = Actúan desde hace cinco años en el Bagdad y, ahora, se sienten más orgullosos de la pared que tienen delante cuando copulan en escena.
 # orig_file_sentence 010#44
 1	Actúan	actuar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	desde	desde	ADP	ADP	AdpType=Prep	3	case	_	_
+2	desde	desde	ADP	ADP	AdpType=Prep	3	mark	_	_
 3	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
 4	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	5	nummod	_	_
 5	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
@@ -49963,7 +49963,7 @@
 36	tipo	tipo	NOUN	NOUN	Gender=Masc|Number=Sing	33	obj	_	_
 37	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
 38	privilegios	privilegio	NOUN	NOUN	Gender=Masc|Number=Plur	36	nmod	_	_
-39	desde	desde	ADP	ADP	AdpType=Prep	40	case	_	_
+39	desde	desde	ADP	ADP	AdpType=Prep	40	mark	_	_
 40	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	_
 41	siglos	siglo	NOUN	NOUN	Gender=Masc|Number=Plur	40	obj	_	SpaceAfter=No
 42	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
@@ -51576,7 +51576,7 @@
 23	confesó	confesar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl	_	_
 24	echar	echar	VERB	VERB	VerbForm=Inf	23	xcomp	_	_
 25	profundamente	profundamente	ADV	ADV	_	24	advmod	_	_
-26	de	echar	ADP	ADP	AdpType=Prep	27	case	_	MWE=de_menos|MWEPOS=AUX
+26	de	echar	ADP	ADP	AdpType=Prep	27	mark	_	MWE=de_menos|MWEPOS=AUX
 27	menos	de	ADV	ADV	VerbForm=Inf	24	advmod	_	_
 28	a	a	ADP	ADP	AdpType=Prep	30	case	_	_
 29	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
@@ -55238,7 +55238,7 @@
 20	de	de	ADP	ADP	AdpType=Prep	22	mark	_	_
 21	estar	estar	AUX	AUX	VerbForm=Inf	22	aux	_	_
 22	esperando	esperar	VERB	VERB	VerbForm=Ger	19	advcl	_	_
-23	desde	desde	ADP	ADP	AdpType=Prep	24	case	_	_
+23	desde	desde	ADP	ADP	AdpType=Prep	24	mark	_	_
 24	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
 25	un	uno	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
 26	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	24	obj	_	_
@@ -58234,7 +58234,7 @@
 2	Lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	_	_
 3	estamos	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	reclamando	reclamar	VERB	VERB	VerbForm=Ger	11	ccomp	_	_
-5	desde	desde	ADP	ADP	AdpType=Prep	6	case	_	_
+5	desde	desde	ADP	ADP	AdpType=Prep	6	mark	_	_
 6	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 7	15	15	NUM	NUM	NumForm=Digit|NumType=Card	8	nummod	_	_
 8	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
