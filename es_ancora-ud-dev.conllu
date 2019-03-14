@@ -38401,10 +38401,10 @@
 # sent_id = dev-s1006
 # text = Termina así la aventura de Bakero en el banquillo ya que en los 13 partidos que ha dirigido al Puebla, cinco del torneo anterior y ocho del actual, sólo ha ganado dos encuentros, ha empatado cuatro y ha encajado siete derrotas.
 # orig_file_sentence 011#6
-1	Termina	terminar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-2	así	así	ADV	ADV	_	0	root	_	_
+1	Termina	terminar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	así	así	ADV	ADV	_	1	xcomp	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	aventura	aventura	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	_
+4	aventura	aventura	NOUN	NOUN	Gender=Fem|Number=Sing	1	nsubj	_	_
 5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 6	Bakero	Bakero	PROPN	PROPN	_	4	nmod	_	_
 7	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
@@ -38445,7 +38445,7 @@
 42	encajado	encajar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	conj	_	_
 43	siete	siete	NUM	NUM	Number=Plur|NumType=Card	44	nummod	_	_
 44	derrotas	derrota	NOUN	NOUN	Gender=Fem|Number=Plur	42	obj	_	SpaceAfter=No
-45	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
+45	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id = dev-s1007
 # text = España logra dos plazas para Sydney en gimnasia rítmica.
@@ -40696,15 +40696,15 @@
 # sent_id = dev-s1101
 # text = Nacido en Reus porque no había clínica en Falset, población en la que su padre era funcionario de Correos, Jordi Villacampa (Reus, Baix Camp, 11-10-63) es badalonés por vocación.
 # orig_file_sentence 012#1
-1	Nacido	nacido	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	22	acl	_	_
+1	Nacido	nacido	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	6	xcomp	_	_
 2	en	en	ADP	ADP	AdpType=Prep	3	case	_	_
-3	Reus	Reus	PROPN	PROPN	_	1	obl	_	_
-4	porque	porque	SCONJ	SCONJ	_	1	mark	_	_
-5	no	no	ADV	ADV	Polarity=Neg	1	advmod	_	_
-6	había	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	cop	_	_
-7	clínica	clínica	NOUN	NOUN	Gender=Fem|Number=Sing	1	obj	_	_
+3	Reus	Reus	PROPN	PROPN	_	6	obl	_	_
+4	porque	porque	SCONJ	SCONJ	_	6	mark	_	_
+5	no	no	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	había	haber	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl	_	_
+7	clínica	clínica	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
 8	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
-9	Falset	Falset	PROPN	PROPN	_	1	obl	_	SpaceAfter=No
+9	Falset	Falset	PROPN	PROPN	_	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 11	población	población	NOUN	NOUN	Gender=Fem|Number=Sing	9	appos	_	_
 12	en	en	ADP	ADP	AdpType=Prep	14	case	_	_
@@ -43381,8 +43381,8 @@
 40	mendigo	mendigo	NOUN	NOUN	Gender=Masc|Number=Sing	37	conj	_	_
 41	utilizando	utilizar	VERB	VERB	VerbForm=Ger	32	advcl	_	_
 42	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	esnob	esnob	ADJ	ADJ	Gender=Masc|Number=Sing	41	obj	_	_
-44	bate	batir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	esnob	esnob	ADJ	ADJ	Gender=Masc|Number=Sing	44	xcomp	_	_
+44	bate	batir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	ccomp	_	_
 45	de	de	ADP	ADP	AdpType=Prep	46	case	_	_
 46	béisbol	béisbol	NOUN	NOUN	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
@@ -52547,13 +52547,13 @@
 10	por	por	ADP	ADP	AdpType=Prep	12	case	_	_
 11	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	gesta	gesta	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
-13	conseguida	conseguido	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	12	acl	_	_
-14	cuando	cuando	SCONJ	SCONJ	_	13	mark	_	_
+13	conseguida	conseguido	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	17	xcomp	_	_
+14	cuando	cuando	SCONJ	SCONJ	_	17	mark	_	_
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	torneo	torneo	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
-17	abría	abrir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+16	torneo	torneo	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	abría	abrir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl	_	_
 18	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
-19	puertas	puerta	NOUN	NOUN	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+19	puertas	puerta	NOUN	NOUN	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id = dev-s1447

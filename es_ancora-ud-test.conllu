@@ -4193,11 +4193,11 @@
 25	si	si	SCONJ	SCONJ	_	26	mark	_	_
 26	hay	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
 27	superioridad	superioridad	NOUN	NOUN	Gender=Fem|Number=Sing	26	obj	_	_
-28	e	e	CCONJ	CCONJ	_	29	cc	_	_
-29	inútil	inútil	ADJ	ADJ	Number=Sing	24	conj	_	_
-30	si	si	SCONJ	SCONJ	_	29	mark	_	_
-31	hay	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
-32	igualdad	igualdad	NOUN	NOUN	Gender=Fem|Number=Sing	29	obj	_	_
+28	e	e	CCONJ	CCONJ	_	31	cc	_	_
+29	inútil	inútil	ADJ	ADJ	Number=Sing	31	xcomp	_	_
+30	si	si	SCONJ	SCONJ	_	31	mark	_	_
+31	hay	haber	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+32	igualdad	igualdad	NOUN	NOUN	Gender=Fem|Number=Sing	31	obj	_	_
 33	-	-	PUNCT	PUNCT	PunctType=Dash	2	punct	_	SpaceAfter=No
 34	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
@@ -9853,20 +9853,20 @@
 28	aunque	aunque	SCONJ	SCONJ	_	29	mark	_	_
 29	restó	restar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
 30	importancia	importancia	NOUN	NOUN	Gender=Fem|Number=Sing	29	obj	_	_
-31	al	al	ADP	ADP	AdpType=Preppron	39	mark	_	_
-32	explicar	explicar	AUX	AUX	VerbForm=Inf	39	aux	_	_
+31	al	al	ADP	ADP	AdpType=Preppron	32	mark	_	_
+32	explicar	explicar	VERB	AUX	VerbForm=Inf	29	advcl	_	_
 33	a	a	ADP	ADP	AdpType=Prep	35	case	_	_
 34	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	Sala	Sala	PROPN	PROPN	_	39	obj	_	_
-36	que	que	SCONJ	SCONJ	_	39	mark	_	_
-37	"	"	PUNCT	PUNCT	PunctType=Quot	39	punct	_	SpaceAfter=No
+35	Sala	Sala	PROPN	PROPN	_	32	obj	_	_
+36	que	que	SCONJ	SCONJ	_	32	mark	_	_
+37	"	"	PUNCT	PUNCT	PunctType=Quot	32	punct	_	SpaceAfter=No
 38	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
-39	habitual	habitual	ADJ	ADJ	Number=Sing	29	advcl	_	_
+39	habitual	habitual	ADJ	ADJ	Number=Sing	32	xcomp	_	_
 40	que	que	SCONJ	SCONJ	_	44	mark	_	_
 41	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
 42	empresas	empresa	NOUN	NOUN	Gender=Fem|Number=Plur	44	nsubj	_	_
 43	no	no	ADV	ADV	Polarity=Neg	44	advmod	_	_
-44	entreguen	entregar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	csubj	_	_
+44	entreguen	entregar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	csubj	_	_
 45	toda	todo	DET	DET	Gender=Fem|Number=Sing|PronType=Tot	46	det	_	_
 46	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	documentación	documentación	NOUN	NOUN	Gender=Fem|Number=Sing	44	obj	_	_
@@ -9875,7 +9875,7 @@
 50	cierre	cierre	NOUN	NOUN	Gender=Masc|Number=Sing	44	obl	_	_
 51	del	del	ADP	ADP	AdpType=Preppron	52	case	_	_
 52	ejercicio	ejercicio	NOUN	NOUN	Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
-53	"	"	PUNCT	PUNCT	PunctType=Quot	39	punct	_	SpaceAfter=No
+53	"	"	PUNCT	PUNCT	PunctType=Quot	32	punct	_	SpaceAfter=No
 54	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = test-s283
@@ -11532,19 +11532,19 @@
 10	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 11	quien	quien	PRON	PRON	Number=Sing|PronType=Int,Rel	12	nsubj	_	_
 12	reiteró	reiterar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	_
-13	que	que	SCONJ	SCONJ	_	22	mark	_	_
+13	que	que	SCONJ	SCONJ	_	48	mark	_	_
 14	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	no	no	ADV	ADV	Polarity=Neg	16	advmod	_	_
-16	renovación	renovación	NOUN	NOUN	Gender=Fem|Number=Sing	22	nsubj	_	_
+16	renovación	renovación	NOUN	NOUN	Gender=Fem|Number=Sing	48	nsubj	_	_
 17	en	en	ADP	ADP	AdpType=Prep	19	case	_	_
 18	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
 19	caso	caso	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
 20	concreto	concreto	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
 21	está	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
-22	motivada	motivado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	12	ccomp	_	_
-23	porque	porque	SCONJ	SCONJ	_	22	mark	_	_
+22	motivada	motivado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	48	xcomp	_	_
+23	porque	porque	SCONJ	SCONJ	_	48	mark	_	_
 24	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	alcalde	alcalde	NOUN	NOUN	Gender=Masc|Number=Sing	22	nsubj	_	_
+25	alcalde	alcalde	NOUN	NOUN	Gender=Masc|Number=Sing	48	nsubj	_	_
 26	de	de	ADP	ADP	AdpType=Prep	27	case	_	_
 27	Mérida	Mérida	PROPN	PROPN	_	25	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	PUNCT	PunctType=Comm	33	punct	_	_
@@ -11565,12 +11565,12 @@
 43	regidor	regidor	NOUN	NOUN	Gender=Masc|Number=Sing	37	acl	_	_
 44	municipal	municipal	ADJ	ADJ	Number=Sing	43	amod	_	SpaceAfter=No
 45	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	_
-46	no	no	ADV	ADV	Polarity=Neg	22	advmod	_	_
-47	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
-48	explotado	explotar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	cop	_	_
-49	directamente	directamente	ADV	ADV	_	22	advmod	_	_
+46	no	no	ADV	ADV	Polarity=Neg	48	advmod	_	_
+47	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	_
+48	explotado	explotar	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
+49	directamente	directamente	ADV	ADV	_	48	advmod	_	_
 50	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
-51	emisora	emisora	NOUN	NOUN	Gender=Fem|Number=Sing	22	obj	_	_
+51	emisora	emisora	NOUN	NOUN	Gender=Fem|Number=Sing	48	obj	_	_
 52	de	de	ADP	ADP	AdpType=Prep	54	case	_	_
 53	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
 54	que	que	PRON	PRON	PronType=Int,Rel	55	obj	_	_
@@ -18156,14 +18156,14 @@
 20	22	22	NUM	NUM	NumForm=Digit|NumType=Card	14	obl	_	MWE=22_de_noviembre|MWEPOS=NOUN
 21	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 22	noviembre	noviembre	NOUN	NOUN	_	20	compound	_	SpaceAfter=No
-23	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
+23	,	,	PUNCT	PUNCT	PunctType=Comm	29	punct	_	_
 24	para	para	ADP	ADP	AdpType=Prep	27	case	_	SpaceAfter=No
-25	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
-26	ya	ya	ADV	ADV	_	27	advmod	_	_
-27	muerto	muerto	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	14	obl	_	SpaceAfter=No
-28	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
-29	recibir	recibir	AUX	AUX	VerbForm=Inf	27	aux	_	_
-30	honores	honor	NOUN	NOUN	Gender=Masc|Number=Plur	27	obj	_	_
+25	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
+26	ya	ya	ADV	ADV	_	29	advmod	_	_
+27	muerto	muerto	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	29	xcomp	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	PunctType=Comm	29	punct	_	_
+29	recibir	recibir	VERB	AUX	VerbForm=Inf	14	advcl	_	_
+30	honores	honor	NOUN	NOUN	Gender=Masc|Number=Plur	29	obj	_	_
 31	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
 32	Jefe	Jefe	PROPN	PROPN	_	30	nmod	_	MWE=Jefe_de_Estado|MWEPOS=PROPN
 33	de	de	ADP	ADP	AdpType=Prep	34	case	_	_
@@ -21811,7 +21811,7 @@
 1	Conforme	conforme	NOUN	NOUN	_	4	case	_	MWE=Conforme_a|MWEPOS=ADP
 2	a	a	ADP	ADP	AdpType=Prep	1	fixed	_	_
 3	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-4	datos	dato	NOUN	NOUN	Gender=Masc|Number=Plur	25	obl	_	_
+4	datos	dato	NOUN	NOUN	Gender=Masc|Number=Plur	23	obl	_	_
 5	recogidos	recogido	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	4	amod	_	_
 6	en	en	ADP	ADP	AdpType=Prep	8	case	_	_
 7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -21820,7 +21820,7 @@
 10	ejercicio	ejercicio	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 12	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	recursos	recurso	NOUN	NOUN	Gender=Masc|Number=Plur	25	nsubj	_	_
+13	recursos	recurso	NOUN	NOUN	Gender=Masc|Number=Plur	23	nsubj	_	_
 14	autogenerados	autogenerado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	13	amod	_	_
 15	por	por	ADP	ADP	AdpType=Prep	16	case	_	_
 16	Caja	Caja	PROPN	PROPN	_	14	obj	_	MWE=Caja_Cantabria|MWEPOS=PROPN
@@ -21830,9 +21830,9 @@
 20	`cash	`cash	NOUN	NOUN	_	13	conj	_	MWE=`cash_flow|MWEPOS=NOUN
 21	flow	flow	NOUN	NOUN	_	20	compound	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
-23	fueron	ir	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+23	fueron	ir	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 24	9.352	9352	NUM	NUM	NumForm=Digit|NumType=Card	25	nummod	_	_
-25	millones	millón	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+25	millones	millón	NOUN	NOUN	Gender=Masc|Number=Plur	23	xcomp	_	_
 26	de	de	ADP	ADP	AdpType=Prep	27	case	_	_
 27	pesetas	peseta	NOUN	NOUN	NumForm=Digit	25	nmod	_	_
 28	y	y	CCONJ	CCONJ	_	43	cc	_	_
@@ -21853,7 +21853,7 @@
 43	millones	millón	NOUN	NOUN	Gender=Masc|Number=Plur	25	conj	_	_
 44	de	de	ADP	ADP	AdpType=Prep	45	case	_	_
 45	pesetas	peseta	NOUN	NOUN	NumForm=Digit	43	nmod	_	SpaceAfter=No
-46	.	.	PUNCT	PUNCT	PunctType=Peri	25	punct	_	_
+46	.	.	PUNCT	PUNCT	PunctType=Peri	23	punct	_	_
 
 # sent_id = test-s576
 # text = De esa cantidad, el 41,8 por ciento lo destinará al Fondo de su Obra Social y Cultural y el 58,2 por ciento restante a reservas.
@@ -25518,12 +25518,12 @@
 # text = Este descenso está provocado por la disminución de la necesidad de endeudamiento del Estado y por el menor vencimiento de deuda, que han permitido que, en los últimos cuatro años, el Tesoro haya reducido a la mitad los fondos que debe obtener en los mercados.
 # orig_file_sentence 007#58
 1	Este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	descenso	descenso	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	descenso	descenso	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
 3	está	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	provocado	provocado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+4	provocado	provocado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	25	xcomp	_	_
 5	por	por	ADP	ADP	AdpType=Prep	7	case	_	_
 6	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	disminución	disminución	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+7	disminución	disminución	NOUN	NOUN	Gender=Fem|Number=Sing	25	obj	_	_
 8	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	necesidad	necesidad	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
@@ -25538,10 +25538,10 @@
 19	vencimiento	vencimiento	NOUN	NOUN	Gender=Masc|Number=Sing	7	conj	_	_
 20	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 21	deuda	deuda	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
-23	que	que	PRON	PRON	PronType=Int,Rel	4	nsubj	_	_
-24	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-25	permitido	permitir	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+22	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
+23	que	que	PRON	PRON	PronType=Int,Rel	25	nsubj	_	_
+24	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	permitido	permitir	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 26	que	que	SCONJ	SCONJ	_	37	mark	_	SpaceAfter=No
 27	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 28	en	en	ADP	ADP	AdpType=Prep	32	case	_	_
@@ -25565,7 +25565,7 @@
 46	en	en	ADP	ADP	AdpType=Prep	48	case	_	_
 47	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
 48	mercados	mercado	NOUN	NOUN	Gender=Masc|Number=Plur	45	obl	_	SpaceAfter=No
-49	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
+49	.	.	PUNCT	PUNCT	PunctType=Peri	25	punct	_	_
 
 # sent_id = test-s659
 # text = El Tesoro prevé amortizar deuda el próximo año por importe de 9,3 billones de pesetas, un 21 por ciento menos que este ejercicio, gracias a la política de alargamiento de la vida media de los títulos.
@@ -35540,12 +35540,12 @@
 9	conservadores	conservador	NOUN	NOUN	Gender=Masc|Number=Plur	7	conj	_	_
 10	y	y	CCONJ	CCONJ	_	11	cc	_	_
 11	derechistas	derechista	NOUN	NOUN	Number=Plur	7	conj	_	_
-12	que	que	PRON	PRON	PronType=Int,Rel	17	nsubj	_	_
-13	formaban	formar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+12	que	que	PRON	PRON	PronType=Int,Rel	13	nsubj	_	_
+13	formaban	formar	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl	_	_
 14	hasta	hasta	ADP	ADP	AdpType=Prep	15	case	_	_
-15	ahora	ahora	ADV	ADV	_	17	advmod	_	_
+15	ahora	ahora	ADV	ADV	_	13	advmod	_	_
 16	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	oposición	oposición	NOUN	NOUN	Gender=Fem|Number=Sing	7	acl	_	SpaceAfter=No
+17	oposición	oposición	NOUN	NOUN	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 19	quienes	quien	PRON	PRON	Number=Plur|PronType=Int,Rel	20	nsubj	_	_
 20	sostenían	sostener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl	_	_
@@ -55094,13 +55094,13 @@
 6	no	no	ADV	ADV	Polarity=Neg	7	advmod	_	_
 7	ponga	poner	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 8	trabas	traba	NOUN	NOUN	Gender=Fem|Number=Plur	7	obj	_	_
-9	para	para	ADP	ADP	AdpType=Prep	15	mark	_	_
-10	extender	extender	AUX	AUX	VerbForm=Inf	15	aux	_	_
+9	para	para	ADP	ADP	AdpType=Prep	10	mark	_	_
+10	extender	extender	VERB	AUX	VerbForm=Inf	8	acl	_	_
 11	estos	este	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
-12	centros	centro	NOUN	NOUN	Gender=Masc|Number=Plur	15	obj	_	_
-13	donde	donde	PRON	PRON	PronType=Ind	15	obl	_	_
+12	centros	centro	NOUN	NOUN	Gender=Masc|Number=Plur	10	obj	_	_
+13	donde	donde	PRON	PRON	PronType=Ind	10	obl	_	_
 14	sean	ser	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
-15	necesarios	necesario	ADJ	ADJ	Gender=Masc|Number=Plur	8	acl	_	_
+15	necesarios	necesario	ADJ	ADJ	Gender=Masc|Number=Plur	10	xcomp	_	_
 16	si	si	SCONJ	SCONJ	_	20	mark	_	_
 17	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	experiencia	experiencia	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
