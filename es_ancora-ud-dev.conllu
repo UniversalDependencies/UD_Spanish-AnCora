@@ -25618,7 +25618,7 @@
 35	libra	libra	NOUN	NOUN	Number=Sing	32	nmod	_	_
 36	terminará	terminar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	ccomp	_	_
 37	afectando	afectar	VERB	VERB	VerbForm=Ger	36	xcomp	_	_
-38	a	a	ADP	ADP	AdpType=Prep	37	advmod	_	MWE=a_largo_plazo|MWEPOS=ADV
+38	a	a	ADP	ADP	AdpType=Prep	36	advmod	_	MWE=a_largo_plazo|MWEPOS=ADV
 39	largo	largo	NOUN	NOUN	_	38	fixed	_	_
 40	plazo	plazo	NOUN	NOUN	_	38	fixed	_	_
 41	a	a	ADP	ADP	AdpType=Prep	43	case	_	_
@@ -39556,9 +39556,9 @@
 3	exceso	exceso	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 4	te	tú	PRON	PRON	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	5	obj	_	_
 5	cansa	cansar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	y	y	CCONJ	CCONJ	_	8	cc	_	_
-7	acabas	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
-8	deseando	desear	VERB	VERB	VerbForm=Ger	5	conj	_	_
+6	y	y	CCONJ	CCONJ	_	7	cc	_	_
+7	acabas	acabar	VERB	AUX	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	deseando	desear	VERB	VERB	VerbForm=Ger	7	xcomp	_	_
 9	ver	ver	VERB	VERB	VerbForm=Inf	8	xcomp	_	_
 10	a	a	ADP	ADP	AdpType=Prep	12	case	_	_
 11	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_

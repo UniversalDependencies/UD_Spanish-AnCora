@@ -1098,22 +1098,22 @@
 # sent_id = test-s28
 # text = - Acabará aceptándose ese factor como un nuevo índice de las economías nacionales?
 # orig_file_sentence 001#28
-1	-	-	PUNCT	PUNCT	PunctType=Dash	3	punct	_	_
-2	Acabará	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	_
+1	-	-	PUNCT	PUNCT	PunctType=Dash	2	punct	_	_
+2	Acabará	acabar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3-4	aceptándose	_	_	_	_	_	_	_	_
-3	aceptando	aceptar	VERB	VERB	VerbForm=Ger	0	root	_	_
+3	aceptando	aceptar	VERB	VERB	VerbForm=Ger	2	xcomp	_	_
 4	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	3	obj	_	_
 5	ese	ese	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
-6	factor	factor	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	factor	factor	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
 7	como	como	SCONJ	SCONJ	_	10	mark	_	_
 8	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	nuevo	nuevo	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
-10	índice	índice	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+10	índice	índice	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
 11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
 12	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	economías	economía	NOUN	NOUN	Gender=Fem|Number=Plur	10	nmod	_	_
 14	nacionales	nacional	ADJ	ADJ	Number=Plur	13	amod	_	SpaceAfter=No
-15	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	3	punct	_	_
+15	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	2	punct	_	_
 
 # sent_id = test-s29
 # text = Quizá un admirador.
@@ -5457,12 +5457,12 @@
 6	comienzan	comenzar	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 7	siendo	ser	AUX	AUX	VerbForm=Ger	8	cop	_	_
 8	suaves	suave	ADJ	ADJ	Number=Plur	6	xcomp	_	_
-9	y	y	CCONJ	CCONJ	_	13	cc	_	_
-10	que	que	SCONJ	SCONJ	_	13	mark	_	_
-11	puede	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-12	terminar	terminar	AUX	AUX	VerbForm=Inf	13	aux	_	_
-13	ardiendo	arder	VERB	VERB	VerbForm=Ger	6	conj	_	_
-14	Troya	Troya	PROPN	PROPN	_	13	nsubj	_	SpaceAfter=No
+9	y	y	CCONJ	CCONJ	_	12	cc	_	_
+10	que	que	SCONJ	SCONJ	_	12	mark	_	_
+11	puede	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	terminar	terminar	VERB	AUX	VerbForm=Inf	6	conj	_	_
+13	ardiendo	arder	VERB	VERB	VerbForm=Ger	12	xcomp	_	_
+14	Troya	Troya	PROPN	PROPN	_	12	nsubj	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id = test-s160
@@ -16109,15 +16109,15 @@
 # orig_file_sentence 005#30
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	cuarto	cuarto	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	11	obl	_	SpaceAfter=No
+3	cuarto	cuarto	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	10	obl	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	mejor	mejor	ADJ	ADJ	Number=Sing	7	amod	_	_
-7	resto	resto	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+7	resto	resto	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
 8	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 9	Agassi	Agassi	PROPN	PROPN	_	7	nmod	_	_
-10	terminó	terminar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
-11	neutralizando	neutralizar	VERB	VERB	VerbForm=Ger	0	root	_	_
+10	terminó	terminar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	neutralizando	neutralizar	VERB	VERB	VerbForm=Ger	10	xcomp	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	fuerza	fuerza	NOUN	NOUN	Gender=Fem|Number=Sing	11	obj	_	_
 14	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
@@ -16130,7 +16130,7 @@
 20	desmoralizando	desmoralizar	VERB	VERB	VerbForm=Ger	11	conj	_	_
 21	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
 22	también	también	ADV	ADV	_	20	advmod	_	SpaceAfter=No
-23	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
+23	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id = test-s431
 # text = Agassi se enfrentará en cuartos con uno de los dos marroquíes que han revolucionado el torneo, Hicham Arazi, que venció al francés Nicolas Escudé por 6-4, 6-3 y 7-6.
@@ -18372,11 +18372,11 @@
 41	y	y	CCONJ	CCONJ	_	42	cc	_	_
 42	heridas	herida	NOUN	NOUN	Gender=Fem|Number=Plur	36	conj	_	_
 43	internas	interno	ADJ	ADJ	Gender=Fem|Number=Plur	42	amod	_	SpaceAfter=No
-44	,	,	PUNCT	PUNCT	PunctType=Comm	48	punct	_	_
-45	que	que	PRON	PRON	PronType=Rel	48	nsubj	_	_
-46	terminaron	terminar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	48	aux	_	_
+44	,	,	PUNCT	PUNCT	PunctType=Comm	46	punct	_	_
+45	que	que	PRON	PRON	PronType=Rel	46	nsubj	_	_
+46	terminaron	terminar	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	36	acl	_	_
 47	por	por	ADP	ADP	AdpType=Prep	48	mark	_	_
-48	minar	minar	VERB	VERB	VerbForm=Inf	36	acl	_	_
+48	minar	minar	VERB	VERB	VerbForm=Inf	46	xcomp	_	_
 49	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	det	_	_
 50	resistencia	resistencia	NOUN	NOUN	Gender=Fem|Number=Sing	48	obj	_	SpaceAfter=No
 51	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
@@ -43279,7 +43279,7 @@
 # text = El deporte de moda, que captó a mediados de los 70 a "quienes no podían jugar a fútbol", ha acabado ganándose su propio espacio y también el respeto a golpe de títulos, hasta alcanzar la cima.
 # orig_file_sentence 012#36
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	deporte	deporte	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
+2	deporte	deporte	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
 4	moda	moda	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
@@ -43300,10 +43300,10 @@
 20	fútbol	fútbol	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
 21	"	"	PUNCT	PUNCT	PunctType=Quot	18	punct	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
-23	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
-24	acabado	acabar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	aux	_	_
+23	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	acabado	acabar	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 25-26	ganándose	_	_	_	_	_	_	_	_
-25	ganando	ganar	VERB	VERB	VerbForm=Ger	0	root	_	_
+25	ganando	ganar	VERB	VERB	VerbForm=Ger	24	xcomp	_	_
 26	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	25	obj	_	_
 27	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
 28	propio	propio	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
@@ -43315,13 +43315,13 @@
 34	a	a	ADP	ADP	AdpType=Prep	37	case	_	MWE=a_golpe_de|MWEPOS=ADP
 35	golpe	golpe	NOUN	NOUN	_	34	fixed	_	_
 36	de	de	ADP	ADP	AdpType=Prep	34	fixed	_	_
-37	títulos	título	NOUN	NOUN	Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+37	títulos	título	NOUN	NOUN	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
 38	,	,	PUNCT	PUNCT	PunctType=Comm	40	punct	_	_
 39	hasta	hasta	ADP	ADP	AdpType=Prep	40	mark	_	_
 40	alcanzar	alcanzar	VERB	VERB	VerbForm=Inf	25	advcl	_	_
 41	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	cima	cima	NOUN	NOUN	Gender=Fem|Number=Sing	40	obj	_	SpaceAfter=No
-43	.	.	PUNCT	PUNCT	PunctType=Peri	25	punct	_	_
+43	.	.	PUNCT	PUNCT	PunctType=Peri	24	punct	_	_
 
 # sent_id = test-s1137
 # text = Britney Spears, la joven cantante estadounidense que ha vendido más de 50 millones de discos en todo el mundo y se ha convertido en la nueva reina de la música pop, se propone también ahora enseñar a bailar a sus incondicionales.
@@ -48819,11 +48819,11 @@
 # sent_id = test-s1350
 # text = No obstante, las condiciones ganadoras que había estipulado para su celebración el primer ministro separatista, Lucien Bouchard, han comenzado ya a materializarse, pues la primera de ellas era la victoria electoral.
 # orig_file_sentence 014#50
-1	No	no	PART	PART	_	25	advmod	_	MWE=No_obstante|MWEPOS=CCONJ
+1	No	no	PART	PART	_	22	advmod	_	MWE=No_obstante|MWEPOS=CCONJ
 2	obstante	obstante	NOUN	NOUN	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 4	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	condiciones	condición	NOUN	NOUN	Gender=Fem|Number=Plur	25	nsubj	_	_
+5	condiciones	condición	NOUN	NOUN	Gender=Fem|Number=Plur	22	nsubj	_	_
 6	ganadoras	ganador	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
 7	que	que	PRON	PRON	PronType=Rel	9	obj	_	_
 8	había	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
@@ -48839,12 +48839,12 @@
 18	Lucien	Lucien	PROPN	PROPN	_	15	appos	_	MWE=Lucien_Bouchard|MWEPOS=PROPN
 19	Bouchard	Bouchard	PROPN	PROPN	_	18	flat	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
-21	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
-22	comenzado	comenzar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	aux	_	_
-23	ya	ya	ADV	ADV	_	25	advmod	_	_
+21	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	comenzado	comenzar	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	ya	ya	ADV	ADV	_	22	advmod	_	_
 24	a	a	ADP	ADP	AdpType=Prep	25	mark	_	_
 25-26	materializarse	_	_	_	_	_	_	_	SpaceAfter=No
-25	materializar	materializar	VERB	VERB	VerbForm=Inf	0	root	_	_
+25	materializar	materializar	VERB	VERB	VerbForm=Inf	22	xcomp	_	_
 26	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	25	obj	_	_
 27	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	_
 28	pues	pues	SCONJ	SCONJ	_	35	mark	_	_
@@ -48856,7 +48856,7 @@
 34	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	victoria	victoria	NOUN	NOUN	Gender=Fem|Number=Sing	25	advcl	_	_
 36	electoral	electoral	ADJ	ADJ	Number=Sing	35	amod	_	SpaceAfter=No
-37	.	.	PUNCT	PUNCT	PunctType=Peri	25	punct	_	_
+37	.	.	PUNCT	PUNCT	PunctType=Peri	22	punct	_	_
 
 # sent_id = test-s1351
 # text = Bouchard no ha revelado cuáles son las otras, pero la lista de los politólogos comienza por la eliminación del déficit público, para reforzar la confianza de los quebequeses, mayoritariamente opuestos a la secesión, en que un estado soberano resultaría viable económicamente.
@@ -52360,14 +52360,14 @@
 # text = El presidente de Castilla-La Mancha comenzó ayer a modificar su discurso al introducir la posibilidad de asumir otras responsabilidades fuera de su comunidad.
 # orig_file_sentence 015#81
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+2	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
 4	Castilla-La	Castilla-La	PROPN	PROPN	_	2	nmod	_	MWE=Castilla-La_Mancha|MWEPOS=PROPN
 5	Mancha	Mancha	PROPN	PROPN	_	4	flat	_	_
-6	comenzó	comenzar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
-7	ayer	ayer	ADV	ADV	_	9	advmod	_	_
+6	comenzó	comenzar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	ayer	ayer	ADV	ADV	_	6	advmod	_	_
 8	a	a	ADP	ADP	AdpType=Prep	9	mark	_	_
-9	modificar	modificar	VERB	VERB	VerbForm=Inf	0	root	_	_
+9	modificar	modificar	VERB	VERB	VerbForm=Inf	6	xcomp	_	_
 10	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
 11	discurso	discurso	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
 12	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	13	mark	_	_
@@ -52382,7 +52382,7 @@
 21	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 22	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
 23	comunidad	comunidad	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
-24	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
+24	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id = test-s1482
 # text = Bono aseguró que no descartaba presentarse como diputado al Congreso en el futuro, aunque matizó que no deseaba dejar de ser presidente de Castilla-La Mancha para ser candidato a la Moncloa.
@@ -53028,12 +53028,12 @@
 # text = Vigo, que pasa así a formar parte de la comisión política de la formación, ha sustituido en el Parlament a Joan Puigcercós, diputado electo de ERC en el Congreso.
 # orig_file_sentence 016#1
 1	Vigo	Vigo	PROPN	PROPN	_	18	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
-3	que	que	PRON	PRON	PronType=Rel	7	nsubj	_	_
-4	pasa	pasar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-5	así	así	ADV	ADV	_	7	advmod	_	_
+2	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
+3	que	que	PRON	PRON	PronType=Rel	4	nsubj	_	_
+4	pasa	pasar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
+5	así	así	ADV	ADV	_	4	advmod	_	_
 6	a	a	ADP	ADP	AdpType=Prep	7	mark	_	_
-7	formar	formar	VERB	VERB	VerbForm=Inf	1	acl	_	MWE=formar_parte|MWEPOS=VERB
+7	formar	formar	VERB	VERB	VerbForm=Inf	4	xcomp	_	MWE=formar_parte|MWEPOS=VERB
 8	parte	parte	NOUN	NOUN	Number=Sing	7	compound	_	_
 9	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 10	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -53042,7 +53042,7 @@
 13	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 14	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	formación	formación	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
+16	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 17	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	sustituido	sustituir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 19	en	en	ADP	ADP	AdpType=Prep	21	case	_	_
