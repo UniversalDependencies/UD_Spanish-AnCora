@@ -10,7 +10,7 @@
     <dev><sentences>1654</sentences><tokens>52161</tokens><words>52336</words><fused>175</fused></dev>
     <test><sentences>1721</sentences><tokens>52433</tokens><words>52617</words><fused>184</fused></test>
   </size>
-  <lemmas unique="26161" /><!-- el, de, ,, ., que, en, y, él, uno, a, ", del, ser, por, su -->
+  <lemmas unique="26160" /><!-- el, de, ,, ., que, en, y, él, uno, a, ", del, ser, por, su -->
   <forms unique="38939" /><!-- de, ,, la, el, ., que, en, y, a, ", los, del, se, un, las -->
   <fusions unique="1083" /><!-- hacerlo, hacerse, haberse, convertirse, darle, enfrentarse, encontrarse, darse, presentarse, reunirse, situarse, ponerse, producirse, dedicarse, mantenerse -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -18,7 +18,7 @@
     <tag name="ADJ">36454</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, mayor, segundo, buen -->
     <tag name="ADP">88047</tag><!-- de, en, a, del, por, con, para, al, entre, sobre -->
     <tag name="ADV">17818</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
-    <tag name="AUX">14910</tag><!-- ser, haber, estar, poder, deber, ir, tener, saber, dejar, querer -->
+    <tag name="AUX">14880</tag><!-- ser, haber, estar, poder, deber, ir, tener, saber, dejar, querer -->
     <tag name="CCONJ">15118</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
     <tag name="DET">73632</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">173</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, ja, ojo, qué -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">65507</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12475</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">486</tag><!-- ', %, 50/100, 30/100, 60/100, 20/100, 10/100, 80/100, 20, 25/100 -->
-    <tag name="VERB">46886</tag><!-- tener, hacer, decir, dar, llegar, ver, querer, llevar, seguir, asegurar -->
+    <tag name="VERB">46916</tag><!-- tener, hacer, decir, dar, llegar, ver, querer, llevar, seguir, asegurar -->
     <tag name="X">1</tag><!-- tanto -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -106,10 +106,10 @@
     <dep name="advmod">19178</dep>
     <dep name="amod">29508</dep>
     <dep name="appos">7532</dep>
-    <dep name="aux">7914</dep>
+    <dep name="aux">7884</dep>
     <dep name="case">76108</dep>
     <dep name="cc">15147</dep>
-    <dep name="ccomp">6016</dep>
+    <dep name="ccomp">6047</dep>
     <dep name="compound">2460</dep>
     <dep name="conj">16401</dep>
     <dep name="cop">5528</dep>
@@ -134,6 +134,6 @@
     <dep name="parataxis">702</dep>
     <dep name="punct">65495</dep>
     <dep name="root">17680</dep>
-    <dep name="xcomp">4053</dep>
+    <dep name="xcomp">4052</dep>
   </deps>
 </treebank>
