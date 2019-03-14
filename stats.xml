@@ -18,7 +18,7 @@
     <tag name="ADJ">36451</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, mayor, segundo, buen -->
     <tag name="ADP">88047</tag><!-- de, en, a, del, por, con, para, al, entre, sobre -->
     <tag name="ADV">17818</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
-    <tag name="AUX">15269</tag><!-- ser, haber, estar, poder, deber, ir, intentar, tener, venir, ver -->
+    <tag name="AUX">15006</tag><!-- ser, haber, estar, poder, deber, ir, tener, saber, dejar, querer -->
     <tag name="CCONJ">15118</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
     <tag name="DET">73632</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">173</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, ja, ojo, qué -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">65507</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12475</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">486</tag><!-- ', %, 50/100, 30/100, 60/100, 20/100, 10/100, 80/100, 20, 25/100 -->
-    <tag name="VERB">46527</tag><!-- tener, hacer, decir, dar, llegar, ver, querer, seguir, llevar, asegurar -->
+    <tag name="VERB">46790</tag><!-- tener, hacer, decir, dar, llegar, ver, querer, llevar, seguir, asegurar -->
     <tag name="X">1</tag><!-- tanto -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -99,18 +99,18 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="34">
     <dep name="acl">10579</dep>
-    <dep name="advcl">8907</dep>
-    <dep name="advmod">19187</dep>
+    <dep name="advcl">8930</dep>
+    <dep name="advmod">19178</dep>
     <dep name="amod">29509</dep>
     <dep name="appos">7532</dep>
-    <dep name="aux">8208</dep>
+    <dep name="aux">7945</dep>
     <dep name="case">76108</dep>
     <dep name="cc">15147</dep>
-    <dep name="ccomp">6050</dep>
+    <dep name="ccomp">6014</dep>
     <dep name="compound">2460</dep>
     <dep name="conj">16401</dep>
     <dep name="cop">5593</dep>
-    <dep name="csubj">1191</dep>
+    <dep name="csubj">1192</dep>
     <dep name="csubj:pass">1</dep>
     <dep name="dep">278</dep>
     <dep name="det">74386</dep>
@@ -122,15 +122,15 @@
     <dep name="iobj">1793</dep>
     <dep name="mark">19694</dep>
     <dep name="nmod">38647</dep>
-    <dep name="nsubj">29642</dep>
+    <dep name="nsubj">29641</dep>
     <dep name="nsubj:pass">41</dep>
     <dep name="nummod">5671</dep>
-    <dep name="obj">37695</dep>
-    <dep name="obl">24399</dep>
+    <dep name="obj">37685</dep>
+    <dep name="obl">24385</dep>
     <dep name="orphan">37</dep>
     <dep name="parataxis">702</dep>
     <dep name="punct">65495</dep>
     <dep name="root">17680</dep>
-    <dep name="xcomp">3648</dep>
+    <dep name="xcomp">3957</dep>
   </deps>
 </treebank>

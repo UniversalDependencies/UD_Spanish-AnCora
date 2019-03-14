@@ -6194,15 +6194,15 @@
 # text = La señora ministra de la Generalitat venía negociando con Antonio Asunción, y éste, aún después de haber dejado la cartera de Interior, ha continuado echando una mano en la negociación, según cuentan los convergentes.
 # orig_file_sentence 002#83
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	señora	señora	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+2	señora	señora	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	ministra	ministra	NOUN	NOUN	Gender=Fem|Number=Sing	2	flat	_	_
 4	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 5	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Generalitat	Generalitat	PROPN	PROPN	_	3	nmod	_	_
-7	venía	venir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
-8	negociando	negociar	VERB	VERB	VerbForm=Ger	0	root	_	_
+7	venía	venir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	negociando	negociar	VERB	VERB	VerbForm=Ger	7	xcomp	_	_
 9	con	con	ADP	ADP	AdpType=Prep	10	case	_	_
-10	Antonio	Antonio	PROPN	PROPN	_	8	obl	_	MWE=Antonio_Asunción|MWEPOS=PROPN
+10	Antonio	Antonio	PROPN	PROPN	_	7	obl	_	MWE=Antonio_Asunción|MWEPOS=PROPN
 11	Asunción	Asunción	PROPN	PROPN	_	10	flat	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
 13	y	y	CCONJ	CCONJ	_	27	cc	_	_
@@ -6231,7 +6231,7 @@
 36	cuentan	contar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
 37	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
 38	convergentes	convergente	NOUN	NOUN	Number=Plur	36	nsubj	_	SpaceAfter=No
-39	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
+39	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id = test-s184
 # text = Ahora será la viceministra Margarita Robles quien tome las riendas de la negociación y se convierta en la interlocutora de María Eugenia Cuenca.
@@ -7883,11 +7883,11 @@
 11	rotos	roto	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	10	amod	_	_
 12	y	y	CCONJ	CCONJ	_	13	cc	_	_
 13	parece	parecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-14	que	que	SCONJ	SCONJ	_	18	mark	_	_
-15	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	18	obj	_	_
-16	puso	poner	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+14	que	que	SCONJ	SCONJ	_	16	mark	_	_
+15	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	_	_
+16	puso	poner	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	ccomp	_	_
 17	a	a	ADP	ADP	AdpType=Prep	18	mark	_	_
-18	llorar	llorar	VERB	VERB	VerbForm=Inf	13	ccomp	_	SpaceAfter=No
+18	llorar	llorar	VERB	VERB	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = test-s245
@@ -8825,15 +8825,15 @@
 105	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	107	iobj	_	_
 106	había	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	107	aux	_	_
 107	inducido	inducir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	103	acl	_	_
-108	a	a	ADP	ADP	AdpType=Prep	115	mark	_	_
-109	conservar	conservar	AUX	AUX	VerbForm=Inf	115	aux	_	_
+108	a	a	ADP	ADP	AdpType=Prep	109	mark	_	_
+109	conservar	conservar	VERB	AUX	VerbForm=Inf	107	ccomp	_	_
 110	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	112	det	_	_
 111	vieja	viejo	ADJ	ADJ	Gender=Fem|Number=Sing	112	amod	_	_
-112	casa	casa	NOUN	NOUN	Gender=Fem|Number=Sing	115	obj	_	_
+112	casa	casa	NOUN	NOUN	Gender=Fem|Number=Sing	109	obj	_	_
 113	de	de	ADP	ADP	AdpType=Prep	114	case	_	_
 114	alquiler	alquiler	NOUN	NOUN	Gender=Masc|Number=Sing	112	nmod	_	_
 115-116	ocultandose	_	_	_	_	_	_	_	_
-115	ocultando	ocultar	VERB	VERB	VerbForm=Ger	107	ccomp	_	_
+115	ocultando	ocultar	VERB	VERB	VerbForm=Ger	109	xcomp	_	_
 116	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	115	obj	_	_
 117	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	115	obj	_	_
 118	a	a	ADP	ADP	AdpType=Prep	120	case	_	_
@@ -11503,18 +11503,18 @@
 31	Acedo	Acedo	PROPN	PROPN	_	29	nmod	_	_
 32	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	33	mark	_	_
 33	afirmar	afirmar	VERB	AUX	VerbForm=Inf	27	advcl	_	_
-34	que	que	SCONJ	SCONJ	_	40	mark	_	_
+34	que	que	SCONJ	SCONJ	_	33	mark	_	_
 35	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	Junta	Junta	PROPN	PROPN	_	40	nsubj	_	_
-37	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
-38	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
-39	"	"	PUNCT	PUNCT	PunctType=Quot	40	punct	_	SpaceAfter=No
-40	robado	robar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	ccomp	_	SpaceAfter=No
+36	Junta	Junta	PROPN	PROPN	_	33	nsubj	_	_
+37	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+38	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+39	"	"	PUNCT	PUNCT	PunctType=Quot	33	punct	_	SpaceAfter=No
+40	robado	robar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	xcomp	_	SpaceAfter=No
 41	,	,	PUNCT	PUNCT	PunctType=Comm	42	punct	_	_
 42	confiscado	confiscar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	advcl	_	_
 43	o	o	CCONJ	CCONJ	_	44	cc	_	_
 44	expropiado	expropiar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	conj	_	SpaceAfter=No
-45	"	"	PUNCT	PUNCT	PunctType=Quot	40	punct	_	SpaceAfter=No
+45	"	"	PUNCT	PUNCT	PunctType=Quot	33	punct	_	SpaceAfter=No
 46	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id = test-s319
@@ -14564,19 +14564,19 @@
 24	momentos	momento	NOUN	NOUN	Gender=Masc|Number=Plur	21	nmod	_	_
 25	más	más	ADV	ADV	_	26	advmod	_	_
 26	deseados	deseado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	24	amod	_	SpaceAfter=No
-27	,	,	PUNCT	PUNCT	PunctType=Comm	30	punct	_	_
+27	,	,	PUNCT	PUNCT	PunctType=Comm	28	punct	_	_
 28-29	verlos	_	_	_	_	_	_	_	_
-28	ver	ver	AUX	AUX	VerbForm=Inf	30	aux	_	_
-29	los	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	30	obj	_	_
-30	dirimir	dirimir	VERB	VERB	VerbForm=Inf	21	acl	_	_
+28	ver	ver	VERB	AUX	VerbForm=Inf	21	acl	_	_
+29	los	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	28	obj	_	_
+30	dirimir	dirimir	VERB	VERB	VerbForm=Inf	28	xcomp	_	_
 31	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	32	det	_	_
 32	diferencias	diferencia	NOUN	NOUN	Gender=Fem|Number=Plur	30	obj	_	_
-33	codo	codo	NOUN	NOUN	_	30	advmod	_	MWE=codo_a_codo|MWEPOS=ADV
+33	codo	codo	NOUN	NOUN	_	28	advmod	_	MWE=codo_a_codo|MWEPOS=ADV
 34	a	a	ADP	ADP	AdpType=Prep	33	fixed	_	_
 35	codo	codo	NOUN	NOUN	_	33	fixed	_	_
 36	en	en	ADP	ADP	AdpType=Prep	38	case	_	_
 37	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	pista	pista	NOUN	NOUN	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+38	pista	pista	NOUN	NOUN	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
 39	.	.	PUNCT	PUNCT	PunctType=Peri	17	punct	_	_
 
 # sent_id = test-s385
@@ -21575,7 +21575,7 @@
 # sent_id = test-s571
 # text = Eraso, que asumió la dirección de Caja Cantabria el 30 de diciembre, en sustitución de José María Pérez Alvarez, dio a conocer a la asamblea general de la entidad los resultados correspondientes al ejercicio pasado y anunció los planes que su equipo tiene en mente para reorientar su actividad entre este año y 2001.
 # orig_file_sentence 006#71
-1	Eraso	Eraso	PROPN	PROPN	_	25	nsubj	_	SpaceAfter=No
+1	Eraso	Eraso	PROPN	PROPN	_	23	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 3	que	que	PRON	PRON	PronType=Rel	4	nsubj	_	_
 4	asumió	asumir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl	_	_
@@ -21597,9 +21597,9 @@
 20	Pérez	Pérez	PROPN	PROPN	_	18	flat	_	_
 21	Alvarez	Alvarez	PROPN	PROPN	_	18	flat	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
-23	dio	dar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux	_	_
+23	dio	dar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 24	a	a	ADP	ADP	AdpType=Prep	25	mark	_	_
-25	conocer	conocer	VERB	VERB	VerbForm=Inf	0	root	_	_
+25	conocer	conocer	VERB	VERB	VerbForm=Inf	23	xcomp	_	_
 26	a	a	ADP	ADP	AdpType=Prep	28	case	_	_
 27	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	asamblea	asamblea	NOUN	NOUN	Gender=Fem|Number=Sing	25	obj	_	_
@@ -21632,7 +21632,7 @@
 55	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	50	obl	_	_
 56	y	y	CCONJ	CCONJ	_	57	cc	_	_
 57	2001	2001	NOUN	NOUN	AdvType=Tim	55	conj	_	SpaceAfter=No
-58	.	.	PUNCT	PUNCT	PunctType=Peri	25	punct	_	_
+58	.	.	PUNCT	PUNCT	PunctType=Peri	23	punct	_	_
 
 # sent_id = test-s572
 # text = "El último ejercicio económico no ha ido muy allá... Es probable que si hubiera sido un año brillante para Caja Cantabria yo, que llevo tres meses en el cargo, no estaría hoy aquí", explicó el director general en conferencia de prensa, al ser preguntado por las razones que explican un recorte de 2.585 millones en los beneficios.
@@ -22307,10 +22307,10 @@
 25	antes	antes	ADV	ADV	_	12	advmod	_	_
 26	de	de	ADP	ADP	AdpType=Prep	27	mark	_	_
 27	afirmar	afirmar	VERB	AUX	VerbForm=Inf	25	advcl	_	_
-28	que	que	SCONJ	SCONJ	_	44	mark	_	_
+28	que	que	SCONJ	SCONJ	_	27	mark	_	_
 29	con	con	ADP	ADP	AdpType=Prep	31	case	_	_
 30	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	medida	medida	NOUN	NOUN	Gender=Fem|Number=Sing	44	obl	_	_
+31	medida	medida	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
 32	adoptada	adoptado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	31	amod	_	_
 33	hoy	hoy	ADV	ADV	_	32	advmod	_	_
 34	por	por	ADP	ADP	AdpType=Prep	36	case	_	_
@@ -22318,15 +22318,15 @@
 36	Consejo	Consejo	PROPN	PROPN	_	32	obj	_	_
 37	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
 38	ministros	ministro	NOUN	NOUN	Gender=Masc|Number=Plur	36	nmod	_	_
-39	"	"	PUNCT	PUNCT	PunctType=Quot	44	punct	_	SpaceAfter=No
-40	Cascos	Cascos	PROPN	PROPN	_	44	nsubj	_	_
+39	"	"	PUNCT	PUNCT	PunctType=Quot	27	punct	_	SpaceAfter=No
+40	Cascos	Cascos	PROPN	PROPN	_	27	nsubj	_	_
 41	y	y	CCONJ	CCONJ	_	42	cc	_	_
 42	Sánchez	Sánchez	PROPN	PROPN	_	40	conj	_	_
-43	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
-44	quedado	quedar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	ccomp	_	_
+43	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+44	quedado	quedar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	xcomp	_	_
 45	totalmente	totalmente	ADV	ADV	_	46	advmod	_	_
 46	desautorizados	desautorizado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	44	obj	_	SpaceAfter=No
-47	"	"	PUNCT	PUNCT	PunctType=Quot	44	punct	_	SpaceAfter=No
+47	"	"	PUNCT	PUNCT	PunctType=Quot	27	punct	_	SpaceAfter=No
 48	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id = test-s587
@@ -28466,12 +28466,12 @@
 27	y	y	CCONJ	CCONJ	_	29	cc	_	_
 28	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	29	nummod	_	_
 29	rebotes	rebote	NOUN	NOUN	Gender=Masc|Number=Plur	14	conj	_	_
-30	para	para	ADP	ADP	AdpType=Prep	35	mark	_	_
-31	permitir	permitir	AUX	AUX	VerbForm=Inf	35	aux	_	_
+30	para	para	ADP	ADP	AdpType=Prep	31	mark	_	_
+31	permitir	permitir	VERB	AUX	VerbForm=Inf	12	advcl	_	_
 32	a	a	ADP	ADP	AdpType=Prep	34	case	_	_
 33	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
-34	Warriors	Warriors	PROPN	PROPN	_	35	obj	_	_
-35	romper	romper	VERB	VERB	VerbForm=Inf	12	advcl	_	_
+34	Warriors	Warriors	PROPN	PROPN	_	31	obj	_	_
+35	romper	romper	VERB	VERB	VerbForm=Inf	31	xcomp	_	_
 36	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	racha	racha	NOUN	NOUN	Gender=Fem|Number=Sing	35	obj	_	_
 38	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
@@ -30628,20 +30628,20 @@
 # text = Prometió promulgar la Ley de Hidrocarburos, tan pronto sea aprobada por el Congreso, para permitir que los precios de los combustibles fluctúen de acuerdo a los precios internacionales del petróleo.
 # orig_file_sentence 008#70
 1	Prometió	prometer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-2	promulgar	promulgar	AUX	AUX	VerbForm=Inf	11	aux	_	_
+2	promulgar	promulgar	VERB	AUX	VerbForm=Inf	1	ccomp	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Ley	Ley	PROPN	PROPN	_	11	obj	_	MWE=Ley_de_Hidrocarburos|MWEPOS=PROPN
+4	Ley	Ley	PROPN	PROPN	_	2	obj	_	MWE=Ley_de_Hidrocarburos|MWEPOS=PROPN
 5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 6	Hidrocarburos	Hidrocarburos	PROPN	PROPN	_	4	flat	_	SpaceAfter=No
-7	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
-8	tan	tan	NOUN	NOUN	_	11	mark	_	MWE=tan_pronto|MWEPOS=SCONJ
+7	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
+8	tan	tan	NOUN	NOUN	_	2	mark	_	MWE=tan_pronto|MWEPOS=SCONJ
 9	pronto	pronto	NOUN	NOUN	_	8	fixed	_	_
-10	sea	ser	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-11	aprobada	aprobar	VERB	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+10	sea	ser	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+11	aprobada	aprobar	VERB	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
 12	por	por	ADP	ADP	AdpType=Prep	14	case	_	_
 13	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Congreso	Congreso	PROPN	PROPN	_	11	obj	_	SpaceAfter=No
-15	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
+15	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
 16	para	para	ADP	ADP	AdpType=Prep	17	mark	_	_
 17	permitir	permitir	VERB	AUX	VerbForm=Inf	11	advcl	_	_
 18	que	que	SCONJ	SCONJ	_	24	mark	_	_
@@ -35354,13 +35354,13 @@
 32	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 33	controvertido	controvertido	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	34	amod	_	_
 34	proyecto	proyecto	NOUN	NOUN	Gender=Masc|Number=Sing	28	appos	_	_
-35	que	que	PRON	PRON	PronType=Rel	37	nsubj	_	_
-36	viene	venir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+35	que	que	PRON	PRON	PronType=Rel	36	nsubj	_	_
+36	viene	venir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl	_	_
 37-38	debatiéndose	_	_	_	_	_	_	_	_
-37	debatiendo	debatir	VERB	VERB	VerbForm=Ger	34	acl	_	_
+37	debatiendo	debatir	VERB	VERB	VerbForm=Ger	36	xcomp	_	_
 38	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	37	obj	_	_
 39	desde	desde	ADP	ADP	AdpType=Prep	40	case	_	_
-40	1994	1994	NOUN	NOUN	AdvType=Tim	37	obl	_	SpaceAfter=No
+40	1994	1994	NOUN	NOUN	AdvType=Tim	36	obl	_	SpaceAfter=No
 41	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id = test-s881
@@ -36312,13 +36312,13 @@
 16	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 17	que	que	PRON	PRON	PronType=Rel	18	nsubj	_	_
 18	intenta	intentar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_
-19	determinar	determinar	AUX	AUX	VerbForm=Inf	25	aux	_	_
+19	determinar	determinar	VERB	AUX	VerbForm=Inf	18	ccomp	_	_
 20	qué	qué	DET	DET	PronType=Int	21	det	_	_
-21	aviones	avión	NOUN	NOUN	Gender=Masc|Number=Plur	25	nsubj	_	_
-22	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+21	aviones	avión	NOUN	NOUN	Gender=Masc|Number=Plur	19	nsubj	_	_
+22	han	haber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
 23	sido	ser	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	cop	_	_
-24	verdaderamente	verdaderamente	ADV	ADV	_	25	advmod	_	_
-25	dañados	dañado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	18	ccomp	_	_
+24	verdaderamente	verdaderamente	ADV	ADV	_	19	advmod	_	_
+25	dañados	dañado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	19	xcomp	_	_
 26	y	y	CCONJ	CCONJ	_	29	cc	_	_
 27	cuáles	cuál	PRON	PRON	Number=Plur|PronType=Int	29	nsubj	_	_
 28	podrían	poder	AUX	AUX	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	29	aux	_	_
@@ -45301,25 +45301,25 @@
 # sent_id = test-s1222
 # text = - - ¿Por qué los políticos de este país parecen temer tan poco a los periodistas?.
 # orig_file_sentence 013#22
-1	-	-	PUNCT	PUNCT	PunctType=Dash	12	punct	_	_
-2	-	-	PUNCT	PUNCT	PunctType=Dash	12	punct	_	_
-3	¿	¿	PUNCT	PUNCT	PunctSide=Ini|PunctType=Qest	12	punct	_	SpaceAfter=No
+1	-	-	PUNCT	PUNCT	PunctType=Dash	11	punct	_	_
+2	-	-	PUNCT	PUNCT	PunctType=Dash	11	punct	_	_
+3	¿	¿	PUNCT	PUNCT	PunctSide=Ini|PunctType=Qest	11	punct	_	SpaceAfter=No
 4	Por	por	ADP	ADP	AdpType=Prep	5	case	_	_
-5	qué	qué	PRON	PRON	Number=Sing|PronType=Int	12	obl	_	_
+5	qué	qué	PRON	PRON	Number=Sing|PronType=Int	11	obl	_	_
 6	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-7	políticos	político	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	_
+7	políticos	político	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
 8	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 9	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	país	país	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
-11	parecen	parecer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-12	temer	temer	VERB	VERB	VerbForm=Inf	0	root	_	_
+11	parecen	parecer	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	temer	temer	VERB	VERB	VerbForm=Inf	11	xcomp	_	_
 13	tan	tanto	ADV	ADV	_	14	advmod	_	_
-14	poco	poco	ADV	ADV	_	12	advmod	_	_
+14	poco	poco	ADV	ADV	_	11	advmod	_	_
 15	a	a	ADP	ADP	AdpType=Prep	17	case	_	_
 16	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	periodistas	periodista	NOUN	NOUN	Number=Plur	12	obj	_	SpaceAfter=No
-18	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	12	punct	_	SpaceAfter=No
-19	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
+18	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	11	punct	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id = test-s1223
 # text = - - Yo creo que sí les temen, simplemente disimulan.
@@ -45655,9 +45655,9 @@
 3	Me	yo	PRON	PRON	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	4	obj	_	_
 4	cuesta	costar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	aceptar	aceptar	VERB	AUX	VerbForm=Inf	4	csubj	_	_
-6	que	que	SCONJ	SCONJ	_	8	mark	_	_
-7	hayan	haber	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-8	tenido	tener	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+6	que	que	SCONJ	SCONJ	_	5	mark	_	_
+7	hayan	haber	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+8	tenido	tener	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
 9	alguna	alguno	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
 10	responsabilidad	responsabilidad	NOUN	NOUN	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
@@ -46009,11 +46009,11 @@
 # text = Las palabras de Ivanov parecían desmentir a Schröder y reafirmar lo que había dicho la víspera su presidente, es decir, que la segunda vuelta electoral debe celebrarse.
 # orig_file_sentence 013#61
 1	Las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	palabras	palabra	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
+2	palabras	palabra	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
 4	Ivanov	Ivanov	PROPN	PROPN	_	2	nmod	_	_
-5	parecían	parecer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
-6	desmentir	desmentir	VERB	VERB	VerbForm=Inf	0	root	_	_
+5	parecían	parecer	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	desmentir	desmentir	VERB	VERB	VerbForm=Inf	5	xcomp	_	_
 7	a	a	ADP	ADP	AdpType=Prep	8	case	_	_
 8	Schröder	Schröder	PROPN	PROPN	_	6	obj	_	_
 9	y	y	CCONJ	CCONJ	_	10	cc	_	_
@@ -46039,7 +46039,7 @@
 29-30	celebrarse	_	_	_	_	_	_	_	SpaceAfter=No
 29	celebrar	celebrar	VERB	VERB	VerbForm=Inf	14	conj	_	_
 30	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	29	obj	_	_
-31	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
+31	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id = test-s1262
 # text = Cien años de Seguro.
@@ -47501,15 +47501,15 @@
 21	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 22	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	23	mark	_	_
 23	afirmar	afirmar	VERB	AUX	VerbForm=Inf	10	advcl	_	_
-24	que	que	SCONJ	SCONJ	_	32	mark	_	_
+24	que	que	SCONJ	SCONJ	_	23	mark	_	_
 25	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
-26	reformas	reforma	NOUN	NOUN	Gender=Fem|Number=Plur	32	nsubj	_	_
+26	reformas	reforma	NOUN	NOUN	Gender=Fem|Number=Plur	23	nsubj	_	_
 27	preconizadas	preconizado	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	26	amod	_	_
 28	para	para	ADP	ADP	AdpType=Prep	29	case	_	_
 29	Córcega	Córcega	PROPN	PROPN	_	26	nmod	_	_
-30	no	no	ADV	ADV	Polarity=Neg	32	advmod	_	_
-31	deben	deber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
-32	cuestionar	cuestionar	VERB	VERB	VerbForm=Inf	23	ccomp	_	_
+30	no	no	ADV	ADV	Polarity=Neg	23	advmod	_	_
+31	deben	deber	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+32	cuestionar	cuestionar	VERB	VERB	VerbForm=Inf	23	xcomp	_	_
 33	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	unidad	unidad	NOUN	NOUN	Gender=Fem|Number=Sing	32	obj	_	_
 35	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	36	case	_	_
@@ -53320,18 +53320,18 @@
 23	de	de	ADP	ADP	AdpType=Prep	24	case	_	_
 24	Rocío	Rocío	PROPN	PROPN	_	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
-26	tras	tras	ADP	ADP	AdpType=Prep	29	mark	_	_
-27	llevar	llevar	AUX	AUX	VerbForm=Inf	29	aux	_	_
-28	semanas	semana	NOUN	NOUN	Gender=Fem|Number=Plur	29	obj	_	_
+26	tras	tras	ADP	ADP	AdpType=Prep	27	mark	_	_
+27	llevar	llevar	VERB	AUX	VerbForm=Inf	11	advcl	_	_
+28	semanas	semana	NOUN	NOUN	Gender=Fem|Number=Plur	27	obj	_	_
 29-30	presionándola	_	_	_	_	_	_	_	_
-29	presionando	presionar	VERB	VERB	VerbForm=Ger	11	advcl	_	_
+29	presionando	presionar	VERB	VERB	VerbForm=Ger	27	xcomp	_	_
 30	la	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	29	obj	_	_
 31	a	a	ADP	ADP	AdpType=Prep	36	case	_	MWE=a_la_espera_de|MWEPOS=ADP
 32	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	fixed	_	_
 33	espera	espera	NOUN	NOUN	_	31	fixed	_	_
 34	de	de	ADP	ADP	AdpType=Prep	31	fixed	_	_
 35	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	error	error	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+36	error	error	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
 37	que	que	PRON	PRON	PronType=Rel	39	nsubj	_	_
 38	la	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	39	obj	_	_
 39	delatara	delatar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	acl	_	SpaceAfter=No
@@ -58731,12 +58731,12 @@
 23	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	24	punct	_	SpaceAfter=No
 24	AEB	AEB	PROPN	PROPN	_	19	flat	_	SpaceAfter=No
 25	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	24	punct	_	_
-26	para	para	ADP	ADP	AdpType=Prep	28	mark	_	_
-27	intentar	intentar	AUX	AUX	VerbForm=Inf	28	aux	_	_
-28	avanzar	avanzar	VERB	VERB	VerbForm=Inf	6	acl	_	_
+26	para	para	ADP	ADP	AdpType=Prep	27	mark	_	_
+27	intentar	intentar	VERB	AUX	VerbForm=Inf	6	acl	_	_
+28	avanzar	avanzar	VERB	VERB	VerbForm=Inf	27	xcomp	_	_
 29	en	en	ADP	ADP	AdpType=Prep	31	case	_	_
 30	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	redacción	redacción	NOUN	NOUN	Gender=Fem|Number=Sing	28	obl	_	_
+31	redacción	redacción	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
 32	de	de	ADP	ADP	AdpType=Prep	35	case	_	_
 33	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 34	nuevo	nuevo	ADJ	ADJ	Gender=Masc|Number=Sing	35	amod	_	_
