@@ -11363,7 +11363,7 @@
 20	e	e	CCONJ	CCONJ	_	21	cc	_	_
 21	hizo	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 22	especial	especial	ADJ	ADJ	Number=Sing	23	amod	_	_
-23	hincapié	hincapié	NOUN	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	obj	_	_
+23	hincapié	hincapié	NOUN	AUX	Number=Sing|VerbForm=Fin	21	obj	_	_
 24	al	al	ADP	ADP	AdpType=Preppron	25	case	_	_
 25	caso	caso	NOUN	NOUN	Gender=Masc|Number=Sing	21	obj	_	_
 26	del	del	ADP	ADP	AdpType=Preppron	27	case	_	_
@@ -43039,7 +43039,7 @@
 39	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
 40	tenido	tener	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	acl	_	_
 41	mucho	mucho	PRON	PRON	Gender=Masc|Number=Sing|NumType=Card|PronType=Ind	40	obl	_	_
-42	que	que	SCONJ	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	mark	_	_
+42	que	que	SCONJ	AUX	_	43	mark	_	_
 43	ver	ver	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	xcomp	_	_
 44	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 45	constante	constante	ADJ	ADJ	Number=Sing	46	amod	_	_

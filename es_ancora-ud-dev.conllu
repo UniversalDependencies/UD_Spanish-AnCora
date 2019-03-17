@@ -47820,7 +47820,7 @@
 # text = El líder de los socialistas vascos, Nicolás Redondo, fue más lejos al precisar que esa actitud, "que no tuvo el PP en su día", es la que les diferencia de los conservadores.
 # orig_file_sentence 014#13
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	líder	líder	NOUN	NOUN	Number=Sing	13	nsubj	_	_
+2	líder	líder	NOUN	NOUN	Number=Sing	11	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
 4	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	socialistas	socialista	NOUN	NOUN	Number=Plur	2	nmod	_	_
@@ -47829,9 +47829,9 @@
 8	Nicolás	Nicolás	PROPN	PROPN	_	2	appos	_	MWE=Nicolás_Redondo|MWEPOS=PROPN
 9	Redondo	Redondo	PROPN	PROPN	_	8	flat	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
-11	fue	ir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
-12	más	más	ADV	ADV	Degree=Cmp	13	advmod	_	_
-13	lejos	lejos	ADV	ADV	_	0	root	_	_
+11	fue	ir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	más	más	ADV	ADV	Degree=Cmp	11	advmod	_	_
+13	lejos	lejos	ADV	ADV	_	11	xcomp	_	_
 14	al	al	ADP	ADP	AdpType=Preppron	15	mark	_	_
 15	precisar	precisar	VERB	AUX	VerbForm=Inf	13	advcl	_	_
 16	que	que	SCONJ	SCONJ	_	32	mark	_	_
@@ -47857,7 +47857,7 @@
 36	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
 37	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
 38	conservadores	conservador	NOUN	NOUN	Gender=Masc|Number=Plur	35	obj	_	SpaceAfter=No
-39	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
+39	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id = dev-s1314
 # text = Sin embargo, desde el compromiso y la voluntad de trabajar juntos, espetó al presidente que es la hora de que "gobierne" y "optimice" la eficacia policial.
