@@ -1866,8 +1866,8 @@
 13	era	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 14	blanco	blanco	ADJ	ADJ	Gender=Masc|Number=Sing	7	acl	_	_
 15	y	y	CCONJ	CCONJ	_	18	cc	_	_
-16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-17	otro	otro	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	18	cop	_	_
+16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	otro	otro	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	18	nsubj	_	_
 18	rojizo	rojizo	ADJ	ADJ	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
