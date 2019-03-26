@@ -2851,7 +2851,7 @@
 18	tiraba	tirar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 20	y	y	CCONJ	CCONJ	_	21	cc	_	_
-21	sí	él	PRON	ADV	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	6	conj	_	_
+21	sí	él	PRON	ADV	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	6	conj	_	_
 22	en	en	ADP	ADP	AdpType=Prep	21	case	_	_
 23	Barcelona	Barcelona	PROPN	PROPN	_	21	nmod	_	SpaceAfter=No
 24	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	6	punct	_	_
@@ -3361,7 +3361,7 @@
 6	rojiblanco	rojiblanco	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
 7	sintetiza	sintetizar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	por	por	ADP	ADP	AdpType=Prep	9	case	_	_
-9	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	7	obl	_	_
+9	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	7	obl	_	_
 10	sola	solo	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
 11	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 12	más	más	ADV	ADV	Degree=Cmp	13	advmod	_	_
@@ -4617,7 +4617,7 @@
 12	sacar	sacar	VERB	VERB	VerbForm=Inf	8	acl	_	MWE=sacar_adelante|MWEPOS=VERB
 13	adelante	adelante	NOUN	NOUN	Number=Sing	12	compound	_	_
 14	por	por	ADP	ADP	AdpType=Prep	15	case	_	_
-15	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	12	obl	_	_
+15	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	12	obl	_	_
 16	solo	solo	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
 17	a	a	ADP	ADP	AdpType=Prep	20	case	_	_
 18	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
@@ -7113,7 +7113,7 @@
 5	pedía	pedir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	que	que	SCONJ	SCONJ	_	7	mark	_	_
 7	colabore	colaborar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
-8	conmigo	yo	PRON	PRON	Case=Com|Number=Sing|Person=1|PrepCase=Pre|PronType=Ind	7	obl	_	_
+8	conmigo	yo	PRON	PRON	Case=Com|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	7	obl	_	_
 9	en	en	ADP	ADP	AdpType=Prep	11	case	_	_
 10	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	campaña	campaña	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
@@ -8025,7 +8025,7 @@
 7	los	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	8	obj	_	_
 8	extendió	extender	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 9	ante	ante	ADP	ADP	AdpType=Prep	10	case	_	_
-10	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	8	obl	_	SpaceAfter=No
+10	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 12	concentrando	concentrar	VERB	VERB	VerbForm=Ger	8	advcl	_	_
 13	todas	todo	DET	DET	Gender=Fem|Number=Plur|PronType=Tot	14	det	_	_
@@ -20391,7 +20391,7 @@
 4	participantes	participante	ADJ	ADJ	Number=Plur	3	amod	_	_
 5	tuvieron	tener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	ante	ante	ADP	ADP	AdpType=Prep	7	case	_	_
-7	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	5	obl	_	_
+7	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	5	obl	_	_
 8	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	espléndido	espléndido	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
 10	recorrido	recorrido	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
@@ -33708,7 +33708,7 @@
 33	general	general	NOUN	NOUN	_	32	fixed	_	SpaceAfter=No
 34	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 35	aunque	aunque	SCONJ	SCONJ	_	36	mark	_	_
-36	sí	él	PRON	ADV	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	24	advcl	_	_
+36	sí	él	PRON	ADV	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	24	advcl	_	_
 37	puntualmente	puntualmente	ADV	ADV	_	36	advmod	_	_
 38	por	por	ADP	ADP	AdpType=Prep	36	case	_	_
 39	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
@@ -39476,7 +39476,7 @@
 9	que	que	SCONJ	SCONJ	_	11	cc	_	_
 10	ser	ser	AUX	AUX	VerbForm=Inf	11	cop	_	_
 11	honesta	honesto	ADJ	ADJ	Gender=Fem|Number=Sing	8	conj	_	_
-12	conmigo	yo	PRON	PRON	Case=Com|Number=Sing|Person=1|PrepCase=Pre|PronType=Ind	11	obj	_	_
+12	conmigo	yo	PRON	PRON	Case=Com|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	11	obj	_	_
 13	misma	mismo	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
@@ -39872,7 +39872,7 @@
 3	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	canciones	canción	NOUN	NOUN	Gender=Fem|Number=Plur	2	nsubj	_	_
 5	por	por	ADP	ADP	AdpType=Prep	6	case	_	_
-6	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	14	obl	_	_
+6	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	14	obl	_	_
 7	mismas	mismo	PRON	PRON	Gender=Fem|Number=Plur|PronType=Dem	6	appos	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 9	no	no	ADV	ADV	Polarity=Neg	14	advmod	_	_
@@ -41999,7 +41999,7 @@
 15	dice	decir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 17	pero	pero	CCONJ	CCONJ	_	18	cc	_	_
-18	sí	él	PRON	ADV	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	9	conj	_	_
+18	sí	él	PRON	ADV	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	9	conj	_	_
 19	con	con	ADP	ADP	AdpType=Prep	18	case	_	_
 20	lo	él	PRON	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	22	det	_	_
 21	que	que	PRON	PRON	PronType=Int,Rel	22	obj	_	_
@@ -48202,7 +48202,7 @@
 30	lastre	lastre	NOUN	NOUN	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
 31	"	"	PUNCT	PUNCT	PunctType=Quot	30	punct	_	_
 32	para	para	ADP	ADP	AdpType=Prep	33	case	_	_
-33	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	30	nmod	_	_
+33	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	30	nmod	_	_
 34	mismos	mismo	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	33	det	_	_
 35	y	y	CCONJ	CCONJ	_	38	cc	_	_
 36	para	para	ADP	ADP	AdpType=Prep	38	case	_	_
@@ -51472,7 +51472,7 @@
 6	McCain	McCain	PROPN	PROPN	_	8	nsubj	_	_
 7	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	llevado	llevar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	consigo	él	PRON	PRON	Case=Com|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	8	obl	_	_
+9	consigo	él	PRON	PRON	Case=Com|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	8	obl	_	_
 10	durante	durante	ADP	ADP	AdpType=Prep	13	case	_	_
 11	todas	todo	DET	DET	Gender=Fem|Number=Plur|PronType=Tot	12	det	_	_
 12	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_

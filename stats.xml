@@ -73,10 +73,10 @@
     <feat name="PrepCase" value="Pre" upos="PRON">139</feat><!-- mí, sí, ti, conmigo, consigo, contigo, mi -->
     <feat name="PronType" value="Art" upos="DET">61455</feat><!-- la, el, los, un, las, una, unos, unas, els, uno -->
     <feat name="PronType" value="Dem" upos="DET,PRON">4036</feat><!-- este, esta, esa, ese, eso, estos, mismo, estas, esto, misma -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">4542</feat><!-- donde, otros, uno, otro, algunos, otra, otras, una, muchos, algo -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">4470</feat><!-- donde, otros, uno, otro, algunos, otra, otras, una, muchos, algo -->
     <feat name="PronType" value="Int,Rel" upos="DET,PRON,SCONJ">9503</feat><!-- que, quien, qué, quienes, cual, cuyo, cuya, cuales, quién, cuál -->
     <feat name="PronType" value="Neg" upos="DET,PRON">539</feat><!-- nada, nadie, ningún, ninguna, ninguno -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">17938</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">18010</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
     <feat name="PronType" value="Tot" upos="DET,PRON">1551</feat><!-- todo, todos, cada, todas, toda -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">2272</feat><!-- ), ?, !, ¿ -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">2145</feat><!-- (, ¿, ¡ -->

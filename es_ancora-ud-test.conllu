@@ -5050,7 +5050,7 @@
 59	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	60	obj	_	_
 60	afecta	afectar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	acl	_	_
 61	a	a	ADP	ADP	AdpType=Prep	62	case	_	_
-62	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	60	obj	_	_
+62	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	60	obj	_	_
 63	mismo	mismo	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	62	det	_	_
 64	en	en	ADP	ADP	AdpType=Prep	66	case	_	_
 65	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
@@ -7778,7 +7778,7 @@
 14	estar	estar	AUX	AUX	VerbForm=Inf	15	cop	_	_
 15	fuera	fuera	ADV	ADV	_	13	ccomp	_	_
 16	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
-17	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	15	obl	_	SpaceAfter=No
+17	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	15	obl	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 19	y	y	CCONJ	CCONJ	_	25	cc	_	_
 20	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
@@ -10013,7 +10013,7 @@
 12	se	él	PRON	PRON	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	_	_
 13	defiende	defender	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_
 14	a	a	ADP	ADP	AdpType=Prep	15	case	_	_
-15	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	13	obj	_	_
+15	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	13	obj	_	_
 16	mismo	mismo	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 18	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
@@ -27554,7 +27554,7 @@
 38	precios	precio	NOUN	NOUN	Gender=Masc|Number=Plur	36	nmod	_	_
 39	que	que	PRON	PRON	PronType=Int,Rel	40	nsubj	_	_
 40	traiga	traer	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl	_	_
-41	consigo	él	PRON	PRON	Case=Com|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	40	obl	_	_
+41	consigo	él	PRON	PRON	Case=Com|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	40	obl	_	_
 42	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	subida	subida	NOUN	NOUN	Gender=Fem|Number=Sing	40	obj	_	_
 44	de	de	ADP	ADP	AdpType=Prep	46	case	_	_
@@ -34120,7 +34120,7 @@
 9	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 10	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
 11	combate	combate	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
-12	conmigo	yo	PRON	PRON	Case=Com|Number=Sing|Person=1|PrepCase=Pre|PronType=Ind	11	appos	_	_
+12	conmigo	yo	PRON	PRON	Case=Com|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	11	appos	_	_
 13	será	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	cop	_	_
 14	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	simple	simple	ADJ	ADJ	Number=Sing	16	amod	_	_
@@ -38146,7 +38146,7 @@
 2	ciclistas	ciclista	NOUN	NOUN	Number=Plur	9	nsubj	_	_
 3	que	que	PRON	PRON	PronType=Int,Rel	4	nsubj	_	_
 4	corrían	correr	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	acl	_	_
-5	conmigo	yo	PRON	PRON	Case=Com|Number=Sing|Person=1|PrepCase=Pre|PronType=Ind	4	obl	_	_
+5	conmigo	yo	PRON	PRON	Case=Com|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	4	obl	_	_
 6	hace	hacer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 7	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
@@ -38746,7 +38746,7 @@
 14	las	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	15	obj	_	_
 15	tiene	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 16	todas	todo	PRON	PRON	Gender=Fem|Number=Plur|PronType=Tot	15	iobj	_	_
-17	consigo	él	PRON	PRON	Case=Com|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	15	obl	_	SpaceAfter=No
+17	consigo	él	PRON	PRON	Case=Com|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	15	obl	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 19	no	no	ADV	ADV	Polarity=Neg	20	advmod	_	_
 20	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -50976,7 +50976,7 @@
 35	estas	este	DET	DET	Gender=Fem|Number=Plur|PronType=Dem	36	det	_	_
 36	formaciones	formación	NOUN	NOUN	Gender=Fem|Number=Plur	21	conj	_	_
 37	entre	entre	ADP	ADP	AdpType=Prep	38	case	_	_
-38	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Ind|Reflex=Yes	36	nmod	_	SpaceAfter=No
+38	sí	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	36	nmod	_	SpaceAfter=No
 39	"	"	PUNCT	PUNCT	PunctType=Quot	21	punct	_	SpaceAfter=No
 40	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
