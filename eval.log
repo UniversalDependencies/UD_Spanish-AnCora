@@ -3,11 +3,11 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Spanish-AnCora:
-commit e97361e271b15bb57529b276e2679a8d8ee97679
-Merge: 451e939 824f3fb
+commit 0625aa2721de534e08e324cbebfb4332c0e38cde
+Merge: b99ef95 c789f82
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 549570 of 549570 words (nodes).
-Size: min(0, log((N/1000)**2)) = 12.618272308531.
+Size: counted 549569 of 549569 words (nodes).
+Size: min(0, log((N/1000)**2)) = 12.6182686693188.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,12 +15,12 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 456033 out of 549570 total words have one or more features.
+Features: 460456 out of 549569 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 30 out of 37 found in the corpus.
+Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 18377 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 549570 words.
+Udapi: found 5625 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 549569 words.
 Genres: found 1 out of 17 known.
 validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-dev.conllu
 *** PASSED ***
@@ -32,11 +32,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.913341005791267) = 0.23419000148494
+(weight=0.256410256410256) * (score{size}=0.913340742376308) = 0.234189933942643
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.665611296104227) = 0.204803475724378
-(weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.729311849880631) * (availability=1) * (validity=1) = 0.729311849880631
-STARS = 3.5
-UD_Spanish-AnCora	0.729311849880631	3.5
+(weight=0.307692307692308) * (score{udapi}=0.897647065245674) = 0.276199096998669
+(weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
+(TOTAL score=0.804033806939029) * (availability=1) * (validity=1) = 0.804033806939029
+STARS = 4
+UD_Spanish-AnCora	0.804033806939029	4
