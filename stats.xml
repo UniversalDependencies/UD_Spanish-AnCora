@@ -5,8 +5,8 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>17680</sentences><tokens>547681</tokens><words>549570</words><fused>1887</fused></total>
-    <train><sentences>14305</sentences><tokens>443087</tokens><words>444617</words><fused>1528</fused></train>
+    <total><sentences>17680</sentences><tokens>547680</tokens><words>549569</words><fused>1887</fused></total>
+    <train><sentences>14305</sentences><tokens>443086</tokens><words>444616</words><fused>1528</fused></train>
     <dev><sentences>1654</sentences><tokens>52161</tokens><words>52336</words><fused>175</fused></dev>
     <test><sentences>1721</sentences><tokens>52433</tokens><words>52617</words><fused>184</fused></test>
   </size>
@@ -16,7 +16,7 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">36460</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, mayor, segundo, buen -->
-    <tag name="ADP">88048</tag><!-- de, en, a, del, por, con, para, al, entre, sobre -->
+    <tag name="ADP">88047</tag><!-- de, en, a, del, por, con, para, al, entre, sobre -->
     <tag name="ADV">17817</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
     <tag name="AUX">14596</tag><!-- ser, haber, estar, poder, deber, ir, tener, saber, querer -->
     <tag name="CCONJ">15118</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
@@ -35,7 +35,7 @@
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="63">
-    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV">77704</feat><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
+    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV">77703</feat><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
     <feat name="AdpType" value="Preppron" upos="ADJ,ADP,ADV">10786</feat><!-- del, al, junto, da, además, debido, debajo, acerca, detrás, do -->
     <feat name="AdvType" value="Tim" upos="ADJ,ADV,NOUN">1902</feat><!-- 1999, domingo, viernes, miércoles, sábado, lunes, martes, jueves, 1998, año -->
     <feat name="Case" value="Acc" upos="PRON">2758</feat><!-- lo, la, los, las, mí, sí, ti -->
@@ -49,14 +49,14 @@
     <feat name="Degree" value="Abs" upos="ADJ,DET,PRON">52</feat><!-- muchísimos, importantísimo, mismísimo, altísimo, dificilísimo, importantísima, muchísimas, rapidísimo, altísima, anticuadísimo -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2784</feat><!-- más, menos, mayor, mejor, mayores, menor, mejores, peor, menores, peores -->
     <feat name="Degree" value="Sup" upos="ADJ">174</feat><!-- máximo, máxima, mínimo, máximos, mínimas, mínima, mínimos, pésimo, máximas, óptima -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,VERB">85156</feat><!-- la, las, una, esta, política, esa, primera, personas, parte, vida -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,VERB">85157</feat><!-- la, las, una, esta, política, esa, primera, personas, parte, vida -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">106462</feat><!-- el, los, un, lo, este, años, presidente, millones, todo, pasado -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">843</feat><!-- sería, podría, habría, debería, podrían, deberían, tendría, estaría, haría, habrían -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">311</feat><!-- mira, vaya, añade, afirma, asegura, lean, sea, vea, He, apunta -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">39121</feat><!-- es, ha, han, fue, está, tiene, son, dijo, había, hay -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2869</feat><!-- sea, haya, hubiera, pueda, puedan, fuera, sean, tenga, esté, haga -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">71949</feat><!-- los, las, sus, dos, años, han, millones, son, tres, nos -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">190659</feat><!-- la, el, un, una, su, es, ha, lo, le, este -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">190660</feat><!-- la, el, un, una, su, es, ha, lo, le, este -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">263</feat><!-- nuestra, nuestro, nuestros, nuestras, vuestra, vuestras -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">249</feat><!-- mi, mis, tu, mío, mía, tus, tuya, tuyo -->
     <feat name="NumForm" value="Digit" upos="ADJ,NOUN,NUM,SYM">6287</feat><!-- pesetas, dólares, 20, 30, 10, 12, 15, euros, 2, 16 -->
@@ -108,7 +108,7 @@
     <dep name="appos">7526</dep>
     <dep name="aux">7607</dep>
     <dep name="aux:pass">13</dep>
-    <dep name="case">76105</dep>
+    <dep name="case">76104</dep>
     <dep name="cc">15147</dep>
     <dep name="ccomp">6095</dep>
     <dep name="compound">2457</dep>
