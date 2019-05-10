@@ -5,6 +5,8 @@ Spanish data from the AnCora corpus.
 
 # Changelog
 
+* 2019-05-01 v2.4
+  * Hundreds of manual fixes and thousands of semiautomatic fixes of errors.
 * 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
 * 2016-05-01 v1.3
