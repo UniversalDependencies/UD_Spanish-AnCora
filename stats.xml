@@ -21,12 +21,12 @@
     <tag name="AUX">14596</tag><!-- ser, haber, estar, poder, deber, ir, tener, saber, querer -->
     <tag name="CCONJ">15118</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
     <tag name="DET">73632</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
-    <tag name="INTJ">174</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, ja, ojo, qué -->
+    <tag name="INTJ">176</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, ja, ojo, qué -->
     <tag name="NOUN">100672</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
     <tag name="NUM">8762</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
-    <tag name="PART">155</tag><!-- no -->
+    <tag name="PART">154</tag><!-- no -->
     <tag name="PRON">25922</tag><!-- él, que, yo, uno, todo, donde, quien, este, otro, ese -->
-    <tag name="PROPN">42548</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
+    <tag name="PROPN">42547</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
     <tag name="PUNCT">65507</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12485</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">486</tag><!-- ', %, 50/100, 30/100, 60/100, 20/100, 10/100, 80/100, 20, 25/100 -->
@@ -49,14 +49,14 @@
     <feat name="Degree" value="Abs" upos="ADJ,DET,PRON">52</feat><!-- muchísimos, importantísimo, mismísimo, altísimo, dificilísimo, importantísima, muchísimas, rapidísimo, altísima, anticuadísimo -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2784</feat><!-- más, menos, mayor, mejor, mayores, menor, mejores, peor, menores, peores -->
     <feat name="Degree" value="Sup" upos="ADJ">174</feat><!-- máximo, máxima, mínimo, máximos, mínimas, mínima, mínimos, pésimo, máximas, óptima -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,VERB">85157</feat><!-- la, las, una, esta, política, esa, primera, personas, parte, vida -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">106462</feat><!-- el, los, un, lo, este, años, presidente, millones, todo, pasado -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85158</feat><!-- la, las, una, esta, política, esa, primera, personas, parte, vida -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">106465</feat><!-- el, los, un, lo, este, años, presidente, millones, todo, pasado -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">843</feat><!-- sería, podría, habría, debería, podrían, deberían, tendría, estaría, haría, habrían -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">311</feat><!-- mira, vaya, añade, afirma, asegura, lean, sea, vea, He, apunta -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">39121</feat><!-- es, ha, han, fue, está, tiene, son, dijo, había, hay -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2869</feat><!-- sea, haya, hubiera, pueda, puedan, fuera, sean, tenga, esté, haga -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">71949</feat><!-- los, las, sus, dos, años, han, millones, son, tres, nos -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">190660</feat><!-- la, el, un, una, su, es, ha, lo, le, este -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">71950</feat><!-- los, las, sus, dos, años, han, millones, son, tres, nos -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">190663</feat><!-- la, el, un, una, su, es, ha, lo, le, este -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">263</feat><!-- nuestra, nuestro, nuestros, nuestras, vuestra, vuestras -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">249</feat><!-- mi, mis, tu, mío, mía, tus, tuya, tuyo -->
     <feat name="NumForm" value="Digit" upos="ADJ,NOUN,NUM,SYM">6287</feat><!-- pesetas, dólares, 20, 30, 10, 12, 15, euros, 2, 16 -->
@@ -101,14 +101,14 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="36">
-    <dep name="acl">10597</dep>
+    <dep name="acl">10598</dep>
     <dep name="advcl">8975</dep>
     <dep name="advmod">19175</dep>
     <dep name="amod">29510</dep>
     <dep name="appos">7526</dep>
     <dep name="aux">7607</dep>
     <dep name="aux:pass">13</dep>
-    <dep name="case">76104</dep>
+    <dep name="case">76103</dep>
     <dep name="cc">15147</dep>
     <dep name="ccomp">6095</dep>
     <dep name="compound">2457</dep>
@@ -122,17 +122,17 @@
     <dep name="expl">1</dep>
     <dep name="expl:pass">503</dep>
     <dep name="fixed">7885</dep>
-    <dep name="flat">14477</dep>
+    <dep name="flat">14476</dep>
     <dep name="iobj">1792</dep>
     <dep name="list">16</dep>
-    <dep name="mark">19713</dep>
+    <dep name="mark">19714</dep>
     <dep name="nmod">38664</dep>
-    <dep name="nsubj">29632</dep>
+    <dep name="nsubj">29634</dep>
     <dep name="nsubj:pass">52</dep>
     <dep name="nummod">5668</dep>
     <dep name="obj">37673</dep>
     <dep name="obl">24385</dep>
-    <dep name="orphan">38</dep>
+    <dep name="orphan">36</dep>
     <dep name="parataxis">704</dep>
     <dep name="punct">65495</dep>
     <dep name="root">17680</dep>
