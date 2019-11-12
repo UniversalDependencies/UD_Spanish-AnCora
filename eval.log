@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Spanish-AnCora:
-commit 0625aa2721de534e08e324cbebfb4332c0e38cde
-Merge: b99ef95 c789f82
+commit c758379aa4d2d33f75ed2dd110260be162b2f3ef
+Merge: adfa620 ec9b612
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 549569 of 549569 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.6182686693188.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 460456 out of 549569 total words have one or more features.
+Features: 460460 out of 549569 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
