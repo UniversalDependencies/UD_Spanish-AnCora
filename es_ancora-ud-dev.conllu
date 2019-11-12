@@ -58922,19 +58922,19 @@
 16	bajo	bajo	ADP	ADP	AdpType=Prep	18	case	_	_
 17	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	consignas	consigna	NOUN	NOUN	Gender=Fem|Number=Plur	9	conj	_	_
-19	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
-20	Cuba	cuba	NOUN	NOUN	_	18	nmod	_	MWE=Cuba_sí_,_yanquis_no|MWEPOS=NOUN
-21	sí	sí	NOUN	NOUN	_	20	orphan	_	SpaceAfter=No
-22	,	,	PUNCT	PUNCT	_	23	punct	_	_
-23	yanquis	yanquis	NOUN	NOUN	_	20	conj	_	_
-24	no	no	PART	PART	_	23	orphan	_	_
+19	de	de	ADP	ADP	AdpType=Prep	21	mark	_	_
+20	Cuba	Cuba	PROPN	PROPN	Gender=Fem|Number=Sing	21	nsubj	_	MWE=Cuba_sí_,_yanquis_no|MWEPOS=NOUN
+21	sí	sí	INTJ	INTJ	_	18	acl	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	24	punct	_	_
+23	yanquis	yanqui	NOUN	NOUN	Gender=Masc|Number=Plur	24	nsubj	_	_
+24	no	no	INTJ	INTJ	_	21	conj	_	_
 25	en	en	ADP	ADP	AdpType=Prep	27	case	_	_
 26	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	actos	acto	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	_
 28	del	del	ADP	ADP	AdpType=Preppron	29	case	_	_
-29	Día	Día	PROPN	PROPN	_	27	nmod	_	MWE=Día_del_Trabajo|MWEPOS=PROPN
+29	Día	día	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod	_	MWE=Día_del_Trabajo|MWEPOS=PROPN
 30	del	del	ADP	ADP	AdpType=Preppron	31	case	_	_
-31	Trabajo	Trabajo	PROPN	PROPN	_	29	flat	_	SpaceAfter=No
+31	Trabajo	trabajo	NOUN	NOUN	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id = dev-s1648
