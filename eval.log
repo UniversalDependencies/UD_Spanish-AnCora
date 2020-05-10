@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Spanish-AnCora:
-commit c758379aa4d2d33f75ed2dd110260be162b2f3ef
-Merge: adfa620 ec9b612
+commit dee9c69aa4aff4eaa42104780bc9dad522c04ad8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 12 17:45:26 2019 +0100
 Size: counted 549569 of 549569 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.6182686693188.
 Size: maximum value 13.815511 is for 1000000 words or more.
