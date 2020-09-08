@@ -20860,10 +20860,10 @@
 56	de	de	ADP	ADP	AdpType=Prep	57	case	_	_
 57	propiedad	propiedad	NOUN	NOUN	Gender=Fem|Number=Sing	54	nmod	_	_
 58	estatal	estatal	ADJ	ADJ	Number=Sing	57	amod	_	_
-59	"	"	PUNCT	PUNCT	PunctType=Quot	60	punct	_	SpaceAfter=No
-60	Al	Al	ADP	ADP	AdpType=Preppron	61	case	_	MWE=Al_Ahram|MWEPOS=PROPN
+59	"	"	PUNCT	PUNCT	PunctType=Quot	61	punct	_	SpaceAfter=No
+60	Al	Al	DET	DET	Definite=Def|Foreign=Yes|PronType=Art	61	det	_	MWE=Al_Ahram|MWEPOS=PROPN
 61	Ahram	Ahram	PROPN	PROPN	_	54	appos	_	SpaceAfter=No
-62	"	"	PUNCT	PUNCT	PunctType=Quot	60	punct	_	SpaceAfter=No
+62	"	"	PUNCT	PUNCT	PunctType=Quot	61	punct	_	SpaceAfter=No
 63	.	.	PUNCT	PUNCT	PunctType=Peri	40	punct	_	_
 
 # sent_id = dev-s562
