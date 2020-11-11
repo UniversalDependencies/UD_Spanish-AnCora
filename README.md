@@ -1,6 +1,21 @@
 # Summary
 
-Spanish data from the AnCora corpus.
+Spanish data from the [AnCora](http://clic.ub.edu/corpus/) corpus.
+
+
+# Introduction
+
+The original annotation was done in a constituency framework as a part of the
+[AnCora](http://clic.ub.edu/corpus/) project at the University of Barcelona.
+It was converted to dependencies and used in the
+[CoNLL 2009 shared task](https://ufal.mff.cuni.cz/conll2009-st/index.html).
+The CoNLL 2009 version was later converted to
+[HamleDT](https://ufal.mff.cuni.cz/hamledt) and to Universal Dependencies.
+
+The GNU license is inherited from the original dataset, downloaded from
+the AnCora website. Any license-related questions have to be directed to
+the original data providers at the University of Barcelona (that is, not
+to the UD contact address listed at the end of this README file).
 
 
 # Changelog
