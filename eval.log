@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Spanish-AnCora:
-commit dee9c69aa4aff4eaa42104780bc9dad522c04ad8
+commit 83f7c53b95e272174061b1dc645d415802359ea1
+Merge: 5f7f6b7 da8e4d8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:45:26 2019 +0100
 Size: counted 549569 of 549569 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.6182686693188.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 460460 out of 549569 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 5625 bugs.
+Udapi: found 3648 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 549569 words.
 Genres: found 1 out of 17 known.
 validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.913340742376308) = 0.234189933942643
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.897647065245674) = 0.276199096998669
+(weight=0.307692307692308) * (score{udapi}=0.933620710047328) = 0.287267910783793
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.804033806939029) * (availability=1) * (validity=1) = 0.804033806939029
+(TOTAL score=0.815102620724153) * (availability=1) * (validity=1) = 0.815102620724153
 STARS = 4
-UD_Spanish-AnCora	0.804033806939029	4
+UD_Spanish-AnCora	0.815102620724153	4
