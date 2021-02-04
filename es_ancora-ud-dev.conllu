@@ -19600,7 +19600,7 @@
 33-35	quitárselas	_	_	_	_	_	_	_	SpaceAfter=No
 33	quitar	quitar	VERB	VERB	VerbForm=Inf	14	xcomp	_	_
 34	se	él	PRON	PRON	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs	33	iobj	_	_
-35	las	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	33	iobj	_	SpaceAfter=No
+35	las	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	33	iobj	_	_
 36	"	"	PUNCT	PUNCT	PunctType=Quot	33	punct	_	SpaceAfter=No
 37	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
