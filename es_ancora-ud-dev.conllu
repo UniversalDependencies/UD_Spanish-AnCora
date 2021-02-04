@@ -19563,7 +19563,7 @@
 16	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s531
-# text = El presidente de la Junta de Extremadura, Juan Carlos Rodríguez Ibarra, cree que si el Gobierno vasco no cumple las competencias asignadas en materia de seguridad pública "alguien debería quitárselaslas".
+# text = El presidente de la Junta de Extremadura, Juan Carlos Rodríguez Ibarra, cree que si el Gobierno vasco no cumple las competencias asignadas en materia de seguridad pública "alguien debería quitárselas".
 # orig_file_sentence 006#31
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -19597,7 +19597,7 @@
 30	"	"	PUNCT	PUNCT	PunctType=Quot	33	punct	_	SpaceAfter=No
 31	alguien	alguien	PRON	PRON	Number=Sing|PronType=Ind	33	nsubj	_	_
 32	debería	deber	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	33	aux	_	_
-33-34	quitárselas	_	_	_	_	_	_	_	SpaceAfter=No
+33-35	quitárselas	_	_	_	_	_	_	_	SpaceAfter=No
 33	quitar	quitar	VERB	VERB	VerbForm=Inf	14	xcomp	_	_
 34	se	él	PRON	PRON	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs	33	iobj	_	_
 35	las	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	33	iobj	_	SpaceAfter=No
