@@ -53419,7 +53419,7 @@
 19	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s1482
-# text = De lunes a jueves se efectúa un sólo viaje, mientras que los viernes, sábados y domingos hay dos, uno por la mañana y otro por la tarde.
+# text = De lunes a jueves se efectúa un solo viaje, mientras que los viernes, sábados y domingos hay dos, uno por la mañana y otro por la tarde.
 # orig_file_sentence 015#82
 1	De	de	ADP	ADP	AdpType=Prep	2	case	_	_
 2	lunes	lunes	NOUN	NOUN	AdvType=Tim	6	obl	_	_
@@ -53428,7 +53428,7 @@
 5	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	expl:pass	_	_
 6	efectúa	efectuar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
 7	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-8	sólo	sólo	ADV	ADV	_	9	advmod	_	_
+8	solo	solo	ADJ	ADJ	_	9	amod	_	_
 9	viaje	viaje	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 11	mientras	mientras	CCONJ	CCONJ	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
