@@ -8715,7 +8715,7 @@
 131	.	.	PUNCT	PUNCT	PunctType=Peri	24	punct	_	_
 
 # sent_id = test-s262
-# text = Le dijo a Auri que se iba al fútbol, ella le miró con Los ojos fuera de las órbitas, nunca había ido al fútbol antes, nunca iría después, sus escapadas futuras se convertirían en un hermoso trabajo de precisión, un riesgo inexistente pero siempre milimétricamente calculado, Barcelona, Vigo, Valencia, incluso Frankfurt, pero aquella tarde no tenía tiempo para pensar, no sabía exactamente lo que iba a hacer, así que cogió el coche, nuevo también, y deshizo el camino, regocijándose por su previa astucia, el repentino impulso que le había inducido a conservar su vieja casa de alquiler ocultandoselo a su socia en gananciales.
+# text = Le dijo a Auri que se iba al fútbol, ella le miró con Los ojos fuera de las órbitas, nunca había ido al fútbol antes, nunca iría después, sus escapadas futuras se convertirían en un hermoso trabajo de precisión, un riesgo inexistente pero siempre milimétricamente calculado, Barcelona, Vigo, Valencia, incluso Frankfurt, pero aquella tarde no tenía tiempo para pensar, no sabía exactamente lo que iba a hacer, así que cogió el coche, nuevo también, y deshizo el camino, regocijándose por su previa astucia, el repentino impulso que le había inducido a conservar su vieja casa de alquiler ocultándoselo a su socia en gananciales.
 # orig_file_sentence 003#62
 1	Le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
 2	dijo	decir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -8832,7 +8832,7 @@
 112	casa	casa	NOUN	NOUN	Gender=Fem|Number=Sing	109	obj	_	_
 113	de	de	ADP	ADP	AdpType=Prep	114	case	_	_
 114	alquiler	alquiler	NOUN	NOUN	Gender=Masc|Number=Sing	112	nmod	_	_
-115-117	ocultandoselo	_	_	_	_	_	_	_	_
+115-117	ocultándoselo	_	_	_	_	_	_	_	_
 115	ocultando	ocultar	VERB	VERB	VerbForm=Ger	109	xcomp	_	_
 116	se	él	PRON	PRON	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs	115	iobj	_	_
 117	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	115	obj	_	_
