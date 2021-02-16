@@ -36646,20 +36646,6 @@
 5	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s954
-# text = Siempre que el Bagdad hace algo, se arma.
-# orig_file_sentence 010#54
-1	Siempre	siempre	ADV	ADV	_	5	mark	_	MWE=Siempre_que|MWEPOS=ADV
-2	que	que	SCONJ	SCONJ	_	1	fixed	_	_
-3	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	Bagdad	Bagdad	PROPN	PROPN	_	5	nsubj	_	_
-5	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
-6	algo	algo	PRON	PRON	Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
-7	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
-8	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	_	_
-9	arma	armar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
-
-# sent_id = dev-s955
 # text = Que si el número del enano, que si la que lo hace con 10 y ahora esto ", añade el técnico, un fotógrafo que lleva la mitad de su vida bañando de luz y sonido miles de espectáculos porno desde su pétreo e histórico agujero.
 # orig_file_sentence 010#55
 1	Que	que	SCONJ	SCONJ	_	4	mark	_	_
@@ -36711,6 +36697,20 @@
 47	histórico	histórico	ADJ	ADJ	Gender=Masc|Number=Sing	45	conj	_	_
 48	agujero	agujero	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
 49	.	.	PUNCT	PUNCT	PunctType=Peri	21	punct	_	_
+
+# sent_id = dev-s955
+# text = Siempre que el Bagdad hace algo, se arma.
+# orig_file_sentence 010#54
+1	Siempre	siempre	ADV	ADV	_	5	mark	_	MWE=Siempre_que|MWEPOS=ADV
+2	que	que	SCONJ	SCONJ	_	1	fixed	_	_
+3	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Bagdad	Bagdad	PROPN	PROPN	_	5	nsubj	_	_
+5	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+6	algo	algo	PRON	PRON	Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
+8	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	_	_
+9	arma	armar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id = dev-s956
 # text = El actual presidente de la entidad catalanista Òmnium Cultural, Josep Millàs, explicó ayer que ha propuesto al sector renovador que encabeza Jordi Porta la confección de una lista conjunta para las elecciones del 7 de marzo en la organización.
