@@ -10873,7 +10873,7 @@
 52	.	.	PUNCT	PUNCT	PunctType=Peri	42	punct	_	_
 
 # sent_id = dev-s335
-# text = Iber-X ofrece en su página web (www.iber-x.com-RSB- un índice diario de la fluctuación de los precios de la capacidad de ancho de banda en Internet, que refleja las posiciones casadas en la jornada anterior, y tiene previsto ampliar en el futuro ese índice a las operaciones de servicios de voz.
+# text = Iber-X ofrece en su página web (www.iber-x.com) un índice diario de la fluctuación de los precios de la capacidad de ancho de banda en Internet, que refleja las posiciones casadas en la jornada anterior, y tiene previsto ampliar en el futuro ese índice a las operaciones de servicios de voz.
 # orig_file_sentence 004#35
 1	Iber-X	Iber-X	PROPN	PROPN	_	2	nsubj	_	_
 2	ofrece	ofrecer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10882,7 +10882,7 @@
 5	página	página	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
 6	web	web	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
 7	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	8	punct	_	SpaceAfter=No
-8	www.iber-x.com-RSB-	www.iber-x.com-RSB-	PROPN	PROPN	_	5	appos	_	_
+8	www.iber-x.com)	www.iber-x.com)	PROPN	PROPN	_	5	appos	_	_
 9	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	índice	índice	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
 11	diario	diario	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
@@ -35529,7 +35529,7 @@
 12	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s911
-# text = Un Segunda B, un campo en mal estado, la presión de jugarse lo todo a partido único y la motivación de unos y otros.
+# text = Un Segunda B, un campo en mal estado, la presión de jugárselo todo a partido único y la motivación de unos y otros.
 # orig_file_sentence 010#11
 1	Un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Segunda	Segunda	PROPN	PROPN	_	0	root	_	MWE=Segunda_B|MWEPOS=PROPN
@@ -35544,7 +35544,7 @@
 11	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	presión	presión	NOUN	NOUN	Gender=Fem|Number=Sing	2	appos	_	_
 13	de	de	ADP	ADP	AdpType=Prep	14	mark	_	_
-14-15	jugarse	_	_	_	_	_	_	_	_
+14-16	jugárselo	_	_	_	_	_	_	_	_
 14	jugar	jugar	VERB	VERB	VerbForm=Inf	12	acl	_	_
 15	se	él	PRON	PRON	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	expl:pv	_	_
 16	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	14	obj	_	_
