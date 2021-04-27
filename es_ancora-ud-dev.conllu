@@ -10644,7 +10644,7 @@
 # sent_id = dev-s330
 # text = Además del ahorro económico, las operaciones a través de Iber-X permiten a las compañías vender producto excedente y comprar para atender necesidades coyunturales en tiempo real, frente a los plazos de varios meses del mercado tradicional.
 # orig_file_sentence 004#30
-1	Además	además	ADV	ADV	AdpType=Preppron	3	case	_	MWE=Además_del|MWEPOS=ADP
+1	Además	además	ADV	ADV	AdpType=Prep	3	case	_	MWE=Además_del|MWEPOS=ADP
 2	del	del	ADP	ADP	AdpType=Preppron	1	fixed	_	_
 3	ahorro	ahorro	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
 4	económico	económico	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
@@ -14166,7 +14166,7 @@
 21	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 22	meta	meta	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
 23	por	por	ADP	ADP	AdpType=Prep	26	case	_	_
-24	delante	delante	ADV	ADV	AdpType=Preppron	26	case	_	MWE=delante_del|MWEPOS=ADP
+24	delante	delante	ADV	ADV	AdpType=Prep	26	case	_	MWE=delante_del|MWEPOS=ADP
 25	del	del	ADP	ADP	AdpType=Preppron	24	fixed	_	_
 26	italiano	italiano	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
 27	Max	Max	PROPN	PROPN	_	26	appos	_	MWE=Max_Papis|MWEPOS=PROPN
@@ -14901,7 +14901,7 @@
 17	respetar	respetar	VERB	VERB	VerbForm=Inf	15	conj	_	_
 18	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	compromisos	compromiso	NOUN	NOUN	Gender=Masc|Number=Plur	17	obj	_	_
-20	acerca	acerca	ADV	ADV	AdpType=Preppron	22	case	_	MWE=acerca_del|MWEPOS=ADP
+20	acerca	acerca	ADV	ADV	AdpType=Prep	22	case	_	MWE=acerca_del|MWEPOS=ADP
 21	del	del	ADP	ADP	AdpType=Preppron	20	fixed	_	_
 22	conflicto	conflicto	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
 23	en	en	ADP	ADP	AdpType=Prep	24	case	_	_
@@ -16565,7 +16565,7 @@
 40	ir	ir	VERB	VERB	VerbForm=Inf	36	advcl	_	_
 41	siempre	siempre	ADV	ADV	_	40	advmod	_	_
 42	por	por	ADP	ADP	AdpType=Prep	45	case	_	MWE=por_detrás_del|MWEPOS=ADP
-43	detrás	detrás	ADV	ADV	AdpType=Preppron	42	fixed	_	_
+43	detrás	detrás	ADV	ADV	AdpType=Prep	42	fixed	_	_
 44	del	del	ADP	ADP	AdpType=Preppron	42	fixed	_	_
 45	marcador	marcador	NOUN	NOUN	Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
 46	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
@@ -16598,7 +16598,7 @@
 22	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	galería	galería	NOUN	NOUN	Gender=Fem|Number=Sing	19	obl	_	_
 24	este	este	ADJ	ADJ	_	23	amod	_	_
-25	debido	debido	ADJ	ADJ	AdpType=Preppron|Gender=Masc|Number=Sing	27	case	_	MWE=debido_al|MWEPOS=ADP
+25	debido	debido	ADJ	ADJ	AdpType=Prep|Gender=Masc|Number=Sing	27	case	_	MWE=debido_al|MWEPOS=ADP
 26	al	al	ADP	ADP	AdpType=Preppron	25	fixed	_	_
 27	lanzamiento	lanzamiento	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
 28	de	de	ADP	ADP	AdpType=Prep	30	case	_	_
@@ -20305,7 +20305,7 @@
 13	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
 14	provocara	provocar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
-16	después	después	ADV	ADV	AdpType=Preppron	18	case	_	MWE=después_del|MWEPOS=ADP
+16	después	después	ADV	ADV	AdpType=Prep	18	case	_	MWE=después_del|MWEPOS=ADP
 17	del	del	ADP	ADP	AdpType=Preppron	16	fixed	_	_
 18	km.24	24	NUM	NUM	NumForm=Digit|NumType=Card	14	obl	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
@@ -23168,7 +23168,7 @@
 13	costa	costa	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
 14	norte	norte	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
-16	debido	debido	ADJ	ADJ	AdpType=Preppron|Gender=Masc|Number=Sing	18	case	_	MWE=debido_al|MWEPOS=ADP
+16	debido	debido	ADJ	ADJ	AdpType=Prep|Gender=Masc|Number=Sing	18	case	_	MWE=debido_al|MWEPOS=ADP
 17	al	al	ADP	ADP	AdpType=Preppron	16	fixed	_	_
 18	traslado	traslado	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
 19	allí	allí	ADV	ADV	_	18	advmod	_	_
@@ -28567,7 +28567,7 @@
 6	conseguido	conseguir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	seis	seis	NUM	NUM	Number=Plur|NumType=Card	8	nummod	_	_
 8	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	6	obj	_	_
-9	lejos	lejos	ADV	ADV	AdpType=Preppron	11	case	_	MWE=lejos_del|MWEPOS=ADP
+9	lejos	lejos	ADV	ADV	AdpType=Prep	11	case	_	MWE=lejos_del|MWEPOS=ADP
 10	del	del	ADP	ADP	AdpType=Preppron	9	fixed	_	_
 11	estadio	estadio	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
 12	Anoeta	Anoeta	PROPN	PROPN	_	11	appos	_	_
@@ -31306,7 +31306,7 @@
 12	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 13	ligeramente	ligeramente	ADV	ADV	_	7	advmod	_	_
 14	por	por	ADP	ADP	AdpType=Prep	13	case	_	MWE=por_debajo_del|MWEPOS=ADP
-15	debajo	debajo	ADV	ADV	AdpType=Preppron	14	fixed	_	_
+15	debajo	debajo	ADV	ADV	AdpType=Prep	14	fixed	_	_
 16	del	del	ADP	ADP	AdpType=Preppron	14	fixed	_	_
 17	0,31	0,31	NUM	NUM	NumForm=Digit|NumType=Card	13	nummod	_	MWE=0,31_por_ciento|MWEPOS=NUM
 18	por	por	ADP	ADP	AdpType=Prep	19	case	_	_
@@ -32852,7 +32852,7 @@
 34	por	por	ADP	ADP	AdpType=Prep	35	case	_	_
 35	ciento	ciento	NUM	NUM	NumType=Card	33	compound	_	SpaceAfter=No
 36	,	,	PUNCT	PUNCT	PunctType=Comm	39	punct	_	_
-37	detrás	detrás	ADV	ADV	AdpType=Preppron	39	case	_	MWE=detrás_del|MWEPOS=ADP
+37	detrás	detrás	ADV	ADV	AdpType=Prep	39	case	_	MWE=detrás_del|MWEPOS=ADP
 38	del	del	ADP	ADP	AdpType=Preppron	37	fixed	_	_
 39	socialdemócrata	socialdemócrata	NOUN	NOUN	Number=Sing	23	obl	_	_
 40	Hipólito	Hipólito	PROPN	PROPN	_	39	appos	_	MWE=Hipólito_Mejía|MWEPOS=PROPN
@@ -32877,7 +32877,7 @@
 59	,	,	PUNCT	PUNCT	PunctType=Comm	64	punct	_	_
 60	y	y	CCONJ	CCONJ	_	64	cc	_	_
 61	por	por	ADP	ADP	AdpType=Prep	64	case	_	MWE=por_encima_del|MWEPOS=ADP
-62	encima	encima	ADV	ADV	AdpType=Preppron	61	fixed	_	_
+62	encima	encima	ADV	ADV	AdpType=Prep	61	fixed	_	_
 63	del	del	ADP	ADP	AdpType=Preppron	61	fixed	_	_
 64	candidato	candidato	NOUN	NOUN	Gender=Masc|Number=Sing	39	conj	_	_
 65	del	del	ADP	ADP	AdpType=Preppron	66	case	_	_
@@ -52275,7 +52275,7 @@
 # sent_id = dev-s1440
 # text = Junto al elevado índice de delincuencia de los inmigrantes sumergidos en las bolsas de marginalidad, hay al menos otras dos causas que explican este dato: primero, que a muchos extranjeros (44.139 el año pasado) se les detiene sólo por estar en situación irregular; y segundo, que la fiscalía pide sistemáticamente el ingreso en prisión preventiva de los inmigrantes sin papeles.
 # orig_file_sentence 015#40
-1	Junto	junto	ADJ	ADJ	AdpType=Preppron|Gender=Masc|Number=Sing	4	case	_	MWE=Junto_al|MWEPOS=ADP
+1	Junto	junto	ADJ	ADJ	AdpType=Prep|Gender=Masc|Number=Sing	4	case	_	MWE=Junto_al|MWEPOS=ADP
 2	al	al	ADP	ADP	AdpType=Preppron	1	fixed	_	_
 3	elevado	elevado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	4	amod	_	_
 4	índice	índice	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
@@ -54593,7 +54593,7 @@
 8	por	por	ADP	ADP	AdpType=Prep	10	case	_	_
 9	sus	su	DET	DET	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
 10	servicios	servicio	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	_
-11	alrededor	alrededor	ADV	ADV	AdpType=Preppron	13	case	_	MWE=alrededor_del|MWEPOS=ADP
+11	alrededor	alrededor	ADV	ADV	AdpType=Prep	13	case	_	MWE=alrededor_del|MWEPOS=ADP
 12	del	del	ADP	ADP	AdpType=Preppron	11	fixed	_	_
 13	25%	25/100	SYM	SYM	NumForm=Digit|NumType=Frac	7	obj	_	_
 14	de	de	ADP	ADP	AdpType=Prep	16	case	_	_

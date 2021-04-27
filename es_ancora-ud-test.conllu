@@ -105,7 +105,7 @@
 # sent_id = test-s3
 # text = Después del triunfo electoral de los socialistas (ex comunistas) en las primeras elecciones democráticas del 10 de junio de 1990, la derechista Unión de Fuerzas Democráticas (SDS) acusó a Mladénov de haber amenazado con "sacar los carros de combate" el 14 de diciembre de 1989.
 # orig_file_sentence 001#3
-1	Después	después	ADV	ADV	AdpType=Preppron	3	case	_	MWE=Después_del|MWEPOS=ADP
+1	Después	después	ADV	ADV	AdpType=Prep	3	case	_	MWE=Después_del|MWEPOS=ADP
 2	del	del	ADP	ADP	AdpType=Preppron	1	fixed	_	_
 3	triunfo	triunfo	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
 4	electoral	electoral	ADJ	ADJ	Number=Sing	3	amod	_	_
@@ -3874,7 +3874,7 @@
 # sent_id = test-s113
 # text = Después del lance tenían la obligación de redactar un protocolo escrito, esencial sobre todo en el caso en que uno de los duelistas cayera herido mortalmente, ya que sobre el otro recaería la responsabilidad penal.
 # orig_file_sentence 002#13
-1	Después	después	ADV	ADV	AdpType=Preppron	3	case	_	MWE=Después_del|MWEPOS=ADP
+1	Después	después	ADV	ADV	AdpType=Prep	3	case	_	MWE=Después_del|MWEPOS=ADP
 2	del	del	ADP	ADP	AdpType=Preppron	1	fixed	_	_
 3	lance	lance	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
 4	tenían	tener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -18674,7 +18674,7 @@
 25	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
 26	obviamente	obviamente	ADV	ADV	_	13	advmod	_	_
 27	por	por	ADP	ADP	AdpType=Prep	26	case	_	_
-28	detrás	detrás	ADV	ADV	AdpType=Preppron	30	case	_	MWE=detrás_del|MWEPOS=ADP
+28	detrás	detrás	ADV	ADV	AdpType=Prep	30	case	_	MWE=detrás_del|MWEPOS=ADP
 29	del	del	ADP	ADP	AdpType=Preppron	28	fixed	_	_
 30	país	país	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod	_	_
 31	anfitrión	anfitrión	NOUN	NOUN	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
@@ -22713,7 +22713,7 @@
 9	permite	permitir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	incluso	incluso	ADV	ADV	_	9	advmod	_	_
 11	bromear	bromear	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
-12	acerca	acerca	ADV	ADV	AdpType=Preppron	15	case	_	MWE=acerca_del|MWEPOS=ADP
+12	acerca	acerca	ADV	ADV	AdpType=Prep	15	case	_	MWE=acerca_del|MWEPOS=ADP
 13	del	del	ADP	ADP	AdpType=Preppron	12	fixed	_	_
 14	pésimo	pésimo	ADJ	ADJ	Degree=Sup|Gender=Masc|Number=Sing	15	amod	_	_
 15	estado	estado	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
@@ -29015,7 +29015,7 @@
 11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
 12	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	período	período	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
-14	lejos	lejos	ADV	ADV	AdpType=Preppron	16	case	_	MWE=lejos_del|MWEPOS=ADP
+14	lejos	lejos	ADV	ADV	AdpType=Prep	16	case	_	MWE=lejos_del|MWEPOS=ADP
 15	del	del	ADP	ADP	AdpType=Preppron	14	fixed	_	_
 16	balón	balón	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
 17	y	y	CCONJ	CCONJ	_	18	cc	_	_
@@ -36081,7 +36081,7 @@
 13	hasta	hasta	ADP	ADP	AdpType=Prep	15	case	_	_
 14	nueva	nuevo	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
 15	orden	orden	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
-16	debido	debido	ADJ	ADJ	AdpType=Preppron|Gender=Masc|Number=Sing	18	case	_	MWE=debido_al|MWEPOS=ADP
+16	debido	debido	ADJ	ADJ	AdpType=Prep|Gender=Masc|Number=Sing	18	case	_	MWE=debido_al|MWEPOS=ADP
 17	al	al	ADP	ADP	AdpType=Preppron	16	fixed	_	_
 18	carburante	carburante	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
 19	contaminado	contaminado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	18	amod	_	_
@@ -42363,7 +42363,7 @@
 29	de	de	ADP	ADP	AdpType=Prep	30	case	_	_
 30	jugadores	jugador	NOUN	NOUN	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
-32	debido	debido	ADJ	ADJ	AdpType=Preppron|Gender=Masc|Number=Sing	34	case	_	MWE=debido_al|MWEPOS=ADP
+32	debido	debido	ADJ	ADJ	AdpType=Prep|Gender=Masc|Number=Sing	34	case	_	MWE=debido_al|MWEPOS=ADP
 33	al	al	ADP	ADP	AdpType=Preppron	32	fixed	_	_
 34	caso	caso	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod	_	_
 35	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
@@ -53287,7 +53287,7 @@
 7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	joven	joven	NOUN	NOUN	Number=Sing	5	nmod	_	_
 9	halladas	hallado	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	5	amod	_	_
-10	junto	junto	ADJ	ADJ	AdpType=Preppron|Gender=Masc|Number=Sing	12	case	_	MWE=junto_al|MWEPOS=ADP
+10	junto	junto	ADJ	ADJ	AdpType=Prep|Gender=Masc|Number=Sing	12	case	_	MWE=junto_al|MWEPOS=ADP
 11	al	al	ADP	ADP	AdpType=Preppron	10	fixed	_	_
 12	cadáver	cadáver	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
