@@ -36,7 +36,7 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="65">
     <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV">77791</feat><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
-    <feat name="AdpType" value="Preppron" upos="ADJ,ADP">10690</feat><!-- del, al, da, do, dels, als, mismo -->
+    <feat name="AdpType" value="Preppron" upos="ADP">10689</feat><!-- del, al, da, do, dels, als -->
     <feat name="AdvType" value="Tim" upos="ADJ,ADV,NOUN">1902</feat><!-- 1999, domingo, viernes, miércoles, sábado, lunes, martes, jueves, 1998, año -->
     <feat name="Case" value="Acc" upos="PRON">8690</feat><!-- se, lo, la, me, nos, los, las, mí, sí, te -->
     <feat name="Case" value="Acc,Dat" upos="PRON">13</feat><!-- se, nos, te, me, Os -->
@@ -51,13 +51,13 @@
     <feat name="Degree" value="Sup" upos="ADJ">174</feat><!-- máximo, máxima, mínimo, máximos, mínimas, mínima, mínimos, pésimo, máximas, óptima -->
     <feat name="Foreign" value="Yes" upos="ADP,CCONJ,DET,NOUN,PROPN">16</feat><!-- Al, A, de, la, Comerç, Conselleria, Generalitat, Indústria, Turisme, i -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85157</feat><!-- la, las, una, esta, política, esa, primera, personas, parte, vida -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">106464</feat><!-- el, los, un, lo, este, años, presidente, millones, todo, pasado -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">106465</feat><!-- el, los, un, lo, este, años, presidente, millones, todo, pasado -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">843</feat><!-- sería, podría, habría, debería, podrían, deberían, tendría, estaría, haría, habrían -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">311</feat><!-- mira, vaya, añade, afirma, asegura, lean, sea, vea, He, apunta -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">39121</feat><!-- es, ha, han, fue, está, tiene, son, dijo, había, hay -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2869</feat><!-- sea, haya, hubiera, pueda, puedan, fuera, sean, tenga, esté, haga -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">71951</feat><!-- los, las, sus, dos, años, han, millones, son, tres, nos -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">190658</feat><!-- la, el, un, una, su, es, ha, lo, le, este -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">190659</feat><!-- la, el, un, una, su, es, ha, lo, le, este -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">263</feat><!-- nuestra, nuestro, nuestros, nuestras, vuestra, vuestras -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">249</feat><!-- mi, mis, tu, mío, mía, tus, tuya, tuyo -->
     <feat name="NumForm" value="Digit" upos="ADJ,NOUN,NUM,SYM">6287</feat><!-- pesetas, dólares, 20, 30, 10, 12, 15, euros, 2, 16 -->

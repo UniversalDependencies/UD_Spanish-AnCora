@@ -23,6 +23,7 @@ to the UD contact address listed at the end of this README file).
 * 2021-05-15 v2.8
   * Fixed: AdpType=Preppron wrongly appeared at the first word of multi-word
     prepositions such as "delante del".
+  * Removed XPOS tags. They were just copies of UPOS.
 * 2019-05-01 v2.4
   * Hundreds of manual fixes and thousands of semiautomatic fixes of errors.
 * 2017-03-01 v2.0
