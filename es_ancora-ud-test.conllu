@@ -116,7 +116,7 @@
 1	Después	después	ADV	_	_	4	case	_	MWE=Después_del|MWEPOS=ADP
 2-3	del	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	case	_	_
-3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	triunfo	triunfo	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	_
 5	electoral	electoral	ADJ	_	Number=Sing	4	amod	_	_
 6	de	de	ADP	_	_	8	case	_	_
@@ -1485,7 +1485,7 @@
 19	cara	cara	NOUN	_	_	18	fixed	_	_
 20-21	al	_	_	_	_	_	_	_	_
 20	a	a	ADP	_	_	18	case	_	_
-21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	resto	resto	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -3981,7 +3981,7 @@
 1	Después	después	ADV	_	_	4	case	_	MWE=Después_del|MWEPOS=ADP
 2-3	del	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	case	_	_
-3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	lance	lance	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 5	tenían	tener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -5005,7 +5005,7 @@
 38	frente	frente	NOUN	_	_	41	case	_	MWE=frente_al|MWEPOS=ADP
 39-40	al	_	_	_	_	_	_	_	_
 39	a	a	ADP	_	_	38	case	_	_
-40	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+40	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	aire	aire	NOUN	_	Gender=Masc|Number=Sing	36	conj	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
@@ -9171,7 +9171,7 @@
 23	margen	margen	NOUN	_	_	21	fixed	_	_
 24-25	del	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	21	case	_	_
-25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	polvo	polvo	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
 27	acumulado	acumulado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	26	amod	_	_
 28	sobre	sobre	ADP	_	_	31	case	_	_
@@ -9491,7 +9491,7 @@
 1	Respecto	respecto	NOUN	_	_	4	case	_	MWE=Respecto_al|MWEPOS=ADP
 2-3	al	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	case	_	_
-3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
@@ -12079,7 +12079,7 @@
 65	parte	parte	NOUN	_	_	64	fixed	_	_
 66-67	del	_	_	_	_	_	_	_	_
 66	de	de	ADP	_	_	64	case	_	_
-67	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+67	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	68	det	_	_
 68	TSJEX	TSJEX	PROPN	_	_	55	nmod	_	_
 69	no	no	ADV	_	Polarity=Neg	70	advmod	_	_
 70	supone	suponer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_
@@ -12806,7 +12806,7 @@
 32	partir	partir	NOUN	_	_	31	fixed	_	_
 33-34	del	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	31	case	_	_
-34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	acuerdo	acuerdo	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
 36	suscrito	suscrito	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	35	amod	_	_
 37	por	por	ADP	_	_	38	case	_	_
@@ -14912,7 +14912,7 @@
 10	partir	partir	NOUN	_	_	9	fixed	_	_
 11-12	del	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	9	case	_	_
-12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	viernes	viernes	NOUN	_	AdvType=Tim	8	obl	_	_
 14	en	en	ADP	_	_	16	case	_	_
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -17041,7 +17041,7 @@
 44	través	través	NOUN	_	_	43	fixed	_	_
 45-46	del	_	_	_	_	_	_	_	_
 45	de	de	ADP	_	_	43	case	_	_
-46	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+46	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	Pirineo	Pirineo	PROPN	_	_	39	obl	_	_
 48	navarro	navarro	ADJ	_	Gender=Masc|Number=Sing	47	amod	_	SpaceAfter=No
 49	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
@@ -17929,7 +17929,7 @@
 2	torno	torno	NOUN	_	_	1	fixed	_	_
 3-4	al	_	_	_	_	_	_	_	_
 3	a	a	ADP	_	_	1	case	_	_
-4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -19245,7 +19245,7 @@
 28	detrás	detrás	ADV	_	_	31	case	_	MWE=detrás_del|MWEPOS=ADP
 29-30	del	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	28	case	_	_
-30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	país	país	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
 32	anfitrión	anfitrión	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
@@ -22119,7 +22119,7 @@
 19	pesar	pesar	NOUN	_	_	18	fixed	_	_
 20-21	del	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	18	case	_	_
-21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
 23	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	portero	portero	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
@@ -23406,7 +23406,7 @@
 12	acerca	acerca	ADV	_	_	16	case	_	MWE=acerca_del|MWEPOS=ADP
 13-14	del	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	case	_	_
-14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	pésimo	pésimo	ADJ	_	Degree=Sup|Gender=Masc|Number=Sing	16	amod	_	_
 16	estado	estado	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 17	de	de	ADP	_	_	19	case	_	_
@@ -26487,7 +26487,7 @@
 5	finales	finales	NOUN	_	_	4	fixed	_	_
 6-7	del	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	4	case	_	_
-7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 9	ejercicio	ejercicio	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
@@ -29938,7 +29938,7 @@
 14	lejos	lejos	ADV	_	_	17	case	_	MWE=lejos_del|MWEPOS=ADP
 15-16	del	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	case	_	_
-16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	balón	balón	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 18	y	y	CCONJ	_	_	19	cc	_	_
 19	entraron	entrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
@@ -33941,7 +33941,7 @@
 2	cuanto	cuanto	NOUN	_	_	1	fixed	_	_
 3-4	al	_	_	_	_	_	_	_	_
 3	a	a	ADP	_	_	1	case	_	_
-4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	binomio	binomio	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 6	Internet-turismo	Internet-turismo	PROPN	_	_	5	appos	_	SpaceAfter=No
 7	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
@@ -34592,7 +34592,7 @@
 71	pese	pese	NOUN	_	_	74	case	_	MWE=pese_al|MWEPOS=ADP
 72-73	al	_	_	_	_	_	_	_	_
 72	a	a	ADP	_	_	71	case	_	_
-73	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	_	_
+73	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
 74	calor	calor	NOUN	_	Gender=Masc|Number=Sing	65	obl	_	SpaceAfter=No
 75	.	.	PUNCT	_	PunctType=Peri	17	punct	_	_
 
@@ -35540,7 +35540,7 @@
 8	favor	favor	NOUN	_	_	7	fixed	_	_
 9-10	del	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	7	case	_	_
-10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	holandés	holandés	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 12	Fred	Fred	PROPN	_	_	11	appos	_	MWE=Fred_Westgeesc|MWEPOS=PROPN
 13	Westgeesc	Westgeesc	PROPN	_	_	12	flat	_	SpaceAfter=No
@@ -37254,7 +37254,7 @@
 17	debido	debido	ADJ	_	Gender=Masc|Number=Sing	20	case	_	MWE=debido_al|MWEPOS=ADP
 18-19	al	_	_	_	_	_	_	_	_
 18	a	a	ADP	_	_	17	case	_	_
-19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	carburante	carburante	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 21	contaminado	contaminado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	20	amod	_	_
 22	distribuido	distribuido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	20	amod	_	_
@@ -38668,7 +38668,7 @@
 20	manos	manos	NOUN	_	_	19	fixed	_	_
 21-22	del	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	19	case	_	_
-22	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+22	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	sindicato	sindicato	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	estudiantes	estudiante	NOUN	_	Number=Plur	23	nmod	_	_
@@ -40335,7 +40335,7 @@
 13	cara	cara	NOUN	_	_	16	case	_	MWE=cara_al|MWEPOS=ADP
 14-15	al	_	_	_	_	_	_	_	_
 14	a	a	ADP	_	_	13	case	_	_
-15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Mundial	Mundial	PROPN	_	_	12	nmod	_	MWE=Mundial_de_Sevilla|MWEPOS=PROPN
 17	de	de	ADP	_	_	18	case	_	_
 18	Sevilla	Sevilla	PROPN	_	_	16	flat	_	SpaceAfter=No
@@ -41135,13 +41135,13 @@
 2	cuanto	cuanto	NOUN	_	_	1	fixed	_	_
 3-4	al	_	_	_	_	_	_	_	_
 3	a	a	ADP	_	_	1	case	_	_
-4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	anuncio	anuncio	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
 6	por	por	ADP	_	_	10	case	_	MWE=por_parte_del|MWEPOS=ADP
 7	parte	parte	NOUN	_	_	6	fixed	_	_
 8-9	del	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	6	case	_	_
-9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	ayuntamiento	ayuntamiento	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 12	tras	tras	ADP	_	_	15	case	_	_
@@ -43776,7 +43776,7 @@
 32	debido	debido	ADJ	_	Gender=Masc|Number=Sing	35	case	_	MWE=debido_al|MWEPOS=ADP
 33-34	al	_	_	_	_	_	_	_	_
 33	a	a	ADP	_	_	32	case	_	_
-34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	caso	caso	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
 36	de	de	ADP	_	_	38	case	_	_
 37	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
@@ -46735,7 +46735,7 @@
 10	parte	parte	NOUN	_	_	9	fixed	_	_
 11-12	del	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	9	case	_	_
-12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	elector	elector	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
@@ -47588,7 +47588,7 @@
 14	parte	parte	NOUN	_	_	13	fixed	_	_
 15-16	del	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	13	case	_	_
-16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Gobierno	Gobierno	PROPN	_	_	11	obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
 19	nuevos	nuevo	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
@@ -49318,7 +49318,7 @@
 26	cara	cara	NOUN	_	_	25	fixed	_	_
 27-28	al	_	_	_	_	_	_	_	_
 27	a	a	ADP	_	_	25	case	_	_
-28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	2004	2004	NOUN	_	AdvType=Tim	24	obl	_	_
 30	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	concesión	concesión	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
@@ -51753,7 +51753,7 @@
 8	parte	parte	NOUN	_	_	7	fixed	_	_
 9-10	del	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	7	case	_	_
-10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Tribunal	Tribunal	PROPN	_	_	6	nmod	_	MWE=Tribunal_Constitucional|MWEPOS=PROPN
 12	Constitucional	Constitucional	PROPN	_	_	11	flat	_	SpaceAfter=No
 13	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
@@ -52320,7 +52320,7 @@
 27	pese	pese	NOUN	_	_	31	case	_	MWE=pese_al|MWEPOS=ADP
 28-29	al	_	_	_	_	_	_	_	_
 28	a	a	ADP	_	_	27	case	_	_
-29	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+29	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 30	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	31	amod	_	_
 31	comunicado	comunicado	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
 32	de	de	ADP	_	_	33	case	_	_
@@ -55010,7 +55010,7 @@
 10	junto	junto	ADJ	_	Gender=Masc|Number=Sing	13	case	_	MWE=junto_al|MWEPOS=ADP
 11-12	al	_	_	_	_	_	_	_	_
 11	a	a	ADP	_	_	10	case	_	_
-12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	cadáver	cadáver	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
@@ -56692,7 +56692,7 @@
 10	respecto	respecto	NOUN	_	_	9	fixed	_	_
 11-12	al	_	_	_	_	_	_	_	_
 11	a	a	ADP	_	_	9	case	_	_
-12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	año	año	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 14	anterior	anterior	ADJ	_	Number=Sing	13	amod	_	SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
@@ -57091,7 +57091,7 @@
 28	causa	causa	NOUN	_	_	27	fixed	_	_
 29-30	del	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	27	case	_	_
-30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 31	mal	mal	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
 32	tiempo	tiempo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
@@ -57433,7 +57433,7 @@
 10	excepción	excepción	NOUN	_	_	9	fixed	_	_
 11-12	del	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	9	case	_	_
-12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Barcelona	Barcelona	PROPN	_	_	6	nmod	_	_
 15	-	-	PUNCT	_	PunctType=Dash	14	punct	_	_
@@ -58063,7 +58063,7 @@
 30	causa	causa	NOUN	_	_	29	fixed	_	_
 31-32	del	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	29	case	_	_
-32	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+32	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	diferencial	diferencial	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 34	de	de	ADP	_	_	35	case	_	_
 35	inflación	inflación	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
@@ -59906,7 +59906,7 @@
 36	contra	contra	NOUN	_	_	35	fixed	_	_
 37-38	del	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	35	case	_	_
-38	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+38	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	sector	sector	NOUN	_	Gender=Masc|Number=Sing	34	obj	_	_
 40	y	y	CCONJ	_	_	45	cc	_	_
 41	por	por	ADP	_	_	45	mark	_	_
