@@ -13716,7 +13716,7 @@
 15	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
 16	gestión	gestión	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 17	y	y	CCONJ	_	_	28	cc	_	_
-18	tildó	tildar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	parataxis	_	_
+18	tildó	tildar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
 19	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	protestas	protesta	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
 21	de	de	ADP	_	_	23	case	_	_
@@ -13727,11 +13727,11 @@
 26	"	"	PUNCT	_	PunctType=Quot	23	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
 28-29	al	_	_	_	_	_	_	_	MWE=al_tiempo_que|MWEPOS=CCONJ
-28	a	a	ADP	_	_	7	case	_	MWE=al_tiempo_que|MWEPOS=CCONJ
-29	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+28	a	a	ADP	_	_	32	mark	_	MWE=al_tiempo_que|MWEPOS=CCONJ
+29	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	fixed	_	_
 30	tiempo	tiempo	NOUN	_	_	28	fixed	_	_
 31	que	que	SCONJ	_	_	28	fixed	_	_
-32	justificó	justificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	parataxis	_	_
+32	justificó	justificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
 33	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	situación	situación	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
 35	:	:	PUNCT	_	PunctType=Colo	37	punct	_	_
@@ -28670,10 +28670,10 @@
 16	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
 17	que	que	PRON	_	PronType=Int,Rel	18	nsubj	_	_
 18	empató	empatar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl	_	_
-19	frente	frente	NOUN	_	_	18	advmod	_	MWE=frente_al|MWEPOS=ADV
+19	frente	frente	ADV	_	_	18	advmod	_	MWE=frente_al|MWEPOS=ADV
 20-21	al	_	_	_	_	_	_	_	_
-20	a	a	ADP	_	_	19	case	_	_
-21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Atlético	Atlético	PROPN	_	_	19	obl	_	MWE=Atlético_de_Madrid|MWEPOS=PROPN
 23	de	de	ADP	_	_	24	case	_	_
 24	Madrid	Madrid	PROPN	_	_	22	flat	_	_
@@ -36020,7 +36020,7 @@
 # orig_file_sentence 009#83
 1-2	Al	_	_	_	_	_	_	_	MWE=Al_inicio|MWEPOS=ADV
 1	A	a	ADP	_	_	27	case	_	MWE=Al_inicio|MWEPOS=ADV
-2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	inicio	inicio	NOUN	_	_	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 5	cuando	cuando	SCONJ	_	_	11	mark	_	_
@@ -40770,7 +40770,7 @@
 # orig_file_sentence 011#48
 1-2	Al	_	_	_	_	_	_	_	MWE=Al_final|MWEPOS=ADV
 1	A	a	ADP	_	_	8	case	_	MWE=Al_final|MWEPOS=ADV
-2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	final	final	NOUN	_	_	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 5	en	en	ADP	_	_	7	case	_	_
@@ -40782,7 +40782,7 @@
 11	lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	8	det	_	_
 12	que	que	PRON	_	PronType=Int,Rel	14	nsubj	_	_
 13	me	yo	PRON	_	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	14	iobj	_	_
-14-15	da	_	_	_	_	_	_	_	MWE=da_la_gana|MWEPOS=VERB
+14-15	da	_	_	_	_	_	_	_	MWE=da_la_gana|MWEPOS=VERB|Bug=this_should_be_the_verb_dar
 14	de	de	ADP	_	_	8	case	_	Lang=pt|MWE=da_la_gana|MWEPOS=VERB
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Lang=pt
 16	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -41544,10 +41544,10 @@
 23	ejercicio	ejercicio	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
 24	precedente	precedente	ADJ	_	Number=Sing	23	amod	_	SpaceAfter=No
 25	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
-26	frente	frente	NOUN	_	_	29	cc	_	MWE=frente_al|MWEPOS=CCONJ
+26	frente	frente	ADV	_	_	29	case	_	MWE=frente_al|MWEPOS=CCONJ
 27-28	al	_	_	_	_	_	_	_	_
-27	a	a	ADP	_	_	26	case	_	_
-28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+27	a	a	ADP	_	_	26	fixed	_	_
+28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	fixed	_	_
 29	crecimiento	crecimiento	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 30-31	del	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
@@ -41763,10 +41763,10 @@
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	total	total	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
 23	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
-24	frente	frente	NOUN	_	_	27	cc	_	MWE=frente_al|MWEPOS=CCONJ
+24	frente	frente	ADV	_	_	27	case	_	MWE=frente_al|MWEPOS=CCONJ
 25-26	al	_	_	_	_	_	_	_	_
-25	a	a	ADP	_	_	24	case	_	_
-26	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+25	a	a	ADP	_	_	24	fixed	_	_
+26	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	fixed	_	_
 27	24,5%	24.5/100	SYM	_	NumForm=Digit|NumType=Frac	19	conj	_	_
 28	de	de	ADP	_	_	29	case	_	_
 29	1997	1997	NOUN	_	AdvType=Tim	27	nmod	_	SpaceAfter=No
@@ -47350,15 +47350,15 @@
 5	contra	contra	ADP	_	_	7	case	_	_
 6	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	espectáculo	espectáculo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
-8	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+8	,	,	PUNCT	_	PunctType=Comm	13	punct	_	_
 9-10	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-9	a	a	ADP	_	_	1	case	_	MWE=al_parecer|MWEPOS=ADV
-10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+9	a	a	ADP	_	_	13	case	_	MWE=al_parecer|MWEPOS=ADV
+10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	_	_
 11	parecer	parecer	NOUN	_	_	9	fixed	_	_
-12	de	de	ADP	_	_	13	case	_	_
-13	muchas	mucho	PRON	_	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	9	obl	_	SpaceAfter=No
-14	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
-15	vulgar	vulgar	ADJ	_	Number=Sing	1	amod	_	_
+12	de	de	ADP	_	_	9	fixed	_	_
+13	muchas	mucho	PRON	_	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	2	det	_	SpaceAfter=No
+14	,	,	PUNCT	_	PunctType=Comm	13	punct	_	_
+15	vulgar	vulgar	ADJ	_	Number=Sing	2	amod	_	_
 16	y	y	CCONJ	_	_	17	cc	_	_
 17	degradante	degradante	ADJ	_	Number=Sing	15	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
@@ -48315,7 +48315,7 @@
 # orig_file_sentence 013#74
 1-2	Al	_	_	_	_	_	_	_	MWE=Al_menos|MWEPOS=ADV
 1	A	a	ADP	_	_	5	case	_	MWE=Al_menos|MWEPOS=ADV
-2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	menos	menos	ADV	_	Degree=Cmp	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 5	parte	parte	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -53886,7 +53886,7 @@
 # orig_file_sentence 015#32
 1-2	Al	_	_	_	_	_	_	_	MWE=Al_menos|MWEPOS=ADV
 1	A	a	ADP	_	_	8	case	_	MWE=Al_menos|MWEPOS=ADV
-2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	menos	menos	ADV	_	Degree=Cmp	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 5	ésa	ese	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	8	nsubj	_	_
