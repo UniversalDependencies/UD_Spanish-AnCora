@@ -1168,7 +1168,7 @@
 # orig_file_sentence 001#30
 1-2	Al	_	_	_	_	_	_	_	MWE=Al_final|MWEPOS=ADV
 1	A	a	ADP	_	_	6	case	_	MWE=Al_final|MWEPOS=ADV
-2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	final	final	NOUN	_	_	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 5	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -2397,7 +2397,7 @@
 36	:	:	PUNCT	_	PunctType=Colo	42	punct	_	_
 37-38	al	_	_	_	_	_	_	_	MWE=al_menos|MWEPOS=ADV
 37	a	a	ADP	_	_	42	case	_	MWE=al_menos|MWEPOS=ADV
-38	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+38	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	fixed	_	_
 39	menos	menos	ADV	_	Degree=Cmp	37	fixed	_	SpaceAfter=No
 40	,	,	PUNCT	_	PunctType=Comm	37	punct	_	_
 41	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
@@ -17897,13 +17897,13 @@
 33	y	y	CCONJ	_	_	35	cc	_	SpaceAfter=No
 34	,	,	PUNCT	_	PunctType=Comm	35	punct	_	_
 35-36	al	_	_	_	_	_	_	_	MWE=al_mismo_tiempo|MWEPOS=ADV
-35	a	a	ADP	_	_	41	case	_	MWE=al_mismo_tiempo|MWEPOS=ADV
-36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+35	a	a	ADP	_	_	41	advmod	_	MWE=al_mismo_tiempo|MWEPOS=ADV
+36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	fixed	_	_
 37	mismo	mismo	ADJ	_	_	35	fixed	_	_
 38	tiempo	tiempo	NOUN	_	_	35	fixed	_	SpaceAfter=No
 39	,	,	PUNCT	_	PunctType=Comm	35	punct	_	_
-40	como	como	SCONJ	_	_	35	mark	_	_
-41	garantía	garantía	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+40	como	como	SCONJ	_	_	41	mark	_	_
+41	garantía	garantía	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	_
 42	de	de	ADP	_	_	44	case	_	_
 43	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
 44	estabilidad	estabilidad	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
@@ -20990,8 +20990,8 @@
 9	aseguró	asegurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 11-12	al	_	_	_	_	_	_	_	MWE=al_menos|MWEPOS=ADV
-11	a	a	ADP	_	_	16	case	_	MWE=al_menos|MWEPOS=ADV
-12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+11	a	a	ADP	_	_	16	advmod	_	MWE=al_menos|MWEPOS=ADV
+12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
 13	menos	menos	ADV	_	Degree=Cmp	11	fixed	_	SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 15	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -26985,8 +26985,8 @@
 27	y	y	CCONJ	_	_	34	cc	_	SpaceAfter=No
 28	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
 29-30	al	_	_	_	_	_	_	_	MWE=al_mismo_tiempo|MWEPOS=ADV
-29	a	a	ADP	_	_	34	case	_	MWE=al_mismo_tiempo|MWEPOS=ADV
-30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+29	a	a	ADP	_	_	34	advmod	_	MWE=al_mismo_tiempo|MWEPOS=ADV
+30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	fixed	_	_
 31	mismo	mismo	ADJ	_	_	29	fixed	_	_
 32	tiempo	tiempo	NOUN	_	_	29	fixed	_	SpaceAfter=No
 33	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
@@ -33474,7 +33474,7 @@
 # orig_file_sentence 009#14
 1-2	Al	_	_	_	_	_	_	_	MWE=Al_final|MWEPOS=ADV
 1	A	a	ADP	_	_	8	case	_	MWE=Al_final|MWEPOS=ADV
-2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	final	final	NOUN	_	_	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
