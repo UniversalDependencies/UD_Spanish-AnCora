@@ -40777,23 +40777,21 @@
 6	mi	mi	DET	_	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
 7	trabajo	trabajo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 8	hago	hacer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	sobre	sobre	ADP	_	_	14	advmod	_	MWE=sobre_todo|MWEPOS=ADV
+9	sobre	sobre	ADP	_	_	8	advmod	_	MWE=sobre_todo|MWEPOS=ADV
 10	todo	todo	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	9	fixed	_	_
-11	lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	8	det	_	_
+11	lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	8	obj	_	_
 12	que	que	PRON	_	PronType=Int,Rel	14	nsubj	_	_
 13	me	yo	PRON	_	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	14	iobj	_	_
-14-15	da	_	_	_	_	_	_	_	MWE=da_la_gana|MWEPOS=VERB|Bug=this_should_be_the_verb_dar
-14	de	de	ADP	_	_	8	case	_	Lang=pt|MWE=da_la_gana|MWEPOS=VERB
-15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Lang=pt
-16	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	gana	gana	NOUN	_	Gender=Fem|Number=Sing	14	compound	_	SpaceAfter=No
-18	;	;	PUNCT	_	PunctType=Semi	8	punct	_	_
-19	no	no	ADV	_	Polarity=Neg	20	advmod	_	_
-20	atiendo	atender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
-21	a	a	ADP	_	_	22	case	_	_
-22	nada	nada	PRON	_	Number=Sing|PronType=Neg	20	obj	_	_
-23	más	más	ADV	_	Degree=Cmp	22	advmod	_	SpaceAfter=No
-24	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
+14	da	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	MWE=da_la_gana|MWEPOS=VERB
+15	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	gana	gana	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	;	;	PUNCT	_	PunctType=Semi	8	punct	_	_
+18	no	no	ADV	_	Polarity=Neg	19	advmod	_	_
+19	atiendo	atender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+20	a	a	ADP	_	_	21	case	_	_
+21	nada	nada	PRON	_	Number=Sing|PronType=Neg	19	obj	_	_
+22	más	más	ADV	_	Degree=Cmp	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s1049
 # text = - - ¿Se siente responsable de la actualización del bolero a raíz del éxito de Piensa en mí? - -.
