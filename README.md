@@ -43,6 +43,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
 * 2021-11-15 v2.9
   * Changed sentence ids to reflect the original AnCora documents.
   * Reordered sentences by sentence ids.
+  * Added document boundaries.
 * 2021-05-15 v2.8
   * Fixed: AdpType=Preppron wrongly appeared at the first word of multi-word
     prepositions such as "delante del".

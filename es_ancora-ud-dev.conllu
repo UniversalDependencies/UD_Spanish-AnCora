@@ -1,3 +1,4 @@
+# newdoc id = 3LB-CAST-111_C-2
 # sent_id = 3LB-CAST-111_C-2-s1
 # text = El gobernante, con ganada fama desde que llegó hace 16 meses al poder de explotar al máximo su oratoria y acusado por sus detractores de incontinencia verbal, enmudeció desde el momento en el que el Tribunal Supremo de Justicia (TSJ) decidió suspender temporalmente los comicios múltiples ante la imposibilidad "técnica" de celebrarlos el 28 de mayo.
 # orig_file_sentence 001#1
@@ -814,6 +815,7 @@
 58	aplazamiento	aplazamiento	NOUN	_	Gender=Masc|Number=Sing	54	nmod	_	_
 59	electoral	electoral	ADJ	_	Number=Sing	58	amod	_	_
 
+# newdoc id = 3LB-CAST-2000060111_5-2
 # sent_id = 3LB-CAST-2000060111_5-2-s1
 # text = La amnistía favorece a los catorce coroneles detenidos y al más de un centenar de oficiales de menor rango procesados por participar en la asonada golpista contra Mahuad que facilitó la sucesión en la presidencia de Gustavo Noboa.
 # orig_file_sentence 001#16
@@ -1429,6 +1431,7 @@
 36	afirmó	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 37	Pons	Pons	PROPN	_	_	36	nsubj	_	_
 
+# newdoc id = 3LB-CAST-a15-8
 # sent_id = 3LB-CAST-a15-8-s1
 # text = Hace un par de días, en una nica acera vi cinco contenedores juntos: un contenedor metálico verde (para reciclar vidrio); un contenedor metálico amarillo (para reciclar papeles: ¡pero no cartones!, aclaraba); otro contenedor verde (pero de plástico: para la basura normal); otro contenedor amarillo (más pequeño, acoplado al del papel, para reciclar pilas normales); y otro más pequeño aún (colocado sobre el anterior para las pilas botón).
 # orig_file_sentence 001#29
@@ -1802,6 +1805,7 @@
 47	asistenta	asistenta	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	_	PunctType=Peri	35	punct	_	_
 
+# newdoc id = 3LB-CAST-a22-0
 # sent_id = 3LB-CAST-a22-0-s1
 # text = El error fue haberlo comprado en rebajas.
 # orig_file_sentence 001#39
@@ -2012,6 +2016,7 @@
 12	-	-	PUNCT	_	PunctType=Dash	7	punct	_	SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = 3LB-CAST-c1-2
 # sent_id = 3LB-CAST-c1-2-s1
 # text = El partido tumultuoso y enrabietado, bastante cochambrosete, que hizo anoche el Madrid me recordó con frecuencia los arrebatos cinematográficos del Ejército de Pancho Villa, esa ética populachera y emocionante de todas las revoluciones nobles y desarrapadas.
 # orig_file_sentence 001#51
@@ -2506,6 +2511,7 @@
 18	desgraciada	desgraciada	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	_	PunctType=Peri	18	punct	_	_
 
+# newdoc id = 3LB-CAST-c2-6
 # sent_id = 3LB-CAST-c2-6-s1
 # text = Claro que cuando Felipe González (que a lo que parece no ha perdido del todo el carisma aquel que tuvo) lanza piropos a Aznar, y le seduce con cenas y discursos y lo califica de clara alternativa (acaso también en el clásico sentido de claro / ilustre) está ocurriendo algo desolador y terrible, igual que si, llegado al Gobierno, José María Aznar se volcase en mieles dialécticas con González.
 # orig_file_sentence 001#62
@@ -2592,6 +2598,7 @@
 79	González	González	PROPN	_	_	74	obl	_	SpaceAfter=No
 80	.	.	PUNCT	_	PunctType=Peri	55	punct	_	_
 
+# newdoc id = 3LB-CAST-d1-14
 # sent_id = 3LB-CAST-d1-14-s1
 # text = Pero en el Madrid ya sucedió la temporada pasada no le conceden demasiada importancia a esos detalles: quien va primero en solitario no necesita - basket average -, piensan.
 # orig_file_sentence 001#63
@@ -3163,6 +3170,7 @@
 31	estragos	estrago	NOUN	_	Gender=Masc|Number=Plur	30	obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = 3LB-CAST-d1-4
 # sent_id = 3LB-CAST-d1-4-s1
 # text = Alguien te nutrió mejor, otros te pulieron y los demás hurgaron en ti y en tu tierra.
 # orig_file_sentence 001#79
@@ -3376,6 +3384,7 @@
 9	famoso	famoso	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
 10	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = 3LB-CAST-d1-7
 # sent_id = 3LB-CAST-d1-7-s1
 # text = Para abreviar, el Real marcó - de churro - y de penalti.
 # orig_file_sentence 001#91
@@ -3675,6 +3684,7 @@
 5	testigo	testigo	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
 6	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = 3LB-CAST-d2-12
 # sent_id = 3LB-CAST-d2-12-s1
 # text = Es decir, que Mariano puede, felizmente, tener aún la oportunidad de seguir adelante con su pasión, aprovechando ese caudal de experiencia enormemente enriquecido por esta dura temporada.
 # orig_file_sentence 002#4
@@ -3947,6 +3957,7 @@
 21	española	español	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = 3LB-CAST-d2-6
 # sent_id = 3LB-CAST-d2-6-s1
 # text = Rominger se llevó la etapa más bonita de lo que llevamos de carrera.
 # orig_file_sentence 002#15
@@ -4260,6 +4271,7 @@
 9	declive	declive	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = 3LB-CAST-dc1-15
 # sent_id = 3LB-CAST-dc1-15-s1
 # text = De hecho, se han lanzado numerosas conjeturas sin demostración científica alguna, ya que la falta de recubrimiento en los anfibios (lo cual, por otra parte, les hace muy resbaladizos para sus depredadores, faceta de gran utilidad para su supervivencia), y las pieles cubiertas de pelo, lana o cerdas de los mamíferos, muy especializadas y perfeccionadas y sin claros precursores en la carrera evolutiva, hacen la comparación más problemática.
 # orig_file_sentence 002#28
@@ -4689,6 +4701,7 @@
 52	invierno	invierno	NOUN	_	Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
 53	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = 3LB-CAST-dc1-3
 # sent_id = 3LB-CAST-dc1-3-s1
 # text = Ante estas dificultades, las aves costeras han llegado a un acuerdo.
 # orig_file_sentence 002#38
@@ -5015,6 +5028,7 @@
 18	agotamiento	agotamiento	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = 3LB-CAST-dc10-5
 # sent_id = 3LB-CAST-dc10-5-s1
 # text = Se dice que un problema de celos provocados por la actitud excesivamente galante hacia su mujer del barón Georges d'Anthes, un realista francés asiduo de los salones de sociedad.
 # orig_file_sentence 002#49
@@ -5434,6 +5448,7 @@
 15	antiguo	antiguo	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
+# newdoc id = 3LB-CAST-dc2-13
 # sent_id = 3LB-CAST-dc2-13-s1
 # text = Pero el test más preciso realizado hasta la fecha para verificar el corrimiento gravitacional al rojo tuvo lugar en 1976.
 # orig_file_sentence 002#59
@@ -5752,6 +5767,7 @@
 32	millones	millón	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = 3LB-CAST-n1-1
 # sent_id = 3LB-CAST-n1-1-s1
 # text = Es una tragedia.
 # orig_file_sentence 002#67
@@ -6087,6 +6103,7 @@
 20	tengo	tener	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
 21	!	!	PUNCT	_	PunctSide=Fin|PunctType=Excl	16	punct	_	_
 
+# newdoc id = 3LB-CAST-n1-2
 # sent_id = 3LB-CAST-n1-2-s1
 # text = Esos ladrones se llevaron nuestras vacas y ovejas.
 # orig_file_sentence 002#87
@@ -6516,6 +6533,7 @@
 26	residencial	residencial	ADJ	_	Number=Sing	25	amod	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
+# newdoc id = 3LB-CAST-n1-6
 # sent_id = 3LB-CAST-n1-6-s1
 # text = Se trata ahora de luchar contra el recorte del dinero del PER y la reducción del salario de los trabajadores contratados.
 # orig_file_sentence 003#3
@@ -6889,6 +6907,7 @@
 45	pueblo	pueblo	NOUN	_	Gender=Masc|Number=Sing	42	obj	_	SpaceAfter=No
 46	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
+# newdoc id = 3LB-CAST-r2-7
 # sent_id = 3LB-CAST-r2-7-s1
 # text = Otros amigos del entorno del ex ministro reconocen que en su vuelta a la siderurgia ha influido un cierto desencanto con el final que ha tenido su carrera política, aunque él afirma que - el retiro de la política lo llevo bien -.
 # orig_file_sentence 003#20
@@ -7395,6 +7414,7 @@
 8	todo	todo	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	7	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = 3LB-CAST-t4-7
 # sent_id = 3LB-CAST-t4-7-s1
 # text = En mi caso Jorge Manrique se equivoca.
 # orig_file_sentence 003#36
@@ -7604,6 +7624,7 @@
 9	nos	yo	PRON	_	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	8	obj	_	_
 10	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = 3LB-CAST-t5-0
 # sent_id = 3LB-CAST-t5-0-s1
 # text = Los vecinos de la popular calle de La Reina de esta capital continúan conmocionados por el extraño y salvaje suceso ocurrido el pasado viernes día 16 en la finca sita en el número 17 de la citada calle.
 # orig_file_sentence 003#46
@@ -7957,6 +7978,7 @@
 13	puerta	puerta	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = 3LB-CAST-t5-3
 # sent_id = 3LB-CAST-t5-3-s1
 # text = Permanecía de pie en mitad de la cocina, como una pasmada, sin resuello.
 # orig_file_sentence 003#57
@@ -8219,6 +8241,7 @@
 2	ahora	ahora	ADV	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = 3LB-CAST-t6-2
 # sent_id = 3LB-CAST-t6-2-s1
 # text = Los apartó bruscamente del mueble y los extendió ante sí, concentrando todas sus fuerzas en la absurda tarea de estirar su brazo izquierdo, hasta que sus músculos comenzaron a temblar sin haber llegado a rectificar en nada el incomprensible vicio que cunaba el codo hacia dentro.
 # orig_file_sentence 003#70
@@ -8582,6 +8605,7 @@
 21	natural	natural	ADJ	_	Number=Sing	4	advcl	_	SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = 3LB-CAST-t6-5
 # sent_id = 3LB-CAST-t6-5-s1
 # text = En el cuarto de estar, una grácil patinadora rubia anunciaba una marca de chocolates de Valladolid desde una vieja chapa publicitaria de hojalata, sus esquinas de color cobre ya oxidadas, las letras de la zona inferior rotas y arañadas, ilegibles.
 # orig_file_sentence 003#82
@@ -8855,6 +8879,7 @@
 69	acontecimientos	acontecimiento	NOUN	_	Gender=Masc|Number=Plur	65	nmod	_	SpaceAfter=No
 70	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000217-13959
 # sent_id = CESS-CAST-A-20000217-13959-s1
 # text = Los jugadores del Espanyol aseguraron hoy que prefieren enfrentarse al Barcelona en la final de la Copa del Rey en lugar de en las semifinales, tras clasificarse ayer ambos equipos catalanes para esta ronda.
 # orig_file_sentence 004#61
@@ -9549,6 +9574,7 @@
 24	aseguró	asegurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	24	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000220-16182
 # sent_id = CESS-CAST-A-20000220-16182-s1
 # text = Partido de cuartos de final de la Copa de Oro de fútbol disputado en el Orange Bowl de Miami ante 32.972 personas, noche agradable.
 # orig_file_sentence 005#56
@@ -10250,6 +10276,7 @@
 33	imposible	imposible	ADJ	_	Number=Sing	31	obj	_	SpaceAfter=No
 34	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000315-12633
 # sent_id = CESS-CAST-A-20000315-12633-s1
 # text = Latinoamérica concluyó hoy, miércoles, su participación en la "Bolsa de Turismo" de Berlín, la más importante del mundo, con un balance preliminar un tanto pesimista porque no tuvo la cantidad de visitantes esperada.
 # orig_file_sentence 004#37
@@ -11007,6 +11034,7 @@
 52	milenarias	milenario	ADJ	_	Gender=Fem|Number=Plur	51	amod	_	SpaceAfter=No
 53	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000317-13968
 # sent_id = CESS-CAST-A-20000317-13968-s1
 # text = El primer ministro francés, el socialista Lionel Jospin, intenta recuperar la iniciativa política y el apoyo del electorado tradicional de izquierdas destinando los frutos de la bonanza económica a gastos públicos y recortes de impuestos.
 # orig_file_sentence 004#77
@@ -12002,6 +12030,7 @@
 43	"	"	PUNCT	_	PunctType=Quot	42	punct	_	SpaceAfter=No
 44	.	.	PUNCT	_	PunctType=Peri	37	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000317-14423
 # sent_id = CESS-CAST-A-20000317-14423-s1
 # text = España triplica en empleo autónomo femenino a la Unión Europea con el 27,9 por ciento de su población activa femenina, frente al 8,7 por ciento de la UE, según indicó hoy a EFE la presidenta nacional de la Asociación de Familias y Mujeres del Medio Rural (AFAMMER), Carmen Quintanilla.
 # orig_file_sentence 004#96
@@ -12313,6 +12342,7 @@
 34	mujeres	mujer	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000322-17638
 # sent_id = CESS-CAST-A-20000322-17638-s1
 # text = Los ciclistas guipuzcoanos Aitor y Unai Osa, del Banesto, subirán el próximo viernes al Alto de Gourette, en el Pirineo francés, para tomar contacto con el tramo más complicado del Criterium Internacional, que se disputa este próximo fin de semana.
 # orig_file_sentence 006#2
@@ -12669,6 +12699,7 @@
 25	Osa	Osa	PROPN	_	_	21	obj	_	SpaceAfter=No
 26	.	.	PUNCT	_	PunctType=Peri	19	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000323-18886
 # sent_id = CESS-CAST-A-20000323-18886-s1
 # text = El delantero portugués del Deportivo Pauleta aseguró hoy que su equipo quiere el título de Liga y que para conseguirlo lucharán "contra todo y contra todos los que se nos pongan delante, contra otros equipos y contra los árbitros".
 # orig_file_sentence 006#22
@@ -13015,6 +13046,7 @@
 36	lesión	lesión	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	_	PunctType=Peri	22	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000416-12432
 # sent_id = CESS-CAST-A-20000416-12432-s1
 # text = La empresa Iber-X, que ha implantado en España una "bolsa" de telecomunicaciones a través de Internet, ha logrado tras cinco meses de funcionamiento un volumen de contratación mensual en torno a 78 millones de pesetas, informó hoy a Efe el promotor de este mercado, Jenaro García.
 # orig_file_sentence 004#26
@@ -13589,6 +13621,7 @@
 40	mayo	mayo	NOUN	_	AdvType=Tim	38	obl	_	SpaceAfter=No
 41	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000423-17037
 # sent_id = CESS-CAST-A-20000423-17037-s1
 # text = El presidente del PNV, Xabier Arzalluz, afirmó hoy que ETA "sabe muy bien que nunca ganará la guerra" y que no entiende que "cuanto más use las armas, más obstaculizará la política nacionalista unida y retrasará la fecha de nuestra independencia".
 # orig_file_sentence 005#82
@@ -14669,6 +14702,7 @@
 67	"	"	PUNCT	_	PunctType=Quot	55	punct	_	SpaceAfter=No
 68	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000503-1687
 # sent_id = CESS-CAST-A-20000503-1687-s1
 # text = El fabricante de refrescos Coca-Cola y la empresa de internet American Online han acordado una alianza para el desarrollo de programas de comercialización de sus productos y marcas durante varios años.
 # orig_file_sentence 005#76
@@ -14877,6 +14911,7 @@
 39	Motors	Motors	PROPN	_	_	38	flat	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	20	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000515-11470
 # sent_id = CESS-CAST-A-20000515-11470-s1
 # text = Las denuncias de detención de decenas de ciudadanos de tez negra para despojarles de su cédula electoral han puesto la nota inquietante a la jornada de reflexión que vive hoy la República Dominicana con vistas a las elecciones presidenciales de mañana, martes.
 # orig_file_sentence 003#88
@@ -15783,6 +15818,7 @@
 53	ronda	ronda	NOUN	_	Gender=Fem|Number=Sing	46	obl	_	SpaceAfter=No
 54	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000516-11811
 # sent_id = CESS-CAST-A-20000516-11811-s1
 # text = Unos 4,2 millones de dominicanos están convocados hoy martes a las elecciones presidenciales en el país, en las que compiten tres candidatos principales: un veterano caudillo reformista ciego y dos jóvenes líderes liberales.
 # orig_file_sentence 004#7
@@ -16733,6 +16769,7 @@
 36	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	35	punct	_	SpaceAfter=No
 37	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000618-14736
 # sent_id = CESS-CAST-A-20000618-14736-s1
 # text = El piloto español Oriol Serviá (Reynard Honda) ha subido por primera vez a un podio en el campeonato estadounidense de automovilismo CART al acabar tercero en la séptima prueba puntuable, disputada hoy, domingo, en el circuito urbano de Detroit.
 # orig_file_sentence 005#2
@@ -17298,6 +17335,7 @@
 3	26	26	NUM	_	NumForm=Digit|NumType=Card	1	appos	_	SpaceAfter=No
 4	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000620-15780
 # sent_id = CESS-CAST-A-20000620-15780-s1
 # text = La Unión Europea (UE) está dispuesta a reconsiderar la aplicación de las sanciones económicas decididas contra Rusia por la guerra en Chechenia, aunque insiste en que Moscú debe encontrar una solución política al conflicto.
 # orig_file_sentence 005#24
@@ -17989,6 +18027,7 @@
 42	en	en	ADP	_	_	43	case	_	_
 43	Chechenia	Chechenia	PROPN	_	_	30	obl	_	_
 
+# newdoc id = CESS-CAST-A-20000622-17928
 # sent_id = CESS-CAST-A-20000622-17928-s1
 # text = El portavoz del PSOE en la Comisión de Interior del Congreso, Ramón Jáuregui, aseguró que aunque su partido desea que de la cita entre el presidente del Gobierno, José María Aznar, y el lehendakari, Juan José Ibarretxe, salgan "avances", su impresión es que se producirá un "desencuentro profundo".
 # orig_file_sentence 006#10
@@ -18310,6 +18349,7 @@
 43	Euskadi	Euskadi	PROPN	_	_	33	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000724-18485
 # sent_id = CESS-CAST-A-20000724-18485-s1
 # text = El ministro de Fomento, Francisco Alvarez Cascos, y la consejera andaluza de Obras Públicas y Transportes, Concepción Gutiérrez del Castillo, coincidieron hoy en la necesidad de que Medio Ambiente acepte el informe de impacto ambiental de la Junta para acelerar el proyecto del AVE Córdoba-Málaga.
 # orig_file_sentence 006#15
@@ -18713,6 +18753,7 @@
 64	Algeciras	Algeciras	PROPN	_	_	60	flat	_	SpaceAfter=No
 65	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
+# newdoc id = CESS-CAST-A-20000725-19004
 # sent_id = CESS-CAST-A-20000725-19004-s1
 # text = Resultados y estadísticas de la Liga Americana de Béisbol profesional de las Grandes Ligas.
 # orig_file_sentence 006#29
@@ -18754,6 +18795,7 @@
 16	Este	Este	PROPN	_	_	7	conj	_	SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAST-A-20001117-13026
 # sent_id = CESS-CAST-A-20001117-13026-s1
 # text = Austria ha comunicado que su país no podrá anunciar el próximo lunes su aportación a la Fuerza de Reacción Rápida europea debido a problemas internos.
 # orig_file_sentence 004#51
@@ -19220,6 +19262,7 @@
 56	espionaje	espionaje	NOUN	_	Gender=Masc|Number=Sing	54	nmod	_	SpaceAfter=No
 57	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-A-20001203-1592
 # sent_id = CESS-CAST-A-20001203-1592-s1
 # text = El presidente de Spanair, Gonzalo Pascual, dijo a EFE que no contemplan la posibilidad de vender la compañía aérea, o de llevar a cabo alguna fusión, pese a las coyunturas de compras y ventas en el sector.
 # orig_file_sentence 005#39
@@ -20189,6 +20232,7 @@
 27	Chillida	Chillida	PROPN	_	_	26	flat	_	SpaceAfter=No
 28	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000106-3047
 # sent_id = CESS-CAST-AA-20000106-3047-s1
 # text = El equipo surafricano, formado por Amanda Coetzer y Wayne Ferreira, se clasificó para disputar la final de la Copa Hopman de tenis pese a perder hoy ante el de Estados Unidos por 2-1.
 # orig_file_sentence 007#78
@@ -20272,6 +20316,7 @@
 38	3-0	3-0	NUM	_	NumForm=Digit|NumType=Card	33	obl	_	SpaceAfter=No
 39	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000206-5003
 # sent_id = CESS-CAST-AA-20000206-5003-s1
 # text = El Deportivo, del que muchos dudaban que pudiera ganar la Liga tras su mal comienzo de año, demostró que sigue siendo un firme aspirante al título con una goleada sobre el Real Madrid (5-2) que le sirve para aumentar su ventaja al frente de la tabla.
 # orig_file_sentence 008#6
@@ -21560,6 +21605,7 @@
 23	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	16	punct	_	SpaceAfter=No
 24	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000303-2162
 # sent_id = CESS-CAST-AA-20000303-2162-s1
 # text = El ministro egipcio del Interior, general Habib Al Adli, justificó la ampliación por otros tres años del estado de emergencia, vigente en el país desde 1981, al considerar que es necesario para luchar contra el terrorismo.
 # orig_file_sentence 006#60
@@ -22005,6 +22051,7 @@
 48	legislación	legislación	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
 49	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000303-2531
 # sent_id = CESS-CAST-AA-20000303-2531-s1
 # text = El ministerio para la Igualdad de Oportunidades va a llevar a cabo una campaña para facilitar que las prostitutas dejen esa actividad, se anunció hoy, viernes.
 # orig_file_sentence 007#38
@@ -22404,6 +22451,7 @@
 41	residencia	residencia	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000312-9698
 # sent_id = CESS-CAST-AA-20000312-9698-s1
 # text = El técnico del RCD Espanyol, Paco Flores, destacó el "magnífico encuentro" de su equipo, el "excelente" trabajo de Raúl Tamudo y los buenos resultados de terceros equipos que se ha combinado con la victoria españolista para alejarse de los puestos de descenso.
 # orig_file_sentence 009#48
@@ -22684,6 +22732,7 @@
 69	Celta	Celta	PROPN	_	_	66	nmod	_	SpaceAfter=No
 70	.	.	PUNCT	_	PunctType=Peri	18	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000330-24478
 # sent_id = CESS-CAST-AA-20000330-24478-s1
 # text = Irán acusó hoy, Jueves, a Estados Unidos de violar las normas del comercio internacional con sus "presiones y amenazas" a los países productores de petróleo para que aumentaran sus exportaciones y bajar así los precios del crudo.
 # orig_file_sentence 007#10
@@ -22997,6 +23046,7 @@
 20	cuantía	cuantía	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000331-25330
 # sent_id = CESS-CAST-AA-20000331-25330-s1
 # text = El senador socialista Bertrand Delanoe anunció su intención de aunar desde hoy a toda la izquierda en torno a su candidatura a la Alcaldía de París, tras ser respaldado anoche por los militantes de su partido.
 # orig_file_sentence 007#46
@@ -23597,6 +23647,7 @@
 21	sentenció	sentenciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	21	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000406-4800
 # sent_id = CESS-CAST-AA-20000406-4800-s1
 # text = La Bolsa más grande del mundo, el New York Stock Exchange (NYSE), anunció hoy que aprobó un plan para eliminar y reemplazar su actual sistema de transacciones entre mercados, conocida en inglés por las siglas ITS.
 # orig_file_sentence 007#95
@@ -24139,6 +24190,7 @@
 54	"	"	PUNCT	_	PunctType=Quot	25	punct	_	SpaceAfter=No
 55	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000409-6498
 # sent_id = CESS-CAST-AA-20000409-6498-s1
 # text = El mercado español para empresas tecnológicas, denominado Nuevo Mercado, se estrenará mañana Lunes con la cotización de diez compañías, que suman una capitalización de 6,8 billones de pesetas, unos 40.000 millones de dólares.
 # orig_file_sentence 008#44
@@ -24581,6 +24633,7 @@
 47	Francia	Francia	PROPN	_	_	44	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000412-8873
 # sent_id = CESS-CAST-AA-20000412-8873-s1
 # text = El BOE publica hoy el Real Decreto por el que se prohíbe comercializar gasolinas con plomo a partir del uno de enero de 2002, aunque permitirá la distribución de este carburante, hasta un máximo del 0,5 por ciento de las ventas totales, para vehículos antiguos de uso especial.
 # orig_file_sentence 009#24
@@ -25097,6 +25150,7 @@
 30	nacional	nacional	ADJ	_	Number=Sing	29	amod	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000504-2181
 # sent_id = CESS-CAST-AA-20000504-2181-s1
 # text = El campeón Blooming, de Santa Cruz, logró mantenerse hoy en la punta de la tabla de posiciones del torneo boliviano de fútbol al conseguir un empate 2-2 en su visita al Atlético Pompeya, en la ciudad amazónica de Trinidad, al noreste de Bolivia.
 # orig_file_sentence 006#68
@@ -25435,6 +25489,7 @@
 42	encuentro	encuentro	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000511-8193
 # sent_id = CESS-CAST-AA-20000511-8193-s1
 # text = El diputado socialista Txiqui Benegas confirmó hoy que las noticias respecto a que sufrió un intento de atentado por parte de ETA el pasado Lunes son ciertas, pero consideró una imprudencia su difusión.
 # orig_file_sentence 008#89
@@ -26243,6 +26298,7 @@
 76	oportunas	oportuno	ADJ	_	Gender=Fem|Number=Plur	75	obj	_	SpaceAfter=No
 77	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000512-9580
 # sent_id = CESS-CAST-AA-20000512-9580-s1
 # text = El candidato a la presidencia por el Partido Reformista Social Cristiano (PRSC), Joaquín Balaguer, de 93 años y ciego, encabezará hoy, su mitin de cierre de campaña a cinco días de las elecciones mientras se afianza en el segundo lugar de preferencias de los votantes en la mayoría de las encuestas.
 # orig_file_sentence 009#35
@@ -27007,6 +27063,7 @@
 40	informador	informador	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
 41	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000531-25451
 # sent_id = CESS-CAST-AA-20000531-25451-s1
 # text = Uno de los miembros del Comité de Política Monetaria del Banco de Inglaterra, encargado de decidir sobre los tipos de interés, advirtió hoy, miércoles, que el alto valor de la libra terminará afectando a largo plazo a la inflación.
 # orig_file_sentence 007#60
@@ -27302,6 +27359,7 @@
 24	interés	interés	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000629-23978
 # sent_id = CESS-CAST-AA-20000629-23978-s1
 # text = El alemán Michael Schumacher se encuentra cada vez más cerca de conseguir su tercer título de campeón del mundo de Fórmula Uno, sobre todo se impone este fin de semana en el Gran Premio de Francia, en el que ya ha ganado en cuatro ocasiones.
 # orig_file_sentence 006#80
@@ -28090,6 +28148,7 @@
 39	domingo	domingo	NOUN	_	AdvType=Tim	36	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000704-2484
 # sent_id = CESS-CAST-AA-20000704-2484-s1
 # text = Al menos 23 empresas exportadoras de café de Honduras han quebrado en los últimos tres años, muchas de ellas por el impacto del bajo precio del grano en el mercado internacional, informó hoy, Martes, una fuente empresarial.
 # orig_file_sentence 007#30
@@ -28454,6 +28513,7 @@
 45	locales	local	ADJ	_	Number=Plur	44	amod	_	SpaceAfter=No
 46	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000705-2692
 # sent_id = CESS-CAST-AA-20000705-2692-s1
 # text = Cientos de personas armadas con arcos y flechas impidieron que la Alta Comisaría de las Naciones Unidas para los Refugiados (ACNUR) reanudara sus actividades de repatriación de timorenses en tres campamentos de refugiados de Nussa Tengara (Timor Occidentel).
 # orig_file_sentence 007#67
@@ -28874,6 +28934,7 @@
 19	generales	general	ADJ	_	Number=Plur	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000806-3784
 # sent_id = CESS-CAST-AA-20000806-3784-s1
 # text = Después de tres décadas de régimen autoritario plagado por la corrupción y el nepotismo, Indonesia encontró a Aburrahman Wahid, un popular y carismático líder musulmán que desde octubre tiene la ardua tarea de reformar la política y la economía de esta nación desde su Presidencia.
 # orig_file_sentence 007#80
@@ -29628,6 +29689,7 @@
 37	vicepresidenta	vicepresidenta	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
 38	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000923-19559
 # sent_id = CESS-CAST-AA-20000923-19559-s1
 # text = El presidente de la Junta de Extremadura, Juan Carlos Rodríguez Ibarra, cree que si el Gobierno vasco no cumple las competencias asignadas en materia de seguridad pública "alguien debería quitárselas".
 # orig_file_sentence 006#31
@@ -30286,6 +30348,7 @@
 21	subrayó	subrayar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	21	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20000927-23199
 # sent_id = CESS-CAST-AA-20000927-23199-s1
 # text = El jugador del equipo de Primera División de fútbol de la UD Las Palmas, Francisco Ortíz "Paquito", calificó hoy de "lamentable" la pelea que ayer protagonizaron sus compañeros Vincent Samways (inglés) y Oktay Derelioglu (turco) en un entrenamiento.
 # orig_file_sentence 006#75
@@ -30518,6 +30581,7 @@
 26	agregó	agregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	26	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20001011-8439
 # sent_id = CESS-CAST-AA-20001011-8439-s1
 # text = La inflación en Brasil fue de 0,23 por ciento en septiembre, ligeramente por debajo del 0,31 por ciento de septiembre de 1999, dijo hoy, miércoles, el estatal Instituto Brasileiro de Geografía y Estadísticas (IBGE).
 # orig_file_sentence 009#4
@@ -30806,6 +30870,7 @@
 15	ciento	ciento	NUM	_	NumType=Card	13	compound	_	SpaceAfter=No
 16	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20001030-24215
 # sent_id = CESS-CAST-AA-20001030-24215-s1
 # text = El partido en el Gobierno de Colombia con el presidente Andrés Pastrana, el Conservador, sufrió un gran retroceso en los comicios regionales del domingo con el triunfo del opositor Liberal y los movimientos independientes en la mayoría de gobernaciones y alcaldías de las principales ciudades del país.
 # orig_file_sentence 006#94
@@ -31649,6 +31714,7 @@
 21	"	"	PUNCT	_	PunctType=Quot	12	punct	_	SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20001030-24822
 # sent_id = CESS-CAST-AA-20001030-24822-s1
 # text = El plan de ordenación del territorio del ámbito de Doñana, elaborado por la Consejería de Obras Públicas, plantea una edificabilidad máxima en la zona de 3.000 nuevas plazas turísticas, y se da prioridad al uso hotelero frente al residencial.
 # orig_file_sentence 007#21
@@ -32096,6 +32162,7 @@
 31	Andalucía	Andalucía	PROPN	_	_	27	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20001110-7848
 # sent_id = CESS-CAST-AA-20001110-7848-s1
 # text = El equipo masculino español de ajedrez empató hoy con Francia, 2-2, en la decimotercera y penúltima ronda de las Olimpiadas de Ajedrez que se disputan en el Centro de Covenciones de esta ciudad.
 # orig_file_sentence 008#79
@@ -32403,6 +32470,7 @@
 16	ronda	ronda	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20001126-20778
 # sent_id = CESS-CAST-AA-20001126-20778-s1
 # text = Los etíopes Tummo Turbo y Edato Gadisse fueron los vencedores del XXIII Maratón de San Sebastián, en el que se registraron marcas poco brillantes.
 # orig_file_sentence 006#44
@@ -32971,6 +33039,7 @@
 22	debú	debú	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 23	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20001130-24674
 # sent_id = CESS-CAST-AA-20001130-24674-s1
 # text = El secretario general del PP, Javier Arenas, expresó hoy su satisfacción por la concesión de un crédito de 1.000 millones de pesetas a las Minas de Río Tinto Sociedad Anónima Laboral, y deseó que "igual que ha hecho el Gobierno de España, el resto de las administraciones se impliquen a fondo".
 # orig_file_sentence 007#16
@@ -33282,6 +33351,7 @@
 52	central	central	ADJ	_	Number=Sing	51	amod	_	SpaceAfter=No
 53	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20001209-6582
 # sent_id = CESS-CAST-AA-20001209-6582-s1
 # text = La dimisión del primer ministro israelí, Ehud Barak, pone fin al Gobierno más corto y accidentado de la historia del país.
 # orig_file_sentence 008#53
@@ -34278,6 +34348,7 @@
 16	Jerusalén	Jerusalén	PROPN	_	_	7	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAST-AA-20001212-8504
 # sent_id = CESS-CAST-AA-20001212-8504-s1
 # text = La Proposición de Ley sobre la modificación de las normas relativas al régimen de concesión y explotación de autopistas de peaje, presentada por el Partido Socialista, fue rechazada por el Pleno del Congreso por 171 votos en contra y 123 a favor.
 # orig_file_sentence 009#12
@@ -34980,6 +35051,7 @@
 74	"	"	PUNCT	_	PunctType=Quot	60	punct	_	SpaceAfter=No
 75	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAST-P-19981201-5
 # sent_id = CESS-CAST-P-19981201-5-s1
 # text = Respecto al déficit fiscal que sufre Catalunya, que los expertos calculan entre 800.000 y 1,3 billones de pesetas, ayer quedó patente que Jordi Pujol y Pasqual Maragall discrepan de la cifra, pero están de acuerdo en que este desequilibrio debe reducirse hasta situarse en unos niveles similares al que registran las regiones europeas con un parecido nivel de renta.
 # orig_file_sentence 016#6
@@ -35094,6 +35166,7 @@
 32	millones	millón	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
+# newdoc id = CESS-CAST-P-19981202-34
 # sent_id = CESS-CAST-P-19981202-34-s1
 # text = La investigación del Congreso de EEUU contra el presidente Bill Clinton entró ayer en su etapa final, con los republicanos decididos a llevar al pleno de la Cámara de Representantes una propuesta de destitución.
 # orig_file_sentence 014#89
@@ -35640,6 +35713,7 @@
 41	1996	1996	NOUN	_	AdvType=Tim	39	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990202-16
 # sent_id = CESS-CAST-P-19990202-16-s1
 # text = Cucharada a cucharada, el chaval asimila el consomé o sopicaldo del día junto a una paradójica educación familiar.
 # orig_file_sentence 012#61
@@ -35942,6 +36016,7 @@
 13	!	!	PUNCT	_	PunctSide=Fin|PunctType=Excl	2	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990601-13
 # sent_id = CESS-CAST-P-19990601-13-s1
 # text = La final de copa entre Inglaterra y Alemania ha tenido un efecto positivo, aunque haya pasado casi inadvertido.
 # orig_file_sentence 011#92
@@ -36199,6 +36274,7 @@
 20	explicación	explicación	NOUN	_	Gender=Fem|Number=Sing	17	iobj	_	SpaceAfter=No
 21	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990601-23
 # sent_id = CESS-CAST-P-19990601-23-s1
 # text = El Gobierno español apoyará a Javier Solana como responsable de la política exterior y de seguridad común de la Unión Europea (UE) si logra el consenso de todos los demás socios comunitarios, pero hasta entonces mantendrá como candidato español a Carlos Westendorp, Alto Representante Civil en Bosnia, explicó ayer el ministro de Asuntos Exteriores, Abel Matutes.
 # orig_file_sentence 013#59
@@ -36562,6 +36638,7 @@
 41	semanas	semana	NOUN	_	Gender=Fem|Number=Plur	37	obl	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990602-108
 # sent_id = CESS-CAST-P-19990602-108-s1
 # text = A pesar de que el Madrid ha llegado a un compromiso con Michel Salgado, por el que el lateral jugará las próximas cinco temporadas en el club blanco, aún falta que el Celta y el Madrid alcancen un acuerdo.
 # orig_file_sentence 009#73
@@ -36736,6 +36813,7 @@
 16	Celta	Celta	PROPN	_	_	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990602-19_c
 # sent_id = CESS-CAST-P-19990602-19_c-s1
 # text = Los citados Mitch ya no saben qué hacer para que aparquemos las motos y cojamos el coche (con la consiguiente masificación de la N-340), sino que ahora se dedican a multarnos por llevar la luz de posición encendida durante el día en lugar de la de cruce.
 # orig_file_sentence 013#53
@@ -36840,6 +36918,7 @@
 9	encendido	encendido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	SpaceAfter=No
 10	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990701-130
 # sent_id = CESS-CAST-P-19990701-130-s1
 # text = Josep Puigbó, editor del Telenotícies migdia de TV-3, noticiario que copresenta con Montse Jené, está negociando con la dirección de Televisió de Catalunya su salida de los TN para dedicarse de lleno a la cadena de radio Ona Catalana, de la que es uno de sus directivos.
 # orig_file_sentence 010#70
@@ -37222,6 +37301,7 @@
 65	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	64	punct	_	SpaceAfter=No
 66	.	.	PUNCT	_	PunctType=Peri	22	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990701-7
 # sent_id = CESS-CAST-P-19990701-7-s1
 # text = El PP y el PSOE denunciaron ayer que el Grupo Independiente Liberal (GIL) ha ofrecido "cantidades millonarias" a varios ediles de la oposición para que no propicien el pacto anti-Gil, que haría perder la alcaldía de Estepona (Málaga) a Jesús Gil Marín, hijo del polémico alcalde de Marbella.
 # orig_file_sentence 017#5
@@ -37499,6 +37579,7 @@
 47	"	"	PUNCT	_	PunctType=Quot	37	punct	_	SpaceAfter=No
 48	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990701-83
 # sent_id = CESS-CAST-P-19990701-83-s1
 # text = Voces de un ayer que marcó época y estrellas de las ondas de hoy, políticos de ese centro que se disputan desde todas direcciones, deportistas, artistas y altos ejecutivos de medios de comunicación se reunieron el Martes por la noche, en las Reales Atarazanas, para celebrar el 50º aniversario de Radio Nacional de España en Catalunya.
 # orig_file_sentence 017#37
@@ -37975,6 +38056,7 @@
 74	catalana	catalán	ADJ	_	Gender=Fem|Number=Sing	73	amod	_	SpaceAfter=No
 75	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990702-146
 # sent_id = CESS-CAST-P-19990702-146-s1
 # text = Josep Puigbó acordó ayer con TV-3 dejar los Telenotícies a final de mes, para incorporarse a la cadena Ona Catalana como consejero-director general.
 # orig_file_sentence 012#10
@@ -38102,6 +38184,7 @@
 42	Catalunya	Catalunya	PROPN	_	_	39	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	_	PunctType=Peri	17	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990802-29
 # sent_id = CESS-CAST-P-19990802-29-s1
 # text = Tres personas fallecidas y dos heridas es el balance de los dos accidentes que se produjeron en la madrugada de ayer como resultado de colisiones contra caballos.
 # orig_file_sentence 013#99
@@ -38247,6 +38330,7 @@
 22	horas	horas	NOUN	_	_	21	compound	_	SpaceAfter=No
 23	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990802-48
 # sent_id = CESS-CAST-P-19990802-48-s1
 # text = Hace unos años se difundió una noticia desde Buenos Aires que daba cuenta de un suceso curioso.
 # orig_file_sentence 015#22
@@ -38582,6 +38666,7 @@
 24	campañas	campaña	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990901-53
 # sent_id = CESS-CAST-P-19990901-53-s1
 # text = La vida humana, animal y vegetal podrá patentarse desde hoy en los países de la Unión Europea.
 # orig_file_sentence 015#71
@@ -38817,6 +38902,7 @@
 18	Múnich	Múnich	PROPN	_	_	12	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990901-75
 # sent_id = CESS-CAST-P-19990901-75-s1
 # text = Cambios en el sector de la distribución.
 # orig_file_sentence 016#80
@@ -39605,6 +39691,7 @@
 31	existentes	existente	ADJ	_	Number=Plur	28	amod	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990902-101
 # sent_id = CESS-CAST-P-19990902-101-s1
 # text = Michael Schumacher no participará en los dos próximos grandes premios.
 # orig_file_sentence 009#53
@@ -39721,6 +39808,7 @@
 28	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	20	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990902-38_d
 # sent_id = CESS-CAST-P-19990902-38_d-s1
 # text = Pujol sufre un pequeño accidente de coche en la A-7.
 # orig_file_sentence 015#5
@@ -39817,6 +39905,7 @@
 6	heridos	herido	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-19990902-38_g
 # sent_id = CESS-CAST-P-19990902-38_g-s1
 # text = El secretario general del PP gallego dimite oficialmente.
 # orig_file_sentence 015#9
@@ -39894,6 +39983,7 @@
 26	recambio	recambio	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
+# newdoc id = CESS-CAST-P-19991001-130
 # sent_id = CESS-CAST-P-19991001-130-s1
 # text = La selección ganó a Australia y se enfrenta hoy a Hungría en la semifinal de la Copa del Mundo, que concede tres plazas.
 # orig_file_sentence 010#78
@@ -41094,6 +41184,7 @@
 31	Europa	Europa	PROPN	_	_	29	flat	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-19991001-61
 # sent_id = CESS-CAST-P-19991001-61-s1
 # text = Jaume Alonso-Cuevillas, decano del Col.legi d'Advocats de Barcelona y presidente del Consell de Col.legis d'Advocats de Catalunya, reclamó ayer a Jordi Pujol entre 5.000 y 6.000 millones de pesetas para los letrados del turno de oficio que ejercen la asistencia de justicia gratuita.
 # orig_file_sentence 016#8
@@ -41772,6 +41863,7 @@
 24	derecho	derecho	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
+# newdoc id = CESS-CAST-P-19991001-65
 # sent_id = CESS-CAST-P-19991001-65-s1
 # text = La nueva ley de datos es en realidad una reforma de la ley de 1992 de regulación del tratamiento automatizado de los datos de carácter personal.
 # orig_file_sentence 016#30
@@ -41930,6 +42022,7 @@
 43	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAST-P-19991101-26
 # sent_id = CESS-CAST-P-19991101-26-s1
 # text = Los poco más de tres millones de electores de Georgia fueron llamados ayer a las urnas para renovar los 233 escaños del Parlamento de Tbilisi, en una consulta que servirá de termómetro para medir la popularidad del actual presidente y ex ministro prooccidental de Asuntos Exteriores de la antigua URSS, Eduard Shevardnadze, cara a las elecciones presidenciales que se celebrarán dentro de seis meses.
 # orig_file_sentence 013#91
@@ -42221,6 +42314,7 @@
 12	consulta	consulta	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-19991101-32
 # sent_id = CESS-CAST-P-19991101-32-s1
 # text = En sus primeros 100 días de reinado, Mohamed VI ha hecho mucho y todo lo ha hecho rápido.
 # orig_file_sentence 014#39
@@ -44036,6 +44130,7 @@
 8	necesita	necesitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No
 9	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAST-P-19991102-101
 # sent_id = CESS-CAST-P-19991102-101-s1
 # text = El perro del hortelano (La 2, 22.50) es la última película de Pilar Miró.
 # orig_file_sentence 009#57
@@ -44095,6 +44190,7 @@
 30	Goya	Goya	PROPN	_	_	29	appos	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	27	punct	_	_
 
+# newdoc id = CESS-CAST-P-19991201-13
 # sent_id = CESS-CAST-P-19991201-13-s1
 # text = Nacido en Reus porque no había clínica en Falset, población en la que su padre era funcionario de Correos, Jordi Villacampa (Reus, Baix Camp, 11-10-63) es badalonés por vocación.
 # orig_file_sentence 012#1
@@ -44409,6 +44505,7 @@
 47	jugador	jugador	NOUN	_	Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	_	PunctType=Peri	37	punct	_	_
 
+# newdoc id = CESS-CAST-P-19991201-71_b
 # sent_id = CESS-CAST-P-19991201-71_b-s1
 # text = CiU impide que el Congreso apruebe una regulación de las parejas de hecho.
 # orig_file_sentence 016#67
@@ -44487,6 +44584,7 @@
 14	constitucionales	constitucional	ADJ	_	Number=Plur	13	amod	_	SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000102-120
 # sent_id = CESS-CAST-P-20000102-120-s1
 # text = Un roble devastado y una inmensa luna - - el personaje principal, Lucia, es el arquetipo de la locura operística - - son dos de los elementos capitales de la escenografía imaginada por Paul Brown para esta versión de la ópera de Donizetti Lucia di Lammermoor firmada por Graham Vick.
 # orig_file_sentence 009#96
@@ -44845,6 +44943,7 @@
 27	Lucia	Lucia	PROPN	_	_	12	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000201-73_c
 # sent_id = CESS-CAST-P-20000201-73_c-s1
 # text = Un encapuchado mata a tiros a un colombiano en Madrid.
 # orig_file_sentence 016#74
@@ -44948,6 +45047,7 @@
 24	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
 25	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000201-73_f
 # sent_id = CESS-CAST-P-20000201-73_f-s1
 # text = Rechazo a las medidas contra la violencia escolar en Francia.
 # orig_file_sentence 016#77
@@ -45032,6 +45132,7 @@
 21	tolerancia	tolerancia	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000202-135
 # sent_id = CESS-CAST-P-20000202-135-s1
 # text = Luz Casal vuelve mañana al Palau de la Música con las canciones de Un mar de confianza.
 # orig_file_sentence 011#19
@@ -46239,6 +46340,7 @@
 29	despelote	despelote	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
 30	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000202-150
 # sent_id = CESS-CAST-P-20000202-150-s1
 # text = Sergi Mateu y Alex Casanovas (foto) son los protagonistas de L'enfonsament del Titànic (Canal 33, 23.15), comedia centrada en las relaciones laborales y sentimentales de un grupo de profesionales de una emisora.
 # orig_file_sentence 012#13
@@ -46284,6 +46386,7 @@
 39	emisora	emisora	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000202-35_e
 # sent_id = CESS-CAST-P-20000202-35_e-s1
 # text = Lituania empieza a 'fichar' a los exagentes del KGB.
 # orig_file_sentence 015#1
@@ -46408,6 +46511,7 @@
 26	pasado	pasado	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000202-41
 # sent_id = CESS-CAST-P-20000202-41-s1
 # text = Para vencer en Nueva Hampshire no basta con desafiar al frío y a la nieve, o a los competidores.
 # orig_file_sentence 015#12
@@ -46691,6 +46795,7 @@
 33	locales	local	ADJ	_	Number=Plur	30	obj	_	SpaceAfter=No
 34	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000301-108_c
 # sent_id = CESS-CAST-P-20000301-108_c-s1
 # text = Bruguera pierde en Santiago de Chile.
 # orig_file_sentence 009#78
@@ -46797,6 +46902,7 @@
 16	Bogotá	Bogotá	PROPN	_	_	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000301-78
 # sent_id = CESS-CAST-P-20000301-78-s1
 # text = El diseñador italiano Valentino llenó de elegancia la pasarela de París, que el británico John Galliano había mancillado con sus propuestas grunge diseñadas para la firma Dior, que en su día fue sinónimo del chic parisino.
 # orig_file_sentence 017#3
@@ -46863,6 +46969,7 @@
 16	oro	oro	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000401-57_a
 # sent_id = CESS-CAST-P-20000401-57_a-s1
 # text = El secretario general del PSOE destacó ayer durante su intervención ante el comité director del partido que los socialistas andaluces se hallan actualmente en una mejor situación política que en 1996, pese a haber bajado en votos y repetido número de escaños.
 # orig_file_sentence 015#91
@@ -47086,6 +47193,7 @@
 17	cónyuges	cónyuge	NOUN	_	Number=Plur	11	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000601-21_c
 # sent_id = CESS-CAST-P-20000601-21_c-s1
 # text = No eran 'skins' y el desconocimiento de la gravedad de los hechos hasta el momento de su detención, debido a la cantidad de alcohol que habían tomado.
 # orig_file_sentence 013#56
@@ -47208,6 +47316,7 @@
 31	realidad	realidad	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000601-66
 # sent_id = CESS-CAST-P-20000601-66-s1
 # text = El PSOE denunció ayer la muerte de seis enfermos del corazón que se encontraban en lista de espera desde 1999 en el Hospital General de Alicante.
 # orig_file_sentence 016#34
@@ -47396,6 +47505,7 @@
 35	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000602-106
 # sent_id = CESS-CAST-P-20000602-106-s1
 # text = La modelo Antonia dell'Atte, la cantante Massiel y Carla Royo, esposa de Kubrat de Bulgaria, amadrinaron la presentación en Madrid del nuevo reloj de pulsera de Bvlgari, inspirado en los años 30.
 # orig_file_sentence 009#68
@@ -47439,6 +47549,7 @@
 37	30	30	NUM	_	NumForm=Digit|NumType=Card	36	compound	_	SpaceAfter=No
 38	.	.	PUNCT	_	PunctType=Peri	19	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000602-17_b
 # sent_id = CESS-CAST-P-20000602-17_b-s1
 # text = Más atención al judo.
 # orig_file_sentence 012#97
@@ -47665,6 +47776,7 @@
 31	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	4	punct	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000701-80
 # sent_id = CESS-CAST-P-20000701-80-s1
 # text = El tramo de la calle principal del barrio entre Meridiana y Aragó será peatonal en el año 2001.
 # orig_file_sentence 017#12
@@ -48389,6 +48501,7 @@
 38	2.000	2.000	NOUN	_	AdvType=Tim	34	nmod	_	SpaceAfter=No
 39	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000801-56_c
 # sent_id = CESS-CAST-P-20000801-56_c-s1
 # text = Una línea de autobús une El Vendrell y Andorra.
 # orig_file_sentence 015#79
@@ -48493,6 +48606,7 @@
 30	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000801-56_f
 # sent_id = CESS-CAST-P-20000801-56_f-s1
 # text = Juncosa mejorará el abastecimiento de agua.
 # orig_file_sentence 015#83
@@ -48610,6 +48724,7 @@
 25	agua	agua	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000801-56_h
 # sent_id = CESS-CAST-P-20000801-56_h-s1
 # text = Muere el delfín rescatado herido en Alicante.
 # orig_file_sentence 015#87
@@ -48736,6 +48851,7 @@
 19	Mataró	Mataró	PROPN	_	_	17	obl	_	SpaceAfter=No
 20	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000802-31
 # sent_id = CESS-CAST-P-20000802-31-s1
 # text = El líder de los socialistas vascos, Nicolás Redondo Terreros, consideró ayer "inevitable" que el lehendakari adelante las elecciones en Euskadi dada la situación de minoría de su Ejecutivo.
 # orig_file_sentence 014#30
@@ -49104,6 +49220,7 @@
 53	socialistas	socialista	ADJ	_	Number=Plur	52	amod	_	SpaceAfter=No
 54	.	.	PUNCT	_	PunctType=Peri	34	punct	_	_
 
+# newdoc id = CESS-CAST-P-20000903-30
 # sent_id = CESS-CAST-P-20000903-30-s1
 # text = El líder del PSOE se distancia del duro discurso de Aznar contra el PNV.
 # orig_file_sentence 014#4
@@ -49928,6 +50045,7 @@
 67	"	"	PUNCT	_	PunctType=Quot	60	punct	_	SpaceAfter=No
 68	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
+# newdoc id = CESS-CAST-P-20001001-43
 # sent_id = CESS-CAST-P-20001001-43-s1
 # text = El GRAPO, en su reaparición en Barcelona, colocó un artefacto explosivo en la sede del diario El Mundo, causando heridas leves a cuatro policías y a un transeúnte e importantes daños materiales.
 # orig_file_sentence 015#20
@@ -49997,6 +50115,7 @@
 22	pesetas	peseta	NOUN	_	NumForm=Digit	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAST-P-20001002-71_b
 # sent_id = CESS-CAST-P-20001002-71_b-s1
 # text = Fallece Rodolfo Bay Wright, fundador de la aerolínea Spantax.
 # orig_file_sentence 016#70
@@ -50116,6 +50235,7 @@
 16	Finance	Finance	PROPN	_	_	15	flat	_	SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20001201-176
 # sent_id = CESS-CAST-P-20001201-176-s1
 # text = Barcelona y Unicaja engrandecieron ayer la Liga de baloncesto con un partido brillante, intenso, sin una sola concesión, y el resultado fue un espectáculo con mayúsculas, en el que los azulgranas salieron vencedores por una simple suma de talento.
 # orig_file_sentence 012#77
@@ -50747,6 +50867,7 @@
 29	azulgrana	azulgrana	NOUN	_	Number=Sing	27	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	PunctType=Peri	18	punct	_	_
 
+# newdoc id = CESS-CAST-P-20001201-199
 # sent_id = CESS-CAST-P-20001201-199-s1
 # text = Para cuando lean estas líneas, el mundo ya tendrá una nueva miss.
 # orig_file_sentence 013#37
@@ -51217,6 +51338,7 @@
 4	espera	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-20001202-113
 # sent_id = CESS-CAST-P-20001202-113-s1
 # text = Que inventen ellas es el título de la muestra sobre científicas e investigadoras, que estará hasta el 4 de enero en la Obra Social de Caja Madrid, en la Plaza de Catalunya.
 # orig_file_sentence 009#95
@@ -51256,6 +51378,7 @@
 34	Catalunya	Catalunya	PROPN	_	_	32	flat	_	SpaceAfter=No
 35	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAST-P-20001202-49
 # sent_id = CESS-CAST-P-20001202-49-s1
 # text = Los populares añadieron ayer al precio de su apoyo al Presupuesto la creación de un fondo de 1.000 millones de pesetas para desarrollar un plan de modernización y apoyo al pequeño y mediano comercio, especialmente el urbano.
 # orig_file_sentence 015#33
@@ -51411,6 +51534,7 @@
 26	oficio	oficio	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010102-25
 # sent_id = CESS-CAST-P-20010102-25-s1
 # text = Las muertes de un líder de la ultraderecha israelí y de su esposa, y de un dirigente del movimiento palestino Al Fatah desataron ayer clamores de venganza en Israel y en los territorios palestinos.
 # orig_file_sentence 013#69
@@ -52050,6 +52174,7 @@
 20	ultraderecha	ultraderecha	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010103-120
 # sent_id = CESS-CAST-P-20010103-120-s1
 # text = El Barça confía en repetir el guión que utilizó en Gandia para seguir adelante en la Copa del Rey.
 # orig_file_sentence 010#9
@@ -52575,6 +52700,7 @@
 29	Gandia	Gandia	PROPN	_	_	26	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	PunctType=Peri	19	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010103-139
 # sent_id = CESS-CAST-P-20010103-139-s1
 # text = El valor del mercado discográfico español caerá hasta un 4% en el 2001 y se situará en torno a los 63.168 millones de pesetas, tras haber sufrido sucesivos descensos en torno al 2% durante los dos últimos años.
 # orig_file_sentence 011#77
@@ -53043,6 +53169,7 @@
 10	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010201-176
 # sent_id = CESS-CAST-P-20010201-176-s1
 # text = El actor y humorista Millán Salcedo, antiguo componente del popular dúo Martes y Trece, presentó el Martes por la noche, en un local de Madrid, su nueva aventura literaria.
 # orig_file_sentence 012#94
@@ -53145,6 +53272,7 @@
 29	bucho	bucho	PROPN	_	_	28	flat	_	SpaceAfter=No
 30	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010201-69_m
 # sent_id = CESS-CAST-P-20010201-69_m-s1
 # text = Letsbuyit.com prescinde de 200 de 350 empleados.
 # orig_file_sentence 016#58
@@ -53187,6 +53315,7 @@
 25	extremis	extremis	NOUN	_	_	24	fixed	_	SpaceAfter=No
 26	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010202-128
 # sent_id = CESS-CAST-P-20010202-128-s1
 # text = El sindicato ha denunciado a la Administración central ante la Conselleria de Treball porque ninguno de sus 64 centros en Girona cumple la ley de prevención de riesgos laborales, al no contar con planes de emergencia y evacuación para funcionarios y usuarios.
 # orig_file_sentence 010#69
@@ -53237,6 +53366,7 @@
 44	usuarios	usuario	NOUN	_	Gender=Masc|Number=Plur	42	conj	_	SpaceAfter=No
 45	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010202-151
 # sent_id = CESS-CAST-P-20010202-151-s1
 # text = La Comisión Europea anunció ayer su voluntad de desbloquear las negociaciones para la reforma de los traspasos y conseguir así "una solución negociada" con la FIFA y la UEFA antes de la reunión decisiva prevista para el próximo 16 de febrero, con el objetivo de que pueda servir para solucionar el gran problema que arrastra el fútbol para adecuarse a la normativa comunitaria europea.
 # orig_file_sentence 012#14
@@ -53683,6 +53813,7 @@
 48	español	español	ADJ	_	Gender=Masc|Number=Sing	47	amod	_	SpaceAfter=No
 49	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010202-169
 # sent_id = CESS-CAST-P-20010202-169-s1
 # text = Los más destacados luthiers (constructores de violines) del mundo se dan cita desde ayer en Valencia para rendir tributo a los instrumentos de cuerda.
 # orig_file_sentence 012#45
@@ -54148,6 +54279,7 @@
 43	14	14	NUM	_	NumForm=Digit|NumType=Card	42	compound	_	SpaceAfter=No
 44	.	.	PUNCT	_	PunctType=Peri	29	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010401-101
 # sent_id = CESS-CAST-P-20010401-101-s1
 # text = Es el tercer año que se pone en funcionamiento el servicio de envío de datos fiscales y su crecimiento ha sido espectacular.
 # orig_file_sentence 009#59
@@ -54540,6 +54672,7 @@
 27	revisión	revisión	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010401-186
 # sent_id = CESS-CAST-P-20010401-186-s1
 # text = Aunque su reaparición en el Rock in Rio fue criticada hasta por Dave Mustaine (de Megadeth), el regreso de Axl Rose es un acontecimiento.
 # orig_file_sentence 013#32
@@ -54590,6 +54723,7 @@
 12	junio	junio	NOUN	_	_	10	compound	_	SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010401-30
 # sent_id = CESS-CAST-P-20010401-30-s1
 # text = Bosnia y Croacia no sólo saludaron ayer la detención de Slobodan Milosevic, sino que reclamaron su entrega al Tribunal Penal Internacional para la antigua Yugoslavia (TPI), que lo acusa de crímenes de guerra.
 # orig_file_sentence 014#25
@@ -54751,6 +54885,7 @@
 16	añadió	añadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010501-63
 # sent_id = CESS-CAST-P-20010501-63-s1
 # text = GIOVANNI OREFICI, condenado a 17 años de prisión por el caso Intelhorce y que se encuentra en busca y captura desde el pasado viernes, está dispuesto a viajar de Italia a España, según un familiar del industrial.
 # orig_file_sentence 016#28
@@ -54827,6 +54962,7 @@
 24	fallo	fallo	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010502-193
 # sent_id = CESS-CAST-P-20010502-193-s1
 # text = Euskadi: dolor y esperanza es el título del programa especial que Antena 3 TV ofrece esta noche (23.55), con motivo de las elecciones vascas.
 # orig_file_sentence 013#34
@@ -54902,6 +55038,7 @@
 15	terrorismo	terrorismo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010502-8
 # sent_id = CESS-CAST-P-20010502-8-s1
 # text = El presidente de Cuba, Fidel Castro, desfiló ayer junto a una niña de seis años y portando una bandera cubana ante la Oficina de Intereses de Estados Unidos en el centro de La Habana.
 # orig_file_sentence 017#46
@@ -54983,6 +55120,7 @@
 33	Trabajo	trabajo	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010602-171
 # sent_id = CESS-CAST-P-20010602-171-s1
 # text = La música preferida del primer ministro japonés Junichiro Koizumi, un fanático seguidor del rock duro y Elvis Presley, será reunida próximamente en una recopilación.
 # orig_file_sentence 012#72
@@ -55167,6 +55305,7 @@
 40	ventas	venta	NOUN	_	Gender=Fem|Number=Plur	38	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010702-6
 # sent_id = CESS-CAST-P-20010702-6-s1
 # text = Es probable que, como denuncia la oposición, las últimas semanas no hayan sido muy buenas para Catalunya.
 # orig_file_sentence 016#60
@@ -55431,6 +55570,7 @@
 47	2003	2003	NOUN	_	AdvType=Tim	44	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010702-9
 # sent_id = CESS-CAST-P-20010702-9-s1
 # text = Hace unos años, con la recuperación de la democracia y las libertades, vivimos con regocijo libertador el momento en que nuestras compañeras, las mujeres, se libraron de uno de los tabúes de su sexo, y empezaron a exhibir, gozosas, en playas y piscinas, sus senos secularmente escondidos.
 # orig_file_sentence 017#48
@@ -55621,6 +55761,7 @@
 13	pena	pena	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010801-57
 # sent_id = CESS-CAST-P-20010801-57-s1
 # text = LOS COMPAÑEROS.
 # orig_file_sentence 015#97
@@ -55924,6 +56065,7 @@
 51	prueba	prueba	NOUN	_	Gender=Fem|Number=Sing	49	obj	_	SpaceAfter=No
 52	.	.	PUNCT	_	PunctType=Peri	18	punct	_	_
 
+# newdoc id = CESS-CAST-P-20010802-107
 # sent_id = CESS-CAST-P-20010802-107-s2
 # text = La inversión se incluye en un plan de choque de la Generalitat que prevé habilitar 96 hectáreas de terrenos para fomentar la implantación de industrias en las seis comarcas pirenaicas y que creará 15.000 puestos de trabajo.
 # orig_file_sentence 009#72
@@ -55966,6 +56108,7 @@
 37	trabajo	trabajo	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAST-P-20011002-160
 # sent_id = CESS-CAST-P-20011002-160-s1
 # text = Hace dos años que el Inter no ocupaba el primer puesto en el calcio, un largo y duro periodo para su propietario y máximo accionista, Massimo Moratti, el empresario petrolero más rico de Italia, que lleva casi una década desembolsando dinero para colocar al club en lo más alto.
 # orig_file_sentence 012#22
@@ -56550,6 +56693,7 @@
 30	1989	1989	NOUN	_	AdvType=Tim	26	obl	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
 
+# newdoc id = CESS-CAST-P-20011002-168
 # sent_id = CESS-CAST-P-20011002-168-s1
 # text = El cine argentino se asocia a una cierta locuacidad verbal o, en algunos casos, como el de Eliseo Subiela, a una forma muy personal de tratar los elementos propios del fantástico.
 # orig_file_sentence 012#36
@@ -57043,6 +57187,7 @@
 97	estilo	estilo	NOUN	_	Gender=Masc|Number=Sing	94	nmod	_	SpaceAfter=No
 98	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAST-P-20011101-143
 # sent_id = CESS-CAST-P-20011101-143-s1
 # text = La esquiadora francesa Régine Cavagnoud, de 31 años, murió ayer en una clínica de Innsbruck (Austria) en la que había sido ingresada el pasado Lunes después de sufrir un espectacular accidente mientras se entrenaba en el glaciar de Pitztal, en los Alpes.
 # orig_file_sentence 012#7
@@ -57176,6 +57321,7 @@
 23	entrenamiento	entrenamiento	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
 24	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAST-P-20011201-106
 # sent_id = CESS-CAST-P-20011201-106-s1
 # text = Los vecinos habían anunciado que hoy cargarían un camión con los escombros de los barrancos del barrio y lo llevarían hasta la plaza de Sant Jaume.
 # orig_file_sentence 009#69
@@ -57248,6 +57394,7 @@
 15	mes	mes	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 16	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAST-P-20011202-122
 # sent_id = CESS-CAST-P-20011202-122-s1
 # text = Barcelona esconde el sexo en vivo y en directo tras una muralla centenaria de casi dos metros de anchura.
 # orig_file_sentence 010#31
@@ -57916,6 +58063,7 @@
 9	arma	armar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAST-P-20011202-66
 # sent_id = CESS-CAST-P-20011202-66-s1
 # text = El mayor rascacielos de Barcelona y uno de los símbolos arquitectónicos de la ciudad y de los Juegos Olímpicos de 1992 cambiará de propietario.
 # orig_file_sentence 016#41
@@ -58557,6 +58705,7 @@
 21	inmueble	inmueble	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAST-P-20020102-112
 # sent_id = CESS-CAST-P-20020102-112-s1
 # text = Diferencias en las proporciones de los personajes o elementos contemporáneos que se cuelan en el plano son algunos de los errores de El señor de los anillos.
 # orig_file_sentence 009#82
@@ -58955,6 +59104,7 @@
 25	derecho	derecho	NOUN	_	Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
 26	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
+# newdoc id = CESS-CAST-P-20020103-17
 # sent_id = CESS-CAST-P-20020103-17-s1
 # text = El Banco de España cambiará indefinidamente las pesetas por euros.
 # orig_file_sentence 013#6
@@ -59047,6 +59197,7 @@
 8	España	España	PROPN	_	_	6	flat	_	SpaceAfter=No
 9	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
+# newdoc id = CESS-CAST-P-20020301-120
 # sent_id = CESS-CAST-P-20020301-120-s1
 # text = El grupo teatral catalán actuará del 2 al 28 de abril próximos en el Casino de París.
 # orig_file_sentence 010#29
@@ -59104,6 +59255,7 @@
 26	Madrid	Madrid	PROPN	_	_	24	conj	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAST-P-20020301-125
 # sent_id = CESS-CAST-P-20020301-125-s1
 # text = El actual presidente de la entidad catalanista Òmnium Cultural, Josep Millàs, explicó ayer que ha propuesto al sector renovador que encabeza Jordi Porta la confección de una lista conjunta para las elecciones del 7 de marzo en la organización.
 # orig_file_sentence 010#56
@@ -59657,6 +59809,7 @@
 40	"	"	PUNCT	_	PunctType=Quot	32	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
+# newdoc id = CESS-CAST-P-20020502-49
 # sent_id = CESS-CAST-P-20020502-49-s1
 # text = El 24 de abril, tres días después del éxito electoral de Le Pen, Aznar achacó el incremento de la inseguridad ciudadana en España a que "el 89% de los presos preventivos en este primer trimestre son inmigrantes".
 # orig_file_sentence 015#37
@@ -59934,6 +60087,7 @@
 41	20,4%	20.4/100	SYM	_	NumForm=Digit|NumType=Frac	35	obl	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	23	punct	_	_
 
+# newdoc id = CESS-CAST-P-20020601-51
 # sent_id = CESS-CAST-P-20020601-51-s1
 # text = También África existe en el fútbol.
 # orig_file_sentence 015#43
@@ -60637,6 +60791,7 @@
 23	victoria	victoria	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
+# newdoc id = CESS-CAST-P-20020801-17
 # sent_id = CESS-CAST-P-20020801-17-s1
 # text = Xabier Arzalluz negó ayer que el PNV haya alcanzado un acuerdo con ETA o con Batasuna para lograr una "tregua de hecho".
 # orig_file_sentence 013#10
