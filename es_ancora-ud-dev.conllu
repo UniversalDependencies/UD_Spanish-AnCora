@@ -1389,7 +1389,7 @@
 46	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
 # sent_id = 3LB-CAST-2000060111_5-2-s13
-# text = La aprobación de la amnistía "es una muestra de responsabilidad cívica del Congreso ecuatoriano, con el fin de" olvidarnos de los hechos pasados para construir una nueva historia ", afirmó Pons
+# text = La aprobación de la amnistía "es una muestra de responsabilidad cívica del Congreso ecuatoriano, " con el fin de" olvidarnos de los hechos pasados para construir una nueva historia ", afirmó Pons
 # orig_file_sentence 001#28
 1	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	aprobación	aprobación	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -1399,7 +1399,7 @@
 6	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
 7	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	muestra	muestra	NOUN	_	Gender=Fem|Number=Sing	36	ccomp	_	_
+9	muestra	muestra	NOUN	_	Gender=Fem|Number=Sing	37	ccomp	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	responsabilidad	responsabilidad	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 12	cívica	cívico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
@@ -1408,28 +1408,29 @@
 14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Congreso	Congreso	PROPN	_	_	9	nmod	_	_
 16	ecuatoriano	ecuatoriano	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
-17	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
-18	con	con	ADP	_	_	20	case	_	_
-19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	fin	fin	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
-21	de	de	ADP	_	_	23	mark	_	SpaceAfter=No
-22	"	"	PUNCT	_	PunctType=Quot	23	punct	_	_
-23-24	olvidarnos	_	_	_	_	_	_	_	_
-23	olvidar	olvidar	VERB	_	VerbForm=Inf	20	acl	_	_
-24	nos	yo	PRON	_	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	23	expl:pv	_	_
-25	de	de	ADP	_	_	27	case	_	_
-26	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
-27	hechos	hecho	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
-28	pasados	pasado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	27	amod	_	_
-29	para	para	ADP	_	_	30	mark	_	_
-30	construir	construir	VERB	_	VerbForm=Inf	23	advcl	_	_
-31	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-32	nueva	nuevo	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
-33	historia	historia	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
-34	"	"	PUNCT	_	PunctType=Quot	23	punct	_	SpaceAfter=No
-35	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
-36	afirmó	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-37	Pons	Pons	PROPN	_	_	36	nsubj	_	_
+17	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
+18	"	"	PUNCT	fe	PunctType=Quot	9	punct	_	_
+19	con	con	ADP	_	_	21	case	_	_
+20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	fin	fin	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+22	de	de	ADP	_	_	24	mark	_	SpaceAfter=No
+23	"	"	PUNCT	_	PunctType=Quot	24	punct	_	_
+24-25	olvidarnos	_	_	_	_	_	_	_	_
+24	olvidar	olvidar	VERB	_	VerbForm=Inf	21	acl	_	_
+25	nos	yo	PRON	_	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	24	expl:pv	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	hechos	hecho	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	_
+29	pasados	pasado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	28	amod	_	_
+30	para	para	ADP	_	_	31	mark	_	_
+31	construir	construir	VERB	_	VerbForm=Inf	24	advcl	_	_
+32	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	nueva	nuevo	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
+34	historia	historia	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+35	"	"	PUNCT	_	PunctType=Quot	24	punct	_	SpaceAfter=No
+36	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+37	afirmó	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+38	Pons	Pons	PROPN	_	_	37	nsubj	_	_
 
 # newdoc id = 3LB-CAST-a15-8
 # sent_id = 3LB-CAST-a15-8-s1
@@ -13972,7 +13973,7 @@
 76	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s6
-# text = Arzalluz ironizó diciendo que le gustaría "ver a Mayor Oreja como lehendakari.
+# text = Arzalluz ironizó diciendo que le gustaría "ver a Mayor Oreja como lehendakari. "
 # orig_file_sentence 005#87
 1	Arzalluz	Arzalluz	PROPN	_	_	2	nsubj	_	_
 2	ironizó	ironizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -13988,6 +13989,7 @@
 12	como	como	SCONJ	_	_	13	mark	_	_
 13	lehendakari	lehendakari	NOUN	_	Number=Sing	8	obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+15	"	"	PUNCT	fe	PunctType=Quot	8	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s7
 # text = "No lo será - añadió -, pero si él o Nicolás Redondo están como lehendakari, se supone que no habrá tiros y no matarán a nadie".
@@ -14025,7 +14027,7 @@
 31	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s8
-# text = "Pero, con qué mayoría van a gobernar - agregó el presidente del PNV en alusión a PP y PSE-EE -, si ni siquiera le pueden echar a Ibarretxe, con las ganas que tienen de que se vaya.
+# text = "Pero, con qué mayoría van a gobernar - agregó el presidente del PNV en alusión a PP y PSE-EE -, si ni siquiera le pueden echar a Ibarretxe, con las ganas que tienen de que se vaya. "
 # orig_file_sentence 005#89
 1	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
 2	Pero	pero	CCONJ	_	_	9	advmod	_	SpaceAfter=No
@@ -14071,6 +14073,7 @@
 41	se	él	PRON	_	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	42	expl:pv	_	_
 42	vaya	ir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	ccomp	_	SpaceAfter=No
 43	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
+44	"	"	PUNCT	fe	PunctType=Quot	30	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s9
 # text = "Lo único que demuestran es su impotencia, porque no lo pueden echar".
@@ -14579,7 +14582,7 @@
 81	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s18
-# text = Juan José Ibarretxe dijo que no le pide a Aznar que "comparta mis ideas, sino que las respete.
+# text = Juan José Ibarretxe dijo que no le pide a Aznar que "comparta mis ideas, sino que las respete. "
 # orig_file_sentence 005#99
 1	Juan	Juan	PROPN	_	_	4	nsubj	_	MWE=Juan_José_Ibarretxe|MWEPOS=PROPN
 2	José	José	PROPN	_	_	1	flat	_	_
@@ -14602,6 +14605,7 @@
 19	las	él	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	20	obj	_	_
 20	respete	respetar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
 21	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+22	"	"	PUNCT	fe	PunctType=Quot	13	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s19
 # text = " Pero las ideas del lehendakari no las respetan muchos en este país, y las ideas no se pueden condenar".
@@ -21733,7 +21737,7 @@
 64	.	.	PUNCT	_	PunctType=Peri	40	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000303-2162-s3
-# text = Para el ministro, "la contención del terrorismo en Egipto no significa que haya desaparecido del país.
+# text = Para el ministro, "la contención del terrorismo en Egipto no significa que haya desaparecido del país. "
 # orig_file_sentence 006#62
 1	Para	para	ADP	_	_	3	case	_	_
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -21758,6 +21762,7 @@
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	país	país	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
+22	"	"	PUNCT	fe	PunctType=Quot	20	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000303-2162-s4
 # text = "Nadie puede proclamar que el terrorismo se ha acabado en Egipto", dijo en referencia a los grupos integristas islámicos que, desde hace ocho años, mantienen la lucha armada como método para derrocar al régimen actual e imponer otro de estricta obediencia coránica.
@@ -34978,7 +34983,7 @@
 35	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAST-AA-20001212-8504-s12
-# text = Por último, el diputado popular se refirió a la derogación de una serie de artículos de la ley 8/1972, "lo que no se puede hacer alegremente, y añadió que en lo que se refiere a los beneficios o incremento de facturación que tienen estas empresas por las estaciones de servicio," no se puede criticar este aspecto, pues las concesionarias pueden buscar sus ingresos en estos campos".
+# text = Por último, el diputado popular se refirió a la derogación de una serie de artículos de la ley 8/1972, "lo que no se puede hacer alegremente, " y añadió que en lo que se refiere a los beneficios o incremento de facturación que tienen estas empresas por las estaciones de servicio," no se puede criticar este aspecto, pues las concesionarias pueden buscar sus ingresos en estos campos".
 # orig_file_sentence 009#23
 1	Por	por	ADP	_	_	8	advmod	_	MWE=Por_último|MWEPOS=ADV
 2	último	último	NOUN	_	_	1	fixed	_	SpaceAfter=No
@@ -35010,51 +35015,52 @@
 28	hacer	hacer	VERB	_	VerbForm=Inf	11	appos	_	_
 29	alegremente	alegremente	ADV	_	_	28	advmod	_	SpaceAfter=No
 30	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
-31	y	y	CCONJ	_	_	32	cc	_	_
-32	añadió	añadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
-33	que	que	SCONJ	_	_	60	mark	_	_
-34	en	en	ADP	_	_	38	mark	_	_
-35	lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	38	det	_	_
-36	que	que	PRON	_	PronType=Int,Rel	38	nsubj	_	_
-37	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	38	expl:pv	_	_
-38	refiere	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	advcl	_	_
-39	a	a	ADP	_	_	41	case	_	_
-40	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
-41	beneficios	beneficio	NOUN	_	Gender=Masc|Number=Plur	38	obj	_	_
-42	o	o	CCONJ	_	_	43	cc	_	_
-43	incremento	incremento	NOUN	_	Gender=Masc|Number=Sing	41	conj	_	_
-44	de	de	ADP	_	_	45	case	_	_
-45	facturación	facturación	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	_
-46	que	que	PRON	_	PronType=Int,Rel	47	obj	_	_
-47	tienen	tener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	acl	_	_
-48	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	49	det	_	_
-49	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	47	nsubj	_	_
-50	por	por	ADP	_	_	52	case	_	_
-51	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	52	det	_	_
-52	estaciones	estación	NOUN	_	Gender=Fem|Number=Plur	47	obl	_	_
-53	de	de	ADP	_	_	54	case	_	_
-54	servicio	servicio	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
-55	,	,	PUNCT	_	PunctType=Comm	38	punct	_	SpaceAfter=No
-56	"	"	PUNCT	_	PunctType=Quot	60	punct	_	_
-57	no	no	ADV	_	Polarity=Neg	60	advmod	_	_
-58	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	60	expl:pass	_	_
-59	puede	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	aux	_	_
-60	criticar	criticar	VERB	_	VerbForm=Inf	32	xcomp	_	_
-61	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	62	det	_	_
-62	aspecto	aspecto	NOUN	_	Gender=Masc|Number=Sing	60	nsubj	_	SpaceAfter=No
-63	,	,	PUNCT	_	PunctType=Comm	68	punct	_	_
-64	pues	pues	SCONJ	_	_	68	mark	_	_
-65	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	66	det	_	_
-66	concesionarias	concesionario	ADJ	_	Gender=Fem|Number=Plur	68	nsubj	_	_
-67	pueden	poder	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	68	aux	_	_
-68	buscar	buscar	VERB	_	VerbForm=Inf	60	advcl	_	_
-69	sus	su	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	70	det	_	_
-70	ingresos	ingreso	NOUN	_	Gender=Masc|Number=Plur	68	obj	_	_
-71	en	en	ADP	_	_	73	case	_	_
-72	estos	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	73	det	_	_
-73	campos	campo	NOUN	_	Gender=Masc|Number=Plur	68	obl	_	SpaceAfter=No
-74	"	"	PUNCT	_	PunctType=Quot	60	punct	_	SpaceAfter=No
-75	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
+31	"	"	PUNCT	fe	PunctType=Quot	28	punct	_	_
+32	y	y	CCONJ	_	_	33	cc	_	_
+33	añadió	añadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+34	que	que	SCONJ	_	_	61	mark	_	_
+35	en	en	ADP	_	_	39	mark	_	_
+36	lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	39	det	_	_
+37	que	que	PRON	_	PronType=Int,Rel	39	nsubj	_	_
+38	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	39	expl:pv	_	_
+39	refiere	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	advcl	_	_
+40	a	a	ADP	_	_	42	case	_	_
+41	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	beneficios	beneficio	NOUN	_	Gender=Masc|Number=Plur	39	obj	_	_
+43	o	o	CCONJ	_	_	44	cc	_	_
+44	incremento	incremento	NOUN	_	Gender=Masc|Number=Sing	42	conj	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	facturación	facturación	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	_
+47	que	que	PRON	_	PronType=Int,Rel	48	obj	_	_
+48	tienen	tener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	acl	_	_
+49	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	50	det	_	_
+50	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	48	nsubj	_	_
+51	por	por	ADP	_	_	53	case	_	_
+52	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+53	estaciones	estación	NOUN	_	Gender=Fem|Number=Plur	48	obl	_	_
+54	de	de	ADP	_	_	55	case	_	_
+55	servicio	servicio	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	SpaceAfter=No
+56	,	,	PUNCT	_	PunctType=Comm	39	punct	_	SpaceAfter=No
+57	"	"	PUNCT	_	PunctType=Quot	61	punct	_	_
+58	no	no	ADV	_	Polarity=Neg	61	advmod	_	_
+59	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	61	expl:pass	_	_
+60	puede	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	aux	_	_
+61	criticar	criticar	VERB	_	VerbForm=Inf	33	xcomp	_	_
+62	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	63	det	_	_
+63	aspecto	aspecto	NOUN	_	Gender=Masc|Number=Sing	61	nsubj	_	SpaceAfter=No
+64	,	,	PUNCT	_	PunctType=Comm	69	punct	_	_
+65	pues	pues	SCONJ	_	_	69	mark	_	_
+66	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	67	det	_	_
+67	concesionarias	concesionario	ADJ	_	Gender=Fem|Number=Plur	69	nsubj	_	_
+68	pueden	poder	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	69	aux	_	_
+69	buscar	buscar	VERB	_	VerbForm=Inf	61	advcl	_	_
+70	sus	su	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	71	det	_	_
+71	ingresos	ingreso	NOUN	_	Gender=Masc|Number=Plur	69	obj	_	_
+72	en	en	ADP	_	_	74	case	_	_
+73	estos	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	74	det	_	_
+74	campos	campo	NOUN	_	Gender=Masc|Number=Plur	69	obl	_	SpaceAfter=No
+75	"	"	PUNCT	_	PunctType=Quot	61	punct	_	SpaceAfter=No
+76	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
 # newdoc id = CESS-CAST-P-19981201-5
 # sent_id = CESS-CAST-P-19981201-5-s1
@@ -57711,7 +57717,7 @@
 27	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
 # sent_id = CESS-CAST-P-20011202-122-s11
-# text = Llega un descanso, pero vacila antes de responder: "Me ha extrañado mucho lo de la muralla, pero por eso he venido.
+# text = Llega un descanso, pero vacila antes de responder: "Me ha extrañado mucho lo de la muralla, pero por eso he venido. "
 # orig_file_sentence 010#41
 1	Llega	llegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -57739,6 +57745,7 @@
 24	he	haber	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
 25	venido	venir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	SpaceAfter=No
 26	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+27	"	"	PUNCT	fe	PunctType=Quot	14	punct	_	_
 
 # sent_id = CESS-CAST-P-20011202-122-s12
 # text = " Hacía muchos años que estuve y no lo sabía".
@@ -61390,7 +61397,7 @@
 19	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
 # sent_id = CESS-CAST-P-20020801-17-s19
-# text = El artículo explicaba: "Vientos de revancha son los que parecen traer algunos de los ayuntamientos recientemente constituidos.
+# text = El artículo explicaba: "Vientos de revancha son los que parecen traer algunos de los ayuntamientos recientemente constituidos. "
 # orig_file_sentence 013#30
 1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	artículo	artículo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -61412,6 +61419,7 @@
 18	recientemente	recientemente	ADV	_	_	19	advmod	_	_
 19	constituidos	constituido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	17	amod	_	SpaceAfter=No
 20	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+21	"	"	PUNCT	fe	PunctType=Quot	9	punct	_	_
 
 # sent_id = CESS-CAST-P-20020801-17-s20
 # text = " El de Guernica aprueba por unanimidad retirar la medalla de la villa así como todos los honores concedidos al anterior jefe del Estado que, aunque moleste a muchos, gobernó 40 años y se llamaba Francisco Franco".
