@@ -19831,7 +19831,7 @@
 28	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = CESS-CAST-A-20001203-1592-s11
-# text = No obstante, para Pascual el "verdadero valor de la compañía" es que " el número de pasajeros que hemos transportado ha aumentado, hasta situarse en siete millones en el año 2000, frente a los 5.757.292 del año pasado, y las cifras de pasajeros por kilómetros recorridos nos sitúa como una de las primeras compañías del tamaño de la nuestra".
+# text = No obstante, para Pascual el "verdadero valor de la compañía" es que "el número de pasajeros que hemos transportado ha aumentado, hasta situarse en siete millones en el año 2000, frente a los 5.757.292 del año pasado, y las cifras de pasajeros por kilómetros recorridos nos sitúa como una de las primeras compañías del tamaño de la nuestra".
 # orig_file_sentence 005#49
 1	No	no	PART	_	_	25	advmod	_	MWE=No_obstante|MWEPOS=ADV
 2	obstante	obstante	NOUN	_	_	1	fixed	_	SpaceAfter=No
@@ -19848,7 +19848,7 @@
 13	"	"	PUNCT	_	PunctType=Quot	9	punct	_	_
 14	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 15	que	que	SCONJ	_	_	25	mark	_	_
-16	"	"	PUNCT	fe	PunctType=Quot	14	punct	_	_
+16	"	"	PUNCT	fe	PunctType=Quot	25	punct	_	SpaceAfter=No
 17	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	número	número	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
 19	de	de	ADP	_	_	20	case	_	_
