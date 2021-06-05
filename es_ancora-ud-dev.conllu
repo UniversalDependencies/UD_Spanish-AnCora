@@ -1389,7 +1389,7 @@
 46	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
 # sent_id = 3LB-CAST-2000060111_5-2-s13
-# text = La aprobación de la amnistía "es una muestra de responsabilidad cívica del Congreso ecuatoriano, " con el fin de" olvidarnos de los hechos pasados para construir una nueva historia ", afirmó Pons
+# text = La aprobación de la amnistía "es una muestra de responsabilidad cívica del Congreso ecuatoriano," con el fin de" olvidarnos de los hechos pasados para construir una nueva historia ", afirmó Pons
 # orig_file_sentence 001#28
 1	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	aprobación	aprobación	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -1408,7 +1408,7 @@
 14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Congreso	Congreso	PROPN	_	_	9	nmod	_	_
 16	ecuatoriano	ecuatoriano	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
-17	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
+17	,	,	PUNCT	_	PunctType=Comm	9	punct	_	SpaceAfter=No
 18	"	"	PUNCT	fe	PunctType=Quot	9	punct	_	_
 19	con	con	ADP	_	_	21	case	_	_
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -13973,7 +13973,7 @@
 76	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s6
-# text = Arzalluz ironizó diciendo que le gustaría "ver a Mayor Oreja como lehendakari. "
+# text = Arzalluz ironizó diciendo que le gustaría "ver a Mayor Oreja como lehendakari."
 # orig_file_sentence 005#87
 1	Arzalluz	Arzalluz	PROPN	_	_	2	nsubj	_	_
 2	ironizó	ironizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -13988,7 +13988,7 @@
 11	Oreja	Oreja	PROPN	_	_	10	flat	_	_
 12	como	como	SCONJ	_	_	13	mark	_	_
 13	lehendakari	lehendakari	NOUN	_	Number=Sing	8	obj	_	SpaceAfter=No
-14	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+14	.	.	PUNCT	_	PunctType=Peri	8	punct	_	SpaceAfter=No
 15	"	"	PUNCT	fe	PunctType=Quot	8	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s7
@@ -14027,7 +14027,7 @@
 31	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s8
-# text = "Pero, con qué mayoría van a gobernar - agregó el presidente del PNV en alusión a PP y PSE-EE -, si ni siquiera le pueden echar a Ibarretxe, con las ganas que tienen de que se vaya. "
+# text = "Pero, con qué mayoría van a gobernar - agregó el presidente del PNV en alusión a PP y PSE-EE -, si ni siquiera le pueden echar a Ibarretxe, con las ganas que tienen de que se vaya."
 # orig_file_sentence 005#89
 1	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
 2	Pero	pero	CCONJ	_	_	9	advmod	_	SpaceAfter=No
@@ -14072,8 +14072,8 @@
 40	que	que	SCONJ	_	_	42	mark	_	_
 41	se	él	PRON	_	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	42	expl:pv	_	_
 42	vaya	ir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	ccomp	_	SpaceAfter=No
-43	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
-44	"	"	PUNCT	fe	PunctType=Quot	30	punct	_	_
+43	.	.	PUNCT	_	PunctType=Peri	9	punct	_	SpaceAfter=No
+44	"	"	PUNCT	fe	PunctType=Quot	9	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s9
 # text = "Lo único que demuestran es su impotencia, porque no lo pueden echar".
@@ -14582,7 +14582,7 @@
 81	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s18
-# text = Juan José Ibarretxe dijo que no le pide a Aznar que "comparta mis ideas, sino que las respete. "
+# text = Juan José Ibarretxe dijo que no le pide a Aznar que "comparta mis ideas, sino que las respete."
 # orig_file_sentence 005#99
 1	Juan	Juan	PROPN	_	_	4	nsubj	_	MWE=Juan_José_Ibarretxe|MWEPOS=PROPN
 2	José	José	PROPN	_	_	1	flat	_	_
@@ -14604,7 +14604,7 @@
 18	que	que	SCONJ	_	_	17	fixed	_	_
 19	las	él	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	20	obj	_	_
 20	respete	respetar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	SpaceAfter=No
-21	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+21	.	.	PUNCT	_	PunctType=Peri	13	punct	_	SpaceAfter=No
 22	"	"	PUNCT	fe	PunctType=Quot	13	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s19
@@ -21737,7 +21737,7 @@
 64	.	.	PUNCT	_	PunctType=Peri	40	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000303-2162-s3
-# text = Para el ministro, "la contención del terrorismo en Egipto no significa que haya desaparecido del país. "
+# text = Para el ministro, "la contención del terrorismo en Egipto no significa que haya desaparecido del país."
 # orig_file_sentence 006#62
 1	Para	para	ADP	_	_	3	case	_	_
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -21761,7 +21761,7 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	país	país	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
-21	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
+21	.	.	PUNCT	_	PunctType=Peri	20	punct	_	SpaceAfter=No
 22	"	"	PUNCT	fe	PunctType=Quot	20	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000303-2162-s4
@@ -57717,7 +57717,7 @@
 27	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
 # sent_id = CESS-CAST-P-20011202-122-s11
-# text = Llega un descanso, pero vacila antes de responder: "Me ha extrañado mucho lo de la muralla, pero por eso he venido. "
+# text = Llega un descanso, pero vacila antes de responder: "Me ha extrañado mucho lo de la muralla, pero por eso he venido."
 # orig_file_sentence 010#41
 1	Llega	llegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -57728,23 +57728,23 @@
 7	antes	antes	ADV	_	_	6	advmod	_	_
 8	de	de	ADP	_	_	9	mark	_	_
 9	responder	responder	VERB	_	VerbForm=Inf	7	advcl	_	SpaceAfter=No
-10	:	:	PUNCT	_	PunctType=Colo	9	punct	_	_
-11	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
-12	Me	yo	PRON	_	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	9	iobj	_	_
-13	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-14	extrañado	extrañar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	xcomp	_	_
-15	mucho	mucho	ADV	_	_	9	advmod	_	_
-16	lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	14	det	_	_
-17	de	de	ADP	_	_	16	case	_	_
+10	:	:	PUNCT	_	PunctType=Colo	14	punct	_	_
+11	"	"	PUNCT	_	PunctType=Quot	14	punct	_	SpaceAfter=No
+12	Me	yo	PRON	_	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	14	iobj	_	_
+13	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	extrañado	extrañar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+15	mucho	mucho	ADV	_	_	14	advmod	_	_
+16	lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	14	nsubj	_	_
+17	de	de	ADP	_	_	19	case	_	_
 18	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	muralla	muralla	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+19	muralla	muralla	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
 21	pero	pero	CCONJ	_	_	25	cc	_	_
 22	por	por	ADP	_	_	23	case	_	_
 23	eso	ese	PRON	_	Number=Sing|PronType=Dem	25	obl	_	_
 24	he	haber	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
 25	venido	venir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	SpaceAfter=No
-26	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+26	.	.	PUNCT	_	PunctType=Peri	14	punct	_	SpaceAfter=No
 27	"	"	PUNCT	fe	PunctType=Quot	14	punct	_	_
 
 # sent_id = CESS-CAST-P-20011202-122-s12
@@ -61397,7 +61397,7 @@
 19	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
 # sent_id = CESS-CAST-P-20020801-17-s19
-# text = El artículo explicaba: "Vientos de revancha son los que parecen traer algunos de los ayuntamientos recientemente constituidos. "
+# text = El artículo explicaba: "Vientos de revancha son los que parecen traer algunos de los ayuntamientos recientemente constituidos."
 # orig_file_sentence 013#30
 1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	artículo	artículo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -61418,7 +61418,7 @@
 17	ayuntamientos	ayuntamiento	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
 18	recientemente	recientemente	ADV	_	_	19	advmod	_	_
 19	constituidos	constituido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	17	amod	_	SpaceAfter=No
-20	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+20	.	.	PUNCT	_	PunctType=Peri	9	punct	_	SpaceAfter=No
 21	"	"	PUNCT	fe	PunctType=Quot	9	punct	_	_
 
 # sent_id = CESS-CAST-P-20020801-17-s20
