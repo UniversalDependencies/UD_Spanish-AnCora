@@ -13990,9 +13990,9 @@
 14	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s7
-# text = " No lo será - añadió -, pero si él o Nicolás Redondo están como lehendakari, se supone que no habrá tiros y no matarán a nadie".
+# text = "No lo será - añadió -, pero si él o Nicolás Redondo están como lehendakari, se supone que no habrá tiros y no matarán a nadie".
 # orig_file_sentence 005#88
-1	"	"	PUNCT	fe	PunctType=Quot	4	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	No	no	ADV	_	Polarity=Neg	3	advmod	_	_
 3	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	0	root	_	_
 4	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
@@ -14073,13 +14073,13 @@
 43	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s9
-# text = " Lo único que demuestran es su impotencia, porque no lo pueden echar".
+# text = "Lo único que demuestran es su impotencia, porque no lo pueden echar".
 # orig_file_sentence 005#90
-1	"	"	PUNCT	fe	PunctType=Quot	6	punct	_	_
-2	Lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	det	_	_
-3	único	único	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	8	punct	_	SpaceAfter=No
+2	Lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	8	nsubj	_	_
+3	único	único	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	que	que	PRON	_	PronType=Int,Rel	5	obj	_	_
-5	demuestran	demostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	csubj	_	_
+5	demuestran	demostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 6	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
 8	impotencia	impotencia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -21760,12 +21760,12 @@
 21	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000303-2162-s4
-# text = " Nadie puede proclamar que el terrorismo se ha acabado en Egipto ", dijo en referencia a los grupos integristas islámicos que, desde hace ocho años, mantienen la lucha armada como método para derrocar al régimen actual e imponer otro de estricta obediencia coránica.
+# text = "Nadie puede proclamar que el terrorismo se ha acabado en Egipto", dijo en referencia a los grupos integristas islámicos que, desde hace ocho años, mantienen la lucha armada como método para derrocar al régimen actual e imponer otro de estricta obediencia coránica.
 # orig_file_sentence 006#63
-1	"	"	PUNCT	fe	PunctType=Quot	4	punct	_	_
-2	Nadie	nadie	PRON	_	Number=Sing|PronType=Neg	15	nsubj	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	4	punct	_	SpaceAfter=No
+2	Nadie	nadie	PRON	_	Number=Sing|PronType=Neg	4	nsubj	_	_
 3	puede	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	proclamar	proclamar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+4	proclamar	proclamar	VERB	_	VerbForm=Inf	15	ccomp	_	_
 5	que	que	SCONJ	_	_	10	mark	_	_
 6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	terrorismo	terrorismo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -21773,7 +21773,7 @@
 9	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	acabado	acabar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
 11	en	en	ADP	_	_	12	case	_	_
-12	Egipto	Egipto	PROPN	_	_	10	obl	_	_
+12	Egipto	Egipto	PROPN	_	_	10	obl	_	SpaceAfter=No
 13	"	"	PUNCT	_	PunctType=Quot	4	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
 15	dijo	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
