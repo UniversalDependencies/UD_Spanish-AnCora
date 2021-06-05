@@ -10752,21 +10752,22 @@
 31	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAST-A-20000123-15801-s23A
-# text = Golpea a la bola con la mayor claridad que nunca he visto.
+# text = " Golpea a la bola con la mayor claridad que nunca he visto.
 # orig_file_sentence 005#35
-1	Golpea	golpear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	a	a	ADP	_	_	4	case	_	_
-3	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	bola	bola	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
-5	con	con	ADP	_	_	8	case	_	_
-6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-7	mayor	mayor	ADJ	_	Degree=Cmp|Number=Sing	8	amod	_	_
-8	claridad	claridad	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
-9	que	que	PRON	_	PronType=Int,Rel	12	obj	_	_
-10	nunca	nunca	ADV	_	_	12	advmod	_	_
-11	he	haber	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
-12	visto	ver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	SpaceAfter=No
-13	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	2	punct	_	_
+2	Golpea	golpear	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	bola	bola	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6	con	con	ADP	_	_	9	case	_	_
+7	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mayor	mayor	ADJ	_	Degree=Cmp|Number=Sing	9	amod	_	_
+9	claridad	claridad	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+10	que	que	PRON	_	PronType=Int,Rel	13	obj	_	_
+11	nunca	nunca	ADV	_	_	13	advmod	_	_
+12	he	haber	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	visto	ver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	SpaceAfter=No
+14	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = CESS-CAST-A-20000123-15801-s23B
 # text = No es un jugador agradable para encontrarse en los torneos, lo sacaría de mi camino si pudiera ", señaló.
@@ -23279,20 +23280,21 @@
 29	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000224-20131-s3
-# text = Estamos en un momento dulce ", declaró el defensa brasileño.
+# text = " Estamos en un momento dulce ", declaró el defensa brasileño.
 # orig_file_sentence 006#37
-1	Estamos	estar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
-2	en	en	ADP	_	_	4	case	_	_
-3	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	momento	momento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
-5	dulce	dulce	ADJ	_	Number=Sing	4	amod	_	_
-6	"	"	PUNCT	_	PunctType=Quot	1	punct	_	SpaceAfter=No
-7	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
-8	declaró	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	defensa	defensa	NOUN	_	Number=Sing	8	nsubj	_	_
-11	brasileño	brasileño	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
-12	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	2	punct	_	_
+2	Estamos	estar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+3	en	en	ADP	_	_	5	case	_	_
+4	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	momento	momento	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+6	dulce	dulce	ADJ	_	Number=Sing	5	amod	_	_
+7	"	"	PUNCT	_	PunctType=Quot	2	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+9	declaró	declarar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	defensa	defensa	NOUN	_	Number=Sing	9	nsubj	_	_
+12	brasileño	brasileño	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000224-20131-s4
 # text = El jugador quiso huir en todo momento de favoritismos.
@@ -24125,23 +24127,24 @@
 10	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000224-20351-s10
-# text = La U. pasó por encima y Calero evitó catástrofe ", resumió el diario.
+# text = " La U. pasó por encima y Calero evitó catástrofe ", resumió el diario.
 # orig_file_sentence 006#67
-1	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	U.	U.	PROPN	_	_	3	nsubj	_	_
-3	pasó	pasar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
-4	por	por	ADP	_	_	5	case	_	_
-5	encima	encima	ADV	_	_	3	advmod	_	_
-6	y	y	CCONJ	_	_	8	cc	_	_
-7	Calero	Calero	PROPN	_	_	8	nsubj	_	_
-8	evitó	evitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
-9	catástrofe	catástrofe	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
-10	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
-11	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
-12	resumió	resumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	diario	diario	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
-15	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	13	punct	_	_
+2	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	U.	U.	PROPN	_	_	4	nsubj	_	_
+4	pasó	pasar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	encima	encima	ADV	_	_	4	advmod	_	_
+7	y	y	CCONJ	_	_	9	cc	_	_
+8	Calero	Calero	PROPN	_	_	9	nsubj	_	_
+9	evitó	evitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	catástrofe	catástrofe	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+11	"	"	PUNCT	_	PunctType=Quot	4	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
+13	resumió	resumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	diario	diario	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000224-20351-s11
 # text = El periódico "El Tiempo" de Bogotá tituló "Nacional sacó 0,4 en la Universidad de Chile" y reseña que "en un partido sorpresivamente unilateral, los locales dominaron en grandes pasajes del encuentro juego de medio campo del volante Leo Rodríguez y del promisorio Rodrigo Tello, mientras que Nacional nunca se encontró con su buen juego de toque".
@@ -30320,19 +30323,20 @@
 39	.	.	PUNCT	_	PunctType=Peri	17	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000608-6438-s9
-# text = Un país próspero, moderno y abierto ", Apostilló.
+# text = " Un país próspero, moderno y abierto ", Apostilló.
 # orig_file_sentence 008#92
-1	Un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	país	país	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
-3	próspero	próspero	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
-5	moderno	moderno	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-6	y	y	CCONJ	_	_	7	cc	_	_
-7	abierto	abierto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	conj	_	_
-8	"	"	PUNCT	_	PunctType=Quot	2	punct	_	SpaceAfter=No
-9	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
-10	Apostilló	apostillar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	11	punct	_	_
+2	Un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	país	país	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+4	próspero	próspero	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
+6	moderno	moderno	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+7	y	y	CCONJ	_	_	8	cc	_	_
+8	abierto	abierto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	conj	_	_
+9	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+11	Apostilló	apostillar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000608-6438-s10
 # text = Agregó que los cuatro nuevos años de mandato que le han otorgado los españoles a su marido suponen que "el PP tiene la responsabilidad de trabajar para que este país alcance las metas que tiene marcadas, para que sea un país de oportunidades, de pleno empleo y de bienestar".

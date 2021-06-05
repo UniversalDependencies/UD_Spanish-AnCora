@@ -13990,38 +13990,39 @@
 14	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s7
-# text = No lo será - añadió -, pero si él o Nicolás Redondo están como lehendakari, se supone que no habrá tiros y no matarán a nadie".
+# text = " No lo será - añadió -, pero si él o Nicolás Redondo están como lehendakari, se supone que no habrá tiros y no matarán a nadie".
 # orig_file_sentence 005#88
-1	No	no	ADV	_	Polarity=Neg	2	advmod	_	_
-2	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	0	root	_	_
-3	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
-4	-	-	PUNCT	_	PunctType=Dash	5	punct	_	_
-5	añadió	añadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
-6	-	-	PUNCT	_	PunctType=Dash	5	punct	_	SpaceAfter=No
-7	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
-8	pero	pero	CCONJ	_	_	19	cc	_	_
-9	si	si	SCONJ	_	_	16	mark	_	_
-10	él	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
-11	o	o	CCONJ	_	_	12	cc	_	_
-12	Nicolás	Nicolás	PROPN	_	_	10	conj	_	MWE=Nicolás_Redondo|MWEPOS=PROPN
-13	Redondo	Redondo	PROPN	_	_	12	flat	_	_
-14	están	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
-15	como	como	SCONJ	_	_	16	mark	_	_
-16	lehendakari	lehendakari	NOUN	_	Number=Sing	19	advcl	_	SpaceAfter=No
-17	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
-18	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	expl:pass	_	_
-19	supone	suponer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-20	que	que	SCONJ	_	_	22	mark	_	_
-21	no	no	ADV	_	Polarity=Neg	22	advmod	_	_
-22	habrá	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	csubj	_	_
-23	tiros	tiro	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
-24	y	y	CCONJ	_	_	26	cc	_	_
-25	no	no	ADV	_	Polarity=Neg	26	advmod	_	_
-26	matarán	matar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	conj	_	_
-27	a	a	ADP	_	_	28	case	_	_
-28	nadie	nadie	PRON	_	Number=Sing|PronType=Neg	26	obj	_	SpaceAfter=No
-29	"	"	PUNCT	_	PunctType=Quot	2	punct	_	SpaceAfter=No
-30	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	4	punct	_	_
+2	No	no	ADV	_	Polarity=Neg	3	advmod	_	_
+3	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	0	root	_	_
+4	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+5	-	-	PUNCT	_	PunctType=Dash	6	punct	_	_
+6	añadió	añadir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+7	-	-	PUNCT	_	PunctType=Dash	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
+9	pero	pero	CCONJ	_	_	20	cc	_	_
+10	si	si	SCONJ	_	_	17	mark	_	_
+11	él	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+12	o	o	CCONJ	_	_	13	cc	_	_
+13	Nicolás	Nicolás	PROPN	_	_	11	conj	_	MWE=Nicolás_Redondo|MWEPOS=PROPN
+14	Redondo	Redondo	PROPN	_	_	13	flat	_	_
+15	están	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	como	como	SCONJ	_	_	17	mark	_	_
+17	lehendakari	lehendakari	NOUN	_	Number=Sing	20	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
+19	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	expl:pass	_	_
+20	supone	suponer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+21	que	que	SCONJ	_	_	23	mark	_	_
+22	no	no	ADV	_	Polarity=Neg	23	advmod	_	_
+23	habrá	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	csubj	_	_
+24	tiros	tiro	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+25	y	y	CCONJ	_	_	27	cc	_	_
+26	no	no	ADV	_	Polarity=Neg	27	advmod	_	_
+27	matarán	matar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	23	conj	_	_
+28	a	a	ADP	_	_	29	case	_	_
+29	nadie	nadie	PRON	_	Number=Sing|PronType=Neg	27	obj	_	SpaceAfter=No
+30	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s8
 # text = "Pero, con qué mayoría van a gobernar - agregó el presidente del PNV en alusión a PP y PSE-EE -, si ni siquiera le pueden echar a Ibarretxe, con las ganas que tienen de que se vaya.
@@ -14072,23 +14073,24 @@
 43	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s9
-# text = Lo único que demuestran es su impotencia, porque no lo pueden echar".
+# text = " Lo único que demuestran es su impotencia, porque no lo pueden echar".
 # orig_file_sentence 005#90
-1	Lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	det	_	_
-2	único	único	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
-3	que	que	PRON	_	PronType=Int,Rel	4	obj	_	_
-4	demuestran	demostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	csubj	_	_
-5	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-6	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
-7	impotencia	impotencia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	_	PunctType=Comm	13	punct	_	_
-9	porque	porque	SCONJ	_	_	13	mark	_	_
-10	no	no	ADV	_	Polarity=Neg	13	advmod	_	_
-11	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	13	obj	_	_
-12	pueden	poder	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	echar	echar	VERB	_	VerbForm=Inf	7	advcl	_	SpaceAfter=No
-14	"	"	PUNCT	_	PunctType=Quot	7	punct	_	SpaceAfter=No
-15	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	6	punct	_	_
+2	Lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	det	_	_
+3	único	único	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+4	que	que	PRON	_	PronType=Int,Rel	5	obj	_	_
+5	demuestran	demostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	csubj	_	_
+6	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	impotencia	impotencia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
+10	porque	porque	SCONJ	_	_	14	mark	_	_
+11	no	no	ADV	_	Polarity=Neg	14	advmod	_	_
+12	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	14	obj	_	_
+13	pueden	poder	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	echar	echar	VERB	_	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+15	"	"	PUNCT	_	PunctType=Quot	8	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s10
 # text = Exhortó a la militancia del PNV a que no se deje "asustar" por la "carga mediática y política" dirigida contra este partido, porque, según dijo, "si les hacemos caso y nos vamos de Estella, luego vendrán por otra cosa", ante lo cual, subrayó, "cuanto más chillan, nosotros más quietos, y cuando dejen de hablar, veremos qué hacemos".
@@ -14602,32 +14604,33 @@
 21	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s19
-# text = Pero las ideas del lehendakari no las respetan muchos en este país, y las ideas no se pueden condenar".
+# text = " Pero las ideas del lehendakari no las respetan muchos en este país, y las ideas no se pueden condenar".
 # orig_file_sentence 005#100
-1	Pero	pero	CCONJ	_	_	9	advmod	_	_
-2	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	ideas	idea	NOUN	_	Gender=Fem|Number=Plur	9	iobj	_	_
-4-5	del	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	lehendakari	lehendakari	NOUN	_	Number=Sing	3	nmod	_	_
-7	no	no	ADV	_	Polarity=Neg	9	advmod	_	_
-8	las	él	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	9	obj	_	_
-9	respetan	respetar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	muchos	mucho	PRON	_	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	9	nsubj	_	_
-11	en	en	ADP	_	_	13	case	_	_
-12	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
-13	país	país	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
-14	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
-15	y	y	CCONJ	_	_	21	cc	_	_
-16	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	ideas	idea	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
-18	no	no	ADV	_	Polarity=Neg	21	advmod	_	_
-19	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	expl:pass	_	_
-20	pueden	poder	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
-21	condenar	condenar	VERB	_	VerbForm=Inf	9	conj	_	SpaceAfter=No
-22	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
-23	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	10	punct	_	_
+2	Pero	pero	CCONJ	_	_	10	advmod	_	_
+3	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	ideas	idea	NOUN	_	Gender=Fem|Number=Plur	10	iobj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lehendakari	lehendakari	NOUN	_	Number=Sing	4	nmod	_	_
+8	no	no	ADV	_	Polarity=Neg	10	advmod	_	_
+9	las	él	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	10	obj	_	_
+10	respetan	respetar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	muchos	mucho	PRON	_	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	10	nsubj	_	_
+12	en	en	ADP	_	_	14	case	_	_
+13	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	país	país	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	PunctType=Comm	22	punct	_	_
+16	y	y	CCONJ	_	_	22	cc	_	_
+17	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	ideas	idea	NOUN	_	Gender=Fem|Number=Plur	22	nsubj	_	_
+19	no	no	ADV	_	Polarity=Neg	22	advmod	_	_
+20	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	22	expl:pass	_	_
+21	pueden	poder	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	condenar	condenar	VERB	_	VerbForm=Inf	10	conj	_	SpaceAfter=No
+23	"	"	PUNCT	_	PunctType=Quot	10	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s20
 # text = El lehendakari subrayó que ETA y la violencia callejera "tienen que desaparecer" y estimó que "no es suficiente condenar la violencia", por lo que el PNV seguirá "haciendo lo posible y lo imposible para que esto definitivamente se acabe", con el convencimiento de que "sólo hay una manera de resolver los problemas: sentarse y hablar".
@@ -21757,57 +21760,58 @@
 21	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000303-2162-s4
-# text = Nadie puede proclamar que el terrorismo se ha acabado en Egipto ", dijo en referencia a los grupos integristas islámicos que, desde hace ocho años, mantienen la lucha armada como método para derrocar al régimen actual e imponer otro de estricta obediencia coránica.
+# text = " Nadie puede proclamar que el terrorismo se ha acabado en Egipto ", dijo en referencia a los grupos integristas islámicos que, desde hace ocho años, mantienen la lucha armada como método para derrocar al régimen actual e imponer otro de estricta obediencia coránica.
 # orig_file_sentence 006#63
-1	Nadie	nadie	PRON	_	Number=Sing|PronType=Neg	14	nsubj	_	_
-2	puede	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	proclamar	proclamar	VERB	_	VerbForm=Inf	14	xcomp	_	_
-4	que	que	SCONJ	_	_	9	mark	_	_
-5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	terrorismo	terrorismo	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-7	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	expl:pv	_	_
-8	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-9	acabado	acabar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
-10	en	en	ADP	_	_	11	case	_	_
-11	Egipto	Egipto	PROPN	_	_	9	obl	_	_
-12	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
-13	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
-14	dijo	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-15	en	en	ADP	_	_	19	case	_	MWE=en_referencia_a|MWEPOS=ADP
-16	referencia	referencia	NOUN	_	_	15	fixed	_	_
-17	a	a	ADP	_	_	15	fixed	_	_
-18	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
-20	integristas	integrista	ADJ	_	Number=Plur	19	amod	_	_
-21	islámicos	islámico	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
-22	que	que	PRON	_	PronType=Int,Rel	29	nsubj	_	SpaceAfter=No
-23	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
-24	desde	desde	ADP	_	_	25	mark	_	_
-25	hace	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
-26	ocho	ocho	NUM	_	Number=Plur|NumType=Card	27	nummod	_	_
-27	años	año	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
-28	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
-29	mantienen	mantener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	_
-30	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	lucha	lucha	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
-32	armada	armado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	31	amod	_	_
-33	como	como	SCONJ	_	_	34	mark	_	_
-34	método	método	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
-35	para	para	ADP	_	_	36	mark	_	_
-36	derrocar	derrocar	VERB	_	VerbForm=Inf	34	acl	_	_
-37-38	al	_	_	_	_	_	_	_	_
-37	a	a	ADP	_	_	39	case	_	_
-38	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	régimen	régimen	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
-40	actual	actual	ADJ	_	Number=Sing	39	amod	_	_
-41	e	e	CCONJ	_	_	42	cc	_	_
-42	imponer	imponer	VERB	_	VerbForm=Inf	36	conj	_	_
-43	otro	otro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	42	obj	_	_
-44	de	de	ADP	_	_	46	case	_	_
-45	estricta	estricto	ADJ	_	Gender=Fem|Number=Sing	46	amod	_	_
-46	obediencia	obediencia	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	_
-47	coránica	coránico	ADJ	_	Gender=Fem|Number=Sing	46	amod	_	SpaceAfter=No
-48	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	4	punct	_	_
+2	Nadie	nadie	PRON	_	Number=Sing|PronType=Neg	15	nsubj	_	_
+3	puede	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	proclamar	proclamar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+5	que	que	SCONJ	_	_	10	mark	_	_
+6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	terrorismo	terrorismo	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+9	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	acabado	acabar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+11	en	en	ADP	_	_	12	case	_	_
+12	Egipto	Egipto	PROPN	_	_	10	obl	_	_
+13	"	"	PUNCT	_	PunctType=Quot	4	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
+15	dijo	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	en	en	ADP	_	_	20	case	_	MWE=en_referencia_a|MWEPOS=ADP
+17	referencia	referencia	NOUN	_	_	16	fixed	_	_
+18	a	a	ADP	_	_	16	fixed	_	_
+19	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+21	integristas	integrista	ADJ	_	Number=Plur	20	amod	_	_
+22	islámicos	islámico	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
+23	que	que	PRON	_	PronType=Int,Rel	30	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
+25	desde	desde	ADP	_	_	26	mark	_	_
+26	hace	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+27	ocho	ocho	NUM	_	Number=Plur|NumType=Card	28	nummod	_	_
+28	años	año	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+29	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
+30	mantienen	mantener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	_
+31	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	lucha	lucha	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+33	armada	armado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	32	amod	_	_
+34	como	como	SCONJ	_	_	35	mark	_	_
+35	método	método	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+36	para	para	ADP	_	_	37	mark	_	_
+37	derrocar	derrocar	VERB	_	VerbForm=Inf	35	acl	_	_
+38-39	al	_	_	_	_	_	_	_	_
+38	a	a	ADP	_	_	40	case	_	_
+39	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	régimen	régimen	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	_
+41	actual	actual	ADJ	_	Number=Sing	40	amod	_	_
+42	e	e	CCONJ	_	_	43	cc	_	_
+43	imponer	imponer	VERB	_	VerbForm=Inf	37	conj	_	_
+44	otro	otro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	43	obj	_	_
+45	de	de	ADP	_	_	47	case	_	_
+46	estricta	estricto	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	_
+47	obediencia	obediencia	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	_
+48	coránica	coránico	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	SpaceAfter=No
+49	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000303-2162-s5
 # text = El Parlamento egipcio, en el que más del 95 por ciento de los diputados pertenece al gobernante Partido Nacional Democrático (PND), decidió la semana pasada ampliar otros tres años el estado de emergencia en todo el país, vigente desde que hace 19 años fue asesinado el anterior presidente, Anuar Sadat.
@@ -57737,19 +57741,20 @@
 26	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
 # sent_id = CESS-CAST-P-20011202-122-s12
-# text = Hacía muchos años que estuve y no lo sabía".
+# text = " Hacía muchos años que estuve y no lo sabía".
 # orig_file_sentence 010#42
-1	Hacía	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
-2	muchos	mucho	DET	_	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	3	det	_	_
-3	años	año	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
-4	que	que	SCONJ	_	_	5	mark	_	_
-5	estuve	estar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
-6	y	y	CCONJ	_	_	9	cc	_	_
-7	no	no	ADV	_	Polarity=Neg	9	advmod	_	_
-8	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	9	obj	_	_
-9	sabía	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
-10	"	"	PUNCT	_	PunctType=Quot	5	punct	_	SpaceAfter=No
-11	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	6	punct	_	_
+2	Hacía	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+3	muchos	mucho	DET	_	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	4	det	_	_
+4	años	año	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+5	que	que	SCONJ	_	_	6	mark	_	_
+6	estuve	estar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+7	y	y	CCONJ	_	_	10	cc	_	_
+8	no	no	ADV	_	Polarity=Neg	10	advmod	_	_
+9	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	10	obj	_	_
+10	sabía	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	SpaceAfter=No
+11	"	"	PUNCT	_	PunctType=Quot	6	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAST-P-20011202-122-s13
 # text = Claudia Clair, de 24 años, y Robby Blake, de 33, también están encantados.
@@ -61409,50 +61414,51 @@
 20	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAST-P-20020801-17-s20
-# text = El de Guernica aprueba por unanimidad retirar la medalla de la villa así como todos los honores concedidos al anterior jefe del Estado que, aunque moleste a muchos, gobernó 40 años y se llamaba Francisco Franco".
+# text = " El de Guernica aprueba por unanimidad retirar la medalla de la villa así como todos los honores concedidos al anterior jefe del Estado que, aunque moleste a muchos, gobernó 40 años y se llamaba Francisco Franco".
 # orig_file_sentence 013#31
-1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-2	de	de	ADP	_	_	1	case	_	_
-3	Guernica	Guernica	PROPN	_	_	1	nsubj	_	_
-4	aprueba	aprobar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	por	por	ADP	_	_	6	case	_	_
-6	unanimidad	unanimidad	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
-7	retirar	retirar	VERB	_	VerbForm=Inf	4	xcomp	_	_
-8	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	medalla	medalla	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	villa	villa	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-13	así	así	ADV	_	_	17	cc	_	MWE=así_como|MWEPOS=CCONJ
-14	como	como	SCONJ	_	_	13	fixed	_	_
-15	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	16	det	_	_
-16	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-17	honores	honor	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
-18	concedidos	concedido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	17	amod	_	_
-19-20	al	_	_	_	_	_	_	_	_
-19	a	a	ADP	_	_	22	case	_	_
-20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-21	anterior	anterior	ADJ	_	Number=Sing	22	amod	_	_
-22	jefe	jefe	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
-23-24	del	_	_	_	_	_	_	_	_
-23	de	de	ADP	_	_	25	case	_	_
-24	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	Estado	Estado	PROPN	_	_	22	nmod	_	_
-26	que	que	PRON	_	PronType=Int,Rel	33	nsubj	_	SpaceAfter=No
-27	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
-28	aunque	aunque	SCONJ	_	_	29	mark	_	_
-29	moleste	molestar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	_
-30	a	a	ADP	_	_	31	case	_	_
-31	muchos	mucho	PRON	_	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	29	obj	_	SpaceAfter=No
-32	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
-33	gobernó	gobernar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl	_	_
-34	40	40	NUM	_	NumForm=Digit|NumType=Card	35	nummod	_	_
-35	años	año	NOUN	_	Gender=Masc|Number=Plur	33	obl	_	_
-36	y	y	CCONJ	_	_	38	cc	_	_
-37	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	38	expl:pv	_	_
-38	llamaba	llamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	conj	_	_
-39	Francisco	Francisco	PROPN	_	_	38	obj	_	MWE=Francisco_Franco|MWEPOS=PROPN
-40	Franco	Franco	PROPN	_	_	39	flat	_	SpaceAfter=No
-41	"	"	PUNCT	_	PunctType=Quot	4	punct	_	SpaceAfter=No
-42	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	5	punct	_	_
+2	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	de	de	ADP	_	_	2	case	_	_
+4	Guernica	Guernica	PROPN	_	_	2	nsubj	_	_
+5	aprueba	aprobar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	unanimidad	unanimidad	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8	retirar	retirar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+9	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	medalla	medalla	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	villa	villa	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	así	así	ADV	_	_	18	cc	_	MWE=así_como|MWEPOS=CCONJ
+15	como	como	SCONJ	_	_	14	fixed	_	_
+16	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	17	det	_	_
+17	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	honores	honor	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
+19	concedidos	concedido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	18	amod	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	_	_	23	case	_	_
+21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	anterior	anterior	ADJ	_	Number=Sing	23	amod	_	_
+23	jefe	jefe	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Estado	Estado	PROPN	_	_	23	nmod	_	_
+27	que	que	PRON	_	PronType=Int,Rel	34	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
+29	aunque	aunque	SCONJ	_	_	30	mark	_	_
+30	moleste	molestar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	_
+31	a	a	ADP	_	_	32	case	_	_
+32	muchos	mucho	PRON	_	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	30	obj	_	SpaceAfter=No
+33	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
+34	gobernó	gobernar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	acl	_	_
+35	40	40	NUM	_	NumForm=Digit|NumType=Card	36	nummod	_	_
+36	años	año	NOUN	_	Gender=Masc|Number=Plur	34	obl	_	_
+37	y	y	CCONJ	_	_	39	cc	_	_
+38	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	39	expl:pv	_	_
+39	llamaba	llamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	conj	_	_
+40	Francisco	Francisco	PROPN	_	_	39	obj	_	MWE=Francisco_Franco|MWEPOS=PROPN
+41	Franco	Franco	PROPN	_	_	40	flat	_	SpaceAfter=No
+42	"	"	PUNCT	_	PunctType=Quot	5	punct	_	SpaceAfter=No
+43	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
