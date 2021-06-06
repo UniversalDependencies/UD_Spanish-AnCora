@@ -212,7 +212,7 @@
 34	de	de	ADP	_	_	35	case	_	_
 35	1990	1990	NUM	_	NumForm=Digit|NumType=Card	31	compound	_	_
 36	y	y	CCONJ	_	_	44	cc	_	SpaceAfter=No
-37	,	,	PUNCT	_	PunctType=Comm	39	punct	_	_
+37	,	,	PUNCT	_	PunctType=Comm	36	punct	_	_
 38	por	por	ADP	_	_	39	case	_	_
 39	decisión	decisión	NOUN	_	Gender=Fem|Number=Sing	44	obl	_	_
 40-41	del	_	_	_	_	_	_	_	_
@@ -550,7 +550,7 @@
 12	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
 13	desde	desde	ADP	_	_	21	mark	_	_
 14	que	que	SCONJ	_	_	21	mark	_	SpaceAfter=No
-15	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
+15	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 16	hace	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
 17	150	150	NUM	_	NumForm=Digit|NumType=Card	18	nummod	_	_
 18	años	año	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
@@ -699,7 +699,7 @@
 17	machaca	machacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_
 18	sin	sin	ADP	_	_	19	mark	_	_
 19	cesar	cesar	VERB	_	VerbForm=Inf	17	advcl	_	SpaceAfter=No
-20	:	:	PUNCT	_	PunctType=Colo	1	punct	_	_
+20	:	:	PUNCT	_	PunctType=Colo	21	punct	_	_
 21	ésos	ese	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	1	flat	_	_
 22	son	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 23	algunos	alguno	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
@@ -948,7 +948,7 @@
 6	clasista	clasista	ADJ	_	Number=Sing	5	amod	_	_
 7	por	por	ADP	_	_	8	case	_	_
 8	naturaleza	naturaleza	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
-9	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
+9	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 10	hasta	hasta	ADP	_	_	12	case	_	_
 11	en	en	ADP	_	_	12	case	_	_
 12	eso	ese	PRON	_	Number=Sing|PronType=Dem	14	obl	_	_
@@ -1051,7 +1051,7 @@
 17	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	vida	vida	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
 19	regalada	regalado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	18	amod	_	SpaceAfter=No
-20	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
+20	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 22	eterno	eterno	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
 23	banquete	banquete	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
@@ -1059,7 +1059,7 @@
 25	sobras	sobra	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
 26	y	y	CCONJ	_	_	27	cc	_	_
 27	residuos	residuo	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No
-28	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
+28	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
 29	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	festín	festín	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
 31	organizado	organizado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	30	amod	_	_
@@ -1194,7 +1194,7 @@
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Madrid	Madrid	PROPN	_	_	15	nsubj	_	_
 13	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
-14	-	-	PUNCT	_	PunctType=Dash	15	punct	_	_
+14	-	-	PUNCT	_	PunctType=Dash	13	punct	_	_
 15	Buyo	Buyo	PROPN	_	_	8	acl	_	_
 16	y	y	CCONJ	_	_	17	cc	_	_
 17	diez	diez	NUM	_	Number=Plur|NumType=Card	15	conj	_	_
@@ -1211,18 +1211,18 @@
 4	alguna	alguno	DET	_	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
 5	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 6	Alfonso	Alfonso	PROPN	_	_	5	appos	_	SpaceAfter=No
-7	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
+7	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
 8	y	y	CCONJ	_	_	5	cc	_	_
 9	alguna	alguno	DET	_	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
 10	vez	vez	NOUN	_	Gender=Fem|Number=Sing	5	orphan	_	_
 11	Míchel	Míchel	PROPN	_	_	10	appos	_	SpaceAfter=No
-12	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
+12	,	,	PUNCT	_	PunctType=Comm	13	punct	_	_
 13	y	y	CCONJ	_	_	5	cc	_	_
 14	alguna	alguno	DET	_	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
 15	vez	vez	NOUN	_	Gender=Fem|Number=Sing	5	orphan	_	_
 16	Luis	Luis	PROPN	_	_	15	appos	_	MWE=Luis_Enrique|MWEPOS=PROPN
 17	Enrique	Enrique	PROPN	_	_	16	flat	_	SpaceAfter=No
-18	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
+18	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
 19	y	y	CCONJ	_	_	5	cc	_	_
 20	alguna	alguno	DET	_	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
 21	vez	vez	NOUN	_	Gender=Fem|Number=Sing	5	orphan	_	_
@@ -1259,7 +1259,7 @@
 24	blandos	blando	ADJ	_	Gender=Masc|Number=Plur	23	obj	_	_
 25	o	o	CCONJ	_	_	26	cc	_	_
 26	egoístas	egoísta	ADJ	_	Number=Plur	24	conj	_	SpaceAfter=No
-27	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
+27	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
 28	acaso	acaso	ADV	_	_	29	advmod	_	_
 29	confiados	confiado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	24	advmod	_	_
 30	por	por	ADP	_	_	32	case	_	_
@@ -2020,7 +2020,7 @@
 20	de	de	ADP	_	_	22	case	_	_
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	baloncesto	baloncesto	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
-23	-	-	PUNCT	_	PunctType=Dash	19	punct	_	_
+23	-	-	PUNCT	_	PunctType=Dash	24	punct	_	_
 24	como	como	SCONJ	_	_	19	mark	_	_
 25	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 26	casi	casi	ADV	_	_	27	advmod	_	_
@@ -2095,9 +2095,9 @@
 17	adoptar	adoptar	VERB	_	VerbForm=Inf	16	xcomp	_	_
 18	posturas	postura	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
 19	difíciles	difícil	ADJ	_	Number=Plur	18	amod	_	SpaceAfter=No
-20	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
+20	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
 21	conflictivas	conflictivo	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
-22	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
+22	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
 23	duras	duro	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
 24	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
@@ -2293,7 +2293,7 @@
 15	Ricardo	Ricardo	PROPN	_	_	10	nmod	_	MWE=Ricardo_Peral|MWEPOS=PROPN
 16	Peral	Peral	PROPN	_	_	15	flat	_	SpaceAfter=No
 17	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	10	punct	_	SpaceAfter=No
-18	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+18	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
 19	a	a	ADP	_	_	21	advmod	_	MWE=a_veces|MWEPOS=ADV
 20	veces	veces	NOUN	_	_	19	fixed	_	_
 21	defraudado	defraudado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	3	advmod	_	_
@@ -2531,7 +2531,7 @@
 1	En	en	ADP	_	_	3	case	_	_
 2	cualquier	cualquiera	DET	_	Number=Sing|PronType=Ind	3	det	_	_
 3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 5	según	según	SCONJ	_	_	6	mark	_	_
 6	continúan	continuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	asegurando	asegurar	VERB	_	VerbForm=Ger	6	xcomp	_	_
@@ -2760,8 +2760,8 @@
 2	preguntar	preguntar	VERB	_	VerbForm=Inf	1	csubj	_	_
 3	se	él	PRON	_	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	2	expl:impers	_	_
 4	entonces	entonces	ADV	_	_	2	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
-6	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	2	punct	_	SpaceAfter=No
+5	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
+6	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	8	punct	_	SpaceAfter=No
 7	por	por	ADP	_	_	8	case	_	_
 8	qué	qué	PRON	_	Number=Sing|PronType=Int,Rel	2	obl	_	_
 9	algunas	alguno	DET	_	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
@@ -2784,7 +2784,7 @@
 25	en	en	ADP	_	_	27	case	_	_
 26	repetidas	repetido	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	27	amod	_	_
 27	ocasiones	ocasión	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
-28	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	1	punct	_	_
+28	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	27	punct	_	_
 
 # sent_id = 3LB-CAST-dc10-1-s3
 # text = La razón es que existe toda una gama de virus que provoca este tipo de enfermedades.
@@ -2817,7 +2817,7 @@
 5	capaces	capaz	ADJ	_	Number=Plur	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 7	incluso	incluso	ADV	_	_	5	advmod	_	SpaceAfter=No
-8	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
+8	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
 9	de	de	ADP	_	_	10	mark	_	_
 10	sufrir	sufrir	VERB	_	VerbForm=Inf	7	advcl	_	_
 11	mutaciones	mutación	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
@@ -2894,7 +2894,7 @@
 6	a	a	ADP	_	_	8	case	_	_
 7	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
 8	servicio	servicio	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
-9	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
+9	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 10	incluso	incluso	ADV	_	_	11	advmod	_	_
 11	llegan	llegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 12	a	a	ADP	_	_	13	mark	_	_
@@ -2970,7 +2970,7 @@
 21	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	virus	virus	NOUN	_	Gender=Masc	14	nmod	_	SpaceAfter=No
 23	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	10	punct	_	SpaceAfter=No
-24	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
+24	,	,	PUNCT	_	PunctType=Comm	39	punct	_	_
 25	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	39	punct	_	SpaceAfter=No
 26	por	por	ADP	_	_	27	case	_	_
 27	qué	qué	PRON	_	Number=Sing|PronType=Int,Rel	39	obl	_	_
@@ -3006,7 +3006,7 @@
 56	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	aux	_	_
 57	identificado	identificar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	53	acl	_	SpaceAfter=No
 58	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	39	punct	_	SpaceAfter=No
-59	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
+59	,	,	PUNCT	_	PunctType=Comm	62	punct	_	_
 60	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	62	punct	_	SpaceAfter=No
 61	por	por	ADP	_	_	62	case	_	_
 62	qué	qué	PRON	_	Number=Sing|PronType=Int,Rel	10	obl	_	_
@@ -3015,7 +3015,7 @@
 65	,	,	PUNCT	_	PunctType=Comm	67	punct	_	_
 66	o	o	CCONJ	_	_	67	cc	_	_
 67	después	después	ADV	_	_	64	conj	_	SpaceAfter=No
-68	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	2	punct	_	_
+68	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	62	punct	_	_
 
 # sent_id = 3LB-CAST-dc10-1-s10
 # text = Es evidente que los virus necesitan células, ya sean animales o vegetales, para sobrevivir.
@@ -3060,7 +3060,7 @@
 16	Otto	Otto	PROPN	_	_	14	flat	_	_
 17	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	18	punct	_	SpaceAfter=No
 18	1832	1832	NOUN	_	AdvType=Tim	14	appos	_	_
-19	-	-	PUNCT	_	PunctType=Dash	18	punct	_	_
+19	-	-	PUNCT	_	PunctType=Dash	20	punct	_	_
 20	1891	1891	NOUN	_	AdvType=Tim	18	nmod	_	SpaceAfter=No
 21	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	18	punct	_	_
 22	se	él	PRON	_	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	23	expl:pv	_	_
@@ -3238,7 +3238,7 @@
 30	Daimler	Daimler	PROPN	_	_	29	flat	_	_
 31	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	32	punct	_	SpaceAfter=No
 32	1834	1834	NOUN	_	AdvType=Tim	29	appos	_	_
-33	-	-	PUNCT	_	PunctType=Dash	32	punct	_	_
+33	-	-	PUNCT	_	PunctType=Dash	34	punct	_	_
 34	1900	1900	NOUN	_	AdvType=Tim	32	nmod	_	SpaceAfter=No
 35	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	32	punct	_	_
 36	y	y	CCONJ	_	_	40	cc	_	_
@@ -3360,13 +3360,13 @@
 26	Benz	Benz	PROPN	_	_	24	flat	_	_
 27	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	28	punct	_	SpaceAfter=No
 28	1844	1844	NOUN	_	AdvType=Tim	24	appos	_	_
-29	-	-	PUNCT	_	PunctType=Dash	28	punct	_	_
+29	-	-	PUNCT	_	PunctType=Dash	30	punct	_	_
 30	1929	1929	NOUN	_	AdvType=Tim	28	nmod	_	SpaceAfter=No
 31	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	28	punct	_	_
 32	en	en	ADP	_	_	34	case	_	_
 33	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	que	que	PRON	_	PronType=Int,Rel	43	obl	_	_
-35	-	-	PUNCT	_	PunctType=Dash	43	punct	_	_
+35	-	-	PUNCT	_	PunctType=Dash	34	punct	_	_
 36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	chasis	chasis	NOUN	_	Gender=Masc	43	nsubj	_	_
 38	y	y	CCONJ	_	_	40	cc	_	_
@@ -3379,7 +3379,7 @@
 45	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	todo	todo	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	43	xcomp	_	_
 47	orgánico	orgánico	ADJ	_	Gender=Masc|Number=Sing	46	amod	_	_
-48	-	-	PUNCT	_	PunctType=Dash	43	punct	_	SpaceAfter=No
+48	-	-	PUNCT	_	PunctType=Dash	55	punct	_	SpaceAfter=No
 49	;	;	PUNCT	_	PunctType=Semi	55	punct	_	_
 50	es	es	NOUN	_	_	55	cc	_	MWE=es_decir|MWEPOS=CCONJ
 51	decir	decir	NOUN	_	_	50	fixed	_	SpaceAfter=No
@@ -3408,7 +3408,7 @@
 14	de	de	ADP	_	_	16	case	_	_
 15	dos	dos	NUM	_	Number=Plur|NumType=Card	16	nummod	_	_
 16	ruedas	rueda	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
-17	;	;	PUNCT	_	PunctType=Semi	2	punct	_	_
+17	;	;	PUNCT	_	PunctType=Semi	23	punct	_	_
 18	por	por	ADP	_	_	19	case	_	_
 19	eso	ese	PRON	_	Number=Sing|PronType=Dem	23	obl	_	_
 20	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
@@ -3478,7 +3478,7 @@
 20	y	y	CCONJ	_	_	21	cc	_	_
 21	Wilhelm	Wilhelm	PROPN	_	_	15	conj	_	MWE=Wilhelm_Maybach|MWEPOS=PROPN
 22	Maybach	Maybach	PROPN	_	_	21	flat	_	SpaceAfter=No
-23	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
+23	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
 24	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	automóvil	automóvil	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
 26	que	que	PRON	_	PronType=Int,Rel	27	nsubj	_	_
@@ -3864,7 +3864,7 @@
 27	Federal	Federal	PROPN	_	_	26	flat	_	_
 28	Alemana	Alemana	PROPN	_	_	26	flat	_	SpaceAfter=No
 29	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	26	punct	_	SpaceAfter=No
-30	:	:	PUNCT	_	PunctType=Colo	3	punct	_	_
+30	:	:	PUNCT	_	PunctType=Colo	40	punct	_	_
 31	lógicamente	lógicamente	ADV	_	_	40	advmod	_	SpaceAfter=No
 32	,	,	PUNCT	_	PunctType=Comm	31	punct	_	_
 33	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
@@ -4070,7 +4070,7 @@
 36	y	y	CCONJ	_	_	45	cc	_	_
 37	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
 38	satisfactorios	satisfactorio	ADJ	_	Gender=Masc|Number=Plur	45	amod	_	SpaceAfter=No
-39	,	,	PUNCT	_	PunctType=Comm	45	punct	_	_
+39	,	,	PUNCT	_	PunctType=Comm	38	punct	_	_
 40	en	en	ADP	_	_	42	case	_	_
 41	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
 42	que	que	PRON	_	PronType=Int,Rel	45	obl	_	_
@@ -4123,7 +4123,7 @@
 22	caballeros	caballero	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	honor	honor	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	_	PunctType=Comm	22	punct	_	_
+25	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
 26	no	no	ADV	_	Polarity=Neg	28	advmod	_	_
 27	dos	dos	NUM	_	Number=Plur|NumType=Card	28	nummod	_	_
 28	maleantes	maleante	NOUN	_	Number=Plur	22	appos	_	SpaceAfter=No
@@ -4149,7 +4149,7 @@
 15	presa	presa	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
 16	en	en	ADP	_	_	17	case	_	_
 17	ellos	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
-18	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
+18	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
 19	aunque	aunque	SCONJ	_	_	24	mark	_	_
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	corazón	corazón	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
@@ -4292,7 +4292,7 @@
 2	dice	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Larra	Larra	PROPN	_	_	2	nsubj	_	_
 4	que	que	SCONJ	_	_	11	mark	_	_
-5	-	-	PUNCT	_	PunctType=Dash	11	punct	_	_
+5	-	-	PUNCT	_	PunctType=Dash	4	punct	_	_
 6	con	con	ADP	_	_	8	case	_	_
 7	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
 8	concurso	concurso	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
@@ -4507,7 +4507,7 @@
 10	Bu4NaO4	Bu4NaO4	NOUN	_	_	7	obl	_	_
 11	en	en	ADP	_	_	16	case	_	_
 12	1,1	1.1	NUM	_	NumForm=Digit|NumType=Card	16	nummod	_	SpaceAfter=No
-13	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
+13	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 14	2	2	NUM	_	NumForm=Digit|NumType=Card	12	nummod	_	_
 15	-	-	PUNCT	_	PunctType=Dash	12	punct	_	_
 16	tricloroetano	tricloroetano	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
@@ -4558,7 +4558,7 @@
 23	reducción	reducción	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 24	menores	menor	ADJ	_	Degree=Cmp|Number=Plur	23	amod	_	_
 25	y	y	CCONJ	_	_	28	cc	_	SpaceAfter=No
-26	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
+26	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
 27	con	con	ADP	_	_	28	case	_	_
 28	ello	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	conj	_	SpaceAfter=No
 29	,	,	PUNCT	_	PunctType=Comm	33	punct	_	_
@@ -4677,7 +4677,7 @@
 3	en	en	ADP	_	_	5	case	_	_
 4	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	molécula	molécula	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
+6	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -4948,7 +4948,7 @@
 21-22	al	_	_	_	_	_	_	_	_
 21	a	a	ADP	_	_	24	case	_	_
 22	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-23	-	-	PUNCT	_	PunctType=Dash	24	punct	_	_
+23	-	-	PUNCT	_	PunctType=Dash	22	punct	_	_
 24-25	doparlo	_	_	_	_	_	_	_	_
 24	dopar	dopar	VERB	_	VerbForm=Inf	27	advcl	_	_
 25	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	24	obj	_	_
@@ -5361,7 +5361,7 @@
 46	lenguaje	lenguaje	NOUN	_	Gender=Masc|Number=Sing	48	nsubj	_	_
 47	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
 48	corpóreo	corpóreo	ADJ	_	Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
-49	,	,	PUNCT	_	PunctType=Comm	48	punct	_	_
+49	,	,	PUNCT	_	PunctType=Comm	50	punct	_	_
 50	movimiento	movimiento	NOUN	_	Gender=Masc|Number=Sing	48	obj	_	_
 51	de	de	ADP	_	_	52	case	_	_
 52	moléculas	molécula	NOUN	_	Gender=Fem|Number=Plur	50	nmod	_	_
@@ -5373,7 +5373,7 @@
 58	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
 59	tímpano	tímpano	NOUN	_	Gender=Masc|Number=Sing	56	obj	_	_
 60	y	y	CCONJ	_	_	68	cc	_	SpaceAfter=No
-61	,	,	PUNCT	_	PunctType=Comm	68	punct	_	_
+61	,	,	PUNCT	_	PunctType=Comm	60	punct	_	_
 62	por	por	ADP	_	_	63	case	_	_
 63	qué	qué	PRON	_	Number=Sing|PronType=Int,Rel	68	obl	_	_
 64	con	con	ADP	_	_	66	case	_	_
@@ -5485,18 +5485,18 @@
 # text = 50 - pelas - un anís, 75 un - güisqui -, 200 un cubata de ron de caña, 10 duros un vino.
 # orig_file_sentence 002#52
 1	50	50	NUM	_	NumForm=Digit|NumType=Card	3	nummod	_	_
-2	-	-	PUNCT	_	PunctType=Dash	3	punct	_	_
+2	-	-	PUNCT	_	PunctType=Dash	1	punct	_	_
 3	pelas	pela	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-4	-	-	PUNCT	_	PunctType=Dash	3	punct	_	_
+4	-	-	PUNCT	_	PunctType=Dash	6	punct	_	_
 5	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	anís	anís	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
-7	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+7	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
 8	75	75	NUM	_	NumForm=Digit|NumType=Card	3	nummod	_	_
 9	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	-	-	PUNCT	_	PunctType=Dash	11	punct	_	_
+10	-	-	PUNCT	_	PunctType=Dash	9	punct	_	_
 11	güisqui	güisqui	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
 12	-	-	PUNCT	_	PunctType=Dash	11	punct	_	SpaceAfter=No
-13	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+13	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 14	200	200	NUM	_	NumForm=Digit|NumType=Card	3	nummod	_	_
 15	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	cubata	cubata	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	_
@@ -5504,7 +5504,7 @@
 18	ron	ron	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	caña	caña	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+21	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
 22	10	10	NUM	_	NumForm=Digit|NumType=Card	23	nummod	_	_
 23	duros	duro	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 24	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -5970,11 +5970,11 @@
 20	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	csubj	_	_
 21	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
 22	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-23	-	-	PUNCT	_	PunctType=Dash	24	punct	_	_
+23	-	-	PUNCT	_	PunctType=Dash	22	punct	_	_
 24	política	política	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
 25	industrial	industrial	ADJ	_	Number=Sing	24	amod	_	_
 26	activa	activo	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
-27	-	-	PUNCT	_	PunctType=Dash	24	punct	_	SpaceAfter=No
+27	-	-	PUNCT	_	PunctType=Dash	31	punct	_	SpaceAfter=No
 28	,	,	PUNCT	_	PunctType=Comm	31	punct	_	_
 29	que	que	PRON	_	PronType=Int,Rel	31	nsubj	_	_
 30	debería	deber	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	31	aux	_	_
@@ -5985,12 +5985,12 @@
 35	de	de	ADP	_	_	37	case	_	_
 36	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	economía	economía	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
-38	-	-	PUNCT	_	PunctType=Dash	34	punct	_	SpaceAfter=No
+38	-	-	PUNCT	_	PunctType=Dash	44	punct	_	SpaceAfter=No
 39	,	,	PUNCT	_	PunctType=Comm	44	punct	_	_
 40	así	así	ADV	_	_	44	cc	_	MWE=así_como|MWEPOS=SCONJ
 41	como	como	SCONJ	_	_	40	fixed	_	_
 42	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-43	-	-	PUNCT	_	PunctType=Dash	44	punct	_	_
+43	-	-	PUNCT	_	PunctType=Dash	42	punct	_	_
 44	generación	generación	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	_
 45	de	de	ADP	_	_	47	case	_	_
 46	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
@@ -6002,7 +6002,7 @@
 52	instalada	instalado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	51	acl	_	_
 53	en	en	ADP	_	_	54	case	_	_
 54	España	España	PROPN	_	_	52	obl	_	SpaceAfter=No
-55	,	,	PUNCT	_	PunctType=Comm	52	punct	_	_
+55	,	,	PUNCT	_	PunctType=Comm	56	punct	_	_
 56	aunque	aunque	SCONJ	_	_	52	mark	_	_
 57	no	no	ADV	_	Polarity=Neg	52	advmod	_	_
 58	sea	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	cop	_	_
@@ -6051,7 +6051,7 @@
 14	nunca	nunca	ADV	_	_	15	advmod	_	_
 15	dijo	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 16	que	que	SCONJ	_	_	22	mark	_	_
-17	-	-	PUNCT	_	PunctType=Dash	22	punct	_	_
+17	-	-	PUNCT	_	PunctType=Dash	16	punct	_	_
 18	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	mejor	mejor	ADJ	_	Degree=Cmp|Number=Sing	20	amod	_	_
 20	política	política	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
@@ -6657,15 +6657,15 @@
 7	punto	punto	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
 8	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	oposición	oposición	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
-10	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+10	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
 11	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	mecanismos	mecanismo	NOUN	_	Gender=Masc|Number=Plur	9	appos	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	control	control	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+15	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
 16	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	periódicos	periódico	NOUN	_	Gender=Masc|Number=Plur	9	appos	_	SpaceAfter=No
-18	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+18	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Parlamento	Parlamento	PROPN	_	_	9	appos	_	SpaceAfter=No
 21	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
@@ -6953,7 +6953,7 @@
 5	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	garita	garita	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 7	jaula	jaula	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+8	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
 9	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	ojos	ojo	NOUN	_	Gender=Masc|Number=Plur	2	appos	_	_
 11	vigilaban	vigilar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -7089,7 +7089,7 @@
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	mar	mar	NOUN	_	Number=Sing	1	obl	_	_
 6	irritado	irritado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	5	amod	_	SpaceAfter=No
-7	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
+7	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
 8	reía	reír	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
 9	hasta	hasta	ADP	_	_	11	case	_	_
 10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -7253,10 +7253,10 @@
 20	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	lluvia	lluvia	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 22	caliente	caliente	ADJ	_	Number=Sing	21	amod	_	SpaceAfter=No
-23	,	,	PUNCT	_	PunctType=Comm	22	punct	_	_
+23	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
 24	primero	primero	ADV	_	_	25	advmod	_	_
 25	blanda	blando	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
-26	,	,	PUNCT	_	PunctType=Comm	22	punct	_	_
+26	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
 27	luego	luego	ADV	_	_	28	advmod	_	_
 28	furiosa	furioso	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
 29	,	,	PUNCT	_	PunctType=Comm	31	punct	_	_
@@ -7269,7 +7269,7 @@
 36-37	clavarle	_	_	_	_	_	_	_	SpaceAfter=No
 36	clavar	clavar	VERB	_	VerbForm=Inf	35	xcomp	_	_
 37	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
-38	,	,	PUNCT	_	PunctType=Comm	36	punct	_	_
+38	,	,	PUNCT	_	PunctType=Comm	39	punct	_	_
 39-40	ensimismarle	_	_	_	_	_	_	_	_
 39	ensimismar	ensimismarse	VERB	_	VerbForm=Inf	36	advcl	_	_
 40	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	39	obj	_	_
@@ -7329,7 +7329,7 @@
 9	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Chimera	Chimera	PROPN	_	_	5	conj	_	_
 11	en	en	ADP	_	_	14	case	_	_
-12	-	-	PUNCT	_	PunctType=Dash	14	punct	_	_
+12	-	-	PUNCT	_	PunctType=Dash	11	punct	_	_
 13	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	MWE=El_Oso_Malayo|MWEPOS=PROPN
 14	Oso	Oso	PROPN	_	_	10	nmod	_	_
 15	Malayo	Malayo	PROPN	_	_	14	flat	_	_
@@ -7439,8 +7439,8 @@
 12	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	dedo	dedo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 14	meñique	meñique	ADJ	_	Number=Sing	13	amod	_	_
-15	-	-	PUNCT	_	PunctType=Dash	17	punct	_	_
-16	-	-	PUNCT	_	PunctType=Dash	17	punct	_	_
+15	-	-	PUNCT	_	PunctType=Dash	10	punct	_	_
+16	-	-	PUNCT	_	PunctType=Dash	10	punct	_	_
 17	dicen	decir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
 18	ellas	él	PRON	_	Case=Acc,Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
 19	-	-	PUNCT	_	PunctType=Dash	31	punct	_	_
@@ -8074,10 +8074,10 @@
 # orig_file_sentence 003#43
 1	Las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	lámparas	lámpara	NOUN	_	Gender=Fem|Number=Plur	19	iobj	_	SpaceAfter=No
-3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+3	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
 4	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	sillas	silla	NOUN	_	Gender=Fem|Number=Plur	2	appos	_	SpaceAfter=No
-6	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+6	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	contenido	contenido	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
 9	de	de	ADP	_	_	11	case	_	_
@@ -8087,7 +8087,7 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	armarios	armario	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
-16	:	:	PUNCT	_	PunctType=Colo	2	punct	_	_
+16	:	:	PUNCT	_	PunctType=Colo	17	punct	_	_
 17	todo	todo	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	2	flat	_	_
 18	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	19	obj	_	_
 19	arrasó	arrasar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -8152,9 +8152,9 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	dientes	diente	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 12	blancos	blanco	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
-13	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
+13	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 14	sanos	sano	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
-15	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
+15	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
 16	bellos	bello	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
 17	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 18	alargó	alargar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
@@ -8186,7 +8186,7 @@
 44	agresiva	agresivo	ADJ	_	Gender=Fem|Number=Sing	43	amod	_	_
 45	e	e	CCONJ	_	_	46	cc	_	_
 46	hiriente	hiriente	ADJ	_	Number=Sing	44	conj	_	SpaceAfter=No
-47	,	,	PUNCT	_	PunctType=Comm	43	punct	_	_
+47	,	,	PUNCT	_	PunctType=Comm	48	punct	_	_
 48	una	uno	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	43	appos	_	_
 49	de	de	ADP	_	_	51	case	_	_
 50	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
@@ -8248,7 +8248,7 @@
 32	no	no	ADV	_	Polarity=Neg	33	advmod	_	_
 33	tenía	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	ccomp	_	_
 34	remedio	remedio	NOUN	_	Gender=Masc|Number=Sing	33	obj	_	SpaceAfter=No
-35	,	,	PUNCT	_	PunctType=Comm	33	punct	_	_
+35	,	,	PUNCT	_	PunctType=Comm	39	punct	_	_
 36	que	que	SCONJ	_	_	39	mark	_	_
 37	nada	nada	PRON	_	Number=Sing|PronType=Neg	39	obj	_	_
 38	podía	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	aux	_	_
@@ -8289,7 +8289,7 @@
 73	esa	ese	DET	_	Gender=Fem|Number=Sing|PronType=Dem	74	det	_	_
 74	carne	carne	NOUN	_	Gender=Fem|Number=Sing	43	conj	_	_
 75	blanquecina	blanquecino	ADJ	_	Gender=Fem|Number=Sing	74	amod	_	SpaceAfter=No
-76	,	,	PUNCT	_	PunctType=Comm	75	punct	_	_
+76	,	,	PUNCT	_	PunctType=Comm	77	punct	_	_
 77	fofa	fofo	ADJ	_	Gender=Fem|Number=Sing	75	amod	_	SpaceAfter=No
 78	,	,	PUNCT	_	PunctType=Comm	80	punct	_	_
 79	que	que	PRON	_	PronType=Int,Rel	80	nsubj	_	_
@@ -8479,10 +8479,10 @@
 48	escupir	escupir	VERB	_	VerbForm=Inf	6	conj	_	_
 49	palabra	palabra	NOUN	_	Gender=Fem|Number=Sing	48	obj	_	_
 50	alguna	alguno	DET	_	Gender=Fem|Number=Sing|PronType=Ind	49	det	_	SpaceAfter=No
-51	,	,	PUNCT	_	PunctType=Comm	48	punct	_	_
+51	,	,	PUNCT	_	PunctType=Comm	53	punct	_	_
 52	sólo	sólo	ADV	_	_	53	advmod	_	_
 53	toser	toser	VERB	_	VerbForm=Inf	48	advcl	_	SpaceAfter=No
-54	,	,	PUNCT	_	PunctType=Comm	53	punct	_	_
+54	,	,	PUNCT	_	PunctType=Comm	55	punct	_	_
 55	expulsar	expulsar	VERB	_	VerbForm=Inf	53	advcl	_	_
 56	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	58	det	_	_
 57	sólidos	sólido	ADJ	_	Gender=Masc|Number=Plur	58	amod	_	_
@@ -8536,7 +8536,7 @@
 104	tendidos	tendido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	103	amod	_	_
 105	hacia	hacia	ADP	_	_	106	case	_	_
 106	delante	delante	ADV	_	_	104	obj	_	SpaceAfter=No
-107	,	,	PUNCT	_	PunctType=Comm	71	punct	_	_
+107	,	,	PUNCT	_	PunctType=Comm	109	punct	_	_
 108	sus	su	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	109	det	_	_
 109	manos	mano	NOUN	_	Gender=Fem|Number=Plur	71	appos	_	_
 110	empujando	empujar	VERB	_	VerbForm=Ger	109	acl	_	_
@@ -8579,7 +8579,7 @@
 8	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
 9	jadeando	jadear	VERB	_	VerbForm=Ger	6	advcl	_	_
 10	todavía	todavía	ADV	_	_	9	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
+11	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 12	apenas	apenas	ADV	_	_	14	advmod	_	_
 13	pudo	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
 14	mover	mover	VERB	_	VerbForm=Inf	6	advcl	_	_
@@ -8743,7 +8743,7 @@
 29	de	de	ADP	_	_	31	case	_	_
 30	sus	su	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
 31	ojos	ojo	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
-32	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
+32	,	,	PUNCT	_	PunctType=Comm	34	punct	_	_
 33	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	ruina	ruina	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
 35	de	de	ADP	_	_	37	case	_	_
@@ -8806,7 +8806,7 @@
 # orig_file_sentence 003#59
 1	Era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
 2	domingo	domingo	NOUN	_	AdvType=Tim	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+3	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
 4	llovía	llover	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 5	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
@@ -8954,7 +8954,7 @@
 126	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	127	det	_	_
 127	casa	casa	NOUN	_	Gender=Fem|Number=Sing	124	conj	_	_
 128	nueva	nuevo	ADJ	_	Gender=Fem|Number=Sing	127	amod	_	SpaceAfter=No
-129	,	,	PUNCT	_	PunctType=Comm	128	punct	_	_
+129	,	,	PUNCT	_	PunctType=Comm	131	punct	_	_
 130	espléndidamente	espléndidamente	ADV	_	_	131	advmod	_	_
 131	decorada	decorado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	128	advmod	_	SpaceAfter=No
 132	.	.	PUNCT	_	PunctType=Peri	24	punct	_	_
@@ -9009,7 +9009,7 @@
 43	trabajo	trabajo	NOUN	_	Gender=Masc|Number=Sing	39	obj	_	_
 44	de	de	ADP	_	_	45	case	_	_
 45	precisión	precisión	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
-46	,	,	PUNCT	_	PunctType=Comm	43	punct	_	_
+46	,	,	PUNCT	_	PunctType=Comm	48	punct	_	_
 47	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	riesgo	riesgo	NOUN	_	Gender=Masc|Number=Sing	43	appos	_	_
 49	inexistente	inexistente	ADJ	_	Number=Sing	48	amod	_	_
@@ -9019,11 +9019,11 @@
 53	calculado	calculado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	49	conj	_	SpaceAfter=No
 54	,	,	PUNCT	_	PunctType=Comm	55	punct	_	_
 55	Barcelona	Barcelona	PROPN	_	_	39	dep	_	SpaceAfter=No
-56	,	,	PUNCT	_	PunctType=Comm	55	punct	_	_
+56	,	,	PUNCT	_	PunctType=Comm	57	punct	_	_
 57	Vigo	Vigo	PROPN	_	_	55	flat	_	SpaceAfter=No
-58	,	,	PUNCT	_	PunctType=Comm	55	punct	_	_
+58	,	,	PUNCT	_	PunctType=Comm	59	punct	_	_
 59	Valencia	Valencia	PROPN	_	_	55	flat	_	SpaceAfter=No
-60	,	,	PUNCT	_	PunctType=Comm	55	punct	_	_
+60	,	,	PUNCT	_	PunctType=Comm	62	punct	_	_
 61	incluso	incluso	ADV	_	_	62	advmod	_	_
 62	Frankfurt	Frankfurt	PROPN	_	_	55	flat	_	SpaceAfter=No
 63	,	,	PUNCT	_	PunctType=Comm	55	punct	_	_
@@ -9035,7 +9035,7 @@
 69	tiempo	tiempo	NOUN	_	Gender=Masc|Number=Sing	68	obj	_	_
 70	para	para	ADP	_	_	71	mark	_	_
 71	pensar	pensar	VERB	_	VerbForm=Inf	69	acl	_	SpaceAfter=No
-72	,	,	PUNCT	_	PunctType=Comm	68	punct	_	_
+72	,	,	PUNCT	_	PunctType=Comm	74	punct	_	_
 73	no	no	ADV	_	Polarity=Neg	74	advmod	_	_
 74	sabía	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	68	advcl	_	_
 75	exactamente	exactamente	ADV	_	_	74	advmod	_	_
@@ -9112,14 +9112,14 @@
 14	aquella	aquel	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
 15	absurda	absurdo	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 16	excursión	excursión	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
-17	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+17	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
 18	cuando	cuando	SCONJ	_	_	19	mark	_	_
 19	vivía	vivir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
 20	allí	allí	ADV	_	_	19	advmod	_	_
 21	no	no	ADV	_	Polarity=Neg	22	advmod	_	_
 22	tenía	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
 23	coche	coche	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
-24	,	,	PUNCT	_	PunctType=Comm	22	punct	_	_
+24	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
 25	no	no	ADV	_	Polarity=Neg	27	advmod	_	_
 26	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	27	obj	_	_
 27	necesitaba	necesitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	advcl	_	SpaceAfter=No
@@ -9391,7 +9391,7 @@
 40	,	,	PUNCT	_	PunctType=Comm	41	punct	_	_
 41	como	como	SCONJ	_	_	39	advmod	_	MWE=como_mínimo|MWEPOS=ADV
 42	mínimo	mínimo	NOUN	_	_	41	fixed	_	SpaceAfter=No
-43	,	,	PUNCT	_	PunctType=Comm	41	punct	_	_
+43	,	,	PUNCT	_	PunctType=Comm	44	punct	_	_
 44	de	de	ADP	_	_	41	case	_	_
 45	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	modo	modo	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
@@ -9487,7 +9487,7 @@
 19	1998	1998	NOUN	_	AdvType=Tim	24	obl	_	_
 20	y	y	CCONJ	_	_	21	cc	_	_
 21	1999	1999	NOUN	_	AdvType=Tim	19	conj	_	_
-22	"	"	PUNCT	_	PunctType=Quot	19	punct	_	SpaceAfter=No
+22	"	"	PUNCT	_	PunctType=Quot	23	punct	_	SpaceAfter=No
 23	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	24	expl:pv	_	_
 24	produjo	producir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	parataxis	_	_
 25	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -9509,7 +9509,7 @@
 39	recurso	recurso	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
 40	merluza	merluza	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
 41	común	común	ADJ	_	Number=Sing	40	amod	_	SpaceAfter=No
-42	,	,	PUNCT	_	PunctType=Comm	43	punct	_	_
+42	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
 43	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 44	que	que	SCONJ	_	_	43	fixed	_	_
 45	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
@@ -9522,7 +9522,7 @@
 52	33	33	NUM	_	NumForm=Digit|NumType=Card	50	obl	_	MWE=33_por_ciento|MWEPOS=NUM
 53	por	por	ADP	_	_	54	case	_	_
 54	ciento	ciento	NUM	_	NumType=Card	52	compound	_	SpaceAfter=No
-55	"	"	PUNCT	_	PunctType=Quot	50	punct	_	SpaceAfter=No
+55	"	"	PUNCT	_	PunctType=Quot	43	punct	_	SpaceAfter=No
 56	.	.	PUNCT	_	PunctType=Peri	43	punct	_	_
 
 # sent_id = CESS-CAST-A-20000103-1267-s6
@@ -9920,7 +9920,7 @@
 5	"	"	PUNCT	_	PunctType=Quot	7	punct	_	SpaceAfter=No
 6	poca	poco	DET	_	Gender=Fem|Number=Sing|NumType=Card|PronType=Ind	7	det	_	_
 7	rigurosidad	rigurosidad	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
-8	"	"	PUNCT	_	PunctType=Quot	11	punct	_	_
+8	"	"	PUNCT	_	PunctType=Quot	7	punct	_	_
 9	e	e	CCONJ	_	_	11	cc	_	_
 10	"	"	PUNCT	_	PunctType=Quot	11	punct	_	SpaceAfter=No
 11	irregularidades	irregularidad	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
@@ -10745,7 +10745,7 @@
 24	de	de	ADP	_	_	26	case	_	_
 25	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
 26	vida	vida	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
+27	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
 28	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
 29	algo	algo	PRON	_	Number=Sing|PronType=Ind	20	advcl	_	_
 30	increíble	increíble	ADJ	_	Number=Sing	29	amod	_	SpaceAfter=No
@@ -10785,7 +10785,7 @@
 9	en	en	ADP	_	_	11	case	_	_
 10	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	torneos	torneo	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
-12	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
+12	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 13	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	14	obj	_	_
 14	sacaría	sacar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	4	advcl	_	_
 15	de	de	ADP	_	_	17	case	_	_
@@ -10912,7 +10912,7 @@
 33	7-5	7-5	NUM	_	NumForm=Digit|NumType=Card	10	obl	_	_
 34	y	y	CCONJ	_	_	35	cc	_	_
 35	6-4	6-4	NUM	_	NumForm=Digit|NumType=Card	33	conj	_	SpaceAfter=No
-36	,	,	PUNCT	_	PunctType=Comm	37	punct	_	_
+36	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
 37	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 38	que	que	SCONJ	_	_	37	fixed	_	_
 39	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
@@ -11259,7 +11259,7 @@
 25	"	"	PUNCT	_	PunctType=Quot	26	punct	_	SpaceAfter=No
 26	pasaporte	pasaporte	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
 27	europeo	europeo	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
-28	"	"	PUNCT	_	PunctType=Quot	30	punct	_	_
+28	"	"	PUNCT	_	PunctType=Quot	26	punct	_	_
 29	o	o	CCONJ	_	_	30	cc	_	_
 30	autorización	autorización	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
 31	para	para	ADP	_	_	32	mark	_	_
@@ -11566,7 +11566,7 @@
 48	pero	pero	CCONJ	_	_	50	cc	_	_
 49	con	con	ADP	_	_	50	case	_	_
 50	prudencia	prudencia	NOUN	_	Gender=Fem|Number=Sing	40	conj	_	SpaceAfter=No
-51	"	"	PUNCT	_	PunctType=Quot	40	punct	_	SpaceAfter=No
+51	"	"	PUNCT	_	PunctType=Quot	50	punct	_	SpaceAfter=No
 52	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAST-A-20000217-14234-s8
@@ -11865,7 +11865,7 @@
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	continente	continente	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
 23	europeo	europeo	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
-24	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
+24	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
 25-26	al	_	_	_	_	_	_	_	MWE=al_igual_que|MWEPOS=CCONJ
 25	a	a	ADP	_	_	42	case	_	MWE=al_igual_que|MWEPOS=CCONJ
 26	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
@@ -12479,7 +12479,7 @@
 40	siendo	ser	AUX	_	VerbForm=Ger	42	cop	_	_
 41	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
 42	mismos	mismo	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	39	xcomp	_	SpaceAfter=No
-43	"	"	PUNCT	_	PunctType=Quot	39	punct	_	SpaceAfter=No
+43	"	"	PUNCT	_	PunctType=Quot	21	punct	_	SpaceAfter=No
 44	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
 # sent_id = CESS-CAST-A-20000313-10044-s5
@@ -12561,7 +12561,7 @@
 20	de	de	ADP	_	_	22	case	_	_
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	PSOE	PSOE	PROPN	_	_	19	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
+23	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
 24	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 25	propiedad	propiedad	NOUN	_	Gender=Fem|Number=Sing	19	advcl	_	_
 26	de	de	ADP	_	_	28	case	_	_
@@ -12613,7 +12613,7 @@
 37	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 38	de	de	ADP	_	_	37	case	_	_
 39	hoy	hoy	ADV	_	_	37	advmod	_	SpaceAfter=No
-40	"	"	PUNCT	_	PunctType=Quot	44	punct	_	_
+40	"	"	PUNCT	_	PunctType=Quot	32	punct	_	_
 41	y	y	CCONJ	_	_	44	cc	_	_
 42	para	para	ADP	_	_	44	case	_	_
 43	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
@@ -12656,7 +12656,7 @@
 14	triple	triple	NUM	_	Number=Sing|NumType=Card	13	nummod	_	_
 15	"	"	PUNCT	_	PunctType=Quot	16	punct	_	SpaceAfter=No
 16	victoria	victoria	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
-17	"	"	PUNCT	_	PunctType=Quot	19	punct	_	_
+17	"	"	PUNCT	_	PunctType=Quot	16	punct	_	_
 18	en	en	ADP	_	_	19	case	_	_
 19	Congreso	Congreso	PROPN	_	_	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
@@ -13895,7 +13895,7 @@
 64	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	65	punct	_	SpaceAfter=No
 65	Badajoz	Badajoz	PROPN	_	_	62	flat	_	SpaceAfter=No
 66	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	65	punct	_	SpaceAfter=No
-67	,	,	PUNCT	_	PunctType=Comm	60	punct	_	_
+67	,	,	PUNCT	_	PunctType=Comm	68	punct	_	_
 68	afiliada	afiliado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	60	advmod	_	_
 69	a	a	ADP	_	_	71	case	_	_
 70	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	_	_
@@ -13986,7 +13986,7 @@
 21	que	que	SCONJ	_	_	23	mark	_	_
 22	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	mentiras	mentira	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
-24	"	"	PUNCT	_	PunctType=Quot	20	punct	_	SpaceAfter=No
+24	"	"	PUNCT	_	PunctType=Quot	23	punct	_	SpaceAfter=No
 25	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
 26	y	y	CCONJ	_	_	27	cc	_	_
 27	rechazó	rechazar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
@@ -14003,13 +14003,13 @@
 37	Junta	Junta	PROPN	_	_	34	nsubj	_	_
 38	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
 39	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
-40	"	"	PUNCT	_	PunctType=Quot	34	punct	_	SpaceAfter=No
+40	"	"	PUNCT	_	PunctType=Quot	41	punct	_	SpaceAfter=No
 41	robado	robar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	xcomp	_	SpaceAfter=No
 42	,	,	PUNCT	_	PunctType=Comm	43	punct	_	_
 43	confiscado	confiscar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	advcl	_	_
 44	o	o	CCONJ	_	_	45	cc	_	_
 45	expropiado	expropiar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	conj	_	SpaceAfter=No
-46	"	"	PUNCT	_	PunctType=Quot	34	punct	_	SpaceAfter=No
+46	"	"	PUNCT	_	PunctType=Quot	41	punct	_	SpaceAfter=No
 47	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
 # sent_id = CESS-CAST-A-20000415-12000-s5
@@ -14297,7 +14297,7 @@
 # orig_file_sentence 004#23
 1	Destacó	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	que	que	SCONJ	_	_	6	mark	_	_
-3	"	"	PUNCT	_	PunctType=Quot	4	punct	_	SpaceAfter=No
+3	"	"	PUNCT	_	PunctType=Quot	6	punct	_	SpaceAfter=No
 4	no	no	ADV	_	Polarity=Neg	6	advmod	_	_
 5	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
 6	habido	haber	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
@@ -14887,7 +14887,7 @@
 35	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	Sala	Sala	PROPN	_	_	33	obj	_	_
 37	que	que	SCONJ	_	_	33	mark	_	_
-38	"	"	PUNCT	_	PunctType=Quot	33	punct	_	SpaceAfter=No
+38	"	"	PUNCT	_	PunctType=Quot	40	punct	_	SpaceAfter=No
 39	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
 40	habitual	habitual	ADJ	_	Number=Sing	33	xcomp	_	_
 41	que	que	SCONJ	_	_	45	mark	_	_
@@ -14905,7 +14905,7 @@
 52	de	de	ADP	_	_	54	case	_	_
 53	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
 54	ejercicio	ejercicio	NOUN	_	Gender=Masc|Number=Sing	51	nmod	_	SpaceAfter=No
-55	"	"	PUNCT	_	PunctType=Quot	33	punct	_	SpaceAfter=No
+55	"	"	PUNCT	_	PunctType=Quot	45	punct	_	SpaceAfter=No
 56	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAST-A-20000613-10295-s10
@@ -15073,7 +15073,7 @@
 38	aseguró	asegurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	ccomp	_	_
 39	que	que	SCONJ	_	_	40	mark	_	_
 40	había	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	ccomp	_	_
-41	"	"	PUNCT	_	PunctType=Quot	40	punct	_	SpaceAfter=No
+41	"	"	PUNCT	_	PunctType=Quot	43	punct	_	SpaceAfter=No
 42	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	sentir	sentir	NOUN	_	Gender=Masc|Number=Sing	40	iobj	_	_
 44	general	general	ADJ	_	Number=Sing	43	amod	_	_
@@ -15090,7 +15090,7 @@
 55	preguntaba	preguntar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	ccomp	_	_
 56	a	a	ADP	_	_	57	case	_	_
 57	usted	tú	PRON	_	Case=Acc,Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	55	obj	_	SpaceAfter=No
-58	"	"	PUNCT	_	PunctType=Quot	40	punct	_	SpaceAfter=No
+58	"	"	PUNCT	_	PunctType=Quot	55	punct	_	SpaceAfter=No
 59	.	.	PUNCT	_	PunctType=Peri	19	punct	_	_
 
 # newdoc id = CESS-CAST-A-20000828-18213
@@ -15164,7 +15164,7 @@
 64	quedan	quedar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	52	conj	_	_
 65	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	66	det	_	_
 66	1.500	1500	NUM	_	NumForm=Digit|NumType=Card	64	nsubj	_	SpaceAfter=No
-67	"	"	PUNCT	_	PunctType=Quot	64	punct	_	_
+67	"	"	PUNCT	_	PunctType=Quot	66	punct	_	_
 68	en	en	ADP	_	_	71	case	_	MWE=en_alusión_a|MWEPOS=ADP
 69	alusión	alusión	NOUN	_	_	68	fixed	_	_
 70	a	a	ADP	_	_	68	fixed	_	_
@@ -15197,9 +15197,9 @@
 16	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	decisión	decisión	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 18	previsible	previsible	ADJ	_	Number=Sing	17	amod	_	SpaceAfter=No
-19	"	"	PUNCT	_	PunctType=Quot	20	punct	_	_
+19	"	"	PUNCT	_	PunctType=Quot	17	punct	_	_
 20	después	después	ADV	_	_	17	advmod	_	_
-21	"	"	PUNCT	_	PunctType=Quot	20	punct	_	SpaceAfter=No
+21	"	"	PUNCT	_	PunctType=Quot	24	punct	_	SpaceAfter=No
 22	de	de	ADP	_	_	24	case	_	_
 23	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	manifestaciones	manifestación	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
@@ -15223,7 +15223,7 @@
 42	pasar	pasar	VERB	_	VerbForm=Inf	40	acl	_	_
 43	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	corte	corte	NOUN	_	Gender=Masc|Number=Sing	42	obj	_	SpaceAfter=No
-45	"	"	PUNCT	_	PunctType=Quot	17	punct	_	SpaceAfter=No
+45	"	"	PUNCT	_	PunctType=Quot	24	punct	_	SpaceAfter=No
 46	.	.	PUNCT	_	PunctType=Peri	17	punct	_	_
 
 # sent_id = CESS-CAST-A-20000828-18213-s3
@@ -15281,7 +15281,7 @@
 11	hay	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 12	muchos	mucho	DET	_	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	13	det	_	_
 13	intereses	interés	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
-14	"	"	PUNCT	_	PunctType=Quot	16	punct	_	_
+14	"	"	PUNCT	_	PunctType=Quot	11	punct	_	_
 15	en	en	ADP	_	_	16	case	_	_
 16	juego	juego	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 17	y	y	CCONJ	_	_	23	cc	_	_
@@ -15293,9 +15293,9 @@
 23	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
 24	estar	estar	AUX	_	VerbForm=Inf	25	cop	_	_
 25	ciego	ciego	ADJ	_	Gender=Masc|Number=Sing	23	ccomp	_	SpaceAfter=No
-26	"	"	PUNCT	_	PunctType=Quot	27	punct	_	_
+26	"	"	PUNCT	_	PunctType=Quot	23	punct	_	_
 27	porque	porque	SCONJ	_	_	30	mark	_	_
-28	"	"	PUNCT	_	PunctType=Quot	27	punct	_	SpaceAfter=No
+28	"	"	PUNCT	_	PunctType=Quot	30	punct	_	SpaceAfter=No
 29	no	no	ADV	_	Polarity=Neg	30	advmod	_	_
 30	basta	bastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
 31	tener	tener	VERB	_	VerbForm=Inf	30	csubj	_	_
@@ -15327,7 +15327,7 @@
 55-56	conseguirlo	_	_	_	_	_	_	_	SpaceAfter=No
 55	conseguir	conseguir	VERB	_	VerbForm=Inf	53	advcl	_	_
 56	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	55	obj	_	_
-57	"	"	PUNCT	_	PunctType=Quot	59	punct	_	_
+57	"	"	PUNCT	_	PunctType=Quot	30	punct	_	_
 58	aunque	aunque	SCONJ	_	_	59	mark	_	_
 59	puntualizó	puntualizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
 60	que	que	SCONJ	_	_	65	mark	_	_
@@ -15354,7 +15354,7 @@
 80-81	asumirlo	_	_	_	_	_	_	_	SpaceAfter=No
 80	asumir	asumir	VERB	_	VerbForm=Inf	75	conj	_	_
 81	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	80	obj	_	_
-82	"	"	PUNCT	_	PunctType=Quot	59	punct	_	SpaceAfter=No
+82	"	"	PUNCT	_	PunctType=Quot	65	punct	_	SpaceAfter=No
 83	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = CESS-CAST-A-20000828-18213-s5
@@ -15374,7 +15374,7 @@
 12	Andalucía	Andalucía	PROPN	_	_	10	flat	_	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	COI	COI	PROPN	_	_	17	nsubj	_	_
-15	"	"	PUNCT	_	PunctType=Quot	14	punct	_	SpaceAfter=No
+15	"	"	PUNCT	_	PunctType=Quot	17	punct	_	SpaceAfter=No
 16	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	hecho	hacer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	47	parataxis	_	_
 18	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -15392,11 +15392,11 @@
 30	ciudades	ciudad	NOUN	_	Gender=Fem|Number=Plur	27	nsubj	_	_
 31	más	más	ADV	_	Degree=Cmp	32	advmod	_	_
 32	representativas	representativo	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	SpaceAfter=No
-33	"	"	PUNCT	_	PunctType=Quot	36	punct	_	_
+33	"	"	PUNCT	_	PunctType=Quot	32	punct	_	_
 34	de	de	ADP	_	_	36	case	_	_
 35	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
 36	que	que	PRON	_	PronType=Int,Rel	39	obl	_	_
-37	"	"	PUNCT	_	PunctType=Quot	36	punct	_	SpaceAfter=No
+37	"	"	PUNCT	_	PunctType=Quot	39	punct	_	SpaceAfter=No
 38	podría	poder	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	39	aux	_	_
 39	salir	salir	VERB	_	VerbForm=Inf	30	acl	_	_
 40	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
@@ -15404,8 +15404,8 @@
 42	para	para	ADP	_	_	44	case	_	_
 43	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	2008	2008	NOUN	_	AdvType=Tim	41	nmod	_	SpaceAfter=No
-45	"	"	PUNCT	_	PunctType=Quot	47	punct	_	SpaceAfter=No
-46	,	,	PUNCT	_	PunctType=Comm	47	punct	_	_
+45	"	"	PUNCT	_	PunctType=Quot	39	punct	_	SpaceAfter=No
+46	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
 47	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 48	que	que	SCONJ	_	_	47	fixed	_	_
 49-50	del	_	_	_	_	_	_	_	_
@@ -15442,7 +15442,7 @@
 78	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	79	cop	_	_
 79	algo	algo	PRON	_	Number=Sing|PronType=Ind	63	conj	_	_
 80	simbólico	simbólico	ADJ	_	Gender=Masc|Number=Sing	79	amod	_	SpaceAfter=No
-81	"	"	PUNCT	_	PunctType=Quot	55	punct	_	SpaceAfter=No
+81	"	"	PUNCT	_	PunctType=Quot	63	punct	_	SpaceAfter=No
 82	.	.	PUNCT	_	PunctType=Peri	47	punct	_	_
 
 # sent_id = CESS-CAST-A-20000828-18213-s6
@@ -15481,7 +15481,7 @@
 31	en	en	ADP	_	_	33	case	_	_
 32	pleno	pleno	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
 33	sentido	sentido	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
-34	"	"	PUNCT	_	PunctType=Quot	25	punct	_	_
+34	"	"	PUNCT	_	PunctType=Quot	15	punct	_	_
 35	por	por	ADP	_	_	37	case	_	_
 36	lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	37	det	_	_
 37	que	que	PRON	_	PronType=Int,Rel	41	obl	_	_
@@ -15522,7 +15522,7 @@
 # orig_file_sentence 006#11
 1	"	"	PUNCT	_	PunctType=Quot	2	punct	_	SpaceAfter=No
 2	Ahora	ahora	ADV	_	_	28	obj	_	SpaceAfter=No
-3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+3	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
 4	más	más	ADV	_	Degree=Cmp	6	cc	_	MWE=más_que|MWEPOS=CCONJ
 5	que	que	SCONJ	_	_	4	fixed	_	_
 6-7	desanimarse	_	_	_	_	_	_	_	_
@@ -15582,7 +15582,7 @@
 56	y	y	CCONJ	_	_	58	cc	_	_
 57	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
 58	2008	2008	NOUN	_	AdvType=Tim	55	conj	_	SpaceAfter=No
-59	"	"	PUNCT	_	PunctType=Quot	60	punct	_	_
+59	"	"	PUNCT	_	PunctType=Quot	34	punct	_	_
 60	además	además	ADV	_	_	34	conj	_	MWE=además_de|MWEPOS=CCONJ
 61	de	de	ADP	_	_	60	fixed	_	_
 62	asegurar	asegurar	VERB	_	VerbForm=Inf	60	xcomp	_	_
@@ -15645,7 +15645,7 @@
 37	,	,	PUNCT	_	PunctType=Comm	33	punct	_	_
 38	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	39	obj	_	_
 39	conseguirá	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	advcl	_	SpaceAfter=No
-40	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
+40	"	"	PUNCT	_	PunctType=Quot	39	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAST-A-20000828-18213-s9
@@ -15827,7 +15827,7 @@
 21	GREENE	GREENE	PROPN	_	_	5	obl	_	_
 22	-	-	PUNCT	_	PunctType=Dash	23	punct	_	_
 23	JOHNSON	JOHNSON	PROPN	_	_	21	conj	_	SpaceAfter=No
-24	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
+24	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
 25	A	a	ADP	_	_	26	case	_	_
 26	DEBATE	debate	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 27	EL	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -16216,7 +16216,7 @@
 23	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Ceremonia	Ceremonia	PROPN	_	_	21	nmod	_	MWE=Ceremonia_Inaugural|MWEPOS=PROPN
 25	Inaugural	Inaugural	PROPN	_	_	24	flat	_	SpaceAfter=No
-26	;	;	PUNCT	_	PunctType=Semi	7	punct	_	_
+26	;	;	PUNCT	_	PunctType=Semi	32	punct	_	_
 27	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 28	de	de	ADP	_	_	27	case	_	_
 29	Perec	Perec	PROPN	_	_	27	nsubj	_	_
@@ -16346,7 +16346,7 @@
 1	JONES	JONES	PROPN	_	_	0	root	_	_
 2	Y	y	CCONJ	_	_	3	cc	_	_
 3	MAY	MAY	PROPN	_	_	1	conj	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
 5	LUCHA	lucha	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 6	SIN	sin	ADP	_	_	7	case	_	_
 7	CUARTEL	cuartel	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
@@ -16476,7 +16476,7 @@
 17	en	en	ADP	_	_	18	case	_	_
 18	1998	1998	NOUN	_	AdvType=Tim	13	obl	_	_
 19	cuando	cuando	SCONJ	_	_	26	mark	_	SpaceAfter=No
-20	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
+20	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
 21	tras	tras	ADP	_	_	23	case	_	_
 22	38	38	NUM	_	NumForm=Digit|NumType=Card	23	nummod	_	_
 23	pruebas	prueba	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	_
@@ -16797,7 +16797,7 @@
 9	olímpico	olímpico	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 10	en	en	ADP	_	_	11	case	_	_
 11	Barcelona'92	Barcelona'92	PROPN	_	_	9	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+12	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 13-14	del	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -17334,7 +17334,7 @@
 47	5	5	NUM	_	NumForm=Digit|NumType=Card	52	obj	_	MWE=5_por_ciento|MWEPOS=NUM
 48	por	por	ADP	_	_	49	case	_	_
 49	ciento	ciento	NUM	_	NumType=Card	47	compound	_	SpaceAfter=No
-50	,	,	PUNCT	_	PunctType=Comm	52	punct	_	_
+50	,	,	PUNCT	_	PunctType=Comm	47	punct	_	_
 51	si	si	SCONJ	_	_	52	mark	_	_
 52	baja	bajar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 53	a	a	ADP	_	_	55	case	_	_
@@ -17718,7 +17718,7 @@
 15	en	en	ADP	_	_	17	case	_	_
 16	400	400	NUM	_	NumForm=Digit|NumType=Card	17	nummod	_	_
 17	estilos	estilo	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
-18	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
+18	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
 19	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 20	que	que	SCONJ	_	_	19	fixed	_	_
 21	Samuel	Samuel	PROPN	_	_	62	nsubj	_	MWE=Samuel_Soler|MWEPOS=PROPN
@@ -17747,7 +17747,7 @@
 44	y	y	CCONJ	_	_	45	cc	_	_
 45	Deborah	Deborah	PROPN	_	_	21	conj	_	MWE=Deborah_Font|MWEPOS=PROPN
 46	Font	Font	PROPN	_	_	45	flat	_	SpaceAfter=No
-47	,	,	PUNCT	_	PunctType=Comm	45	punct	_	_
+47	,	,	PUNCT	_	PunctType=Comm	48	punct	_	_
 48	ciega	ciega	NOUN	_	Gender=Fem|Number=Sing	45	appos	_	_
 49	parcial	parcial	ADJ	_	Number=Sing	48	amod	_	_
 50	y	y	CCONJ	_	_	55	cc	_	_
@@ -18666,7 +18666,7 @@
 17	Rey	Rey	PROPN	_	_	14	nmod	_	MWE=Rey_Juan_Carlos|MWEPOS=PROPN
 18	Juan	Juan	PROPN	_	_	17	flat	_	_
 19	Carlos	Carlos	PROPN	_	_	17	flat	_	_
-20	"	"	PUNCT	_	PunctType=Quot	14	punct	_	SpaceAfter=No
+20	"	"	PUNCT	_	PunctType=Quot	21	punct	_	SpaceAfter=No
 21	desde	desde	ADP	_	_	24	case	_	_
 22	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 23	primeros	primero	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	24	amod	_	_
@@ -18737,7 +18737,7 @@
 24	y	y	CCONJ	_	_	25	cc	_	_
 25	subrayó	subrayar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 26	que	que	SCONJ	_	_	30	mark	_	_
-27	"	"	PUNCT	_	PunctType=Quot	30	punct	_	SpaceAfter=No
+27	"	"	PUNCT	_	PunctType=Quot	26	punct	_	SpaceAfter=No
 28	él	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 29	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
 30	sabido	saber	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	ccomp	_	_
@@ -18793,11 +18793,11 @@
 15	claro	claro	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	_
 16	y	y	CCONJ	_	_	17	cc	_	_
 17	determinante	determinante	ADJ	_	Number=Sing	13	conj	_	_
-18	"	"	PUNCT	_	PunctType=Quot	20	punct	_	SpaceAfter=No
+18	"	"	PUNCT	_	PunctType=Quot	13	punct	_	SpaceAfter=No
 19	y	y	CCONJ	_	_	20	cc	_	_
 20	explicó	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
 21	que	que	SCONJ	_	_	33	mark	_	SpaceAfter=No
-22	"	"	PUNCT	_	PunctType=Quot	24	punct	_	_
+22	"	"	PUNCT	_	PunctType=Quot	31	punct	_	_
 23	en	en	ADP	_	_	24	case	_	_
 24	España	España	PROPN	_	_	33	obl	_	SpaceAfter=No
 25	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
@@ -18841,7 +18841,7 @@
 63	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
 64	país	país	NOUN	_	Gender=Masc|Number=Sing	56	obl	_	_
 65	abierto	abierto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	67	advmod	_	SpaceAfter=No
-66	,	,	PUNCT	_	PunctType=Comm	67	punct	_	_
+66	,	,	PUNCT	_	PunctType=Comm	65	punct	_	_
 67	presente	presente	ADJ	_	Number=Sing	64	amod	_	_
 68	en	en	ADP	_	_	70	case	_	_
 69	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
@@ -18883,7 +18883,7 @@
 28	Rey	Rey	PROPN	_	_	30	nsubj	_	_
 29	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
 30	impulsado	impulsar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
-31	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
+31	,	,	PUNCT	_	PunctType=Comm	33	punct	_	_
 32	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 33	representado	representar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	advcl	_	SpaceAfter=No
 34	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
@@ -18929,7 +18929,7 @@
 31	España	España	PROPN	_	_	24	nmod	_	_
 32	moderna	moderno	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
 33	y	y	CCONJ	_	_	35	cc	_	SpaceAfter=No
-34	,	,	PUNCT	_	PunctType=Comm	35	punct	_	_
+34	,	,	PUNCT	_	PunctType=Comm	33	punct	_	_
 35-36	al	_	_	_	_	_	_	_	MWE=al_mismo_tiempo|MWEPOS=ADV
 35	a	a	ADP	_	_	41	advmod	_	MWE=al_mismo_tiempo|MWEPOS=ADV
 36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	fixed	_	_
@@ -19113,7 +19113,7 @@
 2	que	que	SCONJ	_	_	9	mark	_	_
 3	nuestro	nuestro	DET	_	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	país	país	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-5	"	"	PUNCT	_	PunctType=Quot	4	punct	_	SpaceAfter=No
+5	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
 6	no	no	PART	_	_	9	cc	_	MWE=no_solamente|MWEPOS=ADV
 7	solamente	solamente	NOUN	_	_	6	fixed	_	_
 8	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -19135,7 +19135,7 @@
 24	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 25	cierta	cierto	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
 26	influencia	influencia	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
-27	"	"	PUNCT	_	PunctType=Quot	1	punct	_	SpaceAfter=No
+27	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
 28	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
 # sent_id = CESS-CAST-A-20001122-17124-s11
@@ -19249,7 +19249,7 @@
 4	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	españoles	español	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 6	tienen	tener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
-7	"	"	PUNCT	_	PunctType=Quot	6	punct	_	SpaceAfter=No
+7	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
 8	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Rey	Rey	PROPN	_	_	6	obj	_	_
 10	entregado	entregado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	amod	_	_
@@ -19275,7 +19275,7 @@
 30	en	en	ADP	_	_	32	case	_	_
 31	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	país	país	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
-33	"	"	PUNCT	_	PunctType=Quot	6	punct	_	SpaceAfter=No
+33	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
 34	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = CESS-CAST-A-20001122-17124-s14
@@ -19421,7 +19421,7 @@
 15	de	de	ADP	_	_	16	case	_	_
 16	Televisión	Televisión	PROPN	_	_	14	nmod	_	MWE=Televisión_Española|MWEPOS=PROPN
 17	Española	Española	PROPN	_	_	16	flat	_	_
-18	"	"	PUNCT	_	PunctType=Quot	14	punct	_	SpaceAfter=No
+18	"	"	PUNCT	_	PunctType=Quot	21	punct	_	SpaceAfter=No
 19-20	Al	_	_	_	_	_	_	_	MWE=Al_filo_de_lo_imposible|MWEPOS=PROPN
 19	A	a	ADP	_	_	24	case	_	MWE=Al_filo_de_lo_imposible|MWEPOS=PROPN
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -19429,7 +19429,7 @@
 22	de	de	ADP	_	_	24	case	_	_
 23	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	24	det	_	_
 24	imposible	imposible	PROPN	_	_	21	flat	_	SpaceAfter=No
-25	"	"	PUNCT	_	PunctType=Quot	24	punct	_	SpaceAfter=No
+25	"	"	PUNCT	_	PunctType=Quot	21	punct	_	SpaceAfter=No
 26	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
 27	Sebastián	Sebastián	PROPN	_	_	11	appos	_	MWE=Sebastián_Alvaro|MWEPOS=PROPN
 28	Alvaro	Alvaro	PROPN	_	_	27	flat	_	SpaceAfter=No
@@ -19446,7 +19446,7 @@
 39	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 40	alta	alto	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
 41	montaña	montaña	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
-42	,	,	PUNCT	_	PunctType=Comm	46	punct	_	_
+42	,	,	PUNCT	_	PunctType=Comm	37	punct	_	_
 43	en	en	ADP	_	_	45	case	_	_
 44	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	que	que	PRON	_	PronType=Int,Rel	46	obl	_	_
@@ -19598,14 +19598,14 @@
 6	poca	poco	DET	_	Gender=Fem|Number=Sing|NumType=Card|PronType=Ind	7	det	_	_
 7	gente	gente	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 8	escalaba	escalar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	ccomp	_	SpaceAfter=No
-9	"	"	PUNCT	_	PunctType=Quot	10	punct	_	_
+9	"	"	PUNCT	_	PunctType=Quot	8	punct	_	_
 10	ochomiles	ochomiles	NOUN	_	_	8	obj	_	_
-11	"	"	PUNCT	_	PunctType=Quot	10	punct	_	SpaceAfter=No
+11	"	"	PUNCT	_	PunctType=Quot	15	punct	_	SpaceAfter=No
 12	y	y	CCONJ	_	_	15	cc	_	_
 13	fue	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
 14	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	gozada	gozada	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
-16	"	"	PUNCT	_	PunctType=Quot	8	punct	_	SpaceAfter=No
+16	"	"	PUNCT	_	PunctType=Quot	15	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
 18	apuntó	apuntar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 19	Juanjo	Juanjo	PROPN	_	_	18	nsubj	_	MWE=Juanjo_San_Sebastián|MWEPOS=PROPN
@@ -20109,7 +20109,7 @@
 25	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
 26	ya	ya	ADV	_	_	29	advmod	_	_
 27	muerto	muerto	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	29	xcomp	_	SpaceAfter=No
-28	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
+28	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
 29	recibir	recibir	VERB	_	VerbForm=Inf	14	advcl	_	_
 30	honores	honor	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	_
 31	de	de	ADP	_	_	32	case	_	_
@@ -20156,7 +20156,7 @@
 12	balón	balón	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Oro	Oro	PROPN	_	_	12	nmod	_	SpaceAfter=No
-15	"	"	PUNCT	_	PunctType=Quot	18	punct	_	_
+15	"	"	PUNCT	_	PunctType=Quot	12	punct	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	historia	historia	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
@@ -20201,7 +20201,7 @@
 19	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
 20	y	y	CCONJ	_	_	21	cc	_	_
 21	después	después	ADV	_	_	3	conj	_	SpaceAfter=No
-22	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
+22	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
 23	en	en	ADP	_	_	21	case	_	_
 24	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	cancha	cancha	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
@@ -20501,7 +20501,7 @@
 # text = Obviamente, también con el combinado nacional.
 # orig_file_sentence 005#86
 1	Obviamente	obviamente	ADV	_	_	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
+2	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 3	también	también	ADV	_	_	1	advmod	_	_
 4	con	con	ADP	_	_	1	case	_	_
 5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -21377,7 +21377,7 @@
 20	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	Seis	Seis	NUM	_	NumType=Card	18	nummod	_	_
 22	Días	Días	PROPN	_	_	18	flat	_	SpaceAfter=No
-23	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
+23	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
 24	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 25	que	que	SCONJ	_	_	24	fixed	_	_
 26	Israel	Israel	PROPN	_	_	27	nsubj	_	_
@@ -23258,7 +23258,7 @@
 8	a	a	ADP	_	_	10	case	_	_
 9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Barcelona	Barcelona	PROPN	_	_	7	obl	_	SpaceAfter=No
-11	"	"	PUNCT	_	PunctType=Quot	13	punct	_	SpaceAfter=No
+11	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
 12	,	,	PUNCT	_	PunctType=Comm	13	punct	_	_
 13	comentó	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 14	Roberto	Roberto	PROPN	_	_	13	nsubj	_	MWE=Roberto_Carlos|MWEPOS=PROPN
@@ -23276,7 +23276,7 @@
 26	que	que	PRON	_	PronType=Int,Rel	28	obl	_	_
 27	nos	yo	PRON	_	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	28	expl:pv	_	_
 28	encontramos	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	acl	_	SpaceAfter=No
-29	"	"	PUNCT	fe	PunctType=Quot	23	punct	_	_
+29	"	"	PUNCT	fe	PunctType=Quot	20	punct	_	_
 30	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000224-20131-s3
@@ -23798,18 +23798,18 @@
 10	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	buen	buen	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 12	partido	partido	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
-13	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+13	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 14	no	no	ADV	_	Polarity=Neg	15	advmod	_	_
 15	tuvimos	tener	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	advcl	_	_
 16	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 17	buena	buen	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 18	noche	noche	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
-19	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+19	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
 20	hemos	haber	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	cometido	cometer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
 22	muchos	mucho	DET	_	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	23	det	_	_
 23	errores	error	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
-24	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
+24	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
 25	creo	creer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 26	que	que	SCONJ	_	_	27	mark	_	_
 27	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	ccomp	_	MWE=la_hemos_sacado_barata|MWEPOS=VERB
@@ -23918,7 +23918,7 @@
 12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	portero	portero	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 14	Calero	Calero	PROPN	_	_	13	appos	_	SpaceAfter=No
-15	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
+15	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
 16	sino	sino	CCONJ	_	_	0	root	_	MWE=sino_que|MWEPOS=CCONJ
 17	que	que	SCONJ	_	_	16	fixed	_	_
 18	reconoce	reconocer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
@@ -24043,7 +24043,7 @@
 24	que	que	SCONJ	_	_	23	fixed	_	_
 25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	rival	rival	NOUN	_	Number=Sing	46	nsubj	_	SpaceAfter=No
-27	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
+27	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
 28	aprovechando	aprovechar	VERB	_	VerbForm=Ger	46	advcl	_	_
 29	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
 30	condición	condición	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
@@ -24069,7 +24069,7 @@
 50	inicial	inicial	ADJ	_	Number=Sing	49	amod	_	_
 51	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	juego	juego	NOUN	_	Gender=Masc|Number=Sing	46	obj	_	SpaceAfter=No
-53	"	"	PUNCT	_	PunctType=Quot	4	punct	_	SpaceAfter=No
+53	"	"	PUNCT	_	PunctType=Quot	16	punct	_	SpaceAfter=No
 54	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000224-20351-s8
@@ -24088,7 +24088,7 @@
 11	y	y	CCONJ	_	_	12	cc	_	_
 12	asegura	asegurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 13	que	que	SCONJ	_	_	22	mark	_	SpaceAfter=No
-14	"	"	PUNCT	_	PunctType=Quot	22	punct	_	_
+14	"	"	PUNCT	_	PunctType=Quot	13	punct	_	_
 15	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	tranquilidad	tranquilidad	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
 17	de	de	ADP	_	_	19	case	_	_
@@ -24128,7 +24128,7 @@
 # sent_id = CESS-CAST-AA-20000224-20351-s10
 # text = " La U. pasó por encima y Calero evitó catástrofe ", resumió el diario.
 # orig_file_sentence 006#67
-1	"	"	PUNCT	fe	PunctType=Quot	13	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	4	punct	_	_
 2	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	U.	U.	PROPN	_	_	4	nsubj	_	_
 4	pasó	pasar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	ccomp	_	_
@@ -24150,10 +24150,10 @@
 # orig_file_sentence 006#68
 1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	periódico	periódico	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-3	"	"	PUNCT	_	PunctType=Quot	4	punct	_	SpaceAfter=No
+3	"	"	PUNCT	_	PunctType=Quot	5	punct	_	SpaceAfter=No
 4	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	MWE=El_Tiempo|MWEPOS=PROPN
 5	Tiempo	tiempo	PROPN	_	_	2	appos	_	SpaceAfter=No
-6	"	"	PUNCT	_	PunctType=Quot	8	punct	_	_
+6	"	"	PUNCT	_	PunctType=Quot	5	punct	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	Bogotá	Bogotá	PROPN	_	_	2	nmod	_	_
 9	tituló	titular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -24217,7 +24217,7 @@
 64	juego	juego	NOUN	_	Gender=Masc|Number=Sing	60	obl	_	_
 65	de	de	ADP	_	_	66	case	_	_
 66	toque	toque	NOUN	_	Gender=Masc|Number=Sing	64	nmod	_	SpaceAfter=No
-67	"	"	PUNCT	_	PunctType=Quot	21	punct	_	SpaceAfter=No
+67	"	"	PUNCT	_	PunctType=Quot	32	punct	_	SpaceAfter=No
 68	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000224-20351-s12
@@ -24225,10 +24225,10 @@
 # orig_file_sentence 006#69
 1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	periódico	periódico	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
-3	"	"	PUNCT	_	PunctType=Quot	4	punct	_	SpaceAfter=No
+3	"	"	PUNCT	_	PunctType=Quot	5	punct	_	SpaceAfter=No
 4	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	MWE=El_Heraldo|MWEPOS=PROPN
 5	Heraldo	Heraldo	PROPN	_	_	2	appos	_	SpaceAfter=No
-6	"	"	PUNCT	_	PunctType=Quot	8	punct	_	_
+6	"	"	PUNCT	_	PunctType=Quot	5	punct	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	Barranquilla	Barranquilla	PROPN	_	_	2	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
@@ -24607,7 +24607,7 @@
 17	portar	portar	VERB	_	VerbForm=Inf	12	acl	_	_
 18	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	profesional	profesional	NOUN	_	Number=Sing	17	nsubj	_	SpaceAfter=No
-20	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
+20	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
 21	nunca	nunca	ADV	_	_	24	advmod	_	_
 22	me	yo	PRON	_	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	24	iobj	_	_
 23	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
@@ -24816,10 +24816,10 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	estadio	estadio	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-15	"	"	PUNCT	_	PunctType=Quot	16	punct	_	SpaceAfter=No
+15	"	"	PUNCT	_	PunctType=Quot	17	punct	_	SpaceAfter=No
 16	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	MWE=El_Teniente|MWEPOS=PROPN
 17	Teniente	Teniente	PROPN	_	_	14	appos	_	SpaceAfter=No
-18	"	"	PUNCT	_	PunctType=Quot	20	punct	_	_
+18	"	"	PUNCT	_	PunctType=Quot	17	punct	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	Rancagua	Rancagua	PROPN	_	_	14	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
@@ -25657,7 +25657,7 @@
 18	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	19	punct	_	SpaceAfter=No
 19	70`	70	NUM	_	NumForm=Digit|NumType=Card	16	appos	_	SpaceAfter=No
 20	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	19	punct	_	SpaceAfter=No
-21	,	,	PUNCT	_	PunctType=Comm	22	punct	_	_
+21	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 22	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 23	que	que	SCONJ	_	_	22	fixed	_	_
 24	para	para	ADP	_	_	26	case	_	_
@@ -25907,7 +25907,7 @@
 31	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	comunicación	comunicación	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
 33	internacional	internacional	ADJ	_	Number=Sing	32	amod	_	SpaceAfter=No
-34	"	"	PUNCT	_	PunctType=Quot	17	punct	_	_
+34	"	"	PUNCT	_	PunctType=Quot	33	punct	_	_
 35	por	por	ADP	_	_	36	case	_	_
 36	lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	17	det	_	_
 37	que	que	PRON	_	PronType=Int,Rel	36	obl	_	SpaceAfter=No
@@ -26421,7 +26421,7 @@
 1	Según	según	SCONJ	_	_	2	mark	_	_
 2	agregó	agregar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
-4	"	"	PUNCT	_	PunctType=Quot	7	punct	_	SpaceAfter=No
+4	"	"	PUNCT	_	PunctType=Quot	22	punct	_	SpaceAfter=No
 5	ante	ante	ADP	_	_	7	case	_	_
 6	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	presión	presión	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
@@ -26531,7 +26531,7 @@
 59	defender	defender	VERB	_	VerbForm=Inf	55	acl	_	_
 60	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	61	det	_	_
 61	libertades	libertad	NOUN	_	Gender=Fem|Number=Plur	59	obj	_	SpaceAfter=No
-62	"	"	PUNCT	_	PunctType=Quot	30	punct	_	SpaceAfter=No
+62	"	"	PUNCT	_	PunctType=Quot	46	punct	_	SpaceAfter=No
 63	.	.	PUNCT	_	PunctType=Peri	30	punct	_	_
 
 # newdoc id = CESS-CAST-AA-20000310-8368
@@ -26680,7 +26680,7 @@
 1	Las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 2	primarias	primaria	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 3	estatales	estatal	ADJ	_	Number=Plur	2	amod	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
 5	que	que	PRON	_	PronType=Int,Rel	6	nsubj	_	_
 6	permiten	permitir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	csubj	_	_
 7	decidir	decidir	VERB	_	VerbForm=Inf	6	xcomp	_	_
@@ -26918,7 +26918,7 @@
 7	tiene	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
 8	1.424	1424	NUM	_	NumForm=Digit|NumType=Card	9	nummod	_	_
 9	delegados	delegado	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
-10	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
+10	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 11	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 12	que	que	SCONJ	_	_	11	fixed	_	_
 13	Bill	Bill	PROPN	_	_	15	nsubj	_	MWE=Bill_Bradley|MWEPOS=PROPN
@@ -26968,7 +26968,7 @@
 13	"	"	PUNCT	_	PunctType=Quot	12	punct	_	_
 14	en	en	ADP	_	_	15	case	_	_
 15	Michigan	Michigan	PROPN	_	_	12	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
+16	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 17	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 18	que	que	SCONJ	_	_	17	fixed	_	_
 19	durante	durante	ADP	_	_	22	case	_	_
@@ -27216,7 +27216,7 @@
 23	asumimos	asumir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
 24	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	tarea	tarea	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
-26	"	"	PUNCT	_	PunctType=Quot	23	punct	_	SpaceAfter=No
+26	"	"	PUNCT	_	PunctType=Quot	25	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
 28	aunque	aunque	SCONJ	_	_	29	mark	_	_
 29	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
@@ -27387,7 +27387,7 @@
 17	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	gas	gas	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 19	natural	natural	ADJ	_	Number=Sing	18	amod	_	SpaceAfter=No
-20	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
+20	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
 21	y	y	CCONJ	_	_	25	cc	_	_
 22	con	con	ADP	_	_	23	case	_	_
 23	ello	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nmod	_	_
@@ -27629,7 +27629,7 @@
 44	y	y	CCONJ	_	_	46	cc	_	_
 45	no	no	ADV	_	Polarity=Neg	46	advmod	_	_
 46	local	local	ADJ	_	Number=Sing	42	conj	_	SpaceAfter=No
-47	,	,	PUNCT	_	PunctType=Comm	42	punct	_	_
+47	,	,	PUNCT	_	PunctType=Comm	50	punct	_	_
 48	de	de	ADP	_	_	50	case	_	_
 49	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
 50	vertidos	vertido	NOUN	_	Gender=Masc|Number=Plur	42	nmod	_	_
@@ -27913,7 +27913,7 @@
 24	tenían	tener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	conj	_	_
 25	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
 26	temporal	temporal	ADJ	_	Number=Sing	25	amod	_	SpaceAfter=No
-27	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
+27	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
 28	frente	frente	NOUN	_	_	30	case	_	MWE=frente_a|MWEPOS=ADP
 29	a	a	ADP	_	_	28	fixed	_	_
 30	1999	1999	NOUN	_	AdvType=Tim	20	obl	_	SpaceAfter=No
@@ -28288,11 +28288,11 @@
 15	grandes	grande	ADJ	_	Number=Plur	16	amod	_	_
 16	incursiones	incursión	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
 17	ofensivas	ofensivo	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
-18	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
+18	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
 19	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 20	"	"	PUNCT	_	PunctType=Quot	21	punct	_	SpaceAfter=No
 21	U	U	PROPN	_	_	4	obl	_	SpaceAfter=No
-22	"	"	PUNCT	_	PunctType=Quot	24	punct	_	_
+22	"	"	PUNCT	_	PunctType=Quot	21	punct	_	_
 23	por	por	ADP	_	_	24	case	_	_
 24	incapacidad	incapacidad	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 25	y	y	CCONJ	_	_	27	cc	_	_
@@ -28440,7 +28440,7 @@
 27	arriba	arriba	ADV	_	_	24	advmod	_	_
 28	de	de	ADP	_	_	29	case	_	_
 29	cabeza	cabeza	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
-30	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
+30	,	,	PUNCT	_	PunctType=Comm	33	punct	_	_
 31	pero	pero	CCONJ	_	_	33	cc	_	_
 32	medio	medio	ADV	_	_	33	advmod	_	_
 33	de	de	ADP	_	_	27	conj	_	MWE=de_espaldas|MWEPOS=ADV
@@ -28452,7 +28452,7 @@
 38	y	y	CCONJ	_	_	40	cc	_	_
 39	sin	sin	ADP	_	_	40	case	_	_
 40	precisión	precisión	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
-41	;	;	PUNCT	_	PunctType=Semi	24	punct	_	_
+41	;	;	PUNCT	_	PunctType=Semi	48	punct	_	_
 42	para	para	ADP	_	_	44	case	_	_
 43	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	det	_	_
 44	fortuna	fortuna	NOUN	_	Gender=Fem|Number=Sing	48	obl	_	SpaceAfter=No
@@ -29024,7 +29024,7 @@
 8	ido	ir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	ccomp	_	_
 9	muy	mucho	ADV	_	_	10	advmod	_	_
 10	allá	allá	ADV	_	_	8	advmod	_	SpaceAfter=No
-11	...	...	PUNCT	_	PunctType=Comm	8	punct	_	_
+11	...	...	PUNCT	_	PunctType=Comm	13	punct	_	_
 12	Es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 13	probable	probable	ADJ	_	Number=Sing	8	advcl	_	_
 14	que	que	SCONJ	_	_	35	mark	_	_
@@ -29286,7 +29286,7 @@
 12	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	16.719	16719	NUM	_	NumForm=Digit|NumType=Card	14	nummod	_	_
 14	millones	millón	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
-15	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
+15	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
 16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	ordinario	ordinario	ADJ	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 18	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	expl:pv	_	_
@@ -29438,7 +29438,7 @@
 45	por	por	ADP	_	_	46	case	_	_
 46	Unión	Unión	PROPN	_	_	44	obj	_	MWE=Unión_Fenosa|MWEPOS=PROPN
 47	Fenosa	Fenosa	PROPN	_	_	46	flat	_	SpaceAfter=No
-48	,	,	PUNCT	_	PunctType=Comm	33	punct	_	_
+48	,	,	PUNCT	_	PunctType=Comm	49	punct	_	_
 49	decisión	decisión	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
 50	que	que	PRON	_	PronType=Int,Rel	51	obj	_	_
 51	calificó	calificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	49	acl	_	_
@@ -29613,7 +29613,7 @@
 37	Consejo	Consejo	PROPN	_	_	33	obj	_	_
 38	de	de	ADP	_	_	39	case	_	_
 39	ministros	ministro	NOUN	_	Gender=Masc|Number=Plur	37	nmod	_	_
-40	"	"	PUNCT	_	PunctType=Quot	28	punct	_	SpaceAfter=No
+40	"	"	PUNCT	_	PunctType=Quot	41	punct	_	SpaceAfter=No
 41	Cascos	Cascos	PROPN	_	_	28	nsubj	_	_
 42	y	y	CCONJ	_	_	43	cc	_	_
 43	Sánchez	Sánchez	PROPN	_	_	41	conj	_	_
@@ -29621,7 +29621,7 @@
 45	quedado	quedar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	xcomp	_	_
 46	totalmente	totalmente	ADV	_	_	47	advmod	_	_
 47	desautorizados	desautorizado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	45	obj	_	SpaceAfter=No
-48	"	"	PUNCT	_	PunctType=Quot	28	punct	_	SpaceAfter=No
+48	"	"	PUNCT	_	PunctType=Quot	45	punct	_	SpaceAfter=No
 49	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000526-21460-s5
@@ -29881,7 +29881,7 @@
 33	vez	vez	NOUN	_	Gender=Fem|Number=Sing	35	obl	_	_
 34	más	más	ADV	_	Degree=Cmp	35	advmod	_	_
 35	envejecida	envejecido	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	31	amod	_	SpaceAfter=No
-36	"	"	PUNCT	_	PunctType=Quot	31	punct	_	_
+36	"	"	PUNCT	_	PunctType=Quot	25	punct	_	_
 37	y	y	CCONJ	_	_	39	cc	_	_
 38	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
 39	reclamado	reclamar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
@@ -30325,7 +30325,7 @@
 # sent_id = CESS-CAST-AA-20000608-6438-s9
 # text = " Un país próspero, moderno y abierto ", Apostilló.
 # orig_file_sentence 008#92
-1	"	"	PUNCT	fe	PunctType=Quot	11	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	3	punct	_	_
 2	Un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	país	país	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
 4	próspero	próspero	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
@@ -30472,7 +30472,7 @@
 25	hoy	hoy	ADV	_	_	26	advmod	_	_
 26	manifestó	manifestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
 27	que	que	SCONJ	_	_	44	mark	_	SpaceAfter=No
-28	,	,	PUNCT	_	PunctType=Comm	44	punct	_	_
+28	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
 29-30	al	_	_	_	_	_	_	_	_
 29	a	a	ADP	_	_	31	case	_	_
 30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -30609,7 +30609,7 @@
 38	a	a	ADP	_	_	40	case	_	_
 39	sus	su	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	40	det	_	_
 40	vecinos	vecino	NOUN	_	Gender=Masc|Number=Plur	32	conj	_	SpaceAfter=No
-41	"	"	PUNCT	_	PunctType=Quot	6	punct	_	SpaceAfter=No
+41	"	"	PUNCT	_	PunctType=Quot	21	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # newdoc id = CESS-CAST-AA-20000627-21634
@@ -30689,13 +30689,13 @@
 25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	equipo	equipo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 27	alemán	alemán	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
-28	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	5	punct	_	_
+28	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	11	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000627-21634-s2B
 # text = No, porque los miembros de la FIFA se fijan en el alto nivel del conjunto del torneo ", escribe Beckenbauer, en su columna del popular diario" Bild".
 # orig_file_sentence 006#93
 1	No	no	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
+2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 3	porque	porque	SCONJ	_	_	10	mark	_	_
 4	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	miembros	miembro	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
@@ -30716,8 +30716,8 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	torneo	torneo	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
-21	"	"	PUNCT	_	PunctType=Quot	10	punct	_	SpaceAfter=No
-22	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
+21	"	"	PUNCT	_	PunctType=Quot	32	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
 23	escribe	escribir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	Beckenbauer	Beckenbauer	PROPN	_	_	23	nsubj	_	SpaceAfter=No
 25	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
@@ -30729,7 +30729,7 @@
 30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 31	popular	popular	ADJ	_	Number=Sing	32	amod	_	_
 32	diario	diario	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
-33	"	"	PUNCT	_	PunctType=Quot	34	punct	_	_
+33	"	"	PUNCT	_	PunctType=Quot	23	punct	_	_
 34	Bild	Bild	PROPN	_	_	32	appos	_	SpaceAfter=No
 35	"	"	PUNCT	_	PunctType=Quot	34	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	PunctType=Peri	23	punct	_	_
@@ -30816,7 +30816,7 @@
 21	:	:	PUNCT	_	PunctType=Colo	48	punct	_	_
 22	"	"	PUNCT	_	PunctType=Quot	23	punct	_	SpaceAfter=No
 23	Mira	mirar	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	48	ccomp	_	SpaceAfter=No
-24	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
+24	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
 25	ahora	ahora	ADV	_	_	26	advmod	_	_
 26	necesitamos	necesitar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	advcl	_	_
 27	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
@@ -31405,7 +31405,7 @@
 12	defendiendo	defender	VERB	_	VerbForm=Ger	3	acl	_	_
 13	sus	su	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
 14	intereses	interés	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
-15	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
+15	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
 16	luchando	luchar	VERB	_	VerbForm=Ger	12	advcl	_	_
 17	con	con	ADP	_	_	22	case	_	_
 18	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
@@ -31667,7 +31667,7 @@
 # orig_file_sentence 009#24
 1	Siete	siete	NUM	_	Number=Plur|NumType=Card	2	nummod	_	_
 2	Wimbledons	Wimbledons	PROPN	_	_	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+3	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
 4	trece	trece	NUM	_	Number=Plur|NumType=Card	5	nummod	_	_
 5	Grand	Grand	PROPN	_	_	2	flat	_	MWE=Grand_Slams|MWEPOS=PROPN
 6	Slams	Slams	PROPN	_	_	5	flat	_	SpaceAfter=No
@@ -31754,11 +31754,11 @@
 35	a	a	ADP	_	_	37	case	_	_
 36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	cliente	cliente	NOUN	_	Number=Sing	34	obj	_	SpaceAfter=No
-38	"	"	PUNCT	_	PunctType=Quot	20	punct	_	SpaceAfter=No
+38	"	"	PUNCT	_	PunctType=Quot	37	punct	_	SpaceAfter=No
 39	,	,	PUNCT	_	PunctType=Comm	47	punct	_	_
 40	ya	ya	ADV	_	_	47	mark	_	MWE=ya_que|MWEPOS=SCONJ
 41	que	que	SCONJ	_	_	40	fixed	_	SpaceAfter=No
-42	,	,	PUNCT	_	PunctType=Comm	44	punct	_	_
+42	,	,	PUNCT	_	PunctType=Comm	40	punct	_	_
 43	según	según	SCONJ	_	_	44	mark	_	_
 44	indicó	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	47	advcl	_	_
 45	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
@@ -31876,7 +31876,7 @@
 38	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	red	red	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
 40	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
-41	"	"	PUNCT	_	PunctType=Quot	23	punct	_	SpaceAfter=No
+41	"	"	PUNCT	_	PunctType=Quot	45	punct	_	SpaceAfter=No
 42	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	medio	medio	NOUN	_	Gender=Masc|Number=Sing	45	nsubj	_	_
 44	no	no	ADV	_	Polarity=Neg	45	advmod	_	_
@@ -31889,7 +31889,7 @@
 50	que	que	SCONJ	_	_	49	fixed	_	_
 51	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	52	obj	_	_
 52	complementarán	complementar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	45	conj	_	SpaceAfter=No
-53	"	"	PUNCT	_	PunctType=Quot	16	punct	_	SpaceAfter=No
+53	"	"	PUNCT	_	PunctType=Quot	45	punct	_	SpaceAfter=No
 54	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000810-6823-s4
@@ -32007,7 +32007,7 @@
 6	hectáreas	hectárea	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
 7	hortofrutícolas	hortofrutícola	ADJ	_	Number=Plur	6	amod	_	_
 8	y	y	CCONJ	_	_	35	cc	_	SpaceAfter=No
-9	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
+9	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
 10	tanto	tanto	ADV	_	_	12	cc	_	_
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	concejal	concejal	NOUN	_	Gender=Masc|Number=Sing	35	nsubj	_	_
@@ -32106,14 +32106,14 @@
 36	comunitaria	comunitario	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
 37	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
 38	repercutido	repercutir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
-39	"	"	PUNCT	_	PunctType=Quot	38	punct	_	SpaceAfter=No
+39	"	"	PUNCT	_	PunctType=Quot	41	punct	_	SpaceAfter=No
 40	de	de	ADP	_	_	41	case	_	_
 41	forma	forma	NOUN	_	Gender=Fem|Number=Sing	38	obl	_	_
 42	alarmante	alarmante	ADJ	_	Number=Sing	41	amod	_	_
 43	en	en	ADP	_	_	45	case	_	_
 44	nuestra	nuestro	DET	_	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	45	det	_	_
 45	contra	contra	NOUN	_	Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
-46	"	"	PUNCT	_	PunctType=Quot	38	punct	_	SpaceAfter=No
+46	"	"	PUNCT	_	PunctType=Quot	45	punct	_	SpaceAfter=No
 47	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000812-8195-s4
@@ -32244,7 +32244,7 @@
 67	de	de	ADP	_	_	69	case	_	_
 68	bajo	bajo	ADJ	_	Gender=Masc|Number=Sing	69	amod	_	_
 69	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	66	nmod	_	SpaceAfter=No
-70	"	"	PUNCT	_	PunctType=Quot	74	punct	_	_
+70	"	"	PUNCT	_	PunctType=Quot	63	punct	_	_
 71	pese	pese	NOUN	_	_	74	case	_	MWE=pese_al|MWEPOS=ADP
 72-73	al	_	_	_	_	_	_	_	_
 72	a	a	ADP	_	_	71	fixed	_	_
@@ -32442,7 +32442,7 @@
 10	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 11	asegura	asegurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	que	que	SCONJ	_	_	16	mark	_	_
-13	"	"	PUNCT	_	PunctType=Quot	14	punct	_	SpaceAfter=No
+13	"	"	PUNCT	_	PunctType=Quot	16	punct	_	SpaceAfter=No
 14	nunca	nunca	ADV	_	_	16	advmod	_	_
 15	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 16	habido	haber	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
@@ -32493,7 +32493,7 @@
 4	con	con	ADP	_	_	5	case	_	_
 5	residuos	residuo	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
-7	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
+7	"	"	PUNCT	_	PunctType=Quot	8	punct	_	SpaceAfter=No
 8	salvo	salvo	ADP	_	_	9	case	_	_
 9	accidente	accidente	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
@@ -32745,7 +32745,7 @@
 54	Unidos	Unidos	PROPN	_	_	53	flat	_	_
 55	o	o	CCONJ	_	_	56	cc	_	_
 56	Canadá	Canadá	PROPN	_	_	49	conj	_	SpaceAfter=No
-57	"	"	PUNCT	_	PunctType=Quot	13	punct	_	SpaceAfter=No
+57	"	"	PUNCT	_	PunctType=Quot	26	punct	_	SpaceAfter=No
 58	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
 # newdoc id = CESS-CAST-AA-20000812-8253
@@ -32883,7 +32883,7 @@
 21	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 22	muy	mucho	ADV	_	_	23	advmod	_	_
 23	equivocado	equivocado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	19	ccomp	_	SpaceAfter=No
-24	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
+24	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
 25	que	que	SCONJ	_	_	27	mark	_	_
 26	me	yo	PRON	_	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	27	obj	_	_
 27	preparo	preparar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	advcl	_	_
@@ -33673,7 +33673,7 @@
 20	vencimiento	vencimiento	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	deuda	deuda	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
+23	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 24	que	que	PRON	_	PronType=Int,Rel	26	nsubj	_	_
 25	han	haber	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
 26	permitido	permitir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -33955,7 +33955,7 @@
 14	realizado	realizado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	11	amod	_	_
 15	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 16	año	año	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
-17	"	"	PUNCT	_	PunctType=Quot	19	punct	_	_
+17	"	"	PUNCT	_	PunctType=Quot	16	punct	_	_
 18	que	que	PRON	_	PronType=Int,Rel	19	nsubj	_	_
 19	intentan	intentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
 20	compatibilizar	compatibilizar	VERB	_	VerbForm=Inf	19	xcomp	_	_
@@ -34107,7 +34107,7 @@
 11	bonos	bono	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
 12	y	y	CCONJ	_	_	13	cc	_	_
 13	obligaciones	obligación	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
-14	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
+14	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 15	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 16	que	que	SCONJ	_	_	15	fixed	_	_
 17	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
@@ -34145,7 +34145,7 @@
 19	y	y	CCONJ	_	_	20	cc	_	_
 20	treinta	treinta	NUM	_	Number=Plur|NumType=Card	18	conj	_	_
 21	años	año	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
+22	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
 23	en	en	ADP	_	_	0	root	_	MWE=en_tanto_que|MWEPOS=CCONJ
 24	tanto	tanto	NOUN	_	_	23	fixed	_	_
 25	que	que	SCONJ	_	_	23	fixed	_	_
@@ -34164,7 +34164,7 @@
 38	de	de	ADP	_	_	40	case	_	_
 39	seis	seis	NUM	_	Number=Plur|NumType=Card	40	nummod	_	_
 40	meses	mes	NOUN	_	Gender=Masc|Number=Plur	44	obj	_	SpaceAfter=No
-41	,	,	PUNCT	_	PunctType=Comm	44	punct	_	_
+41	,	,	PUNCT	_	PunctType=Comm	40	punct	_	_
 42	que	que	PRON	_	PronType=Int,Rel	44	nsubj	_	_
 43	"	"	PUNCT	_	PunctType=Quot	44	punct	_	SpaceAfter=No
 44	tendrán	tener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	35	advcl	_	_
@@ -34443,7 +34443,7 @@
 # sent_id = CESS-CAST-AA-20000928-24092-s3
 # text = "No puede haber nada ni nadie que pueda cercenar las posibilidades de desarrollo" del aeródromo de la isla, subrayó Soria.
 # orig_file_sentence 007#74
-1	"	"	PUNCT	_	PunctType=Quot	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	PunctType=Quot	4	punct	_	SpaceAfter=No
 2	No	no	ADV	_	Polarity=Neg	4	advmod	_	_
 3	puede	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 4	haber	haber	AUX	_	VerbForm=Inf	23	xcomp	_	_
@@ -34457,7 +34457,7 @@
 12	posibilidades	posibilidad	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	desarrollo	desarrollo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-15	"	"	PUNCT	_	PunctType=Quot	18	punct	_	_
+15	"	"	PUNCT	_	PunctType=Quot	14	punct	_	_
 16-17	del	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -34476,7 +34476,7 @@
 1	A	a	ADP	_	_	3	case	_	_
 2	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
 3	juicio	juicio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
 5	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
 6	no	no	PART	_	_	9	cc	_	MWE=no_sólo|MWEPOS=ADV
 7	sólo	sólo	ADV	_	_	6	fixed	_	_
@@ -34503,7 +34503,7 @@
 28	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	instalación	instalación	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
 30	actual	actual	ADJ	_	Number=Sing	29	amod	_	SpaceAfter=No
-31	"	"	PUNCT	_	PunctType=Quot	34	punct	_	SpaceAfter=No
+31	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
 32	,	,	PUNCT	_	PunctType=Comm	34	punct	_	_
 33	sino	sino	CCONJ	_	_	34	cc	_	_
 34	hacer	hacer	VERB	_	VerbForm=Inf	3	conj	_	_
@@ -34554,7 +34554,7 @@
 12	planteamiento	planteamiento	NOUN	_	Gender=Masc|Number=Sing	42	ccomp	_	_
 13	con	con	ADP	_	_	14	case	_	_
 14	fundamento	fundamento	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
+15	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
 16	sino	sino	CCONJ	_	_	30	cc	_	_
 17	con	con	ADP	_	_	18	case	_	_
 18	rigor	rigor	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
@@ -34572,7 +34572,7 @@
 30	bajar	bajar	VERB	_	VerbForm=Inf	12	conj	_	_
 31	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	guardia	guardia	NOUN	_	Number=Sing	30	obj	_	SpaceAfter=No
-33	"	"	PUNCT	_	PunctType=Quot	30	punct	_	_
+33	"	"	PUNCT	_	PunctType=Quot	32	punct	_	_
 34	en	en	ADP	_	_	36	case	_	_
 35	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	intento	intento	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
@@ -34612,7 +34612,7 @@
 21	21,7	21,7	NUM	_	NumForm=Digit|NumType=Card	13	obj	_	MWE=21,7_por_ciento|MWEPOS=NUM
 22	por	por	ADP	_	_	23	case	_	_
 23	ciento	ciento	NUM	_	NumType=Card	21	compound	_	SpaceAfter=No
-24	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
+24	,	,	PUNCT	_	PunctType=Comm	13	punct	_	_
 25	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 26	que	que	SCONJ	_	_	25	fixed	_	_
 27	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
@@ -34762,7 +34762,7 @@
 28	de	de	ADP	_	_	30	case	_	_
 29	23	23	NUM	_	NumForm=Digit|NumType=Card	30	nummod	_	_
 30	pesetas	peseta	NOUN	_	NumForm=Digit	27	nmod	_	SpaceAfter=No
-31	,	,	PUNCT	_	PunctType=Comm	32	punct	_	_
+31	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
 32	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 33	que	que	SCONJ	_	_	32	fixed	_	_
 34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -34917,7 +34917,7 @@
 1	"	"	PUNCT	_	PunctType=Quot	2	punct	_	SpaceAfter=No
 2	Cuba	cuba	PROPN	_	_	11	nsubj	_	MWE=Cuba_sí_,_yanquis_no|MWEPOS=PROPN
 3	sí	sí	PROPN	_	_	2	flat	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	2	punct	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
 5	yanquis	yanquis	PROPN	_	_	2	flat	_	_
 6	no	no	PART	_	_	2	flat	_	SpaceAfter=No
 7	"	"	PUNCT	_	PunctType=Quot	2	punct	_	SpaceAfter=No
@@ -35127,7 +35127,7 @@
 32	politiquería	politiquería	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
 33	y	y	CCONJ	_	_	38	cc	_	_
 34	mentirosos	mentiroso	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	SpaceAfter=No
-35	"	"	PUNCT	_	PunctType=Quot	38	punct	_	_
+35	"	"	PUNCT	_	PunctType=Quot	34	punct	_	_
 36	que	que	PRON	_	PronType=Int,Rel	38	nsubj	_	_
 37	han	haber	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
 38	gobernado	gobernar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	conj	_	_
@@ -36100,7 +36100,7 @@
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 22	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
 23	Jueves	Jueves	NOUN	_	AdvType=Tim	20	obl	_	SpaceAfter=No
-24	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
+24	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
 25	si	si	SCONJ	_	_	0	root	_	MWE=si_bien|MWEPOS=CCONJ
 26	bien	bien	ADV	_	_	25	fixed	_	_
 27	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -36189,7 +36189,7 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	primera	primero	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
 12	necesidad	necesidad	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
+13	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 14	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 15	que	que	SCONJ	_	_	14	fixed	_	_
 16	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
@@ -36523,7 +36523,7 @@
 24	menos	menos	ADV	_	Degree=Cmp	25	advmod	_	_
 25	ganan	ganar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	SpaceAfter=No
 26	"	"	PUNCT	_	PunctType=Quot	20	punct	_	SpaceAfter=No
-27	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
+27	,	,	PUNCT	_	PunctType=Comm	31	punct	_	_
 28	por	por	ADP	_	_	31	mark	_	_
 29	lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	31	det	_	_
 30	que	que	PRON	_	PronType=Int,Rel	31	obl	_	_
@@ -36565,7 +36565,7 @@
 4	Ley	Ley	PROPN	_	_	2	obj	_	MWE=Ley_de_Hidrocarburos|MWEPOS=PROPN
 5	de	de	ADP	_	_	6	case	_	_
 6	Hidrocarburos	Hidrocarburos	PROPN	_	_	4	flat	_	SpaceAfter=No
-7	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+7	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
 8	tan	tan	NOUN	_	_	2	mark	_	MWE=tan_pronto|MWEPOS=SCONJ
 9	pronto	pronto	NOUN	_	_	8	fixed	_	_
 10	sea	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
@@ -36675,7 +36675,7 @@
 42	decidido	decidir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
 43	"	"	PUNCT	_	PunctType=Quot	44	punct	_	SpaceAfter=No
 44	transparentar	transparentar	VERB	_	VerbForm=Inf	42	xcomp	_	SpaceAfter=No
-45	"	"	PUNCT	_	PunctType=Quot	47	punct	_	_
+45	"	"	PUNCT	_	PunctType=Quot	44	punct	_	_
 46	y	y	CCONJ	_	_	47	cc	_	_
 47	hacer	hacer	VERB	_	VerbForm=Inf	44	conj	_	_
 48	más	más	ADV	_	Degree=Cmp	49	advmod	_	_
@@ -36712,13 +36712,13 @@
 16	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 17	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	anticipo	anticipo	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
-19	"	"	PUNCT	_	PunctType=Quot	18	punct	_	SpaceAfter=No
+19	"	"	PUNCT	_	PunctType=Quot	20	punct	_	SpaceAfter=No
 20	mínimo	mínimo	ADJ	_	Degree=Sup|Gender=Masc|Number=Sing	18	amod	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	dos	dos	NUM	_	NumType=Card	20	nummod	_	MWE=dos_por_ciento|MWEPOS=NUM
 23	por	por	ADP	_	_	24	case	_	_
 24	ciento	ciento	NUM	_	NumType=Card	22	compound	_	SpaceAfter=No
-25	"	"	PUNCT	_	PunctType=Quot	22	punct	_	_
+25	"	"	PUNCT	_	PunctType=Quot	24	punct	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	sus	su	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
 28	ingresos	ingreso	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
@@ -37606,7 +37606,7 @@
 48	cuatro	cuatro	NUM	_	Number=Plur|NumType=Card	49	nummod	_	_
 49	triunfos	triunfo	NOUN	_	Gender=Masc|Number=Plur	46	nmod	_	_
 50	consecutivos	consecutivo	ADJ	_	Gender=Masc|Number=Plur	49	amod	_	SpaceAfter=No
-51	,	,	PUNCT	_	PunctType=Comm	44	punct	_	_
+51	,	,	PUNCT	_	PunctType=Comm	53	punct	_	_
 52	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	53	expl:pv	_	_
 53	quedaron	quedar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	44	advcl	_	_
 54	con	con	ADP	_	_	55	case	_	_
@@ -38066,7 +38066,7 @@
 # text = Hola, desconocido, de Javier Rebollo, y Pasternak, un cuento de Navidad, de Iñaki Elizalde, optarán a situarse entre los cinco candidatos al Oscar al mejor corto.
 # orig_file_sentence 011#92
 1	Hola	Hola	PROPN	_	_	21	nsubj	_	SpaceAfter=No|MWE=Hola_,_desconocido|MWEPOS=PROPN
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	desconocido	desconocido	PROPN	_	_	1	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
 5	de	de	ADP	_	_	6	case	_	_
@@ -38230,7 +38230,7 @@
 # orig_file_sentence 013#94
 1	Sin	sin	ADP	_	_	5	advmod	_	MWE=Sin_embargo|MWEPOS=ADV
 2	embargo	embargo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
+3	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 4	según	según	SCONJ	_	_	5	mark	_	_
 5	reveló	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	ayer	ayer	ADV	_	_	5	advmod	_	_
@@ -38238,7 +38238,7 @@
 8	diario	diario	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 9	The	The	PROPN	_	_	8	appos	_	MWE=The_Guardian|MWEPOS=PROPN
 10	Guardian	Guardian	PROPN	_	_	9	flat	_	SpaceAfter=No
-11	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
+11	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 12	Washington	Washington	PROPN	_	_	15	nsubj	_	_
 13	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 14	estado	estar	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux	_	_
@@ -38969,7 +38969,7 @@
 9	no	no	ADV	_	Polarity=Neg	11	advmod	_	_
 10	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
 11	inmediata	inmediato	ADJ	_	Gender=Fem|Number=Sing	13	parataxis	_	SpaceAfter=No
-12	,	,	PUNCT	_	PunctType=Comm	13	punct	_	_
+12	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 13	sino	sino	CCONJ	_	_	0	root	_	MWE=sino_que|MWEPOS=CCONJ
 14	que	que	SCONJ	_	_	13	fixed	_	_
 15	estará	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	cop	_	_
@@ -39255,9 +39255,9 @@
 1	Son	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	trabajadores	trabajador	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3	serios	serio	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
 5	honrados	honrado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	3	advmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+6	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 7	imparciales	imparcial	ADJ	_	Number=Plur	3	amod	_	SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
@@ -39309,7 +39309,7 @@
 8	en	en	ADP	_	_	10	case	_	_
 9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	extranjero	extranjero	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
-11	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+11	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 12	otros	otro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	14	nsubj	_	_
 13	han	haber	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	desempeñado	desempeñar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
@@ -39606,7 +39606,7 @@
 2	son	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	centro	centro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
+5	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
 6	claro	claro	ADV	_	_	4	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
@@ -41324,11 +41324,11 @@
 6	Nixon	Nixon	PROPN	_	_	8	nsubj	_	_
 7	estaba	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
 8	tan	tanto	ADV	_	_	4	ccomp	_	_
-9	"	"	PUNCT	_	PunctType=Quot	8	punct	_	SpaceAfter=No
+9	"	"	PUNCT	_	PunctType=Quot	10	punct	_	SpaceAfter=No
 10	fuera	fuera	NOUN	_	_	8	advmod	_	MWE=fuera_de_sí|MWEPOS=ADV
 11	de	de	ADP	_	_	10	fixed	_	_
 12	sí	sí	NOUN	_	_	10	fixed	_	SpaceAfter=No
-13	"	"	PUNCT	_	PunctType=Quot	8	punct	_	_
+13	"	"	PUNCT	_	PunctType=Quot	10	punct	_	_
 14	por	por	ADP	_	_	17	mark	_	_
 15	lo	él	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	17	det	_	_
 16	que	que	PRON	_	PronType=Int,Rel	17	obj	_	_
@@ -41456,7 +41456,7 @@
 50	de	de	ADP	_	_	51	case	_	_
 51	poder	poder	NOUN	_	Gender=Masc|Number=Sing	48	conj	_	_
 52	económico	económico	ADJ	_	Gender=Masc|Number=Sing	51	amod	_	SpaceAfter=No
-53	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
+53	,	,	PUNCT	_	PunctType=Comm	56	punct	_	_
 54	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
 55	que	que	PRON	_	PronType=Int,Rel	56	nsubj	_	_
 56	ingresan	ingresar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	appos	_	_
@@ -41554,7 +41554,7 @@
 6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	PP	PP	PROPN	_	_	4	obl	_	SpaceAfter=No
 8	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	4	punct	_	_
-9	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	4	punct	_	SpaceAfter=No
+9	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	10	punct	_	SpaceAfter=No
 10	Y	y	CCONJ	_	_	23	cc	_	_
 11	cuántos	cuánto	DET	_	Gender=Masc|Number=Plur|NumType=Card|PronType=Int,Rel	12	det	_	_
 12	providas	provida	NOUN	_	_	4	obl	_	_
@@ -41572,7 +41572,7 @@
 23	anticomunistas	anticomunista	NOUN	_	Number=Plur	4	conj	_	_
 24	en	en	ADP	_	_	25	case	_	_
 25	Iniciativa	Iniciativa	PROPN	_	_	23	nmod	_	SpaceAfter=No
-26	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	4	punct	_	SpaceAfter=No
+26	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	23	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAST-P-19990302-18-s7
@@ -41631,7 +41631,7 @@
 22	a	a	ADP	_	_	24	case	_	_
 23	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
 24	mujer	mujer	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
-25	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	29	punct	_	_
+25	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	24	punct	_	_
 26	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	29	punct	_	SpaceAfter=No
 27	O	o	CCONJ	_	_	29	cc	_	_
 28	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -41650,7 +41650,7 @@
 41	contra	contra	ADP	_	_	43	case	_	_
 42	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	reglamento	reglamento	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
-44	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	3	punct	_	SpaceAfter=No
+44	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	29	punct	_	SpaceAfter=No
 45	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # newdoc id = CESS-CAST-P-19990501-113_e
@@ -42763,11 +42763,11 @@
 # sent_id = CESS-CAST-P-19990602-19_a-s10
 # text = - - Pero pequeño.
 # orig_file_sentence 012#82
-1	-	-	PUNCT	_	PunctType=Dash	2	punct	_	_
-2	-	-	PUNCT	_	PunctType=Dash	0	root	_	_
+1	-	-	PUNCT	_	PunctType=Dash	0	root	_	_
+2	-	-	PUNCT	_	PunctType=Dash	4	punct	_	_
 3	Pero	pero	CCONJ	_	_	4	cc	_	_
-4	pequeño	pequeño	ADJ	_	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
-5	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+4	pequeño	pequeño	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAST-P-19990602-19_a-s11
 # text = - - Los entendidos dicen avión.
@@ -42783,16 +42783,16 @@
 # sent_id = CESS-CAST-P-19990602-19_a-s12
 # text = - - Y los que no entendemos, avioneta.
 # orig_file_sentence 012#84
-1	-	-	PUNCT	_	PunctType=Dash	2	punct	_	_
-2	-	-	PUNCT	_	PunctType=Dash	0	root	_	_
+1	-	-	PUNCT	_	PunctType=Dash	0	root	_	_
+2	-	-	PUNCT	_	PunctType=Dash	7	punct	_	_
 3	Y	y	CCONJ	_	_	7	cc	_	_
 4	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 5	que	que	PRON	_	PronType=Int,Rel	7	nsubj	_	_
 6	no	no	ADV	_	Polarity=Neg	7	advmod	_	_
-7	entendemos	entender	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+7	entendemos	entender	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
 9	avioneta	avioneta	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
-10	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+10	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # sent_id = CESS-CAST-P-19990602-19_a-s13
 # text = - - Je, Je.
@@ -42800,7 +42800,7 @@
 1	-	-	PUNCT	_	PunctType=Dash	3	punct	_	_
 2	-	-	PUNCT	_	PunctType=Dash	3	punct	_	_
 3	Je	je	INTJ	_	_	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
 5	Je	je	INTJ	_	_	3	dep	_	SpaceAfter=No
 6	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
@@ -43295,7 +43295,7 @@
 23	ganas	gana	NOUN	_	Gender=Fem|Number=Plur	22	iobj	_	_
 24	de	de	ADP	_	_	25	mark	_	_
 25	participar	participar	VERB	_	VerbForm=Inf	23	acl	_	SpaceAfter=No
-26	,	,	PUNCT	_	PunctType=Comm	22	punct	_	_
+26	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
 27	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
 28	que	que	PRON	_	PronType=Int,Rel	29	nsubj	_	_
 29	tienen	tener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
@@ -43414,14 +43414,14 @@
 6	hablará	hablar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	parataxis	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	inversión	inversión	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
-9	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
+9	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
 10	es	es	NOUN	_	_	0	root	_	MWE=es_decir|MWEPOS=CCONJ
 11	decir	decir	NOUN	_	_	10	fixed	_	SpaceAfter=No
-12	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
+12	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	elector	elector	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 15	invertirá	invertir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
-16	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
+16	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
 17	hará	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	advcl	_	_
 18	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	apuesta	apuesta	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
@@ -43474,7 +43474,7 @@
 6	sí	sí	INTJ	_	_	8	advcl	_	_
 7	les	él	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
 8	temen	temer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
-9	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
+9	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 10	simplemente	simplemente	ADV	_	_	11	advmod	_	_
 11	disimulan	disimular	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
 12	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
@@ -43535,7 +43535,7 @@
 1	-	-	PUNCT	_	PunctType=Dash	3	punct	_	_
 2	-	-	PUNCT	_	PunctType=Dash	3	punct	_	_
 3	Mire	mirar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 5	en	en	ADP	_	_	7	case	_	_
 6	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	país	país	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
@@ -43583,15 +43583,15 @@
 # sent_id = CESS-CAST-P-19990602-19_a-s57
 # text = - - Y en mucha de la práctica.
 # orig_file_sentence 013#31
-1	-	-	PUNCT	_	PunctType=Dash	2	punct	_	_
-2	-	-	PUNCT	_	PunctType=Dash	0	root	_	_
+1	-	-	PUNCT	_	PunctType=Dash	0	root	_	_
+2	-	-	PUNCT	_	PunctType=Dash	5	punct	_	_
 3	Y	y	CCONJ	_	_	5	cc	_	_
 4	en	en	ADP	_	_	5	case	_	_
-5	mucha	mucho	PRON	_	Gender=Fem|Number=Sing|NumType=Card|PronType=Ind	2	conj	_	_
+5	mucha	mucho	PRON	_	Gender=Fem|Number=Sing|NumType=Card|PronType=Ind	1	conj	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	práctica	práctica	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+9	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = CESS-CAST-P-19990602-19_a-s58
 # text = Y eso exige precisión, rigor, exactitud.
@@ -43920,7 +43920,7 @@
 1	-	-	PUNCT	_	PunctType=Dash	3	punct	_	_
 2	-	-	PUNCT	_	PunctType=Dash	3	punct	_	_
 3	Je	je	INTJ	_	_	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
 5	Je	je	INTJ	_	_	3	dep	_	SpaceAfter=No
 6	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
@@ -44121,7 +44121,7 @@
 10	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	11	punct	_	SpaceAfter=No
 11	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	dep	_	_
 12	ayer	ayer	ADV	_	_	11	advmod	_	SpaceAfter=No
-13	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
+13	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 14	con	con	ADP	_	_	11	case	_	_
 15	8,33	8.33	NUM	_	NumForm=Digit|NumType=Card	11	nummod	_	SpaceAfter=No
 16	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	11	punct	_	_
@@ -44154,7 +44154,7 @@
 8	en	en	ADP	_	_	9	case	_	_
 9	condiciones	condición	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
 10	legales	legal	ADJ	_	Number=Plur	9	amod	_	SpaceAfter=No
-11	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
+11	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
 12	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 13	que	que	SCONJ	_	_	12	fixed	_	_
 14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -44304,7 +44304,7 @@
 16	a	a	ADP	_	_	18	case	_	_
 17	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	público	público	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
-19	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
+19	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
 20	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 21	que	que	SCONJ	_	_	20	fixed	_	_
 22	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -44394,7 +44394,7 @@
 14	hace	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 15	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	año	año	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
-17	"	"	PUNCT	_	PunctType=Quot	22	punct	_	SpaceAfter=No
+17	"	"	PUNCT	_	PunctType=Quot	10	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	PunctType=Comm	22	punct	_	_
 19	y	y	CCONJ	_	_	22	cc	_	_
 20	que	que	SCONJ	_	_	22	mark	_	_
@@ -44604,7 +44604,7 @@
 20	marcha	marcha	NOUN	_	_	30	obl	_	MWE=marcha_atrás|MWEPOS=NOUN
 21	atrás	atrás	NOUN	_	_	20	compound	_	SpaceAfter=No
 22	"	"	PUNCT	_	PunctType=Quot	20	punct	_	SpaceAfter=No
-23	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
+23	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
 24	porque	porque	SCONJ	_	_	30	mark	_	_
 25	"	"	PUNCT	_	PunctType=Quot	30	punct	_	SpaceAfter=No
 26	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -45583,7 +45583,7 @@
 12	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	7.800	7800	NUM	_	NumForm=Digit|NumType=Card	14	nummod	_	_
 14	pesetas	peseta	NOUN	_	NumForm=Digit	16	parataxis	_	SpaceAfter=No
-15	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
+15	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 16	sino	sino	CCONJ	_	_	0	root	_	MWE=sino_que|MWEPOS=CCONJ
 17	que	que	SCONJ	_	_	16	fixed	_	_
 18	se	él	PRON	_	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	expl:impers	_	_
@@ -45799,7 +45799,7 @@
 47	nuevas	nuevo	ADJ	_	Gender=Fem|Number=Plur	48	amod	_	_
 48	ayudas	ayuda	NOUN	_	Gender=Fem|Number=Plur	44	obj	_	_
 49	complementarias	complementario	ADJ	_	Gender=Fem|Number=Plur	48	amod	_	SpaceAfter=No
-50	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
+50	,	,	PUNCT	_	PunctType=Comm	51	punct	_	_
 51	recalcó	recalcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 52	Pujol	Pujol	PROPN	_	_	51	nsubj	_	SpaceAfter=No
 53	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
@@ -45868,7 +45868,7 @@
 29	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	gran	gran	ADJ	_	Number=Sing	31	amod	_	_
 31	subasta	subasta	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
-32	"	"	PUNCT	_	PunctType=Quot	12	punct	_	SpaceAfter=No
+32	"	"	PUNCT	_	PunctType=Quot	23	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # newdoc id = CESS-CAST-P-19991002-101
@@ -46600,7 +46600,7 @@
 4	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 5	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	...	...	PUNCT	_	PunctType=Comm	5	punct	_	SpaceAfter=No
-7	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
+7	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
 8	quisiera	querer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
 9	saber	saber	AUX	_	VerbForm=Inf	11	aux	_	_
 10	qué	qué	PRON	_	Number=Sing|PronType=Int,Rel	11	obj	_	_
@@ -46629,7 +46629,7 @@
 1	Tengo	tener	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	14	14	NUM	_	NumForm=Digit|NumType=Card	3	nummod	_	_
 3	años	año	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
 5	Vivo	vivir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	Medellín	Medellín	PROPN	_	_	5	obl	_	SpaceAfter=No
@@ -46917,7 +46917,7 @@
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	tema	tema	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	son	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
-7	:	:	PUNCT	_	PunctType=Colo	9	punct	_	_
+7	:	:	PUNCT	_	PunctType=Colo	6	punct	_	_
 8	Los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	Satanistas	Satanistas	PROPN	_	_	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
@@ -47146,7 +47146,7 @@
 16	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	expl:pv	_	_
 17	sienten	sentir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	queridos	querido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	17	obj	_	SpaceAfter=No
-19	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
+19	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
 20	protegidos	protegido	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	18	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	PunctType=Peri	17	punct	_	_
 
@@ -47177,10 +47177,10 @@
 21	vais	vais	PROPN	_	_	20	flat	_	_
 22	a	a	ADP	_	_	23	case	_	_
 23	pitar	pitar	PROPN	_	_	20	flat	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	19	punct	_	_
-25	¿	¿	PUNCT	_	_	19	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	¿	¿	PUNCT	_	_	26	punct	_	SpaceAfter=No
 26	verdad	verdad	PROPN	_	_	19	flat	_	SpaceAfter=No
-27	?	?	PUNCT	_	_	19	punct	_	SpaceAfter=No
+27	?	?	PUNCT	_	_	26	punct	_	SpaceAfter=No
 28	"	"	PUNCT	_	PunctType=Quot	19	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
@@ -47273,7 +47273,7 @@
 # orig_file_sentence 010#77
 1	Está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	fidelizado	fidelizado	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+3	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
 4	blindado	blindado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	2	advmod	_	SpaceAfter=No
 5	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
@@ -47294,7 +47294,7 @@
 # text = Porque, digo yo, Llorenç sigue en el Barça, ¿no?.
 # orig_file_sentence 010#79
 1	Porque	porque	SCONJ	_	_	3	mark	_	SpaceAfter=No
-2	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
+2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 3	digo	decir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
@@ -47303,10 +47303,10 @@
 8	en	en	ADP	_	_	10	case	_	_
 9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Barça	Barça	PROPN	_	_	7	obl	_	SpaceAfter=No
-11	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
-12	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	7	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	PunctType=Comm	13	punct	_	_
+12	¿	¿	PUNCT	_	PunctSide=Ini|PunctType=Qest	13	punct	_	SpaceAfter=No
 13	no	no	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
-14	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	3	punct	_	SpaceAfter=No
+14	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	13	punct	_	SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # newdoc id = CESS-CAST-P-19991201-71_a
@@ -48004,7 +48004,7 @@
 # text = Mientras, la campaña militar en Chechenia también prosigue, ajena a las noticias sobre la salud del presidente.
 # orig_file_sentence 015#14
 1	Mientras	mientras	SCONJ	_	_	9	mark	_	SpaceAfter=No
-2	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 3	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	campaña	campaña	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 5	militar	militar	ADJ	_	Number=Sing	4	amod	_	_
@@ -49128,7 +49128,7 @@
 1	A	a	ADP	_	_	11	case	_	MWE=Al_menos|MWEPOS=ADV
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 3	menos	menos	ADV	_	Degree=Cmp	1	fixed	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 5	hace	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
 6	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	año	año	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
@@ -49934,7 +49934,7 @@
 2	distancias	distancia	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	son	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	largas	largo	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	_	PunctType=Semi	4	punct	_	_
+5	;	;	PUNCT	_	PunctType=Semi	7	punct	_	_
 6	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	esperas	espera	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
@@ -50044,7 +50044,7 @@
 # orig_file_sentence 017#59
 1	Pues	pues	SCONJ	_	_	2	mark	_	_
 2	venga	venir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+3	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
 4	andando	andar	VERB	_	VerbForm=Ger	2	advcl	_	_
 5	hasta	hasta	ADP	_	_	7	case	_	_
 6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -50661,7 +50661,7 @@
 18	por	por	ADP	_	_	19	case	_	_
 19	Ian	Ian	PROPN	_	_	17	obj	_	MWE=Ian_Holm|MWEPOS=PROPN
 20	Holm	Holm	PROPN	_	_	19	flat	_	SpaceAfter=No
-21	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
+21	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
 22	aquí	aquí	ADV	_	_	24	advmod	_	_
 23	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	experto	experto	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
@@ -50797,7 +50797,7 @@
 6	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
 7	gran	gran	ADJ	_	Number=Sing	8	amod	_	_
 8	casa	casa	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
+9	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
 10	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	expl:pv	_	_
 11	dedica	dedicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	a	a	ADP	_	_	13	mark	_	_
@@ -50915,7 +50915,7 @@
 20	que	que	PRON	_	PronType=Int,Rel	24	obl	_	_
 21	Atom	Atom	PROPN	_	_	24	nsubj	_	MWE=Atom_Egoyan|MWEPOS=PROPN
 22	Egoyan	Egoyan	PROPN	_	_	21	flat	_	SpaceAfter=No
-23	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
+23	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
 24	atrapa	atrapar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	_
 25-26	al	_	_	_	_	_	_	_	_
 25	a	a	ADP	_	_	27	case	_	_
@@ -51303,7 +51303,7 @@
 21	pérdida	pérdida	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	conocimiento	conocimiento	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
+24	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
 25	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 26	propia	propio	DET	_	Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
 27	policía	policía	NOUN	_	Number=Sing	28	nsubj	_	_
@@ -51320,7 +51320,7 @@
 37	Hospital	Hospital	PROPN	_	_	34	obl	_	MWE=Hospital_La_Paz|MWEPOS=PROPN
 38	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	Paz	Paz	PROPN	_	_	37	flat	_	SpaceAfter=No
-40	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
+40	"	"	PUNCT	_	PunctType=Quot	18	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # sent_id = CESS-CAST-P-20000602-69-s6
@@ -51690,7 +51690,7 @@
 34	de	de	ADP	_	_	36	case	_	_
 35	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	detenido	detenido	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	33	amod	_	SpaceAfter=No
-37	"	"	PUNCT	_	PunctType=Quot	45	punct	_	_
+37	"	"	PUNCT	_	PunctType=Quot	30	punct	_	_
 38	y	y	CCONJ	_	_	45	cc	_	_
 39	que	que	SCONJ	_	_	45	mark	_	_
 40	"	"	PUNCT	_	PunctType=Quot	45	punct	_	SpaceAfter=No
@@ -51861,14 +51861,14 @@
 50	sometido	someter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	advcl	_	_
 51	a	a	ADP	_	_	52	case	_	_
 52	votación	votación	NOUN	_	Gender=Fem|Number=Sing	50	obj	_	_
-53	"	"	PUNCT	_	PunctType=Quot	50	punct	_	SpaceAfter=No
+53	"	"	PUNCT	_	PunctType=Quot	55	punct	_	SpaceAfter=No
 54	varios	varios	DET	_	Gender=Masc|Number=Plur|PronType=Ind	55	det	_	_
 55	decretos	decreto	NOUN	_	Gender=Masc|Number=Plur	50	nsubj	_	_
 56	en	en	ADP	_	_	59	case	_	_
 57	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
 58	mismo	mismo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	57	det	_	_
 59	paquete	paquete	NOUN	_	Number=Sing	50	obl	_	SpaceAfter=No
-60	"	"	PUNCT	_	PunctType=Quot	50	punct	_	SpaceAfter=No
+60	"	"	PUNCT	_	PunctType=Quot	59	punct	_	SpaceAfter=No
 61	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
 # sent_id = CESS-CAST-P-20000701-93-s2
@@ -51898,7 +51898,7 @@
 22	de	de	ADP	_	_	23	case	_	_
 23	horarios	horario	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
 24	comerciales	comercial	ADJ	_	Number=Plur	23	amod	_	SpaceAfter=No
-25	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
+25	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
 26	sino	sino	CCONJ	_	_	0	root	_	MWE=sino_también|MWEPOS=CCONJ
 27	también	también	NOUN	_	_	26	fixed	_	SpaceAfter=No
 28	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
@@ -51911,14 +51911,14 @@
 35	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	sector	sector	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
 37	energético	energético	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
-38	,	,	PUNCT	_	PunctType=Comm	36	punct	_	_
+38	,	,	PUNCT	_	PunctType=Comm	41	punct	_	_
 39	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 40	libre	libre	ADJ	_	Number=Sing	41	amod	_	_
 41	descuento	descuento	NOUN	_	Gender=Masc|Number=Sing	36	appos	_	_
 42	de	de	ADP	_	_	44	case	_	_
 43	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
 44	libros	libro	NOUN	_	Gender=Masc|Number=Plur	41	nmod	_	SpaceAfter=No
-45	,	,	PUNCT	_	PunctType=Comm	36	punct	_	_
+45	,	,	PUNCT	_	PunctType=Comm	47	punct	_	_
 46	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	potenciación	potenciación	NOUN	_	Gender=Fem|Number=Sing	36	appos	_	_
 48	de	de	ADP	_	_	50	case	_	_
@@ -52357,7 +52357,7 @@
 9	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	empapado	empapar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	todo	todo	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	10	iobj	_	SpaceAfter=No
-12	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
+12	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 13	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	invadido	invadir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
 15	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
@@ -52553,7 +52553,7 @@
 12	"	"	PUNCT	_	PunctType=Quot	14	punct	_	SpaceAfter=No
 13	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	expl:pass	_	_
 14	imponen	imponer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
-15	"	"	PUNCT	_	PunctType=Quot	17	punct	_	_
+15	"	"	PUNCT	_	PunctType=Quot	14	punct	_	_
 16	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	serie	serie	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 18	de	de	ADP	_	_	19	case	_	_
@@ -52637,7 +52637,7 @@
 46	corsos	corso	NOUN	_	Gender=Masc|Number=Plur	48	nsubj	_	_
 47	puedan	poder	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	_
 48	desempeñar	desempeñar	VERB	_	VerbForm=Inf	39	advcl	_	_
-49	"	"	PUNCT	_	PunctType=Quot	48	punct	_	SpaceAfter=No
+49	"	"	PUNCT	_	PunctType=Quot	52	punct	_	SpaceAfter=No
 50	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	51	det	_	_
 51	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	52	det	_	_
 52	papel	papel	NOUN	_	Gender=Masc|Number=Sing	48	obj	_	_
@@ -52649,7 +52649,7 @@
 58	mediterráneo	mediterráneo	ADJ	_	Gender=Masc|Number=Sing	56	conj	_	_
 59	y	y	CCONJ	_	_	60	cc	_	_
 60	europeo	europeo	ADJ	_	Gender=Masc|Number=Sing	56	conj	_	SpaceAfter=No
-61	"	"	PUNCT	_	PunctType=Quot	48	punct	_	SpaceAfter=No
+61	"	"	PUNCT	_	PunctType=Quot	55	punct	_	SpaceAfter=No
 62	.	.	PUNCT	_	PunctType=Peri	24	punct	_	_
 
 # sent_id = CESS-CAST-P-20000802-26-s5
@@ -53105,7 +53105,7 @@
 8	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
 9	nuevo	nuevo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 10	equipo	equipo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
-11	"	"	PUNCT	_	PunctType=Quot	6	punct	_	SpaceAfter=No
+11	"	"	PUNCT	_	PunctType=Quot	13	punct	_	SpaceAfter=No
 12	muchísimas	muchísimo	ADJ	_	Degree=Abs|Gender=Fem|Number=Plur	13	amod	_	_
 13	cosas	cosa	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
@@ -53116,7 +53116,7 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	campo	campo	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
-21	"	"	PUNCT	_	PunctType=Quot	6	punct	_	SpaceAfter=No
+21	"	"	PUNCT	_	PunctType=Quot	15	punct	_	SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAST-P-20000802-94-s4
@@ -53134,7 +53134,7 @@
 10	ganas	gana	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
 11	de	de	ADP	_	_	12	mark	_	_
 12	triunfar	triunfar	VERB	_	VerbForm=Inf	10	acl	_	SpaceAfter=No
-13	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
+13	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 14	seguro	seguro	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 15	que	que	SCONJ	_	_	20	mark	_	_
 16	en	en	ADP	_	_	19	case	_	_
@@ -53315,7 +53315,7 @@
 1	"	"	PUNCT	_	PunctType=Quot	5	punct	_	SpaceAfter=No
 2	Era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 3	intransferible	intransferible	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 5	uno	uno	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	51	ccomp	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
@@ -53354,7 +53354,7 @@
 38	a	a	ADP	_	_	40	case	_	_
 39	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	Milan	Milan	PROPN	_	_	37	obl	_	SpaceAfter=No
-41	,	,	PUNCT	_	PunctType=Comm	37	punct	_	_
+41	,	,	PUNCT	_	PunctType=Comm	44	punct	_	_
 42	pero	pero	CCONJ	_	_	44	cc	_	_
 43	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	44	obj	_	_
 44	hace	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	conj	_	_
@@ -53665,7 +53665,7 @@
 5	defraudó	defraudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	ccomp	_	_
 6	a	a	ADP	_	_	7	case	_	_
 7	nadie	nadie	PRON	_	Number=Sing|PronType=Neg	5	obj	_	SpaceAfter=No
-8	...	...	PUNCT	_	PunctType=Comm	5	punct	_	_
+8	...	...	PUNCT	_	PunctType=Comm	12	punct	_	_
 9	quizá	quizá	ADV	_	_	12	advmod	_	_
 10	porque	porque	SCONJ	_	_	12	mark	_	_
 11	apenas	apenas	ADV	_	_	12	advmod	_	_
@@ -53830,9 +53830,9 @@
 21	de	de	ADP	_	_	23	case	_	_
 22	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	interpretación	interpretación	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
-24	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	20	punct	_	SpaceAfter=No
-25	...	...	PUNCT	_	PunctType=Comm	20	punct	_	SpaceAfter=No
-26	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	20	punct	_	_
+24	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	25	punct	_	SpaceAfter=No
+25	...	...	PUNCT	_	PunctType=Comm	27	punct	_	SpaceAfter=No
+26	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	25	punct	_	_
 27	capaz	capaz	ADJ	_	Number=Sing	20	amod	_	_
 28	de	de	ADP	_	_	29	mark	_	_
 29-30	moldearse	_	_	_	_	_	_	_	_
@@ -54026,7 +54026,7 @@
 1	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	Ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	perdido	perder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	SpaceAfter=No
-4	"	"	PUNCT	_	PunctType=Quot	8	punct	_	_
+4	"	"	PUNCT	_	PunctType=Quot	3	punct	_	_
 5	y	y	CCONJ	_	_	8	cc	_	_
 6	"	"	PUNCT	_	PunctType=Quot	8	punct	_	SpaceAfter=No
 7	debe	deber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -54229,7 +54229,7 @@
 19	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
 20	es	es	NOUN	_	_	29	cc	_	MWE=es_decir|MWEPOS=CCONJ
 21	decir	decir	NOUN	_	_	20	fixed	_	SpaceAfter=No
-22	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
+22	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
 23	que	que	SCONJ	_	_	29	mark	_	_
 24	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 25	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	26	amod	_	_
@@ -54453,7 +54453,7 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	8	det	_	_
 8	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
+9	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 10	mientras	mientras	CCONJ	_	_	0	root	_	MWE=mientras_que|MWEPOS=CCONJ
 11	que	que	SCONJ	_	_	10	fixed	_	_
 12	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -54822,13 +54822,13 @@
 17	de	de	ADP	_	_	18	case	_	_
 18	entrevistas	entrevista	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
 19	de	de	ADP	_	_	22	case	_	_
-20	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 21	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	22	det	_	MWE=Els_matins_amb_Josep_Cuní|MWEPOS=PROPN
 22	matins	matins	PROPN	_	_	16	nmod	_	_
 23	amb	amb	ADP	_	_	24	case	_	_
 24	Josep	Josep	PROPN	_	_	21	flat	_	_
 25	Cuní	Cuní	PROPN	_	_	24	flat	_	SpaceAfter=No
-26	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
+26	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
 28	de	de	ADP	_	_	29	case	_	_
 29	Ona	Ona	PROPN	_	_	16	nmod	_	MWE=Ona_Catalana|MWEPOS=PROPN
@@ -55521,7 +55521,7 @@
 1	Y	y	CCONJ	_	_	2	cc	_	_
 2	de	de	ADP	_	_	0	root	_	MWE=de_paso|MWEPOS=ADV
 3	paso	paso	NOUN	_	_	2	fixed	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
 5	de	de	ADP	_	_	2	case	_	_
 6	cómo	cómo	PRON	_	PronType=Ind	8	obl	_	_
 7	ha	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -55549,7 +55549,7 @@
 6	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 7	en	en	ADP	_	_	5	advmod	_	MWE=en_general|MWEPOS=ADV
 8	general	general	NOUN	_	_	7	fixed	_	SpaceAfter=No
-9	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
+9	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
 10	para	para	ADP	_	_	7	case	_	_
 11	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
@@ -55686,7 +55686,7 @@
 9	eficacia	eficacia	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	gestión	gestión	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
+12	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	indicador	indicador	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
 15	que	que	PRON	_	PronType=Int,Rel	24	nsubj	_	_
@@ -56479,7 +56479,7 @@
 13	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 14	nos	yo	PRON	_	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	15	iobj	_	_
 15	caería	caer	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	6	csubj	_	SpaceAfter=No
-16	"	"	PUNCT	_	PunctType=Quot	21	punct	_	SpaceAfter=No
+16	"	"	PUNCT	_	PunctType=Quot	6	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
 18	y	y	CCONJ	_	_	21	cc	_	_
 19	muchos	mucho	DET	_	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	20	det	_	_
@@ -56867,7 +56867,7 @@
 14	Osasuna	Osasuna	PROPN	_	_	8	nmod	_	_
 15	y	y	CCONJ	_	_	16	cc	_	_
 16	Racing	Racing	PROPN	_	_	14	conj	_	SpaceAfter=No
-17	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
+17	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
 18	de	de	ADP	_	_	19	mark	_	_
 19	impugnar	impugnar	VERB	_	VerbForm=Inf	5	acl	_	_
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -56969,7 +56969,7 @@
 8	en	en	ADP	_	_	10	case	_	_
 9	48	48	NUM	_	NumForm=Digit|NumType=Card	10	nummod	_	_
 10	horas	hora	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
-11	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
+11	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
 12	si	si	SCONJ	_	_	13	mark	_	_
 13	no	no	ADV	_	Polarity=Neg	17	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	13	punct	_	_
@@ -57214,10 +57214,10 @@
 38	-	-	PUNCT	_	PunctType=Dash	40	punct	_	_
 39	-	-	PUNCT	_	PunctType=Dash	40	punct	_	_
 40	Alvaro	Alvaro	PROPN	_	_	34	appos	_	_
-41	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	42	punct	_	SpaceAfter=No
+41	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	43	punct	_	SpaceAfter=No
 42	Las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	MWE=Las_Palmas|MWEPOS=PROPN
 43	Palmas	Palmas	PROPN	_	_	40	flat	_	SpaceAfter=No
-44	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	40	punct	_	SpaceAfter=No
+44	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	43	punct	_	SpaceAfter=No
 45	,	,	PUNCT	_	PunctType=Comm	46	punct	_	_
 46	Bartelt	Bartelt	PROPN	_	_	40	conj	_	_
 47	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	48	punct	_	SpaceAfter=No
@@ -57553,7 +57553,7 @@
 16	van	van	PROPN	_	_	15	flat	_	_
 17	den	den	PROPN	_	_	15	flat	_	_
 18	Ende	Ende	PROPN	_	_	15	flat	_	SpaceAfter=No
-19	,	,	PUNCT	_	PunctType=Comm	22	punct	_	_
+19	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	donde	donde	PRON	_	PronType=Ind	22	obl	_	_
 22	salió	salir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	_
@@ -58522,7 +58522,7 @@
 1	Nadie	nadie	PRON	_	Number=Sing|PronType=Neg	2	nsubj	_	_
 2	sabía	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	nada	nada	PRON	_	Number=Sing|PronType=Neg	2	obj	_	SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+4	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
 5	me	yo	PRON	_	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	6	obj	_	_
 6	enviaban	enviar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
 7	de	de	ADP	_	_	9	case	_	_
@@ -58832,7 +58832,7 @@
 17	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	19	punct	_	SpaceAfter=No
 18	entre	entre	ADP	_	_	19	case	_	_
 19	ellos	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	appos	_	SpaceAfter=No
-20	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
+20	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
 21	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 22	de	de	ADP	_	_	19	case	_	_
 23	Jorge	Jorge	PROPN	_	_	19	nmod	_	MWE=Jorge_Drexler|MWEPOS=PROPN
@@ -59499,7 +59499,7 @@
 19	pies	pie	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
 20	ni	ni	CCONJ	_	_	21	cc	_	_
 21	cabeza	cabeza	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
-22	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
+22	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
 23	que	que	SCONJ	_	_	26	mark	_	_
 24	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
 25	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -59674,9 +59674,9 @@
 # orig_file_sentence 014#94
 1	-	-	PUNCT	_	PunctType=Dash	9	punct	_	_
 2	-	-	PUNCT	_	PunctType=Dash	9	punct	_	_
-3	¡	¡	PUNCT	_	PunctSide=Ini|PunctType=Excl	9	punct	_	SpaceAfter=No
+3	¡	¡	PUNCT	_	PunctSide=Ini|PunctType=Excl	4	punct	_	SpaceAfter=No
 4	Hombre	hombre	INTJ	_	_	9	dep	_	SpaceAfter=No
-5	!	!	PUNCT	_	PunctSide=Fin|PunctType=Excl	9	punct	_	_
+5	!	!	PUNCT	_	PunctSide=Fin|PunctType=Excl	4	punct	_	_
 6	¡	¡	PUNCT	_	PunctSide=Ini|PunctType=Excl	9	punct	_	SpaceAfter=No
 7	Así	así	ADV	_	_	9	advmod	_	_
 8	no	no	ADV	_	Polarity=Neg	9	advmod	_	_
@@ -60355,7 +60355,7 @@
 6	hablando	hablar	VERB	_	VerbForm=Ger	2	ccomp	_	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	COI	COI	PROPN	_	_	6	nsubj	_	SpaceAfter=No
-9	"	"	PUNCT	_	PunctType=Quot	11	punct	_	SpaceAfter=No
+9	"	"	PUNCT	_	PunctType=Quot	2	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 11	dijo	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 12	Mayer	Mayer	PROPN	_	_	11	nsubj	_	SpaceAfter=No
@@ -60378,7 +60378,7 @@
 29	para	para	ADP	_	_	31	case	_	_
 30	diversas	diverso	DET	_	Gender=Fem|Number=Plur|PronType=Ind	31	det	_	_
 31	terapias	terapia	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	SpaceAfter=No
-32	"	"	PUNCT	_	PunctType=Quot	2	punct	_	SpaceAfter=No
+32	"	"	PUNCT	_	PunctType=Quot	16	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = CESS-CAST-P-20020301-99-s6

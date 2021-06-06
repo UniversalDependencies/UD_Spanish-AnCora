@@ -113,7 +113,7 @@
     <dep name="cc">15112</dep>
     <dep name="ccomp">6095</dep>
     <dep name="compound">2453</dep>
-    <dep name="conj">16410</dep>
+    <dep name="conj">16406</dep>
     <dep name="cop">5536</dep>
     <dep name="csubj">1188</dep>
     <dep name="csubj:pass">1</dep>
@@ -137,7 +137,7 @@
     <dep name="obl">24365</dep>
     <dep name="orphan">36</dep>
     <dep name="parataxis">702</dep>
-    <dep name="punct">65602</dep>
+    <dep name="punct">65606</dep>
     <dep name="root">17662</dep>
     <dep name="vocative">1</dep>
     <dep name="xcomp">4183</dep>
