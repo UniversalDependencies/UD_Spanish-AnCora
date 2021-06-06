@@ -7107,7 +7107,7 @@
 # sent_id = 3LB-CAST-r2-7-s5
 # text = '- Cómo no nos habremos dado cuenta?', me dijo -.
 # orig_file_sentence 003#24
-1	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 2	-	-	PUNCT	_	PunctType=Dash	7	punct	_	_
 3	Cómo	cómo	PRON	_	PronType=Ind	7	obl	_	_
 4	no	no	ADV	_	Polarity=Neg	7	advmod	_	_
@@ -7116,7 +7116,7 @@
 7	dado	dar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	MWE=dado_cuenta|MWEPOS=VERB
 8	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	7	compound	_	SpaceAfter=No
 9	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	7	punct	_	SpaceAfter=No
-10	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 11	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 12	me	yo	PRON	_	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	13	iobj	_	_
 13	dijo	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -38948,9 +38948,9 @@
 # text = Los 'botiguers' prevén que la relación con los fabricantes empeorará.
 # orig_file_sentence 016#82
 1	Los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-2	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+2	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 3	botiguers	botiguers	NOUN	_	_	5	nsubj	_	SpaceAfter=No
-4	'	'	SYM	_	_	3	nmod	_	_
+4	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	_
 5	prevén	prever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	que	que	SCONJ	_	_	12	mark	_	_
 7	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -46404,9 +46404,9 @@
 1	Lituania	Lituania	PROPN	_	_	2	nsubj	_	_
 2	empieza	empezar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	a	a	ADP	_	_	5	mark	_	_
-4	'	'	SYM	_	_	5	nmod	_	SpaceAfter=No
+4	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	SpaceAfter=No
 5	fichar	fichar	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
-6	'	'	SYM	_	_	5	nmod	_	_
+6	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	_
 7	a	a	ADP	_	_	9	case	_	_
 8	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	exagentes	exagente	NOUN	_	Number=Plur	5	obj	_	_
@@ -47210,9 +47210,9 @@
 # orig_file_sentence 013#56
 1	No	no	ADV	_	Polarity=Neg	4	advmod	_	_
 2	eran	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
-3	'	'	SYM	_	_	4	nmod	_	SpaceAfter=No
+3	'	'	PUNCT	fe	PunctType=Quot	4	punct	_	SpaceAfter=No
 4	skins	skins	NOUN	_	_	0	root	_	SpaceAfter=No
-5	'	'	SYM	_	_	4	nmod	_	_
+5	'	'	PUNCT	fe	PunctType=Quot	4	punct	_	_
 6	y	y	CCONJ	_	_	8	cc	_	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	desconocimiento	desconocimiento	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_

@@ -44186,9 +44186,9 @@
 # text = El 'lehendakari' advierte de que el debate va mejor en privado de lo que trasciende.
 # orig_file_sentence 015#28
 1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+2	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 3	lehendakari	lehendakari	NOUN	_	Number=Sing	5	nsubj	_	SpaceAfter=No
-4	'	'	SYM	_	_	3	nmod	_	_
+4	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	_
 5	advierte	advertir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	de	de	ADP	_	_	10	mark	_	_
 7	que	que	SCONJ	_	_	10	mark	_	_
@@ -45130,9 +45130,9 @@
 # text = El 'president' reitera que la paga catalana ha forzado la revisión del Pacto de Toledo.
 # orig_file_sentence 017#8
 1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+2	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 3	president	president	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
-4	'	'	SYM	_	_	3	nmod	_	_
+4	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	_
 5	reitera	reiterar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	que	que	SCONJ	_	_	11	mark	_	_
 7	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -48492,9 +48492,9 @@
 6	multará	multar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	a	a	ADP	_	_	10	case	_	_
 8	10	10	NUM	_	NumForm=Digit|NumType=Card	10	nummod	_	_
-9	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+9	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 10	skins	skins	NOUN	_	_	6	obj	_	SpaceAfter=No
-11	'	'	SYM	_	_	10	nmod	_	_
+11	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	_
 12	por	por	ADP	_	_	14	case	_	_
 13	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	manifestación	manifestación	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
@@ -54822,13 +54822,13 @@
 17	de	de	ADP	_	_	18	case	_	_
 18	entrevistas	entrevista	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
 19	de	de	ADP	_	_	22	case	_	_
-20	'	'	SYM	_	_	21	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
 21	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	22	det	_	MWE=Els_matins_amb_Josep_Cuní|MWEPOS=PROPN
 22	matins	matins	PROPN	_	_	16	nmod	_	_
 23	amb	amb	ADP	_	_	24	case	_	_
 24	Josep	Josep	PROPN	_	_	21	flat	_	_
 25	Cuní	Cuní	PROPN	_	_	24	flat	_	SpaceAfter=No
-26	'	'	SYM	_	_	21	nmod	_	SpaceAfter=No
+26	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
 28	de	de	ADP	_	_	29	case	_	_
 29	Ona	Ona	PROPN	_	_	16	nmod	_	MWE=Ona_Catalana|MWEPOS=PROPN
@@ -54841,9 +54841,9 @@
 36	últimas	último	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	37	amod	_	_
 37	representaciones	representación	NOUN	_	Gender=Fem|Number=Plur	33	obj	_	_
 38	de	de	ADP	_	_	40	case	_	_
-39	'	'	SYM	_	_	40	nmod	_	SpaceAfter=No
+39	'	'	PUNCT	fe	PunctType=Quot	40	punct	_	SpaceAfter=No
 40	Arte	Arte	PROPN	_	_	37	nmod	_	SpaceAfter=No
-41	'	'	SYM	_	_	40	nmod	_	_
+41	'	'	PUNCT	fe	PunctType=Quot	40	punct	_	_
 42	en	en	ADP	_	_	43	case	_	_
 43	Barcelona	Barcelona	PROPN	_	_	37	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
@@ -55293,12 +55293,12 @@
 6	hoy	hoy	ADV	_	_	5	advmod	_	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	disco	disco	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-9	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+9	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 10	Infinito	Infinito	PROPN	_	_	8	appos	_	MWE=Infinito_de_nos_dois|MWEPOS=PROPN
 11	de	de	ADP	_	_	12	case	_	_
 12	nos	yo	PRON	_	Case=Acc,Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	10	flat	_	_
 13	dois	dois	NUM	_	Gender=Masc|NumType=Card	12	nummod	_	SpaceAfter=No
-14	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+14	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
 16	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	fusión	fusión	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
@@ -55357,18 +55357,18 @@
 6	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
 7	trabajo	trabajo	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
-9	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+9	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 10	Querencias	Querencias	PROPN	_	_	7	appos	_	SpaceAfter=No
-11	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 12	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAST-P-20010202-157_b-s7
 # text = La 'cantaora' catalana actúa acompañada a la guitarra por Juan Ramón Caro.
 # orig_file_sentence 012#52
 1	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+2	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 3	cantaora	cantaora	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
-4	'	'	SYM	_	_	3	nmod	_	_
+4	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	_
 5	catalana	catalán	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 6	actúa	actuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	acompañada	acompañado	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	6	obj	_	_
