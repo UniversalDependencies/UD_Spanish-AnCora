@@ -54822,13 +54822,13 @@
 17	de	de	ADP	_	_	18	case	_	_
 18	entrevistas	entrevista	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
 19	de	de	ADP	_	_	22	case	_	_
-20	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 21	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	22	det	_	MWE=Els_matins_amb_Josep_Cuní|MWEPOS=PROPN
 22	matins	matins	PROPN	_	_	16	nmod	_	_
 23	amb	amb	ADP	_	_	24	case	_	_
-24	Josep	Josep	PROPN	_	_	21	flat	_	_
+24	Josep	Josep	PROPN	_	_	22	nmod	_	_
 25	Cuní	Cuní	PROPN	_	_	24	flat	_	SpaceAfter=No
-26	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
+26	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
 28	de	de	ADP	_	_	29	case	_	_
 29	Ona	Ona	PROPN	_	_	16	nmod	_	MWE=Ona_Catalana|MWEPOS=PROPN
