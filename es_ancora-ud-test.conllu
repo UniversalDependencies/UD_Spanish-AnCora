@@ -10717,7 +10717,7 @@
 30	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAST-A-20000123-15801-s22
-# text = "Obviamente tiene una gran experiencia", dijo Philippoussis sobre su verdugo, "con 29 años está jugando el mejor tenis de su vida, es algo increíble."
+# text = "Obviamente tiene una gran experiencia", dijo Philippoussis sobre su verdugo, "con 29 años está jugando el mejor tenis de su vida, es algo increíble"
 # orig_file_sentence 005#34
 1	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	Obviamente	obviamente	ADV	_	_	3	advmod	_	_
@@ -10749,8 +10749,7 @@
 28	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
 29	algo	algo	PRON	_	Number=Sing|PronType=Ind	20	advcl	_	_
 30	increíble	increíble	ADJ	_	Number=Sing	29	amod	_	SpaceAfter=No
-31	.	.	PUNCT	_	PunctType=Peri	20	punct	_	SpaceAfter=No
-32	"	"	PUNCT	fe	PunctType=Quot	20	punct	_	_
+31	"	"	PUNCT	fe	PunctType=Quot	20	punct	_	_
 
 # sent_id = CESS-CAST-A-20000123-15801-s23A
 # text = " Golpea a la bola con la mayor claridad que nunca he visto.
@@ -23245,7 +23244,7 @@
 43	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000224-20131-s2
-# text = "No sé como se debe jugar al Barcelona", comentó Roberto Carlos, "pero debemos seguir en el camino en el que nos encontramos."
+# text = "No sé como se debe jugar al Barcelona", comentó Roberto Carlos, "pero debemos seguir en el camino en el que nos encontramos"
 # orig_file_sentence 006#36
 1	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	No	no	ADV	_	Polarity=Neg	3	advmod	_	_
@@ -23276,8 +23275,7 @@
 26	que	que	PRON	_	PronType=Int,Rel	28	obl	_	_
 27	nos	yo	PRON	_	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	28	expl:pv	_	_
 28	encontramos	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	acl	_	SpaceAfter=No
-29	.	.	PUNCT	_	PunctType=Peri	23	punct	_	SpaceAfter=No
-30	"	"	PUNCT	fe	PunctType=Quot	23	punct	_	_
+29	"	"	PUNCT	fe	PunctType=Quot	23	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000224-20131-s3
 # text = " Estamos en un momento dulce ", declaró el defensa brasileño.
@@ -30278,7 +30276,7 @@
 58	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000608-6438-s8
-# text = En una breve alocución antes de comenzar el almuerzo, la esposa de José María Aznar aseguró que "entre todos vamos a impulsar, alentar y convertir España en uno de los mejores países del mundo."
+# text = En una breve alocución antes de comenzar el almuerzo, la esposa de José María Aznar aseguró que "entre todos vamos a impulsar, alentar y convertir España en uno de los mejores países del mundo"
 # orig_file_sentence 008#91
 1	En	en	ADP	_	_	4	case	_	_
 2	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -30319,8 +30317,7 @@
 36	de	de	ADP	_	_	38	case	_	_
 37	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	_	PunctType=Peri	24	punct	_	SpaceAfter=No
-40	"	"	PUNCT	fe	PunctType=Quot	24	punct	_	_
+39	"	"	PUNCT	fe	PunctType=Quot	24	punct	_	_
 
 # sent_id = CESS-CAST-AA-20000608-6438-s9
 # text = " Un país próspero, moderno y abierto ", Apostilló.
