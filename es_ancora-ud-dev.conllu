@@ -14073,7 +14073,7 @@
 41	se	él	PRON	_	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	42	expl:pv	_	_
 42	vaya	ir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	ccomp	_	SpaceAfter=No
 43	"	"	PUNCT	fe	PunctType=Quot	9	punct	_	_
-44	.	.	PUNCT	fp	PunctType=Peri	7	punct	_	_
+44	.	.	PUNCT	fp	PunctType=Peri	9	punct	_	_
 
 # sent_id = CESS-CAST-A-20000423-17037-s9
 # text = "Lo único que demuestran es su impotencia, porque no lo pueden echar".
