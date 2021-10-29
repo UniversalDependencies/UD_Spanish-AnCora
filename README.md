@@ -55,6 +55,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
   * Added document boundaries.
   * Copied XPOS from the original AnCora.
   * Copied CorefUD-style coreference and entity annotation from the original AnCora.
+  * Created enhanced representation (needed for coreference annotation).
   * The license changed to CC BY 4.0 (https://doi.org/10.5281/zenodo.4762030).
 * 2021-05-15 v2.8
   * Fixed: AdpType=Preppron wrongly appeared at the first word of multi-word
