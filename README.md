@@ -18,6 +18,15 @@ the original data providers at the University of Barcelona (that is, not
 to the UD contact address listed at the end of this README file).
 
 
+# Coreference and Entities
+
+The MISC column contains annotation of named entities and coreference, converted
+from the original XML files of AnCora-CO and merged with the UD-style morpho-
+syntactic annotation. The format of these annotations is described in
+[Nedoluzhko et al. (2021): Coreference meets Universal Dependencies – a pilot
+experiment on harmonizing coreference datasets for 11 languages](https://ufal.mff.cuni.cz/techrep/tr66.pdf).
+
+
 # Acknowledgements
 
 The following paper must be cited when using this corpus:
@@ -40,6 +49,14 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 # Changelog
 
+* 2021-11-15 v2.9
+  * Changed sentence ids to reflect the original AnCora documents.
+  * Reordered sentences by sentence ids.
+  * Added document boundaries.
+  * Copied XPOS from the original AnCora.
+  * Copied CorefUD-style coreference and entity annotation from the original AnCora.
+  * Created enhanced representation (needed for coreference annotation).
+  * The license changed to CC BY 4.0 (https://doi.org/10.5281/zenodo.4762030).
 * 2021-05-15 v2.8
   * Fixed: AdpType=Preppron wrongly appeared at the first word of multi-word
     prepositions such as "delante del".
@@ -55,7 +72,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 === Machine-readable metadata =================================================
 Data available since: UD v1.3
-License: GNU GPL 3.0
+License: CC BY 4.0
 Includes text: yes
 Genre: news
 Lemmas: converted from manual

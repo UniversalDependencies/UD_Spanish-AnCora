@@ -1,2 +1,4 @@
-GNU GENERAL PUBLIC LICENSE 3.0
-http://www.gnu.org/licenses/gpl.html
+The treebank is licensed under the Creative Commons License Attribution 4.0 International.
+
+The complete license text is available at:
+https://creativecommons.org/licenses/by/4.0/legalcode
