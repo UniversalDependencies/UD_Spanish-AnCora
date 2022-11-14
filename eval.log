@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 13 22:03:41 2022 +0100
 Evaluating the following revision of UD_Spanish-AnCora:
-commit 8b66e19d9e829498216e2af0ec33f72c538e44dd
-Merge: 59fe4bd 34c30c0
+commit caaefcf7f2cf765c7518f8aa9c27e60c67da9cb5
+Merge: 113aadd 0ae3708
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 559782 of 559782 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.6550948444471.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 382563 out of 559782 total words have one or more features.
+Features: 382564 out of 559782 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -25,12 +25,44 @@ Udapi: found 3619 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 559782 words.
 Genres: found 1 out of 17 known.
 validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-dev.conllu
-*** PASSED ***
+[Line 18412 Sent CESS-CAST-A-20000622-17928-s4 Node 7]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 20060 Sent CESS-CAST-A-20001203-1592-s11 Node 25]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [9, 18]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 27841 Sent CESS-CAST-AA-20000629-23978-s3 Node 21]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [20, 28]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 28321 Sent CESS-CAST-AA-20000629-23978-s11 Node 67]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [60, 70]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 36052 Sent CESS-CAST-P-19981202-34-s10 Node 22]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 36867 Sent CESS-CAST-P-19990601-23-s3 Node 25]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 28]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 52019 Sent CESS-CAST-P-20001201-199-s14 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 57295 Sent CESS-CAST-P-20011002-160-s10 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+Syntax errors: 8
+*** FAILED *** with 8 errors
+Exit code: 1
 validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-test.conllu
-*** PASSED ***
+[Line 14168 Sent CESS-CAST-A-20000415-12000-s5 Node 48]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [16, 25]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 20956 Sent CESS-CAST-A-20001223-17865-s26 Node 27]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [10, 29]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 26621 Sent CESS-CAST-AA-20000307-5124-s5 Node 12]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 31487 Sent CESS-CAST-AA-20000710-6482-s6 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [10, 16]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 32912 Sent CESS-CAST-AA-20000812-8195-s9 Node 47]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [40, 51]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 34145 Sent CESS-CAST-AA-20000928-24050-s2 Node 26]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 24]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 39548 Sent CESS-CAST-P-19981202-75-s3 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [14, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 55038 Sent CESS-CAST-P-20001002-21-s3 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+Syntax errors: 8
+*** FAILED *** with 8 errors
+Exit code: 1
 validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 4920 Sent 3LB-CAST-104_C-6-s11 Node 23]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 26]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 17946 Sent 3LB-CAST-204_c-6-s19 Node 45]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 43]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 18600 Sent 3LB-CAST-211_C-1-s12 Node 19]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 22]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 27201 Sent 3LB-CAST-a12-3-s6 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 42052 Sent 3LB-CAST-c5-2-s10 Node 20]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 42298 Sent 3LB-CAST-d1-0-s7 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 50698 Sent 3LB-CAST-d2-5-s7 Node 7]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 61543 Sent 3LB-CAST-dc2-1-s7 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [11, 19]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 69781 Sent 3LB-CAST-dc3-5-s8 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 49
+*** FAILED *** with 49 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -39,6 +71,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.93534983261341) = 0.287799948496434
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.817981338931099) * (availability=1) * (validity=1) = 0.817981338931099
-STARS = 4
-UD_Spanish-AnCora	0.817981338931099	4
+(TOTAL score=0.817981338931099) * (availability=1) * (validity=0.01) = 0.00817981338931099
+STARS = 0
+UD_Spanish-AnCora	0.00817981338931099	0
