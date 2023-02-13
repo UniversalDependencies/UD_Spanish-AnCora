@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>17662</sentences><tokens>547203</tokens><words>559782</words><fused>12557</fused></total>
+    <train><sentences>14287</sentences><tokens>442591</tokens><words>452738</words><fused>10129</fused></train>
+    <dev><sentences>1654</sentences><tokens>52176</tokens><words>53440</words><fused>1262</fused></dev>
+    <test><sentences>1721</sentences><tokens>52436</tokens><words>53604</words><fused>1166</fused></test>
   </size>
   <lemmas unique="26124" /><!-- el, de, ,, ., que, en, a, y, él, uno, ", ser, por, su, haber -->
   <forms unique="38921" /><!-- de, ,, el, la, ., que, en, a, y, ", los, se, un, las, por -->
@@ -97,7 +100,7 @@
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,NOUN,VERB">11735</feat><!-- pasado, sido, hecho, tenido, dado, pasada, previsto, visto, conseguido, perdido -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="41">
+  <deps unique="42">
     <dep name="acl">10585</dep>
     <dep name="acl:relcl">10</dep>
     <dep name="advcl">8972</dep>
@@ -132,7 +135,8 @@
     <dep name="nummod">5650</dep>
     <dep name="obj">30702</dep>
     <dep name="obl">24367</dep>
-    <dep name="obl:agent">1332</dep>
+    <dep name="obl:agent">1282</dep>
+    <dep name="obl:arg">50</dep>
     <dep name="orphan">1</dep>
     <dep name="parataxis">702</dep>
     <dep name="punct">65613</dep>
