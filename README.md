@@ -51,6 +51,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 * 2023-05-15 v2.12
   * Propagated the arg and tem attributes from the original AnCora.
+  * Por-nominals under participles changed from obj to obl:agent.
 * 2022-05-15 v2.10
   * Heuristically resolved coreference cluster type mismatches.
   * Coreference annotation converted to CorefUD 1.0 format.
