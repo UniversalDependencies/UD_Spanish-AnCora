@@ -133,10 +133,10 @@
     <dep name="nsubj">29606</dep>
     <dep name="nsubj:pass">52</dep>
     <dep name="nummod">5650</dep>
-    <dep name="obj">27546</dep>
+    <dep name="obj">26323</dep>
     <dep name="obl">24367</dep>
     <dep name="obl:agent">1282</dep>
-    <dep name="obl:arg">3206</dep>
+    <dep name="obl:arg">4429</dep>
     <dep name="orphan">1</dep>
     <dep name="parataxis">702</dep>
     <dep name="punct">65613</dep>
