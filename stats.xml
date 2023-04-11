@@ -126,7 +126,7 @@
     <dep name="expl:pv">3212</dep>
     <dep name="fixed">8170</dep>
     <dep name="flat">14452</dep>
-    <dep name="iobj">253</dep>
+    <dep name="iobj">99</dep>
     <dep name="list">21</dep>
     <dep name="mark">19250</dep>
     <dep name="nmod">38522</dep>
@@ -136,7 +136,7 @@
     <dep name="obj">25719</dep>
     <dep name="obl">24367</dep>
     <dep name="obl:agent">1282</dep>
-    <dep name="obl:arg">6739</dep>
+    <dep name="obl:arg">6893</dep>
     <dep name="orphan">1</dep>
     <dep name="parataxis">702</dep>
     <dep name="punct">65613</dep>
