@@ -126,7 +126,7 @@
     <dep name="expl:pv">3212</dep>
     <dep name="fixed">8170</dep>
     <dep name="flat">14452</dep>
-    <dep name="iobj">486</dep>
+    <dep name="iobj">338</dep>
     <dep name="list">21</dep>
     <dep name="mark">19250</dep>
     <dep name="nmod">38522</dep>
@@ -142,6 +142,6 @@
     <dep name="punct">65613</dep>
     <dep name="root">17662</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">4518</dep>
+    <dep name="xcomp">4666</dep>
   </deps>
 </treebank>
