@@ -126,14 +126,14 @@
     <dep name="expl:pv">3212</dep>
     <dep name="fixed">8170</dep>
     <dep name="flat">14452</dep>
-    <dep name="iobj">99</dep>
+    <dep name="iobj">33</dep>
     <dep name="list">21</dep>
     <dep name="mark">19250</dep>
     <dep name="nmod">38522</dep>
     <dep name="nsubj">29606</dep>
     <dep name="nsubj:pass">52</dep>
     <dep name="nummod">5650</dep>
-    <dep name="obj">25719</dep>
+    <dep name="obj">25785</dep>
     <dep name="obl">24367</dep>
     <dep name="obl:agent">1282</dep>
     <dep name="obl:arg">6893</dep>
