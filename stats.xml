@@ -17,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">36423</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, mayor, segundo, buen -->
     <tag name="ADP">87928</tag><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
-    <tag name="ADV">17806</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
+    <tag name="ADV">17807</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
     <tag name="AUX">14249</tag><!-- ser, haber, estar, poder, deber, saber, querer -->
     <tag name="CCONJ">15104</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
     <tag name="DET">84247</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
@@ -28,7 +28,7 @@
     <tag name="PRON">25905</tag><!-- él, que, yo, uno, todo, donde, quien, este, otro, ese -->
     <tag name="PROPN">42484</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
     <tag name="PUNCT">65625</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
-    <tag name="SCONJ">12478</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
+    <tag name="SCONJ">12477</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">387</tag><!-- %, 30/100, 50/100, 60/100, 20/100, 10/100, 80/100, 25/100, 5/100, 20 -->
     <tag name="VERB">47499</tag><!-- tener, hacer, decir, dar, ir, llegar, ver, querer, llevar, seguir -->
     <tag name="X">4</tag><!-- hi, ja, som, tanto -->
@@ -37,7 +37,7 @@
   <feats unique="63">
     <feat name="AdvType" value="Tim" upos="ADJ,ADV,NOUN">1898</feat><!-- 1999, domingo, viernes, miércoles, sábado, lunes, martes, jueves, 1998, año -->
     <feat name="Case" value="Acc" upos="PRON">8688</feat><!-- se, lo, la, me, nos, los, las, mí, sí, te -->
-    <feat name="Case" value="Acc,Dat" upos="PRON">13</feat><!-- se, nos, te, me, Os -->
+    <feat name="Case" value="Acc,Dat" upos="PRON">12</feat><!-- se, nos, me, te, Os -->
     <feat name="Case" value="Acc,Nom" upos="PRON">955</feat><!-- él, ellos, ello, ella, nosotros, ellas, usted, ustedes -->
     <feat name="Case" value="Com" upos="PRON">15</feat><!-- conmigo, consigo, contigo -->
     <feat name="Case" value="Dat" upos="PRON">2243</feat><!-- le, se, les, me, nos, te, os -->
@@ -88,7 +88,7 @@
     <feat name="PunctType" value="Qest" upos="PUNCT">640</feat><!-- ?, ¿ -->
     <feat name="PunctType" value="Quot" upos="PUNCT">9404</feat><!-- ", ', `, . -->
     <feat name="PunctType" value="Semi" upos="PUNCT">305</feat><!-- ; -->
-    <feat name="Reflex" value="Yes" upos="PRON">6688</feat><!-- se, me, nos, sí, te, consigo, os -->
+    <feat name="Reflex" value="Yes" upos="PRON">6689</feat><!-- se, me, nos, sí, te, consigo, os -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">2779</feat><!-- será, tendrá, serán, habrá, podrá, deberá, estará, deberán, hará, podrán -->
     <feat name="Tense" value="Imp" upos="AUX,VERB">4162</feat><!-- había, era, estaba, tenía, habían, eran, hubiera, podía, iba, estaban -->
     <feat name="Tense" value="Past" upos="AUX,VERB">17529</feat><!-- fue, dijo, sido, fueron, aseguró, explicó, afirmó, hizo, señaló, anunció -->
@@ -100,41 +100,40 @@
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,NOUN,VERB">11735</feat><!-- pasado, sido, hecho, tenido, dado, pasada, previsto, visto, conseguido, perdido -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="42">
-    <dep name="acl">10585</dep>
-    <dep name="acl:relcl">10</dep>
+  <deps unique="41">
+    <dep name="acl">10581</dep>
+    <dep name="acl:relcl">15</dep>
     <dep name="advcl">8972</dep>
-    <dep name="advmod">18944</dep>
-    <dep name="amod">29480</dep>
+    <dep name="advmod">18945</dep>
+    <dep name="amod">29479</dep>
     <dep name="appos">7513</dep>
     <dep name="aux">7261</dep>
     <dep name="aux:pass">13</dep>
-    <dep name="case">76702</dep>
+    <dep name="case">76706</dep>
     <dep name="cc">15106</dep>
-    <dep name="ccomp">6096</dep>
+    <dep name="ccomp">6092</dep>
     <dep name="compound">2451</dep>
     <dep name="conj">16438</dep>
-    <dep name="cop">5536</dep>
-    <dep name="csubj">1188</dep>
+    <dep name="cop">5538</dep>
+    <dep name="csubj">1189</dep>
     <dep name="csubj:pass">1</dep>
     <dep name="dep">271</dep>
-    <dep name="det">84682</dep>
+    <dep name="det">84678</dep>
     <dep name="discourse">4</dep>
     <dep name="expl">1</dep>
     <dep name="expl:impers">356</dep>
     <dep name="expl:pass">2232</dep>
-    <dep name="expl:pv">3212</dep>
+    <dep name="expl:pv">3213</dep>
     <dep name="fixed">8170</dep>
     <dep name="flat">14452</dep>
-    <dep name="iobj">20</dep>
     <dep name="list">21</dep>
-    <dep name="mark">19250</dep>
-    <dep name="nmod">38522</dep>
-    <dep name="nsubj">29606</dep>
+    <dep name="mark">19246</dep>
+    <dep name="nmod">38524</dep>
+    <dep name="nsubj">29605</dep>
     <dep name="nsubj:pass">52</dep>
     <dep name="nummod">5650</dep>
-    <dep name="obj">25798</dep>
-    <dep name="obl">24367</dep>
+    <dep name="obj">25813</dep>
+    <dep name="obl">24369</dep>
     <dep name="obl:agent">1282</dep>
     <dep name="obl:arg">6893</dep>
     <dep name="orphan">1</dep>
@@ -142,6 +141,6 @@
     <dep name="punct">65613</dep>
     <dep name="root">17662</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">4666</dep>
+    <dep name="xcomp">4671</dep>
   </deps>
 </treebank>
