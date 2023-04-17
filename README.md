@@ -53,6 +53,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
   * Propagated the arg and tem attributes from the original AnCora.
   * Por-nominals under participles changed from obj to obl:agent.
   * Prepositional objects changed to obl:arg.
+  * Fixed: "donde", "cuando" can be SCONJ or ADV but not PRON. Interrogative "dónde", "cuándo" are only ADV.
   * Named entities that are not annotated for coreference marked as such.
 * 2022-05-15 v2.10
   * Heuristically resolved coreference cluster type mismatches.
