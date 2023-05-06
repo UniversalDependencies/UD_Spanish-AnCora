@@ -74,10 +74,10 @@
     <feat name="PronType" value="Dem" upos="DET,PRON">4034</feat><!-- este, esta, esa, ese, eso, estos, mismo, estas, esto, misma -->
     <feat name="PronType" value="Ind" upos="DET,PRON">3921</feat><!-- otros, uno, otro, algunos, otra, otras, una, muchos, algo, unos -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">307</feat><!-- qué, cuál, dónde, cuándo, cuáles -->
-    <feat name="PronType" value="Int,Rel" upos="DET,PRON,SCONJ">9073</feat><!-- que, quien, quienes, cual, cuales, quién, cuantos, cuanto, cuánto, cuántos -->
+    <feat name="PronType" value="Int,Rel" upos="DET,PRON,SCONJ">498</feat><!-- quien, quienes, quién, que, cuantos, cuanto, cuánto, cuántos, quiénes, cuantas -->
     <feat name="PronType" value="Neg" upos="DET,PRON">538</feat><!-- nada, nadie, ningún, ninguna, ninguno -->
     <feat name="PronType" value="Prs" upos="DET,PRON">18007</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
-    <feat name="PronType" value="Rel" upos="ADV,DET">679</feat><!-- donde, cuando, cuyo, cuya, cuyos, cuyas -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9254</feat><!-- que, donde, cuando, cual, cuyo, cuya, cuales, cuyos, cuyas -->
     <feat name="PronType" value="Tot" upos="DET,PRON">1550</feat><!-- todo, todos, cada, todas, toda -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">2280</feat><!-- ), ?, !, ¿ -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">2144</feat><!-- (, ¿, ¡ -->

@@ -59,6 +59,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
   * Named entities that are not annotated for coreference marked as such.
   * "cuyo" is a relative determiner.
   * "qué", "cuál" are interrogative, not relative.
+  * "que", "cual" are relative, not interrogative.
 * 2022-05-15 v2.10
   * Heuristically resolved coreference cluster type mismatches.
   * Coreference annotation converted to CorefUD 1.0 format.
