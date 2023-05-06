@@ -73,8 +73,8 @@
     <feat name="PronType" value="Art" upos="DET">72074</feat><!-- el, la, los, un, las, una, unos, unas, els, a -->
     <feat name="PronType" value="Dem" upos="DET,PRON">4034</feat><!-- este, esta, esa, ese, eso, estos, mismo, estas, esto, misma -->
     <feat name="PronType" value="Ind" upos="DET,PRON">3921</feat><!-- otros, uno, otro, algunos, otra, otras, una, muchos, algo, unos -->
-    <feat name="PronType" value="Int" upos="ADV">41</feat><!-- dónde, cuándo -->
-    <feat name="PronType" value="Int,Rel" upos="DET,PRON,SCONJ">9339</feat><!-- que, quien, qué, quienes, cual, cuales, quién, cuál, cuantos, cuáles -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">307</feat><!-- qué, cuál, dónde, cuándo, cuáles -->
+    <feat name="PronType" value="Int,Rel" upos="DET,PRON,SCONJ">9073</feat><!-- que, quien, quienes, cual, cuales, quién, cuantos, cuanto, cuánto, cuántos -->
     <feat name="PronType" value="Neg" upos="DET,PRON">538</feat><!-- nada, nadie, ningún, ninguna, ninguno -->
     <feat name="PronType" value="Prs" upos="DET,PRON">18007</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
     <feat name="PronType" value="Rel" upos="ADV,DET">679</feat><!-- donde, cuando, cuyo, cuya, cuyos, cuyas -->
@@ -117,7 +117,7 @@
     <dep name="compound">2451</dep>
     <dep name="conj">16281</dep>
     <dep name="cop">5538</dep>
-    <dep name="csubj">1189</dep>
+    <dep name="csubj">1190</dep>
     <dep name="csubj:pass">1</dep>
     <dep name="dep">271</dep>
     <dep name="det">84678</dep>
@@ -143,6 +143,6 @@
     <dep name="punct">65613</dep>
     <dep name="root">17662</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">4828</dep>
+    <dep name="xcomp">4827</dep>
   </deps>
 </treebank>
