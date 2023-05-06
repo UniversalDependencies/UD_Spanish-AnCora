@@ -18,7 +18,7 @@
     <tag name="ADJ">36423</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, mayor, segundo, buen -->
     <tag name="ADP">87928</tag><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
     <tag name="ADV">18351</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
-    <tag name="AUX">14249</tag><!-- ser, haber, estar, poder, deber, saber, querer -->
+    <tag name="AUX">13845</tag><!-- ser, haber, estar, poder, deber, saber, querer -->
     <tag name="CCONJ">15104</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
     <tag name="DET">84247</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, ojo -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">65625</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12477</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">387</tag><!-- %, 30/100, 50/100, 60/100, 20/100, 10/100, 80/100, 25/100, 5/100, 20 -->
-    <tag name="VERB">47499</tag><!-- tener, hacer, decir, dar, ir, llegar, ver, querer, llevar, seguir -->
+    <tag name="VERB">47903</tag><!-- tener, hacer, decir, dar, ir, llegar, ver, haber, querer, llevar -->
     <tag name="X">4</tag><!-- hi, ja, som, tanto -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
