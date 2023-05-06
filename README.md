@@ -57,6 +57,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
   * Existential "hay" and necessitative "hay que": AUX changed to VERB.
   * Fixed: "hay que" + infinitive should be xcomp, not conj.
   * Named entities that are not annotated for coreference marked as such.
+  * "cuyo" is a relative determiner.
 * 2022-05-15 v2.10
   * Heuristically resolved coreference cluster type mismatches.
   * Coreference annotation converted to CorefUD 1.0 format.
