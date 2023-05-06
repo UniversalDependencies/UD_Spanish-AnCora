@@ -112,10 +112,10 @@
     <dep name="aux">7261</dep>
     <dep name="aux:pass">13</dep>
     <dep name="case">76706</dep>
-    <dep name="cc">15106</dep>
+    <dep name="cc">14997</dep>
     <dep name="ccomp">6092</dep>
     <dep name="compound">2451</dep>
-    <dep name="conj">16438</dep>
+    <dep name="conj">16281</dep>
     <dep name="cop">5538</dep>
     <dep name="csubj">1189</dep>
     <dep name="csubj:pass">1</dep>
@@ -129,7 +129,7 @@
     <dep name="fixed">8170</dep>
     <dep name="flat">14452</dep>
     <dep name="list">21</dep>
-    <dep name="mark">19246</dep>
+    <dep name="mark">19355</dep>
     <dep name="nmod">38524</dep>
     <dep name="nsubj">29605</dep>
     <dep name="nsubj:pass">52</dep>
@@ -143,6 +143,6 @@
     <dep name="punct">65613</dep>
     <dep name="root">17662</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">4671</dep>
+    <dep name="xcomp">4828</dep>
   </deps>
 </treebank>
