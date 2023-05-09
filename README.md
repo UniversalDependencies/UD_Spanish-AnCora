@@ -49,6 +49,17 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 # Changelog
 
+* 2023-05-15 v2.12
+  * Propagated the arg and tem attributes from the original AnCora.
+  * Por-nominals under participles changed from obj to obl:agent.
+  * Prepositional objects changed to obl:arg.
+  * Fixed: "donde", "cuando" can be SCONJ or ADV but not PRON. Interrogative "dónde", "cuándo" are only ADV.
+  * Existential "hay" and necessitative "hay que": AUX changed to VERB.
+  * Fixed: "hay que" + infinitive should be xcomp, not conj.
+  * Named entities that are not annotated for coreference marked as such.
+  * "cuyo" is a relative determiner.
+  * "qué", "cuál" are interrogative, not relative.
+  * "que", "cual" are relative, not interrogative.
 * 2022-05-15 v2.10
   * Heuristically resolved coreference cluster type mismatches.
   * Coreference annotation converted to CorefUD 1.0 format.
