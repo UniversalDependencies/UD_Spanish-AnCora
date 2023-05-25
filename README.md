@@ -49,6 +49,8 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 # Changelog
 
+* 2023-11-15 v2.13
+  * "No" and "que" before "hay que Inf" should depend on "hay".
 * 2023-05-15 v2.12
   * Propagated the arg and tem attributes from the original AnCora.
   * Por-nominals under participles changed from obj to obl:agent.
