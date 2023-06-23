@@ -23,13 +23,13 @@
     <tag name="DET">84402</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, ojo -->
     <tag name="NOUN">100569</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
-    <tag name="NUM">8744</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
+    <tag name="NUM">8704</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PART">154</tag><!-- no -->
     <tag name="PRON">25206</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
     <tag name="PROPN">42483</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
     <tag name="PUNCT">65625</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12477</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
-    <tag name="SYM">387</tag><!-- %, 30/100, 50/100, 60/100, 20/100, 10/100, 80/100, 25/100, 5/100, 20 -->
+    <tag name="SYM">427</tag><!-- %, 30/100, 50/100, 60/100, 20/100, 10/100, 80/100, 25/100, 5/100, 20 -->
     <tag name="VERB">48184</tag><!-- tener, hacer, decir, haber, dar, ir, llegar, ver, querer, llevar -->
     <tag name="X">4</tag><!-- hi, ja, som, tanto -->
   </tags>
@@ -58,9 +58,9 @@
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">201203</feat><!-- el, la, un, una, su, es, ha, lo, le, este -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">263</feat><!-- nuestra, nuestro, nuestros, nuestras, vuestra, vuestras -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">249</feat><!-- mi, mis, tu, mío, mía, tus, tuya, tuyo -->
-    <feat name="NumForm" value="Digit" upos="ADJ,NOUN,NUM,SYM">6186</feat><!-- pesetas, dólares, 20, 30, 10, 12, 15, euros, 2, 16 -->
+    <feat name="NumForm" value="Digit" upos="ADJ,NOUN,NUM,SYM">6146</feat><!-- pesetas, dólares, 20, 30, 10, 12, 15, euros, 2, 16 -->
     <feat name="NumForm" value="Word" upos="NUM">3575</feat><!-- dos, ciento, tres, cinco, cuatro, seis, ambos, siete, diez, ocho -->
-    <feat name="NumType" value="Card" upos="DET,NUM,PRON">9410</feat><!-- dos, ciento, tres, cinco, cuatro, muchos, seis, 20, ambos, siete -->
+    <feat name="NumType" value="Card" upos="DET,NUM,PRON">9370</feat><!-- dos, ciento, tres, cinco, cuatro, muchos, seis, 20, ambos, siete -->
     <feat name="NumType" value="Frac" upos="NUM,SYM">287</feat><!-- 50%, 60%, 10%, 20%, 30%, 80%, 25%, 5%, cada, 3% -->
     <feat name="NumType" value="Ord" upos="ADJ">1960</feat><!-- primer, primera, últimos, segunda, segundo, último, última, primeros, últimas, tercera -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">3881</feat><!-- me, nos, mi, yo, he, hemos, nosotros, nuestra, creo, nuestro -->
