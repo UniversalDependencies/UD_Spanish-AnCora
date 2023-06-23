@@ -58,7 +58,7 @@
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">201203</feat><!-- el, la, un, una, su, es, ha, lo, le, este -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">263</feat><!-- nuestra, nuestro, nuestros, nuestras, vuestra, vuestras -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">249</feat><!-- mi, mis, tu, mío, mía, tus, tuya, tuyo -->
-    <feat name="NumForm" value="Digit" upos="ADJ,NOUN,NUM,SYM">6185</feat><!-- pesetas, dólares, 20, 30, 10, 12, 15, euros, 2, 16 -->
+    <feat name="NumForm" value="Digit" upos="ADJ,NOUN,NUM,SYM">6186</feat><!-- pesetas, dólares, 20, 30, 10, 12, 15, euros, 2, 16 -->
     <feat name="NumForm" value="Word" upos="NUM">3575</feat><!-- dos, ciento, tres, cinco, cuatro, seis, ambos, siete, diez, ocho -->
     <feat name="NumType" value="Card" upos="DET,NUM,PRON">9410</feat><!-- dos, ciento, tres, cinco, cuatro, muchos, seis, 20, ambos, siete -->
     <feat name="NumType" value="Frac" upos="NUM,SYM">287</feat><!-- 50%, 60%, 10%, 20%, 30%, 80%, 25%, 5%, cada, 3% -->
