@@ -23,7 +23,7 @@
     <tag name="DET">84402</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, ojo -->
     <tag name="NOUN">100569</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
-    <tag name="NUM">8704</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
+    <tag name="NUM">8704</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, siete, 30 -->
     <tag name="PART">154</tag><!-- no -->
     <tag name="PRON">25206</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
     <tag name="PROPN">42483</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
