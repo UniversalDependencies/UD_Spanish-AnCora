@@ -54,6 +54,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
   * NumForm=Word and NumForm=Digit used where appropriate.
   * Combination of letters and digits is not NUM but SYM.
   * Fixed remaining instances of double-subject clauses.
+  * Fixed: Sentence-initial "y" is cc, not advmod.
 * 2023-05-15 v2.12
   * Propagated the arg and tem attributes from the original AnCora.
   * Por-nominals under participles changed from obj to obl:agent.

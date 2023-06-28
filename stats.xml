@@ -105,24 +105,24 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
-    <dep name="acl">10572</dep>
-    <dep name="acl:relcl">35</dep>
-    <dep name="advcl">8974</dep>
-    <dep name="advmod">19540</dep>
-    <dep name="amod">29479</dep>
-    <dep name="appos">7514</dep>
+    <dep name="acl">10564</dep>
+    <dep name="acl:relcl">52</dep>
+    <dep name="advcl">8975</dep>
+    <dep name="advmod">19262</dep>
+    <dep name="amod">29478</dep>
+    <dep name="appos">7515</dep>
     <dep name="aux">7260</dep>
     <dep name="aux:pass">15</dep>
-    <dep name="case">76709</dep>
-    <dep name="cc">14998</dep>
-    <dep name="ccomp">6092</dep>
+    <dep name="case">76710</dep>
+    <dep name="cc">15276</dep>
+    <dep name="ccomp">6093</dep>
     <dep name="compound">2451</dep>
-    <dep name="conj">16282</dep>
-    <dep name="cop">5546</dep>
-    <dep name="csubj">1178</dep>
-    <dep name="csubj:pass">1</dep>
+    <dep name="conj">16283</dep>
+    <dep name="cop">5547</dep>
+    <dep name="csubj">1172</dep>
+    <dep name="csubj:pass">2</dep>
     <dep name="dep">271</dep>
-    <dep name="det">84668</dep>
+    <dep name="det">84660</dep>
     <dep name="discourse">4</dep>
     <dep name="dislocated">3</dep>
     <dep name="expl">1</dep>
@@ -132,14 +132,14 @@
     <dep name="fixed">8167</dep>
     <dep name="flat">14452</dep>
     <dep name="list">21</dep>
-    <dep name="mark">19355</dep>
+    <dep name="mark">19354</dep>
     <dep name="nmod">38522</dep>
-    <dep name="nsubj">29581</dep>
-    <dep name="nsubj:outer">7</dep>
-    <dep name="nsubj:pass">57</dep>
+    <dep name="nsubj">29569</dep>
+    <dep name="nsubj:outer">11</dep>
+    <dep name="nsubj:pass">61</dep>
     <dep name="nummod">5650</dep>
-    <dep name="obj">25817</dep>
-    <dep name="obl">23843</dep>
+    <dep name="obj">25819</dep>
+    <dep name="obl">23844</dep>
     <dep name="obl:agent">1283</dep>
     <dep name="obl:arg">6824</dep>
     <dep name="orphan">1</dep>
@@ -147,6 +147,6 @@
     <dep name="punct">65613</dep>
     <dep name="root">17662</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">4830</dep>
+    <dep name="xcomp">4831</dep>
   </deps>
 </treebank>
