@@ -25,8 +25,8 @@
     <tag name="NOUN">100523</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
     <tag name="NUM">8825</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, siete, 30 -->
     <tag name="PART">154</tag><!-- no -->
-    <tag name="PRON">25206</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
-    <tag name="PROPN">42408</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
+    <tag name="PRON">25207</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
+    <tag name="PROPN">42407</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
     <tag name="PUNCT">65625</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12477</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">427</tag><!-- %, 30/100, 50/100, 60/100, 20/100, 10/100, 80/100, 25/100, 5/100, 20 -->
@@ -55,7 +55,7 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">39101</feat><!-- es, ha, han, fue, está, tiene, son, dijo, había, hay -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2869</feat><!-- sea, haya, hubiera, pueda, puedan, fuera, sean, tenga, esté, haga -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">71858</feat><!-- los, las, sus, dos, años, han, millones, son, tres, nos -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">201203</feat><!-- el, la, un, una, su, es, ha, lo, le, este -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">201204</feat><!-- el, la, un, una, su, es, ha, lo, le, este -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">263</feat><!-- nuestra, nuestro, nuestros, nuestras, vuestra, vuestras -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">249</feat><!-- mi, mis, tu, mío, mía, tus, tuya, tuyo -->
     <feat name="NumForm" value="Digit" upos="ADJ,NOUN,NUM,SYM">6146</feat><!-- pesetas, dólares, 20, 30, 10, 12, 15, euros, 2, 16 -->
@@ -75,11 +75,11 @@
     <feat name="PronType" value="Art" upos="DET">72074</feat><!-- el, la, los, un, las, una, unos, unas, els, a -->
     <feat name="PronType" value="Dem" upos="DET,PRON">4034</feat><!-- este, esta, esa, ese, eso, estos, mismo, estas, esto, misma -->
     <feat name="PronType" value="Ind" upos="DET,PRON">3921</feat><!-- otros, uno, otro, algunos, otra, otras, una, muchos, algo, unos -->
-    <feat name="PronType" value="Int" upos="ADV,DET,PRON">307</feat><!-- qué, cuál, dónde, cuándo, cuáles -->
-    <feat name="PronType" value="Int,Rel" upos="DET,PRON,SCONJ">498</feat><!-- quien, quienes, quién, que, cuantos, cuanto, cuánto, cuántos, quiénes, cuantas -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">358</feat><!-- qué, quién, cuál, dónde, cuándo, cuáles, quiénes -->
+    <feat name="PronType" value="Int,Rel" upos="DET,PRON,SCONJ">39</feat><!-- que, cuantos, cuanto, cuánto, cuántos, cuantas, cuánta, cuántas -->
     <feat name="PronType" value="Neg" upos="DET,PRON">538</feat><!-- nada, nadie, ningún, ninguna, ninguno -->
     <feat name="PronType" value="Prs" upos="DET,PRON">18007</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9254</feat><!-- que, donde, cuando, cual, cuyo, cuya, cuales, cuyos, cuyas -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9663</feat><!-- que, donde, quien, cuando, quienes, cual, cuyo, cuya, cuales, cuyos -->
     <feat name="PronType" value="Tot" upos="DET,PRON">1550</feat><!-- todo, todos, cada, todas, toda -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">2280</feat><!-- ), ?, !, ¿ -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">2144</feat><!-- (, ¿, ¡ -->
