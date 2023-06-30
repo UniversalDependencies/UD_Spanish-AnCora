@@ -53,6 +53,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
   * "No" and "que" before "hay que Inf" should depend on "hay".
   * NumForm=Word and NumForm=Digit used where appropriate.
   * Combination of letters and digits is not NUM but SYM.
+  * Currencies do not have NumForm=Digit (but they keep their special XPOS).
   * Fixed remaining instances of double-subject clauses.
   * Fixed: Sentence-initial "y" is cc, not advmod.
   * "quién" is interrogative, not relative.
