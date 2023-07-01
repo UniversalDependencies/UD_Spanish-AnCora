@@ -58,6 +58,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
   * Fixed: Sentence-initial "y" is cc, not advmod.
   * "quién" is interrogative, not relative.
   * "quien" is relative, not interrogative.
+  * Tokenization: number + "%" split into two tokens.
 * 2023-05-15 v2.12
   * Propagated the arg and tem attributes from the original AnCora.
   * Por-nominals under participles changed from obj to obl:agent.
