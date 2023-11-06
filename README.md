@@ -49,6 +49,16 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 # Changelog
 
+* 2023-11-15 v2.13
+  * "No" and "que" before "hay que Inf" should depend on "hay".
+  * NumForm=Word and NumForm=Digit used where appropriate.
+  * Combination of letters and digits is not NUM but SYM.
+  * Currencies do not have NumForm=Digit (but they keep their special XPOS).
+  * Fixed remaining instances of double-subject clauses.
+  * Fixed: Sentence-initial "y" is cc, not advmod.
+  * "quién" is interrogative, not relative.
+  * "quien" is relative, not interrogative.
+  * Tokenization: number + "%" split into two tokens.
 * 2023-05-15 v2.12
   * Propagated the arg and tem attributes from the original AnCora.
   * Por-nominals under participles changed from obj to obl:agent.
