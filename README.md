@@ -49,6 +49,8 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Dependency of "le" should be obl:arg or expl but not obj.
 * 2023-11-15 v2.13
   * "No" and "que" before "hay que Inf" should depend on "hay".
   * NumForm=Word and NumForm=Digit used where appropriate.
