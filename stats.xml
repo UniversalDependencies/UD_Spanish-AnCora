@@ -116,7 +116,7 @@
     <dep name="case">76714</dep>
     <dep name="cc">15275</dep>
     <dep name="ccomp">6093</dep>
-    <dep name="compound">2451</dep>
+    <dep name="compound">2035</dep>
     <dep name="conj">16280</dep>
     <dep name="cop">5547</dep>
     <dep name="csubj">1172</dep>
@@ -133,7 +133,7 @@
     <dep name="flat">14437</dep>
     <dep name="list">21</dep>
     <dep name="mark">19352</dep>
-    <dep name="nmod">38530</dep>
+    <dep name="nmod">38946</dep>
     <dep name="nsubj">29569</dep>
     <dep name="nsubj:outer">11</dep>
     <dep name="nsubj:pass">61</dep>
