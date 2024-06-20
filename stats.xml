@@ -34,8 +34,7 @@
     <tag name="X">4</tag><!-- hi, ja, som, tanto -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="68">
-    <feat name="AdvType" value="Tim" upos="ADJ,ADV,NOUN">1892</feat><!-- 1999, domingo, viernes, miércoles, sábado, lunes, martes, jueves, 1998, año -->
+  <feats unique="67">
     <feat name="Case" value="Acc" upos="PRON">8688</feat><!-- se, lo, la, me, nos, los, las, mí, sí, te -->
     <feat name="Case" value="Acc,Dat" upos="PRON">12</feat><!-- se, nos, me, te, Os -->
     <feat name="Case" value="Acc,Nom" upos="PRON">954</feat><!-- él, ellos, ello, ella, nosotros, ellas, usted, ustedes -->

@@ -49,6 +49,8 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 # Changelog
 
+* 2024-11-15 v2.15
+  * Removed feature AdvType.
 * 2024-05-15 v2.14
   * Dependency of "le" should be obl:arg or expl but not obj.
   * Dates ("el 7 de abril") should be connected via nmod, not compound.
