@@ -20,10 +20,10 @@
     <tag name="ADV">18351</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
     <tag name="AUX">13565</tag><!-- ser, haber, estar, poder, deber, saber, querer -->
     <tag name="CCONJ">15104</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
-    <tag name="DET">84425</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
+    <tag name="DET">84431</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, ojo -->
     <tag name="NOUN">100535</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
-    <tag name="NUM">9180</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
+    <tag name="NUM">9174</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PART">154</tag><!-- no -->
     <tag name="PRON">25184</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
     <tag name="PROPN">42390</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
@@ -60,9 +60,9 @@
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">249</feat><!-- mi, mis, tu, mío, mía, tus, tuya, tuyo -->
     <feat name="NumForm" value="Digit" upos="ADJ,NUM,SYM">5497</feat><!-- 20, 30, 10, 15, 12, 2, 25, 50, 16, 18 -->
     <feat name="NumForm" value="Roman" upos="NUM">121</feat><!-- II, XX, V, VI, XXI, XVIII, XXIII, IX, XIX, XV -->
-    <feat name="NumForm" value="Word" upos="NUM">3585</feat><!-- dos, ciento, tres, cinco, cuatro, seis, ambos, siete, diez, ocho -->
+    <feat name="NumForm" value="Word" upos="NUM">3579</feat><!-- dos, ciento, tres, cinco, cuatro, seis, ambos, siete, diez, ocho -->
     <feat name="NumType" value="Card" upos="DET,NUM,PRON">9846</feat><!-- dos, ciento, tres, cinco, cuatro, muchos, seis, 20, 30, ambos -->
-    <feat name="NumType" value="Frac" upos="NUM">8</feat><!-- cada, 1-0 -->
+    <feat name="NumType" value="Frac" upos="NUM">2</feat><!-- 1-0 -->
     <feat name="NumType" value="Ord" upos="ADJ">1960</feat><!-- primer, primera, últimos, segunda, segundo, último, última, primeros, últimas, tercera -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">3881</feat><!-- me, nos, mi, yo, he, hemos, nosotros, nuestra, creo, nuestro -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">490</feat><!-- te, usted, tu, tú, mira, eres, ti, os, ustedes, añade -->
