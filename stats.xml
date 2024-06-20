@@ -85,7 +85,7 @@
     <feat name="PunctSide" value="Ini" upos="PUNCT">2144</feat><!-- (, ¿, ¡ -->
     <feat name="PunctType" value="Brck" upos="PUNCT">3647</feat><!-- (, ) -->
     <feat name="PunctType" value="Colo" upos="PUNCT">768</feat><!-- :, / -->
-    <feat name="PunctType" value="Comm" upos="NOUN,PUNCT">30262</feat><!-- ,, ..., etcétera, etc -->
+    <feat name="PunctType" value="Comm" upos="PUNCT">30261</feat><!-- ,, ..., etcétera, etc -->
     <feat name="PunctType" value="Dash" upos="PUNCT">2870</feat><!-- -, ", . -->
     <feat name="PunctType" value="Excl" upos="PUNCT">137</feat><!-- !, ¡ -->
     <feat name="PunctType" value="Peri" upos="PUNCT">17511</feat><!-- . -->
