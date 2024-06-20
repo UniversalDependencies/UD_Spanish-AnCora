@@ -34,7 +34,7 @@
     <tag name="X">4</tag><!-- hi, ja, som, tanto -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="67">
+  <feats unique="68">
     <feat name="AdvType" value="Tim" upos="ADJ,ADV,NOUN">1892</feat><!-- 1999, domingo, viernes, miércoles, sábado, lunes, martes, jueves, 1998, año -->
     <feat name="Case" value="Acc" upos="PRON">8688</feat><!-- se, lo, la, me, nos, los, las, mí, sí, te -->
     <feat name="Case" value="Acc,Dat" upos="PRON">12</feat><!-- se, nos, me, te, Os -->
@@ -81,16 +81,17 @@
     <feat name="PronType" value="Prs" upos="DET,PRON">17982</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9666</feat><!-- que, donde, quien, cuando, quienes, cual, cuyo, cuya, cuales, cuyos -->
     <feat name="PronType" value="Tot" upos="DET,PRON">1550</feat><!-- todo, todos, cada, todas, toda -->
-    <feat name="PunctSide" value="Fin" upos="PUNCT">2280</feat><!-- ), ?, !, ¿ -->
-    <feat name="PunctSide" value="Ini" upos="PUNCT">2144</feat><!-- (, ¿, ¡ -->
-    <feat name="PunctType" value="Brck" upos="PUNCT">3647</feat><!-- (, ) -->
-    <feat name="PunctType" value="Colo" upos="PUNCT">768</feat><!-- :, / -->
-    <feat name="PunctType" value="Comm" upos="PUNCT">30261</feat><!-- ,, ..., etcétera, etc -->
-    <feat name="PunctType" value="Dash" upos="PUNCT">2870</feat><!-- -, ", . -->
-    <feat name="PunctType" value="Excl" upos="PUNCT">137</feat><!-- !, ¡ -->
-    <feat name="PunctType" value="Peri" upos="PUNCT">17511</feat><!-- . -->
-    <feat name="PunctType" value="Qest" upos="PUNCT">640</feat><!-- ?, ¿ -->
-    <feat name="PunctType" value="Quot" upos="PUNCT">9404</feat><!-- ", ', `, . -->
+    <feat name="PunctSide" value="Fin" upos="PUNCT">2272</feat><!-- ), ?, ! -->
+    <feat name="PunctSide" value="Ini" upos="PUNCT">2159</feat><!-- (, ¿, ¡ -->
+    <feat name="PunctType" value="Brck" upos="PUNCT">3650</feat><!-- (, ) -->
+    <feat name="PunctType" value="Colo" upos="PUNCT">777</feat><!-- :, / -->
+    <feat name="PunctType" value="Comm" upos="PUNCT">30187</feat><!-- , -->
+    <feat name="PunctType" value="Dash" upos="PUNCT">2869</feat><!-- - -->
+    <feat name="PunctType" value="Elip" upos="PUNCT">100</feat><!-- ... -->
+    <feat name="PunctType" value="Excl" upos="PUNCT">138</feat><!-- !, ¡ -->
+    <feat name="PunctType" value="Peri" upos="PUNCT">17521</feat><!-- . -->
+    <feat name="PunctType" value="Qest" upos="PUNCT">643</feat><!-- ?, ¿ -->
+    <feat name="PunctType" value="Quot" upos="PUNCT">9420</feat><!-- ", ', ` -->
     <feat name="PunctType" value="Semi" upos="PUNCT">305</feat><!-- ; -->
     <feat name="Reflex" value="Yes" upos="PRON">6689</feat><!-- se, me, nos, sí, te, consigo, os -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">2779</feat><!-- será, tendrá, serán, habrá, podrá, deberá, estará, deberán, hará, podrán -->
