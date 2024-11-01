@@ -52,6 +52,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
 * 2024-11-15 v2.15
   * Removed feature AdvType.
   * Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
+  
      This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements. The UCxn v1 notation and categories are documented [here](https://github.com/LeonieWeissweiler/UCxn/blob/main/docs/UCxn-v1.pdf).
 
 * 2024-05-15 v2.14
