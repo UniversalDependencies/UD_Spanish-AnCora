@@ -20,10 +20,10 @@
     <tag name="ADV">18351</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
     <tag name="AUX">13565</tag><!-- ser, haber, estar, poder, deber, saber, querer -->
     <tag name="CCONJ">15104</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
-    <tag name="DET">84425</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
+    <tag name="DET">84431</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, ojo -->
     <tag name="NOUN">100535</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
-    <tag name="NUM">9180</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
+    <tag name="NUM">9174</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PART">154</tag><!-- no -->
     <tag name="PRON">25184</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
     <tag name="PROPN">42390</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
@@ -34,8 +34,8 @@
     <tag name="X">4</tag><!-- hi, ja, som, tanto -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="67">
-    <feat name="AdvType" value="Tim" upos="ADJ,ADV,NOUN">1892</feat><!-- 1999, domingo, viernes, miércoles, sábado, lunes, martes, jueves, 1998, año -->
+  <feats unique="68">
+    <feat name="Abbr" value="Yes" upos="PROPN">1</feat><!-- Inc -->
     <feat name="Case" value="Acc" upos="PRON">8688</feat><!-- se, lo, la, me, nos, los, las, mí, sí, te -->
     <feat name="Case" value="Acc,Dat" upos="PRON">12</feat><!-- se, nos, me, te, Os -->
     <feat name="Case" value="Acc,Nom" upos="PRON">954</feat><!-- él, ellos, ello, ella, nosotros, ellas, usted, ustedes -->
@@ -47,7 +47,7 @@
     <feat name="Degree" value="Abs" upos="ADJ,DET,PRON">52</feat><!-- muchísimos, importantísimo, mismísimo, altísimo, dificilísimo, importantísima, muchísimas, rapidísimo, altísima, anticuadísimo -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2783</feat><!-- más, menos, mayor, mejor, mayores, menor, mejores, peor, menores, peores -->
     <feat name="Degree" value="Sup" upos="ADJ">174</feat><!-- máximo, máxima, mínimo, máximos, mínimas, mínima, mínimos, pésimo, máximas, óptima -->
-    <feat name="Foreign" value="Yes" upos="ADJ,ADP,CCONJ,DET,NOUN,NUM,PROPN,X">81</feat><!-- les, le, de, Al, i, 1.000, A, Catalanes, Flors, Institució -->
+    <feat name="Foreign" value="Yes" upos="ADJ,ADP,CCONJ,DET,NOUN,NUM,PROPN,X">82</feat><!-- les, le, de, Al, i, 1.000, A, Catalanes, Flors, Institució -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85420</feat><!-- la, las, una, esta, pesetas, política, esa, primera, personas, parte -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">117379</feat><!-- el, los, un, lo, este, años, presidente, millones, todo, pasado -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">843</feat><!-- sería, podría, habría, debería, podrían, deberían, tendría, estaría, haría, habrían -->
@@ -60,9 +60,9 @@
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">249</feat><!-- mi, mis, tu, mío, mía, tus, tuya, tuyo -->
     <feat name="NumForm" value="Digit" upos="ADJ,NUM,SYM">5497</feat><!-- 20, 30, 10, 15, 12, 2, 25, 50, 16, 18 -->
     <feat name="NumForm" value="Roman" upos="NUM">121</feat><!-- II, XX, V, VI, XXI, XVIII, XXIII, IX, XIX, XV -->
-    <feat name="NumForm" value="Word" upos="NUM">3585</feat><!-- dos, ciento, tres, cinco, cuatro, seis, ambos, siete, diez, ocho -->
+    <feat name="NumForm" value="Word" upos="NUM">3579</feat><!-- dos, ciento, tres, cinco, cuatro, seis, ambos, siete, diez, ocho -->
     <feat name="NumType" value="Card" upos="DET,NUM,PRON">9846</feat><!-- dos, ciento, tres, cinco, cuatro, muchos, seis, 20, 30, ambos -->
-    <feat name="NumType" value="Frac" upos="NUM">8</feat><!-- cada, 1-0 -->
+    <feat name="NumType" value="Frac" upos="NUM">2</feat><!-- 1-0 -->
     <feat name="NumType" value="Ord" upos="ADJ">1960</feat><!-- primer, primera, últimos, segunda, segundo, último, última, primeros, últimas, tercera -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">3881</feat><!-- me, nos, mi, yo, he, hemos, nosotros, nuestra, creo, nuestro -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">490</feat><!-- te, usted, tu, tú, mira, eres, ti, os, ustedes, añade -->
@@ -81,16 +81,17 @@
     <feat name="PronType" value="Prs" upos="DET,PRON">17982</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9666</feat><!-- que, donde, quien, cuando, quienes, cual, cuyo, cuya, cuales, cuyos -->
     <feat name="PronType" value="Tot" upos="DET,PRON">1550</feat><!-- todo, todos, cada, todas, toda -->
-    <feat name="PunctSide" value="Fin" upos="PUNCT">2280</feat><!-- ), ?, !, ¿ -->
-    <feat name="PunctSide" value="Ini" upos="PUNCT">2144</feat><!-- (, ¿, ¡ -->
-    <feat name="PunctType" value="Brck" upos="PUNCT">3647</feat><!-- (, ) -->
-    <feat name="PunctType" value="Colo" upos="PUNCT">768</feat><!-- :, / -->
-    <feat name="PunctType" value="Comm" upos="NOUN,PUNCT">30262</feat><!-- ,, ..., etcétera, etc -->
-    <feat name="PunctType" value="Dash" upos="PUNCT">2870</feat><!-- -, ", . -->
-    <feat name="PunctType" value="Excl" upos="PUNCT">137</feat><!-- !, ¡ -->
-    <feat name="PunctType" value="Peri" upos="PUNCT">17511</feat><!-- . -->
-    <feat name="PunctType" value="Qest" upos="PUNCT">640</feat><!-- ?, ¿ -->
-    <feat name="PunctType" value="Quot" upos="PUNCT">9404</feat><!-- ", ', `, . -->
+    <feat name="PunctSide" value="Fin" upos="PUNCT">2272</feat><!-- ), ?, ! -->
+    <feat name="PunctSide" value="Ini" upos="PUNCT">2159</feat><!-- (, ¿, ¡ -->
+    <feat name="PunctType" value="Brck" upos="PUNCT">3650</feat><!-- (, ) -->
+    <feat name="PunctType" value="Colo" upos="PUNCT">777</feat><!-- :, / -->
+    <feat name="PunctType" value="Comm" upos="PUNCT">30187</feat><!-- , -->
+    <feat name="PunctType" value="Dash" upos="PUNCT">2869</feat><!-- - -->
+    <feat name="PunctType" value="Elip" upos="PUNCT">100</feat><!-- ... -->
+    <feat name="PunctType" value="Excl" upos="PUNCT">138</feat><!-- !, ¡ -->
+    <feat name="PunctType" value="Peri" upos="PUNCT">17521</feat><!-- . -->
+    <feat name="PunctType" value="Qest" upos="PUNCT">643</feat><!-- ?, ¿ -->
+    <feat name="PunctType" value="Quot" upos="PUNCT">9420</feat><!-- ", ', ` -->
     <feat name="PunctType" value="Semi" upos="PUNCT">305</feat><!-- ; -->
     <feat name="Reflex" value="Yes" upos="PRON">6689</feat><!-- se, me, nos, sí, te, consigo, os -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">2779</feat><!-- será, tendrá, serán, habrá, podrá, deberá, estará, deberán, hará, podrán -->
