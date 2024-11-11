@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Spanish-AnCora:
-commit 4a9119b5c1b562bfd8bd9e711defd290b2ae9136
-Merge: 22f0f0e b210633
+commit b908de130f5e9b70daaf6b866dba9228bbf80c83
+Merge: 0d81a70 42b0cec
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 560137 of 560137 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.6563627933323.
@@ -15,56 +15,56 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 382699 out of 560137 total words have one or more features.
+Features: 380869 out of 560137 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       1375
-Udapi: found 1375 bugs.
+               TOTAL       1381
+Udapi: found 1381 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 560137 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-dev.conllu
 [Line 25 Sent 3LB-CAST-111_C-2-s1 Node 18]: [L3 Warning fixed-gap] Gaps in fixed expression [18, 20] 'a * máximo'
+[Line 451 Sent 3LB-CAST-111_C-2-s9 Node 36]: [L3 Warning leaf-det] 'det' not expected to have children (36:sus:det --> 37:cinco:nummod)
+[Line 513 Sent 3LB-CAST-111_C-2-s10 Node 31]: [L3 Warning leaf-det] 'det' not expected to have children (31:sus:det --> 32:cinco:nummod)
+[Line 829 Sent 3LB-CAST-2000060111_5-2-s1 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:los:det --> 6:catorce:nummod)
+[Line 1897 Sent 3LB-CAST-a22-0-s6 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:los:det --> 15:tres:nummod)
 [Line 2476 Sent 3LB-CAST-c1-2-s10 Node 28]: [L3 Warning fixed-gap] Gaps in fixed expression [28, 30] 'a * menos'
 [Line 2540 Sent 3LB-CAST-c2-6-s1 Node 15]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 17] 'de * todo'
-[Line 4636 Sent 3LB-CAST-dc1-15-s9 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * igual que'
-[Line 4673 Sent 3LB-CAST-dc1-15-s10 Node 13]: [L3 Warning fixed-gap] Gaps in fixed expression [13, 15] 'a * momento'
-[Line 4859 Sent 3LB-CAST-dc1-3-s5 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * igual que'
-[Line 7340 Sent 3LB-CAST-r2-7-s13 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'a * final'
-[Line 17222 Sent CESS-CAST-A-20000618-14736-s7 Node 31]: [L3 Warning fixed-gap] Gaps in fixed expression [31, 33, 34] 'a * tiempo que'
-[Line 17806 Sent CESS-CAST-A-20000620-15780-s7 Node 44]: [L3 Warning fixed-gap] Gaps in fixed expression [44, 46, 47] 'a * tiempo que'
-[Line 19380 Sent CESS-CAST-A-20001117-13026-s9 Node 45]: [L3 Warning fixed-gap] Gaps in fixed expression [45, 47, 48] 'a * menos durante'
+[Line 3443 Sent 3LB-CAST-d1-7-s3 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Esas:det --> 2:dos:nummod)
+[Line 4592 Sent 3LB-CAST-dc1-15-s7 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:la:det --> 8:cebra:nsubj)
+[Line 4598 Sent 3LB-CAST-dc1-15-s7 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:la:det --> 14:diseño:nmod)
 ...suppressing further errors regarding Warning
-Warnings: 25
+Warnings: 129
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-test.conllu
+[Line 509 Sent 3LB-CAST-111_C-4-s11 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:los:det --> 16:cinco:nummod)
+[Line 543 Sent 3LB-CAST-111_C-4-s12 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:estas:det --> 4:dos:nummod)
+[Line 1043 Sent 3LB-CAST-a12-1-s11 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:lo:det --> 7:ratas:appos)
+[Line 2602 Sent 3LB-CAST-dc1-14-s6 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:los:det --> 6:dos:nummod)
+[Line 2993 Sent 3LB-CAST-dc10-1-s9 Node 33]: [L3 Warning leaf-det] 'det' not expected to have children (33:el:det --> 36:SIDA:nmod)
+[Line 3182 Sent 3LB-CAST-dc10-10-s4 Node 16]: [L3 Warning leaf-det] 'det' not expected to have children (16:las:det --> 17:cuatro:nummod)
 [Line 3954 Sent 3LB-CAST-dc10-2-s10 Node 26]: [L3 Warning fixed-gap] Gaps in fixed expression [26, 28] 'de * todo'
-[Line 9215 Sent 3LB-CAST-t6-4-s10 Node 21]: [L3 Warning fixed-gap] Gaps in fixed expression [21, 23, 24] 'a * margen de'
-[Line 10241 Sent CESS-CAST-A-20000123-15801-s6 Node 38]: [L3 Warning fixed-gap] Gaps in fixed expression [38, 40] 'a * menos'
-[Line 11248 Sent CESS-CAST-A-20000213-10585-s6 Node 21]: [L3 Warning fixed-gap] Gaps in fixed expression [21, 23, 24] 'a * final en'
-[Line 11928 Sent CESS-CAST-A-20000221-16816-s3 Node 25]: [L3 Warning fixed-gap] Gaps in fixed expression [25, 27, 28] 'a * igual que'
-[Line 11944 Sent CESS-CAST-A-20000221-16816-s3 Node 39]: [L3 Warning fixed-gap] Gaps in fixed expression [39, 41] 'a * respecto'
-[Line 12866 Sent CESS-CAST-A-20000317-13928-s3 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18, 19] 'de * orden de'
-[Line 14297 Sent CESS-CAST-A-20000415-12000-s7 Node 39]: [L3 Warning fixed-gap] Gaps in fixed expression [39, 41] 'a * respecto'
-[Line 23174 Sent CESS-CAST-AA-20000204-3836-s18 Node 17]: [L3 Warning fixed-gap] Gaps in fixed expression [17, 19, 20] 'a * tiempo que'
-[Line 26533 Sent CESS-CAST-AA-20000307-5124-s3 Node 37]: [L3 Warning fixed-gap] Gaps in fixed expression [37, 39, 40] 'a * margen de'
+[Line 8353 Sent 3LB-CAST-t6-1-s2 Node 110]: [L3 Warning leaf-det] 'det' not expected to have children (110:la:det --> 113:años:appos)
+[Line 8556 Sent 3LB-CAST-t6-1-s6 Node 101]: [L3 Warning leaf-det] 'det' not expected to have children (101:los:det --> 102:dos:nummod)
+[Line 8677 Sent 3LB-CAST-t6-1-s10 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Los:det --> 2:diez:nummod)
 ...suppressing further errors regarding Warning
-Warnings: 22
+Warnings: 138
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-train.conllu
-[Line 28731 Sent 3LB-CAST-a14-3-s5 Node 13]: [L3 Warning fixed-gap] Gaps in fixed expression [13, 15] 'de * todo'
-[Line 32508 Sent 3LB-CAST-a20-1-s4 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 17, 18, 19, 20, 22] 'a el fin y a * cabo'
-[Line 38579 Sent 3LB-CAST-c2-2-s5 Node 18]: [L3 Warning fixed-gap] Gaps in fixed expression [18, 20] 'de * todo'
-[Line 60061 Sent 3LB-CAST-dc10-8-s9 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 2, 3, 4, 5, 7] 'A el fin y a * cabo'
-[Line 80700 Sent 3LB-CAST-n1-15-s6 Node 74]: [L3 Warning fixed-gap] Gaps in fixed expression [74, 76] 'de * todo'
-[Line 83555 Sent 3LB-CAST-r2-0-s3 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 17, 18, 19, 20, 22] 'a el fin y a * cabo'
-[Line 117938 Sent CESS-CAST-A-20000221-17317-s9 Node 51]: [L3 Warning fixed-gap] Gaps in fixed expression [51, 53, 54] 'de * orden de'
-[Line 140682 Sent CESS-CAST-A-20000520-16210-s1 Node 23]: [L3 Warning fixed-gap] Gaps in fixed expression [23, 25] 'de * todo'
-[Line 140814 Sent CESS-CAST-A-20000520-16210-s4 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 14] 'de * todo'
-[Line 184810 Sent CESS-CAST-A-20001121-16182-s6 Node 76]: [L3 Warning fixed-gap] Gaps in fixed expression [76, 78] 'de * todo'
+[Line 398 Sent 3LB-CAST-104_c-1-s10 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:unas:det --> 3:mil:nummod)
+[Line 1594 Sent 3LB-CAST-104_c-3-s1 Node 34]: [L3 Warning leaf-det] 'det' not expected to have children (34:las:det --> 35:cinco:nummod)
+[Line 2198 Sent 3LB-CAST-104_c-3-s13 Node 35]: [L3 Warning leaf-det] 'det' not expected to have children (35:las:det --> 38:modelo:nsubj)
+[Line 2418 Sent 3LB-CAST-104_c-3-s17 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:los:det --> 22:seis:nummod)
+[Line 2487 Sent 3LB-CAST-104_c-3-s18 Node 55]: [L3 Warning leaf-det] 'det' not expected to have children (55:los:det --> 56:cuatro:nummod)
+[Line 3515 Sent 3LB-CAST-104_C-5-s2 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:los:det --> 12:cuatro:nummod)
+[Line 3964 Sent 3LB-CAST-104_C-5-s13 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:los:det --> 7:últimos:amod)
+[Line 3965 Sent 3LB-CAST-104_C-5-s13 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:los:det --> 8:dos:nummod)
+[Line 3969 Sent 3LB-CAST-104_C-5-s13 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:estos:det --> 12:cuatro:nummod)
+[Line 5300 Sent 3LB-CAST-111_C-1-s5 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:los:det --> 8:cinco:nummod)
 ...suppressing further errors regarding Warning
-Warnings: 17
+Warnings: 1006
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
@@ -73,8 +73,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.916098087018308) = 0.23489694538931
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.975452433958121) = 0.300139210448653
+(weight=0.307692307692308) * (score{udapi}=0.975345317306302) = 0.300106251478862
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.830344133498881) * (availability=1) * (validity=1) = 0.830344133498881
+(TOTAL score=0.830311174529091) * (availability=1) * (validity=1) = 0.830311174529091
 STARS = 4
-UD_Spanish-AnCora	0.830344133498881	4
+UD_Spanish-AnCora	0.830311174529091	4
