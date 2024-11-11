@@ -34,7 +34,8 @@
     <tag name="X">4</tag><!-- hi, ja, som, tanto -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="67">
+  <feats unique="68">
+    <feat name="Abbr" value="Yes" upos="PROPN">1</feat><!-- Inc -->
     <feat name="Case" value="Acc" upos="PRON">8688</feat><!-- se, lo, la, me, nos, los, las, mí, sí, te -->
     <feat name="Case" value="Acc,Dat" upos="PRON">12</feat><!-- se, nos, me, te, Os -->
     <feat name="Case" value="Acc,Nom" upos="PRON">954</feat><!-- él, ellos, ello, ella, nosotros, ellas, usted, ustedes -->
@@ -46,7 +47,7 @@
     <feat name="Degree" value="Abs" upos="ADJ,DET,PRON">52</feat><!-- muchísimos, importantísimo, mismísimo, altísimo, dificilísimo, importantísima, muchísimas, rapidísimo, altísima, anticuadísimo -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2783</feat><!-- más, menos, mayor, mejor, mayores, menor, mejores, peor, menores, peores -->
     <feat name="Degree" value="Sup" upos="ADJ">174</feat><!-- máximo, máxima, mínimo, máximos, mínimas, mínima, mínimos, pésimo, máximas, óptima -->
-    <feat name="Foreign" value="Yes" upos="ADJ,ADP,CCONJ,DET,NOUN,NUM,PROPN,X">81</feat><!-- les, le, de, Al, i, 1.000, A, Catalanes, Flors, Institució -->
+    <feat name="Foreign" value="Yes" upos="ADJ,ADP,CCONJ,DET,NOUN,NUM,PROPN,X">82</feat><!-- les, le, de, Al, i, 1.000, A, Catalanes, Flors, Institució -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85420</feat><!-- la, las, una, esta, pesetas, política, esa, primera, personas, parte -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">117379</feat><!-- el, los, un, lo, este, años, presidente, millones, todo, pasado -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">843</feat><!-- sería, podría, habría, debería, podrían, deberían, tendría, estaría, haría, habrían -->
