@@ -1685,7 +1685,7 @@
 17	menos	menos	ADV	rg	Degree=Cmp	16	advmod	16:advmod	_
 18	atípicas	atípico	ADJ	aq0fp0	Gender=Fem|Number=Plur	13	dep	13:dep	SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
-20	es	es	NOUN	rg	_	18	advmod	18:advmod	MWE=es_cierto|MWEPOS=ADV
+20	es	es	NOUN	rg	ExtPos=ADV	18	advmod	18:advmod	MWE=es_cierto|MWEPOS=ADV
 21	cierto	cierto	ADJ	_	_	20	fixed	20:fixed	SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 23	a	a	ADP	sps00	_	18	case	18:case	_
@@ -2125,7 +2125,7 @@
 # sent_id = 3LB-CAST-d2-11-s9
 # text = Pues bien, ya es triste ironía que el hombre, joven y vital, que ha mantenido a flote el baloncesto blanco a través de las tragedias y los desfallecimientos, con una visión de futuro y un espíritu empresarial y deportivo moderno, esté ahora en una lucha terrible contra la enfermedad: como si el sino de la desdicha que desde 1989 persigue a esa sección se dirigiera ahora a una de las pocas personas que se han alzado contra él para invertir una tendencia imparable a la destrucción...
 # orig_file_sentence 001#61
-1	Pues	pues	NOUN	rg	_	5	advmod	5:advmod	MWE=Pues_bien|MWEPOS=ADV
+1	Pues	pues	NOUN	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=Pues_bien|MWEPOS=ADV
 2	bien	bien	ADV	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	ya	ya	ADV	rg	_	5	advmod	5:advmod	_
@@ -2668,7 +2668,7 @@
 # sent_id = 3LB-CAST-dc1-14-s9
 # text = Es más, incluso las propias plumas no son otra cosa que escamas modificadas, con los bordes deshilachados y desplegados, concluirían los más avezados.
 # orig_file_sentence 001#75
-1	Es	es	NOUN	rg	_	13	advmod	13:advmod	MWE=Es_más|MWEPOS=ADV|ArgTem=argM:adv
+1	Es	es	NOUN	rg	ExtPos=ADV	13	advmod	13:advmod	MWE=Es_más|MWEPOS=ADV|ArgTem=argM:adv
 2	más	más	ADV	_	Degree=Cmp	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	incluso	incluso	ADV	rg	_	7	advmod	7:advmod	_
@@ -2677,7 +2677,7 @@
 7	plumas	pluma	NOUN	ncfp000	Gender=Fem|Number=Plur	13	nsubj	13:nsubj	ArgTem=arg1:tem
 8	no	no	ADV	rg	_	13	advmod	13:advmod	_
 9	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	ArgTem=arg1:pat
-10	otra	otra	NOUN	rg	_	13	advmod	13:advmod	MWE=otra_cosa_que|MWEPOS=ADV|ArgTem=argM:adv
+10	otra	otra	NOUN	rg	ExtPos=ADV	13	advmod	13:advmod	MWE=otra_cosa_que|MWEPOS=ADV|ArgTem=argM:adv
 11	cosa	cosa	NOUN	_	_	10	fixed	10:fixed	_
 12	que	que	SCONJ	_	_	10	fixed	10:fixed	_
 13	escamas	escama	NOUN	ncfp000	Gender=Fem|Number=Plur	23	ccomp	23:ccomp	ArgTem=arg2:atr
@@ -3701,7 +3701,7 @@
 2	científicos	científico	NOUN	ncmp000	Gender=Masc|Number=Plur	3	nsubj	3:nsubj	ArgTem=arg1:tem
 3	parecen	parecer	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	estar	estar	AUX	vmn0000	VerbForm=Inf	7	cop	7:cop	ArgTem=arg2:atr
-5	hoy	hoy	NOUN	rg	_	7	advmod	7:advmod	MWE=hoy_día|MWEPOS=ADV|ArgTem=argM:tmp
+5	hoy	hoy	NOUN	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=hoy_día|MWEPOS=ADV|ArgTem=argM:tmp
 6	día	día	NOUN	_	_	5	fixed	5:fixed	_
 7	de	de	ADP	rg	_	3	ccomp	3:ccomp	MWE=de_acuerdo|MWEPOS=ADV|ArgTem=arg2:atr
 8	acuerdo	acuerdo	NOUN	_	_	7	fixed	7:fixed	_
@@ -3925,7 +3925,7 @@
 # sent_id = 3LB-CAST-dc10-2-s10
 # text = Es decir, aun cuando un virus o cualquier otro invasor se introduzca por primera vez en nuestro organismo, a éste no le resultará del todo desconocido.
 # orig_file_sentence 002#10
-1	Es	es	NOUN	cc	_	25	advmod	25:advmod	MWE=Es_decir|MWEPOS=CCONJ
+1	Es	es	NOUN	cc	ExtPos=ADV	25	advmod	25:advmod	MWE=Es_decir|MWEPOS=CCONJ
 2	decir	decir	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	aun	aun	NOUN	cs	_	13	mark	13:mark	MWE=aun_cuando|MWEPOS=SCONJ
@@ -5130,7 +5130,7 @@
 # text = 22 Es decir, que sin el vigor de los apetitos, la vida humana perdería su valor racional!
 # orig_file_sentence 002#45
 1	22	22	SYM	fz	_	16	nmod	16:nmod	_
-2	Es	es	NOUN	cc	_	16	advmod	16:advmod	MWE=Es_decir|MWEPOS=CCONJ
+2	Es	es	NOUN	cc	ExtPos=ADV	16	advmod	16:advmod	MWE=Es_decir|MWEPOS=CCONJ
 3	decir	decir	NOUN	_	_	2	fixed	2:fixed	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 5	que	que	SCONJ	cs	_	16	mark	16:mark	_
@@ -5721,7 +5721,7 @@
 # text = Cayeron uno a uno los delfines, Serra está al caer y parece que Felipe González está pensando en nombrar otro vicepresidente cuando retoque el Gobierno.
 # orig_file_sentence 002#63
 1	Cayeron	caer	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-2	uno	uno	NOUN	rg	_	1	advmod	1:advmod	MWE=uno_a_uno|MWEPOS=ADV|ArgTem=argM:mnr|Cxn=NPN|CxnElt=2:NPN.N1
+2	uno	uno	NOUN	rg	ExtPos=ADV	1	advmod	1:advmod	MWE=uno_a_uno|MWEPOS=ADV|ArgTem=argM:mnr|Cxn=NPN|CxnElt=2:NPN.N1
 3	a	a	ADP	_	_	2	fixed	2:fixed	CxnElt=2:NPN.P
 4	uno	uno	NOUN	_	_	2	fixed	2:fixed	CxnElt=2:NPN.N2
 5	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	6:det	_
@@ -5778,7 +5778,7 @@
 # sent_id = 3LB-CAST-r2-11-s4
 # text = Hoy por hoy las relaciones de los nacionalistas y la derecha se han enconado, pero no olvidemos que los intereses de ambas formaciones pueden ser convergentes dentro de unos meses.
 # orig_file_sentence 002#65
-1	Hoy	hoy	NOUN	rg	_	14	advmod	14:advmod	MWE=Hoy_por_hoy|MWEPOS=ADV|ArgTem=argM:tmp|Cxn=NPN|CxnElt=1:NPN.N1
+1	Hoy	hoy	NOUN	rg	ExtPos=ADV	14	advmod	14:advmod	MWE=Hoy_por_hoy|MWEPOS=ADV|ArgTem=argM:tmp|Cxn=NPN|CxnElt=1:NPN.N1
 2	por	por	ADP	_	_	1	fixed	1:fixed	CxnElt=1:NPN.P
 3	hoy	hoy	NOUN	_	_	1	fixed	1:fixed	CxnElt=1:NPN.N2
 4	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	5:det	_
@@ -6367,7 +6367,7 @@
 1	CiU	CiU	PROPN	np0000o	_	2	nsubj	2:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)
 2	quiere	querer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	tener	tener	VERB	vmn0000	VerbForm=Inf	2	xcomp	2:xcomp	ArgTem=arg1:pat
-4	cuanto	cuanto	NOUN	rg	_	3	advmod	3:advmod	MWE=cuanto_antes|MWEPOS=ADV|ArgTem=argM:tmp
+4	cuanto	cuanto	NOUN	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=cuanto_antes|MWEPOS=ADV|ArgTem=argM:tmp
 5	antes	antes	ADV	_	_	4	fixed	4:fixed	_
 6	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	7:det	_
 7	policía	policía	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	3:obj	ArgTem=arg2:atr
@@ -6779,7 +6779,7 @@
 5	FEROZ	feroz	ADJ	aq0cs0	Number=Sing	4	amod	4:amod	SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
 7	pero	pero	CCONJ	cc	_	10	cc	10:cc	_
-8	tal	tal	NOUN	rg	_	10	advmod	10:advmod	MWE=tal_vez|MWEPOS=ADV
+8	tal	tal	NOUN	rg	ExtPos=ADV	10	advmod	10:advmod	MWE=tal_vez|MWEPOS=ADV
 9	vez	vez	NOUN	_	_	8	fixed	8:fixed	_
 10	ignoremos	ignorar	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	2:conj	_
 11	cuál	cuál	PRON	pt0cs000	Number=Sing|PronType=Int	14	nsubj	14:nsubj	ArgTem=arg1:tem|CxnElt=14:Interrogative-WHInfo-Indirect.WHWord
@@ -7560,7 +7560,7 @@
 4	hace	hacer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	vieja	viejo	ADJ	aq0fs0	Gender=Fem|Number=Sing	4	obj	4:obj	ArgTem=arg2:atr
 6	y	y	CCONJ	cc	_	10	cc	10:cc	_
-7	tal	tal	NOUN	rg	_	10	advmod	10:advmod	MWE=tal_vez|MWEPOS=ADV
+7	tal	tal	NOUN	rg	ExtPos=ADV	10	advmod	10:advmod	MWE=tal_vez|MWEPOS=ADV
 8	vez	vez	NOUN	_	_	7	fixed	7:fixed	_
 9	debería	deber	AUX	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux	10:aux	_
 10	entrar	entrar	VERB	vmn0000	VerbForm=Inf	4	conj	4:conj	_
@@ -11602,7 +11602,7 @@
 31.1	_	_	PRON	p	_	_	_	33:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000021714234c16--1-CorefType:ident,gstype:gen)
 32	"	"	PUNCT	fe	PunctType=Quot	33	punct	33:punct	SpaceAfter=No
 33	constituyen	constituir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl	ArgTem=argM:cau
-34	hoy	hoy	NOUN	rg	_	33	advmod	33:advmod	MWE=hoy_día|MWEPOS=ADV|ArgTem=argM:tmp
+34	hoy	hoy	NOUN	rg	ExtPos=ADV	33	advmod	33:advmod	MWE=hoy_día|MWEPOS=ADV|ArgTem=argM:tmp
 35	día	día	NOUN	_	_	34	fixed	34:fixed	_
 36	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 37	primer	primero	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	38	amod	38:amod	_
@@ -16056,7 +16056,7 @@
 31	dirimir	dirimir	VERB	vmn0000	VerbForm=Inf	29	xcomp	29:xcomp	ArgTem=argM:adv
 32	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	det	33:det	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTA2000092015595c5-other-1-CorefType:ident,gstype:spec)
 33	diferencias	diferencia	NOUN	ncfp000	Gender=Fem|Number=Plur	31	obj	31:obj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
-34	codo	codo	NOUN	rg	_	29	advmod	29:advmod	MWE=codo_a_codo|MWEPOS=ADV|ArgTem=argM:adv|Cxn=NPN|CxnElt=34:NPN.N1
+34	codo	codo	NOUN	rg	ExtPos=ADV	29	advmod	29:advmod	MWE=codo_a_codo|MWEPOS=ADV|ArgTem=argM:adv|Cxn=NPN|CxnElt=34:NPN.N1
 35	a	a	ADP	_	_	34	fixed	34:fixed	CxnElt=34:NPN.P
 36	codo	codo	NOUN	_	_	34	fixed	34:fixed	CxnElt=34:NPN.N2
 37	en	en	ADP	sps00	_	39	case	39:case	_
@@ -16267,7 +16267,7 @@
 7	de	de	ADP	sps00	_	9	mark	9:mark	_
 8	haber	haber	AUX	van0000	VerbForm=Inf	9	aux	9:aux	_
 9	disputado	disputar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	6:advcl	_
-10	tan	tan	NOUN	rg	_	13	advmod	13:advmod	MWE=tan_solo|MWEPOS=ADV|Entity=(NOCOREF:Gen--4-gstype:gen
+10	tan	tan	NOUN	rg	ExtPos=ADV	13	advmod	13:advmod	MWE=tan_solo|MWEPOS=ADV|Entity=(NOCOREF:Gen--4-gstype:gen
 11	solo	solo	NOUN	_	_	10	fixed	10:fixed	_
 12	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	_
 13	prueba	prueba	NOUN	ncfs000	Gender=Fem|Number=Sing	9	obj	9:obj	ArgTem=arg1:pat
@@ -28334,7 +28334,7 @@
 1	EL	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTAA2000032621333_hc38-organization-2-gstype:spec,Title
 2	ATHLETIC	Athletic	PROPN	np00000	_	3	nsubj	3:nsubj	ArgTem=arg1:tem|Entity=CESSCASTAA2000032621333_hc38)
 3	SIGUE	seguir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	CUESTA	cuesta	NOUN	rg	_	3	advmod	3:advmod	MWE=CUESTA_ABAJO|MWEPOS=ADV|ArgTem=argM:mnr
+4	CUESTA	cuesta	NOUN	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=CUESTA_ABAJO|MWEPOS=ADV|ArgTem=argM:mnr
 5	ABAJO	abajo	NOUN	_	_	4	fixed	4:fixed	_
 
 # sent_id = CESS-CAST-AA-20000326-21333_h-s2
@@ -31889,7 +31889,7 @@
 17	con	con	ADP	sps00	_	19	case	19:case	_
 18	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	19:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 19	agonía	agonía	NOUN	ncfs000	Gender=Fem|Number=Sing	15	conj	15:conj	Entity=NOCOREF:Gen)
-20	algunas	algunas	NOUN	rg	_	19	advmod	19:advmod	MWE=algunas_veces|MWEPOS=ADV
+20	algunas	algunas	NOUN	rg	ExtPos=ADV	19	advmod	19:advmod	MWE=algunas_veces|MWEPOS=ADV
 21	veces	veces	NOUN	_	_	20	fixed	20:fixed	SpaceAfter=No|Entity=NOCOREF:Gen)
 22	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
@@ -33766,7 +33766,7 @@
 6	Primera	Primera	PROPN	np00000	_	3	obl	3:obl	MWE=Primera_División|MWEPOS=PROPN|ArgTem=argM:loc
 7	División	División	PROPN	_	_	6	flat	6:flat	Entity=CESSCASTAA200009117351c2)
 8	con	con	ADP	sps00	_	12	case	12:case	_
-9	tan	tan	NOUN	rg	_	12	advmod	12:advmod	MWE=tan_sólo|MWEPOS=ADV
+9	tan	tan	NOUN	rg	ExtPos=ADV	12	advmod	12:advmod	MWE=tan_sólo|MWEPOS=ADV
 10	sólo	sólo	ADV	_	_	9	fixed	9:fixed	_
 11	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(CESSCASTAA200009117351c1--2-gstype:gen
 12	jugador	jugador	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	3:obl	ArgTem=argM:adv
@@ -34030,7 +34030,7 @@
 13	fútbol	fútbol	NOUN	ncms000	Gender=Masc|Number=Sing	10	nmod	10:nmod	Entity=(CESSCASTAA200009117351c10--1-CorefType:ident,gstype:gen,HomoDD
 14	español	español	ADJ	aq0ms0	Gender=Masc|Number=Sing	13	amod	13:amod	Entity=CESSCASTAA200009117351c10)CESSCASTAA200009117351c2)
 15	y	y	CCONJ	cc	_	32	cc	32:cc	_
-16	tan	tan	NOUN	rg	_	18	advmod	18:advmod	MWE=tan_sólo|MWEPOS=ADV
+16	tan	tan	NOUN	rg	ExtPos=ADV	18	advmod	18:advmod	MWE=tan_sólo|MWEPOS=ADV
 17	sólo	sólo	ADV	_	_	16	fixed	16:fixed	_
 18	Walter	Walter	PROPN	np00000	_	32	nsubj	32:nsubj	MWE=Walter_Gaitán|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(CESSCASTAA200009117351c17--1
 19	Gaitán	Gaitán	PROPN	_	_	18	flat	18:flat	_
@@ -36406,7 +36406,7 @@
 # sent_id = CESS-CAST-AA-20001029-24092-s14
 # text = Aún así, Lekunberri pudo devolver el empate al marcador con un cabezazo que se estrelló en el poste (m.89).
 # orig_file_sentence 007#90
-1	Aún	aún	NOUN	rg	_	6	advmod	6:advmod	MWE=Aún_así|MWEPOS=ADV
+1	Aún	aún	NOUN	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=Aún_así|MWEPOS=ADV
 2	así	así	ADV	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	Lekunberri	Lekunberri	PROPN	np00000	_	6	nsubj	6:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)
@@ -40386,7 +40386,7 @@
 # text = "Puede que tengan que desplazarse en autobús y no en automóviles de lujo con chofer", señaló Coates.
 # orig_file_sentence 011#52
 1	"	"	PUNCT	fe	PunctType=Quot	4	punct	4:punct	SpaceAfter=No|Entity=(CESSCASTP19990202123c13--5
-2	Puede	puede	NOUN	rg	_	6	advmod	6:advmod	MWE=Puede_que|MWEPOS=ADV
+2	Puede	puede	NOUN	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=Puede_que|MWEPOS=ADV
 3	que	que	SCONJ	_	_	2	fixed	2:fixed	_
 3.1	_	_	PRON	p	_	_	_	4:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP19990202123c11--1-CorefType:ident,gstype:gen)
 4	tengan	tener	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	20:ccomp	ArgTem=arg1:pat
@@ -40451,7 +40451,7 @@
 # text = "Es más, será estupendo caminar por Sidney.
 # orig_file_sentence 011#54
 1	"	"	PUNCT	fe	PunctType=Quot	6	punct	6:punct	SpaceAfter=No
-2	Es	es	NOUN	rg	_	6	advmod	6:advmod	MWE=Es_más|MWEPOS=ADV
+2	Es	es	NOUN	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=Es_más|MWEPOS=ADV
 3	más	más	ADV	_	Degree=Cmp	2	fixed	2:fixed	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 5	será	ser	AUX	vsif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	cop	6:cop	ArgTem=arg1:pat
@@ -41870,7 +41870,7 @@
 14	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	expl:pv	15:expl:pv	_
 15	haga	hacer	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp	ArgTem=arg1:pat
 16	marxista	marxista	ADJ	aq0cs0	Number=Sing	15	obj	15:obj	ArgTem=arg2:atr
-17	tan	tan	NOUN	rg	_	23	advmod	23:advmod	MWE=tan_sólo|MWEPOS=ADV
+17	tan	tan	NOUN	rg	ExtPos=ADV	23	advmod	23:advmod	MWE=tan_sólo|MWEPOS=ADV
 18	sólo	sólo	ADV	_	_	17	fixed	17:fixed	_
 19	porque	porque	SCONJ	cs	_	23	mark	23:mark	_
 20	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	21:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP1999030213c7--1-CorefType:ident,gstype:gen)
@@ -41919,7 +41919,7 @@
 7	estaba	estar	AUX	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	8:cop	ArgTem=arg1:pat
 8	tan	tanto	ADV	rg	_	4	ccomp	4:ccomp	ArgTem=arg2:atr
 9	"	"	PUNCT	fe	PunctType=Quot	8	punct	8:punct	SpaceAfter=No
-10	fuera	fuera	NOUN	rg	_	8	advmod	8:advmod	MWE=fuera_de_sí|MWEPOS=ADV
+10	fuera	fuera	NOUN	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=fuera_de_sí|MWEPOS=ADV
 11	de	de	ADP	_	_	10	fixed	10:fixed	_
 12	sí	sí	NOUN	_	_	10	fixed	10:fixed	SpaceAfter=No
 13	"	"	PUNCT	fe	PunctType=Quot	8	punct	8:punct	_
@@ -42069,7 +42069,7 @@
 # sent_id = CESS-CAST-P-19990302-18-s3
 # text = Puede que la intención de Unió sea buena, angelical, pero es difícil que un partido delimite normas de conducta más allá de los principios generales.
 # orig_file_sentence 012#67
-1	Puede	puede	NOUN	rg	_	8	advmod	8:advmod	MWE=Puede_que|MWEPOS=ADV
+1	Puede	puede	NOUN	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=Puede_que|MWEPOS=ADV
 2	que	que	SCONJ	_	_	1	fixed	1:fixed	_
 3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 4	intención	intención	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg1:tem
@@ -42606,7 +42606,7 @@
 9	éxito	éxito	NOUN	ncms000	Gender=Masc|Number=Sing	8	obj	8:obj	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen)
 10	en	en	ADP	sps00	_	11	case	11:case	_
 11	su	su	PRON	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod	8:nmod	Entity=(NOCOREF:Gen--1-gstype:gen(CESSCASTP1999060149_ac3-person-1-CorefType:ident,gstype:spec)
-12	cara	cara	NOUN	rg	_	11	advmod	11:advmod	MWE=cara_a_cara|MWEPOS=ADV|ArgTem=argM:loc|Cxn=NPN|CxnElt=12:NPN.N1
+12	cara	cara	NOUN	rg	ExtPos=ADV	11	advmod	11:advmod	MWE=cara_a_cara|MWEPOS=ADV|ArgTem=argM:loc|Cxn=NPN|CxnElt=12:NPN.N1
 13	a	a	ADP	_	_	12	fixed	12:fixed	CxnElt=12:NPN.P
 14	cara	cara	NOUN	_	_	12	fixed	12:fixed	CxnElt=12:NPN.N2
 15	con	con	ADP	sps00	_	11	case	11:case	_
@@ -47847,7 +47847,7 @@
 # sent_id = CESS-CAST-P-19991201-116-s6
 # text = Pues bien, ni siquiera ganando por goleada en la encuesta nocturna de TV-3, se sienten queridos, protegidos.
 # orig_file_sentence 010#74
-1	Pues	pues	NOUN	rg	_	17	advmod	17:advmod	MWE=Pues_bien|MWEPOS=ADV
+1	Pues	pues	NOUN	rg	ExtPos=ADV	17	advmod	17:advmod	MWE=Pues_bien|MWEPOS=ADV
 2	bien	bien	ADV	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	ni	ni	CCONJ	rg	_	6	advmod	6:advmod	MWE=ni_siquiera|MWEPOS=ADV|ArgTem=argM:adv
@@ -53910,7 +53910,7 @@
 12	club	club	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	5:nmod	ArgTem=arg4:des|Entity=(CESSCASTP2000080294c4-organization-1-CorefType:ident,gstype:spec
 13	blanco	blanco	ADJ	aq0ms0	Gender=Masc|Number=Sing	12	amod	12:amod	Entity=CESSCASTP2000080294c4)NOCOREF:Gen)
 14	con	con	ADP	sps00	_	18	case	18:case	_
-15	algo	algo	NOUN	rg	_	18	advmod	18:advmod	MWE=algo_más_que|MWEPOS=ADV|Entity=(NOCOREF:Gen--4-gstype:gen
+15	algo	algo	NOUN	rg	ExtPos=ADV	18	advmod	18:advmod	MWE=algo_más_que|MWEPOS=ADV|Entity=(NOCOREF:Gen--4-gstype:gen
 16	más	más	ADV	_	Degree=Cmp	15	fixed	15:fixed	_
 17	que	que	SCONJ	_	_	15	fixed	15:fixed	_
 18	optimismo	optimismo	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	3:obl	SpaceAfter=No|ArgTem=argM:mnr|Entity=NOCOREF:Gen)

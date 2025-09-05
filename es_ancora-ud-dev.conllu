@@ -1749,7 +1749,7 @@
 18	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	_
 19	dentista	dentista	NOUN	nccs000	Number=Sing	17	nsubj	17:nsubj	SpaceAfter=No|ArgTem=arg0:agt
 20	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
-21	nada	nada	NOUN	rn	_	23	advmod	23:advmod	MWE=nada_de|MWEPOS=ADV
+21	nada	nada	NOUN	rn	ExtPos=ADV	23	advmod	23:advmod	MWE=nada_de|MWEPOS=ADV
 22	de	de	ADP	_	_	21	fixed	21:fixed	_
 23-24	tirarlos	_	_	_	_	_	_	_	SpaceAfter=No
 23	tirar	tirar	VERB	vmn0000	VerbForm=Inf	10	acl	10:acl	_
@@ -3678,7 +3678,7 @@
 21	transparente	transparente	ADJ	aq0cs0	Number=Sing	19	amod	19:amod	_
 22	y	y	CCONJ	cc	_	27	cc	27:cc	SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
-24	tal	tal	NOUN	rg	_	27	advmod	27:advmod	MWE=tal_vez|MWEPOS=ADV|ArgTem=argM:adv
+24	tal	tal	NOUN	rg	ExtPos=ADV	27	advmod	27:advmod	MWE=tal_vez|MWEPOS=ADV|ArgTem=argM:adv
 25	vez	vez	NOUN	_	_	24	fixed	24:fixed	SpaceAfter=No
 26	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 27	hipnotizado	hipnotizado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	19	conj	19:conj	SpaceAfter=No
@@ -3774,7 +3774,7 @@
 5	hombría	hombría	NOUN	ncfs000	Gender=Fem|Number=Sing	2	conj	2:conj	_
 6	deberían	deber	AUX	vmic3p0	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	11	aux	11:aux	SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
-8	desde	desde	NOUN	rg	_	11	advmod	11:advmod	MWE=desde_luego|MWEPOS=ADV|ArgTem=argM:adv
+8	desde	desde	NOUN	rg	ExtPos=ADV	11	advmod	11:advmod	MWE=desde_luego|MWEPOS=ADV|ArgTem=argM:adv
 9	luego	luego	ADV	_	_	8	fixed	8:fixed	SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 11	inspirar	inspirar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
@@ -4971,7 +4971,7 @@
 # sent_id = 3LB-CAST-dc1-3-s9
 # text = Tal vez escoja permanecer disponible para su compañero, en el caso de que se destruya la primera puesta y él pida otra que la sustituya.
 # orig_file_sentence 002#46
-1	Tal	tal	NOUN	rg	_	3	advmod	3:advmod	MWE=Tal_vez|MWEPOS=ADV|ArgTem=argM:adv
+1	Tal	tal	NOUN	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=Tal_vez|MWEPOS=ADV|ArgTem=argM:adv
 2	vez	vez	NOUN	_	_	1	fixed	1:fixed	_
 3	escoja	escoger	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	permanecer	permanecer	VERB	vmn0000	VerbForm=Inf	3	xcomp	3:xcomp	ArgTem=arg1:pat
@@ -6053,7 +6053,7 @@
 # orig_file_sentence 002#83
 1	En	en	ADP	sps00	_	2	case	2:case	_
 2	muchas	mucho	PRON	pi0fp000	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	6	obl	6:obl	ArgTem=arg2:loc
-3	tan	tan	NOUN	rg	_	6	advmod	6:advmod	MWE=tan_sólo|MWEPOS=ADV|ArgTem=argM:adv
+3	tan	tan	NOUN	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=tan_sólo|MWEPOS=ADV|ArgTem=argM:adv
 4	sólo	sólo	ADV	_	_	3	fixed	3:fixed	_
 5	se	él	PRON	pp3cn000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	expl:pv	6:expl:pv	_
 6	encuentra	encontrar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -8530,7 +8530,7 @@
 # sent_id = 3LB-CAST-t6-2-s9
 # text = Desde luego, vale mucho más que tú, le había susurrado al oído su padre cuando la conoció, dándole un par de palmadas en la espalda.
 # orig_file_sentence 003#78
-1	Desde	desde	NOUN	rg	_	4	advmod	4:advmod	MWE=Desde_luego|MWEPOS=ADV
+1	Desde	desde	NOUN	rg	ExtPos=ADV	4	advmod	4:advmod	MWE=Desde_luego|MWEPOS=ADV
 2	luego	luego	ADV	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	vale	valer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	ArgTem=arg1:pat
@@ -20246,7 +20246,7 @@
 58	y	y	CCONJ	cc	_	59	cc	59:cc	_
 59	vuelta	vuelta	NOUN	ncfs000	Gender=Fem|Number=Sing	57	conj	57:conj	_
 60	por	por	ADP	sps00	_	64	case	64:case	_
-61	tan	tan	NOUN	rg	_	64	advmod	64:advmod	MWE=tan_solo|MWEPOS=ADV|Entity=(NOCOREF:Spec.number-number-4-gstype:spec
+61	tan	tan	NOUN	rg	ExtPos=ADV	64	advmod	64:advmod	MWE=tan_solo|MWEPOS=ADV|Entity=(NOCOREF:Spec.number-number-4-gstype:spec
 62	solo	solo	NOUN	_	_	61	fixed	61:fixed	_
 63	9.800	9800	NUM	_	NumForm=Digit|NumType=Card	64	nummod	64:nummod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 64	pesetas	peseta	NOUN	zm	Gender=Fem|Number=Plur	57	nmod	57:nmod	ArgTem=argM:ext|Currency=Yes|Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)NOCOREF:Gen)|SpaceAfter=No
@@ -20673,7 +20673,7 @@
 15	continúa	continuar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj	_
 16	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	17:det	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTAA200002065003c6-organization-1-CorefType:ident,gstype:spec)
 17	marcha	marcha	NOUN	ncfs000	Gender=Fem|Number=Sing	15	obj	15:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
-18	cuesta	cuesta	NOUN	rg	_	15	advmod	15:advmod	MWE=cuesta_abajo|MWEPOS=ADV|ArgTem=argM:adv
+18	cuesta	cuesta	NOUN	rg	ExtPos=ADV	15	advmod	15:advmod	MWE=cuesta_abajo|MWEPOS=ADV|ArgTem=argM:adv
 19	abajo	abajo	NOUN	_	_	18	fixed	18:fixed	_
 20	y	y	CCONJ	cc	_	33	cc	33:cc	SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
@@ -33099,7 +33099,7 @@
 42	recorrido	recorrido	NOUN	ncms000	Gender=Masc|Number=Sing	38	nmod	38:nmod	Entity=(CESSCASTAA2000112620778c8--1-CorefType:ident,gstype:gen)NOCOREF:Gen)NOCOREF:Gen)
 43	y	y	CCONJ	cc	_	49	cc	49:cc	SpaceAfter=No
 44	,	,	PUNCT	fc	PunctType=Comm	45	punct	45:punct	_
-45	eso	eso	NOUN	rg	_	49	advmod	49:advmod	MWE=eso_sí|MWEPOS=ADV
+45	eso	eso	NOUN	rg	ExtPos=ADV	49	advmod	49:advmod	MWE=eso_sí|MWEPOS=ADV
 46	sí	sí	NOUN	_	_	45	fixed	45:fixed	SpaceAfter=No
 47	,	,	PUNCT	fc	PunctType=Comm	45	punct	45:punct	_
 48	alto	alto	ADJ	aq0ms0	Gender=Masc|Number=Sing	49	amod	49:amod	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -36229,7 +36229,7 @@
 16	familia	familia	NOUN	ncfs000	Gender=Fem|Number=Sing	14	obl	14:obl	SpaceAfter=No|ArgTem=argM:mnr
 17	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
 18	acorde	acorde	ADJ	aq0cs0	Number=Sing	14	advmod	14:advmod	ArgTem=argM:adv
-19	eso	eso	NOUN	rg	_	18	advmod	18:advmod	MWE=eso_sí|MWEPOS=ADV
+19	eso	eso	NOUN	rg	ExtPos=ADV	18	advmod	18:advmod	MWE=eso_sí|MWEPOS=ADV
 20	sí	sí	NOUN	_	_	19	fixed	19:fixed	SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 22	con	con	ADP	sps00	_	24	case	24:case	_
@@ -43459,7 +43459,7 @@
 21	imaginar	imaginar	VERB	vmn0000	VerbForm=Inf	18	acl	18:acl	_
 22	por	por	ADP	rg	ExtPos=ADV	21	advmod	21:advmod	MWE=por_ahora|MWEPOS=ADV|ArgTem=argM:tmp
 23	ahora	ahora	ADV	_	_	22	fixed	22:fixed	_
-24	otra	otra	NOUN	rg	_	28	advmod	28:advmod	MWE=otra_cosa_que|MWEPOS=ADV|Entity=(NOCOREF:Gen--5-gstype:gen
+24	otra	otra	NOUN	rg	ExtPos=ADV	28	advmod	28:advmod	MWE=otra_cosa_que|MWEPOS=ADV|Entity=(NOCOREF:Gen--5-gstype:gen
 25	cosa	cosa	NOUN	_	_	24	fixed	24:fixed	_
 26	que	que	SCONJ	_	_	24	fixed	24:fixed	_
 27	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	28:det	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -51037,7 +51037,7 @@
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTP20001201176c3--2-CorefType:ident
 2	Unicaja	Unicaja	PROPN	np00000	_	7	nsubj	7:nsubj	SpaceAfter=No|ArgTem=arg0:agt|Entity=CESSCASTP20001201176c3)
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
-4	eso	eso	NOUN	rg	_	7	advmod	7:advmod	MWE=eso_sí|MWEPOS=ADV
+4	eso	eso	NOUN	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=eso_sí|MWEPOS=ADV
 5	sí	sí	NOUN	_	_	4	fixed	4:fixed	SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 7	confirmó	confirmar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -59971,7 +59971,7 @@
 1	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	Entity=(CESSCASTP20020102112c17--2-CorefType:ident,gstype:gen,HomoDD
 2	protagonistas	protagonista	NOUN	nccp000	Number=Plur	3	nsubj	3:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP20020102112c17)
 3	pasan	pasar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	frente	frente	NOUN	rg	_	3	advmod	3:advmod	MWE=frente_a|MWEPOS=ADV
+4	frente	frente	NOUN	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=frente_a|MWEPOS=ADV
 5	a	a	ADP	_	_	4	fixed	4:fixed	_
 6	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	7	nummod	7:nummod	Entity=(CESSCASTP20020102112c16--2-gstype:gen
 7	estatuas	estatua	NOUN	ncfp000	Gender=Fem|Number=Plur	4	obl	4:obl	ArgTem=arg2:loc
@@ -61327,7 +61327,7 @@
 # sent_id = CESS-CAST-P-20020601-51-s13
 # text = Paso a paso, se asoma orgulloso a la élite, sin preguntar por quién tiene delante.
 # orig_file_sentence 015#55
-1	Paso	paso	NOUN	rg	_	6	advmod	6:advmod	MWE=Paso_a_paso|MWEPOS=ADV|ArgTem=argM:adv|Cxn=NPN|CxnElt=1:NPN.N1
+1	Paso	paso	NOUN	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=Paso_a_paso|MWEPOS=ADV|ArgTem=argM:adv|Cxn=NPN|CxnElt=1:NPN.N1
 2	a	a	ADP	_	_	1	fixed	1:fixed	CxnElt=1:NPN.P
 3	paso	paso	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No|CxnElt=1:NPN.N2
 4	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
