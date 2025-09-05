@@ -440,7 +440,7 @@
 26	de	de	ADP	sps00	_	28	case	28:case	_
 27	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	28:det	_
 28	votaciones	votación	NOUN	ncfp000	Gender=Fem|Number=Plur	25	nmod	25:nmod	ArgTem=arg1:pat
-29	debido	debido	ADJ	sps00	_	33	case	33:case	MWE=debido_a|MWEPOS=ADP
+29	debido	debido	ADJ	sps00	ExtPos=ADP	33	case	33:case	MWE=debido_a|MWEPOS=ADP
 30	a	a	ADP	_	_	29	fixed	29:fixed	_
 31	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	33:det	_
 32	"	"	PUNCT	fe	PunctType=Quot	33	punct	33:punct	SpaceAfter=No
@@ -10001,7 +10001,7 @@
 22	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCASTA2000022016182c30--2-CorefType:ident,gstype:gen,HomoDD
 23	galería	galería	NOUN	ncfs000	Gender=Fem|Number=Sing	19	obl	19:obl	ArgTem=arg2:loc
 24	este	este	ADJ	aq0cn0	_	23	amod	23:amod	Entity=CESSCASTA2000022016182c30)
-25	debido	debido	ADJ	spcms	Gender=Masc|Number=Sing	28	case	28:case	MWE=debido_al|MWEPOS=ADP
+25	debido	debido	ADJ	spcms	ExtPos=ADP|Gender=Masc|Number=Sing	28	case	28:case	MWE=debido_al|MWEPOS=ADP
 26-27	al	_	_	_	_	_	_	_	_
 26	a	a	ADP	_	_	25	fixed	25:fixed	_
 27	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	_
@@ -12476,7 +12476,7 @@
 4	efectuarán	efectuar	VERB	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCASTA2000032217638c3--2-CorefType:dx.token
 6	entrenamiento	entrenamiento	NOUN	ncms000	Gender=Masc|Number=Sing	4	obj	4:obj	ArgTem=arg1:pat|Entity=CESSCASTA2000032217638c3)
-7	junto	junto	ADJ	sps00	_	10	case	10:case	MWE=junto_con|MWEPOS=ADP
+7	junto	junto	ADJ	sps00	ExtPos=ADP	10	case	10:case	MWE=junto_con|MWEPOS=ADP
 8	con	con	ADP	_	_	7	fixed	7:fixed	_
 9	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	10:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTA2000032217638c2-other-1-CorefType:ident,gstype:spec)
 10	compañeros	compañero	NOUN	ncmp000	Gender=Masc|Number=Plur	4	obl	4:obl	ArgTem=argM:adv
@@ -19004,7 +19004,7 @@
 19	Reacción	Reacción	PROPN	_	_	17	flat	17:flat	_
 20	Rápida	Rápida	PROPN	_	_	19	flat	19:flat	_
 21	europea	europeo	ADJ	aq0fs0	Gender=Fem|Number=Sing	17	amod	17:amod	Entity=CESSCASTA2000111713026c7)NOCOREF:Gen)
-22	debido	debido	ADJ	sps00	_	24	case	24:case	MWE=debido_a|MWEPOS=ADP
+22	debido	debido	ADJ	sps00	ExtPos=ADP	24	case	24:case	MWE=debido_a|MWEPOS=ADP
 23	a	a	ADP	_	_	22	fixed	22:fixed	_
 24	problemas	problema	NOUN	ncmp000	Gender=Masc|Number=Plur	9	obl	9:obl	ArgTem=argM:cau|Entity=(CESSCASTA2000111713026c2--1-gstype:gen
 25	internos	interno	ADJ	aq0mp0	Gender=Masc|Number=Plur	24	amod	24:amod	SpaceAfter=No|Entity=CESSCASTA2000111713026c2)
@@ -19167,7 +19167,7 @@
 13	de	de	ADP	sps00	_	14	case	14:case	_
 14	neutral	neutral	ADJ	aq0cs0	Number=Sing	12	amod	12:amod	SpaceAfter=No|Entity=NOCOREF:Gen)NOCOREF:Gen)
 15	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
-16	junto	junto	ADJ	sps00	_	18	case	18:case	MWE=junto_con|MWEPOS=ADP
+16	junto	junto	ADJ	sps00	ExtPos=ADP	18	case	18:case	MWE=junto_con|MWEPOS=ADP
 17	con	con	ADP	_	_	16	fixed	16:fixed	_
 18	Suecia	Suecia	PROPN	np0000o	_	3	obl	3:obl	SpaceAfter=No|ArgTem=argM:adv
 19	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
@@ -27097,7 +27097,7 @@
 45	segunda	segundo	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	46	amod	46:amod	_
 46	vuelta	vuelta	NOUN	ncfs000	Gender=Fem|Number=Sing	42	obl	42:obl	SpaceAfter=No|ArgTem=argM:loc|Entity=CESSCASTAA200005129580c16)
 47	,	,	PUNCT	fc	PunctType=Comm	51	punct	51:punct	_
-48	debido	debido	ADJ	sps00	_	51	case	51:case	MWE=debido_a|MWEPOS=ADP
+48	debido	debido	ADJ	sps00	ExtPos=ADP	51	case	51:case	MWE=debido_a|MWEPOS=ADP
 49	a	a	ADP	_	_	48	fixed	48:fixed	_
 50	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	51:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 51	incapacidad	incapacidad	NOUN	ncfs000	Gender=Fem|Number=Sing	42	obl	42:obl	ArgTem=argM:cau
@@ -27283,7 +27283,7 @@
 9	durante	durante	ADP	sps00	_	10	case	10:case	_
 10	tiempo	tiempo	NOUN	ncms000	Gender=Masc|Number=Sing	5	obl	5:obl	ArgTem=argM:tmp|Entity=(NOCOREF:Gen--1-gstype:gen
 11	prolongado	prolongado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	10:amod	Entity=NOCOREF:Gen)
-12	debido	debido	ADJ	sps00	_	15	case	15:case	MWE=debido_a|MWEPOS=ADP
+12	debido	debido	ADJ	sps00	ExtPos=ADP	15	case	15:case	MWE=debido_a|MWEPOS=ADP
 13	a	a	ADP	_	_	12	fixed	12:fixed	_
 14	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTAA200005129580c19--2-gstype:gen,HomoDD
 15	flebitis	flebitis	NOUN	ncfn000	Gender=Fem	1	obl	1:obl	ArgTem=argM:cau
@@ -27576,7 +27576,7 @@
 22	abandonar	abandonar	VERB	vmn0000	VerbForm=Inf	17	xcomp	17:xcomp	ArgTem=arg2:efi
 23	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	24:det	Entity=(CESSCASTAA2000053125451c10-place-2-CorefType:ident,gstype:spec
 24	país	país	NOUN	ncms000	Gender=Masc|Number=Sing	22	obj	22:obj	ArgTem=arg1:pat|Entity=CESSCASTAA2000053125451c10)
-25	debido	debido	ADJ	sps00	_	28	case	28:case	MWE=debido_a|MWEPOS=ADP
+25	debido	debido	ADJ	sps00	ExtPos=ADP	28	case	28:case	MWE=debido_a|MWEPOS=ADP
 26	a	a	ADP	_	_	25	fixed	25:fixed	_
 27	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	28:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 28	pérdida	pérdida	NOUN	ncfs000	Gender=Fem|Number=Sing	22	obl	22:obl	ArgTem=argM:cau
@@ -28350,7 +28350,7 @@
 4	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCASTAA2000062923978c31-organization-2-CorefType:pred.definit,gstype:spec
 6	única	único	ADJ	aq0fs0	Gender=Fem|Number=Sing	0	root	0:root	ArgTem=arg2:atr|Entity=CESSCASTAA2000062923978c31)
-7	junto	junto	ADJ	sps00	_	9	case	9:case	MWE=junto_con|MWEPOS=ADP
+7	junto	junto	ADJ	sps00	ExtPos=ADP	9	case	9:case	MWE=junto_con|MWEPOS=ADP
 8	con	con	ADP	_	_	7	fixed	7:fixed	_
 9	Minardi	Minardi	PROPN	np00000	_	6	obl	6:obl	ArgTem=argM:adv|Entity=(CESSCASTAA2000062923978c20-organization-1-CorefType:ident,gstype:spec)
 10	en	en	ADP	sps00	_	13	mark	13:mark	_
@@ -31230,7 +31230,7 @@
 20	por	por	ADP	_	_	21	case	21:case	_
 21	ciento	ciento	NUM	_	NumForm=Word|NumType=Card	19	nmod	19:nmod	SpaceAfter=No|Entity=NOCOREF:Spec.number)
 22	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
-23	debido	debido	ADJ	sps00	_	26	case	26:case	MWE=debido_a|MWEPOS=ADP
+23	debido	debido	ADJ	sps00	ExtPos=ADP	26	case	26:case	MWE=debido_a|MWEPOS=ADP
 24	a	a	ADP	_	_	23	fixed	23:fixed	_
 25	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	Entity=(NOCOREF:Gen--2-gstype:gen
 26	reajuste	reajuste	NOUN	ncms000	Gender=Masc|Number=Sing	9	obl	9:obl	ArgTem=argM:cau
@@ -32015,7 +32015,7 @@
 13	costa	costa	NOUN	ncfs000	Gender=Fem|Number=Sing	10	nmod	10:nmod	_
 14	norte	norte	ADJ	aq0cn0	_	13	amod	13:amod	SpaceAfter=No|Entity=NOCOREF:Gen)
 15	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	Entity=CESSCASTAA2000103024215c30)CESSCASTAA2000103024215c30)
-16	debido	debido	ADJ	spcms	Gender=Masc|Number=Sing	19	case	19:case	MWE=debido_al|MWEPOS=ADP
+16	debido	debido	ADJ	spcms	ExtPos=ADP|Gender=Masc|Number=Sing	19	case	19:case	MWE=debido_al|MWEPOS=ADP
 17-18	al	_	_	_	_	_	_	_	_
 17	a	a	ADP	_	_	16	fixed	16:fixed	_
 18	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	_
@@ -36167,7 +36167,7 @@
 12	de	de	ADP	spcms	_	14	case	14:case	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
 14	día	día	NOUN	ncms000	Gender=Masc|Number=Sing	9	nmod	9:nmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)CESSCASTP1999020216c2)
-15	junto	junto	ADJ	sps00	_	19	case	19:case	MWE=junto_a|MWEPOS=ADP
+15	junto	junto	ADJ	sps00	ExtPos=ADP	19	case	19:case	MWE=junto_a|MWEPOS=ADP
 16	a	a	ADP	_	_	15	fixed	15:fixed	_
 17	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	19:det	Entity=(NOCOREF:Gen--3-gstype:gen
 18	paradójica	paradójico	ADJ	aq0fs0	Gender=Fem|Number=Sing	19	amod	19:amod	_
@@ -38889,7 +38889,7 @@
 14	destripado	destripado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	13	amod	13:amod	_
 15	que	que	PRON	pr0cn000	PronType=Rel	16	nsubj	16:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP1999080248c3--1-CorefType:ident,gstype:gen)
 16	yacía	yacer	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl	13:acl	_
-17	junto	junto	ADJ	sps00	_	19	case	19:case	MWE=junto_a|MWEPOS=ADP
+17	junto	junto	ADJ	sps00	ExtPos=ADP	19	case	19:case	MWE=junto_a|MWEPOS=ADP
 18	a	a	ADP	_	_	17	fixed	17:fixed	_
 19	él	él	PRON	pp3ms000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	16:obl	ArgTem=argM:loc|Entity=(CESSCASTP1999080248c2--1-CorefType:ident,gstype:gen)
 20	en	en	ADP	sps00	_	22	case	22:case	_
@@ -41215,7 +41215,7 @@
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	_
 12	club	club	NOUN	ncms000	Gender=Masc|Number=Sing	8	nmod	8:nmod	Entity=(CESSCASTP19991001130c24-organization-1-CorefType:ident,gstype:spec
 13	mexicano	mexicano	ADJ	aq0ms0	Gender=Masc|Number=Sing	12	amod	12:amod	Entity=CESSCASTP19991001130c24)CESSCASTP19991001130c28)
-14	debido	debido	ADJ	sps00	_	18	case	18:case	MWE=debido_a|MWEPOS=ADP
+14	debido	debido	ADJ	sps00	ExtPos=ADP	18	case	18:case	MWE=debido_a|MWEPOS=ADP
 15	a	a	ADP	_	_	14	fixed	14:fixed	_
 16	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	Entity=(CESSCASTP19991001130c25--3-gstype:gen,HomoDD
 17	mala	malo	ADJ	aq0fs0	Gender=Fem|Number=Sing	18	amod	18:amod	_
@@ -47907,7 +47907,7 @@
 19	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	20:det	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP2000060121_cc1--1-CorefType:ident,gstype:gen)
 20	detención	detención	NOUN	ncfs000	Gender=Fem|Number=Sing	17	nmod	17:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)NOCOREF:Gen)NOCOREF:Gen)
 21	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
-22	debido	debido	ADJ	sps00	_	25	case	25:case	MWE=debido_a|MWEPOS=ADP
+22	debido	debido	ADJ	sps00	ExtPos=ADP	25	case	25:case	MWE=debido_a|MWEPOS=ADP
 23	a	a	ADP	_	_	22	fixed	22:fixed	_
 24	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	25:det	Entity=(CESSCASTP2000060121_cc2--2-gstype:gen,HomoDD
 25	cantidad	cantidad	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nmod	8:nmod	_
@@ -49113,7 +49113,7 @@
 # sent_id = CESS-CAST-P-20000701-80-s23
 # text = Junto con la calle del Clot, el ayuntamiento también convertirá en peatonal el pasaje de Vintró.
 # orig_file_sentence 017#34
-1	Junto	junto	ADJ	sps00	_	4	case	4:case	MWE=Junto_con|MWEPOS=ADP
+1	Junto	junto	ADJ	sps00	ExtPos=ADP	4	case	4:case	MWE=Junto_con|MWEPOS=ADP
 2	con	con	ADP	_	_	1	fixed	1:fixed	_
 3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	Entity=(CESSCASTP2000070180c2-place-2-CorefType:ident,gstype:spec
 4	calle	calle	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=argM:adv
@@ -55872,7 +55872,7 @@
 8	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	Entity=CESSCASTP200105028c1)CESSCASTP200105028c1)
 9	desfiló	desfilar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 10	ayer	ayer	ADV	rg	_	9	advmod	9:advmod	ArgTem=argM:tmp
-11	junto	junto	ADJ	sps00	_	14	case	14:case	MWE=junto_a|MWEPOS=ADP
+11	junto	junto	ADJ	sps00	ExtPos=ADP	14	case	14:case	MWE=junto_a|MWEPOS=ADP
 12	a	a	ADP	_	_	11	fixed	11:fixed	_
 13	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	Entity=(NOCOREF:Gen--2-gstype:gen
 14	niña	niña	NOUN	ncfs000	Gender=Fem|Number=Sing	9	obl	9:obl	_
@@ -57705,7 +57705,7 @@
 27	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	28:det	Entity=(CESSCASTP20011002168c13--2-gstype:gen
 28	juerga	juerga	NOUN	ncfs000	Gender=Fem|Number=Sing	23	nmod	23:nmod	_
 29	nocturna	nocturno	ADJ	aq0fs0	Gender=Fem|Number=Sing	28	amod	28:amod	Entity=CESSCASTP20011002168c13)CESSCASTP20011002168c4)
-30	junto	junto	ADJ	sps00	_	33	case	33:case	MWE=junto_a|MWEPOS=ADP
+30	junto	junto	ADJ	sps00	ExtPos=ADP	33	case	33:case	MWE=junto_a|MWEPOS=ADP
 31	a	a	ADP	_	_	30	fixed	30:fixed	_
 32	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	33:det	Entity=(CESSCASTP20011002168c22--2-gstype:gen
 33	especie	especie	NOUN	ncfs000	Gender=Fem|Number=Sing	20	obl	20:obl	ArgTem=argM:loc
@@ -57866,7 +57866,7 @@
 47	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	44	nmod	44:nmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
 48	de	de	ADP	sps00	_	49	case	49:case	_
 49	fiesta	fiesta	NOUN	ncfs000	Gender=Fem|Number=Sing	47	nmod	47:nmod	Entity=NOCOREF:Gen)
-50	junto	junto	ADJ	sps00	_	53	case	53:case	MWE=junto_a|MWEPOS=ADP
+50	junto	junto	ADJ	sps00	ExtPos=ADP	53	case	53:case	MWE=junto_a|MWEPOS=ADP
 51	a	a	ADP	_	_	50	fixed	50:fixed	_
 52	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	53:det	Entity=(CESSCASTP20011002168c22--2-CorefType:ident,gstype:gen
 53	piscina	piscina	NOUN	ncfs000	Gender=Fem|Number=Sing	44	nmod	44:nmod	Entity=CESSCASTP20011002168c22)CESSCASTP20011002168c12)
@@ -58489,7 +58489,7 @@
 # sent_id = CESS-CAST-P-20011202-122-s8
 # text = Junto a su amigo David P., de 28, este promotor inmobiliario es cliente asiduo.
 # orig_file_sentence 010#38
-1	Junto	junto	ADJ	sps00	_	4	case	4:case	MWE=Junto_a|MWEPOS=ADP
+1	Junto	junto	ADJ	sps00	ExtPos=ADP	4	case	4:case	MWE=Junto_a|MWEPOS=ADP
 2	a	a	ADP	_	_	1	fixed	1:fixed	_
 3	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	4:det	Entity=(CESSCASTP20011202122c9-person-2-gstype:spec(CESSCASTP20011202122c7-person-1-CorefType:ident,gstype:spec)
 4	amigo	amigo	NOUN	ncms000	Gender=Masc|Number=Sing	15	obl	15:obl	ArgTem=argM:adv
@@ -60857,7 +60857,7 @@
 # sent_id = CESS-CAST-P-20020502-49-s4
 # text = Junto al elevado índice de delincuencia de los inmigrantes sumergidos en las bolsas de marginalidad, hay al menos otras dos causas que explican este dato: primero, que a muchos extranjeros (44.139 el año pasado) se les detiene sólo por estar en situación irregular; y segundo, que la fiscalía pide sistemáticamente el ingreso en prisión preventiva de los inmigrantes sin papeles.
 # orig_file_sentence 015#40
-1	Junto	junto	ADJ	spcms	Gender=Masc|Number=Sing	5	case	5:case	MWE=Junto_al|MWEPOS=ADP
+1	Junto	junto	ADJ	spcms	ExtPos=ADP|Gender=Masc|Number=Sing	5	case	5:case	MWE=Junto_al|MWEPOS=ADP
 2-3	al	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	1:fixed	_
 3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_

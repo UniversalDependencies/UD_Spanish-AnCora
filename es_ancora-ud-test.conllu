@@ -71,7 +71,7 @@
 9	1989	1989	NUM	_	NumForm=Digit|NumType=Card	5	compound	5:compound	SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	Entity=NOCOREF:Spec.date)
 11	organizó	organizar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-12	junto	junto	ADJ	sps00	_	15	case	15:case	MWE=junto_con|MWEPOS=ADP
+12	junto	junto	ADJ	sps00	ExtPos=ADP	15	case	15:case	MWE=junto_con|MWEPOS=ADP
 13	con	con	ADP	_	_	12	fixed	12:fixed	_
 14	otros	otro	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Ind	15	det	15:det	_
 15	miembros	miembro	NOUN	ncmp000	Gender=Masc|Number=Plur	11	obl	11:obl	ArgTem=argM:adv
@@ -1083,7 +1083,7 @@
 2	suyo	suyo	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	compound	1:compound	_
 3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	vivir	vivir	VERB	vmn0000	VerbForm=Inf	3	ccomp	3:ccomp	ArgTem=arg2:atr
-5	junto	junto	ADJ	sps00	_	8	case	8:case	MWE=junto_a|MWEPOS=ADP
+5	junto	junto	ADJ	sps00	ExtPos=ADP	8	case	8:case	MWE=junto_a|MWEPOS=ADP
 6	a	a	ADP	_	_	5	fixed	5:fixed	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	_
 8	gente	gente	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl	4:obl	ArgTem=argM:adv
@@ -4923,7 +4923,7 @@
 # sent_id = 3LB-CAST-dc3-4-s7
 # text = Junto a él han surgido otros no menos importantes.
 # orig_file_sentence 002#40
-1	Junto	junto	ADJ	sps00	_	3	case	3:case	MWE=Junto_a|MWEPOS=ADP
+1	Junto	junto	ADJ	sps00	ExtPos=ADP	3	case	3:case	MWE=Junto_a|MWEPOS=ADP
 2	a	a	ADP	_	_	1	fixed	1:fixed	_
 3	él	él	PRON	pp3ms000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	5:obl	ArgTem=argM:loc
 4	han	haber	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -21385,7 +21385,7 @@
 20	jornada	jornada	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obl	16:obl	ArgTem=argM:tmp
 21	de	de	ADP	sps00	_	22	case	22:case	_
 22	hoy	hoy	ADV	rg	_	20	advmod	20:advmod	Entity=NOCOREF:Gen)
-23	debido	debido	ADJ	sps00	_	26	case	26:case	MWE=debido_a|MWEPOS=ADP
+23	debido	debido	ADJ	sps00	ExtPos=ADP	26	case	26:case	MWE=debido_a|MWEPOS=ADP
 24	a	a	ADP	_	_	23	fixed	23:fixed	_
 25	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	26:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 26	celebraciones	celebración	NOUN	ncfp000	Gender=Fem|Number=Plur	16	obl	16:obl	ArgTem=argM:cau
@@ -21773,7 +21773,7 @@
 14	hasta	hasta	ADP	sps00	_	16	case	16:case	_
 15	nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	16	amod	16:amod	Entity=(NOCOREF:Gen--2-gstype:gen
 16	orden	orden	NOUN	ncfs000	Gender=Fem|Number=Sing	11	obl	11:obl	ArgTem=argM:tmp|Entity=NOCOREF:Gen)
-17	debido	debido	ADJ	spcms	Gender=Masc|Number=Sing	20	case	20:case	MWE=debido_al|MWEPOS=ADP
+17	debido	debido	ADJ	spcms	ExtPos=ADP|Gender=Masc|Number=Sing	20	case	20:case	MWE=debido_al|MWEPOS=ADP
 18-19	al	_	_	_	_	_	_	_	_
 18	a	a	ADP	_	_	17	fixed	17:fixed	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	_
@@ -23323,7 +23323,7 @@
 2	Laudrup	Laudrup	PROPN	_	_	1	flat	1:flat	Entity=CESSCASTAA200002108484c2)
 3	renunció	renunciar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
-5	junto	junto	ADJ	sps00	_	8	case	8:case	MWE=junto_a|MWEPOS=ADP
+5	junto	junto	ADJ	sps00	ExtPos=ADP	8	case	8:case	MWE=junto_a|MWEPOS=ADP
 6	a	a	ADP	_	_	5	fixed	5:fixed	_
 7	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTAA200002108484c2-person-1-CorefType:ident,gstype:spec)
 8	hermano	hermano	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	3:obl	ArgTem=argM:adv
@@ -49742,7 +49742,7 @@
 24	retrasos	retraso	NOUN	ncmp000	Gender=Masc|Number=Plur	23	obj	23:obj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen
 25	aéreos	aéreo	ADJ	aq0mp0	Gender=Masc|Number=Plur	24	amod	24:amod	SpaceAfter=No|ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 26	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
-27	junto	junto	ADJ	sps00	_	31	case	31:case	MWE=junto_a|MWEPOS=ADP
+27	junto	junto	ADJ	sps00	ExtPos=ADP	31	case	31:case	MWE=junto_a|MWEPOS=ADP
 28	a	a	ADP	_	_	27	fixed	27:fixed	_
 29	todos	todo	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Tot	30	det	30:det	Entity=(CESSCASTP20000301108_ac7--3-gstype:gen
 30	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	det	31:det	Entity=(CESSCASTP20000301108_ac5-person-1-CorefType:ident,gstype:spec)
@@ -51794,7 +51794,7 @@
 # sent_id = CESS-CAST-P-20000502-77-s3
 # text = Junto a estas líneas, un joven "autónomo" se pasea desnudo frente a la policía suiza de Zúrich, donde también se produjeron enfrentamientos.
 # orig_file_sentence 017#4
-1	Junto	junto	ADJ	sps00	_	4	case	4:case	MWE=Junto_a|MWEPOS=ADP
+1	Junto	junto	ADJ	sps00	ExtPos=ADP	4	case	4:case	MWE=Junto_a|MWEPOS=ADP
 2	a	a	ADP	_	_	1	fixed	1:fixed	_
 3	estas	este	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	4	det	4:det	Entity=(NOCOREF:Gen--2-gstype:gen
 4	líneas	línea	NOUN	ncfp000	Gender=Fem|Number=Plur	12	obl	12:obl	SpaceAfter=No|ArgTem=argM:loc|Entity=NOCOREF:Gen)
@@ -57787,7 +57787,7 @@
 29	de	de	ADP	sps00	_	30	case	30:case	_
 30	jugadores	jugador	NOUN	ncmp000	Gender=Masc|Number=Plur	27	nmod	27:nmod	SpaceAfter=No|ArgTem=arg1:pat
 31	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
-32	debido	debido	ADJ	spcms	Gender=Masc|Number=Sing	35	case	35:case	MWE=debido_al|MWEPOS=ADP
+32	debido	debido	ADJ	spcms	ExtPos=ADP|Gender=Masc|Number=Sing	35	case	35:case	MWE=debido_al|MWEPOS=ADP
 33-34	al	_	_	_	_	_	_	_	_
 33	a	a	ADP	_	_	32	fixed	32:fixed	_
 34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	35:det	_
@@ -60914,7 +60914,7 @@
 11	paraje	paraje	NOUN	ncms000	Gender=Masc|Number=Sing	4	obl	4:obl	ArgTem=arg2:loc
 12	agreste	agreste	ADJ	aq0cs0	Number=Sing	11	amod	11:amod	_
 13	situado	situado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	11	amod	11:amod	_
-14	junto	junto	ADJ	sps00	_	17	case	17:case	MWE=junto_a|MWEPOS=ADP
+14	junto	junto	ADJ	sps00	ExtPos=ADP	17	case	17:case	MWE=junto_a|MWEPOS=ADP
 15	a	a	ADP	_	_	14	fixed	14:fixed	_
 16	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	Entity=(CESSCASTP2002020265c2-place-2-gstype:spec
 17	carretera	carretera	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl	13:obl	ArgTem=arg2:loc
@@ -60942,7 +60942,7 @@
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCASTP2002020265c1-person-2-CorefType:ident,gstype:spec
 8	joven	joven	NOUN	nccs000	Number=Sing	5	nmod	5:nmod	ArgTem=arg3:ben|Entity=CESSCASTP2002020265c1)
 9	halladas	hallado	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	5	amod	5:amod	_
-10	junto	junto	ADJ	spcms	Gender=Masc|Number=Sing	13	case	13:case	MWE=junto_al|MWEPOS=ADP
+10	junto	junto	ADJ	spcms	ExtPos=ADP|Gender=Masc|Number=Sing	13	case	13:case	MWE=junto_al|MWEPOS=ADP
 11-12	al	_	_	_	_	_	_	_	_
 11	a	a	ADP	_	_	10	fixed	10:fixed	_
 12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	13:det	_
