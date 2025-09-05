@@ -10681,7 +10681,7 @@
 # sent_id = CESS-CAST-A-20000123-15801-s20
 # text = Ni siquiera este año, que las pistas han sido cambiadas y la velocidad se ha multiplicado vertiginosamente hasta convertirlas en cristal, como señaló Sampras, Philippoussis podrá llevarse el trofeo.
 # orig_file_sentence 005#32
-1	Ni	ni	CCONJ	rg	_	4	advmod	4:advmod	MWE=Ni_siquiera|MWEPOS=ADV
+1	Ni	ni	CCONJ	rg	ExtPos=ADV	4	advmod	4:advmod	MWE=Ni_siquiera|MWEPOS=ADV
 2	siquiera	siquiera	NOUN	_	_	1	fixed	1:fixed	_
 3	este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	4	det	4:det	Entity=(CESSCASTA2000012315801c18--2-gstype:gen
 4	año	año	NOUN	ncms000	Gender=Masc|Number=Sing	31	obl	31:obl	SpaceAfter=No|ArgTem=argM:tmp
@@ -22374,7 +22374,7 @@
 # sent_id = CESS-CAST-AA-20000114-8633-s16
 # text = Mientras tanto, los efectos de la crisis empiezan a extenderse fuera del país al descubrirse problemas derivados de este carburante contaminado en uno de los aviones de las Fuerzas Aéreas Reales de Australia que operaba en las tareas de mantenimiento de la paz en Timor Oriental.
 # orig_file_sentence 010#12
-1	Mientras	mientras	CCONJ	rg	_	9	advmod	9:advmod	MWE=Mientras_tanto|MWEPOS=ADV
+1	Mientras	mientras	CCONJ	rg	ExtPos=ADV	9	advmod	9:advmod	MWE=Mientras_tanto|MWEPOS=ADV
 2	tanto	tanto	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	5:det	Entity=(CESSCASTAA200001148633c21--2-CorefType:ident,gstype:gen,HomoDD
@@ -26467,7 +26467,7 @@
 38	querer	querer	AUX	vmn0000	VerbForm=Inf	39	aux	39:aux	_
 39	caer	caer	VERB	vmn0000	VerbForm=Inf	27	conj	27:conj	SpaceAfter=No|ArgTem=arg1:pat
 40	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
-41	ni	ni	CCONJ	rg	_	39	advmod	39:advmod	MWE=ni_muchísimo_menos|MWEPOS=ADV
+41	ni	ni	CCONJ	rg	ExtPos=ADV	39	advmod	39:advmod	MWE=ni_muchísimo_menos|MWEPOS=ADV
 42	muchísimo	muchísimo	ADV	_	_	41	fixed	41:fixed	_
 43	menos	menos	ADV	_	Degree=Cmp	41	fixed	41:fixed	SpaceAfter=No
 44	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
@@ -27488,7 +27488,7 @@
 11	próxima	próximo	ADJ	aq0fs0	Gender=Fem|Number=Sing	12	amod	12:amod	_
 12	semana	semana	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obl	7:obl	ArgTem=argM:tmp|Entity=NOCOREF:Gen)
 13	y	y	CCONJ	cc	_	16	cc	16:cc	_
-14	mientras	mientras	CCONJ	rg	_	16	advmod	16:advmod	MWE=mientras_tanto|MWEPOS=ADV|ArgTem=argM:tmp
+14	mientras	mientras	CCONJ	rg	ExtPos=ADV	16	advmod	16:advmod	MWE=mientras_tanto|MWEPOS=ADV|ArgTem=argM:tmp
 15	tanto	tanto	NOUN	_	_	14	fixed	14:fixed	_
 16	permanecerá	permanecer	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	conj	7:conj	_
 17	en	en	ADP	sps00	_	18	case	18:case	_
@@ -47850,7 +47850,7 @@
 1	Pues	pues	NOUN	rg	ExtPos=ADV	17	advmod	17:advmod	MWE=Pues_bien|MWEPOS=ADV
 2	bien	bien	ADV	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
-4	ni	ni	CCONJ	rg	_	6	advmod	6:advmod	MWE=ni_siquiera|MWEPOS=ADV|ArgTem=argM:adv
+4	ni	ni	CCONJ	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=ni_siquiera|MWEPOS=ADV|ArgTem=argM:adv
 5	siquiera	siquiera	NOUN	_	_	4	fixed	4:fixed	_
 6	ganando	ganar	VERB	vmg0000	VerbForm=Ger	17	advcl	17:advcl	_
 7	por	por	ADP	sps00	_	8	case	8:case	_

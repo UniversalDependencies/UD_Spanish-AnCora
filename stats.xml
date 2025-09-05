@@ -48,7 +48,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2783</feat><!-- más, menos, mayor, mejor, mayores, menor, mejores, peor, menores, peores -->
     <feat name="Degree" value="Sup" upos="ADJ">174</feat><!-- máximo, máxima, mínimo, máximos, mínimas, mínima, mínimos, pésimo, máximas, óptima -->
     <feat name="ExtPos" value="ADP" upos="ADJ,ADP">1667</feat><!-- a, en, por, junto, de, debido, con, sin -->
-    <feat name="ExtPos" value="ADV" upos="ADP,NOUN">1626</feat><!-- en, por, a, de, sin, sobre, tal, tan, desde, es -->
+    <feat name="ExtPos" value="ADV" upos="ADP,CCONJ,NOUN">1681</feat><!-- en, por, a, de, sin, sobre, ni, tal, tan, desde -->
     <feat name="ExtPos" value="SCONJ" upos="NOUN">157</feat><!-- pese, puesto, tal, dado, gracias, aun, cada, tan, desde, respecto -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,CCONJ,DET,NOUN,NUM,PROPN,X">82</feat><!-- les, le, de, Al, i, 1.000, A, Catalanes, Flors, Institució -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85420</feat><!-- la, las, una, esta, pesetas, política, esa, primera, personas, parte -->
