@@ -34,7 +34,7 @@
     <tag name="X">4</tag><!-- hi, ja, som, tanto -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="71">
+  <feats unique="72">
     <feat name="Abbr" value="Yes" upos="PROPN">1</feat><!-- Inc -->
     <feat name="Case" value="Acc" upos="PRON">8688</feat><!-- se, lo, la, me, nos, los, las, mí, sí, te -->
     <feat name="Case" value="Acc,Dat" upos="PRON">12</feat><!-- se, nos, me, te, Os -->
@@ -49,6 +49,7 @@
     <feat name="Degree" value="Sup" upos="ADJ">174</feat><!-- máximo, máxima, mínimo, máximos, mínimas, mínima, mínimos, pésimo, máximas, óptima -->
     <feat name="ExtPos" value="ADP" upos="ADJ,ADP">1667</feat><!-- a, en, por, junto, de, debido, con, sin -->
     <feat name="ExtPos" value="ADV" upos="ADP,CCONJ,NOUN">1681</feat><!-- en, por, a, de, sin, sobre, ni, tal, tan, desde -->
+    <feat name="ExtPos" value="CCONJ" upos="ADJ,ADP,ADV,CCONJ,NOUN,PART,PRON">339</feat><!-- así, sino, no, es, además, mientras, o, en, junto, esto -->
     <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART,SCONJ">801</feat><!-- ya, a, en, pese, con, puesto, tal, de, si, mientras -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,CCONJ,DET,NOUN,NUM,PROPN,X">82</feat><!-- les, le, de, Al, i, 1.000, A, Catalanes, Flors, Institució -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85420</feat><!-- la, las, una, esta, pesetas, política, esa, primera, personas, parte -->

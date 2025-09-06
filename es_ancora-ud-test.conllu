@@ -3389,7 +3389,7 @@
 47	orgánico	orgánico	ADJ	aq0ms0	Gender=Masc|Number=Sing	46	amod	46:amod	_
 48	-	-	PUNCT	fg	PunctType=Dash	43	punct	43:punct	SpaceAfter=No
 49	;	;	PUNCT	fx	PunctType=Semi	55	punct	55:punct	_
-50	es	es	NOUN	cc	_	55	cc	55:cc	MWE=es_decir|MWEPOS=CCONJ
+50	es	es	NOUN	cc	ExtPos=CCONJ	55	cc	55:cc	MWE=es_decir|MWEPOS=CCONJ
 51	decir	decir	NOUN	_	_	50	fixed	50:fixed	SpaceAfter=No
 52	,	,	PUNCT	fc	PunctType=Comm	50	punct	50:punct	_
 53	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	55	det	55:det	_
@@ -3900,7 +3900,7 @@
 54	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	55	expl:pass	55:expl:pass	_
 55	precisan	precisar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	51	acl	51:acl	SpaceAfter=No
 56	;	;	PUNCT	fx	PunctType=Semi	66	punct	66:punct	_
-57	sino	sino	CCONJ	cc	_	66	cc	66:cc	MWE=sino_que|MWEPOS=CCONJ
+57	sino	sino	CCONJ	cc	ExtPos=CCONJ	66	cc	66:cc	MWE=sino_que|MWEPOS=CCONJ
 58	que	que	SCONJ	_	_	57	fixed	57:fixed	_
 59	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	60:det	_
 60	información	información	NOUN	ncfs000	Gender=Fem|Number=Sing	66	nsubj	66:nsubj	ArgTem=arg1:tem
@@ -5943,7 +5943,7 @@
 19	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
 20	sólo	sólo	ADV	rg	_	21	advmod	21:advmod	_
 21	suya	suyo	PRON	px3fs000	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	advcl	5:advcl	ArgTem=arg2:atr
-22	sino	sino	CCONJ	cc	_	25	cc	25:cc	MWE=sino_que|MWEPOS=CCONJ
+22	sino	sino	CCONJ	cc	ExtPos=CCONJ	25	cc	25:cc	MWE=sino_que|MWEPOS=CCONJ
 23	que	que	SCONJ	_	_	22	fixed	22:fixed	_
 24	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	25:aux	_
 25	compartida	compartir	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	conj	21:conj	_
@@ -6002,7 +6002,7 @@
 37	economía	economía	NOUN	ncfs000	Gender=Fem|Number=Sing	34	nmod	34:nmod	ArgTem=arg1:tem
 38	-	-	PUNCT	fg	PunctType=Dash	34	punct	34:punct	SpaceAfter=No
 39	,	,	PUNCT	fc	PunctType=Comm	44	punct	44:punct	_
-40	así	así	ADV	cs	_	44	cc	44:cc	MWE=así_como|MWEPOS=SCONJ
+40	así	así	ADV	cs	ExtPos=CCONJ	44	cc	44:cc	MWE=así_como|MWEPOS=SCONJ
 41	como	como	SCONJ	_	_	40	fixed	40:fixed	_
 42	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	44:det	_
 43	-	-	PUNCT	fg	PunctType=Dash	44	punct	44:punct	_
@@ -12911,7 +12911,7 @@
 27	ambas	ambos	NUM	dn0fp0	Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	28	nummod	28:nummod	Entity=(CESSCASTA2000031713928c1_PLUS_CESSCASTA2000031713928c5-other-2-CorefType:ident,gstype:spec|SplitAnte=CESSCASTA2000031713928c1<CESSCASTA2000031713928c1_PLUS_CESSCASTA2000031713928c5,CESSCASTA2000031713928c5<CESSCASTA2000031713928c1_PLUS_CESSCASTA2000031713928c5
 28	firmas	firma	NOUN	ncfp000	Gender=Fem|Number=Plur	24	nmod	24:nmod	SpaceAfter=No|ArgTem=arg0:agt|Entity=CESSCASTA2000031713928c1_PLUS_CESSCASTA2000031713928c5)
 29	,	,	PUNCT	fc	PunctType=Comm	33	punct	33:punct	Entity=NOCOREF:Gen)
-30	además	además	ADV	cc	_	33	cc	33:cc	MWE=además_de|MWEPOS=CCONJ
+30	además	además	ADV	cc	ExtPos=CCONJ	33	cc	33:cc	MWE=además_de|MWEPOS=CCONJ
 31	de	de	ADP	_	_	30	fixed	30:fixed	_
 32	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	33:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 33	aprobación	aprobación	NOUN	ncfs000	Gender=Fem|Number=Sing	22	conj	22:conj	_
@@ -14232,7 +14232,7 @@
 38	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	39:det	Entity=(CESSCASTA2000041512000c18--2-CorefType:ident,gstype:gen
 39	emisora	emisora	NOUN	ncfs000	Gender=Fem|Number=Sing	36	obj	36:obj	SpaceAfter=No|ArgTem=arg1:pat|Entity=CESSCASTA2000041512000c18)
 40	,	,	PUNCT	fc	PunctType=Comm	46	punct	46:punct	_
-41	sino	sino	CCONJ	cc	_	46	cc	46:cc	MWE=sino_que|MWEPOS=CCONJ
+41	sino	sino	CCONJ	cc	ExtPos=CCONJ	46	cc	46:cc	MWE=sino_que|MWEPOS=CCONJ
 42	que	que	SCONJ	_	_	41	fixed	41:fixed	_
 43	ésta	este	PRON	pd0fs000	Gender=Fem|Number=Sing|PronType=Dem	46	nsubj	46:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTA2000041512000c18--1-CorefType:ident,gstype:gen)
 44	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux	46:aux	_
@@ -15468,7 +15468,7 @@
 70	ni	ni	CCONJ	cc	_	71	cc	71:cc	_
 71	malo	malo	ADJ	aq0ms0	Gender=Masc|Number=Sing	69	conj	69:conj	SpaceAfter=No
 72	,	,	PUNCT	fc	PunctType=Comm	75	punct	75:punct	_
-73	sino	sino	CCONJ	cc	_	75	cc	75:cc	MWE=sino_que|MWEPOS=CCONJ
+73	sino	sino	CCONJ	cc	ExtPos=CCONJ	75	cc	75:cc	MWE=sino_que|MWEPOS=CCONJ
 74	que	que	SCONJ	_	_	73	fixed	73:fixed	_
 75	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	conj	65:conj	_
 76	que	que	SCONJ	cs	_	77	mark	77:mark	_
@@ -15561,7 +15561,7 @@
 70	en	en	ADP	sps00	_	71	case	71:case	_
 71	Atenas	Atenas	PROPN	np0000l	_	68	obl	68:obl	SpaceAfter=No|ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)
 72	,	,	PUNCT	fc	PunctType=Comm	79	punct	79:punct	_
-73	mientras	mientras	CCONJ	cc	_	79	cc	79:cc	MWE=mientras_que|MWEPOS=CCONJ
+73	mientras	mientras	CCONJ	cc	ExtPos=CCONJ	79	cc	79:cc	MWE=mientras_que|MWEPOS=CCONJ
 74	que	que	SCONJ	_	_	73	fixed	73:fixed	_
 75	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	79	nsubj	79:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen
 76	de	de	ADP	sps00	_	77	case	77:case	_
@@ -15652,7 +15652,7 @@
 1	"	"	PUNCT	fe	PunctType=Quot	2	punct	2:punct	SpaceAfter=No
 2	Ahora	ahora	ADV	rg	_	28	obj	28:obj	SpaceAfter=No|ArgTem=argM:tmp
 3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
-4	más	más	ADV	cc	Degree=Cmp	6	cc	6:cc	MWE=más_que|MWEPOS=CCONJ
+4	más	más	ADV	cc	Degree=Cmp|ExtPos=CCONJ	6	cc	6:cc	MWE=más_que|MWEPOS=CCONJ
 5	que	que	SCONJ	_	_	4	fixed	4:fixed	_
 6-7	desanimarse	_	_	_	_	_	_	_	_
 6	desanimar	desanimar	VERB	vmn0000	VerbForm=Inf	2	conj	2:conj	ArgTem=arg1:pat
@@ -17297,7 +17297,7 @@
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCASTA2000101310568c16--2-CorefType:ident,gstype:gen
 9	convenio	convenio	NOUN	ncms000	Gender=Masc|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg1:tem|Entity=CESSCASTA2000101310568c16)
 10	servirá	servir	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	ccomp	6:ccomp	ArgTem=arg1:pat
-11	no	no	PART	rg	_	14	cc	14:cc	MWE=no_sólo|MWEPOS=ADV
+11	no	no	PART	rg	ExtPos=CCONJ	14	cc	14:cc	MWE=no_sólo|MWEPOS=ADV
 12	sólo	sólo	ADV	_	_	11	fixed	11:fixed	_
 13	para	para	ADP	sps00	_	14	mark	14:mark	_
 14	buscar	buscar	VERB	vmn0000	VerbForm=Inf	10	conj	10:conj	ArgTem=arg3:fin
@@ -17327,7 +17327,7 @@
 38	OPEP	OPEP	PROPN	np0000o	_	31	flat	31:flat	SpaceAfter=No
 39	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	38	punct	38:punct	SpaceAfter=No|Entity=CESSCASTA2000101310568c17)CESSCASTA2000101310568c17)NOCOREF:Gen)
 40	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	Entity=CESSCASTA2000101310568c14)CESSCASTA2000101310568c14)NOCOREF:Gen)
-41	sino	sino	CCONJ	cc	_	44	cc	44:cc	MWE=sino_que|MWEPOS=CCONJ
+41	sino	sino	CCONJ	cc	ExtPos=CCONJ	44	cc	44:cc	MWE=sino_que|MWEPOS=CCONJ
 42	que	que	SCONJ	_	_	41	fixed	41:fixed	_
 43	también	también	ADV	rg	_	44	advmod	44:advmod	_
 43.1	_	_	PRON	p	_	_	_	44:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000101310568c16--1-CorefType:ident,gstype:gen)
@@ -19202,7 +19202,7 @@
 5	Monarquía	Monarquía	PROPN	np0000a	_	12	nsubj	12:nsubj	MWE=Monarquía_Parlamentaria|MWEPOS=PROPN|ArgTem=arg1:tem
 6	Parlamentaria	Parlamentaria	PROPN	_	_	5	flat	5:flat	Entity=CESSCASTA2000112217124c17)
 7	"	"	PUNCT	fe	PunctType=Quot	12	punct	12:punct	SpaceAfter=No
-8	no	no	PART	cc	_	12	cc	12:cc	MWE=no_solamente|MWEPOS=CCONJ
+8	no	no	PART	cc	ExtPos=CCONJ	12	cc	12:cc	MWE=no_solamente|MWEPOS=CCONJ
 9	solamente	solamente	ADV	_	_	8	fixed	8:fixed	_
 10	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 11	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	_
@@ -19212,7 +19212,7 @@
 15	España	España	PROPN	np0000o	_	12	nmod	12:nmod	ArgTem=arg1:pat
 16	moderna	moderno	ADJ	aq0fs0	Gender=Fem|Number=Sing	15	amod	15:amod	SpaceAfter=No|Entity=CESSCASTA2000112217124c13)
 17	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
-18	sino	sino	CCONJ	cc	_	22	cc	22:cc	MWE=sino_que|MWEPOS=CCONJ
+18	sino	sino	CCONJ	cc	ExtPos=CCONJ	22	cc	22:cc	MWE=sino_que|MWEPOS=CCONJ
 19	que	que	SCONJ	_	_	18	fixed	18:fixed	_
 20	además	además	ADV	rg	_	22	advmod	22:advmod	_
 20.1	_	_	PRON	p	_	_	_	21:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000112217124c17-organization-1-CorefType:ident,gstype:spec)
@@ -19290,7 +19290,7 @@
 3	nuestro	nuestro	DET	dp1msp	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	4:det	Entity=(CESSCASTA2000112217124c8-place-2-CorefType:ident,gstype:spec(NOCOREF:Gen--1-gstype:gen)
 4	país	país	NOUN	ncms000	Gender=Masc|Number=Sing	9	nsubj	9:nsubj	ArgTem=arg0:cau|Entity=CESSCASTA2000112217124c8)
 5	"	"	PUNCT	fe	PunctType=Quot	4	punct	4:punct	SpaceAfter=No
-6	no	no	PART	rg	_	9	cc	9:cc	MWE=no_solamente|MWEPOS=ADV
+6	no	no	PART	rg	ExtPos=CCONJ	9	cc	9:cc	MWE=no_solamente|MWEPOS=ADV
 7	solamente	solamente	NOUN	_	_	6	fixed	6:fixed	_
 8	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 9	normalizado	normalizar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	1:ccomp	ArgTem=arg1:pat
@@ -19298,7 +19298,7 @@
 11	presencia	presencia	NOUN	ncfs000	Gender=Fem|Number=Sing	9	obj	9:obj	ArgTem=arg1:tem
 12	internacional	internacional	ADJ	aq0cs0	Number=Sing	11	amod	11:amod	SpaceAfter=No|Entity=NOCOREF:Gen)
 13	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
-14	sino	sino	CCONJ	cc	_	17	cc	17:cc	MWE=sino_que|MWEPOS=CCONJ
+14	sino	sino	CCONJ	cc	ExtPos=CCONJ	17	cc	17:cc	MWE=sino_que|MWEPOS=CCONJ
 15	que	que	SCONJ	_	_	14	fixed	14:fixed	_
 16	además	además	ADV	rg	_	17	advmod	17:advmod	_
 16.1	_	_	PRON	p	_	_	_	17:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000112217124c8-place-1-CorefType:ident,gstype:spec)
@@ -23073,7 +23073,7 @@
 17	economía	economía	NOUN	ncfs000	Gender=Fem|Number=Sing	14	nmod	14:nmod	ArgTem=arg0:agt
 18	estadounidense	estadounidense	ADJ	aq0cs0	Number=Sing	17	amod	17:amod	SpaceAfter=No|Entity=CESSCASTAA200002043836c29)NOCOREF:Gen)
 19	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	Entity=NOCOREF:Gen)
-20	así	así	ADV	cc	_	24	cc	24:cc	MWE=así_como|MWEPOS=CCONJ
+20	así	así	ADV	cc	ExtPos=CCONJ	24	cc	24:cc	MWE=así_como|MWEPOS=CCONJ
 21	como	como	SCONJ	_	_	20	fixed	20:fixed	_
 22	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	24:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 23	buen	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	24	amod	24:amod	_
@@ -24317,7 +24317,7 @@
 20	de	de	ADP	sps00	_	21	case	21:case	_
 21	juego	juego	NOUN	ncms000	Gender=Masc|Number=Sing	19	nmod	19:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)
 22	,	,	PUNCT	fc	PunctType=Comm	46	punct	46:punct	_
-23	mientras	mientras	CCONJ	cc	_	46	cc	46:cc	MWE=mientras_que|MWEPOS=CCONJ
+23	mientras	mientras	CCONJ	cc	ExtPos=CCONJ	46	cc	46:cc	MWE=mientras_que|MWEPOS=CCONJ
 24	que	que	SCONJ	_	_	23	fixed	23:fixed	_
 25	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	Entity=(CESSCASTAA2000022420351c8-organization-2-CorefType:ident,gstype:spec
 26	rival	rival	NOUN	nccs000	Number=Sing	46	nsubj	46:nsubj	SpaceAfter=No|ArgTem=arg0:cau|Entity=CESSCASTAA2000022420351c8)
@@ -24487,7 +24487,7 @@
 52	Rodrigo	Rodrigo	PROPN	np00000	_	45	conj	45:conj	MWE=Rodrigo_Tello|MWEPOS=PROPN
 53	Tello	Tello	PROPN	_	_	52	flat	52:flat	SpaceAfter=No|Entity=CESSCASTAA2000022420351c21)NOCOREF:Gen)
 54	,	,	PUNCT	fc	PunctType=Comm	60	punct	60:punct	_
-55	mientras	mientras	CCONJ	cc	_	60	cc	60:cc	MWE=mientras_que|MWEPOS=CCONJ
+55	mientras	mientras	CCONJ	cc	ExtPos=CCONJ	60	cc	60:cc	MWE=mientras_que|MWEPOS=CCONJ
 56	que	que	SCONJ	_	_	55	fixed	55:fixed	_
 57	Nacional	Nacional	PROPN	np00000	_	60	nsubj	60:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000022420351c3-organization-1-CorefType:ident,gstype:spec)
 58	nunca	nunca	ADV	rg	_	60	advmod	60:advmod	ArgTem=argM:tmp
@@ -24980,7 +24980,7 @@
 24	y	y	CCONJ	cc	_	25	cc	25:cc	_
 25	Tino	Tino	PROPN	np00000	_	19	conj	19:conj	MWE=Tino_Martínez|MWEPOS=PROPN
 26	Martínez	Martínez	PROPN	_	_	25	flat	25:flat	Entity=NOCOREF:Gen)
-27	en	en	ADP	sps00	_	30	cc	30:cc	MWE=en_vez_de|MWEPOS=ADP
+27	en	en	ADP	sps00	ExtPos=CCONJ	30	cc	30:cc	MWE=en_vez_de|MWEPOS=ADP
 28	vez	vez	NOUN	_	_	27	fixed	27:fixed	_
 29	de	de	ADP	_	_	27	fixed	27:fixed	_
 30-31	darle	_	_	_	_	_	_	_	_
@@ -32310,7 +32310,7 @@
 46	a	a	ADP	spcms	_	48	case	48:case	_
 47	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	48:det	_
 48	otro	otro	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	45	obj	45:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen)
-49	sino	sino	CCONJ	cc	_	52	cc	52:cc	MWE=sino_que|MWEPOS=CCONJ
+49	sino	sino	CCONJ	cc	ExtPos=CCONJ	52	cc	52:cc	MWE=sino_que|MWEPOS=CCONJ
 50	que	que	SCONJ	_	_	49	fixed	49:fixed	_
 50.1	_	_	PRON	p	_	_	_	52:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTAA200008106823c2_PLUS_CESSCASTAA200008106823c8--1-CorefType:ident,gstype:gen)|SplitAnte=CESSCASTAA200008106823c2<CESSCASTAA200008106823c2_PLUS_CESSCASTAA200008106823c8,CESSCASTAA200008106823c8<CESSCASTAA200008106823c2_PLUS_CESSCASTAA200008106823c8
 51	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	52	obj	52:obj	_
@@ -34867,7 +34867,7 @@
 8	pistas	pista	NOUN	ncfp000	Gender=Fem|Number=Plur	5	nmod	5:nmod	ArgTem=arg1:tem|Entity=NOCOREF:Gen)NOCOREF:Gen)
 9	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	ArgTem=arg1:pat
 10	"	"	PUNCT	fe	PunctType=Quot	13	punct	13:punct	SpaceAfter=No
-11	no	no	PART	rn	_	13	cc	13:cc	MWE=no_sólo|MWEPOS=ADV
+11	no	no	PART	rn	ExtPos=CCONJ	13	cc	13:cc	MWE=no_sólo|MWEPOS=ADV
 12	sólo	sólo	ADV	_	Polarity=Neg	11	fixed	11:fixed	_
 13	importante	importante	ADJ	aq0cs0	Number=Sing	2	ccomp	2:ccomp	SpaceAfter=No|ArgTem=arg2:atr
 14	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
@@ -34951,7 +34951,7 @@
 3	juicio	juicio	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No|Entity=NOCOREF:Gen)
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 5	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	SpaceAfter=No
-6	no	no	PART	rg	_	9	cc	9:cc	MWE=no_sólo|MWEPOS=ADV
+6	no	no	PART	rg	ExtPos=CCONJ	9	cc	9:cc	MWE=no_sólo|MWEPOS=ADV
 7	sólo	sólo	ADV	_	_	6	fixed	6:fixed	_
 8	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 9	cuestión	cuestión	NOUN	ncfs000	Gender=Fem|Number=Sing	3	conj	3:conj	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen
@@ -37660,7 +37660,7 @@
 27	ópticas	óptica	NOUN	ncfp000	Gender=Fem|Number=Plur	25	conj	25:conj	_
 28	restrictivas	restrictivo	ADJ	aq0fp0	Gender=Fem|Number=Plur	27	amod	27:amod	SpaceAfter=No|Entity=NOCOREF:Gen)
 29	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
-30	así	así	ADV	cc	_	32	cc	32:cc	MWE=así_como|MWEPOS=CCONJ
+30	así	así	ADV	cc	ExtPos=CCONJ	32	cc	32:cc	MWE=así_como|MWEPOS=CCONJ
 31	como	como	SCONJ	_	_	30	fixed	30:fixed	_
 32	ganar	ganar	VERB	vmn0000	VerbForm=Inf	25	conj	25:conj	_
 33	en	en	ADP	sps00	_	34	case	34:case	_
@@ -47514,7 +47514,7 @@
 14	misas	misa	NOUN	ncfp000	Gender=Fem|Number=Plur	6	appos	6:appos	Entity=(NOCOREF:Gen--1-gstype:gen
 15	negras	negro	ADJ	aq0fp0	Gender=Fem|Number=Plur	14	amod	14:amod	SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	Entity=NOCOREF:Gen)
-17	además	además	ADV	cc	_	19	cc	19:cc	MWE=además_de|MWEPOS=CCONJ
+17	además	además	ADV	cc	ExtPos=CCONJ	19	cc	19:cc	MWE=además_de|MWEPOS=CCONJ
 18	de	de	ADP	_	_	17	fixed	17:fixed	_
 19	contactos	contacto	NOUN	ncmp000	Gender=Masc|Number=Plur	6	conj	6:conj	Entity=(NOCOREF:Gen--1-gstype:gen
 20	con	con	ADP	sps00	_	21	case	21:case	_
@@ -51351,7 +51351,7 @@
 2	eventual	eventual	ADJ	aq0cs0	Number=Sing	3	amod	3:amod	_
 3	Estado	Estado	PROPN	np00000	_	19	nsubj	19:nsubj	SpaceAfter=No|ArgTem=arg1:pat
 4	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	Entity=CESSCASTP2000050123c19)
-5	así	así	ADV	cc	_	8	cc	8:cc	MWE=así_como|MWEPOS=CCONJ
+5	así	así	ADV	cc	ExtPos=CCONJ	8	cc	8:cc	MWE=así_como|MWEPOS=CCONJ
 6	como	como	SCONJ	_	_	5	fixed	5:fixed	_
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 8	tema	tema	NOUN	ncms000	Gender=Masc|Number=Sing	3	conj	3:conj	_
@@ -55082,7 +55082,7 @@
 17	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	18:det	Entity=(CESSCASTP2000100221c2-person-2-CorefType:ident,gstype:spec(CESSCASTP2000100221c1-person-1-CorefType:ident,gstype:spec)
 18	presidente	presidente	NOUN	ncms000	Gender=Masc|Number=Sing	14	nsubj	14:nsubj	SpaceAfter=No|ArgTem=arg0:agt|Entity=CESSCASTP2000100221c2)
 19	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	Entity=NOCOREF:Gen)
-20	es	es	NOUN	cc	_	29	cc	29:cc	MWE=es_decir|MWEPOS=CCONJ
+20	es	es	NOUN	cc	ExtPos=CCONJ	29	cc	29:cc	MWE=es_decir|MWEPOS=CCONJ
 21	decir	decir	NOUN	_	_	20	fixed	20:fixed	SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
 23	que	que	SCONJ	cs	_	29	mark	29:mark	_
@@ -60408,7 +60408,7 @@
 3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	Entity=(CESSCASTP2002010334c2-other-2-CorefType:ident,gstype:spec
 4	historia	historia	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2002010334c2)
 5	rompe	romper	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-6	no	no	PART	cc	_	10	cc	10:cc	MWE=no_sólo|MWEPOS=CCONJ
+6	no	no	PART	cc	ExtPos=CCONJ	10	cc	10:cc	MWE=no_sólo|MWEPOS=CCONJ
 7	sólo	sólo	ADV	_	_	6	fixed	6:fixed	_
 8	con	con	ADP	sps00	_	10	case	10:case	_
 9	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
