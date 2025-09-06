@@ -51397,7 +51397,7 @@
 19	anterior	anterior	ADJ	aq0cs0	Number=Sing	22	amod	22:amod	_
 20	y	y	CCONJ	cc	_	21	cc	21:cc	_
 21	magnífica	magnífico	ADJ	aq0fs0	Gender=Fem|Number=Sing	19	conj	19:conj	_
-22	película	película	NOUN	ncfs000	Gender=Fem|Number=Sing	14	appos	14:appos	_
+22	película	película	NOUN	ncfs000	Gender=Fem|Number=Sing	15	appos	15:appos	_
 23-24	del	_	_	_	_	_	_	_	_
 23	de	de	ADP	spcms	_	25	case	25:case	_
 24	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	_
@@ -56301,7 +56301,7 @@
 19	Mentiras	Mentiras	PROPN	_	_	16	nmod	16:nmod	SpaceAfter=No
 20	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	Entity=(CESSCASTP20010202157_bc5-other-3-CorefType:pred.indefinit,gstype:spec
 21	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	_
-22	proyecto	proyecto	NOUN	ncms000	Gender=Masc|Number=Sing	18	appos	18:appos	_
+22	proyecto	proyecto	NOUN	ncms000	Gender=Masc|Number=Sing	19	appos	19:appos	_
 23	que	que	PRON	pr0cn000	PronType=Rel	25	nsubj	25:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20010202157_bc5-other-1-CorefType:ident,gstype:spec)
 24	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	25	obl:arg	25:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTP20010202157_bc6-person-1-CorefType:ident,gstype:spec)
 25	sirve	servir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	22:acl	_

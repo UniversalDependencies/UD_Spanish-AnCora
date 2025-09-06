@@ -115,7 +115,7 @@
     <dep name="advcl">8976</dep>
     <dep name="advmod">19261</dep>
     <dep name="amod">29479</dep>
-    <dep name="appos">7517</dep>
+    <dep name="appos">7516</dep>
     <dep name="aux">7260</dep>
     <dep name="aux:pass">15</dep>
     <dep name="case">76714</dep>
@@ -144,7 +144,7 @@
     <dep name="nsubj:pass">61</dep>
     <dep name="nummod">6005</dep>
     <dep name="obj">24693</dep>
-    <dep name="obl">23992</dep>
+    <dep name="obl">23993</dep>
     <dep name="obl:agent">1283</dep>
     <dep name="obl:arg">7664</dep>
     <dep name="orphan">1</dep>
