@@ -31345,9 +31345,9 @@
 16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	_
 17	país	país	NOUN	ncms000	Gender=Masc|Number=Sing	12	nmod	12:nmod	SpaceAfter=No|Entity=(CESSCASTAA2000103024215c3-place-1-CorefType:ident,gstype:spec)
 18	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	Entity=(CESSCASTAA2000103024215c2-place-2-CorefType:pred.definit,gstype:spec
-19	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	_
+19	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	appos	12:appos	_
 20	de	de	ADP	sps00	_	19	case	19:case	_
-21	Antioquia	Antioquia	PROPN	np00000	_	19	appos	19:appos	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)|SpaceAfter=No
+21	Antioquia	Antioquia	PROPN	np00000	_	19	nmod	19:nmod	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	Entity=CESSCASTAA2000103024215c2)
 23	que	que	PRON	pr0cn000	PronType=Rel	24	nsubj	24:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000103024215c2-place-1-CorefType:ident,gstype:spec)
 24	aportó	aportar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl	12:acl	_

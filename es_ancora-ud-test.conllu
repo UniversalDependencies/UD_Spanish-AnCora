@@ -1037,10 +1037,10 @@
 1	Lo	él	PRON	px3ns000	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	12	nsubj	12:nsubj	MWE=Lo_suyo|MWEPOS=PRON|ArgTem=arg1:tem
 2	suyo	suyo	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	compound	1:compound	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
-4	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	1	det	1:det	_
+4	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	1	appos	1:appos	_
 5	de	de	ADP	sps00	_	4	case	4:case	_
 6	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	7:det	_
-7	ratas	rata	NOUN	ncfp000	Gender=Fem|Number=Plur	4	appos	4:appos	SpaceAfter=No
+7	ratas	rata	NOUN	ncfp000	Gender=Fem|Number=Plur	4	nmod	4:nmod	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 9	no	no	ADV	rn	Polarity=Neg	12	advmod	12:advmod	_
 10	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
@@ -8347,10 +8347,10 @@
 107	nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	108	amod	108:amod	_
 108	vejación	vejación	NOUN	ncfs000	Gender=Fem|Number=Sing	105	obj	105:obj	SpaceAfter=No|ArgTem=arg1:pat
 109	,	,	PUNCT	fc	PunctType=Comm	110	punct	110:punct	_
-110	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	108	det	108:det	_
+110	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	108	appos	108:appos	_
 111	de	de	ADP	sps00	_	110	case	110:case	_
 112	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	113	det	113:det	_
-113	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	110	appos	110:appos	SpaceAfter=No
+113	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	110	nmod	110:nmod	SpaceAfter=No
 114	,	,	PUNCT	fc	PunctType=Comm	110	punct	110:punct	_
 115	a	a	ADP	sps00	_	117	case	117:case	_
 116	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	117	det	117:det	_
@@ -16085,10 +16085,10 @@
 16	de	de	ADP	_	_	17	case	17:case	_
 17	Waco	Waco	PROPN	_	_	15	flat	15:flat	SpaceAfter=No
 18	"	"	PUNCT	fe	PunctType=Quot	15	punct	15:punct	Entity=CESSCASTA2000092015595c3)
-19	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	Entity=(NOCOREF:Gen--1-gstype:gen
+19	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	appos	15:appos	Entity=(NOCOREF:Gen--1-gstype:gen
 20	de	de	ADP	sps00	_	19	case	19:case	_
 21	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	Entity=(NOCOREF:Gen--2-gstype:gen
-22	sostenida	sostenido	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	19	appos	19:appos	Entity=NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
+22	sostenida	sostenido	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	19	nmod	19:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
 23	.	.	PUNCT	fp	PunctType=Peri	7	punct	7:punct	_
 
 # sent_id = CESS-CAST-A-20000920-15595-s5
@@ -31873,9 +31873,9 @@
 2	mejor	mejor	ADJ	aq0cs0	Degree=Cmp|Number=Sing	3	amod	3:amod	_
 3	entrevista	entrevista	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No
 4	:	:	PUNCT	fd	PunctType=Colo	5	punct	5:punct	_
-5	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	_
+5	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	appos	3:appos	_
 6	de	de	ADP	sps00	_	5	case	5:case	_
-7	Pete	Pete	PROPN	np00000	_	5	appos	5:appos	MWE=Pete_Sampras|MWEPOS=PROPN|Entity=(CESSCASTAA200007106482c21--1-CorefType:ident
+7	Pete	Pete	PROPN	np00000	_	5	nmod	5:nmod	MWE=Pete_Sampras|MWEPOS=PROPN|Entity=(CESSCASTAA200007106482c21--1-CorefType:ident
 8	Sampras	Sampras	PROPN	_	_	7	flat	7:flat	Entity=CESSCASTAA200007106482c21)
 9	para	para	ADP	sps00	_	10	mark	10:mark	_
 10	explicar	explicar	VERB	vmn0000	VerbForm=Inf	5	acl	5:acl	_
@@ -31949,10 +31949,10 @@
 2	mejores	mejor	ADJ	aq0cp0	Degree=Cmp|Number=Plur	3	amod	3:amod	_
 3	seguidores	seguidor	NOUN	ncmp000	Gender=Masc|Number=Plur	0	root	0:root	SpaceAfter=No
 4	:	:	PUNCT	fd	PunctType=Colo	5	punct	5:punct	_
-5	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	3:det	_
+5	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	appos	3:appos	_
 6	de	de	ADP	sps00	_	5	case	5:case	_
 7	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-8	partidos	partido	NOUN	ncmp000	Gender=Masc|Number=Plur	5	appos	5:appos	_
+8	partidos	partido	NOUN	ncmp000	Gender=Masc|Number=Plur	5	nmod	5:nmod	_
 9	de	de	ADP	sps00	_	10	case	10:case	_
 10	dobles	doble	NOUN	ncmp000	Gender=Masc|Number=Plur	8	nmod	8:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)CESSCASTAA200007106482c24)
 11	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
