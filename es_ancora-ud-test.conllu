@@ -24967,9 +24967,9 @@
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	_
 12	bateador	bateador	NOUN	ncms000	Gender=Masc|Number=Sing	9	nmod	9:nmod	Entity=(CESSCASTAA2000022521729c12--1-gstype:gen
 13	designado	designado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	12	amod	12:amod	Entity=CESSCASTAA2000022521729c12)NOCOREF:Gen)
-14	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(NOCOREF:Gen--1-gstype:gen
-15	de	de	ADP	sps00	_	14	mark	14:mark	_
-16	usar	usar	VERB	vmn0000	VerbForm=Inf	14	xcomp	14:xcomp	ArgTem=arg1:pat
+14	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	obj	2:obj	Entity=(NOCOREF:Gen--1-gstype:gen
+15	de	de	ADP	sps00	_	16	mark	16:mark	_
+16	usar	usar	VERB	vmn0000	VerbForm=Inf	14	acl	14:acl	ArgTem=arg1:pat
 17	jugadores	jugador	NOUN	ncmp000	Gender=Masc|Number=Plur	16	obj	16:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen
 18	como	como	SCONJ	cs	_	19	mark	19:mark	_
 19	Bernie	Bernie	PROPN	np00000	_	17	nmod	17:nmod	MWE=Bernie_Williams|MWEPOS=PROPN
