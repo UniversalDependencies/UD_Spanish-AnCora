@@ -448,7 +448,7 @@
 34	"	"	PUNCT	fe	PunctType=Quot	33	punct	33:punct	_
 35	de	de	ADP	sps00	_	38	case	38:case	_
 36	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	38	det	38:det	_
-37	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	36	nummod	36:nummod	_
+37	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	38	nummod	36:nummod	_
 38	miembros	miembro	NOUN	ncmp000	Gender=Masc|Number=Plur	33	nmod	33:nmod	SpaceAfter=No|ArgTem=arg2:ben
 39	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
 40	que	que	PRON	pr0cn000	PronType=Rel	41	nsubj	41:nsubj	ArgTem=arg0:cau
@@ -510,7 +510,7 @@
 29	y	y	CCONJ	cc	_	37	cc	37:cc	_
 30	a	a	ADP	sps00	_	33	case	33:case	_
 31	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	det	33:det	_
-32	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	31	nummod	31:nummod	_
+32	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	33	nummod	31:nummod	_
 33	miembros	miembro	NOUN	ncmp000	Gender=Masc|Number=Plur	37	obl:arg	37:obl:arg	ArgTem=arg2:ben
 34	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	37	expl:pass	37:expl:pass	_
 35	les	él	PRON	pp3cpd00	Case=Dat|Number=Plur|Person=3|PronType=Prs	37	expl	37:expl	ArgTem=arg2:ben
@@ -826,7 +826,7 @@
 3	favorece	favorecer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	a	a	ADP	sps00	_	7	case	7:case	_
 5	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	7:det	_
-6	catorce	catorce	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	5	nummod	5:nummod	_
+6	catorce	catorce	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	7	nummod	5:nummod	_
 7	coroneles	coronel	NOUN	ncmp000	Gender=Masc|Number=Plur	3	obj	3:obj	ArgTem=arg1:pat
 8	detenidos	detenido	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	7	amod	7:amod	_
 9	y	y	CCONJ	cc	_	17	cc	17:cc	_
@@ -1894,7 +1894,7 @@
 12	descubrimos	descubrir	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 13	que	que	SCONJ	cs	_	18	mark	18:mark	_
 14	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	16:det	_
-15	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	14	nummod	14:nummod	_
+15	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	16	nummod	14:nummod	_
 16	reyes	rey	NOUN	ncmp000	Gender=Masc|Number=Plur	18	nsubj	18:nsubj	ArgTem=arg1:tem
 17	eran	ser	AUX	vsii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	cop	18:cop	ArgTem=arg1:pat
 18	blancos	blanco	ADJ	aq0mp0	Gender=Masc|Number=Plur	12	ccomp	12:ccomp	ArgTem=arg2:atr
@@ -3440,7 +3440,7 @@
 # text = Esas dos evidencias resumen las distancias máximas entre uno y otro equipo.
 # orig_file_sentence 001#93
 1	Esas	ese	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	3	det	3:det	_
-2	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	1	nummod	1:nummod	_
+2	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	3	nummod	1:nummod	_
 3	evidencias	evidencia	NOUN	ncfp000	Gender=Fem|Number=Plur	4	nsubj	4:nsubj	ArgTem=arg0:agt
 4	resumen	resumir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	6:det	_
@@ -9384,7 +9384,7 @@
 17	final	final	NOUN	ncfs000	Gender=Fem|Number=Sing	14	obl:arg	14:obl:arg	ArgTem=arg1:tem
 18	entre	entre	ADP	sps00	_	21	case	21:case	_
 19	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	21:det	Entity=(CESSCASTA2000021713959c2_PLUS_CESSCASTA2000021713959c3-other-3-CorefType:ident,gstype:spec,HomoDD
-20	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	19	nummod	19:nummod	_
+20	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	21	nummod	19:nummod	_
 21	equipos	equipo	NOUN	ncmp000	Gender=Masc|Number=Plur	17	nmod	17:nmod	_
 22	de	de	ADP	sps00	_	24	case	24:case	_
 23	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	24:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
@@ -9908,7 +9908,7 @@
 6	anulado	anular	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 7	antes	antes	ADV	rg	_	6	advmod	6:advmod	ArgTem=argM:tmp
 8	otros	otro	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Ind	10	det	10:det	Entity=(NOCOREF:Gen--3-gstype:gen
-9	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	8	nummod	8:nummod	_
+9	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	10	nummod	8:nummod	_
 10	goles	gol	NOUN	ncmp000	Gender=Masc|Number=Plur	6	obj	6:obj	ArgTem=arg1:pat
 11	hondureños	hondureño	ADJ	aq0mp0	Gender=Masc|Number=Plur	10	amod	10:amod	Entity=NOCOREF:Gen)
 12	por	por	ADP	sps00	_	13	case	13:case	_
@@ -10067,7 +10067,7 @@
 10	y	y	CCONJ	cc	_	24	cc	24:cc	_
 11	a	a	ADP	sps00	_	14	case	14:case	_
 12	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	14:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-13	siete	siete	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	12	nummod	12:nummod	_
+13	siete	siete	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	14	nummod	12:nummod	_
 14	minutos	minuto	NOUN	ncmp000	Gender=Masc|Number=Plur	24	obl	24:obl	ArgTem=argM:tmp|Entity=NOCOREF:Gen)
 15	Holsen	Holsen	PROPN	np0000p	_	24	nsubj	24:nsubj	SpaceAfter=No|ArgTem=arg1:tem|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)
 16	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
@@ -12658,7 +12658,7 @@
 24	segunda	segundo	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	35	amod	35:amod	ArgTem=arg2:loc
 25	de	de	ADP	sps00	_	28	case	28:case	_
 26	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	28:det	Entity=(CESSCASTA2000032217638c9--3-gstype:gen,HomoDD
-27	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	26	nummod	26:nummod	_
+27	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	28	nummod	26:nummod	_
 28	etapas	etapa	NOUN	ncfp000	Gender=Fem|Number=Plur	24	nmod	24:nmod	_
 29	que	que	PRON	pr0cn000	PronType=Rel	31	nsubj	31:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTA2000032217638c9--1-CorefType:ident,gstype:gen)
 30	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	31	expl:pass	31:expl:pass	_
@@ -15859,7 +15859,7 @@
 # orig_file_sentence 004#5
 1	De	de	ADP	sps00	_	4	case	4:case	_
 2	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	4:det	Entity=(CESSCASTA2000051511470c36--3-gstype:gen,HomoDD
-3	siete	siete	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	2	nummod	2:nummod	_
+3	siete	siete	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	4	nummod	2:nummod	_
 4	candidatos	candidato	NOUN	ncmp000	Gender=Masc|Number=Plur	16	obl	16:obl	ArgTem=argM:adv
 5	que	que	PRON	pr0cn000	PronType=Rel	6	nsubj	6:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000051511470c36--1-CorefType:ident,gstype:gen)
 6	compiten	competir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	4:acl	_
@@ -15956,7 +15956,7 @@
 40	,	,	PUNCT	fc	PunctType=Comm	46	punct	46:punct	_
 41	porque	porque	SCONJ	cs	_	46	mark	46:mark	_
 42	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	44:det	Entity=(CESSCASTA2000051511470c17_PLUS_CESSCASTA2000051511470c19-other-3-CorefType:ident,gstype:spec|SplitAnte=CESSCASTA2000051511470c17<CESSCASTA2000051511470c17_PLUS_CESSCASTA2000051511470c19,CESSCASTA2000051511470c19<CESSCASTA2000051511470c17_PLUS_CESSCASTA2000051511470c19
-43	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	42	nummod	42:nummod	_
+43	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	44	nummod	42:nummod	_
 44	agrupaciones	agrupación	NOUN	ncfp000	Gender=Fem|Number=Plur	46	nsubj	46:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000051511470c17_PLUS_CESSCASTA2000051511470c19)
 45	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs	46	obj	46:obj	_
 46	disputan	disputar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	24:advcl	ArgTem=argM:cau
@@ -16016,7 +16016,7 @@
 # orig_file_sentence 004#8
 1	De	de	ADP	sps00	_	4	case	4:case	_
 2	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	4:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-3	siete	siete	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	2	nummod	2:nummod	_
+3	siete	siete	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	4	nummod	2:nummod	_
 4	candidatos	candidato	NOUN	ncmp000	Gender=Masc|Number=Plur	30	obl	30:obl	ArgTem=argM:adv
 5	contendientes	contendiente	ADJ	aq0cp0	Number=Plur	4	amod	4:amod	_
 6	en	en	ADP	sps00	ExtPos=ADP	10	case	10:case	MWE=en_representación_de|MWEPOS=ADP
@@ -16169,7 +16169,7 @@
 63	,	,	PUNCT	fc	PunctType=Comm	69	punct	69:punct	_
 64	porque	porque	SCONJ	cs	_	69	mark	69:mark	_
 65	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	67	det	67:det	Entity=(CESSCASTA2000051611811c4_PLUS_CESSCASTA2000051611811c5-other-3-CorefType:ident,gstype:spec|SplitAnte=CESSCASTA2000051611811c4<CESSCASTA2000051611811c4_PLUS_CESSCASTA2000051611811c5,CESSCASTA2000051611811c5<CESSCASTA2000051611811c4_PLUS_CESSCASTA2000051611811c5
-66	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	65	nummod	65:nummod	_
+66	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	67	nummod	65:nummod	_
 67	formaciones	formación	NOUN	ncfp000	Gender=Fem|Number=Plur	69	nsubj	69:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000051611811c4_PLUS_CESSCASTA2000051611811c5)
 68	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs	69	obj	69:obj	_
 69	disputan	disputar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	advcl	44:advcl	ArgTem=argM:cau
@@ -16188,7 +16188,7 @@
 # text = Los cuatro meses de campaña electoral estuvieron impregnados de acusaciones mutuas de incompetencia entre los dos candidatos liberales, mientras que Balaguer apenas dio media docena de mítines con discursos no superiores a los quince minutos.
 # orig_file_sentence 004#11
 1	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	3:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-2	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	1	nummod	1:nummod	_
+2	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	3	nummod	1:nummod	_
 3	meses	mes	NOUN	ncmp000	Gender=Masc|Number=Plur	8	nsubj	8:nsubj	ArgTem=arg1:tem
 4	de	de	ADP	sps00	_	5	case	5:case	_
 5	campaña	campaña	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nmod	3:nmod	_
@@ -16202,7 +16202,7 @@
 13	incompetencia	incompetencia	NOUN	ncfs000	Gender=Fem|Number=Sing	10	nmod	10:nmod	ArgTem=arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen)
 14	entre	entre	ADP	sps00	_	17	case	17:case	_
 15	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	17:det	Entity=(CESSCASTA2000051611811c6_PLUS_CESSCASTA2000051611811c7-other-3-CorefType:ident,gstype:spec
-16	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	15	nummod	15:nummod	_
+16	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	17	nummod	15:nummod	_
 17	candidatos	candidato	NOUN	ncmp000	Gender=Masc|Number=Plur	10	nmod	10:nmod	ArgTem=arg0:agt
 18	liberales	liberal	ADJ	aq0cp0	Number=Plur	17	amod	17:amod	SpaceAfter=No|Entity=CESSCASTA2000051611811c6_PLUS_CESSCASTA2000051611811c7)NOCOREF:Gen)
 19	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
@@ -16221,7 +16221,7 @@
 32	superiores	superior	ADJ	aq0cp0	Number=Plur	30	amod	30:amod	_
 33	a	a	ADP	sps00	_	36	case	36:case	_
 34	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	36:det	_
-35	quince	quince	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	34	nummod	34:nummod	_
+35	quince	quince	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	36	nummod	34:nummod	_
 36	minutos	minuto	NOUN	ncmp000	Gender=Masc|Number=Plur	32	nmod	32:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)NOCOREF:Gen)
 37	.	.	PUNCT	fp	PunctType=Peri	20	punct	20:punct	_
 
@@ -18854,7 +18854,7 @@
 40	tanto	tanto	NOUN	_	_	39	fixed	39:fixed	_
 41	que	que	SCONJ	_	_	39	fixed	39:fixed	_
 42	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	44:det	Entity=(NOCOREF:Gen--3-gstype:gen
-43	seis	seis	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	42	nummod	42:nummod	_
+43	seis	seis	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	44	nummod	42:nummod	_
 44	restantes	restante	NOUN	ncmp000	Gender=Masc|Number=Plur	45	nsubj	45:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 45	representan	representar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	conj	17:conj	_
 46	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	47:det	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -19157,7 +19157,7 @@
 3	uno	uno	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	0	root	0:root	ArgTem=arg2:atr
 4	de	de	ADP	sps00	_	7	case	7:case	_
 5	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	7:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-6	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	5	nummod	5:nummod	_
+6	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	7	nummod	5:nummod	_
 7	países	país	NOUN	ncmp000	Gender=Masc|Number=Plur	3	nmod	3:nmod	_
 8	de	de	ADP	sps00	_	10	case	10:case	_
 9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	Entity=(CESSCASTA2000111713026c4-organization-2-CorefType:ident,gstype:spec
@@ -19845,7 +19845,7 @@
 36	suma	suma	NOUN	ncfs000	Gender=Fem|Number=Sing	42	nsubj	42:nsubj	ArgTem=arg1:tem
 37	de	de	ADP	sps00	_	40	case	40:case	_
 38	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	40:det	Entity=(CESSCASTA200012031592c13--3-CorefType:ident
-39	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	38	nummod	38:nummod	_
+39	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	40	nummod	38:nummod	_
 40	compañías	compañía	NOUN	ncfp000	Gender=Fem|Number=Plur	36	nmod	36:nmod	ArgTem=arg1:tem|Entity=CESSCASTA200012031592c13)CESSCASTA200012031592c12)
 41	no	no	ADV	rn	Polarity=Neg	42	advmod	42:advmod	_
 42	supone	suponer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	33:ccomp	ArgTem=arg1:pat
@@ -21622,7 +21622,7 @@
 29	ninguno	ninguno	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Neg	28	obj	28:obj	ArgTem=arg1:pat
 30	de	de	ADP	sps00	_	33	case	33:case	_
 31	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	33:det	Entity=(CESSCASTAA200002065003c48--3-gstype:gen,HomoDD
-32	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	31	nummod	31:nummod	_
+32	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	33	nummod	31:nummod	_
 33	partidos	partido	NOUN	ncmp000	Gender=Masc|Number=Plur	29	nmod	29:nmod	_
 34	-	-	PUNCT	fg	PunctType=Dash	35	punct	35:punct	Entity=(CESSCASTAA200002065003c48--2-gstype:gen
 35	dos	dos	NUM	pn0cp000	Number=Plur|NumForm=Word|NumType=Card	33	appos	33:appos	_
@@ -21864,7 +21864,7 @@
 16	ampliación	ampliación	NOUN	ncfs000	Gender=Fem|Number=Sing	14	obj	14:obj	ArgTem=arg1:pat
 17	por	por	ADP	sps00	_	20	case	20:case	_
 18	otros	otro	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Ind	20	det	20:det	Entity=(CESSCASTAA200003032162c14--3
-19	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	18	nummod	18:nummod	_
+19	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	20	nummod	18:nummod	_
 20	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	16	nmod	16:nmod	ArgTem=argM:tmp|Entity=CESSCASTAA200003032162c14)
 21-22	del	_	_	_	_	_	_	_	_
 21	de	de	ADP	spcms	_	23	case	23:case	_
@@ -22086,7 +22086,7 @@
 31	pasada	pasado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	30	amod	30:amod	Entity=NOCOREF:Gen)
 32	ampliar	ampliar	VERB	vmn0000	VerbForm=Inf	28	xcomp	28:xcomp	ArgTem=arg1:pat
 33	otros	otro	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Ind	35	det	35:det	Entity=(CESSCASTAA200003032162c14--3-CorefType:ident
-34	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	33	nummod	33:nummod	_
+34	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	35	nummod	33:nummod	_
 35	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	32	obl	32:obl	ArgTem=argM:tmp|Entity=CESSCASTAA200003032162c14)
 36	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	37:det	Entity=(CESSCASTAA200003032162c3--2-CorefType:ident,gstype:gen
 37	estado	estado	NOUN	ncms000	Gender=Masc|Number=Sing	32	obj	32:obj	ArgTem=arg1:tem
@@ -23147,7 +23147,7 @@
 6	ministros	ministro	NOUN	ncmp000	Gender=Masc|Number=Plur	4	nmod	4:nmod	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--1-gstype:gen
 7	de	de	ADP	sps00	_	10	case	10:case	_
 8	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	10:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-9	once	once	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	8	nummod	8:nummod	_
+9	once	once	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	10	nummod	8:nummod	_
 10	países	país	NOUN	ncmp000	Gender=Masc|Number=Plur	6	nmod	6:nmod	_
 11	de	de	ADP	sps00	_	13	case	13:case	_
 12	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	Entity=(CESSCASTAA2000033024478c6-organization-2-CorefType:ident,gstype:spec
@@ -23155,7 +23155,7 @@
 14	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
 15	celebrada	celebrado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	4	amod	4:amod	_
 16	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	19:det	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
-17	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	16	nummod	16:nummod	_
+17	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	19	nummod	16:nummod	_
 18	primeros	primero	ADJ	ao0mp0	Gender=Masc|Number=Plur|NumType=Ord	19	amod	19:amod	_
 19	días	día	NOUN	ncmp000	Gender=Masc|Number=Plur	15	obl	15:obl	ArgTem=argM:tmp
 20	de	de	ADP	sps00	_	22	case	22:case	_
@@ -23841,7 +23841,7 @@
 5	presentó	presentar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl	1:acl	_
 6	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det	9:det	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--4-gstype:gen(CESSCASTAA2000033125330c3-person-1-CorefType:ident,gstype:spec)
 7	"	"	PUNCT	fe	PunctType=Quot	6	punct	6:punct	SpaceAfter=No
-8	ocho	ocho	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	6	nummod	6:nummod	_
+8	ocho	ocho	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	9	nummod	6:nummod	_
 9	propuestas	propuesta	NOUN	ncfp000	Gender=Fem|Number=Plur	5	obj	5:obj	ArgTem=arg1:pat,arg1:pat
 10	para	para	ADP	sps00	_	11	case	11:case	_
 11	París	París	PROPN	np00000	_	9	nmod	9:nmod	SpaceAfter=No|ArgTem=arg2:ben|Entity=(CESSCASTAA2000033125330c19-place-1-CorefType:ident,gstype:spec)NOCOREF:Gen)
@@ -25500,7 +25500,7 @@
 6	Antelo	Antelo	PROPN	_	_	3	flat	3:flat	Entity=NOCOREF:Spec.person)NOCOREF:Spec.person)
 7	marcó	marcar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 8	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	10:det	Entity=(CESSCASTAA200005042181c1--3-gstype:gen,HomoDD
-9	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	8	nummod	8:nummod	_
+9	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	10	nummod	8:nummod	_
 10	goles	gol	NOUN	ncmp000	Gender=Masc|Number=Plur	7	obj	7:obj	ArgTem=arg1:pat
 11	que	que	PRON	pr0cn000	PronType=Rel	12	nsubj	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200005042181c1--1-CorefType:ident,gstype:gen)
 12	dieron	dar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	acl	10:acl	_
@@ -25727,7 +25727,7 @@
 5	Oliveira	Oliveira	PROPN	_	_	3	flat	3:flat	Entity=NOCOREF:Spec.person)NOCOREF:Spec.person)
 6	hizo	hacer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	9:det	Entity=(CESSCASTAA200005042181c10--3-gstype:gen,HomoDD
-8	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	7	nummod	7:nummod	_
+8	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	9	nummod	7:nummod	_
 9	tantos	tanto	NOUN	ncmp000	Gender=Masc|Number=Plur	6	obj	6:obj	ArgTem=arg1:pat
 10	que	que	PRON	pr0cn000	PronType=Rel	12	nsubj	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200005042181c10--1-CorefType:ident,gstype:gen)
 11	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	12	obl:arg	12:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA200005042181c9-organization-1-CorefType:ident,gstype:spec)
@@ -27226,7 +27226,7 @@
 41	largo	largo	NOUN	_	_	39	fixed	39:fixed	_
 42	de	de	ADP	_	_	39	fixed	39:fixed	_
 43	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	45:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-44	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	43	nummod	43:nummod	_
+44	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	45	nummod	43:nummod	_
 45	meses	mes	NOUN	ncmp000	Gender=Masc|Number=Plur	24	obl	24:obl	ArgTem=argM:tmp
 46	de	de	ADP	sps00	_	47	case	47:case	_
 47	campaña	campaña	NOUN	ncfs000	Gender=Fem|Number=Sing	45	nmod	45:nmod	_
@@ -28305,7 +28305,7 @@
 52	esperado	esperado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	49	amod	49:amod	Entity=NOCOREF:Gen)NOCOREF:Gen)
 53	en	en	ADP	sps00	_	57	case	57:case	_
 54	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	57:det	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
-55	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	54	nummod	54:nummod	_
+55	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	57	nummod	54:nummod	_
 56	últimas	último	ADJ	ao0fp0	Gender=Fem|Number=Plur|NumType=Ord	57	amod	57:amod	_
 57	carreras	carrera	NOUN	ncfp000	Gender=Fem|Number=Plur	49	obl	49:obl	ArgTem=argM:loc|Entity=NOCOREF:Gen)CESSCASTAA2000062923978c40)NOCOREF:Gen)
 58	y	y	CCONJ	cc	_	60	cc	60:cc	_
@@ -28502,7 +28502,7 @@
 13	en	en	ADP	sps00	_	17	case	17:case	_
 14	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	17:det	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
 15	últimos	último	ADJ	ao0mp0	Gender=Masc|Number=Plur|NumType=Ord	14	amod	14:amod	_
-16	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	14	nummod	14:nummod	_
+16	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	17	nummod	14:nummod	_
 17	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	12	obl	12:obl	SpaceAfter=No|ArgTem=argM:tmp|Entity=NOCOREF:Gen)
 18	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 19	muchas	mucho	PRON	pi0fp000	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	12	obl	12:obl	Entity=(NOCOREF:Gen--1-gstype:gen
@@ -29921,7 +29921,7 @@
 13	cuentas	cuenta	NOUN	ncfp000	Gender=Fem|Number=Plur	8	obj	8:obj	ArgTem=argL:
 14	sobre	sobre	ADP	sps00	_	17	case	17:case	_
 15	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	17:det	Entity=(NOCOREF:Gen--3-gstype:gen(CESSCASTAA200008063784c1-person-1-CorefType:ident,gstype:spec)
-16	diez	diez	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	15	nummod	15:nummod	_
+16	diez	diez	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	17	nummod	15:nummod	_
 17	meses	mes	NOUN	ncmp000	Gender=Masc|Number=Plur	13	nmod	13:nmod	_
 18	de	de	ADP	sps00	_	20	case	20:case	_
 19	turbulento	turbulento	ADJ	aq0ms0	Gender=Masc|Number=Sing	20	amod	20:amod	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -30187,11 +30187,11 @@
 55	"	"	PUNCT	fe	PunctType=Quot	63	punct	63:punct	SpaceAfter=No
 56	uno	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	63	det	63:det	SpaceAfter=No
 57	,	,	PUNCT	fc	PunctType=Comm	56	punct	56:punct	_
-58	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	56	nummod	56:nummod	_
+58	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	63	nummod	56:nummod	_
 59	o	o	CCONJ	cc	_	60	cc	60:cc	_
 60	como	como	SCONJ	rg	_	58	conj	58:conj	MWE=como_mucho|MWEPOS=ADV
 61	mucho	mucho	ADV	_	_	60	fixed	60:fixed	_
-62	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	56	nummod	56:nummod	_
+62	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	63	nummod	56:nummod	_
 63	meses	mes	NOUN	ncmp000	Gender=Masc|Number=Plur	53	nmod	53:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)
 64	,	,	PUNCT	fc	PunctType=Comm	53	punct	53:punct	_
 65	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	66:det	Entity=(CESSCASTAA2000092319559c6-organization-2-CorefType:ident,gstype:spec
@@ -30905,7 +30905,7 @@
 25	agresión	agresión	NOUN	ncfs000	Gender=Fem|Number=Sing	23	obj	23:obj	ArgTem=arg1:pat
 26	entre	entre	ADP	sps00	_	29	case	29:case	_
 27	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	det	29:det	Entity=(CESSCASTAA2000092723199c5-other-3-CorefType:ident,gstype:spec(CESSCASTAA2000092723199c1-person-1-CorefType:ident,gstype:spec)
-28	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	27	nummod	27:nummod	_
+28	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	29	nummod	27:nummod	_
 29	compañeros	compañero	NOUN	ncmp000	Gender=Masc|Number=Plur	25	nmod	25:nmod	ArgTem=arg0:agt|Entity=CESSCASTAA2000092723199c5)CESSCASTAA2000092723199c2)NOCOREF:Gen)
 30	y	y	CCONJ	cc	_	31	cc	31:cc	_
 31	llegó	llegar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	21:conj	_
@@ -31130,7 +31130,7 @@
 21	ciento	ciento	NUM	_	NumForm=Word|NumType=Card	19	nmod	19:nmod	_
 22	en	en	ADP	sps00	_	26	case	26:case	_
 23	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	26:det	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
-24	nueve	nueve	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	23	nummod	23:nummod	_
+24	nueve	nueve	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	26	nummod	23:nummod	_
 25	primeros	primero	ADJ	ao0mp0	Gender=Masc|Number=Plur|NumType=Ord	26	amod	26:amod	_
 26	meses	mes	NOUN	ncmp000	Gender=Masc|Number=Plur	19	nmod	19:nmod	_
 27-28	del	_	_	_	_	_	_	_	_
@@ -31424,7 +31424,7 @@
 41	conjunto	conjunto	NOUN	ncms000	Gender=Masc|Number=Sing	39	obj	39:obj	ArgTem=arg1:pat
 42	de	de	ADP	sps00	_	46	case	46:case	_
 43	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	46:det	Entity=(CESSCASTAA2000103024215c13_PLUS_CESSCASTAA2000103024215c33_PLUS_CESSCASTAA2000103024215c6--4-CorefType:ident,gstype:gen,HomoDD|SplitAnte=CESSCASTAA2000103024215c33<CESSCASTAA2000103024215c13_PLUS_CESSCASTAA2000103024215c33_PLUS_CESSCASTAA2000103024215c6,CESSCASTAA2000103024215c6<CESSCASTAA2000103024215c13_PLUS_CESSCASTAA2000103024215c33_PLUS_CESSCASTAA2000103024215c6,CESSCASTAA2000103024215c13<CESSCASTAA2000103024215c13_PLUS_CESSCASTAA2000103024215c33_PLUS_CESSCASTAA2000103024215c6
-44	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	43	nummod	43:nummod	_
+44	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	46	nummod	43:nummod	_
 45	principales	principal	ADJ	aq0cp0	Number=Plur	46	amod	46:amod	_
 46	centros	centro	NOUN	ncmp000	Gender=Masc|Number=Plur	41	nmod	41:nmod	_
 47	urbanos	urbano	ADJ	aq0mp0	Gender=Masc|Number=Plur	46	amod	46:amod	_
@@ -31840,7 +31840,7 @@
 18	una	uno	PRON	pi0fs000	Gender=Fem|Number=Sing|PronType=Ind	16	appos	16:appos	_
 19	de	de	ADP	sps00	_	22	case	22:case	_
 20	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	22:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-21	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	20	nummod	20:nummod	_
+21	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	22	nummod	20:nummod	_
 22	localidades	localidad	NOUN	ncfp000	Gender=Fem|Number=Plur	18	nmod	18:nmod	_
 23	de	de	ADP	sps00	_	25	case	25:case	_
 24	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -32220,7 +32220,7 @@
 47	consulta	consulta	NOUN	ncfs000	Gender=Fem|Number=Sing	45	nmod	45:nmod	_
 48	con	con	ADP	sps00	_	51	case	51:case	_
 49	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	51:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-50	trece	trece	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	49	nummod	49:nummod	_
+50	trece	trece	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	51	nummod	49:nummod	_
 51	alcaldes	alcalde	NOUN	ncmp000	Gender=Masc|Number=Plur	47	nmod	47:nmod	ArgTem=arg2:ben
 52	de	de	ADP	sps00	_	54	case	54:case	_
 53	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	54:det	Entity=(CESSCASTAA2000103024822c1-place-2-CorefType:ident,gstype:spec
@@ -32728,7 +32728,7 @@
 16	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
 17	entre	entre	ADP	sps00	_	20	case	20:case	_
 18	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	20:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-19	diez	diez	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	18	nummod	18:nummod	_
+19	diez	diez	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	20	nummod	18:nummod	_
 20	primeros	primero	ADJ	ao0mp0	Gender=Masc|Number=Plur|NumType=Ord	13	obl	13:obl	SpaceAfter=No|ArgTem=arg2:loc|Entity=NOCOREF:Gen)
 21	.	.	PUNCT	fp	PunctType=Peri	9	punct	9:punct	_
 
@@ -32757,7 +32757,7 @@
 20	Hernández	Hernández	PROPN	_	_	19	flat	19:flat	Entity=NOCOREF:Gen)
 21	en	en	ADP	sps00	_	25	case	25:case	_
 22	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
-23	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	22	nummod	22:nummod	_
+23	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	25	nummod	22:nummod	_
 24	primeros	primero	ADJ	ao0mp0	Gender=Masc|Number=Plur|NumType=Ord	25	amod	25:amod	_
 25	tableros	tablero	NOUN	ncmp000	Gender=Masc|Number=Plur	14	nmod	14:nmod	Entity=NOCOREF:Gen)
 26	y	y	CCONJ	cc	_	27	cc	27:cc	_
@@ -32806,7 +32806,7 @@
 31	todo	todo	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	30	fixed	30:fixed	SpaceAfter=No
 32	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
 33	esas	ese	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	35	det	35:det	Entity=(CESSCASTAA200011107848c5_PLUS_CESSCASTAA200011107848c6--3-CorefType:ident,gstype:gen|SplitAnte=CESSCASTAA200011107848c5<CESSCASTAA200011107848c5_PLUS_CESSCASTAA200011107848c6,CESSCASTAA200011107848c6<CESSCASTAA200011107848c5_PLUS_CESSCASTAA200011107848c6
-34	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	33	nummod	33:nummod	_
+34	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	35	nummod	33:nummod	_
 35	medallas	medalla	NOUN	ncfp000	Gender=Fem|Number=Plur	28	obj	28:obj	SpaceAfter=No|ArgTem=arg1:pat|Entity=CESSCASTAA200011107848c5_PLUS_CESSCASTAA200011107848c6)
 36	.	.	PUNCT	fp	PunctType=Peri	8	punct	8:punct	_
 
@@ -32829,7 +32829,7 @@
 13	quedar	quedar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	Cxn=Conditional-NeutralEpistemic|CxnElt=13:Conditional-NeutralEpistemic.Apodosis@p
 14	entre	entre	ADP	sps00	_	17	case	17:case	_
 15	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	17:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-16	diez	diez	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	15	nummod	15:nummod	_
+16	diez	diez	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	17	nummod	15:nummod	_
 17	primeras	primero	ADJ	ao0fp0	Gender=Fem|Number=Plur|NumType=Ord	13	obl	13:obl	ArgTem=arg2:atr|Entity=NOCOREF:Gen)
 18	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	23	det	23:det	Entity=(CESSCASTAA200011107848c10--6-CorefType:dx.prop
 19	que	que	PRON	pr0cn000	PronType=Rel	23	nsubj	23:nsubj	ArgTem=arg1:tem
@@ -33113,7 +33113,7 @@
 # orig_file_sentence 006#50
 1	Sólo	sólo	ADV	rg	_	4	advmod	4:advmod	_
 2	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	4:det	Entity=(CESSCASTAA2000112620778c9--3-gstype:gen,HomoDD
-3	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	2	nummod	2:nummod	_
+3	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	4	nummod	2:nummod	_
 4	hombres	hombre	NOUN	ncmp000	Gender=Masc|Number=Plur	16	nsubj	16:nsubj	ArgTem=arg1:tem
 5-6	del	_	_	_	_	_	_	_	_
 5	de	de	ADP	spcms	_	7	case	7:case	_
@@ -33241,7 +33241,7 @@
 27	que	que	PRON	pr0cn000	PronType=Rel	28	nsubj	28:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000112620778c13-person-1-CorefType:ident,gstype:spec)
 28	pasó	pasar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	acl	21:acl	_
 29	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	31:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-30	medio	medio	NUM	dn0ms0	Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	29	nummod	29:nummod	_
+30	medio	medio	NUM	dn0ms0	Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	31	nummod	29:nummod	_
 31	maratón	maratón	NOUN	ncms000	Gender=Masc|Number=Sing	28	obj	28:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 32	en	en	ADP	sps00	_	33	case	33:case	_
 33	1.04:32	1.04:32	NUM	_	NumForm=Digit|NumType=Card	28	obl	28:obl	SpaceAfter=No|ArgTem=argM:tmp|Entity=(NOCOREF:Spec.number-number-1-gstype:spec)CESSCASTAA2000112620778c13)
@@ -33538,7 +33538,7 @@
 26	propiciado	propiciar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	11:acl	_
 27	que	que	SCONJ	cs	_	45	mark	45:mark	_
 28	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	30:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-29	seis	seis	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	28	nummod	28:nummod	_
+29	seis	seis	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	30	nummod	28:nummod	_
 30	mineros	minero	NOUN	ncmp000	Gender=Masc|Number=Plur	45	nsubj	45:nsubj	ArgTem=arg1:tem
 31	encerrados	encerrado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	30	amod	30:amod	_
 32	desde	desde	ADP	sps00	_	33	case	33:case	_
@@ -35138,7 +35138,7 @@
 49	ninguna	ninguno	PRON	pi0fs000	Gender=Fem|Number=Sing|PronType=Neg	47	obj	47:obj	ArgTem=arg1:pat
 50	de	de	ADP	sps00	_	53	case	53:case	_
 51	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	53:det	Entity=(CESSCASTAA200012128504c19_PLUS_CESSCASTAA200012128504c6--3-CorefType:ident,gstype:gen,HomoDD|SplitAnte=CESSCASTAA200012128504c6<CESSCASTAA200012128504c19_PLUS_CESSCASTAA200012128504c6,CESSCASTAA200012128504c19<CESSCASTAA200012128504c19_PLUS_CESSCASTAA200012128504c6
-52	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	51	nummod	51:nummod	_
+52	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	53	nummod	51:nummod	_
 53	partes	parte	NOUN	ncfp000	Gender=Fem|Number=Plur	49	nmod	49:nmod	SpaceAfter=No|Entity=CESSCASTAA200012128504c19_PLUS_CESSCASTAA200012128504c6)CESSCASTAA200012128504c18)CESSCASTAA200012128504c17)
 54	.	.	PUNCT	fp	PunctType=Peri	5	punct	5:punct	_
 
@@ -37120,7 +37120,7 @@
 21	jugará	jugar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	acl	11:acl	_
 22	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
 23	próximas	próximo	ADJ	aq0fp0	Gender=Fem|Number=Plur	22	amod	22:amod	_
-24	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	22	nummod	22:nummod	_
+24	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	25	nummod	22:nummod	_
 25	temporadas	temporada	NOUN	ncfp000	Gender=Fem|Number=Plur	21	obl	21:obl	ArgTem=argM:tmp|Entity=NOCOREF:Gen)
 26	en	en	ADP	sps00	_	28	case	28:case	_
 27	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	Entity=(CESSCASTP19990602108c3-organization-2-CorefType:ident,gstype:spec
@@ -38136,7 +38136,7 @@
 5	tanto	tanto	ADV	rg	_	9	cc	9:cc	_
 6	por	por	ADP	sps00	_	9	case	9:case	_
 7	ese	ese	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	9	det	9:det	Entity=(CESSCASTP1999070183c3--3-CorefType:ident,gstype:gen
-8	medio	medio	NUM	dn0ms0	Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	7	nummod	7:nummod	_
+8	medio	medio	NUM	dn0ms0	Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	9	nummod	7:nummod	_
 9	siglo	siglo	NOUN	ncms000	Gender=Masc|Number=Sing	3	nmod	3:nmod	Entity=CESSCASTP1999070183c3)
 10	como	como	SCONJ	cs	_	13	cc	13:cc	_
 11	por	por	ADP	sps00	_	13	case	13:case	_
@@ -38683,7 +38683,7 @@
 9	balance	balance	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	ArgTem=arg2:atr
 10	de	de	ADP	sps00	_	13	case	13:case	_
 11	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	13:det	Entity=(CESSCASTP1999080229c2--3-gstype:gen,HomoDD
-12	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	11	nummod	11:nummod	_
+12	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	13	nummod	11:nummod	_
 13	accidentes	accidente	NOUN	ncmp000	Gender=Masc|Number=Plur	9	nmod	9:nmod	_
 14	que	que	PRON	pr0cn000	PronType=Rel	16	nsubj	16:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP1999080229c2--1-CorefType:ident,gstype:gen)
 15	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	expl:pv	16:expl:pv	_
@@ -38762,7 +38762,7 @@
 18	estrelló	estrellar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	9:conj	_
 19	contra	contra	ADP	sps00	_	22	case	22:case	_
 20	otros	otro	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Ind	22	det	22:det	Entity=(NOCOREF:Gen--3-gstype:gen
-21	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	20	nummod	20:nummod	_
+21	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	22	nummod	20:nummod	_
 22	coches	coche	NOUN	ncmp000	Gender=Masc|Number=Plur	18	obl	18:obl	SpaceAfter=No|ArgTem=argM:adv|Entity=NOCOREF:Gen)
 23	.	.	PUNCT	fp	PunctType=Peri	9	punct	9:punct	_
 
@@ -38782,7 +38782,7 @@
 10	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	7	nmod	7:nmod	Entity=NOCOREF:Gen)
 11	y	y	CCONJ	cc	_	15	cc	15:cc	_
 12	otras	otro	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	14	det	14:det	Entity=(CESSCASTP1999080229c6--3-CorefType:ident,gstype:gen
-13	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	12	nummod	12:nummod	_
+13	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	14	nummod	12:nummod	_
 14	personas	persona	NOUN	ncfp000	Gender=Fem|Number=Plur	15	nsubj	15:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP1999080229c6)
 15	resultaron	resultar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	5:conj	_
 16	heridas	herido	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	15	obj	15:obj	SpaceAfter=No|ArgTem=arg2:atr
@@ -40211,7 +40211,7 @@
 4	participará	participar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 5	en	en	ADP	sps00	_	10	case	10:case	_
 6	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	10:det	Entity=(CESSCASTP19990902101c6--5-gstype:gen,HomoDD
-7	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	6	nummod	6:nummod	_
+7	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	10	nummod	6:nummod	_
 8	próximos	próximo	ADJ	aq0mp0	Gender=Masc|Number=Plur	10	amod	10:amod	_
 9	grandes	grande	ADJ	aq0cp0	Number=Plur	10	amod	10:amod	_
 10	premios	premio	NOUN	ncmp000	Gender=Masc|Number=Plur	4	obl:arg	4:obl:arg	SpaceAfter=No|ArgTem=arg1:tem|Entity=CESSCASTP19990902101c6)
@@ -40723,7 +40723,7 @@
 17	acababa	acabar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	advcl	34:advcl	CxnElt=34:Conditional-NeutralEpistemic.Protasis@f
 18	entre	entre	ADP	sps00	_	21	case	21:case	_
 19	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	21:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-20	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	19	nummod	19:nummod	_
+20	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	21	nummod	19:nummod	_
 21	primeros	primero	ADJ	ao0mp0	Gender=Masc|Number=Plur|NumType=Ord	17	obl	17:obl	ArgTem=argM:loc
 22	de	de	ADP	sps00	_	24	case	24:case	_
 23	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	24:det	Entity=(CESSCASTP19991001130c4-place-2-CorefType:ident,gstype:spec
@@ -41448,7 +41448,7 @@
 24	detrás	detrás	ADV	sps00	ExtPos=ADP	23	case	23:case	MWE=detrás_de|MWEPOS=ADP
 25	de	de	ADP	_	_	24	fixed	24:fixed	_
 26	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	29:det	Entity=(CESSCASTP19991001130c35-other-4-gstype:spec
-27	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	26	nummod	26:nummod	_
+27	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	29	nummod	26:nummod	_
 28	grandes	grande	ADJ	aq0cp0	Number=Plur	29	amod	29:amod	_
 29	potencias	potencia	NOUN	ncfp000	Gender=Fem|Number=Plur	23	nmod	23:nmod	_
 30	mundiales	mundial	ADJ	aq0cp0	Number=Plur	29	amod	29:amod	SpaceAfter=No
@@ -41487,7 +41487,7 @@
 12	ayer	ayer	ADV	rg	_	11	advmod	11:advmod	ArgTem=argM:tmp
 13	a	a	ADP	sps00	_	16	case	16:case	_
 14	otros	otro	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Ind	16	det	16:det	Entity=(CESSCASTP19991001130c36--3-gstype:gen
-15	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	14	nummod	14:nummod	_
+15	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	16	nummod	14:nummod	_
 16	navegantes	navegante	NOUN	nccp000	Number=Plur	11	obj	11:obj	ArgTem=arg1:pat
 17	solitarios	solitario	ADJ	aq0mp0	Gender=Masc|Number=Plur	16	amod	16:amod	_
 18	que	que	PRON	pr0cn000	PronType=Rel	19	nsubj	19:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP19991001130c36--1-CorefType:ident,gstype:gen)
@@ -43905,7 +43905,7 @@
 41	habían	haber	AUX	vaii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	42	aux	42:aux	_
 42	terminado	terminar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	ccomp	28:ccomp	ArgTem=arg1:pat
 43	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	45:det	Entity=(CESSCASTP1999110132c42--3-gstype:gen,HomoDD
-44	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	43	nummod	43:nummod	_
+44	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	45	nummod	43:nummod	_
 45	décadas	década	NOUN	ncfp000	Gender=Fem|Number=Plur	42	nsubj	42:nsubj	ArgTem=arg1:tem
 46	de	de	ADP	sps00	_	47	case	47:case	_
 47	abandono	abandono	NOUN	ncms000	Gender=Masc|Number=Sing	45	nmod	45:nmod	_
@@ -46845,7 +46845,7 @@
 7	raíz	raíz	NOUN	_	_	6	fixed	6:fixed	_
 8	de	de	ADP	_	_	6	fixed	6:fixed	_
 9	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	11:det	Entity=(CESSCASTP20000202135c34--3-gstype:gen,HomoDD
-10	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	9	nummod	9:nummod	_
+10	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	11	nummod	9:nummod	_
 11	canciones	canción	NOUN	ncfp000	Gender=Fem|Number=Plur	2	obl	2:obl	ArgTem=argM:cau
 12	de	de	ADP	sps00	_	13	case	13:case	_
 13	Tacones	Tacones	PROPN	np00000	_	11	nmod	11:nmod	MWE=Tacones_lejanos|MWEPOS=PROPN|Entity=(NOCOREF:Spec.other-other-1-gstype:spec
@@ -47540,7 +47540,7 @@
 5	suerte	suerte	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obj	4:obj	ArgTem=arg2:atr
 6	en	en	ADP	sps00	_	9	case	9:case	_
 7	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	9:det	Entity=(CESSCASTP20000301108_cc3--3-gstype:gen,HomoDD
-8	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	7	nummod	7:nummod	_
+8	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	9	nummod	7:nummod	_
 9	torneos	torneo	NOUN	ncmp000	Gender=Masc|Number=Plur	4	obl	4:obl	ArgTem=argM:loc
 10	que	que	PRON	pr0cn000	PronType=Rel	12	obj	12:obj	ArgTem=arg1:pat|Entity=(CESSCASTP20000301108_cc3--1-CorefType:ident,gstype:gen)
 10.1	_	_	PRON	p	_	_	_	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20000301108_cc1-person-1-CorefType:ident,gstype:spec)
@@ -49811,7 +49811,7 @@
 25	reconoció	reconocer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	7:advcl	_
 26	que	que	SCONJ	cs	_	32	mark	32:mark	_
 27	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	29:det	Entity=(CESSCASTP2000080231c12_PLUS_CESSCASTP2000080231c3-other-3-CorefType:ident,gstype:spec
-28	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	27	nummod	27:nummod	_
+28	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	29	nummod	27:nummod	_
 29	partes	parte	NOUN	ncfp000	Gender=Fem|Number=Plur	32	nsubj	32:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2000080231c12_PLUS_CESSCASTP2000080231c3)
 30	"	"	PUNCT	fe	PunctType=Quot	32	punct	32:punct	SpaceAfter=No
 31	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	32	expl:pv	32:expl:pv	_
@@ -51158,7 +51158,7 @@
 38	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	37	expl:pass	37:expl:pass	_
 39	de	de	ADP	sps00	_	42	case	42:case	_
 40	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	42:det	Entity=(CESSCASTP20001201176c9--3-CorefType:ident,HomoDD
-41	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	40	nummod	40:nummod	_
+41	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	42	nummod	40:nummod	_
 42	equipos	equipo	NOUN	ncmp000	Gender=Masc|Number=Plur	37	obl:arg	37:obl:arg	ArgTem=argM:ori
 43	más	más	ADV	rg	Degree=Cmp	44	advmod	44:advmod	_
 44	efectivos	efectivo	ADJ	aq0mp0	Gender=Masc|Number=Plur	42	amod	42:amod	_
@@ -51613,7 +51613,7 @@
 23	millones	millón	NOUN	ncmp000	Gender=Masc|Number=Plur	18	obl	18:obl	ArgTem=argM:adv
 24	por	por	ADP	sps00	_	27	case	27:case	_
 25	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-26	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	25	nummod	25:nummod	_
+26	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	27	nummod	25:nummod	_
 27	meses	mes	NOUN	ncmp000	Gender=Masc|Number=Plur	23	nmod	23:nmod	_
 28	como	como	SCONJ	cs	_	29	mark	29:mark	_
 29	azulgrana	azulgrana	NOUN	nccs000	Number=Sing	27	nmod	27:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)NOCOREF:Gen)
@@ -52756,7 +52756,7 @@
 10	cuerpos	cuerpo	NOUN	ncmp000	Gender=Masc|Number=Plur	15	nsubj	15:nsubj	ArgTem=arg1:tem
 11	de	de	ADP	sps00	_	14	case	14:case	_
 12	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	14:det	Entity=(CESSCASTP2001010225c16--3-CorefType:ident,gstype:gen
-13	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	12	nummod	12:nummod	_
+13	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	14	nummod	12:nummod	_
 14	palestinos	palestino	NOUN	ncmp000	Gender=Masc|Number=Plur	10	nmod	10:nmod	Entity=CESSCASTP2001010225c16)CESSCASTP2001010225c17)
 15	aparecieron	aparecer	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 16	desnudos	desnudo	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	15	obj	15:obj	ArgTem=argM:atr
@@ -52865,7 +52865,7 @@
 # text = Las cinco hijas pequeñas de la pareja también resultaron heridas, una de ellas de gravedad.
 # orig_file_sentence 013#88
 1	Las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	3:det	Entity=(CESSCASTP2001010225c29--3-gstype:gen,HomoDD
-2	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	1	nummod	1:nummod	_
+2	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	3	nummod	1:nummod	_
 3	hijas	hija	NOUN	ncfp000	Gender=Fem|Number=Plur	9	nsubj	9:nsubj	ArgTem=arg1:tem
 4	pequeñas	pequeño	ADJ	aq0fp0	Gender=Fem|Number=Plur	3	amod	3:amod	_
 5	de	de	ADP	sps00	_	7	case	7:case	_
@@ -53096,7 +53096,7 @@
 # text = Los dos primeros se han quedado en casa por decisión del entrenador.
 # orig_file_sentence 010#14
 1	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	3:det	Entity=(CESSCASTP20010103120c15--6-gstype:gen(CESSCASTP20010103120c17_PLUS_CESSCASTP20010103120c18-other-3-CorefType:ident,gstype:spec|SplitAnte=CESSCASTP20010103120c18<CESSCASTP20010103120c17_PLUS_CESSCASTP20010103120c18,CESSCASTP20010103120c17<CESSCASTP20010103120c17_PLUS_CESSCASTP20010103120c18
-2	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	1	nummod	1:nummod	_
+2	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	3	nummod	1:nummod	_
 3	primeros	primero	ADJ	ao0mp0	Gender=Masc|Number=Plur|NumType=Ord	6	nsubj	6:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP20010103120c17_PLUS_CESSCASTP20010103120c18)
 4	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	expl:pv	6:expl:pv	_
 5	han	haber	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
@@ -53530,7 +53530,7 @@
 38	%	%	SYM	zp	_	32	nmod	32:nmod	ArgTem=arg2:ext|Entity=(NOCOREF:Spec.number-number-1-gstype:spec)NOCOREF:Gen)
 39	durante	durante	ADP	sps00	_	43	case	43:case	_
 40	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	43:det	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
-41	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	40	nummod	40:nummod	_
+41	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	43	nummod	40:nummod	_
 42	últimos	último	ADJ	ao0mp0	Gender=Masc|Number=Plur|NumType=Ord	43	amod	43:amod	_
 43	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	30	obl	30:obl	SpaceAfter=No|ArgTem=argM:tmp|Entity=NOCOREF:Gen)
 44	.	.	PUNCT	fp	PunctType=Peri	8	punct	8:punct	_
@@ -54246,7 +54246,7 @@
 # text = Los tres comisarios europeos responsables de Competencia (Mario Monti), Deportes (Viviane Reding) y Asuntos Sociales (Anna Diamantopoulou) comunicaron por escrito a los dos organismos del fútbol su voluntad de celebrar una reunión, antes de la cumbre del 16 de febrero, para dar "un impulso político" decisivo a las discusiones, por la inquietud ante el bloqueo actual.
 # orig_file_sentence 012#15
 1	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	3:det	Entity=(CESSCASTP20010202151c20--3-gstype:gen,HomoDD
-2	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	1	nummod	1:nummod	_
+2	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	3	nummod	1:nummod	_
 3	comisarios	comisario	NOUN	ncmp000	Gender=Masc|Number=Plur	25	nsubj	25:nsubj	ArgTem=arg0:agt
 4	europeos	europeo	ADJ	aq0mp0	Gender=Masc|Number=Plur	3	amod	3:amod	_
 5	responsables	responsable	ADJ	aq0cp0	Number=Plur	3	amod	3:amod	_
@@ -54274,7 +54274,7 @@
 27	escrito	escrito	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	25	obl	25:obl	ArgTem=argM:tmp
 28	a	a	ADP	sps00	_	31	case	31:case	_
 29	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	31:det	Entity=(CESSCASTP20010202151c4-other-3-CorefType:ident,gstype:spec,HomoDD
-30	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	29	nummod	29:nummod	_
+30	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	31	nummod	29:nummod	_
 31	organismos	organismo	NOUN	ncmp000	Gender=Masc|Number=Plur	25	obl:arg	25:obl:arg	ArgTem=arg2:ben
 32-33	del	_	_	_	_	_	_	_	_
 32	de	de	ADP	spcms	_	34	case	34:case	_
@@ -54414,7 +54414,7 @@
 16	force	force	NOUN	_	_	15	compound	15:compound	Entity=NOCOREF:Gen)
 17	de	de	ADP	sps00	_	20	case	20:case	_
 18	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	20:det	Entity=(CESSCASTP20010202151c4-other-3-CorefType:ident,gstype:spec,HomoDD
-19	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	18	nummod	18:nummod	_
+19	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	20	nummod	18:nummod	_
 20	organismos	organismo	NOUN	ncmp000	Gender=Masc|Number=Plur	12	nmod	12:nmod	SpaceAfter=No|ArgTem=arg0:agt|Entity=CESSCASTP20010202151c4)
 21	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 22	donde	donde	ADV	pr000000	PronType=Rel	24	advmod	24:advmod	ArgTem=argM:loc|Entity=(CESSCASTP20010202151c10--1-CorefType:ident,gstype:gen)
@@ -56937,7 +56937,7 @@
 25	industrias	industria	NOUN	ncfp000	Gender=Fem|Number=Plur	23	nmod	23:nmod	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen)
 26	en	en	ADP	sps00	_	29	case	29:case	_
 27	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	29:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-28	seis	seis	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	27	nummod	27:nummod	_
+28	seis	seis	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	29	nummod	27:nummod	_
 29	comarcas	comarca	NOUN	ncfp000	Gender=Fem|Number=Plur	23	nmod	23:nmod	ArgTem=argM:loc
 30	pirenaicas	pirenaico	ADJ	aq0fp0	Gender=Fem|Number=Plur	29	amod	29:amod	Entity=NOCOREF:Gen)NOCOREF:Gen)
 31	y	y	CCONJ	cc	_	33	cc	33:cc	_
@@ -57325,7 +57325,7 @@
 16	llegado	llegar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 17	sin	sin	ADP	sps00	_	21	case	21:case	_
 18	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	21:det	Entity=(CESSCASTP20011002160c9-other-4-gstype:spec(CESSCASTP20011002160c2-organization-1-CorefType:ident,gstype:spec)
-19	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	18	nummod	18:nummod	_
+19	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	21	nummod	18:nummod	_
 20	grandes	grande	ADJ	aq0cp0	Number=Plur	21	amod	21:amod	_
 21	estrellas	estrella	NOUN	nccp000	Number=Plur	16	obl	16:obl	SpaceAfter=No|ArgTem=argM:adv
 22	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	Entity=(CESSCASTP20011002160c9-other-2-CorefType:pred.definit,gstype:spec
@@ -58309,7 +58309,7 @@
 21	urbe	urbe	NOUN	ncfs000	Gender=Fem|Number=Sing	17	nmod	17:nmod	_
 22	de	de	ADP	sps00	_	25	case	25:case	_
 23	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-24	mil	mil	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	23	nummod	23:nummod	_
+24	mil	mil	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	25	nummod	23:nummod	_
 25	caras	cara	NOUN	ncfp000	Gender=Fem|Number=Plur	21	nmod	21:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)CESSCASTP20011202122c1)CESSCASTP20011202122c21)
 26	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
 
@@ -59222,7 +59222,7 @@
 4	derrotado	derrotar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 5	a	a	ADP	sps00	_	8	case	8:case	_
 6	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	8:det	Entity=(CESSCASTP2001120266c10--3-gstype:gen,HomoDD
-7	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	6	nummod	6:nummod	_
+7	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	8	nummod	6:nummod	_
 8	grupos	grupo	NOUN	ncmp000	Gender=Masc|Number=Plur	4	obj	4:obj	ArgTem=arg1:pat
 9	que	que	PRON	pr0cn000	PronType=Rel	10	nsubj	10:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2001120266c10--1-CorefType:ident,gstype:gen)
 10	aspiraban	aspirar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	acl	8:acl	_
@@ -60156,7 +60156,7 @@
 13	resumen	resumen	NOUN	ncms000	Gender=Masc|Number=Sing	4	appos	4:appos	_
 14	de	de	ADP	sps00	_	17	case	17:case	_
 15	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	17:det	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--3-gstype:gen(CESSCASTP20020301120c1-organization-1-CorefType:ident,gstype:spec)
-16	seis	seis	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	15	nummod	15:nummod	_
+16	seis	seis	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	17	nummod	15:nummod	_
 17	creaciones	creación	NOUN	ncfp000	Gender=Fem|Number=Plur	13	nmod	13:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)
 18	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
 19	que	que	PRON	pr0cn000	PronType=Rel	22	obj	22:obj	ArgTem=arg1:pat|Entity=(CESSCASTP20020301120c2-other-1-CorefType:ident,gstype:spec)
@@ -60881,7 +60881,7 @@
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	24:det	_
 21	menos	menos	ADV	_	Degree=Cmp	19	fixed	19:fixed	_
 22	otras	otro	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	24	det	24:det	Entity=(CESSCASTP2002050249c5--3-gstype:gen
-23	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	22	nummod	22:nummod	_
+23	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	24	nummod	22:nummod	_
 24	causas	causa	NOUN	ncfp000	Gender=Fem|Number=Plur	18	obj	18:obj	ArgTem=arg1:tem|CxnElt=18:Existential-HavePred.Pivot@f
 25	que	que	PRON	pr0cn000	PronType=Rel	26	nsubj	26:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002050249c5--1-CorefType:ident,gstype:gen)
 26	explican	explicar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl	24:acl	_
