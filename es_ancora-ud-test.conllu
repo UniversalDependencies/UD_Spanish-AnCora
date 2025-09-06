@@ -35854,7 +35854,7 @@
 37	encuentro	encuentro	NOUN	ncms000	Gender=Masc|Number=Sing	16	obl	16:obl	ArgTem=argM:loc
 38	resuelto	resuelto	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	37	amod	37:amod	_
 39	por	por	ADP	sps00	_	40	case	40:case	_
-40	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	38:det	Entity=(CESSCASTAA2000102924092c11-organization-1-CorefType:ident,gstype:spec
+40	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	obl	38:obl	Entity=(CESSCASTAA2000102924092c11-organization-1-CorefType:ident,gstype:spec
 41	de	de	ADP	sps00	_	40	case	40:case	_
 42	Héctor	Héctor	PROPN	np00000	_	40	obj	40:obj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000102924092c20-person-1-gstype:spec|MWE=Héctor_Cúper|MWEPOS=PROPN
 43	Cúper	Cúper	PROPN	_	_	42	flat	42:flat	Entity=CESSCASTAA2000102924092c20)CESSCASTAA2000102924092c11)
@@ -45053,7 +45053,7 @@
 9	notablemente	notablemente	ADV	rg	_	10	advmod	10:advmod	_
 10	mejor	mejor	ADJ	aq0cs0	Degree=Cmp|Number=Sing	1	ccomp	1:ccomp	ArgTem=arg2:atr
 11	que	que	SCONJ	cs	_	12	mark	12:mark	_
-12	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	Entity=(NOCOREF:Gen--1-gstype:gen
+12	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	obl	10:obl	Entity=(NOCOREF:Gen--1-gstype:gen
 13	de	de	ADP	sps00	_	12	case	12:case	_
 14	hace	hacer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	12:advcl	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
 15	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_

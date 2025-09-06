@@ -5700,7 +5700,7 @@
 35	más	más	ADV	rg	Degree=Cmp	36	advmod	36:advmod	_
 36	alta	alto	ADJ	aq0fs0	Gender=Fem|Number=Sing	33	xcomp	33:xcomp	ArgTem=arg2:atr
 37	que	que	SCONJ	cs	_	38	mark	38:mark	_
-38	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	36:det	_
+38	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	obl	36:obl	_
 39-40	del	_	_	_	_	_	_	_	_
 39	de	de	ADP	spcms	_	38	case	38:case	_
 40	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	_
@@ -7927,7 +7927,7 @@
 39	cercano	cercano	ADJ	aq0ms0	Gender=Masc|Number=Sing	37	amod	37:amod	_
 40-41	al	_	_	_	_	_	_	_	_
 40	a	a	ADP	spcms	_	39	case	39:case	_
-41	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	_
+41	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	obl	39:obl	_
 42	barrio	barrio	NOUN	ncms000	Gender=Masc|Number=Sing	39	nmod	39:nmod	Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 43	chino	chino	ADJ	aq0ms0	Gender=Masc|Number=Sing	42	amod	42:amod	SpaceAfter=No|Entity=NOCOREF:Spec.location)
 44	,	,	PUNCT	fc	PunctType=Comm	46	punct	46:punct	_
@@ -13213,7 +13213,7 @@
 22	precios	precio	NOUN	ncmp000	Gender=Masc|Number=Plur	17	obl	17:obl	ArgTem=argM:ext|Entity=(NOCOREF:Gen--1-gstype:gen
 23	inferiores	inferior	ADJ	aq0cp0	Number=Plur	22	amod	22:amod	_
 24	a	a	ADP	sps00	_	25	case	25:case	_
-25	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	23:det	Entity=(NOCOREF:Gen--1-gstype:gen
+25	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	obl	23:obl	Entity=(NOCOREF:Gen--1-gstype:gen
 26	de	de	ADP	sps00	_	25	case	25:case	_
 27	mercado	mercado	NOUN	ncms000	Gender=Masc|Number=Sing	25	nmod	25:nmod	Entity=(CESSCASTA2000041612432c8--1)NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
@@ -16714,7 +16714,7 @@
 24	muy	mucho	ADV	rg	_	25	advmod	25:advmod	_
 25	superior	superior	ADJ	aq0cs0	Number=Sing	10	acl	10:acl	ArgTem=arg2:atr
 26	a	a	ADP	sps00	_	27	case	27:case	_
-27	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--1-gstype:gen
+27	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	obl	25:obl	Entity=(NOCOREF:Gen--1-gstype:gen
 28	de	de	ADP	sps00	_	27	case	27:case	_
 29	otras	otro	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	30	det	30:det	Entity=(NOCOREF:Gen--2-gstype:gen
 30	latitudes	latitud	NOUN	ncfp000	Gender=Fem|Number=Plur	27	nmod	27:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)CESSCASTA2000051611811c22)|SpaceAfter=No
@@ -37256,7 +37256,7 @@
 4	ofertas	oferta	NOUN	ncfp000	Gender=Fem|Number=Plur	3	obj	3:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen
 5	superiores	superior	ADJ	aq0cp0	Number=Plur	4	amod	4:amod	_
 6	a	a	ADP	sps00	_	7	case	7:case	_
-7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--1-gstype:gen
+7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	obl	5:obl	Entity=(NOCOREF:Gen--1-gstype:gen
 8-9	del	_	_	_	_	_	_	_	_
 8	de	de	ADP	spcms	_	7	case	7:case	_
 9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
@@ -37327,7 +37327,7 @@
 46	en	en	ADP	sps00	ExtPos=ADP	49	case	49:case	MWE=en_lugar_de|MWEPOS=ADP
 47	lugar	lugar	NOUN	_	_	46	fixed	46:fixed	_
 48	de	de	ADP	_	_	46	fixed	46:fixed	_
-49	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	42:det	Entity=(NOCOREF:Gen--1-gstype:gen
+49	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	obl	42:obl	Entity=(NOCOREF:Gen--1-gstype:gen
 50	de	de	ADP	sps00	_	49	case	49:case	_
 51	cruce	cruce	NOUN	ncms000	Gender=Masc|Number=Sing	49	obl	49:obl	SpaceAfter=No|ArgTem=argM:adv|Entity=NOCOREF:Gen)CESSCASTP1999060219_cc3)
 52	.	.	PUNCT	fp	PunctType=Peri	28	punct	28:punct	_
