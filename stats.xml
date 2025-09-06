@@ -42,8 +42,8 @@
     <feat name="Case" value="Com" upos="PRON">15</feat><!-- conmigo, consigo, contigo -->
     <feat name="Case" value="Dat" upos="PRON">2218</feat><!-- le, se, les, me, nos, te, os -->
     <feat name="Case" value="Nom" upos="PRON">160</feat><!-- yo, tú, Ella -->
-    <feat name="Definite" value="Def" upos="DET,PRON">63668</feat><!-- el, la, los, las, lo, les, le, a, o, Al -->
-    <feat name="Definite" value="Ind" upos="DET,PRON">9573</feat><!-- un, una, unos, unas, uno, LO -->
+    <feat name="Definite" value="Def" upos="DET,PRON">62959</feat><!-- el, la, los, las, lo, les, le, a, o, Al -->
+    <feat name="Definite" value="Ind" upos="DET,PRON">9566</feat><!-- un, una, unos, unas, uno, LO -->
     <feat name="Degree" value="Abs" upos="ADJ,DET,PRON">52</feat><!-- muchísimos, importantísimo, mismísimo, altísimo, dificilísimo, importantísima, muchísimas, rapidísimo, altísima, anticuadísimo -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2783</feat><!-- más, menos, mayor, mejor, mayores, menor, mejores, peor, menores, peores -->
     <feat name="Degree" value="Sup" upos="ADJ">174</feat><!-- máximo, máxima, mínimo, máximos, mínimas, mínima, mínimos, pésimo, máximas, óptima -->
@@ -76,13 +76,13 @@
     <feat name="Poss" value="Yes" upos="DET,PRON">5634</feat><!-- su, sus, mi, nuestra, nuestro, cuyo, cuya, nuestros, mis, nuestras -->
     <feat name="PrepCase" value="Npr" upos="PRON">9941</feat><!-- se, lo, me, nos, la, los, las, te, os -->
     <feat name="PrepCase" value="Pre" upos="PRON">139</feat><!-- mí, sí, ti, conmigo, consigo, contigo, mi -->
-    <feat name="PronType" value="Art" upos="DET">72097</feat><!-- el, la, los, un, las, una, unos, unas, les, els -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">4034</feat><!-- este, esta, esa, ese, eso, estos, mismo, estas, esto, misma -->
+    <feat name="PronType" value="Art" upos="DET">71590</feat><!-- el, la, los, un, las, una, unos, unas, les, els -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">4750</feat><!-- este, esta, el, esa, ese, eso, estos, lo, mismo, estas -->
     <feat name="PronType" value="Ind" upos="DET,PRON">3920</feat><!-- otros, uno, otro, algunos, otra, otras, una, muchos, algo, unos -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">358</feat><!-- qué, quién, cuál, dónde, cuándo, cuáles, quiénes -->
     <feat name="PronType" value="Int,Rel" upos="DET,PRON,SCONJ">39</feat><!-- que, cuantos, cuanto, cuánto, cuántos, cuantas, cuánta, cuántas -->
     <feat name="PronType" value="Neg" upos="DET,PRON">538</feat><!-- nada, nadie, ningún, ninguna, ninguno -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">17982</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">17773</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9666</feat><!-- que, donde, quien, cuando, quienes, cual, cuyo, cuya, cuales, cuyos -->
     <feat name="PronType" value="Tot" upos="DET,PRON">1550</feat><!-- todo, todos, cada, todas, toda -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">2272</feat><!-- ), ?, ! -->
@@ -127,7 +127,7 @@
     <dep name="csubj">1172</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">271</dep>
-    <dep name="det">84661</dep>
+    <dep name="det">83945</dep>
     <dep name="discourse">4</dep>
     <dep name="dislocated">3</dep>
     <dep name="expl">294</dep>
@@ -139,7 +139,7 @@
     <dep name="list">21</dep>
     <dep name="mark">19350</dep>
     <dep name="nmod">39407</dep>
-    <dep name="nsubj">29569</dep>
+    <dep name="nsubj">30285</dep>
     <dep name="nsubj:outer">11</dep>
     <dep name="nsubj:pass">61</dep>
     <dep name="nummod">6005</dep>
