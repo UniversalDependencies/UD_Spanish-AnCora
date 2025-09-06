@@ -127,7 +127,7 @@
     <dep name="csubj">1172</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">271</dep>
-    <dep name="det">83844</dep>
+    <dep name="det">83750</dep>
     <dep name="discourse">4</dep>
     <dep name="dislocated">3</dep>
     <dep name="expl">294</dep>
@@ -144,7 +144,7 @@
     <dep name="nsubj:pass">61</dep>
     <dep name="nummod">6005</dep>
     <dep name="obj">24693</dep>
-    <dep name="obl">23898</dep>
+    <dep name="obl">23992</dep>
     <dep name="obl:agent">1283</dep>
     <dep name="obl:arg">7664</dep>
     <dep name="orphan">1</dep>

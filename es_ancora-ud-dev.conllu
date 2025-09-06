@@ -20919,7 +20919,7 @@
 # orig_file_sentence 008#16
 1	Además	además	ADV	rg	ExtPos=ADV	9	advmod	9:advmod	MWE=Además_de|MWEPOS=ADV
 2	de	de	ADP	_	_	1	fixed	1:fixed	_
-3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	1:det	Entity=(CESSCASTAA200002065003c15--1-CorefType:ident,gstype:gen
+3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	obl	1:obl	Entity=(CESSCASTAA200002065003c15--1-CorefType:ident,gstype:gen
 4	de	de	ADP	sps00	_	3	case	3:case	_
 5	hoy	hoy	ADV	rg	_	3	advmod	3:advmod	SpaceAfter=No|ArgTem=argM:tmp|Entity=CESSCASTAA200002065003c15)
 6	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
@@ -31408,7 +31408,7 @@
 25	lo	él	PRON	cc	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	0	root	0:root	MWE=lo_mismo_que|MWEPOS=CCONJ
 26	mismo	mismo	ADJ	_	_	25	fixed	25:fixed	_
 27	que	que	SCONJ	_	_	25	fixed	25:fixed	_
-28	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--1-gstype:gen
+28	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	obl	25:obl	Entity=(NOCOREF:Gen--1-gstype:gen
 29	de	de	ADP	sps00	_	28	case	28:case	_
 30	Cali	Cali	PROPN	np00000	_	28	parataxis	28:parataxis	Entity=(CESSCASTAA2000103024215c6-place-1-gstype:spec|SpaceAfter=No
 31	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
@@ -32929,7 +32929,7 @@
 21	minutos	minuto	NOUN	ncmp000	Gender=Masc|Number=Plur	18	conj	18:conj	SpaceAfter=No|Entity=NOCOREF:Gen)NOCOREF:Gen)
 22	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 23	por	por	ADP	sps00	_	24	case	24:case	_
-24	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	9	det	9:det	Entity=(CESSCASTAA2000112620778c10--1-CorefType:dx.token
+24	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	9	obl	9:obl	Entity=(CESSCASTAA2000112620778c10--1-CorefType:dx.token
 25	que	que	SCONJ	pr0cn000	PronType=Int,Rel	31	mark	31:mark	_
 26	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTAA2000112620778c3--1-CorefType:ident)
 27	crono	crono	NOUN	ncms000	Gender=Masc|Number=Sing	31	nsubj	31:nsubj	ArgTem=arg0:cau
@@ -51900,7 +51900,7 @@
 10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	9:fixed	_
 11	parecer	parecer	NOUN	_	_	9	fixed	9:fixed	_
 12	de	de	ADP	sps00	_	9	fixed	9:fixed	_
-13	muchas	mucho	PRON	pi0fp000	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	2	det	2:det	SpaceAfter=No|Entity=(NOCOREF:Gen--1-gstype:gen)
+13	muchas	mucho	PRON	pi0fp000	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	2	obl	2:obl	SpaceAfter=No|Entity=(NOCOREF:Gen--1-gstype:gen)
 14	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
 15	vulgar	vulgar	ADJ	aq0cs0	Number=Sing	2	amod	2:amod	_
 16	y	y	CCONJ	cc	_	17	cc	17:cc	_
@@ -57563,7 +57563,7 @@
 15	casos	caso	NOUN	ncmp000	Gender=Masc|Number=Plur	9	conj	9:conj	SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
 17	como	como	SCONJ	cs	_	18	mark	18:mark	_
-18	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	Entity=(NOCOREF:Gen--1-gstype:gen
+18	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	obl	15:obl	Entity=(NOCOREF:Gen--1-gstype:gen
 19	de	de	ADP	sps00	_	18	case	18:case	_
 20	Eliseo	Eliseo	PROPN	np00000	_	18	nmod	18:nmod	Entity=(NOCOREF:Spec.person-person-1-gstype:spec|MWE=Eliseo_Subiela|MWEPOS=PROPN
 21	Subiela	Subiela	PROPN	_	_	20	flat	20:flat	SpaceAfter=No|Entity=NOCOREF:Spec.person)NOCOREF:Gen)NOCOREF:Gen)
@@ -60937,7 +60937,7 @@
 2	estadísticas	estadística	NOUN	ncfp000	Gender=Fem|Number=Plur	16	nsubj	16:nsubj	SpaceAfter=No|ArgTem=arg0:agt
 3	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 4	como	como	SCONJ	cs	_	5	mark	5:mark	_
-5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	Entity=(NOCOREF:Gen--1-gstype:gen
+5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	obl	2:obl	Entity=(NOCOREF:Gen--1-gstype:gen
 6-7	del	_	_	_	_	_	_	_	_
 6	de	de	ADP	spcms	_	5	case	5:case	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
