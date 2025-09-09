@@ -111,6 +111,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
 Data available since: UD v1.3
 License: CC BY 4.0
 Includes text: yes
+Parallel: no
 Genre: news
 Lemmas: converted from manual
 UPOS: converted from manual
