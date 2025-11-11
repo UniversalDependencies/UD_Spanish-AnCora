@@ -49,6 +49,9 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Added the ExtPos feature to fixed expressions.
+  * Fixed spurious dependents of determiners.
 * 2024-11-15 v2.15
   * Removed feature AdvType.
   * Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
@@ -108,6 +111,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
 Data available since: UD v1.3
 License: CC BY 4.0
 Includes text: yes
+Parallel: no
 Genre: news
 Lemmas: converted from manual
 UPOS: converted from manual
