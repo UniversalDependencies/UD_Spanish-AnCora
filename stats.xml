@@ -22,13 +22,13 @@
     <tag name="CCONJ">15104</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
     <tag name="DET">84431</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, ojo -->
-    <tag name="NOUN">100535</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
+    <tag name="NOUN">100536</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
     <tag name="NUM">9174</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PART">154</tag><!-- no -->
-    <tag name="PRON">25184</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
-    <tag name="PROPN">42390</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
+    <tag name="PRON">25185</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
+    <tag name="PROPN">42389</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
     <tag name="PUNCT">65625</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
-    <tag name="SCONJ">12474</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
+    <tag name="SCONJ">12473</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
     <tag name="SYM">427</tag><!-- %, ibex-35, .14, .23, .46, 23, a, a-7, b, cac-40 -->
     <tag name="VERB">48186</tag><!-- tener, hacer, decir, haber, dar, ir, llegar, ver, querer, llevar -->
     <tag name="X">4</tag><!-- hi, ja, som, tanto -->
@@ -83,7 +83,7 @@
     <feat name="PronType" value="Int,Rel" upos="DET,PRON,SCONJ">39</feat><!-- que, cuantos, cuanto, cuánto, cuántos, cuantas, cuánta, cuántas -->
     <feat name="PronType" value="Neg" upos="DET,PRON">538</feat><!-- nada, nadie, ningún, ninguna, ninguno -->
     <feat name="PronType" value="Prs" upos="DET,PRON">17773</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9666</feat><!-- que, donde, quien, cuando, quienes, cual, cuyo, cuya, cuales, cuyos -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9667</feat><!-- que, donde, quien, cuando, quienes, cual, cuyo, cuya, cuales, cuyos -->
     <feat name="PronType" value="Tot" upos="DET,PRON">1550</feat><!-- todo, todos, cada, todas, toda -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">2272</feat><!-- ), ?, ! -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">2159</feat><!-- (, ¿, ¡ -->
@@ -110,24 +110,24 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
-    <dep name="acl">10563</dep>
+    <dep name="acl">10571</dep>
     <dep name="acl:relcl">54</dep>
-    <dep name="advcl">8976</dep>
+    <dep name="advcl">8977</dep>
     <dep name="advmod">19261</dep>
     <dep name="amod">29479</dep>
     <dep name="appos">7516</dep>
     <dep name="aux">7260</dep>
     <dep name="aux:pass">15</dep>
-    <dep name="case">76714</dep>
+    <dep name="case">76715</dep>
     <dep name="cc">15275</dep>
-    <dep name="ccomp">6093</dep>
+    <dep name="ccomp">6086</dep>
     <dep name="compound">1572</dep>
     <dep name="conj">16280</dep>
-    <dep name="cop">5547</dep>
+    <dep name="cop">5553</dep>
     <dep name="csubj">1172</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">271</dep>
-    <dep name="det">83750</dep>
+    <dep name="det">83741</dep>
     <dep name="discourse">4</dep>
     <dep name="dislocated">3</dep>
     <dep name="expl">294</dep>
@@ -137,9 +137,9 @@
     <dep name="fixed">8167</dep>
     <dep name="flat">14436</dep>
     <dep name="list">21</dep>
-    <dep name="mark">19350</dep>
-    <dep name="nmod">39456</dep>
-    <dep name="nsubj">30285</dep>
+    <dep name="mark">19348</dep>
+    <dep name="nmod">39457</dep>
+    <dep name="nsubj">30286</dep>
     <dep name="nsubj:outer">11</dep>
     <dep name="nsubj:pass">61</dep>
     <dep name="nummod">6005</dep>
