@@ -23,7 +23,7 @@
 17	explotar	explotar	VERB	vmn0000	VerbForm=Inf	6	acl	6:acl	_
 18-19	al	_	_	_	_	_	_	_	MWE=al_máximo|MWEPOS=ADV
 18	a	a	ADP	rg	ExtPos=ADP	17	case	17:case	ArgTem=argM:mnr|MWE=al_máximo|MWEPOS=ADV
-19	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	nsubj	17:nsubj	_
+19	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	fixed	18:fixed	_
 20	máximo	máximo	NOUN	_	_	18	fixed	18:fixed	_
 21	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	22:det	_
 22	oratoria	oratoria	NOUN	ncfs000	Gender=Fem|Number=Sing	17	obj	17:obj	ArgTem=arg1:pat
@@ -7338,7 +7338,7 @@
 1	Y	y	CCONJ	cc	_	6	cc	6:cc	_
 2-3	al	_	_	_	_	_	_	_	MWE=al_final|MWEPOS=ADV
 2	a	a	ADP	rg	ExtPos=ADP	6	case	6:case	ArgTem=argM:tmp|MWE=al_final|MWEPOS=ADV
-3	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	6:nsubj	_
+3	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	fixed	2:fixed	_
 4	final	final	NOUN	_	_	2	fixed	2:fixed	_
 5	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	6	obl:arg	6:obl:arg	ArgTem=arg2:ben
 6	pedía	pedir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
@@ -17804,7 +17804,7 @@
 43	,	,	PUNCT	fc	PunctType=Comm	49	punct	49:punct	_
 44-45	al	_	_	_	_	_	_	_	MWE=al_tiempo_que|MWEPOS=CCONJ
 44	a	a	ADP	cc	ExtPos=ADP	49	case	49:case	MWE=al_tiempo_que|MWEPOS=CCONJ
-45	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	49	nsubj	49:nsubj	_
+45	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	44	fixed	44:fixed	_
 46	tiempo	tiempo	NOUN	_	_	44	fixed	44:fixed	_
 47	que	que	SCONJ	_	_	44	fixed	44:fixed	_
 47.1	_	_	PRON	p	_	_	_	49:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000062015780c2-organization-1-CorefType:ident,gstype:spec)
@@ -27011,7 +27011,7 @@
 9	reunir	reunir	VERB	vmn0000	VerbForm=Inf	8	xcomp	8:xcomp	ArgTem=arg1:pat
 10-11	al	_	_	_	_	_	_	_	MWE=al_menos|MWEPOS=ADV
 10	a	a	ADP	rg	ExtPos=ADP	15	case	15:case	MWE=al_menos|MWEPOS=ADV
-11	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	9:nsubj	_
+11	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	fixed	10:fixed	_
 12	menos	menos	ADV	_	Degree=Cmp	10	fixed	10:fixed	_
 13	a	a	ADP	sps00	_	10	fixed	10:fixed	_
 14	300.000	300000	NUM	_	NumForm=Digit|NumType=Card	15	nummod	15:nummod	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -39078,7 +39078,7 @@
 1	Y	y	CCONJ	cc	_	7	cc	7:cc	_
 2-3	al	_	_	_	_	_	_	_	MWE=al_final|MWEPOS=ADV
 2	a	a	ADP	rg	ExtPos=ADP	7	case	7:case	ArgTem=argM:adv|MWE=al_final|MWEPOS=ADV
-3	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	7:nsubj	_
+3	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	fixed	2:fixed	_
 4	final	final	NOUN	_	_	2	fixed	2:fixed	_
 4.1	_	_	PRON	p	_	_	_	7:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999080248c10--1-CorefType:ident,gstype:gen)
 5	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	obj	7:obj	ArgTem=arg1:pat|Entity=(CESSCASTP1999080248c12--1-CorefType:dx.token)
@@ -49715,7 +49715,7 @@
 32	mantienen	mantener	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl	30:acl	_
 33-34	al	_	_	_	_	_	_	_	MWE=al_respecto|MWEPOS=ADV
 33	a	a	ADP	rg	ExtPos=ADP	32	case	32:case	ArgTem=argM:adv|MWE=al_respecto|MWEPOS=ADV
-34	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	32	nsubj	32:nsubj	_
+34	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	33	fixed	33:fixed	_
 35	respecto	respecto	NOUN	_	_	33	fixed	33:fixed	SpaceAfter=No|Entity=CESSCASTP2000080231c8)
 36	.	.	PUNCT	fp	PunctType=Peri	10	punct	10:punct	_
 
@@ -53148,7 +53148,7 @@
 # orig_file_sentence 010#16
 1-2	Al	_	_	_	_	_	_	_	MWE=Al_margen_de|MWEPOS=ADP
 1	A	a	ADP	spcms	ExtPos=ADP	11	case	11:case	MWE=Al_margen_de|MWEPOS=ADP
-2	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	11:nsubj	_
+2	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	1:fixed	_
 3	margen	margen	NOUN	_	_	1	fixed	1:fixed	_
 4	de	de	ADP	_	_	1	fixed	1:fixed	_
 5	que	que	SCONJ	cs	_	11	mark	11:mark	SpaceAfter=No

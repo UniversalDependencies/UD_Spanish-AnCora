@@ -134,12 +134,12 @@
     <dep name="expl:impers">356</dep>
     <dep name="expl:pass">2233</dep>
     <dep name="expl:pv">3212</dep>
-    <dep name="fixed">8167</dep>
+    <dep name="fixed">8179</dep>
     <dep name="flat">14436</dep>
     <dep name="list">21</dep>
     <dep name="mark">19768</dep>
     <dep name="nmod">39457</dep>
-    <dep name="nsubj">29930</dep>
+    <dep name="nsubj">29918</dep>
     <dep name="nsubj:outer">11</dep>
     <dep name="nsubj:pass">61</dep>
     <dep name="nummod">6005</dep>

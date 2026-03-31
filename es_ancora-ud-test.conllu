@@ -11926,7 +11926,7 @@
 24	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 25-26	al	_	_	_	_	_	_	_	MWE=al_igual_que|MWEPOS=CCONJ
 25	a	a	ADP	cc	ExtPos=ADP	42	case	42:case	MWE=al_igual_que|MWEPOS=CCONJ
-26	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	42	nsubj	42:nsubj	_
+26	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	fixed	25:fixed	_
 27	igual	igual	ADJ	_	_	25	fixed	25:fixed	_
 28	que	que	SCONJ	_	_	25	fixed	25:fixed	_
 29	las	el	DET	da0fp0	Gender=Fem|Number=Plur|PronType=Dem	1	nsubj	1:nsubj	Entity=(NOCOREF:Gen--1-gstype:gen
@@ -23172,7 +23172,7 @@
 16	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	_
 17-18	al	_	_	_	_	_	_	_	MWE=al_tiempo_que|MWEPOS=CCONJ
 17	a	a	ADP	cc	ExtPos=ADP	21	case	21:case	MWE=al_tiempo_que|MWEPOS=CCONJ
-18	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	21:nsubj	_
+18	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	fixed	17:fixed	_
 19	tiempo	tiempo	NOUN	_	_	17	fixed	17:fixed	_
 20	que	que	SCONJ	_	_	17	fixed	17:fixed	_
 20.1	_	_	PRON	p	_	_	_	21:nsubj	ArgTem=arg0:cau|Entity=(CESSCASTAA200002043836c19-organization-1-CorefType:ident,gstype:spec)
@@ -31226,7 +31226,7 @@
 35	así	así	ADV	rg	_	39	advmod	39:advmod	ArgTem=argM:mnr
 36-37	al	_	_	_	_	_	_	_	MWE=al_menos|MWEPOS=ADV
 36	a	a	ADP	rg	ExtPos=ADP	39	case	39:case	MWE=al_menos|MWEPOS=ADV
-37	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	39	nsubj	39:nsubj	_
+37	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	36	fixed	36:fixed	_
 38	menos	menos	ADV	_	Degree=Cmp	36	fixed	36:fixed	_
 38.1	_	_	PRON	p	_	_	_	39:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000062721634c5-organization-1-CorefType:ident,gstype:spec)
 39	estaremos	estar	VERB	vmif1p0	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	26	advcl	26:advcl	ArgTem=argM:cau
@@ -50775,7 +50775,7 @@
 3	elegir	elegir	VERB	vmn0000	VerbForm=Inf	1	xcomp	1:xcomp	_
 4-5	al	_	_	_	_	_	_	_	MWE=al_azar|MWEPOS=ADV
 4	a	a	ADP	rg	ExtPos=ADP	3	case	3:case	ArgTem=argM:mnr|MWE=al_azar|MWEPOS=ADV
-5	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
+5	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	fixed	4:fixed	_
 6	azar	azar	NOUN	_	_	4	fixed	4:fixed	_
 7	entre	entre	ADP	sps00	_	9	nmod	9:nmod	_
 8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
