@@ -4959,7 +4959,7 @@
 20	pero	pero	CCONJ	cc	_	27	cc	27:cc	_
 21-22	al	_	_	_	_	_	_	_	_
 21	a	a	ADP	spcms	_	24	case	24:case	_
-22	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	nsubj	24:nsubj	_
+22	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	24:det	_
 23	-	-	PUNCT	fg	PunctType=Dash	24	punct	24:punct	_
 24-25	doparlo	_	_	_	_	_	_	_	_
 24	dopar	dopar	VERB	vmn0000	VerbForm=Inf	27	advcl	27:advcl	ArgTem=argM:tmp
