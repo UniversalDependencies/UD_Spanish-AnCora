@@ -5206,7 +5206,7 @@
 49	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	50:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 50	Uebergang	Uebergang	PROPN	np0000a	_	48	nsubj	48:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Spec.other)
 51-52	al	_	_	_	_	_	_	_	_
-51	a	a	ADP	spcms	_	53	case	53:case	_
+51	a	a	ADP	spcms	_	53	mark	53:case	_
 52	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	53	nsubj	53:nsubj	_
 53	sostener	sostener	VERB	vmn0000	VerbForm=Inf	48	advcl	48:advcl	ArgTem=argM:tmp
 54	que	que	SCONJ	cs	_	70	mark	70:mark	_
@@ -5421,7 +5421,7 @@
 15	me	yo	PRON	pp1cs000	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	16:obj	ArgTem=arg1:pat
 16	engaño	engañar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	acl	11:acl	ArgTem=arg1:pat
 17-18	al	_	_	_	_	_	_	_	_
-17	a	a	ADP	spcms	_	19	case	19:case	_
+17	a	a	ADP	spcms	_	19	mark	19:case	_
 18	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	19:nsubj	_
 19	creer	creer	VERB	vmn0000	VerbForm=Inf	16	advcl	16:advcl	ArgTem=argM:tmp
 20	en	en	ADP	sps00	_	22	case	22:case	_
@@ -7212,7 +7212,7 @@
 # orig_file_sentence 003#8
 1	Pero	pero	CCONJ	cc	_	7	advmod	7:advmod	_
 2-3	al	_	_	_	_	_	_	_	_
-2	a	a	ADP	spcms	_	4	case	4:case	_
+2	a	a	ADP	spcms	_	4	mark	4:case	_
 3	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	4:nsubj	_
 4	levantar	levantar	VERB	vmn0000	VerbForm=Inf	7	advcl	7:advcl	ArgTem=argM:adv
 5	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	6:det	_
@@ -10865,7 +10865,7 @@
 14	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	15:det	Entity=(CESSCASTA2000012315801c24--2-CorefType:ident,gstype:gen,HomoDD
 15	cuartos	cuarto	NOUN	ncmp000	Gender=Masc|Number=Plur	13	obj	13:obj	ArgTem=arg1:pat|Entity=CESSCASTA2000012315801c24)
 16-17	al	_	_	_	_	_	_	_	_
-16	a	a	ADP	spcms	_	18	case	18:case	_
+16	a	a	ADP	spcms	_	18	mark	18:case	_
 17	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	nsubj	18:nsubj	_
 18	derrotar	derrotar	VERB	vmn0000	VerbForm=Inf	13	advcl	13:advcl	ArgTem=argM:tmp
 19-20	al	_	_	_	_	_	_	_	_
@@ -10899,7 +10899,7 @@
 10	sin	sin	ADP	sps00	_	11	case	11:case	_
 11	aliento	aliento	NOUN	ncms000	Gender=Masc|Number=Sing	6	obl:arg	6:obl:arg	ArgTem=argM:atr
 12-13	al	_	_	_	_	_	_	_	_
-12	a	a	ADP	spcms	_	14	case	14:case	_
+12	a	a	ADP	spcms	_	14	mark	14:case	_
 13	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	14:nsubj	_
 14	eliminar	eliminar	VERB	vmn0000	VerbForm=Inf	6	advcl	6:advcl	ArgTem=argM:tmp
 15	a	a	ADP	sps00	_	16	case	16:case	_
@@ -13605,7 +13605,7 @@
 9	venta	venta	NOUN	ncfs000	Gender=Fem|Number=Sing	2	ccomp	2:ccomp	SpaceAfter=No|ArgTem=arg2:atr
 10	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	_
 11-12	al	_	_	_	_	_	_	_	_
-11	a	a	ADP	spcms	_	13	case	13:case	_
+11	a	a	ADP	spcms	_	13	mark	13:case	_
 12	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	13:nsubj	_
 13	responder	responder	VERB	vmn0000	VerbForm=Inf	2	advcl	2:advcl	ArgTem=argM:tmp
 14	a	a	ADP	sps00	_	16	case	16:case	_
@@ -14097,7 +14097,7 @@
 30	de	de	ADP	sps00	_	31	case	31:case	_
 31	Acedo	Acedo	PROPN	np0000p	_	29	nmod	29:nmod	Entity=(CESSCASTA2000041512000c5-person-1-CorefType:ident,gstype:spec)NOCOREF:Gen)
 32-33	al	_	_	_	_	_	_	_	_
-32	a	a	ADP	spcms	_	34	case	34:case	_
+32	a	a	ADP	spcms	_	34	mark	34:case	_
 33	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	34:det	_
 34	afirmar	afirmar	VERB	vmn0000	VerbForm=Inf	27	advcl	27:advcl	ArgTem=argM:cau
 35	que	que	SCONJ	cs	_	34	mark	34:mark	Entity=(CESSCASTA2000041512000c13--7
@@ -14359,7 +14359,7 @@
 15	merinas	merina	NOUN	ncfp000	Gender=Fem|Number=Plur	10	obl:arg	10:obl:arg	SpaceAfter=No|ArgTem=arg2:tem
 16	"	"	PUNCT	fe	PunctType=Quot	10	punct	10:punct	_
 17-18	al	_	_	_	_	_	_	_	_
-17	a	a	ADP	spcms	_	19	case	19:case	_
+17	a	a	ADP	spcms	_	19	mark	19:case	_
 18	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	19:nsubj	_
 19	afirmar	afirmar	VERB	vmn0000	VerbForm=Inf	10	advcl	10:advcl	ArgTem=argM:tmp
 20	que	que	SCONJ	cs	_	22	mark	22:mark	_
@@ -14995,7 +14995,7 @@
 29	restó	restar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	4:advcl	_
 30	importancia	importancia	NOUN	ncfs000	Gender=Fem|Number=Sing	29	obj	29:obj	ArgTem=arg1:pat
 31-32	al	_	_	_	_	_	_	_	_
-31	a	a	ADP	spcms	_	33	case	33:case	_
+31	a	a	ADP	spcms	_	33	mark	33:case	_
 32	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	33:det	_
 33	explicar	explicar	VERB	vmn0000	VerbForm=Inf	29	advcl	29:advcl	ArgTem=argM:tmp
 34	a	a	ADP	sps00	_	36	case	36:case	_
@@ -18187,7 +18187,7 @@
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 16	plata	plata	NOUN	ncfs000	Gender=Fem|Number=Sing	9	obj	9:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 17-18	al	_	_	_	_	_	_	_	_
-17	a	a	ADP	spcms	_	19	case	19:case	_
+17	a	a	ADP	spcms	_	19	mark	19:case	_
 18	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	19:nsubj	_
 19-20	clasificarse	_	_	_	_	_	_	_	_
 19	clasificar	clasificar	VERB	vmn0000	VerbForm=Inf	9	advcl	9:advcl	ArgTem=argM:tmp
@@ -22393,7 +22393,7 @@
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
 16	país	país	NOUN	ncms000	Gender=Masc|Number=Sing	13	obl	13:obl	Entity=(CESSCASTAA200001148633c10-place-1-CorefType:ident,gstype:spec)
 17-18	al	_	_	_	_	_	_	_	_
-17	a	a	ADP	spcms	_	19	case	19:case	_
+17	a	a	ADP	spcms	_	19	mark	19:case	_
 18	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	19:nsubj	_
 19-20	descubrirse	_	_	_	_	_	_	_	_
 19	descubrir	descubrir	VERB	vmn0000	VerbForm=Inf	11	advcl	11:advcl	ArgTem=argM:tmp
@@ -24635,7 +24635,7 @@
 17	de	de	ADP	sps00	_	18	case	18:case	_
 18	drogas	droga	NOUN	ncfp000	Gender=Fem|Number=Plur	16	nmod	16:nmod	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen)NOCOREF:Gen)NOCOREF:Gen)NOCOREF:Gen)
 19-20	al	_	_	_	_	_	_	_	_
-19	a	a	ADP	spcms	_	21	case	21:case	_
+19	a	a	ADP	spcms	_	21	mark	21:case	_
 20	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	21:nsubj	_
 21	dar	dar	VERB	vmn0000	VerbForm=Inf	7	advcl	7:advcl	ArgTem=argM:tmp
 22	positivo	positivo	ADJ	aq0ms0	Gender=Masc|Number=Sing	21	obj	21:obj	ArgTem=argL:
@@ -25029,7 +25029,7 @@
 28	fútbol	fútbol	NOUN	ncms000	Gender=Masc|Number=Sing	23	nmod	23:nmod	Entity=(CESSCASTAA2000022822816c8--1-gstype:gen,HomoDD
 29	chileno	chileno	ADJ	aq0ms0	Gender=Masc|Number=Sing	28	amod	28:amod	Entity=CESSCASTAA2000022822816c8)CESSCASTAA2000022822816c7)CESSCASTAA2000022822816c12)
 30-31	al	_	_	_	_	_	_	_	_
-30	a	a	ADP	spcms	_	32	case	32:case	_
+30	a	a	ADP	spcms	_	32	mark	32:case	_
 31	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	32	nsubj	32:nsubj	_
 32	vencer	vencer	VERB	vmn0000	VerbForm=Inf	16	advcl	16:advcl	ArgTem=argM:tmp|Entity=(CESSCASTAA2000022822816c6--1
 33-34	al	_	_	_	_	_	_	_	_
@@ -25440,7 +25440,7 @@
 17	triunfo	triunfo	NOUN	ncms000	Gender=Masc|Number=Sing	14	obj	14:obj	ArgTem=arg1:pat
 18	consecutivo	consecutivo	ADJ	aq0ms0	Gender=Masc|Number=Sing	17	amod	17:amod	Entity=NOCOREF:Gen)
 19-20	al	_	_	_	_	_	_	_	_
-19	a	a	ADP	spcms	_	21	case	21:case	_
+19	a	a	ADP	spcms	_	21	mark	21:case	_
 20	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	21:nsubj	_
 21	derrotar	derrotar	VERB	vmn0000	VerbForm=Inf	14	advcl	14:advcl	ArgTem=argM:tmp
 22	a	a	ADP	sps00	_	23	case	23:case	_
@@ -25683,7 +25683,7 @@
 38	apertura	apertura	NOUN	ncfs000	Gender=Fem|Number=Sing	36	nmod	36:nmod	SpaceAfter=No|Entity=CESSCASTAA2000022822816c7)NOCOREF:Gen)CESSCASTAA2000022822816c28)
 39	,	,	PUNCT	fc	PunctType=Comm	42	punct	42:punct	_
 40-41	al	_	_	_	_	_	_	_	_
-40	a	a	ADP	spcms	_	42	case	42:case	_
+40	a	a	ADP	spcms	_	42	mark	42:case	_
 41	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	42	nsubj	42:nsubj	_
 42	vencer	vencer	VERB	vmn0000	VerbForm=Inf	13	advcl	13:advcl	ArgTem=argM:tmp
 43-44	al	_	_	_	_	_	_	_	_
@@ -25763,7 +25763,7 @@
 25	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	det	26:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTAA2000022822816c31-organization-1-CorefType:ident,gstype:spec)
 26	seguidores	seguidor	NOUN	ncmp000	Gender=Masc|Number=Plur	21	obj	21:obj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 27-28	al	_	_	_	_	_	_	_	_
-27	a	a	ADP	spcms	_	29	case	29:case	_
+27	a	a	ADP	spcms	_	29	mark	29:case	_
 28	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	29	nsubj	29:nsubj	_
 29	lograr	lograr	VERB	vmn0000	VerbForm=Inf	21	advcl	21:advcl	ArgTem=argM:tmp
 30	vencer	vencer	VERB	vmn0000	VerbForm=Inf	29	xcomp	29:xcomp	ArgTem=arg1:pat
@@ -25816,7 +25816,7 @@
 21	de	de	ADP	sps00	_	22	case	22:case	_
 22	apertura	apertura	NOUN	ncfs000	Gender=Fem|Number=Sing	20	nmod	20:nmod	Entity=CESSCASTAA2000022822816c7)NOCOREF:Gen)
 23-24	al	_	_	_	_	_	_	_	_
-23	a	a	ADP	spcms	_	25	case	25:case	_
+23	a	a	ADP	spcms	_	25	mark	25:case	_
 24	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	nsubj	25:nsubj	_
 25	golear	golear	VERB	vmn0000	VerbForm=Inf	14	advcl	14:advcl	ArgTem=argM:tmp
 26	por	por	ADP	sps00	_	27	case	27:case	_
@@ -27592,7 +27592,7 @@
 9	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	10:det	Entity=(CESSCASTAA200003108396c2-organization-2-CorefType:ident,gstype:spec(CESSCASTAA200003108396c3-person-1-CorefType:ident,gstype:spec)
 10	Gobierno	Gobierno	PROPN	np00000	_	7	obj	7:obj	Entity=CESSCASTAA200003108396c2)CESSCASTAA200003108396c9)NOCOREF:Gen)
 11-12	al	_	_	_	_	_	_	_	_
-11	a	a	ADP	spcms	_	13	case	13:case	_
+11	a	a	ADP	spcms	_	13	mark	13:case	_
 12	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	13:nsubj	_
 13	quedar	quedar	VERB	vmn0000	VerbForm=Inf	2	advcl	2:advcl	ArgTem=argM:adv
 14	en	en	ADP	sps00	_	15	case	15:case	_
@@ -28391,7 +28391,7 @@
 6	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 7	que	que	PRON	pr0cn000	PronType=Rel	19	nsubj	19:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000032621333_hc38-organization-1-CorefType:ident,gstype:spec)
 8-9	al	_	_	_	_	_	_	_	_
-8	a	a	ADP	spcms	_	10	case	10:case	_
+8	a	a	ADP	spcms	_	10	mark	10:case	_
 9	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	10:nsubj	_
 10	concluir	concluir	VERB	vmn0000	VerbForm=Inf	19	advcl	19:advcl	ArgTem=argM:tmp
 11	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
@@ -28457,7 +28457,7 @@
 17	Copa	Copa	PROPN	np00000	_	12	nmod	12:nmod	MWE=Copa_Libertadores|MWEPOS=PROPN
 18	Libertadores	Libertadores	PROPN	_	_	17	flat	17:flat	Entity=CESSCASTAA200004074900c4)NOCOREF:Gen)NOCOREF:Gen)
 19-20	al	_	_	_	_	_	_	_	_
-19	a	a	ADP	spcms	_	21	case	21:case	_
+19	a	a	ADP	spcms	_	21	mark	21:case	_
 20	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	21:nsubj	_
 21	empatar	empatar	VERB	vmn0000	VerbForm=Inf	6	advcl	6:advcl	ArgTem=argM:tmp
 22	a	a	ADP	sps00	_	24	case	24:case	Entity=(CESSCASTAA200004074900csingleton1--3
@@ -28907,7 +28907,7 @@
 6	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	expl:pv	7:expl:pv	_
 7	lució	lucir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 8-9	al	_	_	_	_	_	_	_	_
-8	a	a	ADP	spcms	_	10	case	10:case	_
+8	a	a	ADP	spcms	_	10	mark	10:case	_
 9	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	10:nsubj	_
 10	desviar	desviar	VERB	vmn0000	VerbForm=Inf	7	advcl	7:advcl	ArgTem=argM:tmp
 11	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(CESSCASTAA200004074900c17--2-gstype:gen
@@ -29420,7 +29420,7 @@
 47	prensa	prensa	NOUN	ncfs000	Gender=Fem|Number=Sing	45	nmod	45:nmod	SpaceAfter=No|ArgTem=argL:|Entity=NOCOREF:Gen)
 48	,	,	PUNCT	fc	PunctType=Comm	52	punct	52:punct	_
 49-50	al	_	_	_	_	_	_	_	_
-49	a	a	ADP	spcms	_	52	case	52:case	_
+49	a	a	ADP	spcms	_	52	mark	52:case	_
 50	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	52	nsubj	52:nsubj	_
 51	ser	ser	AUX	vsn0000	VerbForm=Inf	52	aux	52:aux	_
 52	preguntado	preguntar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	advcl	40:advcl	ArgTem=argM:tmp
@@ -30075,7 +30075,7 @@
 29	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	30:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTAA2000052621460c15-organization-1-CorefType:ident,gstype:spec)
 30	credibilidad	credibilidad	NOUN	ncfs000	Gender=Fem|Number=Sing	27	obj	27:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 31-32	al	_	_	_	_	_	_	_	_
-31	a	a	ADP	spcms	_	35	case	35:case	_
+31	a	a	ADP	spcms	_	35	mark	35:case	_
 32	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	35	nsubj	35:nsubj	_
 33	haber	haber	AUX	van0000	VerbForm=Inf	35	aux	35:aux	_
 34	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	aux	35:aux	_
@@ -30864,7 +30864,7 @@
 27	que	que	SCONJ	cs	_	44	mark	44:mark	SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	44	punct	44:punct	_
 29-30	al	_	_	_	_	_	_	_	_
-29	a	a	ADP	spcms	_	31	case	31:case	_
+29	a	a	ADP	spcms	_	31	mark	31:case	_
 30	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	31	nsubj	31:nsubj	_
 31-32	enterarse	_	_	_	_	_	_	_	_
 31	enterar	enterar	VERB	vmn0000	VerbForm=Inf	44	advcl	44:advcl	ArgTem=argM:tmp
@@ -31758,7 +31758,7 @@
 26	pista	pista	NOUN	ncfs000	Gender=Fem|Number=Sing	18	obl	18:obl	ArgTem=argM:loc
 27	14	14	NUM	_	NumForm=Digit|NumType=Card	26	nummod	26:nummod	Entity=NOCOREF:Gen)
 28-29	al	_	_	_	_	_	_	_	_
-28	a	a	ADP	spcms	_	30	case	30:case	_
+28	a	a	ADP	spcms	_	30	mark	30:case	_
 29	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	30	nsubj	30:nsubj	_
 30	saltar	saltar	VERB	vmn0000	VerbForm=Inf	18	advcl	18:advcl	ArgTem=argM:tmp
 31	y	y	CCONJ	cc	_	32	cc	32:cc	_
@@ -35827,7 +35827,7 @@
 12	liderato	liderato	NOUN	ncms000	Gender=Masc|Number=Sing	6	obj	6:obj	ArgTem=arg1:pat
 13	liguero	liguero	ADJ	aq0ms0	Gender=Masc|Number=Sing	12	amod	12:amod	Entity=NOCOREF:Gen)
 14-15	al	_	_	_	_	_	_	_	_
-14	a	a	ADP	spcms	_	16	case	16:case	_
+14	a	a	ADP	spcms	_	16	mark	16:case	_
 15	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	nsubj	16:nsubj	_
 16-17	imponerse	_	_	_	_	_	_	_	_
 16	imponer	imponer	VERB	vmn0000	VerbForm=Inf	5	advcl	5:advcl	ArgTem=argM:tmp
@@ -36123,7 +36123,7 @@
 34	a	a	ADP	sps00	_	35	case	35:case	_
 35	uno	uno	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	33	nmod	33:nmod	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen)CESSCASTAA2000102924092c23)
 36-37	al	_	_	_	_	_	_	_	_
-36	a	a	ADP	spcms	_	38	case	38:case	_
+36	a	a	ADP	spcms	_	38	mark	38:case	_
 37	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	_
 38	introducir	introducir	VERB	vmn0000	VerbForm=Inf	30	advcl	30:advcl	ArgTem=argM:tmp
 39	Cruchaga	Cruchaga	PROPN	np00000	_	38	nsubj	38:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000102924092c2-person-1-gstype:spec)
@@ -37856,7 +37856,7 @@
 9	partido	partido	NOUN	ncms000	Gender=Masc|Number=Sing	6	obl	6:obl	ArgTem=argM:adv
 10	sólido	sólido	ADJ	aq0ms0	Gender=Masc|Number=Sing	9	amod	9:amod	Entity=NOCOREF:Gen)
 11-12	al	_	_	_	_	_	_	_	_
-11	a	a	ADP	spcms	_	13	case	13:case	_
+11	a	a	ADP	spcms	_	13	mark	13:case	_
 12	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	13:nsubj	_
 13	conseguir	conseguir	VERB	vmn0000	VerbForm=Inf	6	advcl	6:advcl	ArgTem=argM:tmp
 14	24	24	NUM	_	NumForm=Digit|NumType=Card	15	nummod	15:nummod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec(NOCOREF:Spec.number-number-2-gstype:spec
@@ -37991,7 +37991,7 @@
 29	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	30:det	Entity=(CESSCASTAA200012074633c15-number-2-gstype:spec
 30	51	51	NUM	_	NumForm=Digit|NumType=Card	27	obl:arg	27:obl:arg	ArgTem=arg2:efi|Entity=CESSCASTAA200012074633c15)
 31-32	al	_	_	_	_	_	_	_	_
-31	a	a	ADP	spcms	_	33	case	33:case	_
+31	a	a	ADP	spcms	_	33	mark	33:case	_
 32	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	33:det	_
 33	finalizar	finalizar	VERB	vmn0000	VerbForm=Inf	27	advcl	27:advcl	ArgTem=argM:tmp
 34	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	35:det	Entity=(CESSCASTAA200012074633c2--2-CorefType:ident,gstype:gen
@@ -38007,7 +38007,7 @@
 44	de	de	ADP	sps00	_	45	case	45:case	_
 45	temporada	temporada	NOUN	ncfs000	Gender=Fem|Number=Sing	43	obl	43:obl	ArgTem=arg2:ext|Entity=(NOCOREF:Gen--1-gstype:gen)NOCOREF:Gen)
 46-47	al	_	_	_	_	_	_	_	_
-46	a	a	ADP	spcms	_	48	case	48:case	_
+46	a	a	ADP	spcms	_	48	mark	48:case	_
 47	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	48	nsubj	48:nsubj	_
 48	superar	superar	VERB	vmn0000	VerbForm=Inf	39	acl	39:acl	_
 49	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	50:det	Entity=(CESSCASTAA200012074633c16-number-2-gstype:spec
@@ -39406,7 +39406,7 @@
 13	inmediatamente	inmediatamente	ADV	rg	_	6	advmod	6:advmod	SpaceAfter=No|ArgTem=argM:tmp
 14	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
 15-16	al	_	_	_	_	_	_	_	_
-15	a	a	ADP	spcms	_	17	case	17:case	_
+15	a	a	ADP	spcms	_	17	mark	17:case	_
 16	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	nsubj	17:nsubj	_
 17	negociar	negociar	VERB	vmn0000	VerbForm=Inf	8	advcl	8:advcl	ArgTem=argM:tmp
 18	con	con	ADP	sps00	_	19	case	19:case	_
@@ -41275,7 +41275,7 @@
 39	Marfil	Marfil	PROPN	_	_	38	flat	38:flat	SpaceAfter=No|Entity=NOCOREF:Spec.person)CESSCASTP1999030137c10)
 40	,	,	PUNCT	fc	PunctType=Comm	43	punct	43:punct	_
 41-42	al	_	_	_	_	_	_	_	_
-41	a	a	ADP	spcms	_	43	case	43:case	_
+41	a	a	ADP	spcms	_	43	mark	43:case	_
 42	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	43:det	_
 43-44	estallarle	_	_	_	_	_	_	_	_
 43	estallar	estallar	VERB	vmn0000	VerbForm=Inf	30	advcl	30:advcl	ArgTem=argM:tmp|Entity=(CESSCASTP1999030137c13--1(CESSCASTP1999030137c10-person-1-CorefType:ident,gstype:spec
@@ -41589,7 +41589,7 @@
 37	día	día	NOUN	_	_	35	obl	35:obl	MWE=día_13|MWEPOS=NOUN|ArgTem=argM:tmp
 38	13	13	NUM	_	NumForm=Digit|NumType=Card	37	compound	37:compound	Entity=NOCOREF:Spec.date)
 39-40	al	_	_	_	_	_	_	_	_
-39	a	a	ADP	spcms	_	41	case	41:case	_
+39	a	a	ADP	spcms	_	41	mark	41:case	_
 40	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	41	nsubj	41:nsubj	_
 41	manipular	manipular	VERB	vmn0000	VerbForm=Inf	35	advcl	35:advcl	ArgTem=argM:tmp
 42	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	43:det	Entity=(CESSCASTP1999030137c23--2-gstype:gen
@@ -42392,7 +42392,7 @@
 13	negocio	negocio	NOUN	ncms000	Gender=Masc|Number=Sing	11	nmod	11:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)
 14	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
 15-16	al	_	_	_	_	_	_	_	_
-15	a	a	ADP	spcms	_	17	case	17:case	_
+15	a	a	ADP	spcms	_	17	mark	17:case	_
 16	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	nsubj	17:nsubj	_
 17	aumentar	aumentar	VERB	vmn0000	VerbForm=Inf	8	advcl	8:advcl	ArgTem=argM:cau
 18	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	19:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -42691,7 +42691,7 @@
 10	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	11:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP1999060149_ac1-person-1-CorefType:ident,gstype:spec)
 11	discurso	discurso	NOUN	ncms000	Gender=Masc|Number=Sing	9	obj	9:obj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 12-13	al	_	_	_	_	_	_	_	_
-12	a	a	ADP	spcms	_	14	case	14:case	_
+12	a	a	ADP	spcms	_	14	mark	14:case	_
 13	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	14:nsubj	_
 14	introducir	introducir	VERB	vmn0000	VerbForm=Inf	9	advcl	9:advcl	ArgTem=argM:adv
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -45666,7 +45666,7 @@
 28	Béjar	Béjar	PROPN	np00000	_	26	nmod	26:nmod	SpaceAfter=No|Entity=(CESSCASTP1999090268c1-person-1-CorefType:ident,gstype:spec)CESSCASTP1999090268c11)NOCOREF:Gen)
 29	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
 30-31	al	_	_	_	_	_	_	_	_
-30	a	a	ADP	spcms	_	32	case	32:case	_
+30	a	a	ADP	spcms	_	32	mark	32:case	_
 31	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	32	nsubj	32:nsubj	_
 32	considerar	considerar	VERB	vmn0000	VerbForm=Inf	6	advcl	6:advcl	ArgTem=argM:cau
 33	que	que	SCONJ	cs	_	34	mark	34:mark	_
@@ -48629,7 +48629,7 @@
 12	Constitucional	Constitucional	PROPN	_	_	11	flat	11:flat	SpaceAfter=No|Entity=NOCOREF:Spec.organization)NOCOREF:Gen)
 13	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
 14-15	al	_	_	_	_	_	_	_	_
-14	a	a	ADP	spcms	_	16	case	16:case	_
+14	a	a	ADP	spcms	_	16	mark	16:case	_
 15	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	nsubj	16:nsubj	_
 16	considerar	considerar	VERB	vmn0000	VerbForm=Inf	3	advcl	3:advcl	ArgTem=argM:cau
 17	compatible	compatible	ADJ	aq0cs0	Number=Sing	16	obj	16:obj	ArgTem=arg2:atr
@@ -49920,7 +49920,7 @@
 10	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	3	obl	3:obl	SpaceAfter=No|ArgTem=argM:adv
 11	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
 12-13	al	_	_	_	_	_	_	_	_
-12	a	a	ADP	spcms	_	15	case	15:case	_
+12	a	a	ADP	spcms	_	15	mark	15:case	_
 13	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	15:nsubj	_
 14	ser	ser	AUX	vsn0000	VerbForm=Inf	15	aux	15:aux	_
 15	embestido	embestir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	3:advcl	ArgTem=argM:cau
@@ -52658,7 +52658,7 @@
 44	"	"	PUNCT	fe	PunctType=Quot	41	punct	41:punct	SpaceAfter=No|Entity=NOCOREF:Gen)
 45	,	,	PUNCT	fc	PunctType=Comm	50	punct	50:punct	_
 46-47	al	_	_	_	_	_	_	_	_
-46	a	a	ADP	spcms	_	50	case	50:case	_
+46	a	a	ADP	spcms	_	50	mark	50:case	_
 47	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	50:det	_
 48-49	haberse	_	_	_	_	_	_	_	_
 48	haber	haber	AUX	van0000	VerbForm=Inf	50	aux	50:aux	_
@@ -52823,7 +52823,7 @@
 # orig_file_sentence 017#75
 1	"	"	PUNCT	fe	PunctType=Quot	13	punct	13:punct	SpaceAfter=No
 2-3	Al	_	_	_	_	_	_	_	_
-2	A	a	ADP	spcms	_	4	case	4:case	_
+2	A	a	ADP	spcms	_	4	mark	4:case	_
 3	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	4:nsubj	_
 4-5	votarse	_	_	_	_	_	_	_	_
 4	votar	votar	VERB	vmn0000	VerbForm=Inf	13	xcomp	13:xcomp	Entity=(CESSCASTP2000070193c9--1
@@ -53331,7 +53331,7 @@
 21	Jospin	Jospin	PROPN	_	_	20	flat	20:flat	SpaceAfter=No|Entity=CESSCASTP2000080226c11)CESSCASTP2000080226c10)
 22	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 23-24	al	_	_	_	_	_	_	_	_
-23	a	a	ADP	spcms	_	25	case	25:case	_
+23	a	a	ADP	spcms	_	25	mark	25:case	_
 24	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	_
 25	afirmar	afirmar	VERB	vmn0000	VerbForm=Inf	10	advcl	10:advcl	ArgTem=argM:adv
 26	que	que	SCONJ	cs	_	25	mark	25:mark	_
@@ -53740,7 +53740,7 @@
 7	de	de	ADP	sps00	_	8	case	8:case	_
 8	Chirac	Chirac	PROPN	np00000	_	6	nmod	6:nmod	ArgTem=arg0:agt|Entity=(CESSCASTP2000080226c1-person-1-CorefType:ident,gstype:spec)CESSCASTP2000080226c24)NOCOREF:Gen)
 9-10	al	_	_	_	_	_	_	_	_
-9	a	a	ADP	spcms	_	11	case	11:case	_
+9	a	a	ADP	spcms	_	11	mark	11:case	_
 10	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	11:nsubj	_
 11	afirmar	afirmar	VERB	vmn0000	VerbForm=Inf	6	acl	6:acl	SpaceAfter=No|ArgTem=argM:adv
 12	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
@@ -55333,7 +55333,7 @@
 3	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
 4	complicó	complicar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5-6	al	_	_	_	_	_	_	_	_
-5	a	a	ADP	spcms	_	7	case	7:case	_
+5	a	a	ADP	spcms	_	7	mark	7:case	_
 6	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	7:nsubj	_
 7-8	generarse	_	_	_	_	_	_	_	_
 7	generar	generar	VERB	vmn0000	VerbForm=Inf	4	advcl	4:advcl	ArgTem=argM:cau
@@ -58093,7 +58093,7 @@
 10	Miranda	Miranda	PROPN	_	_	9	flat	9:flat	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	Entity=CESSCASTP20010601143c12)CESSCASTP20010601143c12)
 12-13	al	_	_	_	_	_	_	_	_
-12	a	a	ADP	spcms	_	14	case	14:case	_
+12	a	a	ADP	spcms	_	14	mark	14:case	_
 13	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	14:nsubj	_
 14	anunciar	anunciar	VERB	vmn0000	VerbForm=Inf	3	advcl	3:advcl	ArgTem=argM:adv
 15	que	que	SCONJ	cs	_	18	mark	18:mark	_
@@ -59528,7 +59528,7 @@
 2	EL	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	3:det	Entity=(NOCOREF:Gen--2-gstype:gen,Title
 3	TALLER	taller	NOUN	ncms000	Gender=Masc|Number=Sing	26	dep	26:dep	Entity=NOCOREF:Gen)
 4-5	Al	_	_	_	_	_	_	_	_
-4	A	a	ADP	spcms	_	6	case	6:case	_
+4	A	a	ADP	spcms	_	6	mark	6:case	_
 5	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	6:nsubj	_
 6-7	enterarse	_	_	_	_	_	_	_	_
 6	enterar	enterar	VERB	vmn0000	VerbForm=Inf	26	advcl	26:advcl	ArgTem=argM:tmp
@@ -59882,7 +59882,7 @@
 22	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 23	jornada	jornada	NOUN	ncfs000	Gender=Fem|Number=Sing	20	nmod	20:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)
 24-25	al	_	_	_	_	_	_	_	_
-24	a	a	ADP	spcms	_	26	case	26:case	_
+24	a	a	ADP	spcms	_	26	mark	26:case	_
 25	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	nsubj	26:nsubj	_
 26	derrotar	derrotar	VERB	vmn0000	VerbForm=Inf	18	advcl	18:advcl	ArgTem=argM:tmp
 27-28	al	_	_	_	_	_	_	_	_
@@ -61169,7 +61169,7 @@
 17	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	Entity=(NOCOREF:Gen--2-gstype:gen
 18	investigación	investigación	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	3:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 19-20	al	_	_	_	_	_	_	_	_
-19	a	a	ADP	spcms	_	21	case	21:case	_
+19	a	a	ADP	spcms	_	21	mark	21:case	_
 20	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	21:nsubj	_
 21	descubrir	descubrir	VERB	vmn0000	VerbForm=Inf	3	advcl	3:advcl	SpaceAfter=No|ArgTem=argM:tmp|Entity=(CESSCASTP2002030199c20--1
 22	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
@@ -61418,7 +61418,7 @@
 33	sufrieron	sufrir	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	ccomp	19:ccomp	ArgTem=arg1:pat
 34	heridas	herida	NOUN	ncfp000	Gender=Fem|Number=Plur	33	obj	33:obj	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen)
 35-36	al	_	_	_	_	_	_	_	_
-35	a	a	ADP	spcms	_	37	case	37:case	_
+35	a	a	ADP	spcms	_	37	mark	37:case	_
 36	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	37	nsubj	37:nsubj	_
 37	manipular	manipular	VERB	vmn0000	VerbForm=Inf	33	advcl	33:advcl	ArgTem=argM:tmp
 38	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	Entity=(CESSCASTP2002030199c4--2-CorefType:ident
