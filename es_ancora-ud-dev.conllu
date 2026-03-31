@@ -24573,8 +24573,8 @@
 35	estará	estar	AUX	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	36	cop	36:cop	_
 36	presente	presente	ADJ	aq0cs0	Number=Sing	31	acl	31:acl	ArgTem=arg2:atr
 37-38	al	_	_	_	_	_	_	_	_
-37	a	a	ADP	spcms	_	41	case	41:case	_
-38	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	41	nsubj	41:nsubj	_
+37	a	a	ADP	spcms	_	41	mark	41:mark	_
+38	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	41	det	41:det	_
 39	no	no	ADV	rn	Polarity=Neg	41	advmod	41:advmod	_
 40	haber	haber	AUX	van0000	VerbForm=Inf	41	aux	41:aux	_
 41	completado	completar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	advcl	36:advcl	ArgTem=argM:cau
@@ -54149,8 +54149,8 @@
 29	laborales	laboral	ADJ	aq0cp0	Number=Plur	28	amod	28:amod	SpaceAfter=No|Entity=NOCOREF:Gen)NOCOREF:Gen)
 30	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
 31-32	al	_	_	_	_	_	_	_	_
-31	a	a	ADP	spcms	_	34	case	34:case	_
-32	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	34	nsubj	34:nsubj	_
+31	a	a	ADP	spcms	_	34	mark	34:mark	_
+32	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	34	det	34:det	_
 33	no	no	ADV	rn	Polarity=Neg	34	advmod	34:advmod	_
 34	contar	contar	VERB	vmn0000	VerbForm=Inf	22	advcl	22:advcl	ArgTem=argM:adv
 35	con	con	ADP	sps00	_	36	case	36:case	_

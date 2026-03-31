@@ -118,7 +118,7 @@
     <dep name="appos">7516</dep>
     <dep name="aux">7260</dep>
     <dep name="aux:pass">15</dep>
-    <dep name="case">76309</dep>
+    <dep name="case">76295</dep>
     <dep name="cc">15275</dep>
     <dep name="ccomp">6086</dep>
     <dep name="compound">1572</dep>
@@ -127,7 +127,7 @@
     <dep name="csubj">1172</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">271</dep>
-    <dep name="det">84083</dep>
+    <dep name="det">84097</dep>
     <dep name="discourse">4</dep>
     <dep name="dislocated">3</dep>
     <dep name="expl">294</dep>
@@ -137,9 +137,9 @@
     <dep name="fixed">8167</dep>
     <dep name="flat">14436</dep>
     <dep name="list">21</dep>
-    <dep name="mark">19754</dep>
+    <dep name="mark">19768</dep>
     <dep name="nmod">39457</dep>
-    <dep name="nsubj">29944</dep>
+    <dep name="nsubj">29930</dep>
     <dep name="nsubj:outer">11</dep>
     <dep name="nsubj:pass">61</dep>
     <dep name="nummod">6005</dep>
