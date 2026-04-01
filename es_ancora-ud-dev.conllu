@@ -7363,7 +7363,7 @@
 5	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	ArgTem=arg1:pat
 6	motivos	motivo	NOUN	ncmp000	Gender=Masc|Number=Plur	5	obj	5:obj	ArgTem=arg2:atr
 7	para	para	ADP	sps00	_	6	nmod	6:nmod	_
-8	estar	estar	AUX	vmn0000	VerbForm=Inf	9	aux	9:aux	_
+8	estar	estar	AUX	vmn0000	VerbForm=Inf	9	cop	9:cop	_
 9	deprimido	deprimido	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	7	advmod	7:advmod	SpaceAfter=No|ArgTem=arg2:atr
 10	:	:	PUNCT	fd	PunctType=Colo	26	punct	26:punct	_
 11	-	-	PUNCT	fg	PunctType=Dash	26	punct	26:punct	_

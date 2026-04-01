@@ -47965,7 +47965,7 @@
 53	,	,	PUNCT	fc	PunctType=Comm	54	punct	54:punct	_
 54	además	además	ADV	sps00	ExtPos=ADV	63	advmod	63:advmod	MWE=además_de|MWEPOS=ADP
 55	de	de	ADP	_	_	54	fixed	54:fixed	_
-56	estar	estar	AUX	vmn0000	VerbForm=Inf	59	aux	59:aux	ArgTem=argM:adv
+56	estar	estar	AUX	vmn0000	VerbForm=Inf	59	cop	59:cop	ArgTem=argM:adv
 57	"	"	PUNCT	fe	PunctType=Quot	59	punct	59:punct	SpaceAfter=No
 58	muy	mucho	ADV	rg	_	59	advmod	59:advmod	ArgTem=argM:adv
 59	preocupado	preocupado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	54	advmod	54:advmod	SpaceAfter=No|ArgTem=arg2:atr
@@ -49564,7 +49564,7 @@
 20	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	21	obl:arg	21:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTP2000020235_dc3-person-1-CorefType:ident,gstype:spec)
 21	acusara	acusar	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	11:advcl	_
 22	de	de	ADP	sps00	_	21	obj	21:obj	_
-23	estar	estar	AUX	vmn0000	VerbForm=Inf	24	aux	24:aux	ArgTem=arg2:tem|Entity=(CESSCASTP2000020235_dc5--2
+23	estar	estar	AUX	vmn0000	VerbForm=Inf	24	cop	24:cop	ArgTem=arg2:tem|Entity=(CESSCASTP2000020235_dc5--2
 24	implicado	implicado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	22	advmod	22:advmod	ArgTem=arg2:atr
 25	en	en	ADP	sps00	_	27	case	27:case	_
 26	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -53015,7 +53015,7 @@
 30	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
 31	como	como	SCONJ	cs	_	34	mark	34:mark	_
 32	no	no	ADV	rn	Polarity=Neg	34	advmod	34:advmod	_
-33	estar	estar	AUX	vmn0000	VerbForm=Inf	34	aux	34:aux	_
+33	estar	estar	AUX	vmn0000	VerbForm=Inf	34	cop	34:cop	_
 34	matriculadas	matriculado	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	29	amod	29:amod	SpaceAfter=No|ArgTem=arg2:atr
 35	,	,	PUNCT	fc	PunctType=Comm	36	punct	36:punct	_
 36	carecer	carecer	VERB	vmn0000	VerbForm=Inf	34	advcl	34:advcl	_
