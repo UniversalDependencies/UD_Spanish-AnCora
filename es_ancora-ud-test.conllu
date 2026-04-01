@@ -9987,7 +9987,7 @@
 42	a	a	ADP	spcms	_	46	mark	46:mark	_
 43	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	46	det	46:det	_
 44	no	no	ADV	rn	Polarity=Neg	46	advmod	46:advmod	_
-45	ser	ser	AUX	vsn0000	VerbForm=Inf	46	aux	46:aux	_
+45	ser	ser	AUX	vsn0000	VerbForm=Inf	46	aux:pass	46:aux:pass	_
 46	renovado	renovar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	advcl	41:advcl	ArgTem=argM:adv
 47	pues	pues	SCONJ	cs	_	50	mark	50:mark	_
 47.1	_	_	PRON	p	_	_	_	49:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA200001031267c27--1-CorefType:ident,gstype:gen)
