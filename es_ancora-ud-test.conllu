@@ -9987,7 +9987,7 @@
 42	a	a	ADP	spcms	_	46	mark	46:mark	_
 43	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	46	det	46:det	_
 44	no	no	ADV	rn	Polarity=Neg	46	advmod	46:advmod	_
-45	ser	ser	AUX	vsn0000	VerbForm=Inf	46	aux	46:aux	_
+45	ser	ser	AUX	vsn0000	VerbForm=Inf	46	aux:pass	46:aux:pass	_
 46	renovado	renovar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	advcl	41:advcl	ArgTem=argM:adv
 47	pues	pues	SCONJ	cs	_	50	mark	50:mark	_
 47.1	_	_	PRON	p	_	_	_	49:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA200001031267c27--1-CorefType:ident,gstype:gen)
@@ -29422,7 +29422,7 @@
 49-50	al	_	_	_	_	_	_	_	_
 49	a	a	ADP	spcms	_	52	mark	52:mark	_
 50	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	52	det	52:det	_
-51	ser	ser	AUX	vsn0000	VerbForm=Inf	52	aux	52:aux	_
+51	ser	ser	AUX	vsn0000	VerbForm=Inf	52	aux:pass	52:aux:pass	_
 52	preguntado	preguntar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	advcl	40:advcl	ArgTem=argM:tmp
 53	por	por	ADP	sps00	_	55	case	55:case	_
 54	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	55	det	55:det	Entity=(CESSCASTAA2000042820809c5--2-gstype:gen,HomoDD
@@ -30078,7 +30078,7 @@
 31	a	a	ADP	spcms	_	35	mark	35:mark	_
 32	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	35	det	35:det	_
 33	haber	haber	AUX	van0000	VerbForm=Inf	35	aux	35:aux	_
-34	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	aux	35:aux	_
+34	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	aux:pass	35:aux:pass	_
 35	oído	oír	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	27:advcl	ArgTem=argM:tmp
 36	hoy	hoy	ADV	rg	_	35	advmod	35:advmod	ArgTem=argM:tmp
 37	por	por	ADP	sps00	_	39	case	39:case	_
@@ -49922,7 +49922,7 @@
 12-13	al	_	_	_	_	_	_	_	_
 12	a	a	ADP	spcms	_	15	mark	15:mark	_
 13	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	15:det	_
-14	ser	ser	AUX	vsn0000	VerbForm=Inf	15	aux	15:aux	_
+14	ser	ser	AUX	vsn0000	VerbForm=Inf	15	aux:pass	15:aux:pass	_
 15	embestido	embestir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	3:advcl	ArgTem=argM:cau
 16	de	de	ADP	rg	ExtPos=ADV	15	advmod	15:advmod	MWE=de_frente|MWEPOS=ADV|ArgTem=argM:mnr
 17	frente	frente	NOUN	_	_	16	fixed	16:fixed	_
