@@ -23865,7 +23865,7 @@
 29-30	al	_	_	_	_	_	_	_	_
 29	a	a	ADP	spcms	_	32	mark	32:mark	_
 30	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	32	det	32:det	_
-31	ser	ser	AUX	vsn0000	VerbForm=Inf	32	aux	32:aux	_
+31	ser	ser	AUX	vsn0000	VerbForm=Inf	32	aux:pass	32:aux:pass	_
 32	animado	animar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	18:advcl	ArgTem=argM:tmp
 33	por	por	ADP	sps00	_	35	case	35:case	_
 34	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	35:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
