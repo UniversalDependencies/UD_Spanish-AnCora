@@ -13948,7 +13948,7 @@
 20.1	_	_	PRON	p	_	_	_	21:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000041512000c1-person-1-CorefType:ident,gstype:spec)
 21	hizo	hacer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj	_
 22	especial	especial	ADJ	aq0cs0	Number=Sing	23	amod	23:amod	_
-23	hincapié	hincapié	NOUN	ncms000	Number=Sing|VerbForm=Fin	21	obj	21:obj	_
+23	hincapié	hincapié	NOUN	ncms000	Number=Sing	21	obj	21:obj	_
 24-25	al	_	_	_	_	_	_	_	_
 24	a	a	ADP	spcms	_	26	case	26:case	_
 25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	_
