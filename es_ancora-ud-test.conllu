@@ -2374,8 +2374,8 @@
 3	podemos	poder	AUX	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	decir	decir	VERB	vmn0000	VerbForm=Inf	1	advcl	1:advcl	SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
-6	ya	ya	ADV	rg	_	4	advmod	4:advmod	ArgTem=argM:adv
-7	que	que	SCONJ	cs	_	11	mark	11:mark	_
+6	ya	ya	ADV	rg	ExtPos=SCONJ	11	mark	11:mark	MWE=ya_que|MWEPOS=SCONJ
+7	que	que	SCONJ	cs	_	6	fixed	6:fixed	_
 8	él	él	PRON	pp3ms000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	ArgTem=arg1:tem
 9	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	ArgTem=arg1:pat
 10	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	Entity=(NOCOREF:Spec.person-person-2-gstype:spec
