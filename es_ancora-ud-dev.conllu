@@ -3816,7 +3816,7 @@
 # text = Unos cuantos estúpidos confundieron la gimnasia con la magnesia y cortaron la carrera con el pretexto de reivindicar no sé qué.
 # orig_file_sentence 002#9
 1	Unos	uno	DET	di0mp0	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	3	det	3:det	_
-2	cuantos	cuanto	DET	di0mp0	Gender=Masc|Number=Plur|NumType=Card|PronType=Int,Rel	3	det	3:det	_
+2	cuantos	cuanto	DET	di0mp0	Gender=Masc|Number=Plur|NumType=Card|PronType=Rel	3	det	3:det	_
 3	estúpidos	estúpido	NOUN	ncmp000	Gender=Masc|Number=Plur	4	nsubj	4:nsubj	ArgTem=arg0:agt
 4	confundieron	confundir	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	_
@@ -51921,7 +51921,7 @@
 9	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
 10	tras	tras	ADP	sps00	_	13	case	13:case	_
 11	unas	uno	DET	di0fp0	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	13	det	13:det	Entity=(NOCOREF:Gen--3-gstype:gen
-12	cuantas	cuanto	DET	di0fp0	Gender=Fem|Number=Plur|NumType=Card|PronType=Int,Rel	13	det	13:det	_
+12	cuantas	cuanto	DET	di0fp0	Gender=Fem|Number=Plur|NumType=Card|PronType=Rel	13	det	13:det	_
 13	ediciones	edición	NOUN	ncfp000	Gender=Fem|Number=Plur	26	obl	26:obl	ArgTem=argM:tmp
 14	sin	sin	ADP	rg	ExtPos=ADV	13	advmod	13:advmod	MWE=sin_pena_ni_gloria|MWEPOS=ADV
 15	pena	pena	NOUN	_	_	14	fixed	14:fixed	_

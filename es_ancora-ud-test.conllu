@@ -42144,7 +42144,7 @@
 # text = ¿Cuántos sindicalistas hay en el PP? ¿Y cuántos providas en las filas del PSC? ¿Y cuántos anticomunistas en Iniciativa?.
 # orig_file_sentence 012#70
 1	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	4	punct	4:punct	SpaceAfter=No
-2	Cuántos	cuánto	DET	dt0mp0	Gender=Masc|Number=Plur|NumType=Card|PronType=Int,Rel	3	det	3:det	_
+2	Cuántos	cuánto	DET	dt0mp0	Gender=Masc|Number=Plur|NumType=Card|PronType=Int	3	det	3:det	_
 3	sindicalistas	sindicalista	NOUN	nccp000	Number=Plur	4	obj	4:obj	ArgTem=arg1:tem
 4	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	en	en	ADP	sps00	_	7	case	7:case	_
@@ -42153,7 +42153,7 @@
 8	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	4	punct	4:punct	_
 9	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	4	punct	4:punct	SpaceAfter=No
 10	Y	y	CCONJ	cc	_	23	cc	23:cc	_
-11	cuántos	cuánto	DET	dt0mp0	Gender=Masc|Number=Plur|NumType=Card|PronType=Int,Rel	12	det	12:det	CxnElt=12:Interrogative-WHInfo-Direct.WHWord
+11	cuántos	cuánto	DET	dt0mp0	Gender=Masc|Number=Plur|NumType=Card|PronType=Int	12	det	12:det	CxnElt=12:Interrogative-WHInfo-Direct.WHWord
 12	providas	provida	NOUN	nc00000	_	4	obl	4:obl	Cxn=Interrogative-WHInfo-Direct|CxnElt=12:Interrogative-WHInfo-Direct.Clause
 13	en	en	ADP	sps00	_	15	case	15:case	_
 14	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	15:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -42165,7 +42165,7 @@
 19	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	12	punct	12:punct	_
 20	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	23	punct	23:punct	SpaceAfter=No
 21	Y	y	CCONJ	cc	_	23	cc	23:cc	_
-22	cuántos	cuánto	DET	dt0mp0	Gender=Masc|Number=Plur|NumType=Card|PronType=Int,Rel	23	det	23:det	_
+22	cuántos	cuánto	DET	dt0mp0	Gender=Masc|Number=Plur|NumType=Card|PronType=Int	23	det	23:det	_
 23	anticomunistas	anticomunista	NOUN	nccp000	Number=Plur	4	conj	4:conj	_
 24	en	en	ADP	sps00	_	25	case	25:case	_
 25	Iniciativa	Iniciativa	PROPN	np00000	_	23	nmod	23:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)|SpaceAfter=No
