@@ -9323,7 +9323,7 @@
 17	advirtió	advertir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 18	Arteaga	Arteaga	PROPN	np0000p	_	17	nsubj	17:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000021713959c14-person-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
-20	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	17	mark	17:mark	MWE=mientras_que|MWEPOS=SCONJ
+20	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	37	mark	37:mark	MWE=mientras_que|MWEPOS=SCONJ
 21	que	que	SCONJ	cs	_	20	fixed	20:fixed	_
 22	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	23:det	Entity=(CESSCASTA2000021713959c18-person-2-gstype:spec(CESSCASTA2000021713959c14-person-1-CorefType:ident,gstype:spec)
 23	compañero	compañero	NOUN	ncms000	Gender=Masc|Number=Sing	37	nsubj	37:nsubj	ArgTem=arg0:agt
