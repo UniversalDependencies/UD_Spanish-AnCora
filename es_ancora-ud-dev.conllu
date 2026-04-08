@@ -11480,7 +11480,7 @@
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTA2000031713968c4--2-CorefType:ident
 2	alivio	alivio	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	ArgTem=arg0:agt
 3	fiscal	fiscal	ADJ	aq0cs0	Number=Sing	2	amod	2:amod	ArgTem=arg1:tem|Entity=CESSCASTA2000031713968c4)
-4	beneficiará	beneficiar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	parataxis	22:parataxis	_
+4	beneficiará	beneficiar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 5	sobre	sobre	ADP	rg	_	4	obl:arg	4:obl:arg	MWE=sobre_todo|MWEPOS=ADV
 6	todo	todo	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	5	fixed	5:fixed	_
 7	a	a	ADP	sps00	_	5	case	5:case	_
@@ -11498,7 +11498,7 @@
 19	de	de	ADP	sps00	_	20	case	20:case	_
 20	izquierdas	izquierda	NOUN	ncfp000	Gender=Fem|Number=Plur	18	nmod	18:nmod	Entity=CESSCASTA2000031713968c17)|SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	Entity=NOCOREF:Gen)
-22	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	0	root	0:root	MWE=mientras_que|MWEPOS=CCONJ
+22	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	32	mark	32:mark	MWE=mientras_que|MWEPOS=CCONJ
 23	que	que	SCONJ	cs	_	22	fixed	22:fixed	_
 24	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 25	clases	clase	NOUN	ncfp000	Gender=Fem|Number=Plur	32	nsubj	32:nsubj	ArgTem=arg0:agt
@@ -11508,10 +11508,10 @@
 29	de	de	ADP	rg	ExtPos=ADV	32	advmod	32:advmod	MWE=de_momento|MWEPOS=ADV
 30	momento	momento	NOUN	_	_	29	fixed	29:fixed	SpaceAfter=No
 31	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
-32	esperar	esperar	VERB	vmn0000	VerbForm=Inf	22	parataxis	22:parataxis	SpaceAfter=No
+32	esperar	esperar	VERB	vmn0000	VerbForm=Inf	4	advcl	4:advcl	SpaceAfter=No
 33	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
 34	según	según	SCONJ	cs	_	35	mark	35:mark	_
-35	explicó	explicar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	advcl	22:advcl	_
+35	explicó	explicar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	4:advcl	_
 36	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	Entity=(CESSCASTA2000031713968c1-person-3-CorefType:ident,gstype:spec
 37	primer	primero	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	38	amod	38:amod	_
 38	ministro	ministro	NOUN	ncms000	Gender=Masc|Number=Sing	35	nsubj	35:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000031713968c1)
@@ -11530,7 +11530,7 @@
 51	millones	millón	NOUN	ncmp000	Gender=Masc|Number=Plur	48	obl:agent	48:obl:agent	ArgTem=arg0:agt
 52	de	de	ADP	sps00	_	53	case	53:case	_
 53	telespectadores	telespectador	NOUN	ncmp000	Gender=Masc|Number=Plur	51	nmod	51:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
-54	.	.	PUNCT	fp	PunctType=Peri	22	punct	22:punct	_
+54	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
 # sent_id = CESS-CAST-A-20000317-13968-s9
 # text = También cedió al envite lanzado ayer por los actores de la enseñanza pública con protestas masivas en toda Francia, al anunciar el desbloqueo "urgente" de 152,45 millones de euros y un plan plurianual para la gestión de los medios de la Educación nacional.

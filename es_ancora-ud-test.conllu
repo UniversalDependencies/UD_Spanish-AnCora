@@ -35077,7 +35077,7 @@
 10	uso	uso	NOUN	ncms000	Gender=Masc|Number=Sing	8	nmod	8:nmod	_
 11	automovilístico	automovilístico	ADJ	aq0ms0	Gender=Masc|Number=Sing	10	amod	10:amod	ArgTem=argM:fin|Entity=NOCOREF:Gen)NOCOREF:Gen)
 12	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	Entity=(CESSCASTAA2000102722739c12--2
-13	subido	subir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	parataxis	25:parataxis	Entity=CESSCASTAA2000102722739c12)
+13	subido	subir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	Entity=CESSCASTAA2000102722739c12)
 14	en	en	ADP	sps00	_	17	mark	17:mark	_
 15	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	17	det	17:det	Entity=(NOCOREF:Gen--3-gstype:gen
 16	que	que	PRON	pr0cn000	PronType=Rel	17	nsubj	17:nsubj	ArgTem=arg1:tem
@@ -35088,8 +35088,8 @@
 21	21,7	21,7	NUM	zp	NumForm=Digit|NumType=Card	13	obj	13:obj	MWE=21,7_por_ciento|MWEPOS=NUM|ArgTem=arg2:ext
 22	por	por	ADP	_	_	23	case	23:case	_
 23	ciento	ciento	NUM	_	NumForm=Word|NumType=Card	21	nmod	21:nmod	Entity=NOCOREF:Spec.number)|SpaceAfter=No
-24	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
-25	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	0	root	0:root	MWE=mientras_que|MWEPOS=CCONJ
+24	,	,	PUNCT	fc	PunctType=Comm	38	punct	38:punct	_
+25	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	38	mark	38:mark	MWE=mientras_que|MWEPOS=CCONJ
 26	que	que	SCONJ	cs	_	25	fixed	25:fixed	_
 27	el	el	DET	da0ms0	Gender=Masc|Number=Sing|PronType=Dem	38	nsubj	38:nsubj	Entity=(NOCOREF:Gen--1-gstype:gen
 28	de	de	ADP	sps00	_	27	case	27:case	_
@@ -35102,7 +35102,7 @@
 35	octanos	octano	NOUN	ncmp000	Gender=Masc|Number=Plur	32	nmod	32:nmod	Entity=NOCOREF:Spec.number)NOCOREF:Gen)NOCOREF:Gen)
 36	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	38	obj	38:obj	ArgTem=arg1:pat|Entity=(CESSCASTAA2000102722739c12--1-CorefType:dx.type)
 37	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	38:aux	_
-38	hecho	hacer	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	parataxis	25:parataxis	_
+38	hecho	hacer	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	13:advcl	_
 39	en	en	ADP	sps00	_	41	case	41:case	_
 40	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	41:det	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 41	16	16	NUM	zp	NumForm=Digit|NumType=Card	38	obl	38:obl	MWE=16_por_ciento|MWEPOS=NUM|ArgTem=argM:ext
@@ -35121,11 +35121,11 @@
 54	ciento	ciento	NUM	_	NumForm=Word|NumType=Card	52	nmod	52:nmod	Entity=NOCOREF:Spec.number)|SpaceAfter=No
 55	,	,	PUNCT	fc	PunctType=Comm	57	punct	57:punct	_
 56	según	según	ADP	sps00	_	57	case	57:case	_
-57	datos	dato	NOUN	ncmp000	Gender=Masc|Number=Plur	25	obl	25:obl	Entity=(NOCOREF:Gen--1-gstype:gen
+57	datos	dato	NOUN	ncmp000	Gender=Masc|Number=Plur	13	obl	13:obl	Entity=(NOCOREF:Gen--1-gstype:gen
 58	elaborados	elaborado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	57	amod	57:amod	_
 59	por	por	ADP	sps00	_	60	case	60:case	_
 60	EFE	EFE	PROPN	np00000	_	58	obl:agent	58:obl:agent	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)NOCOREF:Gen)|SpaceAfter=No
-61	.	.	PUNCT	fp	PunctType=Peri	25	punct	25:punct	_
+61	.	.	PUNCT	fp	PunctType=Peri	13	punct	13:punct	_
 
 # sent_id = CESS-CAST-AA-20001027-22739-s2
 # text = Repsol YPF, principal petrolera que opera en España con una cuota de mercado del 45 por ciento, aplicó, a las 0:00 horas de hoy, una subida de 4 pesetas en todos sus carburantes que ha situado el precio máximo de su gasóleo de automoción en las 128,9 pesetas, el de la eurosúper en las 144,9 pesetas y el de la gasolina súper en las 154,9 pesetas.
