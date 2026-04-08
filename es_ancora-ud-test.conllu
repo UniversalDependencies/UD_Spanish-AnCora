@@ -3590,7 +3590,7 @@
 13	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	14:det	_
 14	virus	virus	NOUN	ncmn000	Gender=Masc	16	nsubj	16:nsubj	ArgTem=arg0:agt
 15	estén	estar	AUX	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	16:aux	_
-16	compuestos	compuesto	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	csubj	11:csubj	ArgTem=arg1:tem
+16	compuestos	componer	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	csubj	11:csubj	ArgTem=arg1:tem
 17	por	por	ADP	sps00	_	20	case	20:case	_
 18	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	20:det	_
 19	mismos	mismo	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Dem	20	det	20:det	_
@@ -16526,7 +16526,7 @@
 22	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	23	nummod	23:nummod	Entity=(CESSCASTA2000092015595c16--2-gstype:gen
 23	oros	oro	NOUN	ncmp000	Gender=Masc|Number=Plur	20	nmod	20:nmod	ArgTem=arg1:pat|SpaceAfter=No
 24	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
-25	incluido	incluido	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	23:acl	_
+25	incluido	incluir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	23:acl	_
 26	el	el	DET	da0ms0	Gender=Masc|Number=Sing|PronType=Dem	25	nsubj	25:nsubj	Entity=(NOCOREF:Gen--1-gstype:gen
 27	de	de	ADP	sps00	_	26	case	26:case	_
 28	longitud	longitud	NOUN	ncfs000	Gender=Fem|Number=Sing	26	nsubj	26:nsubj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|SpaceAfter=No
@@ -24043,14 +24043,14 @@
 2	propio	propio	ADJ	aq0ms0	Gender=Masc|Number=Sing	3	amod	3:amod	_
 3	Calero	Calero	PROPN	np00000	_	4	nsubj	4:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA2000022420351c2)
 4	reconoció	reconocer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-5	que	que	SCONJ	cs	_	9	mark	9:mark	_
+5	que	que	SCONJ	cs	_	10	mark	10:mark	_
 6	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	7:det	Entity=(CESSCASTAA2000022420351c3-organization-2-CorefType:ident,gstype:spec(CESSCASTAA2000022420351c2-person-1-CorefType:ident,gstype:spec)
-7	equipo	equipo	NOUN	ncms000	Gender=Masc|Number=Sing	9	nsubj	9:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA2000022420351c3)
-8	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	SpaceAfter=No
-9	la	el	DET	vmii3s0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	ccomp	4:ccomp	MWE=la_sacó_barata|MWEPOS=VERB|ArgTem=arg1:pat
-10	sacó	barata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	case	11:case	_
-11	barata	_	NOUN	_	Gender=Fem|Number=Sing	9	compound	9:compound	SpaceAfter=No
-12	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	SpaceAfter=No
+7	equipo	equipo	NOUN	ncms000	Gender=Masc|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA2000022420351c3)
+8	"	"	PUNCT	fe	PunctType=Quot	10	punct	10:punct	SpaceAfter=No
+9	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	obj	10:obj	MWE=la_sacó_barata|MWEPOS=VERB|ArgTem=arg1:pat
+10	sacó	sacar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	4:ccomp	_
+11	barata	barato	ADJ	aq0fs0	Gender=Fem|Number=Sing	10	advcl	10:advcl	SpaceAfter=No
+12	"	"	PUNCT	fe	PunctType=Quot	10	punct	10:punct	SpaceAfter=No
 13	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
 # sent_id = CESS-CAST-AA-20000224-20351-s3A
@@ -24085,12 +24085,12 @@
 24	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 24.1	_	_	PRON	p	_	_	_	25:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000022420351c2-person-1-CorefType:ident,gstype:spec)
 25	creo	creer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl	_
-26	que	que	SCONJ	cs	_	27	mark	27:mark	_
-26.1	_	_	PRON	p	_	_	_	27:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000022420351c3-organization-1-CorefType:ident,gstype:spec)
-27	la	el	DET	vmis1p0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	ccomp	25:ccomp	MWE=la_hemos_sacado_barata|MWEPOS=VERB|ArgTem=arg1:pat
-28	hemos	barata	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	27	compound	27:compound	_
-29	sacado	_	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	27	compound	27:compound	_
-30	barata	_	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	27	compound	27:compound	SpaceAfter=No
+26	que	que	SCONJ	cs	_	29	mark	29:mark	_
+26.1	_	_	PRON	p	_	_	_	29:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000022420351c3-organization-1-CorefType:ident,gstype:spec)
+27	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	obj	29:obj	MWE=la_hemos_sacado_barata|MWEPOS=VERB|ArgTem=arg1:pat
+28	hemos	haber	AUX	vmis1p0	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	29	aux	29:aux	_
+29	sacado	sacar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	ccomp	25:ccomp	_
+30	barata	barato	ADJ	aq0fs0	Gender=Fem|Number=Sing	29	advcl	29:advcl	SpaceAfter=No
 31	,	,	PUNCT	fc	PunctType=Comm	38	punct	38:punct	Entity=(CESSCASTAA2000022420351c4--8
 32	porque	porque	SCONJ	cs	_	38	mark	38:mark	_
 33	era	ser	AUX	vsii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	cop	38:cop	ArgTem=argM:cau
@@ -34482,7 +34482,7 @@
 36	cuando	cuando	ADV	pr000000	PronType=Rel	39	advmod	39:advmod	ArgTem=argM:tmp|Entity=(CESSCASTAA2000092824050c1-time-1-CorefType:ident,gstype:spec)
 37	además	además	ADV	rg	_	39	advmod	39:advmod	_
 38	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	39	expl:pass	39:expl:pass	_
-39	refinanciarán	refinanciarán	VERB	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	34	acl:relcl	34:acl:relcl	_
+39	refinanciarán	refinanciar	VERB	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	34	acl:relcl	34:acl:relcl	_
 40	letras	letra	NOUN	ncfp000	Gender=Fem|Number=Plur	39	nsubj	39:nsubj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen
 41	emitidas	emitido	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	40	amod	40:amod	_
 42	en	en	ADP	sps00	_	43	case	43:case	_
@@ -59682,7 +59682,7 @@
 10	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 10.1	_	_	PRON	p	_	_	_	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20011202118c1-person-1-CorefType:ident,gstype:spec)
 11	me	yo	PRON	p010s000	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	obj	12:obj	_
-12	pongo	pongo	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+12	pongo	poner	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 13	a	a	ADP	sps00	_	15	case	15:case	_
 14	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	15:det	ArgTem=arg0:agt|Entity=(CESSCASTP20011202118c3-organization-1-CorefType:ident,gstype:spec)
 15	disposición	disposición	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=argL:|SpaceAfter=No
