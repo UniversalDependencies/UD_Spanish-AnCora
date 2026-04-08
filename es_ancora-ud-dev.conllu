@@ -9977,9 +9977,9 @@
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTA2000022016182c29--2-gstype:gen,HomoDD
 2	policía	policía	NOUN	nccs000	Number=Sing	3	nsubj	3:nsubj	ArgTem=arg1:tem|Entity=CESSCASTA2000022016182c29)
 3	hizo	hacer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MWE=hizo_acto_de_presencia|MWEPOS=VERB
-4	acto	acto	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	compound	3:compound	_
-5	de	de	ADP	_	_	3	compound	3:compound	_
-6	presencia	presencia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	compound	3:compound	_
+4	acto	acto	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	3:obj	_
+5	de	de	ADP	_	_	6	case	6:case	_
+6	presencia	presencia	NOUN	ncfs000	Gender=Fem|Number=Sing	4	nmod	4:nmod	_
 7	y	y	CCONJ	cc	_	8	cc	8:cc	_
 7.1	_	_	PRON	p	_	_	_	8:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000022016182c29--1-CorefType:ident,gstype:gen)
 8	detuvo	detener	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj	_
@@ -16231,9 +16231,9 @@
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 2	violencia	violencia	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nsubj	3:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 3	hizo	hacer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MWE=hizo_acto_de_presencia|MWEPOS=VERB
-4	acto	acto	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	compound	3:compound	_
-5	de	de	ADP	_	_	3	compound	3:compound	_
-6	presencia	presencia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	compound	3:compound	_
+4	acto	acto	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	3:obj	_
+5	de	de	ADP	_	_	6	case	6:case	_
+6	presencia	presencia	NOUN	ncfs000	Gender=Fem|Number=Sing	4	nmod	4:nmod	_
 7	en	en	ADP	sps00	_	9	case	9:case	_
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCASTA2000051611811c9--2-gstype:gen,HomoDD
 9	tramo	tramo	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	3:obl	ArgTem=argM:loc
@@ -21127,15 +21127,15 @@
 # orig_file_sentence 008#22
 1	EL	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTAA200002065003c24-organization-2-CorefType:ident,gstype:spec,Title
 2	RAYO	rayo	PROPN	np00000	_	3	nsubj	3:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA200002065003c24)
-3	PONE	pone	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MWE=PONE_FIN|MWEPOS=VERB
-4	FIN	fin	NOUN	_	Number=Sing	3	compound	3:compound	_
+3	PONE	poner	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MWE=PONE_FIN|MWEPOS=VERB
+4	FIN	fin	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	3:obj	_
 5	A	a	ADP	sps00	_	8	case	8:case	_
 6	SU	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	8:det	Entity=(CESSCASTAA200002065003c36--3-gstype:gen,Title(CESSCASTAA200002065003c24-organization-1-CorefType:ident,gstype:spec)
 7	MALA	mala	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	_
 8	RACHA	racha	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	3:obj	ArgTem=arg1:tem|Entity=CESSCASTAA200002065003c36)
 9	Y	y	CCONJ	cc	_	10	cc	10:cc	_
 9.1	_	_	PRON	p	_	_	_	10:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200002065003c24-organization-1-CorefType:ident,gstype:spec)
-10	AGRAVA	agrava	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj	_
+10	AGRAVA	agravar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj	_
 11	LA	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD,Title
 12	CRISIS	crisis	NOUN	ncf0000	Gender=Fem	10	obj	10:obj	ArgTem=arg1:pat
 13-14	DEL	_	_	_	_	_	_	_	_
@@ -21250,12 +21250,12 @@
 # text = HASSELBAINK MARCÓ DOS GOLES PERO ATLÉTICO EMPATÓ CON ZARAGOZA
 # orig_file_sentence 008#25
 1	HASSELBAINK	hasselbaink	PROPN	np00000	_	2	nsubj	2:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200002065003c28-person-1-gstype:spec,Title)
-2	MARCÓ	marcó	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+2	MARCÓ	marcar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	DOS	dos	NUM	dn00p0	Number=Plur|NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(CESSCASTAA200002065003c29--2-gstype:gen,Title
 4	GOLES	goles	NOUN	ncmp000	Gender=Masc|Number=Plur	2	obj	2:obj	ArgTem=arg1:pat|Entity=CESSCASTAA200002065003c29)
 5	PERO	pero	CCONJ	cc	_	7	cc	7:cc	_
 6	ATLÉTICO	atlético	PROPN	np00000	_	7	nsubj	7:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200002065003c27-organization-1-CorefType:ident,gstype:spec)
-7	EMPATÓ	empatÓ	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj	_
+7	EMPATÓ	empatar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj	_
 8	CON	con	ADP	sps00	_	9	case	9:case	_
 9	ZARAGOZA	zaragoza	PROPN	np00000	_	7	obl	7:obl	ArgTem=argM:adv|Entity=(CESSCASTAA200002065003c4-organization-1-CorefType:ident,gstype:spec)
 
@@ -21479,7 +21479,7 @@
 3	SOCIEDAD	sociedad	PROPN	_	_	2	flat	2:flat	Entity=CESSCASTAA200002065003c45)
 4	NO	no	ADV	rn	Polarity=Neg	6	advmod	6:advmod	_
 5	SE	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	obj	6:obj	_
-6	ALEJA	aleja	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+6	ALEJA	alejar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7-8	DEL	_	_	_	_	_	_	_	_
 7	DE	de	ADP	spcms	_	9	case	9:case	_
 8	EL	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	_
@@ -21768,7 +21768,7 @@
 # sent_id = CESS-CAST-AA-20000206-5003-s36
 # text = CONTINUA LA SEQUÍA DE GOLES DEL MÁLAGA EN LA ROSALEDA
 # orig_file_sentence 008#41
-1	CONTINUA	continua	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+1	CONTINUA	continuar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	LA	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD,Title
 3	SEQUÍA	sequía	NOUN	ncfs000	Gender=Fem|Number=Sing	1	nsubj	1:nsubj	ArgTem=arg1:tem
 4	DE	de	ADP	sps00	_	5	case	5:case	_
@@ -36576,11 +36576,11 @@
 9	coincidencia	coincidencia	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP1999060113c4_PLUS_CESSCASTP1999060113c5)
 10	para	para	ADP	sps00	_	11	mark	11:mark	_
 11	matar	matar	VERB	vmn0000	VerbForm=Inf	5	advcl	5:advcl	MWE=matar_dos_pájaros_de_un_tiro|MWEPOS=VERB|ArgTem=argM:fin
-12	dos	dos	NUM	_	NumForm=Word|NumType=Card	11	compound	11:compound	_
-13	pájaros	pájaros	VERB	_	VerbForm=Inf	11	compound	11:compound	_
-14	de	de	ADP	_	_	11	compound	11:compound	_
-15	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	compound	11:compound	_
-16	tiro	tiro	VERB	_	VerbForm=Inf	11	compound	11:compound	SpaceAfter=No
+12	dos	dos	NUM	_	NumForm=Word|NumType=Card	13	nummod	13:nummod	_
+13	pájaros	pájaro	NOUN	ncmp000	Gender=Masc|Number=Plur	11	obj	11:obj	_
+14	de	de	ADP	_	_	16	case	16:case	_
+15	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
+16	tiro	tiro	NOUN	ncms000	Gender=Masc|Number=Sing	11	obl	11:obl	SpaceAfter=No
 17	:	:	PUNCT	fd	PunctType=Colo	27	punct	27:punct	Entity=(CESSCASTP1999060113c7--11
 18	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	22:det	Entity=(CESSCASTP1999060113c4--5-gstype:gen,HomoDD
 19	escandalosos	escandaloso	NOUN	_	Gender=Masc|Number=Plur	22	nmod	22:nmod	_
@@ -56758,7 +56758,7 @@
 # orig_file_sentence 016#3
 1	LO	él	PRON	da00s0	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	det	3:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD,Title
 2	QUE	que	PRON	pr000000	PronType=Rel	3	obj	3:obj	ArgTem=arg1:pat
-3	DICE	dice	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	DICE	decir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	EL	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCASTP2001080157c6-organization-2-gstype:spec,Title
 5	SUPREMO	Supremo	PROPN	np00000	_	3	nsubj	3:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2001080157c6)NOCOREF:Gen)|SpaceAfter=No
 6	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
