@@ -18632,7 +18632,7 @@
 36	de	de	ADP	_	_	37	case	37:case	_
 37	Andalucía	Andalucía	PROPN	_	_	35	flat	35:flat	Entity=CESSCASTA2000072418485c5)
 38	en	en	ADP	sps00	ExtPos=ADP	41	case	41:case	MWE=en_cuanto_a|MWEPOS=ADP
-39	cuanto	cuanto	NOUN	_	_	38	fixed	38:fixed	_
+39	cuanto	cuanto	PRON	_	PronType=Rel	38	fixed	38:fixed	_
 40	a	a	ADP	_	_	38	fixed	38:fixed	_
 41	infraestructuras	infraestructura	NOUN	ncfp000	Gender=Fem|Number=Plur	32	nmod	32:nmod	Entity=(NOCOREF:Gen--1-gstype:gen
 42	de	de	ADP	sps00	_	43	case	43:case	_
@@ -20257,7 +20257,7 @@
 # text = En cuanto a Viajes Marsans, otra de las empresas del grupo Teinver, Pascual indicó que "seguimos en expansión, la cogimos hace muchos años bajo mínimos, cuando era la propietaria la Administración, y ahora estamos en el buen camino con más de 400 puntos de venta".
 # orig_file_sentence 005#52
 1	En	en	ADP	sps00	ExtPos=ADP	4	case	4:case	MWE=En_cuanto_a|MWEPOS=ADP
-2	cuanto	cuanto	NOUN	_	_	1	fixed	1:fixed	_
+2	cuanto	cuanto	PRON	_	PronType=Rel	1	fixed	1:fixed	_
 3	a	a	ADP	_	_	1	fixed	1:fixed	_
 4	Viajes	Viajes	PROPN	np0000o	_	17	obl	17:obl	MWE=Viajes_Marsans|MWEPOS=PROPN|Entity=(CESSCASTA200012031592c28-organization-1-gstype:spec
 5	Marsans	Marsans	PROPN	_	_	4	flat	4:flat	SpaceAfter=No
@@ -32352,7 +32352,7 @@
 # text = En cuanto a las infraestructuras, se apuesta por la red de carreteras básicas articuladas en torno a la A-49, que no se desdoblará o se convertirá en autovía por el Norte del parque de Doñana, aclaró la consejera.
 # orig_file_sentence 007#25
 1	En	en	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=En_cuanto_a|MWEPOS=ADP
-2	cuanto	cuanto	NOUN	_	_	1	fixed	1:fixed	_
+2	cuanto	cuanto	PRON	_	PronType=Rel	1	fixed	1:fixed	_
 3	a	a	ADP	_	_	1	fixed	1:fixed	_
 4	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 5	infraestructuras	infraestructura	NOUN	ncfp000	Gender=Fem|Number=Plur	8	obl	8:obl	Entity=NOCOREF:Gen)|SpaceAfter=No

@@ -22,10 +22,10 @@
     <tag name="CCONJ">15104</tag><!-- y, pero, o, e, ni, sino, mientras, i, u, bien -->
     <tag name="DET">84431</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, ojo -->
-    <tag name="NOUN">100535</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
+    <tag name="NOUN">100471</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
     <tag name="NUM">9175</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PART">154</tag><!-- no -->
-    <tag name="PRON">25190</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
+    <tag name="PRON">25254</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
     <tag name="PROPN">42389</tag><!-- gobierno, España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados -->
     <tag name="PUNCT">65625</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12468</tag><!-- que, como, si, porque, cuando, aunque, según, mientras, pues, donde -->
@@ -82,7 +82,7 @@
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">371</feat><!-- qué, quién, cuál, dónde, cuándo, cuáles, cuánto, cuántos, quiénes, cuánta -->
     <feat name="PronType" value="Neg" upos="DET,PRON">538</feat><!-- nada, nadie, ningún, ninguna, ninguno -->
     <feat name="PronType" value="Prs" upos="DET,PRON">17773</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9688</feat><!-- que, donde, quien, cuando, quienes, cual, cuyo, cuya, cuales, cuyos -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9752</feat><!-- que, donde, quien, cuando, quienes, cual, cuanto, cuyo, cuya, cuales -->
     <feat name="PronType" value="Tot" upos="DET,PRON">1550</feat><!-- todo, todos, cada, todas, toda -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">2272</feat><!-- ), ?, ! -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">2159</feat><!-- (, ¿, ¡ -->
@@ -110,44 +110,44 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
     <dep name="acl">10568</dep>
-    <dep name="acl:relcl">57</dep>
-    <dep name="advcl">8978</dep>
+    <dep name="acl:relcl">58</dep>
+    <dep name="advcl">8977</dep>
     <dep name="advmod">19259</dep>
     <dep name="amod">29477</dep>
-    <dep name="appos">7516</dep>
+    <dep name="appos">7517</dep>
     <dep name="aux">7231</dep>
     <dep name="aux:pass">24</dep>
     <dep name="case">76290</dep>
     <dep name="cc">15276</dep>
-    <dep name="ccomp">6086</dep>
+    <dep name="ccomp">6085</dep>
     <dep name="compound">1572</dep>
     <dep name="conj">16279</dep>
-    <dep name="cop">5575</dep>
+    <dep name="cop">5576</dep>
     <dep name="csubj">1172</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">270</dep>
-    <dep name="det">84104</dep>
+    <dep name="det">84103</dep>
     <dep name="discourse">4</dep>
     <dep name="dislocated">3</dep>
     <dep name="expl">294</dep>
     <dep name="expl:impers">356</dep>
     <dep name="expl:pass">2233</dep>
     <dep name="expl:pv">3212</dep>
-    <dep name="fixed">8179</dep>
+    <dep name="fixed">8180</dep>
     <dep name="flat">14436</dep>
     <dep name="list">21</dep>
-    <dep name="mark">19768</dep>
-    <dep name="nmod">39456</dep>
+    <dep name="mark">19767</dep>
+    <dep name="nmod">39455</dep>
     <dep name="nsubj">29910</dep>
     <dep name="nsubj:outer">11</dep>
     <dep name="nsubj:pass">61</dep>
     <dep name="nummod">6006</dep>
-    <dep name="obj">24693</dep>
-    <dep name="obl">24001</dep>
+    <dep name="obj">24692</dep>
+    <dep name="obl">24002</dep>
     <dep name="obl:agent">1283</dep>
     <dep name="obl:arg">7664</dep>
     <dep name="orphan">1</dep>
-    <dep name="parataxis">702</dep>
+    <dep name="parataxis">703</dep>
     <dep name="punct">65613</dep>
     <dep name="root">17662</dep>
     <dep name="vocative">1</dep>

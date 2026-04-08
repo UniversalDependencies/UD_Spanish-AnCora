@@ -2031,7 +2031,7 @@
 26	casi	casi	ADV	rg	_	27	advmod	27:advmod	_
 27	inevitable	inevitable	ADJ	aq0cs0	Number=Sing	19	nsubj	19:nsubj	ArgTem=arg2:atr
 28	en	en	ADP	cs	ExtPos=SCONJ	32	mark	32:mark	MWE=en_cuanto|MWEPOS=SCONJ
-29	cuanto	cuanto	NOUN	_	_	28	fixed	28:fixed	_
+29	cuanto	cuanto	PRON	_	PronType=Rel	28	fixed	28:fixed	_
 30	uno	uno	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	32	nsubj	32:nsubj	ArgTem=arg0:agt
 31	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	32	expl:pv	32:expl:pv	_
 32	acerca	acercar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	19:advcl	ArgTem=argM:tmp
@@ -6367,7 +6367,7 @@
 1	CiU	CiU	PROPN	np0000o	_	2	nsubj	2:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)
 2	quiere	querer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	tener	tener	VERB	vmn0000	VerbForm=Inf	2	xcomp	2:xcomp	ArgTem=arg1:pat
-4	cuanto	cuanto	NOUN	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=cuanto_antes|MWEPOS=ADV|ArgTem=argM:tmp
+4	cuanto	cuanto	PRON	rg	ExtPos=ADV|PronType=Rel	3	advmod	3:advmod	MWE=cuanto_antes|MWEPOS=ADV|ArgTem=argM:tmp
 5	antes	antes	ADV	_	_	4	fixed	4:fixed	_
 6	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	7:det	_
 7	policía	policía	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	3:obj	ArgTem=arg2:atr
@@ -26074,7 +26074,7 @@
 17	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
 18	y	y	CCONJ	cc	_	29	cc	29:cc	_
 19	en	en	ADP	cs	ExtPos=SCONJ	25	mark	25:mark	MWE=en_cuanto|MWEPOS=SCONJ
-20	cuanto	cuanto	NOUN	_	_	19	fixed	19:fixed	_
+20	cuanto	cuanto	PRON	_	PronType=Rel	19	fixed	19:fixed	_
 21	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	Entity=(CESSCASTAA2000022823424c1-other-2-CorefType:ident,gstype:spec
 22	Hispasat	Hispasat	PROPN	np00000	_	25	nsubj	25:nsubj	MWE=Hispasat_1C|MWEPOS=PROPN|ArgTem=arg1:tem
 23	1C	1C	PROPN	_	_	22	flat	22:flat	Entity=CESSCASTAA2000022823424c1)
@@ -29682,7 +29682,7 @@
 # text = En cuanto a las masas patrimoniales de negocio del grupo Caja Cantabria, los recursos de clientes a final de 1999 ascendieron a 390.195 millones de pesetas y los intermediados netos a 427.381.
 # orig_file_sentence 006#78
 1	En	en	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=En_cuanto_a|MWEPOS=ADP
-2	cuanto	cuanto	NOUN	_	_	1	fixed	1:fixed	_
+2	cuanto	cuanto	PRON	_	PronType=Rel	1	fixed	1:fixed	_
 3	a	a	ADP	_	_	1	fixed	1:fixed	_
 4	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 5	masas	masa	NOUN	ncfp000	Gender=Fem|Number=Plur	23	obl	23:obl	_
@@ -31769,7 +31769,7 @@
 35	de	de	ADP	sps00	_	36	case	36:case	_
 36	ella	él	PRON	pp3fs000	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obl	34:obl	Entity=(CESSCASTAA200007106482c17-person-1-CorefType:ident,gstype:spec)
 37	en	en	ADP	cs	ExtPos=SCONJ	39	mark	39:mark	MWE=en_cuanto|MWEPOS=SCONJ
-38	cuanto	cuanto	NOUN	_	_	37	fixed	37:fixed	_
+38	cuanto	cuanto	PRON	_	PronType=Rel	37	fixed	37:fixed	_
 38.1	_	_	PRON	p	_	_	_	39:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200007106482c16-person-1-CorefType:ident,gstype:spec)
 39	escuchó	escuchar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	advcl	30:advcl	ArgTem=argM:tmp
 40	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	41:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -31826,7 +31826,7 @@
 23	de	de	ADP	sps00	_	24	case	24:case	_
 24	Wimbledon	Wimbledon	PROPN	np00000	_	22	nmod	22:nmod	Entity=(CESSCASTAA200007106482c2-other-1-CorefType:ident,gstype:spec)NOCOREF:Gen)
 25	en	en	ADP	sps00	ExtPos=ADP	29	case	29:case	MWE=en_cuanto_a|MWEPOS=ADP
-26	cuanto	cuanto	NOUN	_	_	25	fixed	25:fixed	_
+26	cuanto	cuanto	PRON	_	PronType=Rel	25	fixed	25:fixed	_
 27	a	a	ADP	_	_	25	fixed	25:fixed	_
 28	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	29:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 29	designación	designación	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obl	16:obl	_
@@ -32322,7 +32322,7 @@
 # text = En cuanto al binomio Internet-turismo, Medel aseguró que los empresarios de todos los sectores se están adaptando a las nuevas tecnologías por la "alta competencia internacional", algo que afecta tanto al turismo como a las finanzas, apostilló.
 # orig_file_sentence 009#30
 1	En	en	ADP	spcms	ExtPos=ADP	5	case	5:case	MWE=En_cuanto_al|MWEPOS=ADP
-2	cuanto	cuanto	NOUN	_	_	1	fixed	1:fixed	_
+2	cuanto	cuanto	PRON	_	PronType=Rel	1	fixed	1:fixed	_
 3-4	al	_	_	_	_	_	_	_	_
 3	a	a	ADP	_	_	1	fixed	1:fixed	_
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
@@ -39971,7 +39971,7 @@
 5	primeros	primero	ADJ	ao0mp0	Gender=Masc|Number=Plur|NumType=Ord	6	amod	6:amod	_
 6	lugares	lugar	NOUN	ncmp000	Gender=Masc|Number=Plur	2	nmod	2:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)
 7	en	en	ADP	sps00	ExtPos=ADP	10	case	10:case	MWE=en_cuanto_a|MWEPOS=ADP
-8	cuanto	cuanto	NOUN	_	_	7	fixed	7:fixed	_
+8	cuanto	cuanto	PRON	_	PronType=Rel	7	fixed	7:fixed	_
 9	a	a	ADP	_	_	7	fixed	7:fixed	_
 10	número	número	NOUN	ncms000	Gender=Masc|Number=Sing	1	obl	1:obl	ArgTem=argM:adv|Entity=(NOCOREF:Gen--1-gstype:gen
 11	de	de	ADP	sps00	_	12	case	12:case	_
@@ -59693,7 +59693,7 @@
 # text = En cuanto al anuncio por parte del ayuntamiento, tras el publicitado robo, de que habían empezado hace dos meses los trámites para restaurarla, Oliveras dice: "Me da risa. A buenas horas se preocupan".
 # orig_file_sentence 011#12
 1	En	en	ADP	spcms	ExtPos=ADP	5	case	5:case	MWE=En_cuanto_al|MWEPOS=ADP
-2	cuanto	cuanto	NOUN	_	_	1	fixed	1:fixed	_
+2	cuanto	cuanto	PRON	_	PronType=Rel	1	fixed	1:fixed	_
 3-4	al	_	_	_	_	_	_	_	_
 3	a	a	ADP	_	_	1	fixed	1:fixed	_
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
