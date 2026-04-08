@@ -45944,19 +45944,19 @@
 5	confianza	confianza	PROPN	_	_	4	flat	4:flat	Entity=NOCOREF:Spec.other)NOCOREF:Gen)
 6	han	haber	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 7	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	8:cop	_
-8	fáciles	fácil	ADJ	aq0cp0	Number=Plur	12	parataxis	12:parataxis	ArgTem=arg2:atr
+8	fáciles	fácil	ADJ	aq0cp0	Number=Plur	0	root	0:root	ArgTem=arg2:atr
 9	de	de	ADP	sps00	_	10	mark	10:mark	_
 10	grabar	grabar	VERB	vmn0000	VerbForm=Inf	8	acl	8:acl	SpaceAfter=No
-11	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
-12	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	0	root	0:root	MWE=mientras_que|MWEPOS=CCONJ
+11	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
+12	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	16	mark	16:mark	MWE=mientras_que|MWEPOS=CCONJ
 13	que	que	SCONJ	cs	_	12	fixed	12:fixed	_
 14	Sentir	Sentir	PROPN	np00000	_	16	nsubj	16:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20000202135c9-other-1-gstype:spec)
 15	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	16	obl:arg	16:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTP20000202135c4-person-1-CorefType:ident,gstype:spec)
-16	costó	costar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	12:parataxis	_
+16	costó	costar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	8:advcl	_
 17	más	más	ADV	rg	Degree=Cmp	16	advmod	16:advmod	ArgTem=argM:adv
-18	-	-	PUNCT	fg	PunctType=Dash	12	punct	12:punct	_
-19	-	-	PUNCT	fg	PunctType=Dash	12	punct	12:punct	SpaceAfter=No
-20	.	.	PUNCT	fp	PunctType=Peri	12	punct	12:punct	_
+18	-	-	PUNCT	fg	PunctType=Dash	8	punct	8:punct	_
+19	-	-	PUNCT	fg	PunctType=Dash	8	punct	8:punct	SpaceAfter=No
+20	.	.	PUNCT	fp	PunctType=Peri	8	punct	8:punct	_
 
 # sent_id = CESS-CAST-P-20000202-135-s10
 # text = En esta canción aparece la firma de Pedro Ayres, de Madredeus.
