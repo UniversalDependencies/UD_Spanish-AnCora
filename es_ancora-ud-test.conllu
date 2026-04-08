@@ -34562,7 +34562,7 @@
 # orig_file_sentence 007#67
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTAA2000092824050c3-organization-2-CorefType:ident,gstype:spec
 2	Tesoro	Tesoro	PROPN	np00000	_	3	nsubj	3:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA2000092824050c3)
-3	concentrará	concentrar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	parataxis	15:parataxis	_
+3	concentrará	concentrar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCASTAA2000092824050c28--2-gstype:gen,HomoDD
 5	financiación	financiación	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	3:obj	ArgTem=arg1:pat
 6	neta	neto	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	amod	5:amod	_
@@ -34574,19 +34574,19 @@
 11	bonos	bono	NOUN	ncmp000	Gender=Masc|Number=Plur	3	obl	3:obl	ArgTem=arg2:loc|Entity=(CESSCASTAA2000092824050c25--1-gstype:gen
 12	y	y	CCONJ	cc	_	13	cc	13:cc	_
 13	obligaciones	obligación	NOUN	ncfp000	Gender=Fem|Number=Plur	11	conj	11:conj	Entity=CESSCASTAA2000092824050c25)|SpaceAfter=No
-14	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
-15	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	0	root	0:root	MWE=mientras_que|MWEPOS=CCONJ
+14	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
+15	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	22	mark	22:mark	MWE=mientras_que|MWEPOS=CCONJ
 16	que	que	SCONJ	cs	_	15	fixed	15:fixed	_
 17	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	18:det	Entity=(CESSCASTAA2000092824050c36--2-gstype:gen,HomoDD
 18	emisiones	emisión	NOUN	ncfp000	Gender=Fem|Number=Plur	22	nsubj	22:nsubj	ArgTem=arg1:tem
 19	en	en	ADP	sps00	_	20	case	20:case	_
 20	letras	letra	NOUN	ncfp000	Gender=Fem|Number=Plur	18	nmod	18:nmod	Entity=(NOCOREF:Gen--1-gstype:gen)CESSCASTAA2000092824050c36)
 21	serán	ser	AUX	vsif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	cop	22:cop	_
-22	inferiores	inferior	ADJ	aq0cp0	Number=Plur	15	parataxis	15:parataxis	ArgTem=arg2:atr
+22	inferiores	inferior	ADJ	aq0cp0	Number=Plur	3	advcl	3:advcl	ArgTem=arg2:atr
 23	a	a	ADP	sps00	_	25	case	25:case	_
 24	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 25	amortizaciones	amortización	NOUN	ncfp000	Gender=Fem|Number=Plur	22	nmod	22:nmod	Entity=NOCOREF:Gen)|SpaceAfter=No
-26	.	.	PUNCT	fp	PunctType=Peri	15	punct	15:punct	_
+26	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = CESS-CAST-AA-20000928-24050-s12
 # text = Dentro de ellos, los bonos a tres y cinco años acumularán mayor volumen que los de quince y treinta años, en tanto que las letras a doce y dieciocho meses serán más habituales que las de seis meses, que "tendrán un carácter más residual y volátil, dependiendo del día a día de la Tesorería del Estado".
@@ -35216,7 +35216,7 @@
 6	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 7	Repsol	Repsol	PROPN	np00000	_	9	nsubj	9:nsubj	MWE=Repsol_YPF|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(CESSCASTAA2000102722739c2-organization-1-CorefType:ident,gstype:spec
 8	YPF	YPF	PROPN	_	_	7	flat	7:flat	Entity=CESSCASTAA2000102722739c2)
-9	vendía	vender	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	parataxis	32:parataxis	_
+9	vendía	vender	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
 10	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	Entity=(CESSCASTAA2000102722739c13--2-CorefType:ident,gstype:gen,HomoDD
 11	gasoil	gasoil	NOUN	ncms000	Gender=Masc|Number=Sing	9	obj	9:obj	ArgTem=arg1:pat|Entity=CESSCASTAA2000102722739c13)
 12	a	a	ADP	sps00	_	17	case	17:case	_
@@ -35238,8 +35238,8 @@
 28	de	de	ADP	sps00	_	30	case	30:case	_
 29	23	23	NUM	_	NumForm=Digit|NumType=Card	30	nummod	30:nummod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 30	pesetas	peseta	NOUN	zm	Gender=Fem|Number=Plur	27	nmod	27:nmod	ArgTem=arg2:ext|Currency=Yes|Entity=NOCOREF:Spec.number)NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
-31	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
-32	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	0	root	0:root	MWE=mientras_que|MWEPOS=CCONJ
+31	,	,	PUNCT	fc	PunctType=Comm	42	punct	42:punct	_
+32	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	42	mark	42:mark	MWE=mientras_que|MWEPOS=CCONJ
 33	que	que	SCONJ	cs	_	32	fixed	32:fixed	_
 34	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	35:det	Entity=(CESSCASTAA2000102722739c7--2-CorefType:ident,gstype:gen
 35	máximo	máximo	ADJ	aq0ms0	Degree=Sup|Gender=Masc|Number=Sing	42	nsubj	42:nsubj	ArgTem=arg1:tem
@@ -35249,7 +35249,7 @@
 39	era	ser	AUX	vsii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	cop	42:cop	_
 40	de	de	ADP	sps00	_	42	case	42:case	_
 41	129,9	129.9	NUM	_	NumForm=Digit|NumType=Card	42	nummod	42:nummod	Entity=(CESSCASTAA2000102722739c8-number-2-gstype:spec
-42	pesetas	peseta	NOUN	zm	Gender=Fem|Number=Plur	32	parataxis	32:parataxis	ArgTem=arg2:atr|Currency=Yes|SpaceAfter=No
+42	pesetas	peseta	NOUN	zm	Gender=Fem|Number=Plur	9	advcl	9:advcl	ArgTem=arg2:atr|Currency=Yes|SpaceAfter=No
 43	,	,	PUNCT	fc	PunctType=Comm	44	punct	44:punct	Entity=(CESSCASTAA2000102722739c8-number-2-CorefType:pred.definit,gstype:spec
 44	26	26	NUM	_	NumForm=Digit|NumType=Card	42	appos	42:appos	_
 45	menos	menos	ADV	rg	Degree=Cmp	44	advmod	44:advmod	_
@@ -35272,7 +35272,7 @@
 62	pesetas	peseta	NOUN	zm	Gender=Fem|Number=Plur	64	obj	64:obj	Currency=Yes|Entity=NOCOREF:Spec.number)
 63	más	más	ADV	rg	Degree=Cmp	64	advmod	64:advmod	_
 64	barato	barato	ADJ	aq0ms0	Gender=Masc|Number=Sing	55	amod	55:amod	SpaceAfter=No
-65	.	.	PUNCT	fp	PunctType=Peri	32	punct	32:punct	_
+65	.	.	PUNCT	fp	PunctType=Peri	9	punct	9:punct	_
 
 # global.Entity = eid-etype-head-other
 # newdoc id = CESS-CAST-AA-20001029-23573
@@ -44806,15 +44806,15 @@
 1	Lamela	Lamela	PROPN	np00000	_	4	nsubj	4:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP19990701118c1-person-1-CorefType:ident,gstype:spec)
 2	ya	ya	ADV	rg	_	4	advmod	4:advmod	ArgTem=argM:tmp
 3	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
-4	saltado	saltar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	parataxis	12:parataxis	_
+4	saltado	saltar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 5	este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	6	det	6:det	Entity=(NOCOREF:Gen--2-gstype:gen
 6	año	año	NOUN	ncms000	Gender=Masc|Number=Sing	4	obl	4:obl	ArgTem=argM:tmp|Entity=NOCOREF:Gen)
 7	8,56	8.56	NUM	_	NumForm=Digit|NumType=Card	4	obl	4:obl	ArgTem=argM:ext|Entity=(NOCOREF:Spec.number-number-1-gstype:spec)
 8	en	en	ADP	sps00	_	9	case	9:case	_
 9	condiciones	condición	NOUN	ncfp000	Gender=Fem|Number=Plur	4	obl	4:obl	ArgTem=argM:adv
 10	legales	legal	ADJ	aq0cp0	Number=Plur	9	amod	9:amod	SpaceAfter=No
-11	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
-12	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	0	root	0:root	MWE=mientras_que|MWEPOS=CCONJ
+11	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
+12	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	20	mark	20:mark	MWE=mientras_que|MWEPOS=CCONJ
 13	que	que	SCONJ	cs	_	12	fixed	12:fixed	_
 14	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCASTP19990701118c3--2-CorefType:pred.definit
 15	líder	líder	NOUN	nccs000	Number=Sing	20	nsubj	20:nsubj	ArgTem=arg1:tem
@@ -44822,7 +44822,7 @@
 17	momentáneo	momentáneo	ADJ	aq0ms0	Gender=Masc|Number=Sing	15	amod	15:amod	Entity=CESSCASTP19990701118c3)
 18	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
 19	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	Entity=(CESSCASTP19990701118c3--2
-20	cubano	cubano	NOUN	ncms000	Gender=Masc|Number=Sing	12	parataxis	12:parataxis	ArgTem=arg2:atr
+20	cubano	cubano	NOUN	ncms000	Gender=Masc|Number=Sing	4	advcl	4:advcl	ArgTem=arg2:atr
 21	Iván	Iván	PROPN	np00000	_	20	appos	20:appos	MWE=Iván_Pedroso|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 22	Pedroso	Pedroso	PROPN	_	_	21	flat	21:flat	Entity=NOCOREF:Spec.person)|SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	Entity=(CESSCASTP19990701118c3--3-CorefType:pred.indefinit
@@ -44838,7 +44838,7 @@
 33	Sábado	Sábado	NOUN	_	_	29	obl	29:obl	ArgTem=argM:tmp|Entity=NOCOREF:Spec.date)
 34	en	en	ADP	sps00	_	35	case	35:case	_
 35	Padua	Padua	PROPN	np00000	_	29	obl	29:obl	ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)CESSCASTP19990701118c3)|SpaceAfter=No
-36	.	.	PUNCT	fp	PunctType=Peri	12	punct	12:punct	_
+36	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
 # global.Entity = eid-etype-head-other
 # newdoc id = CESS-CAST-P-19990901-36

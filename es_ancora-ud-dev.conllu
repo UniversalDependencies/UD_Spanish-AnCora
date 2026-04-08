@@ -13097,7 +13097,7 @@
 6	de	de	ADP	sps00	_	7	case	7:case	_
 7	Pauleta	Pauleta	PROPN	np0000p	_	3	nmod	3:nmod	ArgTem=arg1:tem|Entity=(CESSCASTA2000032318886c3-person-1-CorefType:ident,gstype:spec)NOCOREF:Gen)
 8	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	expl:pv	9:expl:pv	_
-9	unen	unir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	22:parataxis	SpaceAfter=No
+9	unen	unir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
 11	por	por	ADP	sps00	_	13	case	13:case	_
 12	idéntico	idéntico	ADJ	aq0ms0	Gender=Masc|Number=Sing	13	amod	13:amod	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -13109,8 +13109,8 @@
 18	Silva	Silva	PROPN	_	_	17	flat	17:flat	_
 19	y	y	CCONJ	cc	_	20	cc	20:cc	_
 20	Flavio	Flavio	PROPN	np0000p	_	17	conj	17:conj	Entity=NOCOREF:Gen)|SpaceAfter=No
-21	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
-22	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	0	root	0:root	MWE=mientras_que|MWEPOS=CCONJ
+21	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
+22	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	34	mark	34:mark	MWE=mientras_que|MWEPOS=CCONJ
 23	que	que	SCONJ	cs	_	22	fixed	22:fixed	_
 24	Djalminha	Djalminha	PROPN	np0000p	_	34	nsubj	34:nsubj	ArgTem=arg1:tem|SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
@@ -13122,10 +13122,10 @@
 31	Naybet	Naybet	PROPN	np0000p	_	24	conj	24:conj	SpaceAfter=No
 32	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 33	serán	ser	AUX	vsif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	34	cop	34:cop	_
-34	bajas	baja	NOUN	ncfp000	Gender=Fem|Number=Plur	22	parataxis	22:parataxis	ArgTem=arg2:atr
+34	bajas	baja	NOUN	ncfp000	Gender=Fem|Number=Plur	9	advcl	9:advcl	ArgTem=arg2:atr
 35	por	por	ADP	sps00	_	36	case	36:case	_
 36	lesión	lesión	NOUN	ncfs000	Gender=Fem|Number=Sing	34	nmod	34:nmod	Entity=(NOCOREF:Gen--1-gstype:gen)|SpaceAfter=No
-37	.	.	PUNCT	fp	PunctType=Peri	22	punct	22:punct	_
+37	.	.	PUNCT	fp	PunctType=Peri	9	punct	9:punct	_
 
 # global.Entity = eid-etype-head-other
 # newdoc id = CESS-CAST-A-20000416-12432
@@ -16194,7 +16194,7 @@
 5	campaña	campaña	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nmod	3:nmod	_
 6	electoral	electoral	ADJ	aq0cs0	Number=Sing	5	amod	5:amod	Entity=NOCOREF:Gen)
 7	estuvieron	estar	AUX	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
-8	impregnados	impregnado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	20	parataxis	20:parataxis	ArgTem=arg2:atr
+8	impregnados	impregnado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 9	de	de	ADP	sps00	_	10	case	10:case	_
 10	acusaciones	acusación	NOUN	ncfp000	Gender=Fem|Number=Plur	8	obl	8:obl	ArgTem=argM:adv|Entity=(NOCOREF:Gen--1-gstype:gen
 11	mutuas	mutuo	ADJ	aq0fp0	Gender=Fem|Number=Plur	10	amod	10:amod	_
@@ -16205,12 +16205,12 @@
 16	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	17	nummod	17:nummod	_
 17	candidatos	candidato	NOUN	ncmp000	Gender=Masc|Number=Plur	10	nmod	10:nmod	ArgTem=arg0:agt
 18	liberales	liberal	ADJ	aq0cp0	Number=Plur	17	amod	17:amod	Entity=CESSCASTA2000051611811c6_PLUS_CESSCASTA2000051611811c7)NOCOREF:Gen)|SpaceAfter=No
-19	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
-20	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	0	root	0:root	MWE=mientras_que|MWEPOS=CCONJ
+19	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
+20	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	24	mark	24:mark	MWE=mientras_que|MWEPOS=CCONJ
 21	que	que	SCONJ	cs	_	20	fixed	20:fixed	_
 22	Balaguer	Balaguer	PROPN	np0000p	_	24	nsubj	24:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000051611811c2-person-1-CorefType:ident,gstype:spec)
 23	apenas	apenas	ADV	rg	_	24	advmod	24:advmod	ArgTem=argM:adv
-24	dio	dar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	parataxis	20:parataxis	_
+24	dio	dar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	8:advcl	_
 25	media	medio	NUM	dn0fs0	Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	26	nummod	26:nummod	Entity=(NOCOREF:Gen--4-gstype:gen
 26	docena	docena	NOUN	ncfs000	Gender=Fem|Number=Sing	28	nmod	28:nmod	_
 27	de	de	ADP	sps00	_	26	case	26:case	_
@@ -16223,7 +16223,7 @@
 34	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	36:det	_
 35	quince	quince	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	36	nummod	36:nummod	_
 36	minutos	minuto	NOUN	ncmp000	Gender=Masc|Number=Plur	32	nmod	32:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
-37	.	.	PUNCT	fp	PunctType=Peri	20	punct	20:punct	_
+37	.	.	PUNCT	fp	PunctType=Peri	8	punct	8:punct	_
 
 # sent_id = CESS-CAST-A-20000516-11811-s6
 # text = La violencia hizo acto de presencia en el tramo final con la muerte a tiros de dos seguidores del PLD el pasado 29 de abril en Moca (norte), al cruzarse con una caravana propagandística del PRD.
@@ -28446,13 +28446,13 @@
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 6	jornada	jornada	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 7	estará	estar	AUX	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	cop	8:cop	_
-8	dedicada	dedicado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	14	parataxis	14:parataxis	ArgTem=arg2:atr
+8	dedicada	dedicado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 9	a	a	ADP	sps00	_	11	case	11:case	_
 10	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	11:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 11	entrenamientos	entrenamiento	NOUN	ncmp000	Gender=Masc|Number=Plur	8	obj	8:obj	ArgTem=arg2:tem
 12	libres	libre	ADJ	aq0cp0	Number=Plur	11	amod	11:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
-13	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	_
-14	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	0	root	0:root	MWE=mientras_que|MWEPOS=CCONJ
+13	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
+14	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	25	mark	25:mark	MWE=mientras_que|MWEPOS=CCONJ
 15	que	que	SCONJ	cs	_	14	fixed	14:fixed	_
 16	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	Entity=(CESSCASTAA2000062923978c37-time-2-CorefType:ident,gstype:spec
 17	Sábado	Sábado	NOUN	_	_	25	obl	25:obl	ArgTem=argM:tmp|SpaceAfter=No
@@ -28463,7 +28463,7 @@
 22	sesión	sesión	NOUN	ncfs000	Gender=Fem|Number=Sing	25	obl	25:obl	ArgTem=argM:tmp
 23	libre	libre	ADJ	aq0cs0	Number=Sing	22	amod	22:amod	Entity=NOCOREF:Gen)
 24	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	25	expl:pass	25:expl:pass	_
-25	disputará	disputar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	parataxis	14:parataxis	_
+25	disputará	disputar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	advcl	8:advcl	_
 26	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	Entity=(CESSCASTAA2000062923978c34--2-CorefType:ident,gstype:gen,HomoDD
 27	clasificación	clasificación	NOUN	ncfs000	Gender=Fem|Number=Sing	25	nsubj	25:nsubj	ArgTem=arg1:pat
 28	para	para	ADP	sps00	_	29	mark	29:mark	_
@@ -28479,7 +28479,7 @@
 37	de	de	ADP	spcms	_	39	case	39:case	_
 38	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	_
 39	domingo	domingo	NOUN	_	_	36	nmod	36:nmod	Entity=(NOCOREF:Spec.date-time-1-gstype:spec)NOCOREF:Gen)NOCOREF:Gen)CESSCASTAA2000062923978c34)|SpaceAfter=No
-40	.	.	PUNCT	fp	PunctType=Peri	14	punct	14:punct	_
+40	.	.	PUNCT	fp	PunctType=Peri	8	punct	8:punct	_
 
 # global.Entity = eid-etype-head-other
 # newdoc id = CESS-CAST-AA-20000704-2484
