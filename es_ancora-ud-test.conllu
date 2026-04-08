@@ -15521,7 +15521,7 @@
 34	de	de	ADP	sps00	_	36	case	36:case	_
 35	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	36:det	ArgTem=argM:loc|Entity=(CESSCASTA2000082818213c16--2-CorefType:ident,gstype:gen
 36	que	que	PRON	pr0cn000	PronType=Rel	39	obl	39:obl	Entity=CESSCASTA2000082818213c16)
-37	"	"	PUNCT	fe	PunctType=Quot	36	punct	36:punct	SpaceAfter=No
+37	"	"	PUNCT	fe	PunctType=Quot	39	punct	39:punct	SpaceAfter=No
 38	podría	poder	AUX	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	39	aux	39:aux	_
 39	salir	salir	VERB	vmn0000	VerbForm=Inf	30	acl:relcl	30:acl:relcl	_
 40	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	41:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -15529,7 +15529,7 @@
 42	para	para	ADP	sps00	_	44	case	44:case	_
 43	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	44:det	Entity=(CESSCASTA2000082818213c17-time-2-CorefType:ident,gstype:spec
 44	2008	2008	NOUN	_	_	41	nmod	41:nmod	Entity=CESSCASTA2000082818213c17)NOCOREF:Gen)CESSCASTA2000082818213c16)CESSCASTA2000082818213c15)|SpaceAfter=No
-45	"	"	PUNCT	fe	PunctType=Quot	47	punct	47:punct	SpaceAfter=No
+45	"	"	PUNCT	fe	PunctType=Quot	39	punct	39:punct	SpaceAfter=No
 46	,	,	PUNCT	fc	PunctType=Comm	47	punct	47:punct	_
 47	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	0	root	0:root	MWE=mientras_que|MWEPOS=CCONJ
 48	que	que	SCONJ	cs	_	47	fixed	47:fixed	_
