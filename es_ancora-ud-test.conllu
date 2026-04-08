@@ -15501,7 +15501,7 @@
 14	COI	COI	PROPN	np0000o	_	17	nsubj	17:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000082818213c14)
 15	"	"	PUNCT	fe	PunctType=Quot	14	punct	14:punct	SpaceAfter=No
 16	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
-17	hecho	hacer	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	47	parataxis	47:parataxis	_
+17	hecho	hacer	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 18	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	_
 19	guiño	guiño	NOUN	ncms000	Gender=Masc|Number=Sing	17	obj	17:obj	ArgTem=arg1:pat
 20	a	a	ADP	sps00	_	21	case	21:case	_
@@ -15530,8 +15530,8 @@
 43	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	44:det	Entity=(CESSCASTA2000082818213c17-time-2-CorefType:ident,gstype:spec
 44	2008	2008	NOUN	_	_	41	nmod	41:nmod	Entity=CESSCASTA2000082818213c17)NOCOREF:Gen)CESSCASTA2000082818213c16)CESSCASTA2000082818213c15)|SpaceAfter=No
 45	"	"	PUNCT	fe	PunctType=Quot	39	punct	39:punct	SpaceAfter=No
-46	,	,	PUNCT	fc	PunctType=Comm	47	punct	47:punct	_
-47	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	0	root	0:root	MWE=mientras_que|MWEPOS=CCONJ
+46	,	,	PUNCT	fc	PunctType=Comm	55	punct	55:punct	_
+47	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	55	mark	55:mark	MWE=mientras_que|MWEPOS=CCONJ
 48	que	que	SCONJ	cs	_	47	fixed	47:fixed	_
 49-50	del	_	_	_	_	_	_	_	_
 49	de	de	ADP	spcms	_	51	case	51:case	_
@@ -15541,7 +15541,7 @@
 53	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	54:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 54	candidatas	candidata	NOUN	ncfp000	Gender=Fem|Number=Plur	51	nmod	51:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)
 54.1	_	_	PRON	p	_	_	_	55:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000082818213c1-person-1-CorefType:ident,gstype:spec)
-55	opinó	opinar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	47	parataxis	47:parataxis	_
+55	opinó	opinar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	advcl	17:advcl	_
 56	que	que	SCONJ	cs	_	63	mark	63:mark	_
 57	"	"	PUNCT	fe	PunctType=Quot	63	punct	63:punct	SpaceAfter=No
 58	París	París	PROPN	np0000o	_	63	nsubj	63:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)|SpaceAfter=No
@@ -15570,7 +15570,7 @@
 79	algo	algo	PRON	pi0cs000	Number=Sing|PronType=Ind	63	conj	63:conj	ArgTem=arg2:atr
 80	simbólico	simbólico	ADJ	aq0ms0	Gender=Masc|Number=Sing	79	amod	79:amod	SpaceAfter=No
 81	"	"	PUNCT	fe	PunctType=Quot	55	punct	55:punct	SpaceAfter=No
-82	.	.	PUNCT	fp	PunctType=Peri	47	punct	47:punct	_
+82	.	.	PUNCT	fp	PunctType=Peri	17	punct	17:punct	_
 
 # sent_id = CESS-CAST-A-20000828-18213-s6
 # text = La eliminación de la candidatura española, según Hurtado, "nos debe de servir de acicate, porque los Juegos Olímpicos son un deporte y tenemos que ser deportistas en pleno sentido" por lo que "debemos de plantearnos este reto como una carrera de fondo, en la que la constancia, la perseverancia y el buen fondo físico es fundamental".
