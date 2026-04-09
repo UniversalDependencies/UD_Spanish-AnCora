@@ -24317,7 +24317,7 @@
 20	de	de	ADP	sps00	_	21	case	21:case	_
 21	juego	juego	NOUN	ncms000	Gender=Masc|Number=Sing	19	nmod	19:nmod	Entity=NOCOREF:Gen)|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	46	punct	46:punct	_
-23	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	46	cc	46:cc	MWE=mientras_que|MWEPOS=CCONJ
+23	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	46	mark	46:mark	MWE=mientras_que|MWEPOS=CCONJ
 24	que	que	SCONJ	cs	_	23	fixed	23:fixed	_
 25	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	Entity=(CESSCASTAA2000022420351c8-organization-2-CorefType:ident,gstype:spec
 26	rival	rival	NOUN	nccs000	Number=Sing	46	nsubj	46:nsubj	ArgTem=arg0:cau|Entity=CESSCASTAA2000022420351c8)|SpaceAfter=No
@@ -24340,7 +24340,7 @@
 43	Leo	Leo	PROPN	np00000	_	42	appos	42:appos	MWE=Leo_Rodríguez|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 44	Rodríguez	Rodríguez	PROPN	_	_	43	flat	43:flat	Entity=NOCOREF:Spec.person)|SpaceAfter=No
 45	,	,	PUNCT	fc	PunctType=Comm	42	punct	42:punct	Entity=CESSCASTAA2000022420351c12)CESSCASTAA2000022420351c12)NOCOREF:Gen)
-46	liquidaron	liquidar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	conj	16:conj	_
+46	liquidaron	liquidar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	advcl	16:advcl	_
 47	desde	desde	ADP	sps00	_	49	case	49:case	_
 48	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	49:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 49	etapa	etapa	NOUN	ncfs000	Gender=Fem|Number=Sing	46	obl	46:obl	ArgTem=argM:tmp
@@ -24487,12 +24487,12 @@
 52	Rodrigo	Rodrigo	PROPN	np00000	_	45	conj	45:conj	MWE=Rodrigo_Tello|MWEPOS=PROPN
 53	Tello	Tello	PROPN	_	_	52	flat	52:flat	Entity=CESSCASTAA2000022420351c21)NOCOREF:Gen)|SpaceAfter=No
 54	,	,	PUNCT	fc	PunctType=Comm	60	punct	60:punct	_
-55	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	60	cc	60:cc	MWE=mientras_que|MWEPOS=CCONJ
+55	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	60	mark	60:mark	MWE=mientras_que|MWEPOS=CCONJ
 56	que	que	SCONJ	cs	_	55	fixed	55:fixed	_
 57	Nacional	Nacional	PROPN	np00000	_	60	nsubj	60:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000022420351c3-organization-1-CorefType:ident,gstype:spec)
 58	nunca	nunca	ADV	rg	_	60	advmod	60:advmod	ArgTem=argM:tmp
 59	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	60	expl:pv	60:expl:pv	_
-60	encontró	encontrar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	conj	32:conj	_
+60	encontró	encontrar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	advcl	32:advcl	_
 61	con	con	ADP	sps00	_	64	case	64:case	_
 62	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	64	det	64:det	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--3-gstype:gen(CESSCASTAA2000022420351c3-organization-1-CorefType:ident,gstype:spec)
 63	buen	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	64	amod	64:amod	_
@@ -28995,7 +28995,7 @@
 14	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	Entity=(CESSCASTAA200004074900c24-person-2-CorefType:pred.definit,gstype:spec
 15	Zapata	Zapata	PROPN	np00000	_	13	appos	13:appos	SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	Entity=CESSCASTAA200004074900c24)CESSCASTAA200004074900c24)
-17	mientras	mientras	SCONJ	cs	_	31	cc	31:cc	_
+17	mientras	mientras	SCONJ	cs	_	31	mark	31:mark	_
 18	en	en	ADP	sps00	_	20	case	20:case	_
 19	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	Entity=(CESSCASTAA200004074900c1-organization-2-CorefType:ident,gstype:spec
 20	equipo	equipo	NOUN	ncms000	Gender=Masc|Number=Sing	31	obl	31:obl	ArgTem=argM:loc
@@ -29009,7 +29009,7 @@
 28	César	César	PROPN	np00000	_	31	nsubj	31:nsubj	MWE=César_Vaccia|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 29	Vaccia	Vaccia	PROPN	_	_	28	flat	28:flat	Entity=NOCOREF:Spec.person)
 30	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	31	expl:pv	31:expl:pv	_
-31	sumó	sumar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj	_
+31	sumó	sumar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	4:advcl	_
 32-33	al	_	_	_	_	_	_	_	_
 32	a	a	ADP	spcms	_	34	case	34:case	_
 33	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	34:det	_
@@ -54895,7 +54895,7 @@
 15	tapujos	tapujo	NOUN	ncmp000	Gender=Masc|Number=Plur	12	obl	12:obl	ArgTem=argM:mnr
 16	Chirac	Chirac	PROPN	np00000	_	12	nsubj	12:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)|SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
-18	mientras	mientras	SCONJ	cs	_	35	cc	35:cc	_
+18	mientras	mientras	SCONJ	cs	_	35	mark	35:mark	_
 19	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	Entity=(CESSCASTP2000100216_bc16--2-CorefType:ident,gstype:gen,HomoDD
 20	oposición	oposición	NOUN	ncfs000	Gender=Fem|Number=Sing	35	nsubj	35:nsubj	ArgTem=arg1:tem
 21	yugoslava	yugoslavo	ADJ	aq0fs0	Gender=Fem|Number=Sing	20	amod	20:amod	SpaceAfter=No
@@ -54912,7 +54912,7 @@
 32	propósito	propósito	NOUN	ncms000	Gender=Masc|Number=Sing	24	obl	24:obl	ArgTem=argM:adv|Entity=NOCOREF:Gen)|SpaceAfter=No
 33	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	Entity=CESSCASTP2000100216_bc16)
 34	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	35	expl:pv	35:expl:pv	_
-35	sentirá	sentir	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	conj	12:conj	_
+35	sentirá	sentir	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	advcl	12:advcl	_
 36	arropada	arropado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	35	obj	35:obj	ArgTem=arg2:atr
 37	por	por	ADP	sps00	_	39	case	39:case	_
 38	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD

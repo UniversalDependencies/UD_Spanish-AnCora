@@ -10596,12 +10596,12 @@
 18	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	16	conj	16:conj	_
 19	semanas	semana	NOUN	ncfp000	Gender=Fem|Number=Plur	14	obl	14:obl	ArgTem=argM:tmp|SpaceAfter=No
 20	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
-21	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	26	cc	26:cc	MWE=mientras_que|MWEPOS=CCONJ
+21	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	26	mark	26:mark	MWE=mientras_que|MWEPOS=CCONJ
 22	que	que	SCONJ	cs	_	21	fixed	21:fixed	_
 23	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	24:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 24	estadounidenses	estadounidense	NOUN	nccp000	Number=Plur	26	nsubj	26:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 25	solamente	solamente	ADV	rg	_	26	advmod	26:advmod	ArgTem=argM:adv
-26	están	estar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj	_
+26	están	estar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl	_
 27	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	30	nummod	30:nummod	_
 28	o	o	CCONJ	cc	_	29	cc	29:cc	_
 29	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	27	conj	27:conj	_
@@ -39928,7 +39928,7 @@
 13	en	en	ADP	sps00	_	14	case	14:case	_
 14	1998	1998	NOUN	_	_	9	obl	9:obl	ArgTem=argM:tmp|Entity=(NOCOREF:Spec.date-time-1-gstype:spec)|SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
-16	mientras	mientras	SCONJ	cs	_	28	cc	28:cc	_
+16	mientras	mientras	SCONJ	cs	_	28	mark	28:mark	_
 17	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	18:det	Entity=(NOCOREF:Gen--2-gstype:gen(NOCOREF:Gen--2-gstype:gen,HomoDD
 18	autoservicios	autoservicio	NOUN	ncmp000	Gender=Masc|Number=Plur	28	nsubj	28:nsubj	ArgTem=arg1:tem
 19	de	de	ADP	sps00	_	23	case	23:case	_
@@ -39940,7 +39940,7 @@
 25	y	y	CCONJ	cc	_	26	cc	26:cc	_
 26	tiendas	tienda	NOUN	ncfp000	Gender=Fem|Number=Plur	18	conj	18:conj	Entity=(CESSCASTP1999090175c25--1-CorefType:ident,gstype:gen
 27	tradicionales	tradicional	ADJ	aq0cp0	Number=Plur	26	amod	26:amod	Entity=CESSCASTP1999090175c25)NOCOREF:Gen)
-28	bajaron	bajar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	conj	9:conj	_
+28	bajaron	bajar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	advcl	9:advcl	_
 29	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	31:det	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 30	20	20	NUM	_	NumForm=Digit|NumType=Card	31	nummod	31:nummod	SpaceAfter=No
 31	%	%	SYM	zp	_	28	obj	28:obj	ArgTem=arg2:ext|Entity=NOCOREF:Spec.number)|SpaceAfter=No
