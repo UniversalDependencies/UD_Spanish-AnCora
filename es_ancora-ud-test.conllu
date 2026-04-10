@@ -48741,7 +48741,7 @@
 # sent_id = CESS-CAST-P-19991202-35-s12
 # text = Mientras, la campaña militar en Chechenia también prosigue, ajena a las noticias sobre la salud del presidente.
 # orig_file_sentence 015#14
-1	Mientras	mientras	SCONJ	cs	_	9	mark	9:mark	SpaceAfter=No
+1	Mientras	mientras	ADV	rg	_	9	advmod	9:advmod	SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	Entity=(CESSCASTP1999120235c17--2-gstype:gen,HomoDD
 4	campaña	campaña	NOUN	ncfs000	Gender=Fem|Number=Sing	9	nsubj	9:nsubj	ArgTem=arg0:agt
