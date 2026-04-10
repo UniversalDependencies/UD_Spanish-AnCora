@@ -658,7 +658,7 @@
 # sent_id = 3LB-CAST-111_C-2-s13
 # text = Mientras, el ministro de Defensa, general Eliécer Hurtado, se vio obligado a salir al paso de los ya casi normales y permanentes rumores de golpe de Estado, y negó que haya división en las filas castrenses y mucho menos que esté en marcha una conspiración contra Chávez.
 # orig_file_sentence 001#13
-1	Mientras	mientras	SCONJ	cs	_	13	advmod	13:advmod	ArgTem=argM:tmp|SpaceAfter=No
+1	Mientras	mientras	ADV	rg	_	13	advmod	13:advmod	ArgTem=argM:tmp|SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 3	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	Entity=(NOCOREF:Spec.person-person-2-gstype:spec
 4	ministro	ministro	NOUN	ncms000	Gender=Masc|Number=Sing	13	nsubj	13:nsubj	ArgTem=arg1:tem
@@ -6167,7 +6167,7 @@
 # sent_id = 3LB-CAST-n1-2-s4
 # text = Mientras, en Durban, a poco más de 15 minutos de los - campos de batalla - de los - townships - la vida continúa sin sobresaltos.
 # orig_file_sentence 002#90
-1	Mientras	mientras	SCONJ	cs	_	26	advmod	26:advmod	ArgTem=argM:tmp|SpaceAfter=No
+1	Mientras	mientras	ADV	rg	_	26	advmod	26:advmod	ArgTem=argM:tmp|SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 3	en	en	ADP	sps00	_	4	case	4:case	_
 4	Durban	Durban	PROPN	np0000l	_	26	obl	26:obl	ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)|SpaceAfter=No
