@@ -3250,7 +3250,7 @@
 7-8	al	_	_	_	_	_	_	_	MWE=al_fin|MWEPOS=ADV
 7	a	a	ADP	rg	_	9	case	9:case	MWE=al_fin|MWEPOS=ADV
 8	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	_
-9	fin	fin	NOUN	_	_	6	nmod	6:nmod	SpaceAfter=No
+9	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	6	nmod	6:nmod	SpaceAfter=No
 10	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
 
 # sent_id = 3LB-CAST-d1-4-s5
@@ -5662,7 +5662,7 @@
 # text = Por fin, en el punto más alto de la trayectoria balística del cohete, cuando la velocidad quedó igualada a cero, la frecuencia de oscilación del reloj volante resultó ser más alta que la del reloj situado en tierra.
 # orig_file_sentence 002#63
 1	Por	por	ADP	rg	ExtPos=ADV	33	advmod	33:advmod	MWE=Por_fin|MWEPOS=ADV|ArgTem=argM:adv
-2	fin	fin	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	en	en	ADP	sps00	_	6	case	6:case	_
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
@@ -6493,7 +6493,7 @@
 30	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	23:advcl	_
 31	que	que	SCONJ	cs	_	32	mark	32:mark	_
 32	poner	poner	VERB	vmn0000	VerbForm=Inf	30	xcomp	30:xcomp	MWE=poner_fin|MWEPOS=VERB
-33	fin	fin	NOUN	_	Number=Sing	32	compound	32:compound	_
+33	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	32	compound	32:compound	_
 34	a	a	ADP	sps00	_	36	case	36:case	_
 35	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	36:det	_
 36	noches	noche	NOUN	ncfp000	Gender=Fem|Number=Plur	32	obj	32:obj	ArgTem=arg1:tem
@@ -18059,7 +18059,7 @@
 40	,	,	PUNCT	fc	PunctType=Comm	45	punct	45:punct	_
 41	con	con	ADP	sps00	ExtPos=SCONJ	45	mark	45:mark	MWE=con_el_fin_de|MWEPOS=ADP
 42	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	fixed	41:fixed	_
-43	fin	fin	NOUN	_	_	41	fixed	41:fixed	_
+43	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	41	fixed	41:fixed	_
 44	de	de	ADP	_	_	41	fixed	41:fixed	_
 45-46	ayudarle	_	_	_	_	_	_	_	_
 45	ayudar	ayudar	VERB	vmn0000	VerbForm=Inf	27	advcl	27:advcl	ArgTem=argM:fin|Entity=(CESSCASTA2000062015780c2-organization-1-CorefType:ident,gstype:spec
@@ -18186,7 +18186,7 @@
 29	y	y	CCONJ	cc	_	30	cc	30:cc	_
 29.1	_	_	PRON	p	_	_	_	30:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000062015780c2-organization-1-CorefType:ident,gstype:spec)
 30	pusiera	poner	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj	22:conj	MWE=pusiera_fin|MWEPOS=VERB
-31	fin	fin	NOUN	_	Number=Sing	30	compound	30:compound	_
+31	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	30	compound	30:compound	_
 32	"	"	PUNCT	fe	PunctType=Quot	35	punct	35:punct	SpaceAfter=No
 33-34	al	_	_	_	_	_	_	_	_
 33	a	a	ADP	spcms	_	35	case	35:case	_
@@ -21150,7 +21150,7 @@
 2	Rayo	Rayo	PROPN	np00000	_	4	nsubj	4:nsubj	MWE=Rayo_Vallecano|MWEPOS=PROPN|ArgTem=arg0:agt
 3	Vallecano	Vallecano	PROPN	_	_	2	flat	2:flat	Entity=CESSCASTAA200002065003c24)
 4	puso	poner	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MWE=puso_fin|MWEPOS=VERB
-5	fin	fin	NOUN	_	Number=Sing	4	compound	4:compound	_
+5	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	4	compound	4:compound	_
 6	a	a	ADP	sps00	_	8	case	8:case	_
 7	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCASTAA200002065003c36--2-CorefType:ident,gstype:gen
 8	racha	racha	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obj	4:obj	ArgTem=arg1:tem
@@ -32069,7 +32069,7 @@
 33	Organización	Organización	PROPN	np00000	_	35	nsubj	35:nsubj	MWE=Organización_Electoral|MWEPOS=PROPN|ArgTem=arg0:agt
 34	Electoral	Electoral	PROPN	_	_	33	flat	33:flat	Entity=NOCOREF:Spec.organization)
 35	puso	poner	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	11:advcl	MWE=puso_fin|MWEPOS=VERB|ArgTem=argM:tmp
-36	fin	fin	NOUN	_	Number=Sing	35	compound	35:compound	_
+36	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	35	compound	35:compound	_
 37	a	a	ADP	sps00	_	39	case	39:case	_
 38	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	39:det	Entity=(CESSCASTAA2000103024215c32--2-CorefType:ident,gstype:gen,HomoDD
 39	jornada	jornada	NOUN	ncfs000	Gender=Fem|Number=Sing	35	obj	35:obj	ArgTem=arg1:tem
@@ -33780,7 +33780,7 @@
 10	Barak	Barak	PROPN	_	_	9	flat	9:flat	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	Entity=CESSCASTAA200012096582c1)CESSCASTAA200012096582c1)CESSCASTAA200012096582c41)
 12	pone	poner	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MWE=pone_fin|MWEPOS=VERB
-13	fin	fin	NOUN	_	Number=Sing	12	compound	12:compound	_
+13	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	12	compound	12:compound	_
 14-15	al	_	_	_	_	_	_	_	_
 14	a	a	ADP	spcms	_	16	case	16:case	_
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
@@ -45543,7 +45543,7 @@
 16-17	al	_	_	_	_	_	_	_	MWE=al_fin_y_al_cabo|MWEPOS=ADV
 16	a	a	ADP	rg	ExtPos=ADP	23	case	23:case	MWE=al_fin_y_al_cabo|MWEPOS=ADV
 17	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	_
-18	fin	fin	NOUN	_	_	16	fixed	16:fixed	_
+18	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	16	fixed	16:fixed	_
 19	y	y	CCONJ	_	_	16	fixed	16:fixed	_
 20-21	al	_	_	_	_	_	_	_	_
 20	a	a	ADP	_	_	16	fixed	16:fixed	_
@@ -48805,7 +48805,7 @@
 13	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
 14	con	con	ADP	sps00	ExtPos=SCONJ	18	mark	18:mark	MWE=con_el_fin_de|MWEPOS=ADP
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	fixed	14:fixed	_
-16	fin	fin	NOUN	_	_	14	fixed	14:fixed	_
+16	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	14	fixed	14:fixed	_
 17	de	de	ADP	_	_	14	fixed	14:fixed	_
 18	atraer	atraer	VERB	vmn0000	VerbForm=Inf	4	advcl	4:advcl	ArgTem=argM:fin
 19	clientes	cliente	NOUN	nccp000	Number=Plur	18	obj	18:obj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen)
@@ -49024,7 +49024,7 @@
 24	calle	calle	NOUN	ncfs000	Gender=Fem|Number=Sing	21	nmod	21:nmod	ArgTem=arg1:tem|Entity=CESSCASTP2000070180c16)
 25	que	que	PRON	pr0cn000	PronType=Rel	26	nsubj	26:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000070180c27--1-CorefType:ident,gstype:gen)
 26	pondrá	poner	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	acl:relcl	21:acl:relcl	MWE=pondrá_fin|MWEPOS=VERB
-27	fin	fin	NOUN	_	Number=Sing	26	compound	26:compound	_
+27	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	26	compound	26:compound	_
 28	a	a	ADP	sps00	_	31	case	31:case	_
 29	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	31:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 30	actual	actual	ADJ	aq0cs0	Number=Sing	31	amod	31:amod	_
@@ -57062,7 +57062,7 @@
 45-46	al	_	_	_	_	_	_	_	MWE=al_fin|MWEPOS=ADV
 45	a	a	ADP	rg	ExtPos=ADP	51	case	51:case	ArgTem=argM:tmp|MWE=al_fin|MWEPOS=ADV
 46	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	51:det	_
-47	fin	fin	NOUN	_	_	45	fixed	45:fixed	_
+47	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	45	fixed	45:fixed	_
 48	en	en	ADP	sps00	_	51	case	51:case	_
 49	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	51:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 50	buen	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	51	amod	51:amod	_
@@ -60722,7 +60722,7 @@
 26	oposición	oposición	NOUN	ncfs000	Gender=Fem|Number=Sing	22	nmod	22:nmod	ArgTem=argM:adv|Entity=CESSCASTP20020301125c2)NOCOREF:Gen)
 27	con	con	ADP	sps00	ExtPos=SCONJ	32	mark	32:mark	MWE=con_el_fin_de|MWEPOS=ADP
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	fixed	27:fixed	_
-29	fin	fin	NOUN	_	_	27	fixed	27:fixed	_
+29	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	27	fixed	27:fixed	_
 30	de	de	ADP	_	_	27	fixed	27:fixed	_
 31	"	"	PUNCT	fe	PunctType=Quot	32	punct	32:punct	SpaceAfter=No
 32	encontrar	encontrar	VERB	vmn0000	VerbForm=Inf	19	advcl	19:advcl	ArgTem=argM:fin
