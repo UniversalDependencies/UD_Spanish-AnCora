@@ -21364,7 +21364,7 @@
 # sent_id = CESS-CAST-AA-20000206-5003-s23
 # text = NUEVA DERROTA DEL BETIS EN EL DEBUT DE HIDDINK
 # orig_file_sentence 008#28
-1	NUEVA	nueva	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	amod	2:amod	Entity=(NOCOREF:Gen--2-gstype:gen,Title
+1	NUEVA	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	amod	2:amod	Entity=(NOCOREF:Gen--2-gstype:gen,Title
 2	DERROTA	derrota	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	0:root	_
 3-4	DEL	_	_	_	_	_	_	_	_
 3	DE	de	ADP	spcms	_	5	case	5:case	_
