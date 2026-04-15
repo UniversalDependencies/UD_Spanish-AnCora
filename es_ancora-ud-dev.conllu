@@ -1033,7 +1033,7 @@
 16	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	17:det	_
 17	miles	mil	NUM	pn0cp000	Number=Plur|NumForm=Word|NumType=Card	14	obj	14:obj	ArgTem=arg1:pat
 18	de	de	ADP	sps00	_	19	case	19:case	_
-19	indígenas	indígena	NOUN	nccp000	Number=Plur	17	nmod	17:nmod	_
+19	indígenas	indígena	NOUN	nccp000	Gender=Masc|Number=Plur	17	nmod	17:nmod	_
 20	que	que	PRON	pr0cn000	PronType=Rel	21	nsubj	21:nsubj	ArgTem=arg0:agt
 21	ocuparon	ocupar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	19:acl:relcl	_
 22	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
