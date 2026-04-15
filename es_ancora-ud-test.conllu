@@ -54137,7 +54137,7 @@
 29	por	por	ADP	sps00	_	31	case	31:case	_
 30	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	31:det	Entity=(CESSCASTP2000080294c5-person-2-CorefType:ident,gstype:spec
 31	defensa	defensa	NOUN	nccs000	Gender=Masc|Number=Sing	25	obl:agent	25:obl:agent	ArgTem=arg0:agt
-32	madridista	madridista	ADJ	aq0cs0	Gender=Masc|Number=Sing	31	amod	31:amod	Entity=CESSCASTP2000080294c5)|SpaceAfter=No
+32	madridista	madridista	ADJ	aq0cs0	Number=Sing	31	amod	31:amod	Entity=CESSCASTP2000080294c5)|SpaceAfter=No
 33	.	.	PUNCT	fp	PunctType=Peri	25	punct	25:punct	_
 
 # sent_id = CESS-CAST-P-20000802-94-s9
