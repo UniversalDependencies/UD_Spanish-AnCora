@@ -54131,13 +54131,13 @@
 23	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	Entity=CESSCASTP2000080294c9)CESSCASTP2000080294c13)
 24	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux	25:aux	_
 25	abordada	abordar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
-26	con	con	ADP	sps00	_	27	case	27:case	_
-27	suma	suma	NOUN	ncfs000	Gender=Fem|Number=Sing	25	obl	25:obl	ArgTem=argM:tmp|Entity=(NOCOREF:Gen--1-gstype:gen
-28	cautela	cautela	NOUN	ncfs000	Gender=Fem|Number=Sing	27	nmod	27:nmod	Entity=NOCOREF:Gen)
+26	con	con	ADP	sps00	_	28	case	28:case	_
+27	suma	suma	ADJ	aq0fs0	Gender=Fem|Number=Sing	28	amod	28:amod	ArgTem=argM:tmp|Entity=(NOCOREF:Gen--1-gstype:gen
+28	cautela	cautela	NOUN	ncfs000	Gender=Fem|Number=Sing	25	obl	25:obl	Entity=NOCOREF:Gen)
 29	por	por	ADP	sps00	_	31	case	31:case	_
 30	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	31:det	Entity=(CESSCASTP2000080294c5-person-2-CorefType:ident,gstype:spec
-31	defensa	defensa	NOUN	nccs000	Number=Sing	25	obl:agent	25:obl:agent	ArgTem=arg0:agt
-32	madridista	madridista	ADJ	aq0cs0	Number=Sing	31	amod	31:amod	Entity=CESSCASTP2000080294c5)|SpaceAfter=No
+31	defensa	defensa	NOUN	nccs000	Gender=Masc|Number=Sing	25	obl:agent	25:obl:agent	ArgTem=arg0:agt
+32	madridista	madridista	ADJ	aq0cs0	Gender=Masc|Number=Sing	31	amod	31:amod	Entity=CESSCASTP2000080294c5)|SpaceAfter=No
 33	.	.	PUNCT	fp	PunctType=Peri	25	punct	25:punct	_
 
 # sent_id = CESS-CAST-P-20000802-94-s9
