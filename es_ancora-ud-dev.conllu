@@ -21674,7 +21674,7 @@
 # sent_id = CESS-CAST-AA-20000206-5003-s33
 # text = CUARTA VICTORIA DEL SEVILLA
 # orig_file_sentence 008#38
-1	CUARTA	cuarta	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	2	amod	2:amod	Entity=(CESSCASTAA200002065003c53--2-gstype:gen,Title
+1	CUARTA	cuarto	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	2	amod	2:amod	Entity=(CESSCASTAA200002065003c53--2-gstype:gen,Title
 2	VICTORIA	victoria	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	0:root	_
 3-4	DEL	_	_	_	_	_	_	_	_
 3	DE	de	ADP	spcms	_	5	case	5:case	_
