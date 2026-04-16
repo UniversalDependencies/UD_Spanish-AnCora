@@ -8433,7 +8433,7 @@
 29	que	que	PRON	pr0cn000	PronType=Rel	33	nsubj	33:nsubj	ArgTem=arg1:tem
 30	no	no	ADV	rg	_	33	advmod	33:advmod	ArgTem=argM:adv
 31	era	ser	AUX	vsii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	cop	33:cop	ArgTem=arg1:pat
-32	otra	otra	ADJ	rg	_	33	amod	33:amod	MWE=otra_cosa_que|MWEPOS=ADV
+32	otra	otro	ADJ	rg	_	33	amod	33:amod	MWE=otra_cosa_que|MWEPOS=ADV
 33	cosa	cosa	NOUN	_	_	28	acl:relcl	28:acl:relcl	_
 34	que	que	SCONJ	_	_	35	mark	35:mark	_
 35	reúma	reúma	NOUN	ncmn000	Gender=Masc	33	acl	33:acl	ArgTem=arg2:atr|SpaceAfter=No
@@ -20942,7 +20942,7 @@
 # sent_id = CESS-CAST-AA-20000206-5003-s12
 # text = PRIMERA VICTORIA DEL ALAVÉS EN EL CAMP NOU
 # orig_file_sentence 008#17
-1	PRIMERA	primera	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	2	amod	2:amod	Entity=(CESSCASTAA200002065003c35--2-gstype:gen,Title
+1	PRIMERA	primero	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	2	amod	2:amod	Entity=(CESSCASTAA200002065003c35--2-gstype:gen,Title
 2	VICTORIA	victoria	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	0:root	_
 3-4	DEL	_	_	_	_	_	_	_	_
 3	DE	de	ADP	spcms	_	5	case	5:case	_
@@ -21065,7 +21065,7 @@
 3	REGRESA	regresar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	A	a	ADP	sps00	_	5	case	5:case	_
 5	ZONA	zona	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	3:obl	ArgTem=arg4:des|Entity=(CESSCASTAA200002065003c21--1-gstype:gen
-6	EUROPEA	europea	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	amod	5:amod	Entity=CESSCASTAA200002065003c21)
+6	EUROPEA	europeo	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	amod	5:amod	Entity=CESSCASTAA200002065003c21)
 
 # sent_id = CESS-CAST-AA-20000206-5003-s16
 # text = El Athletic de Bilbao, gracias a un gol en propia puerta de Pacheta en el minuto 76, vuelve a estar en zona europea, en el sexto peldaño de la clasificación, tras vencer por 2-1 a un Numancia que encajó su octava derrota de la Liga 1999-2000.
@@ -21131,7 +21131,7 @@
 4	FIN	fin	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	3:obj	_
 5	A	a	ADP	sps00	_	8	case	8:case	_
 6	SU	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	8:det	Entity=(CESSCASTAA200002065003c36--3-gstype:gen,Title(CESSCASTAA200002065003c24-organization-1-CorefType:ident,gstype:spec)
-7	MALA	mala	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	_
+7	MALA	malo	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	_
 8	RACHA	racha	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	3:obj	ArgTem=arg1:tem|Entity=CESSCASTAA200002065003c36)
 9	Y	y	CCONJ	cc	_	10	cc	10:cc	_
 9.1	_	_	PRON	p	_	_	_	10:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200002065003c24-organization-1-CorefType:ident,gstype:spec)
@@ -21575,7 +21575,7 @@
 # sent_id = CESS-CAST-AA-20000206-5003-s30
 # text = PRIMERA DERROTA DEL ESPANYOL CON PACO FLORES COMO TÉCNICO
 # orig_file_sentence 008#35
-1	PRIMERA	primera	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	2	amod	2:amod	Entity=(NOCOREF:Gen--2-gstype:gen,Title
+1	PRIMERA	primero	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	2	amod	2:amod	Entity=(NOCOREF:Gen--2-gstype:gen,Title
 2	DERROTA	derrota	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	0:root	_
 3-4	DEL	_	_	_	_	_	_	_	_
 3	DE	de	ADP	spcms	_	5	case	5:case	_
