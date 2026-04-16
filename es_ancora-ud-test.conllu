@@ -7289,7 +7289,7 @@
 37	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	36	obl:arg	36:obl:arg	_
 38	,	,	PUNCT	fc	PunctType=Comm	36	punct	36:punct	_
 39-40	ensimismarle	_	_	_	_	_	_	_	_
-39	ensimismar	ensimismar	VERB	vmn0000	VerbForm=Inf	36	advcl	36:advcl	_
+39	ensimismar	ensimismarse	VERB	vmn0000	VerbForm=Inf	36	advcl	36:advcl	_
 40	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	39	obl:arg	39:obl:arg	_
 41	en	en	ADP	sps00	_	43	case	43:case	_
 42	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	43	det	43:det	ArgTem=arg0:agt
@@ -7361,7 +7361,7 @@
 1	Pocos	poco	PRON	pi0mp000	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	4	nsubj	4:nsubj	ArgTem=arg0:agt
 2	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
 3	habrían	haber	AUX	vaic3p0	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	4	aux	4:aux	_
-4	atrevido	atrever	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+4	atrevido	atreverse	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 5	con	con	ADP	sps00	_	7	case	7:case	_
 6	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
 7	tema	tema	NOUN	ncms000	Gender=Masc|Number=Sing	4	obl:arg	4:obl:arg	ArgTem=arg1:tem
@@ -7400,7 +7400,7 @@
 25-26	haberse	_	_	_	_	_	_	_	_
 25	haber	haber	AUX	van0000	VerbForm=Inf	27	aux	27:aux	_
 26	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	27	expl:pv	27:expl:pv	_
-27	atrevido	atrever	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	23:advcl	ArgTem=argM:cau
+27	atrevido	atreverse	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	23:advcl	ArgTem=argM:cau
 28	a	a	ADP	sps00	_	29	mark	29:mark	_
 29	meter	meter	VERB	vmn0000	VerbForm=Inf	27	xcomp	27:xcomp	ArgTem=arg1:tem
 30	en	en	ADP	sps00	_	32	case	32:case	_
@@ -9127,7 +9127,7 @@
 7	llegó	llegar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj	_
 8	a	a	ADP	sps00	_	9	mark	9:mark	_
 9-10	arrepentirse	_	_	_	_	_	_	_	_
-9	arrepentir	arrepentir	VERB	vmn0000	VerbForm=Inf	7	xcomp	7:xcomp	_
+9	arrepentir	arrepentirse	VERB	vmn0000	VerbForm=Inf	7	xcomp	7:xcomp	_
 10	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	expl:pv	9:expl:pv	_
 11	de	de	ADP	sps00	_	13	mark	13:mark	_
 12	haber	haber	AUX	van0000	VerbForm=Inf	13	aux	13:aux	_
@@ -24116,7 +24116,7 @@
 53	ahora	ahora	ADV	rg	_	51	advmod	51:advmod	ArgTem=argM:tmp
 54	para	para	ADP	sps00	_	55	mark	55:mark	_
 55-56	darnos	_	_	_	_	_	_	_	_
-55	dar	dar	VERB	vmn0000	VerbForm=Inf	51	advcl	51:advcl	ArgTem=argM:fin|MWE=darnos_cuenta|MWEPOS=VERB
+55	dar	darse	VERB	vmn0000	VerbForm=Inf	51	advcl	51:advcl	ArgTem=argM:fin|MWE=darnos_cuenta|MWEPOS=VERB
 56	nos	yo	PRON	_	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	55	expl:pv	55:expl:pv	_
 57	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	55	compound	55:compound	_
 58	de	de	ADP	sps00	_	64	mark	64:mark	_
@@ -25931,7 +25931,7 @@
 31	espectadores	espectador	NOUN	ncmp000	Gender=Masc|Number=Plur	26	nmod	26:nmod	_
 32	que	que	PRON	pr0cn000	PronType=Rel	34	nsubj	34:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000022822816c37--1-CorefType:ident,gstype:gen)
 33	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	34	expl:pv	34:expl:pv	_
-34	atrevieron	atrever	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	acl:relcl	31:acl:relcl	_
+34	atrevieron	atreverse	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	acl:relcl	31:acl:relcl	_
 35	a	a	ADP	sps00	_	36	mark	36:mark	_
 36	asistir	asistir	VERB	vmn0000	VerbForm=Inf	34	xcomp	34:xcomp	ArgTem=arg1:tem
 37-38	al	_	_	_	_	_	_	_	_
@@ -28722,7 +28722,7 @@
 17	o	o	CCONJ	cc	_	18	cc	18:cc	_
 18	Arancibia	Arancibia	PROPN	np00000	_	14	conj	14:conj	Entity=(CESSCASTAA200004074900c14--1)
 19	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	expl:pv	20:expl:pv	_
-20	atrevieron	atrever	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	advcl	9:advcl	ArgTem=argM:tmp
+20	atrevieron	atreverse	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	advcl	9:advcl	ArgTem=argM:tmp
 21	a	a	ADP	sps00	_	22	mark	22:mark	_
 22	entrar	entrar	VERB	vmn0000	VerbForm=Inf	20	xcomp	20:xcomp	ArgTem=arg1:tem|Entity=(CESSCASTAA200004074900c8--1
 23	hasta	hasta	ADP	sps00	_	25	case	25:case	_
@@ -40823,7 +40823,7 @@
 5	intención	intención	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obj	2:obj	ArgTem=arg1:pat
 6	de	de	ADP	sps00	_	7	mark	7:mark	_
 7-8	querellarse	_	_	_	_	_	_	_	_
-7	querellar	querellar	VERB	vmn0000	VerbForm=Inf	5	acl	5:acl	ArgTem=arg1:pat
+7	querellar	querellarse	VERB	vmn0000	VerbForm=Inf	5	acl	5:acl	ArgTem=arg1:pat
 8	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	expl:pv	7:expl:pv	_
 9	con	con	ADP	sps00	_	11	case	11:case	_
 10	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	Entity=(CESSCASTP19990202123c27-organization-2-CorefType:ident,gstype:spec
@@ -59933,7 +59933,7 @@
 3	como	como	SCONJ	cs	_	4	mark	4:mark	_
 4	Recio	Recio	PROPN	np00000	_	2	nmod	2:nmod	Entity=(NOCOREF:Spec.person-person-1-gstype:spec)NOCOREF:Gen)
 5	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	expl:pv	6:expl:pv	_
-6	atreven	atrever	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+6	atreven	atreverse	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7	a	a	ADP	sps00	_	8	mark	8:mark	_
 8	lanzar	lanzar	VERB	vmn0000	VerbForm=Inf	6	xcomp	6:xcomp	ArgTem=arg1:tem
 9	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	Entity=(CESSCASTP2002010334c1--2-gstype:gen
@@ -59946,7 +59946,7 @@
 16	príncipe	príncipe	NOUN	ncms000	Gender=Masc|Number=Sing	19	nsubj	19:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2002010334c13)
 17	no	no	ADV	rn	Polarity=Neg	19	advmod	19:advmod	_
 18	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	expl:pv	19:expl:pv	_
-19	pirra	pirrar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
+19	pirra	pirrarse	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
 20	por	por	ADP	sps00	_	22	case	22:case	_
 21	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 22	buena	buen	ADJ	aq0fs0	Gender=Fem|Number=Sing	19	obl:arg	19:obl:arg	ArgTem=arg2:atr
@@ -62435,7 +62435,7 @@
 34	había	haber	AUX	vaii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	35:aux	_
 35	intentado	intentar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl:relcl	32:acl:relcl	_
 36-37	suicidarse	_	_	_	_	_	_	_	SpaceAfter=No
-36	suicidar	suicidar	VERB	vmn0000	VerbForm=Inf	35	xcomp	35:xcomp	ArgTem=arg1:pat
+36	suicidar	suicidarse	VERB	vmn0000	VerbForm=Inf	35	xcomp	35:xcomp	ArgTem=arg1:pat
 37	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	36	expl:pv	36:expl:pv	Entity=CESSCASTP2002050240c2)NOCOREF:Gen)CESSCASTP2002050240c1)
 38	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
