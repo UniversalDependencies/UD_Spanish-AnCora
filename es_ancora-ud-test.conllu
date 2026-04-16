@@ -605,7 +605,7 @@
 32	cooperación	cooperación	NOUN	ncfs000	Gender=Fem|Number=Sing	30	nmod	30:nmod	ArgTem=arg1:pat
 33	económica	económico	ADJ	aq0fs0	Gender=Fem|Number=Sing	32	amod	32:amod	SpaceAfter=No
 34	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
-35	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	33	amod	33:amod	SpaceAfter=No
+35	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	33	amod	33:amod	SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	37	punct	37:punct	_
 37	social	social	ADJ	aq0cs0	Number=Sing	33	amod	33:amod	_
 38	y	y	CCONJ	cc	_	39	cc	39:cc	_
@@ -6182,7 +6182,7 @@
 9	como	como	SCONJ	cs	_	11	mark	11:mark	_
 10	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	_
 11	fuerza	fuerza	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obj	8:obj	ArgTem=argM:atr
-12	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	amod	11:amod	_
+12	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	amod	11:amod	_
 13	de	de	ADP	sps00	_	14	case	14:case	_
 14	gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	11	nmod	11:nmod	_
 15	y	y	CCONJ	cc	_	19	cc	19:cc	_
@@ -6193,7 +6193,7 @@
 20	como	como	SCONJ	cs	_	22	mark	22:mark	_
 21	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	_
 22	fuerza	fuerza	NOUN	ncfs000	Gender=Fem|Number=Sing	19	obj	19:obj	ArgTem=argM:atr
-23	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	22	amod	22:amod	_
+23	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	22	amod	22:amod	_
 24	de	de	ADP	sps00	_	25	case	25:case	_
 25	oposición	oposición	NOUN	ncfs000	Gender=Fem|Number=Sing	22	nmod	22:nmod	_
 26	-	-	PUNCT	fg	PunctType=Dash	3	punct	3:punct	SpaceAfter=No
@@ -6824,7 +6824,7 @@
 10	y	y	CCONJ	cc	_	21	cc	21:cc	_
 11	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	_
 12	inestabilidad	inestabilidad	NOUN	ncfs000	Gender=Fem|Number=Sing	21	nsubj	21:nsubj	ArgTem=arg1:tem
-13	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	12	amod	12:amod	_
+13	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	12	amod	12:amod	_
 14	en	en	ADP	sps00	_	16	case	16:case	_
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	ArgTem=arg2:loc
 16	que	que	PRON	pr0cn000	PronType=Rel	17	obl	17:obl	_
@@ -14369,7 +14369,7 @@
 23	de	de	ADP	sps00	_	25	case	25:case	_
 24	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--2-gstype:gen
 25	persecución	persecución	NOUN	ncfs000	Gender=Fem|Number=Sing	22	nmod	22:nmod	_
-26	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	25	amod	25:amod	_
+26	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	25	amod	25:amod	_
 27	y	y	CCONJ	cc	_	28	cc	28:cc	_
 28	personal	personal	ADJ	aq0cs0	Number=Sing	26	conj	26:conj	_
 29	por	por	ADP	sps00	ExtPos=ADP	33	case	33:case	MWE=por_parte_de|MWEPOS=ADP
@@ -43558,7 +43558,7 @@
 3	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	8	punct	8:punct	SpaceAfter=No
 4	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 5	propaganda	propaganda	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg0:agt
-6	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	amod	5:amod	Entity=NOCOREF:Gen)
+6	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	amod	5:amod	Entity=NOCOREF:Gen)
 7	también	también	ADV	rg	_	8	advmod	8:advmod	_
 8	mira	mirar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=8:Interrogative-Polar-Direct.Clause
 9	demasiado	demasiado	ADV	rg	_	8	advmod	8:advmod	ArgTem=argM:adv
@@ -44351,7 +44351,7 @@
 8	vez	vez	NOUN	_	_	6	fixed	6:fixed	_
 9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	Entity=(CESSCASTP1999060219_ac29--2-gstype:gen,HomoDD
 10	transición	transición	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obj	5:obj	ArgTem=arg1:pat
-11	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	10	amod	10:amod	ArgTem=arg1:tem
+11	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	10	amod	10:amod	ArgTem=arg1:tem
 12	española	español	ADJ	aq0fs0	Gender=Fem|Number=Sing	10	amod	10:amod	ArgTem=argM:loc|Entity=CESSCASTP1999060219_ac29)
 13	y	y	CCONJ	cc	_	15	cc	15:cc	_
 14	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -44993,7 +44993,7 @@
 42	"	"	PUNCT	fe	PunctType=Quot	47	punct	47:punct	SpaceAfter=No
 43	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	44:det	Entity=(CESSCASTP1999090136c30--2-gstype:gen,HomoDD
 44	crítica	crítica	NOUN	ncfs000	Gender=Fem|Number=Sing	47	nsubj	47:nsubj	ArgTem=arg1:tem
-45	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	44	amod	44:amod	ArgTem=arg1:pat|Entity=CESSCASTP1999090136c30)
+45	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	44	amod	44:amod	ArgTem=arg1:pat|Entity=CESSCASTP1999090136c30)
 46	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	47:cop	ArgTem=argM:adv
 47	sana	sano	ADJ	aq0fs0	Gender=Fem|Number=Sing	25	advcl	25:advcl	ArgTem=arg2:atr|SpaceAfter=No
 48	"	"	PUNCT	fe	PunctType=Quot	47	punct	47:punct	SpaceAfter=No
@@ -46237,7 +46237,7 @@
 25	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--3-gstype:gen
 26	pura	puro	ADJ	aq0fs0	Gender=Fem|Number=Sing	27	amod	27:amod	_
 27	decisión	decisión	NOUN	ncfs000	Gender=Fem|Number=Sing	20	conj	20:conj	_
-28	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	27	amod	27:amod	Entity=NOCOREF:Gen)
+28	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	27	amod	27:amod	Entity=NOCOREF:Gen)
 29	y	y	CCONJ	cc	_	31	cc	31:cc	_
 30	que	que	PRON	pr0cn000	PronType=Rel	31	obj	31:obj	ArgTem=arg1:pat|Entity=(CESSCASTP1999090284c14--1-CorefType:ident,gstype:gen)
 30.1	_	_	PRON	p	_	_	_	31:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999090284c1-person-1-CorefType:ident,gstype:spec)
@@ -48570,7 +48570,7 @@
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCASTP1999120235c19--2-gstype:gen,HomoDD
 6	vida	vida	NOUN	ncfs000	Gender=Fem|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg0:agt
-7	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	6	amod	6:amod	_
+7	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	6	amod	6:amod	_
 8	en	en	ADP	sps00	_	9	case	9:case	_
 9	Moscú	Moscú	PROPN	np00000	_	6	nmod	6:nmod	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)CESSCASTP1999120235c19)
 10	continúa	continuar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -50496,7 +50496,7 @@
 9	de	de	ADP	sps00	_	11	case	11:case	_
 10	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 11	comisión	comisión	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obl:arg	7:obl:arg	ArgTem=arg2:atr
-12	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	amod	11:amod	ArgTem=arg1:pat
+12	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	amod	11:amod	ArgTem=arg1:pat
 13	de	de	ADP	sps00	_	15	case	15:case	_
 14	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCASTP2000040157_ec1-organization-2-CorefType:ident,gstype:spec
 15	formación	formación	NOUN	ncfs000	Gender=Fem|Number=Sing	11	nmod	11:nmod	Entity=CESSCASTP2000040157_ec1)NOCOREF:Gen)|SpaceAfter=No
@@ -62769,7 +62769,7 @@
 9	instrumento	instrumento	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	3:obl	ArgTem=argM:tmp
 10	de	de	ADP	sps00	_	11	case	11:case	_
 11	propaganda	propaganda	NOUN	ncfs000	Gender=Fem|Number=Sing	9	nmod	9:nmod	_
-12	política	política	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	amod	11:amod	ArgTem=arg1:pat
+12	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	amod	11:amod	ArgTem=arg1:pat
 13	de	de	ADP	sps00	_	14	case	14:case	_
 14	Estados	Estados	PROPN	np00000	_	11	nmod	11:nmod	MWE=Estados_Unidos|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(CESSCASTP2002080130_gc44-organization-1-gstype:spec
 15	Unidos	Unidos	PROPN	_	_	14	flat	14:flat	Entity=CESSCASTP2002080130_gc44)
