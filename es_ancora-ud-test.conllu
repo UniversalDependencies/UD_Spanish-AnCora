@@ -36894,7 +36894,7 @@
 18	alimentos	alimento	NOUN	ncmp000	Gender=Masc|Number=Plur	12	conj	12:conj	_
 19	básicos	básico	ADJ	aq0mp0	Gender=Masc|Number=Plur	18	amod	18:amod	SpaceAfter=No
 20	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	_
-21	incluidos	incluir	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	18	amod	18:amod	_
+21	incluidos	incluido	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	18	amod	18:amod	_
 22	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD(NOCOREF:Gen--2-gstype:gen,HomoDD(CESSCASTAA200011085166c36--2-gstype:gen,HomoDD
 23	leche	leche	NOUN	ncfs000	Gender=Fem|Number=Sing	21	nsubj	21:nsubj	ArgTem=arg1:tem|Entity=CESSCASTAA200011085166c36)
 24	y	y	CCONJ	cc	_	26	cc	26:cc	_
@@ -37320,7 +37320,7 @@
 27	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	28:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 28	Administración	Administración	PROPN	np00000	_	25	nmod	25:nmod	Entity=NOCOREF:Spec.organization)|SpaceAfter=No
 29	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
-30	incluidos	incluir	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	25	amod	25:amod	_
+30	incluidos	incluido	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	25	amod	25:amod	_
 31	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	32:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 32	pensionistas	pensionista	NOUN	nccp000	Number=Plur	30	nsubj	30:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)|SpaceAfter=No
 33	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	Entity=NOCOREF:Gen)NOCOREF:Gen)
