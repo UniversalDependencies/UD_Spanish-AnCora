@@ -10488,7 +10488,7 @@
 12	feroces	feroz	ADJ	aq0cp0	Number=Plur	13	amod	13:amod	Entity=(NOCOREF:Gen--2-gstype:gen
 13	intercambios	intercambio	NOUN	ncmp000	Gender=Masc|Number=Plur	8	nmod	8:nmod	SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
-15	interrumpidos	interrumpdo	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	13	amod	13:amod	_
+15	interrumpidos	interrumpido	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	13	amod	13:amod	_
 16	por	por	ADP	sps00	_	19	case	19:case	_
 17	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	19:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 18	detonadores	detonador	ADJ	aq0mp0	Gender=Masc|Number=Plur	19	amod	19:amod	_
