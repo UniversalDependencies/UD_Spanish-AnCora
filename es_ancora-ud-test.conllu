@@ -49960,7 +49960,7 @@
 49	1.200	1200	NUM	_	NumForm=Digit|NumType=Card	50	nummod	50:nummod	_
 50	kilómetros	kilómetro	NOUN	ncmp000	Gender=Masc|Number=Plur	15	obl	15:obl	ArgTem=argM:loc
 51	de	de	ADP	sps00	_	52	case	52:case	_
-52	Buenos	Buenos	PROPN	np00000	_	50	nmod	50:nmod	MWE=Buenos_Aires|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+52	Buenos	buen	ADJ	np00000	Gender=Masc|Number=Plur	50	nmod	50:nmod	MWE=Buenos_Aires|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 53	Aires	Aires	PROPN	_	_	52	flat	52:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 54	,	,	PUNCT	fc	PunctType=Comm	55	punct	55:punct	_
 55	cerca	cerca	ADV	rg	_	50	advmod	50:advmod	_

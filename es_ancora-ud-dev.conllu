@@ -20197,7 +20197,7 @@
 10	con	con	ADP	sps00	_	11	case	11:case	_
 11	Washington	Washington	PROPN	np0000l	_	9	nmod	9:nmod	SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
-13	Buenos	Buenos	PROPN	np0000l	_	11	conj	11:conj	MWE=Buenos_Aires|MWEPOS=PROPN
+13	Buenos	buen	ADJ	np0000l	Gender=Masc|Number=Plur	11	conj	11:conj	MWE=Buenos_Aires|MWEPOS=PROPN
 14	Aires	Aires	PROPN	_	_	13	flat	13:flat	SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
 16	La	el	DET	np0000l	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	MWE=La_Habana|MWEPOS=PROPN
@@ -38828,7 +38828,7 @@
 6	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	Entity=(CESSCASTP1999080248c1--2-gstype:gen
 7	noticia	noticia	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg1:pat|Entity=CESSCASTP1999080248c1)
 8	desde	desde	ADP	sps00	_	9	case	9:case	_
-9	Buenos	Buenos	PROPN	np00000	_	5	obl	5:obl	MWE=Buenos_Aires|MWEPOS=PROPN|ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+9	Buenos	buen	ADJ	np00000	Gender=Masc|Number=Plur	5	obl	5:obl	MWE=Buenos_Aires|MWEPOS=PROPN|ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 10	Aires	Aires	PROPN	_	_	9	flat	9:flat	Entity=NOCOREF:Spec.location)
 11	que	que	PRON	pr0cn000	PronType=Rel	12	nsubj	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999080248c1--1-CorefType:ident,gstype:gen)
 12	daba	dar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	5:advcl	MWE=daba_cuenta|MWEPOS=VERB
