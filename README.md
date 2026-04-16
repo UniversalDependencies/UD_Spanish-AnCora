@@ -53,6 +53,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
   * Distinguished acl:relcl from acl based on the presence of PronType=Rel.
   * Fixed spurious verbs in idiomatic expressions and in uppercase headings.
   * Fixed: some dative clitics changed from expl to obl:arg (no clitic doubling).
+  * Reflexive verbs do not have "se" in their lemma.
 * 2025-11-15 v2.17
   * Added the ExtPos feature to fixed expressions.
   * Fixed spurious dependents of determiners.
