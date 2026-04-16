@@ -4445,7 +4445,7 @@
 22	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 23	no	no	PART	rn	ExtPos=CCONJ	37	cc	37:cc	MWE=no_sólo|MWEPOS=ADV
 24	sólo	sólo	ADV	_	Polarity=Neg	23	fixed	23:fixed	_
-25	le	él	PRON	pp3csa00	Case=Dat|Number=Sing|Person=3|PronType=Prs	26	expl	26:expl	ArgTem=arg1:pat
+25	le	él	PRON	pp3csa00	Case=Dat|Number=Sing|Person=3|PronType=Prs	26	obl:arg	26:obl:arg	ArgTem=arg1:pat
 26	aíslan	aislar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	parataxis	37:parataxis	_
 27	a	a	ADP	rg	ExtPos=ADV	26	advmod	26:advmod	MWE=a_la_perfección|MWEPOS=ADV|ArgTem=argM:adv
 28	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	fixed	27:fixed	_
@@ -7284,7 +7284,7 @@
 46	próximas	próximo	ADJ	aq0fp0	Gender=Fem|Number=Plur	47	amod	47:amod	_
 47	elecciones	elección	NOUN	ncfp000	Gender=Fem|Number=Plur	50	obl	50:obl	ArgTem=argM:loc
 48	generales	general	ADJ	aq0cp0	Number=Plur	47	amod	47:amod	_
-49	le	él	PRON	pp3csa00	Case=Dat|Number=Sing|Person=3|PronType=Prs	50	expl	50:expl	ArgTem=arg1:pat
+49	le	él	PRON	pp3csa00	Case=Dat|Number=Sing|Person=3|PronType=Prs	50	obl:arg	50:obl:arg	ArgTem=arg1:pat
 50	ve	ver	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj	33:conj	_
 51	como	como	SCONJ	cs	_	52	mark	52:mark	_
 52	candidato	candidato	NOUN	ncms000	Gender=Masc|Number=Sing	50	obl:arg	50:obl:arg	ArgTem=argM:atr|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
@@ -15075,7 +15075,7 @@
 12	para	para	ADP	sps00	_	13	mark	13:mark	_
 13-14	despojarles	_	_	_	_	_	_	_	_
 13	despojar	despojar	VERB	vmn0000	VerbForm=Inf	2	acl	2:acl	ArgTem=argM:fin|Entity=(CESSCASTA2000051511470c1--1-CorefType:ident,gstype:gen
-14	les	él	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	13	expl	13:expl	Entity=CESSCASTA2000051511470c1)
+14	les	él	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	13	obl:arg	13:obl:arg	Entity=CESSCASTA2000051511470c1)
 15	de	de	ADP	sps00	_	17	case	17:case	_
 16	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	17:det	Entity=(CESSCASTA2000051511470c7--2-gstype:gen(CESSCASTA2000051511470c1--1-CorefType:ident,gstype:gen)
 17	cédula	cédula	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl:arg	13:obl:arg	ArgTem=arg2:tem
@@ -50299,7 +50299,7 @@
 32	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	33:cop	ArgTem=arg1:pat
 33	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	ccomp	16:ccomp	Entity=(CESSCASTP2000090330c9--1-CorefType:pred.definit,gstype:gen
 34	que	que	PRON	pr0cn000	PronType=Rel	36	nsubj	36:nsubj	ArgTem=arg0:cau
-35	les	él	PRON	pp3cpd00	Case=Dat|Number=Plur|Person=3|PronType=Prs	36	expl	36:expl	ArgTem=arg1:tem|Entity=(CESSCASTP2000090330c10-organization-1-CorefType:ident,gstype:spec)
+35	les	él	PRON	pp3cpd00	Case=Dat|Number=Plur|Person=3|PronType=Prs	36	obl:arg	36:obl:arg	ArgTem=arg1:tem|Entity=(CESSCASTP2000090330c10-organization-1-CorefType:ident,gstype:spec)
 36	diferencia	diferenciar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	33:acl:relcl	ArgTem=arg2:atr
 37	de	de	ADP	sps00	_	39	case	39:case	_
 38	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	39:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
