@@ -5024,7 +5024,7 @@
 # orig_file_sentence 002#48
 1	A	a	ADP	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=A_la_larga|MWEPOS=ADV|ArgTem=argM:adv
 2	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	fixed	1:fixed	_
-3	larga	larga	ADJ	_	_	1	fixed	1:fixed	SpaceAfter=No
+3	larga	largo	ADJ	_	_	1	fixed	1:fixed	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 5	ella	él	PRON	pp3fs000	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	ArgTem=arg0:cau
 6	puede	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
@@ -42007,7 +42007,7 @@
 13	reivindicar	reivindicar	VERB	vmn0000	VerbForm=Inf	7	advcl	7:advcl	ArgTem=argM:fin
 14	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCASTP1999100161c4--2-CorefType:ident,gstype:gen
 15	partida	partida	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obj	13:obj	ArgTem=arg1:pat
-16	presupuestaria	presupuestaria	ADJ	aq0fs0	Gender=Fem|Number=Sing	15	amod	15:amod	_
+16	presupuestaria	presupuestario	ADJ	aq0fs0	Gender=Fem|Number=Sing	15	amod	15:amod	_
 17	mayor	mayor	ADJ	aq0cs0	Degree=Cmp|Number=Sing	15	amod	15:amod	SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	Entity=(CESSCASTP1999100161c4--6-CorefType:pred.indefinit,gstype:gen
 19	unos	uno	PRON	di0mp0	Gender=Masc|Number=Plur|PronType=Ind	20	nmod	20:nmod	_
@@ -52277,7 +52277,7 @@
 11	a	a	ADP	_	_	10	fixed	10:fixed	_
 12	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 13	partida	partida	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nmod	5:nmod	ArgTem=argM:adv
-14	presupuestaria	presupuestaria	ADJ	aq0fs0	Gender=Fem|Number=Sing	13	amod	13:amod	_
+14	presupuestaria	presupuestario	ADJ	aq0fs0	Gender=Fem|Number=Sing	13	amod	13:amod	_
 15-16	del	_	_	_	_	_	_	_	_
 15	de	de	ADP	spcms	_	17	case	17:case	_
 16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	_
@@ -58420,7 +58420,7 @@
 8	de	de	ADP	sps00	_	10	case	10:case	_
 9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	Entity=(CESSCASTP20011202122c5-place-2-CorefType:ident,gstype:spec
 10	sala	sala	NOUN	ncfs000	Gender=Fem|Number=Sing	7	nmod	7:nmod	_
-11	pionera	pionera	ADJ	aq0fs0	Gender=Fem|Number=Sing	10	amod	10:amod	_
+11	pionera	pionero	ADJ	aq0fs0	Gender=Fem|Number=Sing	10	amod	10:amod	_
 12-13	del	_	_	_	_	_	_	_	_
 12	de	de	ADP	spcms	_	14	case	14:case	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
