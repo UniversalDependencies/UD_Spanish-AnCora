@@ -43547,7 +43547,7 @@
 18	a	a	ADP	sps00	_	19	mark	19:mark	_
 19	aportar	aportar	VERB	vmn0000	VerbForm=Inf	17	xcomp	17:xcomp	ArgTem=arg2:atr
 20	soluciones	solución	NOUN	ncfp000	Gender=Fem|Number=Plur	19	obj	19:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen
-21	innovadoras	innovadora	ADJ	aq0fp0	Gender=Fem|Number=Plur	20	amod	20:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
+21	innovadoras	innovador	ADJ	aq0fp0	Gender=Fem|Number=Plur	20	amod	20:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
 22	.	.	PUNCT	fp	PunctType=Peri	5	punct	5:punct	_
 
 # sent_id = CESS-CAST-P-19990602-19_a-s20
