@@ -31403,7 +31403,7 @@
 20	de	de	ADP	_	_	18	fixed	18:fixed	_
 21	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	Entity=(CESSCASTAA2000103024215c7-organization-2-CorefType:ident,gstype:spec
 22	formación	formación	NOUN	ncfs000	Gender=Fem|Number=Sing	17	obl	17:obl	ArgTem=argL:
-23	opositora	opositora	ADJ	aq0fs0	Gender=Fem|Number=Sing	22	amod	22:amod	Entity=CESSCASTAA2000103024215c7)|SpaceAfter=No
+23	opositora	opositor	ADJ	aq0fs0	Gender=Fem|Number=Sing	22	amod	22:amod	Entity=CESSCASTAA2000103024215c7)|SpaceAfter=No
 24	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 25	lo	él	PRON	cc	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	0	root	0:root	MWE=lo_mismo_que|MWEPOS=CCONJ
 26	mismo	mismo	ADJ	_	_	25	fixed	25:fixed	_
