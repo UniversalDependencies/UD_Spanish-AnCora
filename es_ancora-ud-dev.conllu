@@ -10522,7 +10522,7 @@
 # text = La directora de Turismo de México en Fráncfort, Anne Schumacher, dijo que la relación dólar-marco impidió que existiera un mayor interés, pero destacó que, a pesar de ello, se pudieron consolidar paquetes como las playas de Cancún y la "Riviera Maya".
 # orig_file_sentence 004#41
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTA2000031512633c7-person-2-gstype:spec
-2	directora	directora	NOUN	ncfs000	Gender=Fem|Number=Sing	13	nsubj	13:nsubj	ArgTem=arg0:agt
+2	directora	director	NOUN	ncfs000	Gender=Fem|Number=Sing	13	nsubj	13:nsubj	ArgTem=arg0:agt
 3	de	de	ADP	sps00	_	4	case	4:case	_
 4	Turismo	Turismo	PROPN	np0000o	_	2	nmod	2:nmod	MWE=Turismo_de_México|MWEPOS=PROPN|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
 5	de	de	ADP	_	_	6	case	6:case	_
@@ -32192,7 +32192,7 @@
 20	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	Entity=CESSCASTAA2000103024822c4)CESSCASTAA2000103024822c4)
 21	y	y	CCONJ	cc	_	23	cc	23:cc	_
 22	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCASTAA2000103024822c5-person-2-gstype:spec
-23	directora	directora	NOUN	ncfs000	Gender=Fem|Number=Sing	13	conj	13:conj	_
+23	directora	director	NOUN	ncfs000	Gender=Fem|Number=Sing	13	conj	13:conj	_
 24	general	general	ADJ	aq0cs0	Number=Sing	23	amod	23:amod	_
 25	de	de	ADP	sps00	_	26	case	26:case	_
 26	Ordenación	Ordenación	PROPN	np00000	_	23	nmod	23:nmod	MWE=Ordenación_del_Territorio|MWEPOS=PROPN|Entity=(CESSCASTAA2000103024822c11-organization-1-gstype:spec
@@ -32443,7 +32443,7 @@
 # text = La directora de Ordenación del Territorio explicó que los objetivos de dicho plan son proteger el espacio y los valores ambientales de una zona protegida como es Doñana, ordenar los usos productivos y articular el ámbito de aplicación.
 # orig_file_sentence 007#27
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTAA2000103024822c5-person-2-CorefType:ident,gstype:spec
-2	directora	directora	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg0:agt
+2	directora	director	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg0:agt
 3	de	de	ADP	sps00	_	4	case	4:case	_
 4	Ordenación	Ordenación	PROPN	np00000	_	2	nmod	2:nmod	MWE=Ordenación_del_Territorio|MWEPOS=PROPN|Entity=(CESSCASTAA2000103024822c11-organization-1-CorefType:ident,gstype:spec
 5-6	del	_	_	_	_	_	_	_	_
