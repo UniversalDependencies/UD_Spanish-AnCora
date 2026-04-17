@@ -6361,7 +6361,7 @@
 26	en	en	ADP	sps00	ExtPos=ADP	29	case	29:case	MWE=en_vez_de|MWEPOS=ADP
 27	vez	vez	NOUN	_	_	26	fixed	26:fixed	_
 28	de	de	ADP	_	_	26	fixed	26:fixed	_
-29	Nueva	Nueva	PROPN	np0000l	_	31	obl	31:obl	MWE=Nueva_York|MWEPOS=PROPN|ArgTem=argM:adv|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+29	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	31	obl	31:obl	MWE=Nueva_York|MWEPOS=PROPN|ArgTem=argM:adv|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 30	York	York	PROPN	_	_	29	flat	29:flat	Entity=NOCOREF:Spec.location)
 31	estuvieran	estar	VERB	vmsi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	2:advcl	ArgTem=argM:adv|CxnElt=2:Conditional-NeutralEpistemic.Protasis@f
 32	en	en	ADP	sps00	_	35	case	35:case	_
@@ -6453,7 +6453,7 @@
 30	más	más	ADV	rg	Degree=Cmp	31	advmod	31:advmod	_
 31	lumpen	lumpen	ADJ	aq0cn0	_	29	amod	29:amod	_
 32	de	de	ADP	sps00	_	33	case	33:case	_
-33	Nueva	Nueva	PROPN	np0000l	_	29	nmod	29:nmod	MWE=Nueva_York|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+33	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	29	nmod	29:nmod	MWE=Nueva_York|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 34	York	York	PROPN	_	_	33	flat	33:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 35	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
@@ -24888,7 +24888,7 @@
 31	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	32:det	Entity=(NOCOREF:Gen--2-gstype:gen(NOCOREF:Spec.other-other-2-gstype:spec
 32	Nasdaq	Nasdaq	PROPN	np00000	_	26	nmod	26:nmod	_
 33	en	en	ADP	sps00	_	34	case	34:case	_
-34	Nueva	Nueva	PROPN	np00000	_	32	nmod	32:nmod	MWE=Nueva_York|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+34	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	32	nmod	32:nmod	MWE=Nueva_York|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 35	York	York	PROPN	_	_	34	flat	34:flat	Entity=NOCOREF:Spec.location)NOCOREF:Spec.other)|SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	38	punct	38:punct	_
 37	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
@@ -47191,7 +47191,7 @@
 1	Para	para	ADP	sps00	_	2	mark	2:mark	_
 2	vencer	vencer	VERB	vmn0000	VerbForm=Inf	7	advcl	7:advcl	ArgTem=argM:fin
 3	en	en	ADP	sps00	_	4	case	4:case	_
-4	Nueva	Nueva	PROPN	np00000	_	2	obl	2:obl	MWE=Nueva_Hampshire|MWEPOS=PROPN|ArgTem=argM:loc|Entity=(CESSCASTP2000020241c4-place-1-gstype:spec
+4	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	obl	2:obl	MWE=Nueva_Hampshire|MWEPOS=PROPN|ArgTem=argM:loc|Entity=(CESSCASTP2000020241c4-place-1-gstype:spec
 5	Hampshire	Hampshire	PROPN	_	_	4	flat	4:flat	Entity=CESSCASTP2000020241c4)
 6	no	no	ADV	rn	Polarity=Neg	7	advmod	7:advmod	_
 7	basta	bastar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -47303,7 +47303,7 @@
 13	apariciones	aparición	NOUN	ncfp000	Gender=Fem|Number=Plur	8	obl	8:obl	ArgTem=argM:tmp
 14	electorales	electoral	ADJ	aq0cp0	Number=Plur	13	amod	13:amod	ArgTem=arg2:loc
 15	en	en	ADP	sps00	_	16	case	16:case	_
-16	Nueva	Nueva	PROPN	np00000	_	13	nmod	13:nmod	MWE=Nueva_Hampshire|MWEPOS=PROPN|ArgTem=argM:adv|Entity=(CESSCASTP2000020241c4-place-1-CorefType:ident,gstype:spec
+16	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	13	nmod	13:nmod	MWE=Nueva_Hampshire|MWEPOS=PROPN|ArgTem=argM:adv|Entity=(CESSCASTP2000020241c4-place-1-CorefType:ident,gstype:spec
 17	Hampshire	Hampshire	PROPN	_	_	16	flat	16:flat	Entity=CESSCASTP2000020241c4)NOCOREF:Gen)
 18	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	19:det	Entity=(CESSCASTP2000020241c5--2-gstype:gen,HomoDD
 19	pluma	pluma	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obj	8:obj	ArgTem=arg1:pat
@@ -47420,7 +47420,7 @@
 37	que	que	SCONJ	_	_	36	fixed	36:fixed	_
 38	vino	venir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	conj	23:conj	_
 39	a	a	ADP	sps00	_	40	case	40:case	_
-40	Nueva	Nueva	PROPN	np00000	_	38	obl	38:obl	MWE=Nueva_Hampshire|MWEPOS=PROPN|ArgTem=arg4:des|Entity=(CESSCASTP2000020241c4-place-1-CorefType:ident,gstype:spec
+40	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	38	obl	38:obl	MWE=Nueva_Hampshire|MWEPOS=PROPN|ArgTem=arg4:des|Entity=(CESSCASTP2000020241c4-place-1-CorefType:ident,gstype:spec
 41	Hampshire	Hampshire	PROPN	_	_	40	flat	40:flat	Entity=CESSCASTP2000020241c4)
 42	provisto	provisto	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	38	obj	38:obj	ArgTem=argM:atr
 43	de	de	ADP	sps00	_	45	case	45:case	_
@@ -62283,7 +62283,7 @@
 59	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	60	det	60:det	_
 60	cátedra	cátedra	NOUN	ncfs000	Gender=Fem|Number=Sing	53	appos	53:appos	_
 61	en	en	ADP	sps00	_	62	case	62:case	_
-62	Nueva	Nueva	PROPN	np00000	_	60	nmod	60:nmod	MWE=Nueva_York|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+62	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	60	nmod	60:nmod	MWE=Nueva_York|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 63	York	York	PROPN	_	_	62	flat	62:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 64	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	60	punct	60:punct	Entity=CESSCASTP2002080117c19)|SpaceAfter=No
 65	,	,	PUNCT	fc	PunctType=Comm	71	punct	71:punct	_
@@ -62355,7 +62355,7 @@
 7	en	en	ADP	sps00	_	9	case	9:case	_
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 9	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	3	nmod	3:nmod	_
-10	Nueva	Nueva	PROPN	np00000	_	9	appos	9:appos	MWE=Nueva_Rioja|MWEPOS=PROPN|Entity=(NOCOREF:Spec.other-other-1-gstype:spec
+10	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	9	appos	9:appos	MWE=Nueva_Rioja|MWEPOS=PROPN|Entity=(NOCOREF:Spec.other-other-1-gstype:spec
 11	Rioja	Rioja	PROPN	_	_	10	flat	10:flat	Entity=NOCOREF:Spec.other)NOCOREF:Spec.other)
 12-13	del	_	_	_	_	_	_	_	_
 12	de	de	ADP	spcms	_	14	case	14:case	_

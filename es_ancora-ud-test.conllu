@@ -2402,7 +2402,7 @@
 31	de	de	ADP	sps00	_	32	case	32:case	_
 32	esperanza	esperanza	NOUN	ncfs000	Gender=Fem|Number=Sing	30	nmod	30:nmod	_
 33	desde	desde	ADP	sps00	_	34	case	34:case	_
-34	Nueva	Nueva	PROPN	np0000l	_	26	obl	26:obl	MWE=Nueva_York|MWEPOS=PROPN|ArgTem=arg3:ori|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+34	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	26	obl	26:obl	MWE=Nueva_York|MWEPOS=PROPN|ArgTem=arg3:ori|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 35	York	York	PROPN	_	_	34	flat	34:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 36	:	:	PUNCT	fd	PunctType=Colo	42	punct	42:punct	_
 37-38	al	_	_	_	_	_	_	_	MWE=al_menos|MWEPOS=ADV
@@ -17280,7 +17280,7 @@
 44	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	45:det	_
 45	ONU	ONU	PROPN	_	_	39	flat	39:flat	Entity=CESSCASTA2000101310568c15)
 46	en	en	ADP	sps00	_	47	case	47:case	_
-47	Nueva	Nueva	PROPN	np0000l	_	30	obl	30:obl	MWE=Nueva_York|MWEPOS=PROPN|ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+47	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	30	obl	30:obl	MWE=Nueva_York|MWEPOS=PROPN|ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 48	York	York	PROPN	_	_	47	flat	47:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 49	.	.	PUNCT	fp	PunctType=Peri	23	punct	23:punct	_
 
@@ -22439,7 +22439,7 @@
 1	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	Entity=(CESSCASTAA200002043836c9--2-gstype:gen,HomoDD
 2	mercados	mercado	NOUN	ncmp000	Gender=Masc|Number=Plur	6	nsubj	6:nsubj	ArgTem=arg0:agt
 3	de	de	ADP	sps00	_	4	case	4:case	_
-4	Nueva	Nueva	PROPN	np00000	_	2	nmod	2:nmod	MWE=Nueva_York|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+4	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	nmod	2:nmod	MWE=Nueva_York|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 5	York	York	PROPN	_	_	4	flat	4:flat	Entity=NOCOREF:Spec.location)CESSCASTAA200002043836c9)
 6	cerraron	cerrar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -24606,7 +24606,7 @@
 27	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	28:det	Entity=(CESSCASTAA2000022521729c9-organization-2-gstype:spec
 28	Yanquis	Yanquis	PROPN	np00000	_	25	nmod	25:nmod	MWE=Yanquis_de_Nueva_York|MWEPOS=PROPN
 29	de	de	ADP	_	_	30	case	30:case	_
-30	Nueva	Nueva	PROPN	_	_	28	flat	28:flat	_
+30	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	28	flat	28:flat	_
 31	York	York	PROPN	_	_	30	flat	30:flat	Entity=CESSCASTAA2000022521729c9)|SpaceAfter=No
 32	,	,	PUNCT	fc	PunctType=Comm	33	punct	33:punct	Entity=(CESSCASTAA2000022521729c1-person-2-CorefType:pred.definit,gstype:spec
 33	Joe	Joe	PROPN	np00000	_	25	appos	25:appos	MWE=Joe_Torre|MWEPOS=PROPN
@@ -38233,7 +38233,7 @@
 3	de	de	ADP	_	_	4	case	4:case	_
 4	Apelaciones	Apelaciones	PROPN	_	_	2	flat	2:flat	_
 5	de	de	ADP	_	_	6	case	6:case	_
-6	Nueva	Nueva	PROPN	_	_	2	flat	2:flat	_
+6	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	flat	2:flat	_
 7	Orleans	Orleans	PROPN	_	_	6	flat	6:flat	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
 9	en	en	ADP	sps00	_	10	case	10:case	_
@@ -47013,7 +47013,7 @@
 34	casa	casa	NOUN	ncfs000	Gender=Fem|Number=Sing	22	obl:agent	22:obl:agent	ArgTem=arg0:agt
 35	Sotheby's	Sotheby	PROPN	np00000	_	34	appos	34:appos	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)
 36	de	de	ADP	sps00	_	37	case	37:case	_
-37	Nueva	Nueva	PROPN	np00000	_	34	nmod	34:nmod	MWE=Nueva_York|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+37	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	34	nmod	34:nmod	MWE=Nueva_York|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 38	York	York	PROPN	_	_	37	flat	37:flat	Entity=NOCOREF:Spec.location)NOCOREF:Spec.organization)|SpaceAfter=No
 39	.	.	PUNCT	fp	PunctType=Peri	22	punct	22:punct	_
 
