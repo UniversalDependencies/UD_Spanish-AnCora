@@ -15466,7 +15466,7 @@
 68	ni	ni	CCONJ	cc	_	69	cc	69:cc	_
 69	bueno	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	65	ccomp	65:ccomp	ArgTem=arg2:atr
 70	ni	ni	CCONJ	cc	_	71	cc	71:cc	_
-71	malo	malo	ADJ	aq0ms0	Gender=Masc|Number=Sing	69	conj	69:conj	SpaceAfter=No
+71	malo	mal	ADJ	aq0ms0	Gender=Masc|Number=Sing	69	conj	69:conj	SpaceAfter=No
 72	,	,	PUNCT	fc	PunctType=Comm	75	punct	75:punct	_
 73	sino	sino	CCONJ	cc	ExtPos=CCONJ	75	cc	75:cc	MWE=sino_que|MWEPOS=CCONJ
 74	que	que	SCONJ	_	_	73	fixed	73:fixed	_
@@ -16288,7 +16288,7 @@
 28	después	después	ADV	rg	_	34	advmod	34:advmod	ArgTem=argM:tmp
 29	de	de	ADP	sps00	_	32	case	32:case	_
 30	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	32:det	Entity=(CESSCASTA2000092015595c12--3-CorefType:ident,gstype:gen,HomoDD
-31	malos	malo	ADJ	aq0mp0	Gender=Masc|Number=Plur	32	amod	32:amod	_
+31	malos	mal	ADJ	aq0mp0	Gender=Masc|Number=Plur	32	amod	32:amod	_
 32	momentos	momento	NOUN	ncmp000	Gender=Masc|Number=Plur	28	obl	28:obl	_
 33	pasados	pasado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	32	amod	32:amod	Entity=CESSCASTA2000092015595c12)
 33.1	_	_	PRON	p	_	_	_	34:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000092015595c9-person-1-CorefType:ident,gstype:spec)
@@ -19667,7 +19667,7 @@
 4	explicó	explicar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	que	que	SCONJ	cs	_	28	mark	28:mark	_
 6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-7	mala	malo	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	_
+7	mala	mal	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	_
 8	distribución	distribución	NOUN	ncfs000	Gender=Fem|Number=Sing	28	nsubj	28:nsubj	ArgTem=arg0:cau
 9	de	de	ADP	sps00	_	12	case	12:case	_
 10	aquella	aquel	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	12	det	12:det	Entity=(CESSCASTA2000121813555c5--3-gstype:gen
@@ -40846,7 +40846,7 @@
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	Entity=(NOCOREF:Gen--2-gstype:gen
 2	racha	racha	NOUN	ncfs000	Gender=Fem|Number=Sing	13	nsubj	13:nsubj	ArgTem=arg0:agt
 3	de	de	ADP	sps00	_	5	case	5:case	_
-4	malos	malo	ADJ	aq0mp0	Gender=Masc|Number=Plur	5	amod	5:amod	Entity=(NOCOREF:Gen--2-gstype:gen
+4	malos	mal	ADJ	aq0mp0	Gender=Masc|Number=Plur	5	amod	5:amod	Entity=(NOCOREF:Gen--2-gstype:gen
 5	resultados	resultado	NOUN	ncmp000	Gender=Masc|Number=Plur	2	nmod	2:nmod	Entity=NOCOREF:Gen)|SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 7	con	con	ADP	sps00	_	9	case	9:case	_
@@ -59510,7 +59510,7 @@
 4	desidia	desidia	NOUN	ncfs000	Gender=Fem|Number=Sing	14	ccomp	14:ccomp	ArgTem=arg2:atr
 5	absoluta	absoluto	ADJ	aq0fs0	Gender=Fem|Number=Sing	4	amod	4:amod	_
 6	y	y	CCONJ	cc	_	8	cc	8:cc	_
-7	mala	malo	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	_
+7	mala	mal	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	_
 8	educación	educación	NOUN	ncfs000	Gender=Fem|Number=Sing	4	conj	4:conj	_
 9	mezclada	mezclado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	4	amod	4:amod	_
 10	con	con	ADP	sps00	_	11	case	11:case	_

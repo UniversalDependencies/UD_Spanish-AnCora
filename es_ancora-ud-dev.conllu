@@ -6267,7 +6267,7 @@
 10	más	más	ADV	rg	Degree=Cmp|ExtPos=ADV	14	advmod	14:advmod	MWE=más_que|MWEPOS=ADV
 11	que	que	SCONJ	_	_	10	fixed	10:fixed	_
 12	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	_
-13	mala	malo	ADJ	aq0fs0	Gender=Fem|Number=Sing	14	amod	14:amod	_
+13	mala	mal	ADJ	aq0fs0	Gender=Fem|Number=Sing	14	amod	14:amod	_
 14	hierba	hierba	NOUN	ncfs000	Gender=Fem|Number=Sing	9	nsubj	9:nsubj	ArgTem=arg1:tem|SpaceAfter=No
 15	.	.	PUNCT	fp	PunctType=Peri	9	punct	9:punct	_
 
@@ -19946,7 +19946,7 @@
 11	"	"	PUNCT	fe	PunctType=Quot	14	punct	14:punct	SpaceAfter=No
 12	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
 13	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	cop	14:cop	_
-14	malo	malo	ADJ	aq0ms0	Gender=Masc|Number=Sing	5	acl:relcl	5:acl:relcl	ArgTem=arg2:atr
+14	malo	mal	ADJ	aq0ms0	Gender=Masc|Number=Sing	5	acl:relcl	5:acl:relcl	ArgTem=arg2:atr
 15	por	por	ADP	sps00	_	17	case	17:case	_
 16	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	17:det	Entity=(CESSCASTA200012031592c21--2-gstype:gen,HomoDD
 17	circunstancias	circunstancia	NOUN	ncfp000	Gender=Fem|Number=Plur	14	obl	14:obl	ArgTem=argM:cau
@@ -21131,7 +21131,7 @@
 4	FIN	fin	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	3:obj	_
 5	A	a	ADP	sps00	_	8	case	8:case	_
 6	SU	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	8:det	Entity=(CESSCASTAA200002065003c36--3-gstype:gen,Title(CESSCASTAA200002065003c24-organization-1-CorefType:ident,gstype:spec)
-7	MALA	malo	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	_
+7	MALA	mal	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	_
 8	RACHA	racha	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	3:obj	ArgTem=arg1:tem|Entity=CESSCASTAA200002065003c36)
 9	Y	y	CCONJ	cc	_	10	cc	10:cc	_
 9.1	_	_	PRON	p	_	_	_	10:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200002065003c24-organization-1-CorefType:ident,gstype:spec)
@@ -29112,7 +29112,7 @@
 23	separación	separación	NOUN	ncfs000	Gender=Fem|Number=Sing	7	conj	7:conj	_
 24	de	de	ADP	sps00	_	27	case	27:case	_
 25	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	27:det	Entity=(CESSCASTAA200007052692c12--3-gstype:gen,HomoDD
-26	malos	malo	ADJ	aq0mp0	Gender=Masc|Number=Plur	27	amod	27:amod	_
+26	malos	mal	ADJ	aq0mp0	Gender=Masc|Number=Plur	27	amod	27:amod	_
 27	elementos	elemento	NOUN	ncmp000	Gender=Masc|Number=Plur	23	nmod	23:nmod	ArgTem=arg1:pat
 28	que	que	PRON	pr0cn000	PronType=Rel	29	nsubj	29:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200007052692c12--1-CorefType:ident,gstype:gen)
 29	viven	vivir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	27:acl:relcl	_
@@ -29132,7 +29132,7 @@
 1	Esos	ese	DET	dd0mp0	Gender=Masc|Number=Plur|PronType=Dem	3	det	3:det	Entity=(CESSCASTAA200007052692c12--3-CorefType:ident,gstype:gen
 2	"	"	PUNCT	fe	PunctType=Quot	3	punct	3:punct	SpaceAfter=No
 3	elementos	elemento	NOUN	ncmp000	Gender=Masc|Number=Plur	8	nsubj	8:nsubj	ArgTem=arg1:tem
-4	malos	malo	ADJ	aq0mp0	Gender=Masc|Number=Plur	3	amod	3:amod	SpaceAfter=No
+4	malos	mal	ADJ	aq0mp0	Gender=Masc|Number=Plur	3	amod	3:amod	SpaceAfter=No
 5	"	"	PUNCT	fe	PunctType=Quot	3	punct	3:punct	Entity=CESSCASTAA200007052692c12)
 6	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
 7	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	8:det	Entity=(CESSCASTAA200007052692c12--2-CorefType:pred.definit,gstype:gen
@@ -39841,7 +39841,7 @@
 10	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	ArgTem=arg1:pat
 11	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	Entity=(CESSCASTP1999090175c8--4-CorefType:pred.indefinit,gstype:gen
 12	"	"	PUNCT	fe	PunctType=Quot	14	punct	14:punct	SpaceAfter=No
-13	mala	malo	ADJ	aq0fs0	Gender=Fem|Number=Sing	14	amod	14:amod	_
+13	mala	mal	ADJ	aq0fs0	Gender=Fem|Number=Sing	14	amod	14:amod	_
 14	noticia	noticia	NOUN	ncfs000	Gender=Fem|Number=Sing	2	ccomp	2:ccomp	ArgTem=arg2:atr|SpaceAfter=No
 15	"	"	PUNCT	fe	PunctType=Quot	14	punct	14:punct	_
 16	para	para	ADP	sps00	_	18	case	18:case	_
@@ -41218,7 +41218,7 @@
 14	debido	debido	ADJ	sps00	ExtPos=ADP	18	case	18:case	MWE=debido_a|MWEPOS=ADP
 15	a	a	ADP	_	_	14	fixed	14:fixed	_
 16	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	Entity=(CESSCASTP19991001130c25--3-gstype:gen,HomoDD
-17	mala	malo	ADJ	aq0fs0	Gender=Fem|Number=Sing	18	amod	18:amod	_
+17	mala	mal	ADJ	aq0fs0	Gender=Fem|Number=Sing	18	amod	18:amod	_
 18	racha	racha	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl	4:obl	ArgTem=argM:cau
 19	que	que	PRON	pr0cn000	PronType=Rel	20	obj	20:obj	ArgTem=arg2:atr|Entity=(CESSCASTP19991001130c25--1-CorefType:ident,gstype:gen)
 20	atraviesa	atravesar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
@@ -45014,7 +45014,7 @@
 54	de	de	ADP	sps00	_	57	case	57:case	_
 55	todo	todo	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Tot	57	det	57:det	Entity=(NOCOREF:Gen--3-gstype:gen
 56	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	57	det	57:det	_
-57	malo	malo	ADJ	aq0ms0	Gender=Masc|Number=Sing	53	obl:arg	53:obl:arg	ArgTem=arg2:tem|Entity=NOCOREF:Gen)
+57	malo	mal	ADJ	aq0ms0	Gender=Masc|Number=Sing	53	obl:arg	53:obl:arg	ArgTem=arg2:tem|Entity=NOCOREF:Gen)
 58	a	a	ADP	sps00	_	59	case	59:case	_
 59	jugadores	jugador	NOUN	ncmp000	Gender=Masc|Number=Plur	53	obj	53:obj	ArgTem=arg1:pat|SpaceAfter=No
 60	,	,	PUNCT	fc	PunctType=Comm	61	punct	61:punct	_
