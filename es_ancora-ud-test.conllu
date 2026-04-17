@@ -30875,7 +30875,7 @@
 36	Botella	Botella	PROPN	_	_	35	flat	35:flat	Entity=CESSCASTAA200006086438c1)
 37	venía	venir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	ccomp	31:ccomp	ArgTem=arg1:tem
 38	de	de	ADP	rg	ExtPos=ADV	37	advmod	37:advmod	MWE=de_nuevo|MWEPOS=ADV|ArgTem=argM:tmp
-39	nuevo	nuevo	ADJ	_	_	38	fixed	38:fixed	_
+39	nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	38	fixed	38:fixed	_
 40	a	a	ADP	sps00	_	42	case	42:case	_
 41	esta	este	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	42	det	42:det	Entity=(CESSCASTAA200006086438c4-place-2-CorefType:ident,gstype:spec
 42	localidad	localidad	NOUN	ncfs000	Gender=Fem|Number=Sing	37	obl	37:obl	ArgTem=arg4:des|Entity=CESSCASTAA200006086438c4)|SpaceAfter=No
@@ -48493,7 +48493,7 @@
 2	presidente	presidente	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	3:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP1999120235c1)
 3	padece	padecer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	de	de	ADP	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=de_nuevo|MWEPOS=ADV|ArgTem=argM:tmp
-5	nuevo	nuevo	ADJ	_	_	4	fixed	4:fixed	_
+5	nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	4	fixed	4:fixed	_
 6	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCASTP1999120235c2--3-gstype:gen
 7	"	"	PUNCT	fe	PunctType=Quot	8	punct	8:punct	SpaceAfter=No
 8	neumonía	neumonía	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	3:obj	ArgTem=arg1:pat|SpaceAfter=No
@@ -49404,7 +49404,7 @@
 4	a	a	ADP	sps00	_	5	mark	5:mark	_
 5	hospitalizar	hospitalizar	VERB	vmn0000	VerbForm=Inf	3	xcomp	3:xcomp	ArgTem=arg2:efi
 6	de	de	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=de_nuevo|MWEPOS=ADV|ArgTem=argM:tmp
-7	nuevo	nuevo	ADJ	_	_	6	fixed	6:fixed	_
+7	nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	fixed	6:fixed	_
 8	a	a	ADP	sps00	_	9	case	9:case	_
 9	Vaclav	Vaclav	PROPN	np00000	_	5	obj	5:obj	MWE=Vaclav_Havel|MWEPOS=PROPN|ArgTem=arg1:tem|Entity=(CESSCASTP2000020235_cc1-person-1-gstype:spec,Title
 10	Havel	Havel	PROPN	_	_	9	flat	9:flat	Entity=CESSCASTP2000020235_cc1)|SpaceAfter=No

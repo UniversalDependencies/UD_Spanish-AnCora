@@ -4773,7 +4773,7 @@
 35	y	y	CCONJ	cc	_	36	cc	36:cc	_
 36	engordar	engordar	VERB	vmn0000	VerbForm=Inf	32	conj	32:conj	_
 37	de	de	ADP	rg	ExtPos=ADV	36	advmod	36:advmod	MWE=de_nuevo|MWEPOS=ADV|ArgTem=argM:adv
-38	nuevo	nuevo	ADJ	_	_	37	fixed	37:fixed	SpaceAfter=No
+38	nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	37	fixed	37:fixed	SpaceAfter=No
 39	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
 # sent_id = 3LB-CAST-dc1-3-s3
@@ -4847,7 +4847,7 @@
 31	aparear	aparear	VERB	vmn0000	VerbForm=Inf	19	conj	19:conj	_
 32	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	31	expl:pv	31:expl:pv	_
 33	de	de	ADP	rg	ExtPos=ADV	31	advmod	31:advmod	MWE=de_nuevo|MWEPOS=ADV|ArgTem=argM:adv
-34	nuevo	nuevo	ADJ	_	_	33	fixed	33:fixed	_
+34	nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	33	fixed	33:fixed	_
 35	con	con	ADP	sps00	_	36	case	36:case	_
 36	ella	él	PRON	pp3fs000	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obl	31:obl	ArgTem=argM:adv|SpaceAfter=No
 37	.	.	PUNCT	fp	PunctType=Peri	19	punct	19:punct	_
@@ -24471,7 +24471,7 @@
 6	tecnológicas	tecnológico	ADJ	aq0fp0	Gender=Fem|Number=Plur	5	amod	5:amod	Entity=CESSCASTAA200004096498c8)|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	Entity=(CESSCASTAA200004096498c1-other-3-CorefType:pred.definit,gstype:spec
 8	denominado	denominado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	9	amod	9:amod	_
-9	Nuevo	Nuevo	ADJ	np00000	_	2	appos	2:appos	MWE=Nuevo_Mercado|MWEPOS=PROPN
+9	Nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	appos	2:appos	MWE=Nuevo_Mercado|MWEPOS=PROPN
 10	Mercado	Mercado	PROPN	_	_	9	flat	9:flat	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	Entity=CESSCASTAA200004096498c1)CESSCASTAA200004096498c1)
 12	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	expl:pass	13:expl:pass	_
@@ -24595,7 +24595,7 @@
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTAA200004096498c1-other-2-CorefType:ident,gstype:spec
 2	proyecto	proyecto	NOUN	ncms000	Gender=Masc|Number=Sing	6	nsubj	6:nsubj	ArgTem=arg1:tem
 3	de	de	ADP	sps00	_	4	case	4:case	_
-4	Nuevo	Nuevo	ADJ	np00000	_	2	nmod	2:nmod	MWE=Nuevo_Mercado|MWEPOS=PROPN|ArgTem=arg1:pat|Entity=(NOCOREF:Spec.other-other-1-gstype:spec
+4	Nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	nmod	2:nmod	MWE=Nuevo_Mercado|MWEPOS=PROPN|ArgTem=arg1:pat|Entity=(NOCOREF:Spec.other-other-1-gstype:spec
 5	Mercado	Mercado	PROPN	_	_	4	flat	4:flat	Entity=NOCOREF:Spec.other)CESSCASTAA200004096498c1)
 6	nació	nacer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	oficialmente	oficialmente	ADV	rg	_	6	advmod	6:advmod	ArgTem=argM:adv
@@ -24766,7 +24766,7 @@
 16	coticen	cotizar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
 17	en	en	ADP	sps00	_	19	case	19:case	_
 18	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	Entity=(CESSCASTAA200004096498c1-other-2-CorefType:ident,gstype:spec
-19	Nuevo	Nuevo	ADJ	np00000	_	16	obl	16:obl	MWE=Nuevo_Mercado|MWEPOS=PROPN|ArgTem=argM:loc
+19	Nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	16	obl	16:obl	MWE=Nuevo_Mercado|MWEPOS=PROPN|ArgTem=argM:loc
 20	Mercado	Mercado	PROPN	_	_	19	flat	19:flat	_
 21	tecnológico	tecnológico	ADJ	aq0ms0	Gender=Masc|Number=Sing	19	amod	19:amod	_
 22	español	español	NOUN	ncms000	Gender=Masc|Number=Sing	19	nmod	19:nmod	Entity=CESSCASTAA200004096498c1)CESSCASTAA200004096498c8)NOCOREF:Gen)CESSCASTAA200004096498c9)
@@ -24774,7 +24774,7 @@
 24	denominará	denominar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 25	"	"	PUNCT	fe	PunctType=Quot	26	punct	26:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
 26	Ibex	Ibex	PROPN	np00000	_	24	obj	24:obj	MWE=Ibex_Nuevo_Mercado|MWEPOS=PROPN|ArgTem=argM:atr
-27	Nuevo	Nuevo	ADJ	_	_	26	flat	26:flat	_
+27	Nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	26	flat	26:flat	_
 28	Mercado	Mercado	PROPN	_	_	26	flat	26:flat	SpaceAfter=No
 29	"	"	PUNCT	fe	PunctType=Quot	26	punct	26:punct	Entity=NOCOREF:Spec.other)
 30	y	y	CCONJ	cc	_	31	cc	31:cc	_
@@ -24798,7 +24798,7 @@
 4	coticen	cotizar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 5	en	en	ADP	sps00	_	7	case	7:case	_
 6	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	Entity=(CESSCASTAA200004096498c1-other-2-CorefType:ident,gstype:spec
-7	Nuevo	Nuevo	ADJ	np00000	_	4	obl	4:obl	MWE=Nuevo_Mercado|MWEPOS=PROPN|ArgTem=argM:loc
+7	Nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	4	obl	4:obl	MWE=Nuevo_Mercado|MWEPOS=PROPN|ArgTem=argM:loc
 8	Mercado	Mercado	PROPN	_	_	7	flat	7:flat	SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	_
 10	que	que	PRON	pr0cn000	PronType=Rel	11	nsubj	11:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200004096498c1-other-1-CorefType:ident,gstype:spec)
@@ -24862,7 +24862,7 @@
 6-7	del	_	_	_	_	_	_	_	_
 6	de	de	ADP	spcms	_	8	case	8:case	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
-8	Nuevo	Nuevo	ADJ	np00000	_	3	nmod	3:nmod	MWE=Nuevo_Mercado|MWEPOS=PROPN|Entity=(CESSCASTAA200004096498c1-other-1-CorefType:ident,gstype:spec
+8	Nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	3	nmod	3:nmod	MWE=Nuevo_Mercado|MWEPOS=PROPN|Entity=(CESSCASTAA200004096498c1-other-1-CorefType:ident,gstype:spec
 9	Mercado	Mercado	PROPN	_	_	8	flat	8:flat	Entity=CESSCASTAA200004096498c1)NOCOREF:Gen)
 10	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	Entity=(CESSCASTAA200004096498c14-other-2-CorefType:ident,gstype:spec
 11	bolsa	bolsa	NOUN	ncfs000	Gender=Fem|Number=Sing	14	nsubj	14:nsubj	ArgTem=arg1:tem
@@ -46065,7 +46065,7 @@
 9	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	Entity=CESSCASTP20000202135c11)
 10	repite	repetir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 11	de	de	ADP	rg	ExtPos=ADV	10	advmod	10:advmod	MWE=de_nuevo|MWEPOS=ADV|ArgTem=argM:adv
-12	nuevo	nuevo	ADJ	_	_	11	fixed	11:fixed	SpaceAfter=No
+12	nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	11	fixed	11:fixed	SpaceAfter=No
 13	.	.	PUNCT	fp	PunctType=Peri	10	punct	10:punct	_
 
 # sent_id = CESS-CAST-P-20000202-135-s17
@@ -49623,7 +49623,7 @@
 18	vascos	vasco	NOUN	ncmp000	Gender=Masc|Number=Plur	19	nsubj	19:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Spec.person)
 19	acudan	acudir	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	ArgTem=arg1:pat
 20	de	de	ADP	rg	ExtPos=ADV	19	advmod	19:advmod	MWE=de_nuevo|MWEPOS=ADV|ArgTem=argM:tmp
-21	nuevo	nuevo	ADJ	_	_	20	fixed	20:fixed	_
+21	nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	20	fixed	20:fixed	_
 22	a	a	ADP	sps00	_	24	case	24:case	_
 23	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	24:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 24	urnas	urna	NOUN	ncfp000	Gender=Fem|Number=Plur	19	obl	19:obl	ArgTem=arg4:des|Entity=NOCOREF:Gen)|SpaceAfter=No
