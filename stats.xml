@@ -10,19 +10,19 @@
     <dev><sentences>1654</sentences><tokens>52212</tokens><words>53476</words><fused>1262</fused></dev>
     <test><sentences>1721</sentences><tokens>52454</tokens><words>53622</words><fused>1166</fused></test>
   </size>
-  <lemmas unique="25986" /><!-- el, de, ,, ., que, en, a, y, él, uno, ", ser, por, su, haber -->
+  <lemmas unique="25984" /><!-- el, de, ,, ., que, en, a, y, él, uno, ", ser, por, su, haber -->
   <forms unique="38806" /><!-- de, ,, el, la, ., que, en, a, y, ", los, se, un, las, por -->
   <fusions unique="1094" /><!-- del, al, hacerlo, hacerse, haberse, convertirse, darle, enfrentarse, encontrarse, darse, presentarse, reunirse, situarse, ponerse, producirse -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">36512</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, político, mayor, segundo -->
+    <tag name="ADJ">36514</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, político, mayor, segundo -->
     <tag name="ADP">87929</tag><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
     <tag name="ADV">18366</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
     <tag name="AUX">13570</tag><!-- ser, haber, estar, poder, deber, saber, querer -->
     <tag name="CCONJ">14919</tag><!-- y, pero, o, e, ni, sino, i, u, bien, como -->
     <tag name="DET">84432</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">175</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, ojo -->
-    <tag name="NOUN">100481</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
+    <tag name="NOUN">100479</tag><!-- año, presidente, país, partido, millón, día, equipo, parte, vez, mes -->
     <tag name="NUM">9175</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PART">154</tag><!-- no -->
     <tag name="PRON">25268</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
@@ -52,13 +52,13 @@
     <feat name="ExtPos" value="CCONJ" upos="ADJ,ADP,ADV,CCONJ,NOUN,PART,PRON">319</feat><!-- así, sino, no, es, además, o, en, junto, esto, más -->
     <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART,SCONJ">930</feat><!-- ya, mientras, a, en, pese, con, puesto, tal, de, si -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,CCONJ,DET,NOUN,NUM,PROPN,X">82</feat><!-- les, le, de, Al, i, 1.000, A, Catalanes, Flors, Institució -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85513</feat><!-- la, las, una, esta, pesetas, política, esa, primera, nueva, personas -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85514</feat><!-- la, las, una, esta, pesetas, política, esa, primera, nueva, personas -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">117568</feat><!-- el, los, un, lo, este, años, presidente, millones, todo, pasado -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">843</feat><!-- sería, podría, habría, debería, podrían, deberían, tendría, estaría, haría, habrían -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">311</feat><!-- mira, vaya, añade, afirma, asegura, lean, sea, vea, He, apunta -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">39091</feat><!-- es, ha, han, fue, está, tiene, son, dijo, había, hay -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2872</feat><!-- sea, haya, hubiera, pueda, puedan, fuera, sean, tenga, esté, haga -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">72522</feat><!-- los, las, sus, dos, años, han, millones, son, tres, nos -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">72523</feat><!-- los, las, sus, dos, años, han, millones, son, tres, nos -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">201450</feat><!-- el, la, un, una, su, es, ha, lo, le, este -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">263</feat><!-- nuestra, nuestro, nuestros, nuestras, vuestra, vuestras -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">249</feat><!-- mi, mis, tu, mío, mía, tus, tuya, tuyo -->

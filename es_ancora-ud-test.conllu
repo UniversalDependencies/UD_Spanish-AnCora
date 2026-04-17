@@ -31782,7 +31782,7 @@
 46	silla	silla	NOUN	ncfs000	Gender=Fem|Number=Sing	44	nmod	44:nmod	Entity=NOCOREF:Gen)
 47	"	"	PUNCT	fe	PunctType=Quot	48	punct	48:punct	Entity=(NOCOREF:Gen--2-gstype:gen|SpaceAfter=No
 48	bolas	bolas	NOUN	nc00000	_	41	appos	41:appos	MWE=bolas_nuevas|MWEPOS=NOUN
-49	nuevas	nuevas	NOUN	_	_	48	compound	48:compound	SpaceAfter=No
+49	nuevas	nuevo	ADJ	aq0fp0	Gender=Fem|Number=Plur	48	compound	48:compound	SpaceAfter=No
 50	"	"	PUNCT	fe	PunctType=Quot	48	punct	48:punct	Entity=NOCOREF:Gen)NOCOREF:Gen)CESSCASTAA200007106482c16)NOCOREF:Gen)|SpaceAfter=No
 51	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
