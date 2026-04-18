@@ -2422,7 +2422,7 @@
 15	parecía	parecer	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	8:advcl	_
 16	a	a	ADP	rg	_	15	xcomp	15:xcomp	MWE=a_salvo|MWEPOS=ADV|ArgTem=arg2:atr
 17	salvo	salvo	NOUN	_	_	16	fixed	16:fixed	_
-18	no	no	PART	rg	ExtPos=CCONJ	22	cc	22:cc	MWE=no_sólo|MWEPOS=ADV
+18	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	22	cc	22:cc	MWE=no_sólo|MWEPOS=ADV
 19	sólo	sólo	ADV	_	_	18	fixed	18:fixed	_
 20	de	de	ADP	sps00	_	22	case	22:case	_
 21	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	det	22:det	_
@@ -4443,7 +4443,7 @@
 20	por	por	ADP	rg	_	37	parataxis	37:parataxis	MWE=por_ejemplo|MWEPOS=ADV|ArgTem=argM:adv
 21	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	20	fixed	20:fixed	SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
-23	no	no	PART	rn	ExtPos=CCONJ	37	cc	37:cc	MWE=no_sólo|MWEPOS=ADV
+23	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	37	cc	37:cc	MWE=no_sólo|MWEPOS=ADV
 24	sólo	sólo	ADV	_	Polarity=Neg	23	fixed	23:fixed	_
 25	le	él	PRON	pp3csa00	Case=Dat|Number=Sing|Person=3|PronType=Prs	26	obl:arg	26:obl:arg	ArgTem=arg1:pat
 26	aíslan	aislar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	parataxis	37:parataxis	_
@@ -6262,7 +6262,7 @@
 5	Sur	Sur	PROPN	np0000l	_	1	obl	1:obl	MWE=Sur_Bronx|MWEPOS=PROPN
 6	Bronx	Bronx	PROPN	_	_	5	flat	5:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
-8	no	no	ADV	rg	_	9	advmod	9:advmod	_
+8	no	no	ADV	rn	Polarity=Neg	9	advmod	9:advmod	_
 9	crecía	crecer	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
 10	más	más	ADV	rg	Degree=Cmp|ExtPos=ADV	14	advmod	14:advmod	MWE=más_que|MWEPOS=ADV
 11	que	que	SCONJ	_	_	10	fixed	10:fixed	_
@@ -8431,7 +8431,7 @@
 27	a	a	ADP	sps00	_	28	case	28:case	_
 28	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	25	nmod	25:nmod	_
 29	que	que	PRON	pr0cn000	PronType=Rel	33	nsubj	33:nsubj	ArgTem=arg1:tem
-30	no	no	ADV	rg	_	33	advmod	33:advmod	ArgTem=argM:adv
+30	no	no	ADV	rn	Polarity=Neg	33	advmod	33:advmod	ArgTem=argM:adv
 31	era	ser	AUX	vsii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	cop	33:cop	ArgTem=arg1:pat
 32	otra	otro	ADJ	rg	_	33	amod	33:amod	MWE=otra_cosa_que|MWEPOS=ADV
 33	cosa	cosa	NOUN	_	_	28	acl:relcl	28:acl:relcl	_
@@ -12970,7 +12970,7 @@
 2	jugador	jugador	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	ArgTem=arg0:agt
 3	portugués	portugués	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	amod	2:amod	Entity=CESSCASTA2000032318886c3)
 4	expresó	expresar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-5	no	no	PART	rg	ExtPos=ADV	4	advmod	4:advmod	MWE=no_obstante|MWEPOS=ADV
+5	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	4	advmod	4:advmod	MWE=no_obstante|MWEPOS=ADV
 6	obstante	obstante	NOUN	_	_	5	fixed	5:fixed	_
 7	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	8:det	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTA2000032318886c3-person-1-CorefType:ident,gstype:spec)
 8	confianza	confianza	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obj	4:obj	ArgTem=arg1:pat
@@ -17766,7 +17766,7 @@
 8	a	a	ADP	sps00	_	9	case	9:case	_
 9	Rusia	Rusia	PROPN	np0000o	_	6	obl:arg	6:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTA2000062015780c2-organization-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	_
-11	no	no	PART	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=no_obstante|MWEPOS=ADV
+11	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	6	advmod	6:advmod	MWE=no_obstante|MWEPOS=ADV
 12	obstante	obstante	NOUN	_	_	11	fixed	11:fixed	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	_
 14	que	que	SCONJ	cs	_	17	mark	17:mark	_
@@ -19545,7 +19545,7 @@
 # sent_id = CESS-CAST-A-20001203-1592-s3
 # text = No obstante, el Presidente de Spanair indicó que hay "acuerdos muy satisfactorios con la compañía escandinava SAS (que ya es accionista de la empresa española con un 49 por ciento del capital) y con la alemana Lufthansa, con la que volamos con código compartido", que podría entrar en el accionariado en el futuro con alguna participación.
 # orig_file_sentence 005#41
-1	No	no	PART	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=No_obstante|MWEPOS=ADV
+1	No	no	ADV	rn	ExtPos=ADV|Polarity=Neg	8	advmod	8:advmod	MWE=No_obstante|MWEPOS=ADV
 2	obstante	obstante	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCASTA200012031592c1-person-2-CorefType:ident,gstype:spec
@@ -19781,7 +19781,7 @@
 39	como	como	SCONJ	cs	_	40	mark	40:mark	_
 40	quiera	querer	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	advcl	38:advcl	ArgTem=argM:adv|SpaceAfter=No
 41	;	;	PUNCT	fx	PunctType=Semi	42	punct	42:punct	_
-42	no	no	PART	cc	_	0	root	0:root	MWE=no_obstante|MWEPOS=CCONJ
+42	no	no	ADV	rn	Polarity=Neg	0	root	0:root	MWE=no_obstante|MWEPOS=CCONJ
 43	obstante	obstante	NOUN	_	_	42	fixed	42:fixed	_
 44	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	45	obl:arg	45:obl:arg	ArgTem=arg1:tem|Entity=(CESSCASTA200012031592c1-person-1-CorefType:ident,gstype:spec)
 45	preocupa	preocupar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	parataxis	42:parataxis	_
@@ -19976,7 +19976,7 @@
 38	a	a	ADP	sps00	_	39	mark	39:mark	_
 39	mantener	mantener	VERB	vmn0000	VerbForm=Inf	37	xcomp	37:xcomp	SpaceAfter=No
 40	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
-41	no	no	PART	rg	ExtPos=ADV	37	advmod	37:advmod	MWE=no_obstante|MWEPOS=ADV
+41	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	37	advmod	37:advmod	MWE=no_obstante|MWEPOS=ADV
 42	obstante	obstante	NOUN	_	_	41	fixed	41:fixed	SpaceAfter=No
 43	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
 44	en	en	ADP	sps00	_	47	case	47:case	_
@@ -20032,7 +20032,7 @@
 # sent_id = CESS-CAST-A-20001203-1592-s11
 # text = No obstante, para Pascual el "verdadero valor de la compañía" es que "el número de pasajeros que hemos transportado ha aumentado, hasta situarse en siete millones en el año 2000, frente a los 5.757.292 del año pasado, y las cifras de pasajeros por kilómetros recorridos nos sitúa como una de las primeras compañías del tamaño de la nuestra".
 # orig_file_sentence 005#49
-1	No	no	PART	rg	ExtPos=ADV	25	advmod	25:advmod	MWE=No_obstante|MWEPOS=ADV
+1	No	no	ADV	rn	ExtPos=ADV|Polarity=Neg	25	advmod	25:advmod	MWE=No_obstante|MWEPOS=ADV
 2	obstante	obstante	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	para	para	ADP	sps00	_	5	case	5:case	_
@@ -35320,7 +35320,7 @@
 21	tienen	tener	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
 22	actuación	actuación	NOUN	ncfs000	Gender=Fem|Number=Sing	21	obj	21:obj	ArgTem=arg2:atr
 23	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	Entity=(CESSCASTAA200012128504csingleton1--5-gstype:gen|SpaceAfter=No
-24	no	no	PART	rg	ExtPos=CCONJ	27	cc	27:cc	MWE=no_sólo|MWEPOS=ADV
+24	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	27	cc	27:cc	MWE=no_sólo|MWEPOS=ADV
 25	sólo	sólo	ADV	_	_	24	fixed	24:fixed	_
 26	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 27	administración	administración	NOUN	ncfs000	Gender=Fem|Number=Sing	21	nsubj	21:nsubj	ArgTem=arg1:tem
@@ -45848,7 +45848,7 @@
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTP20000202135c4-person-2-CorefType:ident,gstype:spec,HomoDD
 2	intérprete	intérprete	NOUN	nccs000	Number=Sing	8	nsubj	8:nsubj	ArgTem=arg1:tem
 3	de	de	ADP	sps00	_	4	case	4:case	_
-4	No	No	PART	np00000	_	2	nmod	2:nmod	MWE=No_me_importa_nada|MWEPOS=PROPN|Entity=(NOCOREF:Spec.other-other-1-gstype:spec
+4	No	no	ADV	rn	Polarity=Neg	2	nmod	2:nmod	MWE=No_me_importa_nada|MWEPOS=PROPN|Entity=(NOCOREF:Spec.other-other-1-gstype:spec
 5	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	4	obl:arg	4:obl:arg	_
 6	importa	importa	PROPN	_	_	5	flat	5:flat	_
 7	nada	nada	PROPN	_	_	5	flat	5:flat	Entity=NOCOREF:Spec.other)CESSCASTP20000202135c4)
@@ -47401,7 +47401,7 @@
 18	Bush	Bush	PROPN	_	_	16	flat	16:flat	SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
 20	que	que	PRON	pr0cn000	PronType=Rel	23	nsubj	23:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000020241c11-person-1-CorefType:ident,gstype:spec)
-21	no	no	PART	rg	ExtPos=ADV	23	advmod	23:advmod	MWE=no_sólo|MWEPOS=ADV
+21	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	23	advmod	23:advmod	MWE=no_sólo|MWEPOS=ADV
 22	sólo	sólo	ADV	_	_	21	fixed	21:fixed	_
 23	confesó	confesar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 24	echar	echar	VERB	vmn0000	VerbForm=Inf	23	xcomp	23:xcomp	ArgTem=arg1:pat
@@ -55544,7 +55544,7 @@
 1	Bosnia	Bosnia	PROPN	np00000	_	6	nsubj	6:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2001040130c1--1
 2	y	y	CCONJ	cc	_	3	cc	3:cc	_
 3	Croacia	Croacia	PROPN	np00000	_	1	conj	1:conj	Entity=CESSCASTP2001040130c1)
-4	no	no	PART	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=no_sólo|MWEPOS=ADV
+4	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	6	advmod	6:advmod	MWE=no_sólo|MWEPOS=ADV
 5	sólo	sólo	ADV	_	_	4	fixed	4:fixed	_
 6	saludaron	saludar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	parataxis	14:parataxis	_
 7	ayer	ayer	ADV	rg	_	6	advmod	6:advmod	ArgTem=argM:tmp
@@ -55926,7 +55926,7 @@
 21	sí	sí	INTJ	_	_	18	acl	18:acl	SpaceAfter=No
 22	,	,	PUNCT	_	PunctType=Comm	24	punct	24:punct	_
 23	yanquis	yanqui	NOUN	_	Gender=Masc|Number=Plur	24	nsubj	24:nsubj	_
-24	no	no	INTJ	_	_	21	conj	21:conj	Entity=NOCOREF:Gen)
+24	no	no	INTJ	rn	Polarity=Neg	21	conj	21:conj	Entity=NOCOREF:Gen)
 25	en	en	ADP	sps00	_	27	case	27:case	_
 26	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 27	actos	acto	NOUN	ncmp000	Gender=Masc|Number=Plur	2	obl	2:obl	ArgTem=argM:loc
@@ -58239,7 +58239,7 @@
 # sent_id = CESS-CAST-P-20011201-106-s3
 # text = No obstante, la asociación de vecinos mantiene las demás movilizaciones previstas para este mes.
 # orig_file_sentence 009#71
-1	No	no	PART	cc	ExtPos=ADV	8	advmod	8:advmod	MWE=No_obstante|MWEPOS=CCONJ
+1	No	no	ADV	rn	ExtPos=ADV|Polarity=Neg	8	advmod	8:advmod	MWE=No_obstante|MWEPOS=CCONJ
 2	obstante	obstante	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -61830,7 +61830,7 @@
 # text = "No sólo nos insultan, sino que mienten y lo saben.
 # orig_file_sentence 013#12
 1	"	"	PUNCT	fe	PunctType=Quot	7	punct	7:punct	SpaceAfter=No
-2	No	no	PART	rg	ExtPos=CCONJ	7	cc	7:cc	MWE=No_sólo|MWEPOS=ADV
+2	No	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	7	cc	7:cc	MWE=No_sólo|MWEPOS=ADV
 3	sólo	sólo	ADV	_	_	2	fixed	2:fixed	_
 3.1	_	_	PRON	p	_	_	_	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002080117c6--1-gstype:gen)
 4	nos	yo	PRON	pp1cp000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	5	obl:arg	5:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTP2002080117c5-organization-1-CorefType:ident,gstype:spec)

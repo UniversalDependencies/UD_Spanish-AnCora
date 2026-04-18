@@ -794,7 +794,7 @@
 40	y	y	CCONJ	cc	_	41	cc	41:cc	_
 41	cristales	cristal	NOUN	ncmp000	Gender=Masc|Number=Plur	39	conj	39:conj	_
 42	rotos	roto	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	41	amod	41:amod	_
-43	no	no	ADV	rg	_	44	advmod	44:advmod	ArgTem=argM:adv
+43	no	no	ADV	rn	Polarity=Neg	44	advmod	44:advmod	ArgTem=argM:adv
 44	hace	hacer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	10:conj	_
 45	sino	sino	ADV	rg	_	44	advmod	44:advmod	ArgTem=argM:adv
 46	suplir	suplir	VERB	vmn0000	VerbForm=Inf	44	xcomp	44:xcomp	ArgTem=arg1:pat
@@ -2675,7 +2675,7 @@
 5	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	7:det	_
 6	propias	propio	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	7	det	7:det	_
 7	plumas	pluma	NOUN	ncfp000	Gender=Fem|Number=Plur	13	nsubj	13:nsubj	ArgTem=arg1:tem
-8	no	no	ADV	rg	_	13	advmod	13:advmod	_
+8	no	no	ADV	rn	Polarity=Neg	13	advmod	13:advmod	_
 9	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	ArgTem=arg1:pat
 10	otra	otra	NOUN	rg	ExtPos=ADV	13	advmod	13:advmod	MWE=otra_cosa_que|MWEPOS=ADV|ArgTem=argM:adv
 11	cosa	cosa	NOUN	_	_	10	fixed	10:fixed	_
@@ -7759,7 +7759,7 @@
 1	En	en	ADP	sps00	_	3	case	3:case	_
 2	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	3:det	_
 3	universo	universo	NOUN	ncms000	Gender=Masc|Number=Sing	5	obl	5:obl	ArgTem=argM:loc
-4	no	no	ADV	rg	_	5	advmod	5:advmod	_
+4	no	no	ADV	rn	Polarity=Neg	5	advmod	5:advmod	_
 5	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-HavePred
 6	sino	sino	CCONJ	cc	_	5	advmod	5:advmod	_
 7	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	_
@@ -10727,7 +10727,7 @@
 3	australiana	australiano	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	amod	2:amod	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
 4	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:pass	5:expl:pass	_
 5	mantiene	mantener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	_
-6	no	no	PART	cc	_	0	root	0:root	MWE=no_obstante|MWEPOS=CCONJ
+6	no	no	ADV	rn	Polarity=Neg	0	root	0:root	MWE=no_obstante|MWEPOS=CCONJ
 7	obstante	obstante	NOUN	_	_	6	fixed	6:fixed	_
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCASTA2000012315801c20-person-2-gstype:spec
 9	Lleyton	Lleyton	PROPN	np0000p	_	6	parataxis	6:parataxis	MWE=Lleyton_Hewitt|MWEPOS=PROPN
@@ -13766,7 +13766,7 @@
 5	salgan	salir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	ArgTem=arg1:pat
 6	beneficiados	beneficiado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	5	obj	5:obj	ArgTem=arg2:atr|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	_
-8	no	no	PART	rg	ExtPos=ADV	11	advmod	11:advmod	MWE=no_sólo|MWEPOS=ADV
+8	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	11	advmod	11:advmod	MWE=no_sólo|MWEPOS=ADV
 9	sólo	sólo	ADV	_	_	8	fixed	8:fixed	_
 10	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	11:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 11	espectadores	espectador	NOUN	ncmp000	Gender=Masc|Number=Plur	5	obj	5:obj	Entity=NOCOREF:Gen)
@@ -15186,7 +15186,7 @@
 33	gerente	gerente	NOUN	nccs000	Number=Sing	34	nsubj	34:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000061310295c24)
 34	admitió	admitir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	advcl	23:advcl	_
 35	que	que	SCONJ	cs	_	38	mark	38:mark	_
-36	no	no	ADV	rg	_	38	advmod	38:advmod	_
+36	no	no	ADV	rn	Polarity=Neg	38	advmod	38:advmod	_
 37	aunque	aunque	SCONJ	cs	_	38	mark	38:mark	_
 37.1	_	_	PRON	p	_	_	_	38:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000061310295c24-person-1-CorefType:ident,gstype:spec)
 38	aseguró	asegurar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	ccomp	34:ccomp	ArgTem=arg1:pat
@@ -17297,7 +17297,7 @@
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCASTA2000101310568c16--2-CorefType:ident,gstype:gen
 9	convenio	convenio	NOUN	ncms000	Gender=Masc|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg1:tem|Entity=CESSCASTA2000101310568c16)
 10	servirá	servir	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	ccomp	6:ccomp	ArgTem=arg1:pat
-11	no	no	PART	rg	ExtPos=CCONJ	14	cc	14:cc	MWE=no_sólo|MWEPOS=ADV
+11	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	14	cc	14:cc	MWE=no_sólo|MWEPOS=ADV
 12	sólo	sólo	ADV	_	_	11	fixed	11:fixed	_
 13	para	para	ADP	sps00	_	14	mark	14:mark	_
 14	buscar	buscar	VERB	vmn0000	VerbForm=Inf	10	conj	10:conj	ArgTem=arg3:fin
@@ -19202,7 +19202,7 @@
 5	Monarquía	Monarquía	PROPN	np0000a	_	12	nsubj	12:nsubj	MWE=Monarquía_Parlamentaria|MWEPOS=PROPN|ArgTem=arg1:tem
 6	Parlamentaria	Parlamentaria	PROPN	_	_	5	flat	5:flat	Entity=CESSCASTA2000112217124c17)
 7	"	"	PUNCT	fe	PunctType=Quot	12	punct	12:punct	SpaceAfter=No
-8	no	no	PART	cc	ExtPos=CCONJ	12	cc	12:cc	MWE=no_solamente|MWEPOS=CCONJ
+8	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	12	cc	12:cc	MWE=no_solamente|MWEPOS=CCONJ
 9	solamente	solamente	ADV	_	_	8	fixed	8:fixed	_
 10	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
 11	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	_
@@ -19290,7 +19290,7 @@
 3	nuestro	nuestro	DET	dp1msp	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	4:det	Entity=(CESSCASTA2000112217124c8-place-2-CorefType:ident,gstype:spec(NOCOREF:Gen--1-gstype:gen)
 4	país	país	NOUN	ncms000	Gender=Masc|Number=Sing	9	nsubj	9:nsubj	ArgTem=arg0:cau|Entity=CESSCASTA2000112217124c8)
 5	"	"	PUNCT	fe	PunctType=Quot	4	punct	4:punct	SpaceAfter=No
-6	no	no	PART	rg	ExtPos=CCONJ	9	cc	9:cc	MWE=no_solamente|MWEPOS=ADV
+6	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	9	cc	9:cc	MWE=no_solamente|MWEPOS=ADV
 7	solamente	solamente	NOUN	_	_	6	fixed	6:fixed	_
 8	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 9	normalizado	normalizar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	1:ccomp	ArgTem=arg1:pat
@@ -24186,7 +24186,7 @@
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCASTAA2000022420351c7--2-gstype:gen,HomoDD
 6	prensa	prensa	NOUN	ncfs000	Gender=Fem|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg0:agt
 7	deportiva	deportivo	ADJ	aq0fs0	Gender=Fem|Number=Sing	6	amod	6:amod	Entity=CESSCASTAA2000022420351c7)
-8	no	no	PART	rg	ExtPos=ADV	10	advmod	10:advmod	MWE=no_sólo|MWEPOS=ADV|ArgTem=argM:adv
+8	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	10	advmod	10:advmod	MWE=no_sólo|MWEPOS=ADV|ArgTem=argM:adv
 9	sólo	sólo	ADV	_	_	8	fixed	8:fixed	_
 10	destaca	destacar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	16:parataxis	_
 11-12	al	_	_	_	_	_	_	_	_
@@ -28065,7 +28065,7 @@
 32	leyenda	leyenda	NOUN	ncfs000	Gender=Fem|Number=Sing	29	nmod	29:nmod	_
 33	de	de	ADP	sps00	_	35	case	35:case	_
 34	"	"	PUNCT	fe	PunctType=Quot	35	punct	35:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
-35	No	no	PART	np00000	_	32	nmod	32:nmod	MWE=No_a_la_central_eléctrica|MWEPOS=PROPN
+35	No	no	ADV	rn	Polarity=Neg	32	nmod	32:nmod	MWE=No_a_la_central_eléctrica|MWEPOS=PROPN
 36	a	a	ADP	_	_	38	case	38:case	_
 37	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	38:det	_
 38	central	central	PROPN	_	_	35	flat	35:flat	_
@@ -34867,7 +34867,7 @@
 8	pistas	pista	NOUN	ncfp000	Gender=Fem|Number=Plur	5	nmod	5:nmod	ArgTem=arg1:tem|Entity=NOCOREF:Gen)NOCOREF:Gen)
 9	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	ArgTem=arg1:pat
 10	"	"	PUNCT	fe	PunctType=Quot	13	punct	13:punct	SpaceAfter=No
-11	no	no	PART	rn	ExtPos=CCONJ	13	cc	13:cc	MWE=no_sólo|MWEPOS=ADV
+11	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	13	cc	13:cc	MWE=no_sólo|MWEPOS=ADV
 12	sólo	sólo	ADV	_	Polarity=Neg	11	fixed	11:fixed	_
 13	importante	importante	ADJ	aq0cs0	Number=Sing	2	ccomp	2:ccomp	ArgTem=arg2:atr|SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
@@ -34951,7 +34951,7 @@
 3	juicio	juicio	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	Entity=NOCOREF:Gen)|SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 5	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	SpaceAfter=No
-6	no	no	PART	rg	ExtPos=CCONJ	9	cc	9:cc	MWE=no_sólo|MWEPOS=ADV
+6	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	9	cc	9:cc	MWE=no_sólo|MWEPOS=ADV
 7	sólo	sólo	ADV	_	_	6	fixed	6:fixed	_
 8	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 9	cuestión	cuestión	NOUN	ncfs000	Gender=Fem|Number=Sing	3	conj	3:conj	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen
@@ -35020,7 +35020,7 @@
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	Entity=(CESSCASTAA2000092824092c10--3-CorefType:ident,gstype:gen,HomoDD
 6	segunda	segundo	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	7	amod	7:amod	_
 7	pista	pista	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nmod	3:nmod	ArgTem=arg1:pat|Entity=CESSCASTAA2000092824092c10)NOCOREF:Gen)
-8	no	no	PART	rg	ExtPos=ADV	12	advmod	12:advmod	MWE=no_sólo|MWEPOS=ADV
+8	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	12	advmod	12:advmod	MWE=no_sólo|MWEPOS=ADV
 9	sólo	sólo	ADV	_	_	8	fixed	8:fixed	_
 10	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	ArgTem=arg1:pat
 11	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -35400,7 +35400,7 @@
 3	sí	sí	PROPN	_	_	2	flat	2:flat	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	2	punct	2:punct	_
 5	yanquis	yanquis	PROPN	_	_	2	flat	2:flat	_
-6	no	no	PART	_	_	2	flat	2:flat	SpaceAfter=No
+6	no	no	ADV	rn	Polarity=Neg	2	flat	2:flat	SpaceAfter=No
 7	"	"	PUNCT	fe	PunctType=Quot	2	punct	2:punct	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	Entity=CESSCASTAA2000102923573c6)
 9	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	11:cop	_
@@ -39191,7 +39191,7 @@
 # sent_id = CESS-CAST-P-19981202-32-s2
 # text = No obstante, las condiciones ganadoras que había estipulado para su celebración el primer ministro separatista, Lucien Bouchard, han comenzado ya a materializarse, pues la primera de ellas era la victoria electoral.
 # orig_file_sentence 014#50
-1	No	no	PART	cc	ExtPos=ADV	22	advmod	22:advmod	MWE=No_obstante|MWEPOS=CCONJ
+1	No	no	ADV	rn	ExtPos=ADV|Polarity=Neg	22	advmod	22:advmod	MWE=No_obstante|MWEPOS=CCONJ
 2	obstante	obstante	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	5:det	Entity=(CESSCASTP1998120232c1--2-gstype:gen,HomoDD
@@ -42650,7 +42650,7 @@
 # orig_file_sentence 015#80
 1	Antes	antes	ADV	rg	_	10	advmod	10:advmod	ArgTem=argM:tmp|SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
-3	no	no	PART	cc	ExtPos=ADV	10	advmod	10:advmod	MWE=no_obstante|MWEPOS=CCONJ
+3	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	10	advmod	10:advmod	MWE=no_obstante|MWEPOS=CCONJ
 4	obstante	obstante	NOUN	_	_	3	fixed	3:fixed	SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 6	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	7:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -43148,7 +43148,7 @@
 # sent_id = CESS-CAST-P-19990601-98-s11
 # text = No obstante, los representantes de trabajadores y empresa han convocado una próxima cita de la mesa de negociación para el próximo 8 de junio.
 # orig_file_sentence 018#5
-1	No	no	PART	cc	ExtPos=ADV	11	advmod	11:advmod	MWE=No_obstante|MWEPOS=CCONJ
+1	No	no	ADV	rn	ExtPos=ADV|Polarity=Neg	11	advmod	11:advmod	MWE=No_obstante|MWEPOS=CCONJ
 2	obstante	obstante	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -47894,7 +47894,7 @@
 16	así	así	ADV	rg	_	15	advmod	15:advmod	_
 17	como	como	SCONJ	cs	_	19	mark	19:mark	_
 18	"	"	PUNCT	fe	PunctType=Quot	19	punct	19:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
-19	No	no	PART	np00000	_	15	nmod	15:nmod	MWE=No_nos_vais_a_pitar_,_¿_verdad_?|MWEPOS=PROPN|Cxn=Interrogative-Polar-Direct|CxnElt=19:Interrogative-Polar-Direct.Clause
+19	No	no	ADV	rn	Polarity=Neg	15	nmod	15:nmod	MWE=No_nos_vais_a_pitar_,_¿_verdad_?|MWEPOS=PROPN|Cxn=Interrogative-Polar-Direct|CxnElt=19:Interrogative-Polar-Direct.Clause
 20	nos	yo	PRON	_	Case=Acc,Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	19	flat	19:flat	_
 21	vais	vais	PROPN	_	_	20	flat	20:flat	_
 22	a	a	ADP	_	_	23	case	23:case	_
@@ -47913,7 +47913,7 @@
 2	saben	saber	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	que	que	SCONJ	cs	_	6	mark	6:mark	_
 4	aquí	aquí	ADV	rg	_	6	advmod	6:advmod	ArgTem=argM:loc
-5	no	no	ADV	rg	_	6	advmod	6:advmod	_
+5	no	no	ADV	rn	Polarity=Neg	6	advmod	6:advmod	_
 6	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	ArgTem=arg1:pat
 7	más	más	ADV	rg	Degree=Cmp	8	advmod	8:advmod	Entity=(NOCOREF:Gen--2-gstype:gen
 8	movida	movida	NOUN	ncfs000	Gender=Fem|Number=Sing	6	obj	6:obj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
@@ -49522,7 +49522,7 @@
 # sent_id = CESS-CAST-P-20000202-35_d-s3
 # text = No obstante, Wiranto se mantiene firme y se niega a dejar el cargo.
 # orig_file_sentence 015#24
-1	No	no	PART	cc	ExtPos=ADV	6	advmod	6:advmod	MWE=No_obstante|MWEPOS=CCONJ
+1	No	no	ADV	rn	ExtPos=ADV|Polarity=Neg	6	advmod	6:advmod	MWE=No_obstante|MWEPOS=CCONJ
 2	obstante	obstante	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	Wiranto	Wiranto	PROPN	np00000	_	6	nsubj	6:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2000020235_dc3-person-1-CorefType:ident,gstype:spec)
@@ -52695,7 +52695,7 @@
 14	bienes	bien	NOUN	ncmp000	Gender=Masc|Number=Plur	12	nmod	12:nmod	_
 15	y	y	CCONJ	cc	_	16	cc	16:cc	_
 16	servicios	servicio	NOUN	ncmp000	Gender=Masc|Number=Plur	14	conj	14:conj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)NOCOREF:Gen)CESSCASTP2000070193c8)
-17	no	no	PART	rg	ExtPos=ADV	19	advmod	19:advmod	MWE=no_sólo|MWEPOS=ADV
+17	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	19	advmod	19:advmod	MWE=no_sólo|MWEPOS=ADV
 18	sólo	sólo	ADV	_	_	17	fixed	17:fixed	_
 19	incluía	incluir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	parataxis	26:parataxis	_
 20	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	21:det	Entity=(CESSCASTP2000070193c7--2-gstype:gen,HomoDD
@@ -60408,7 +60408,7 @@
 3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	Entity=(CESSCASTP2002010334c2-other-2-CorefType:ident,gstype:spec
 4	historia	historia	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2002010334c2)
 5	rompe	romper	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-6	no	no	PART	cc	ExtPos=CCONJ	10	cc	10:cc	MWE=no_sólo|MWEPOS=CCONJ
+6	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	10	cc	10:cc	MWE=no_sólo|MWEPOS=CCONJ
 7	sólo	sólo	ADV	_	_	6	fixed	6:fixed	_
 8	con	con	ADP	sps00	_	10	case	10:case	_
 9	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
