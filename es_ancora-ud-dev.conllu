@@ -6098,12 +6098,12 @@
 # sent_id = 3LB-CAST-n1-1-s20
 # text = - ¡Este vestido - exclama Cristia Mngani con indignación mientras agarra la ropa - es lo único que tengo!
 # orig_file_sentence 002#86
-1	-	-	PUNCT	fg	PunctType=Dash	16	punct	16:punct	_
-2	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	16	punct	16:punct	SpaceAfter=No
+1	-	-	PUNCT	fg	PunctType=Dash	18	punct	18:punct	_
+2	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	18	punct	18:punct	SpaceAfter=No
 3	Este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	4	det	4:det	_
-4	vestido	vestido	NOUN	ncms000	Gender=Masc|Number=Sing	16	nsubj	16:nsubj	ArgTem=arg1:tem
+4	vestido	vestido	NOUN	ncms000	Gender=Masc|Number=Sing	18	nsubj	18:nsubj	ArgTem=arg1:tem
 5	-	-	PUNCT	fg	PunctType=Dash	6	punct	6:punct	_
-6	exclama	exclamar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	16:parataxis	_
+6	exclama	exclamar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	18:parataxis	_
 7	Cristia	Cristia	PROPN	np0000p	_	6	nsubj	6:nsubj	MWE=Cristia_Mngani|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 8	Mngani	Mngani	PROPN	_	_	7	flat	7:flat	Entity=NOCOREF:Spec.person)
 9	con	con	ADP	sps00	_	10	case	10:case	_
@@ -6113,12 +6113,12 @@
 13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	_
 14	ropa	ropa	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obj	12:obj	ArgTem=arg1:pat
 15	-	-	PUNCT	fg	PunctType=Dash	6	punct	6:punct	_
-16	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-17	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Dem	20	nsubj	20:nsubj	_
-18	único	único	ADJ	aq0ms0	Gender=Masc|Number=Sing	20	amod	20:amod	ArgTem=arg2:atr
+16	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
+17	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Dem	18	det	18:det	_
+18	único	único	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	0:root	ArgTem=arg2:atr
 19	que	que	PRON	pr0cn000	PronType=Rel	20	obj	20:obj	ArgTem=arg2:atr
-20	tengo	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp	16:ccomp	SpaceAfter=No
-21	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	16	punct	16:punct	_
+20	tengo	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	SpaceAfter=No
+21	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	18	punct	18:punct	_
 
 # global.Entity = eid-etype-head-other
 # newdoc id = 3LB-CAST-n1-2
@@ -28105,7 +28105,7 @@
 # text = La escudería Minardi para la que pilota Marc Gené, fue la única que no entrenó en este circuito la semana pasada y su objetivo es encontrar el motivo de porqué no consiguen en la sesión de clasificación los tiempos que luego realizan en carrera.
 # orig_file_sentence 006#87
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTAA2000062923978c20-organization-2-gstype:spec
-2	escudería	escudería	NOUN	ncfs000	Gender=Fem|Number=Sing	11	nsubj	11:nsubj	ArgTem=arg1:tem
+2	escudería	escudería	NOUN	ncfs000	Gender=Fem|Number=Sing	13	nsubj	13:nsubj	ArgTem=arg1:tem
 3	Minardi	Minardi	PROPN	np00000	_	2	appos	2:appos	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)
 4	para	para	ADP	sps00	_	6	case	6:case	_
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCASTAA2000062923978c20-organization-2-CorefType:ident,gstype:spec
@@ -28114,12 +28114,12 @@
 8	Marc	Marc	PROPN	np00000	_	7	nsubj	7:nsubj	MWE=Marc_Gené|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 9	Gené	Gené	PROPN	_	_	8	flat	8:flat	Entity=NOCOREF:Spec.person)|SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	Entity=CESSCASTAA2000062923978c20)
-11	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-12	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	Entity=(CESSCASTAA2000062923978c20-organization-5-CorefType:pred.definit,gstype:spec
-13	única	único	ADJ	aq0fs0	Gender=Fem|Number=Sing	16	amod	16:amod	ArgTem=arg2:atr
+11	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	13:cop	_
+12	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	Entity=(CESSCASTAA2000062923978c20-organization-5-CorefType:pred.definit,gstype:spec
+13	única	único	ADJ	aq0fs0	Gender=Fem|Number=Sing	0	root	0:root	ArgTem=arg2:atr
 14	que	que	PRON	pr0cn000	PronType=Rel	16	nsubj	16:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000062923978c20-organization-1-CorefType:ident,gstype:spec)
 15	no	no	ADV	rn	Polarity=Neg	16	advmod	16:advmod	_
-16	entrenó	entrenar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	11:ccomp	_
+16	entrenó	entrenar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
 17	en	en	ADP	sps00	_	19	case	19:case	_
 18	este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	19	det	19:det	Entity=(CESSCASTAA2000062923978c10-place-2-CorefType:ident,gstype:spec
 19	circuito	circuito	NOUN	ncms000	Gender=Masc|Number=Sing	16	obl	16:obl	ArgTem=argM:loc|Entity=CESSCASTAA2000062923978c10)
@@ -28129,7 +28129,7 @@
 23	y	y	CCONJ	cc	_	26	cc	26:cc	_
 24	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	25:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTAA2000062923978c20-organization-1-CorefType:ident,gstype:spec)
 25	objetivo	objetivo	NOUN	ncms000	Gender=Masc|Number=Sing	26	nsubj	26:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
-26	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	11:conj	_
+26	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	13:conj	_
 27	encontrar	encontrar	VERB	vmn0000	VerbForm=Inf	26	ccomp	26:ccomp	ArgTem=arg2:atr
 28	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 29	motivo	motivo	NOUN	ncms000	Gender=Masc|Number=Sing	27	obj	27:obj	ArgTem=arg1:pat
@@ -28151,7 +28151,7 @@
 43	realizan	realizar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	40:acl:relcl	_
 44	en	en	ADP	sps00	_	45	case	45:case	_
 45	carrera	carrera	NOUN	ncfs000	Gender=Fem|Number=Sing	43	obl	43:obl	ArgTem=argM:loc|Entity=(NOCOREF:Gen--1-gstype:gen)CESSCASTAA2000062923978c22)NOCOREF:Gen)|SpaceAfter=No
-46	.	.	PUNCT	fp	PunctType=Peri	11	punct	11:punct	_
+46	.	.	PUNCT	fp	PunctType=Peri	13	punct	13:punct	_
 
 # sent_id = CESS-CAST-AA-20000629-23978-s9
 # text = La ausencia de un motor específico para disputar la sesión de clasificación es uno de los motivos que más penaliza a la escudería, prácticamente condenada a los últimos puestos, mientras los pilotos en carrera son sensiblemente más rápidos.
@@ -60409,19 +60409,19 @@
 # orig_file_sentence 010#60
 1	Según	según	ADP	sps00	_	3	case	3:case	_
 2	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	3:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-3	estatutos	estatuto	NOUN	ncmp000	Gender=Masc|Number=Plur	10	obl	10:obl	_
+3	estatutos	estatuto	NOUN	ncmp000	Gender=Masc|Number=Plur	12	obl	12:obl	_
 4	de	de	ADP	sps00	_	6	case	6:case	_
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCASTP20020301125c3-organization-2-CorefType:ident,gstype:spec
 6	entidad	entidad	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nmod	3:nmod	Entity=CESSCASTP20020301125c3)NOCOREF:Gen)|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCASTP20020301125c11--2-gstype:gen,HomoDD
-9	presidente	presidente	NOUN	ncms000	Gender=Masc|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP20020301125c11)
-10	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-11	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCASTP20020301125c11--5-CorefType:pred.definit,gstype:gen
-12	único	único	ADJ	aq0ms0	Gender=Masc|Number=Sing	15	amod	15:amod	ArgTem=arg2:atr
+9	presidente	presidente	NOUN	ncms000	Gender=Masc|Number=Sing	12	nsubj	12:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP20020301125c11)
+10	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
+11	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(CESSCASTP20020301125c11--5-CorefType:pred.definit,gstype:gen
+12	único	único	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	0:root	ArgTem=arg2:atr
 13	que	que	PRON	pr0cn000	PronType=Rel	15	nsubj	15:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20020301125c11--1-CorefType:ident,gstype:gen)
 14	puede	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
-15	recibir	recibir	VERB	vmn0000	VerbForm=Inf	10	ccomp	10:ccomp	_
+15	recibir	recibir	VERB	vmn0000	VerbForm=Inf	12	acl:relcl	12:acl:relcl	_
 16	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	Entity=(NOCOREF:Gen--2-gstype:gen
 17	número	número	NOUN	ncms000	Gender=Masc|Number=Sing	15	obj	15:obj	ArgTem=arg1:pat
 18	ilimitado	ilimitado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	17	amod	17:amod	_
@@ -60429,7 +60429,7 @@
 20	delegaciones	delegación	NOUN	ncfp000	Gender=Fem|Number=Plur	17	nmod	17:nmod	Entity=(CESSCASTP20020301125c12--1-CorefType:ident,gstype:gen
 21	de	de	ADP	sps00	_	22	case	22:case	_
 22	voto	voto	NOUN	ncms000	Gender=Masc|Number=Sing	20	nmod	20:nmod	ArgTem=arg1:pat|Entity=CESSCASTP20020301125c12)NOCOREF:Gen)CESSCASTP20020301125c11)|SpaceAfter=No
-23	.	.	PUNCT	fp	PunctType=Peri	10	punct	10:punct	_
+23	.	.	PUNCT	fp	PunctType=Peri	12	punct	12:punct	_
 
 # sent_id = CESS-CAST-P-20020301-125-s6
 # text = El presidente de Òmnium contraatacó ayer y afirmó que la candidatura de Porta está pidiendo también el voto a los socios.
@@ -60510,16 +60510,16 @@
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
 16	"	"	PUNCT	fe	PunctType=Quot	18	punct	18:punct	SpaceAfter=No
 17	única	único	ADJ	aq0fs0	Gender=Fem|Number=Sing	18	amod	18:amod	_
-18	preocupación	preocupación	NOUN	ncfs000	Gender=Fem|Number=Sing	24	nsubj	24:nsubj	ArgTem=arg1:tem|SpaceAfter=No
+18	preocupación	preocupación	NOUN	ncfs000	Gender=Fem|Number=Sing	25	nsubj	25:nsubj	ArgTem=arg1:tem|SpaceAfter=No
 19	"	"	PUNCT	fe	PunctType=Quot	18	punct	18:punct	_
 20-21	del	_	_	_	_	_	_	_	_
 20	de	de	ADP	spcms	_	22	case	22:case	_
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	_
 22	sector	sector	NOUN	ncms000	Gender=Masc|Number=Sing	18	nmod	18:nmod	ArgTem=arg1:tem|Entity=(CESSCASTP20020301125c2-person-1-CorefType:ident,gstype:spec
 23	renovador	renovador	ADJ	aq0ms0	Gender=Masc|Number=Sing	22	amod	22:amod	Entity=CESSCASTP20020301125c2)NOCOREF:Gen)
-24	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	14:ccomp	ArgTem=arg1:pat
+24	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	25:cop	ArgTem=arg1:pat
 25-26	decapitarle	_	_	_	_	_	_	_	SpaceAfter=No
-25	decapitar	decapitar	VERB	vmn0000	VerbForm=Inf	24	ccomp	24:ccomp	ArgTem=arg2:atr|Entity=(CESSCASTP20020301125c1-person-1-gstype:spec
+25	decapitar	decapitar	VERB	vmn0000	VerbForm=Inf	14	ccomp	14:ccomp	ArgTem=arg2:atr|Entity=(CESSCASTP20020301125c1-person-1-gstype:spec
 26	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	25	obl:arg	25:obl:arg	Entity=CESSCASTP20020301125c1)
 27	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
