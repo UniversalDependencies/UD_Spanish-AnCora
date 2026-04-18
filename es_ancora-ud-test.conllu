@@ -15561,13 +15561,13 @@
 70	en	en	ADP	sps00	_	71	case	71:case	_
 71	Atenas	Atenas	PROPN	np0000l	_	68	obl	68:obl	ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)|SpaceAfter=No
 72	,	,	PUNCT	fc	PunctType=Comm	79	punct	79:punct	_
-73	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	79	cc	79:cc	MWE=mientras_que|MWEPOS=CCONJ
+73	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	79	mark	79:mark	MWE=mientras_que|MWEPOS=CCONJ
 74	que	que	SCONJ	cs	_	73	fixed	73:fixed	_
 75	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	79	nsubj	79:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen
 76	de	de	ADP	sps00	_	77	case	77:case	_
 77	Estambul	Estambul	PROPN	np0000o	_	75	nmod	75:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)NOCOREF:Gen)
 78	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	79	cop	79:cop	_
-79	algo	algo	PRON	pi0cs000	Number=Sing|PronType=Ind	63	conj	63:conj	ArgTem=arg2:atr
+79	algo	algo	PRON	pi0cs000	Number=Sing|PronType=Ind	63	advcl	63:advcl	ArgTem=arg2:atr
 80	simbólico	simbólico	ADJ	aq0ms0	Gender=Masc|Number=Sing	79	amod	79:amod	SpaceAfter=No
 81	"	"	PUNCT	fe	PunctType=Quot	55	punct	55:punct	SpaceAfter=No
 82	.	.	PUNCT	fp	PunctType=Peri	17	punct	17:punct	_

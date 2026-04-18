@@ -28187,7 +28187,7 @@
 29	últimos	último	ADJ	ao0mp0	Gender=Masc|Number=Plur|NumType=Ord	30	amod	30:amod	_
 30	puestos	puesto	NOUN	ncmp000	Gender=Masc|Number=Plur	26	obj	26:obj	ArgTem=arg2:tem|Entity=NOCOREF:Gen)CESSCASTAA2000062923978c20)CESSCASTAA2000062923978c23)|SpaceAfter=No
 31	,	,	PUNCT	fc	PunctType=Comm	40	punct	40:punct	_
-32	mientras	mientras	SCONJ	cs	_	40	cc	40:cc	_
+32	mientras	mientras	SCONJ	cs	_	40	mark	40:mark	_
 33	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	34:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 34	pilotos	piloto	NOUN	nccp000	Number=Plur	40	nsubj	40:nsubj	ArgTem=arg1:tem
 35	en	en	ADP	sps00	_	36	case	36:case	_
@@ -28195,7 +28195,7 @@
 37	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	cop	40:cop	_
 38	sensiblemente	sensiblemente	ADV	rg	_	40	advmod	40:advmod	_
 39	más	más	ADV	rg	Degree=Cmp	38	advmod	38:advmod	_
-40	rápidos	rápido	ADJ	aq0mp0	Gender=Masc|Number=Plur	14	conj	14:conj	ArgTem=arg2:atr|SpaceAfter=No
+40	rápidos	rápido	ADJ	aq0mp0	Gender=Masc|Number=Plur	14	advcl	14:advcl	ArgTem=arg2:atr|SpaceAfter=No
 41	.	.	PUNCT	fp	PunctType=Peri	14	punct	14:punct	_
 
 # sent_id = CESS-CAST-AA-20000629-23978-s10
@@ -36594,12 +36594,12 @@
 27	seguidores	seguidor	NOUN	ncmp000	Gender=Masc|Number=Plur	5	advcl	5:advcl	ArgTem=arg2:atr
 28	ingleses	inglés	ADJ	aq0mp0	Gender=Masc|Number=Plur	27	amod	27:amod	Entity=CESSCASTP1999060113c4)|SpaceAfter=No
 29	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
-30	mientras	mientras	SCONJ	cs	_	35	cc	35:cc	_
+30	mientras	mientras	SCONJ	cs	_	35	mark	35:mark	_
 31	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	32:det	Entity=(CESSCASTP1999060113c5--2-gstype:gen,HomoDD
 32	alemanes	alemán	NOUN	ncmp000	Gender=Masc|Number=Plur	35	nsubj	35:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP1999060113c5)
 33	no	no	ADV	rn	Polarity=Neg	35	advmod	35:advmod	_
 34	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	35	expl:pv	35:expl:pv	_
-35	comportaban	comportar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	conj	27:conj	_
+35	comportaban	comportar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	advcl	27:advcl	_
 36	tampoco	tampoco	ADV	rg	_	35	advmod	35:advmod	_
 37	conforme	conforme	ADJ	aq0cs0	Number=Sing	35	advmod	35:advmod	ArgTem=argM:mnr
 38-39	al	_	_	_	_	_	_	_	_
@@ -56740,13 +56740,13 @@
 47	carrera	carrera	NOUN	ncfs000	Gender=Fem|Number=Sing	40	nmod	40:nmod	ArgTem=arg2:loc
 48	judicial	judicial	ADJ	aq0cs0	Number=Sing	47	amod	47:amod	Entity=NOCOREF:Gen)NOCOREF:Gen)CESSCASTP2001080157c11)|SpaceAfter=No
 49	,	,	PUNCT	fc	PunctType=Comm	56	punct	56:punct	_
-50	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	56	cc	56:cc	MWE=mientras_que|MWEPOS=CCONJ
+50	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	56	mark	56:mark	MWE=mientras_que|MWEPOS=CCONJ
 51	que	que	SCONJ	cs	_	50	fixed	50:fixed	_
 52	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	53:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 53	imprudencia	imprudencia	NOUN	ncfs000	Gender=Fem|Number=Sing	56	nsubj	56:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 54	sólo	sólo	ADV	rg	_	56	advmod	56:advmod	_
 55	sería	ser	AUX	vsic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	56	cop	56:cop	_
-56	objeto	objeto	NOUN	ncms000	Gender=Masc|Number=Sing	21	conj	21:conj	ArgTem=arg2:atr
+56	objeto	objeto	NOUN	ncms000	Gender=Masc|Number=Sing	21	advcl	21:advcl	ArgTem=arg2:atr
 57	de	de	ADP	sps00	_	59	case	59:case	_
 58	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	59	det	59:det	Entity=(NOCOREF:Gen--2-gstype:gen
 59	sanción	sanción	NOUN	ncfs000	Gender=Fem|Number=Sing	56	nmod	56:nmod	_
