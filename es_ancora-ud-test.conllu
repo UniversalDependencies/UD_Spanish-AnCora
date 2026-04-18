@@ -8164,7 +8164,7 @@
 # orig_file_sentence 003#46
 1	Después	después	ADV	rg	_	4	advmod	4:advmod	ArgTem=argM:tmp|SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
-3	mientras	mientras	SCONJ	cs	_	4	mark	4:mark	_
+3	mientras	mientras	ADV	rg	_	4	advmod	4:advmod	_
 4	seguía	seguir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
 5	sonriendo	sonreír	VERB	vmg0000	VerbForm=Ger	4	xcomp	4:xcomp	ArgTem=argM:tmp|SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
