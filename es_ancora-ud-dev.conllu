@@ -26882,7 +26882,7 @@
 16	"	"	PUNCT	fe	PunctType=Quot	18	punct	18:punct	Entity=(CESSCASTAA200005129580c10--3-gstype:gen|SpaceAfter=No
 17	algunas	alguno	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	18	det	18:det	_
 18	firmas	firma	NOUN	ncfp000	Gender=Fem|Number=Plur	11	nmod	11:nmod	_
-19	encuestadoras	encuestadora	ADJ	aq0fp0	Gender=Fem|Number=Plur	18	amod	18:amod	_
+19	encuestadoras	encuestador	ADJ	aq0fp0	Gender=Fem|Number=Plur	18	amod	18:amod	_
 20	norteamericanas	norteamericano	ADJ	aq0fp0	Gender=Fem|Number=Plur	18	amod	18:amod	SpaceAfter=No
 21	"	"	PUNCT	fe	PunctType=Quot	18	punct	18:punct	SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
