@@ -8162,13 +8162,13 @@
 # sent_id = 3LB-CAST-t6-1-s1
 # text = Después, mientras seguía sonriendo, contemplando dos hileras de dientes blancos, sanos, bellos, alargó una de sus manos hacia el pecho y acarició el espolón que proyectaba sobre su piel la huella de un esternón deforme como un arma agresiva e hiriente, una de las carcajadas de su cuerpo, aquel hueso burlón y desmadrado que había crecido hacia fuera y no hacia dentro.
 # orig_file_sentence 003#46
-1	Después	después	ADV	rg	_	4	advmod	4:advmod	ArgTem=argM:tmp|SpaceAfter=No
-2	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
+1	Después	después	ADV	rg	_	18	advmod	18:advmod	ArgTem=argM:tmp|SpaceAfter=No
+2	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
 3	mientras	mientras	ADV	rg	_	4	advmod	4:advmod	_
-4	seguía	seguir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
+4	seguía	seguir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	18:advcl	_
 5	sonriendo	sonreír	VERB	vmg0000	VerbForm=Ger	4	xcomp	4:xcomp	ArgTem=argM:tmp|SpaceAfter=No
-6	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
-7	contemplando	contemplar	VERB	vmg0000	VerbForm=Ger	5	advcl	5:advcl	ArgTem=argM:mnr
+6	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
+7	contemplando	contemplar	VERB	vmg0000	VerbForm=Ger	18	advcl	18:advcl	ArgTem=argM:mnr
 8	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	9	nummod	9:nummod	_
 9	hileras	hilera	NOUN	ncfp000	Gender=Fem|Number=Plur	7	obj	7:obj	ArgTem=arg1:pat
 10	de	de	ADP	sps00	_	11	case	11:case	_
@@ -8178,8 +8178,8 @@
 14	sanos	sano	ADJ	aq0mp0	Gender=Masc|Number=Plur	12	amod	12:amod	SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
 16	bellos	bello	ADJ	aq0mp0	Gender=Masc|Number=Plur	12	amod	12:amod	SpaceAfter=No
-17	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
-18	alargó	alargar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	5:advcl	_
+17	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
+18	alargó	alargar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 19	una	uno	PRON	pi0fs000	Gender=Fem|Number=Sing|PronType=Ind	18	obj	18:obj	ArgTem=arg1:tem
 20	de	de	ADP	sps00	_	22	case	22:case	_
 21	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	det	22:det	_
@@ -8231,7 +8231,7 @@
 67	no	no	ADV	rn	Polarity=Neg	65	conj	65:conj	_
 68	hacia	hacia	ADP	sps00	_	67	case	67:case	_
 69	dentro	dentro	ADV	rg	_	67	advmod	67:advmod	SpaceAfter=No
-70	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
+70	.	.	PUNCT	fp	PunctType=Peri	18	punct	18:punct	_
 
 # sent_id = 3LB-CAST-t6-1-s2
 # text = Tocó el familiar bulto con cuidado, recorriendo sus aristas con las yemas de los dedos, contemplando la imagen que le devolvía el espejo y pensando que todo aquello ya no tenía remedio, que nada podía hacer ya por su cara, ni por su pecho, por esas piernas que no veía, pero sabía tan huesudas y separadas como las patas de un pollo mojado, y por esa carne blanquecina, fofa, que comenzaba a acumularse en torno a su cintura, a descolgarse hacia abajo arrastrando en su vértigo un ombligo progresivamente hondo, para añadir una nueva vejación, la de los años, a un cuerpo condenado de antemano, desde antes de existir, a ser feo.
