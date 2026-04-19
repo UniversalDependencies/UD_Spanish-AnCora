@@ -142,7 +142,7 @@
     <dep name="nsubj:outer">14</dep>
     <dep name="nsubj:pass">61</dep>
     <dep name="nummod">6007</dep>
-    <dep name="obj">24039</dep>
+    <dep name="obj">24012</dep>
     <dep name="obl">23941</dep>
     <dep name="obl:agent">1283</dep>
     <dep name="obl:arg">7947</dep>
@@ -151,6 +151,6 @@
     <dep name="punct">65613</dep>
     <dep name="root">17662</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">5115</dep>
+    <dep name="xcomp">5142</dep>
   </deps>
 </treebank>

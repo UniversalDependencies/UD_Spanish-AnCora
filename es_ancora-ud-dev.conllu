@@ -2363,7 +2363,7 @@
 21	piedad	piedad	NOUN	ncfs000	Gender=Fem|Number=Sing	18	nmod	18:nmod	_
 22	que	que	PRON	pr0cn000	PronType=Rel	23	obj	23:obj	ArgTem=arg1:pat
 23	llamamos	llamar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
-24	simpatía	simpatía	NOUN	ncfs000	Gender=Fem|Number=Sing	23	obj	23:obj	ArgTem=arg2:atr|SpaceAfter=No
+24	simpatía	simpatía	NOUN	ncfs000	Gender=Fem|Number=Sing	23	xcomp	23:xcomp	ArgTem=arg2:atr|SpaceAfter=No
 25	.	.	PUNCT	fp	PunctType=Peri	9	punct	9:punct	_
 
 # sent_id = 3LB-CAST-c1-2-s8
@@ -12845,7 +12845,7 @@
 15	Cantalejo	Cantalejo	PROPN	_	_	14	flat	14:flat	Entity=NOCOREF:Spec.person)NOCOREF:Spec.person)
 16	consideró	considerar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
 17	"	"	PUNCT	fe	PunctType=Quot	18	punct	18:punct	SpaceAfter=No
-18	agresión	agresión	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obj	16:obj	ArgTem=arg2:atr
+18	agresión	agresión	NOUN	ncfs000	Gender=Fem|Number=Sing	16	xcomp	16:xcomp	ArgTem=arg2:atr
 19-20	al	_	_	_	_	_	_	_	_
 19	a	a	ADP	spcms	_	21	case	21:case	_
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	21:det	_
@@ -14561,7 +14561,7 @@
 54	puede	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux	55:aux	_
 55-56	decirlo	_	_	_	_	_	_	_	SpaceAfter=No
 55	decir	decir	VERB	vmn0000	VerbForm=Inf	3	advcl	3:advcl	Entity=(CESSCASTA2000042317037c30--1-CorefType:ident
-56	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	55	obj	55:obj	Entity=CESSCASTA2000042317037c30)
+56	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	55	xcomp	55:xcomp	Entity=CESSCASTA2000042317037c30)
 57	"	"	PUNCT	fe	PunctType=Quot	55	punct	55:punct	Entity=CESSCASTA2000042317037c30)|SpaceAfter=No
 58	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
@@ -31748,7 +31748,7 @@
 60	que	que	PRON	pr0cn000	PronType=Rel	61	obj	61:obj	ArgTem=arg1:pat|Entity=(CESSCASTAA2000103024215c18--1-CorefType:ident,gstype:gen)
 60.1	_	_	PRON	p	_	_	_	61:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000103024215c17-organization-1-CorefType:ident,gstype:spec)
 61	hizo	hacer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	59	acl:relcl	59:acl:relcl	_
-62	público	público	NOUN	ncms000	Gender=Masc|Number=Sing	61	obj	61:obj	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen)
+62	público	público	NOUN	ncms000	Gender=Masc|Number=Sing	61	xcomp	61:xcomp	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen)
 63	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	64:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
 64	domingo	domingo	NOUN	_	_	61	obl	61:obl	ArgTem=argM:tmp
 65	por	por	ADP	sps00	_	67	case	67:case	_
@@ -54065,7 +54065,7 @@
 25.1	_	_	PRON	p	_	_	_	26:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20010201176c1-person-1-CorefType:ident,gstype:spec)
 26	escribió	escribir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	acl:relcl	24:acl:relcl	SpaceAfter=No
 27	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	Entity=(CESSCASTP20010201176c3-other-2-CorefType:pred.definit,gstype:spec
-28	Sufro	Sufro	PROPN	np00000	_	26	obj	26:obj	MWE=Sufro_bucho|MWEPOS=PROPN
+28	Sufro	Sufro	PROPN	np00000	_	26	xcomp	26:xcomp	MWE=Sufro_bucho|MWEPOS=PROPN
 29	bucho	bucho	PROPN	_	_	28	flat	28:flat	Entity=CESSCASTP20010201176c3)CESSCASTP20010201176c3)|SpaceAfter=No
 30	.	.	PUNCT	fp	PunctType=Peri	12	punct	12:punct	_
 
@@ -58035,7 +58035,7 @@
 91	-	-	PUNCT	fg	PunctType=Dash	72	punct	72:punct	_
 92	-	-	PUNCT	fg	PunctType=Dash	72	punct	72:punct	Entity=NOCOREF:Gen)|SpaceAfter=No
 93	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
-94	materia	materia	NOUN	ncfs000	Gender=Fem|Number=Sing	9	obj	9:obj	ArgTem=arg1:tem
+94	materia	materia	NOUN	ncfs000	Gender=Fem|Number=Sing	9	xcomp	9:xcomp	ArgTem=arg1:tem
 95	de	de	ADP	sps00	_	97	case	97:case	_
 96	encomiable	encomiable	ADJ	aq0cs0	Number=Sing	97	amod	97:amod	Entity=(NOCOREF:Gen--2-gstype:gen
 97	estilo	estilo	NOUN	ncms000	Gender=Masc|Number=Sing	94	nmod	94:nmod	Entity=NOCOREF:Gen)|SpaceAfter=No

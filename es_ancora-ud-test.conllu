@@ -3690,7 +3690,7 @@
 36	juego	juego	NOUN	ncms000	Gender=Masc|Number=Sing	34	nmod	34:nmod	_
 37	que	que	PRON	pr0cn000	PronType=Rel	38	obj	38:obj	ArgTem=arg1:pat
 38	llamamos	llamar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	36	acl:relcl	36:acl:relcl	_
-39	equilibrio	equilibrio	NOUN	ncms000	Gender=Masc|Number=Sing	38	obj	38:obj	ArgTem=arg2:atr
+39	equilibrio	equilibrio	NOUN	ncms000	Gender=Masc|Number=Sing	38	xcomp	38:xcomp	ArgTem=arg2:atr
 40	ecológico	ecológico	ADJ	aq0ms0	Gender=Masc|Number=Sing	39	amod	39:amod	SpaceAfter=No
 41	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
 
@@ -3918,7 +3918,7 @@
 72	que	que	PRON	pr0cn000	PronType=Rel	74	obj	74:obj	ArgTem=arg1:pat
 73	algunos	alguno	PRON	pi0mp000	Gender=Masc|Number=Plur|PronType=Ind	74	nsubj	74:nsubj	ArgTem=arg0:agt
 74	llaman	llamar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	67	advcl	67:advcl	ArgTem=argM:loc
-75	memoria	memoria	NOUN	ncfs000	Gender=Fem|Number=Sing	74	obj	74:obj	ArgTem=arg2:atr
+75	memoria	memoria	NOUN	ncfs000	Gender=Fem|Number=Sing	74	xcomp	74:xcomp	ArgTem=arg2:atr
 76	genética	genético	ADJ	aq0fs0	Gender=Fem|Number=Sing	75	amod	75:amod	SpaceAfter=No
 77	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
@@ -16794,7 +16794,7 @@
 29	Vladikavkaz	Vladikavkaz	PROPN	np0000p	_	27	nmod	27:nmod	Entity=(NOCOREF:Spec.person-person-1-gstype:spec)CESSCASTA2000092015595c24)
 30	rubricar	rubricar	VERB	vmn0000	VerbForm=Inf	7	conj	7:conj	_
 31	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	32:det	Entity=(NOCOREF:Gen--2-gstype:gen
-32	dominio	dominio	NOUN	ncms000	Gender=Masc|Number=Sing	30	obj	30:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
+32	dominio	dominio	NOUN	ncms000	Gender=Masc|Number=Sing	30	xcomp	30:xcomp	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 33	en	en	ADP	sps00	_	35	case	35:case	_
 34	esta	este	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	35	det	35:det	Entity=(CESSCASTA2000092015595c25--2-CorefType:ident,gstype:gen
 35	prueba	prueba	NOUN	ncfs000	Gender=Fem|Number=Sing	30	obl	30:obl	ArgTem=argM:loc|Entity=CESSCASTA2000092015595c25)
@@ -43653,7 +43653,7 @@
 16	que	que	PRON	pr0cn000	PronType=Rel	17	obj	17:obj	ArgTem=arg1:pat
 16.1	_	_	PRON	p	_	_	_	17:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999060219_ac9--1-CorefType:ident,gstype:gen)
 17	llamamos	llamar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	ArgTem=arg1:pat
-18	mensaje	mensaje	NOUN	ncms000	Gender=Masc|Number=Sing	17	obj	17:obj	ArgTem=arg2:atr|Entity=CESSCASTP1999060219_ac10)NOCOREF:Gen)
+18	mensaje	mensaje	NOUN	ncms000	Gender=Masc|Number=Sing	17	xcomp	17:xcomp	ArgTem=arg2:atr|Entity=CESSCASTP1999060219_ac10)NOCOREF:Gen)
 19	y	y	CCONJ	cc	_	22	cc	22:cc	_
 20	en	en	ADP	sps00	_	22	case	22:case	_
 21	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	det	22:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP1999060219_ac8--1-CorefType:ident,gstype:gen)
