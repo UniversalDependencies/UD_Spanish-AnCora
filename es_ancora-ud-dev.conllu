@@ -11128,7 +11128,7 @@
 30	bonanza	bonanza	NOUN	ncfs000	Gender=Fem|Number=Sing	27	nmod	27:nmod	_
 31	económica	económico	ADJ	aq0fs0	Gender=Fem|Number=Sing	30	amod	30:amod	Entity=CESSCASTA2000031713968c26)CESSCASTA2000031713968c3)
 32	a	a	ADP	sps00	_	33	case	33:case	_
-33	gastos	gasto	NOUN	ncmp000	Gender=Masc|Number=Plur	25	obj	25:obj	ArgTem=arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen(CESSCASTA2000031713968c9--1
+33	gastos	gasto	NOUN	ncmp000	Gender=Masc|Number=Plur	25	obl:arg	25:obl:arg	ArgTem=arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen(CESSCASTA2000031713968c9--1
 34	públicos	público	ADJ	aq0mp0	Gender=Masc|Number=Plur	33	amod	33:amod	ArgTem=arg1:pat|Entity=CESSCASTA2000031713968c9)
 35	y	y	CCONJ	cc	_	36	cc	36:cc	_
 36	recortes	recorte	NOUN	ncmp000	Gender=Masc|Number=Plur	33	conj	33:conj	Entity=(CESSCASTA2000031713968c4--1
@@ -21132,7 +21132,7 @@
 5	A	a	ADP	sps00	_	8	case	8:case	_
 6	SU	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	8:det	Entity=(CESSCASTAA200002065003c36--3-gstype:gen,Title(CESSCASTAA200002065003c24-organization-1-CorefType:ident,gstype:spec)
 7	MALA	mal	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	_
-8	RACHA	racha	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	3:obj	ArgTem=arg1:tem|Entity=CESSCASTAA200002065003c36)
+8	RACHA	racha	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl:arg	3:obl:arg	ArgTem=arg1:tem|Entity=CESSCASTAA200002065003c36)
 9	Y	y	CCONJ	cc	_	10	cc	10:cc	_
 9.1	_	_	PRON	p	_	_	_	10:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200002065003c24-organization-1-CorefType:ident,gstype:spec)
 10	AGRAVA	agravar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj	_
@@ -29884,7 +29884,7 @@
 34	de	de	ADP	sps00	_	35	mark	35:mark	_
 35	someter	someter	VERB	vmn0000	VerbForm=Inf	33	acl	33:acl	_
 36	a	a	ADP	sps00	_	37	case	37:case	_
-37	Wahid	Wahid	PROPN	np00000	_	35	obj	35:obj	ArgTem=arg1:pat|Entity=(CESSCASTAA200008063784c1-person-1-CorefType:ident,gstype:spec)
+37	Wahid	Wahid	PROPN	np00000	_	35	obl:arg	35:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTAA200008063784c1-person-1-CorefType:ident,gstype:spec)
 38	a	a	ADP	sps00	_	40	case	40:case	_
 39	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	40:det	Entity=(NOCOREF:Gen--2-gstype:gen
 40	moción	moción	NOUN	ncfs000	Gender=Fem|Number=Sing	35	obj	35:obj	ArgTem=arg2:tem
@@ -51854,7 +51854,7 @@
 12	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	13:det	Entity=(NOCOREF:Gen--2-gstype:gen
 13	beneficios	beneficio	NOUN	ncmp000	Gender=Masc|Number=Plur	10	nmod	10:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)
 14	a	a	ADP	sps00	_	15	case	15:case	_
-15	obras	obra	NOUN	ncfp000	Gender=Fem|Number=Plur	8	obj	8:obj	ArgTem=arg1:pat,arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen
+15	obras	obra	NOUN	ncfp000	Gender=Fem|Number=Plur	8	obl:arg	8:obl:arg	ArgTem=arg1:pat,arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen
 16	de	de	ADP	sps00	_	17	case	17:case	_
 17	beneficencia	beneficencia	NOUN	ncfs000	Gender=Fem|Number=Sing	15	nmod	15:nmod	Entity=NOCOREF:Gen)|SpaceAfter=No
 18	.	.	PUNCT	fp	PunctType=Peri	7	punct	7:punct	_
@@ -52218,7 +52218,7 @@
 24	a	a	ADP	spcms	_	27	case	27:case	_
 25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	_
 26	mismo	mismo	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Dem	27	det	27:det	Entity=(CESSCASTP2000120249c4--2-CorefType:dx.token
-27	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	23	obj	23:obj	ArgTem=arg2:tem|Entity=CESSCASTP2000120249c4)CESSCASTP2000120249c1)|SpaceAfter=No
+27	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	23	obl:arg	23:obl:arg	ArgTem=arg2:tem|Entity=CESSCASTP2000120249c4)CESSCASTP2000120249c1)|SpaceAfter=No
 28	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
 # sent_id = CESS-CAST-P-20001202-49-s3
@@ -56226,7 +56226,7 @@
 # orig_file_sentence 016#63
 1	A	a	ADP	sps00	_	3	case	3:case	Entity=(CESSCASTP200107026c5--38
 2	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	3:det	ArgTem=arg2:ben|Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP200107026c2-person-1-CorefType:ident,gstype:spec)
-3	falta	falta	NOUN	ncfs000	Gender=Fem|Number=Sing	34	obj	34:obj	ArgTem=arg2:tem
+3	falta	falta	NOUN	ncfs000	Gender=Fem|Number=Sing	34	obl:arg	34:obl:arg	ArgTem=arg2:tem
 4	de	de	ADP	sps00	_	5	case	5:case	_
 5	dominio	dominio	NOUN	ncms000	Gender=Masc|Number=Sing	3	nmod	3:nmod	ArgTem=arg1:tem
 6-7	del	_	_	_	_	_	_	_	_
@@ -56815,7 +56815,7 @@
 42	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	41	obj	41:obj	_
 43	a	a	ADP	sps00	_	45	case	45:case	_
 44	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	45:det	Entity=(CESSCASTP2001080157c10--2-gstype:gen,HomoDD
-45	prueba	prueba	NOUN	ncfs000	Gender=Fem|Number=Sing	41	obj	41:obj	ArgTem=arg2:tem
+45	prueba	prueba	NOUN	ncfs000	Gender=Fem|Number=Sing	41	obl:arg	41:obl:arg	ArgTem=arg2:tem
 46-47	del	_	_	_	_	_	_	_	_
 46	de	de	ADP	spcms	_	48	case	48:case	_
 47	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	48:det	_
@@ -57817,7 +57817,7 @@
 # orig_file_sentence 012#43
 1	Si	si	SCONJ	cs	_	4	mark	4:mark	_
 2	a	a	ADP	sps00	_	3	case	3:case	_
-3	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	4	obj	4:obj	ArgTem=arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen)
+3	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	4	obl:arg	4:obl:arg	ArgTem=arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen)
 3.1	_	_	PRON	p	_	_	_	4:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20011002168c14--1-CorefType:ident)
 4	añadimos	añadir	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	67	advcl	67:advcl	CxnElt=67:Conditional-NeutralEpistemic.Protasis@f
 5	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	6:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD

@@ -5220,7 +5220,7 @@
 62	se	él	PRON	pp3cn000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	63	obj	63:obj	ArgTem=arg1:tem
 63	afecta	afectar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	acl:relcl	56:acl:relcl	_
 64	a	a	ADP	sps00	_	65	case	65:case	_
-65	sí	él	PRON	pp3cno00	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	63	obj	63:obj	ArgTem=arg1:tem
+65	sí	él	PRON	pp3cno00	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	63	obl:arg	63:obl:arg	ArgTem=arg1:tem
 66	mismo	mismo	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Dem	65	det	65:det	_
 67	en	en	ADP	sps00	_	69	case	69:case	_
 68	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	69:det	_
@@ -6260,7 +6260,7 @@
 9	nos	yo	PRON	pp1cp000	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	10	obj	10:obj	ArgTem=arg1:pat
 10	voten	votar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	6:ccomp	ArgTem=arg1:pat
 11	a	a	ADP	sps00	_	12	case	12:case	_
-12	nosotros	yo	PRON	pp1mp000	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	10	obj	10:obj	ArgTem=arg1:pat
+12	nosotros	yo	PRON	pp1mp000	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	10	obl:arg	10:obl:arg	ArgTem=arg1:pat
 13	que	que	SCONJ	cs	_	16	mark	16:mark	_
 14	a	a	ADP	sps00	_	16	case	16:case	_
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	_
@@ -12595,7 +12595,7 @@
 37-38	al	_	_	_	_	_	_	_	_
 37	a	a	ADP	spcms	_	39	case	39:case	_
 38	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	_
-39	trabajo	trabajo	NOUN	ncms000	Gender=Masc|Number=Sing	32	obj	32:obj	ArgTem=arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
+39	trabajo	trabajo	NOUN	ncms000	Gender=Masc|Number=Sing	32	obl:arg	32:obl:arg	ArgTem=arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
 40	de	de	ADP	sps00	_	42	case	42:case	_
 41	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	42:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 42	alcaldes	alcalde	NOUN	ncmp000	Gender=Masc|Number=Plur	39	nmod	39:nmod	ArgTem=arg0:agt|Entity=NOCOREF:Gen)|SpaceAfter=No
@@ -13746,7 +13746,7 @@
 17	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	16	obj	16:obj	Entity=CESSCASTA200004031508c5)
 18	a	a	ADP	sps00	_	20	case	20:case	_
 19	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	Entity=(CESSCASTA200004031508c7-other-2-CorefType:ident,gstype:spec
-20	Ceremonia	Ceremonia	PROPN	np0000a	_	16	obj	16:obj	MWE=Ceremonia_de_Apertura|MWEPOS=PROPN|ArgTem=arg2:tem
+20	Ceremonia	Ceremonia	PROPN	np0000a	_	16	obl:arg	16:obl:arg	MWE=Ceremonia_de_Apertura|MWEPOS=PROPN|ArgTem=arg2:tem
 21	de	de	ADP	_	_	22	case	22:case	_
 22	Apertura	Apertura	PROPN	_	_	20	flat	20:flat	Entity=CESSCASTA200004031508c7)
 23	con	con	ADP	sps00	_	26	case	26:case	_
@@ -13952,7 +13952,7 @@
 24-25	al	_	_	_	_	_	_	_	_
 24	a	a	ADP	spcms	_	26	case	26:case	_
 25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	_
-26	caso	caso	NOUN	ncms000	Gender=Masc|Number=Sing	21	obj	21:obj	ArgTem=arg1:tem|Entity=(CESSCASTA2000041512000c15--1-gstype:gen,HomoDD
+26	caso	caso	NOUN	ncms000	Gender=Masc|Number=Sing	21	obl:arg	21:obl:arg	ArgTem=arg1:tem|Entity=(CESSCASTA2000041512000c15--1-gstype:gen,HomoDD
 27-28	del	_	_	_	_	_	_	_	_
 27	de	de	ADP	spcms	_	29	case	29:case	_
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	_
@@ -15164,7 +15164,7 @@
 12	se	él	PRON	pp3cn000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	13:obj	ArgTem=arg1:pat|Entity=(CESSCASTA2000061310295c28-person-1-CorefType:ident,gstype:spec)
 13	defiende	defender	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
 14	a	a	ADP	sps00	_	15	case	15:case	_
-15	sí	él	PRON	pp3cno00	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	13	obj	13:obj	ArgTem=arg1:pat|Entity=(CESSCASTA2000061310295c28-person-1-CorefType:ident,gstype:spec
+15	sí	él	PRON	pp3cno00	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	13	obl:arg	13:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTA2000061310295c28-person-1-CorefType:ident,gstype:spec
 16	mismo	mismo	ADJ	aq0ms0	Gender=Masc|Number=Sing	15	amod	15:amod	Entity=CESSCASTA2000061310295c28)|SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	Entity=CESSCASTA2000061310295c28)
 18	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	19	obl:arg	19:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTA2000061310295c22--1-CorefType:ident)
@@ -16716,7 +16716,7 @@
 21	colofón	colofón	NOUN	ncms000	Gender=Masc|Number=Sing	19	obj	19:obj	ArgTem=argL:
 22	a	a	ADP	sps00	_	24	case	24:case	_
 23	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	24:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTA2000092015595c17--1-CorefType:ident)
-24	carrera	carrera	NOUN	ncfs000	Gender=Fem|Number=Sing	19	obj	19:obj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
+24	carrera	carrera	NOUN	ncfs000	Gender=Fem|Number=Sing	19	obl:arg	19:obl:arg	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 25	con	con	ADP	sps00	_	27	case	27:case	_
 26	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen
 27	oro	oro	NOUN	ncms000	Gender=Masc|Number=Sing	19	obl	19:obl	ArgTem=argM:adv|Entity=NOCOREF:Gen)
@@ -16979,7 +16979,7 @@
 43	a	a	ADP	sps00	_	46	case	46:case	_
 44	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	46	det	46:det	Entity=(CESSCASTA2000092015595c27--3-CorefType:ident,gstype:gen(CESSCASTA2000092015595c23-person-1-CorefType:ident,gstype:spec)
 45	dilatada	dilatado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	46	amod	46:amod	_
-46	carrera	carrera	NOUN	ncfs000	Gender=Fem|Number=Sing	39	obj	39:obj	ArgTem=arg1:tem|Entity=CESSCASTA2000092015595c27)
+46	carrera	carrera	NOUN	ncfs000	Gender=Fem|Number=Sing	39	obl:arg	39:obl:arg	ArgTem=arg1:tem|Entity=CESSCASTA2000092015595c27)
 47	le	él	PRON	pp3csa00	Case=Dat|Number=Sing|Person=3|PronType=Prs	48	obl:arg	48:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTA2000092015595c23-person-1-CorefType:ident,gstype:spec)
 48	colocan	colocar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	conj	29:conj	_
 49	en	en	ADP	sps00	_	51	case	51:case	_
@@ -36804,7 +36804,7 @@
 34	voluntariamente	voluntariamente	ADV	rg	_	33	advmod	33:advmod	ArgTem=argM:adv
 35	a	a	ADP	sps00	_	37	case	37:case	_
 36	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	37:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-37	inspecciones	inspección	NOUN	ncfp000	Gender=Fem|Number=Plur	33	obj	33:obj	ArgTem=arg2:tem
+37	inspecciones	inspección	NOUN	ncfp000	Gender=Fem|Number=Plur	33	obl:arg	33:obl:arg	ArgTem=arg2:tem
 38	tributarias	tributario	ADJ	aq0fp0	Gender=Fem|Number=Plur	37	amod	37:amod	Entity=NOCOREF:Gen)
 39	y	y	CCONJ	cc	_	42	cc	42:cc	_
 40	a	a	ADP	sps00	_	42	case	42:case	_
@@ -37503,7 +37503,7 @@
 46	"	"	PUNCT	fe	PunctType=Quot	29	punct	29:punct	SpaceAfter=No
 47	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	Entity=CESSCASTAA2000112923278c6)NOCOREF:Gen)
 48	por	por	ADP	sps00	_	49	case	49:case	_
-49	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	obj	5:obj	Entity=(CESSCASTAA2000112923278c11--1-CorefType:dx.token
+49	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	obl:arg	5:obl:arg	Entity=(CESSCASTAA2000112923278c11--1-CorefType:dx.token
 50	que	que	PRON	pr0cn000	PronType=Rel	49	nmod	49:nmod	_
 50.1	_	_	PRON	p	_	_	_	51:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000112923278c1-person-1-CorefType:ident,gstype:spec)
 51	instó	instar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	49	case	49:case	ArgTem=argM:cau
@@ -44520,7 +44520,7 @@
 9-10	al	_	_	_	_	_	_	_	_
 9	a	a	ADP	spcms	_	11	case	11:case	_
 10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	_
-11	que	que	PRON	pr0cn000	PronType=Rel	12	obj	12:obj	ArgTem=arg2:tem|Entity=(CESSCASTP1999060219_ac35--1-CorefType:ident,gstype:gen)
+11	que	que	PRON	pr0cn000	PronType=Rel	12	obl:arg	12:obl:arg	ArgTem=arg2:tem|Entity=(CESSCASTP1999060219_ac35--1-CorefType:ident,gstype:gen)
 11.1	_	_	PRON	p	_	_	_	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999060219_ac34--1-CorefType:ident,gstype:gen)
 12	someten	someter	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
 13	a	a	ADP	sps00	_	15	case	15:case	_
@@ -48997,7 +48997,7 @@
 15	nos	yo	PRON	pp1cp000	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	16	obj	16:obj	ArgTem=arg1:tem|Entity=(CESSCASTP2000020123_ac11--1-gstype:gen)
 16	afectan	afectar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	7:conj	_
 17	a	a	ADP	sps00	_	18	case	18:case	_
-18	todos	todo	PRON	pi0mp000	Gender=Masc|Number=Plur|PronType=Tot	16	obj	16:obj	ArgTem=arg1:tem|Entity=(CESSCASTP2000020123_ac11--1-CorefType:ident,gstype:gen)CESSCASTP2000020123_ac1)NOCOREF:Gen)
+18	todos	todo	PRON	pi0mp000	Gender=Masc|Number=Plur|PronType=Tot	16	obl:arg	16:obl:arg	ArgTem=arg1:tem|Entity=(CESSCASTP2000020123_ac11--1-CorefType:ident,gstype:gen)CESSCASTP2000020123_ac1)NOCOREF:Gen)
 19	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	20	punct	20:punct	Entity=(NOCOREF:Gen--2-gstype:gen|SpaceAfter=No
 20	revalorización	revalorización	NOUN	ncfs000	Gender=Fem|Number=Sing	2	appos	2:appos	_
 21	digna	digno	ADJ	aq0fs0	Gender=Fem|Number=Sing	20	amod	20:amod	_
@@ -62473,7 +62473,7 @@
 3	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	castigado	castigar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 5	a	a	ADP	sps00	_	6	case	6:case	_
-6	José	José	PROPN	np00000	_	4	obj	4:obj	MWE=José_Carlos_Balaguer_Paredes|MWEPOS=PROPN|ArgTem=arg1:pat|Entity=(CESSCASTP2002060116_ac1-person-1-gstype:spec
+6	José	José	PROPN	np00000	_	4	obl:arg	4:obl:arg	MWE=José_Carlos_Balaguer_Paredes|MWEPOS=PROPN|ArgTem=arg1:pat|Entity=(CESSCASTP2002060116_ac1-person-1-gstype:spec
 7	Carlos	Carlos	PROPN	_	_	6	flat	6:flat	_
 8	Balaguer	Balaguer	PROPN	_	_	6	flat	6:flat	_
 9	Paredes	Paredes	PROPN	_	_	6	flat	6:flat	Entity=CESSCASTP2002060116_ac1)
