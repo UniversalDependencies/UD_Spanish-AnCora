@@ -3869,7 +3869,7 @@
 23	de	de	ADP	sps00	_	24	case	24:case	_
 24	Gottingen	Gottingen	PROPN	np0000l	_	21	nmod	21:nmod	Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 25	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	26	punct	26:punct	SpaceAfter=No
-26	República	República	PROPN	np0000l	_	24	flat	24:flat	MWE=República_Federal_Alemana|MWEPOS=PROPN
+26	República	república	NOUN	ncfs000	Gender=Fem|Number=Sing	24	flat	24:flat	MWE=República_Federal_Alemana|MWEPOS=PROPN
 27	Federal	Federal	PROPN	_	_	26	flat	26:flat	_
 28	Alemana	Alemana	PROPN	_	_	26	flat	26:flat	SpaceAfter=No
 29	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	26	punct	26:punct	Entity=NOCOREF:Spec.location)NOCOREF:Spec.organization)NOCOREF:Spec.organization)|SpaceAfter=No
@@ -17605,7 +17605,7 @@
 51	Panamá	Panamá	PROPN	np0000l	_	31	flat	31:flat	Entity=(CESSCASTA2000101310568c3--1-CorefType:ident)
 52	y	y	CCONJ	cc	_	54	cc	54:cc	_
 53	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	54:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
-54	República	República	PROPN	np0000l	_	31	conj	31:conj	MWE=República_Dominicana|MWEPOS=PROPN
+54	República	república	NOUN	ncfs000	Gender=Fem|Number=Sing	31	conj	31:conj	MWE=República_Dominicana|MWEPOS=PROPN
 55	Dominicana	Dominicana	PROPN	_	_	54	flat	54:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 56	.	.	PUNCT	fp	PunctType=Peri	12	punct	12:punct	_
 
@@ -53420,7 +53420,7 @@
 13	está	estar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	24:ccomp	ArgTem=arg1:pat
 14	en	en	ADP	sps00	_	16	case	16:case	_
 15	nuestra	nuestro	DET	dp1fsp	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det	16:det	Entity=(CESSCASTP2000080226c20-organization-2-CorefType:ident,gstype:spec(CESSCASTP2000080226c26-other-1-gstype:spec)
-16	República	República	PROPN	np00000	_	13	obl	13:obl	ArgTem=arg2:loc|Entity=CESSCASTP2000080226c20)
+16	República	república	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl	13:obl	ArgTem=arg2:loc|Entity=CESSCASTP2000080226c20)
 17	y	y	CCONJ	cc	_	18	cc	18:cc	_
 17.1	_	_	PRON	p	_	_	_	18:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2000080226c4-place-1-CorefType:ident,gstype:spec)
 18	permanecerá	permanecer	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	conj	13:conj	_
@@ -53566,7 +53566,7 @@
 24	principios	principio	NOUN	ncmp000	Gender=Masc|Number=Plur	22	obj	22:obj	ArgTem=arg1:pat
 25	de	de	ADP	sps00	_	27	case	27:case	_
 26	nuestra	nuestro	DET	dp1fsp	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	27	det	27:det	Entity=(CESSCASTP2000080226c20-organization-2-CorefType:ident,gstype:spec(CESSCASTP2000080226c26-other-1-CorefType:ident,gstype:spec)
-27	República	República	PROPN	np00000	_	24	nmod	24:nmod	Entity=CESSCASTP2000080226c20)NOCOREF:Gen)
+27	República	república	NOUN	ncfs000	Gender=Fem|Number=Sing	24	nmod	24:nmod	Entity=CESSCASTP2000080226c20)NOCOREF:Gen)
 28	y	y	CCONJ	cc	_	30	cc	30:cc	_
 29	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	30:det	Entity=(CESSCASTP2000080226c9--2-gstype:gen(CESSCASTP2000080226c20-organization-1-CorefType:ident,gstype:spec)
 30	unidad	unidad	NOUN	ncfs000	Gender=Fem|Number=Sing	24	conj	24:conj	SpaceAfter=No
