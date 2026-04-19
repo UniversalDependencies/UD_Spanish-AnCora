@@ -311,7 +311,7 @@
 1	Miquilena	Miquilena	PROPN	np0000p	_	8	nsubj	8:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)|SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 3	mientras	mientras	SCONJ	cs	ExtPos=ADV	8	advmod	8:advmod	MWE=mientras_tanto|MWEPOS=ADV|ArgTem=argM:tmp
-4	tanto	tanto	PRON	_	_	3	fixed	3:fixed	SpaceAfter=No
+4	tanto	tanto	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	3	fixed	3:fixed	SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 6	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	expl:pv	8:expl:pv	_
 7	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_

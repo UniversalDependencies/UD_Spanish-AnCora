@@ -22375,7 +22375,7 @@
 # text = Mientras tanto, los efectos de la crisis empiezan a extenderse fuera del país al descubrirse problemas derivados de este carburante contaminado en uno de los aviones de las Fuerzas Aéreas Reales de Australia que operaba en las tareas de mantenimiento de la paz en Timor Oriental.
 # orig_file_sentence 010#12
 1	Mientras	mientras	SCONJ	cs	ExtPos=ADV	9	advmod	9:advmod	MWE=Mientras_tanto|MWEPOS=ADV
-2	tanto	tanto	PRON	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	tanto	tanto	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	5:det	Entity=(CESSCASTAA200001148633c21--2-CorefType:ident,gstype:gen,HomoDD
 5	efectos	efecto	NOUN	ncmp000	Gender=Masc|Number=Plur	9	nsubj	9:nsubj	ArgTem=arg1:tem
@@ -27489,7 +27489,7 @@
 12	semana	semana	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obl	7:obl	ArgTem=argM:tmp|Entity=NOCOREF:Gen)
 13	y	y	CCONJ	cc	_	16	cc	16:cc	_
 14	mientras	mientras	SCONJ	cs	ExtPos=ADV	16	advmod	16:advmod	MWE=mientras_tanto|MWEPOS=ADV|ArgTem=argM:tmp
-15	tanto	tanto	PRON	_	_	14	fixed	14:fixed	_
+15	tanto	tanto	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	14	fixed	14:fixed	_
 16	permanecerá	permanecer	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	conj	7:conj	_
 17	en	en	ADP	sps00	_	18	case	18:case	_
 18	funciones	función	NOUN	ncfp000	Gender=Fem|Number=Plur	16	obl	16:obl	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen)
