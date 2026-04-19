@@ -46716,7 +46716,7 @@
 # orig_file_sentence 011#64
 1	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 2	guiris	guiri	NOUN	ncmp000	Gender=Masc|Number=Plur	4	nsubj	4:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
-3	me	yo	PRON	pp1cs000	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	4	obj	4:obj	ArgTem=arg3:ben|Entity=(CESSCASTP20000202135c4-person-1-CorefType:ident,gstype:spec)
+3	me	yo	PRON	pp1cs000	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	4	obl:arg	4:obl:arg	ArgTem=arg3:ben|Entity=(CESSCASTP20000202135c4-person-1-CorefType:ident,gstype:spec)
 4	pillan	pillar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	más	más	ADV	rg	Degree=Cmp	6	advmod	6:advmod	_
 6	lejos	lejos	ADV	rg	_	4	advmod	4:advmod	ArgTem=arg2:loc

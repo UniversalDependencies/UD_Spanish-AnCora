@@ -19897,7 +19897,7 @@
 5	describir	describir	VERB	vmn0000	VerbForm=Inf	4	xcomp	4:xcomp	ArgTem=arg1:pat
 6	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Dem	10	nsubj	10:nsubj	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
 7	que	que	PRON	pr0cn000	PronType=Rel	9	obj	9:obj	ArgTem=arg1:tem
-8	nos	yo	PRON	pp1cp000	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	9	obj	9:obj	ArgTem=arg2:ben|Entity=(CESSCASTA2000121813555c11--1-gstype:gen)
+8	nos	yo	PRON	pp1cp000	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	9	obl:arg	9:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTA2000121813555c11--1-gstype:gen)
 9	hacía	hacer	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	xcomp	5:xcomp	_
 10	sentir	sentir	VERB	vmn0000	VerbForm=Inf	9	xcomp	9:xcomp	ArgTem=arg1:pat
 11	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Dem	13	nsubj	13:nsubj	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
@@ -23806,7 +23806,7 @@
 # text = No me sorprende nada de lo que haga.
 # orig_file_sentence 006#50
 1	No	no	ADV	rn	Polarity=Neg	3	advmod	3:advmod	_
-2	me	yo	PRON	pp1cs000	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	3	obj	3:obj	ArgTem=arg2:ben|Entity=(CESSCASTAA2000022420131c3-person-1-CorefType:ident,gstype:spec)
+2	me	yo	PRON	pp1cs000	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	3	obl:arg	3:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA2000022420131c3-person-1-CorefType:ident,gstype:spec)
 3	sorprende	sorprender	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	nada	nada	PRON	pi0cs000	Number=Sing|PronType=Neg	3	nsubj	3:nsubj	ArgTem=arg0:cau
 5	de	de	ADP	sps00	_	8	mark	8:mark	_
