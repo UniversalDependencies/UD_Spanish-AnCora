@@ -26794,7 +26794,7 @@
 17	Leonel	Leonel	PROPN	np00000	_	16	appos	16:appos	MWE=Leonel_Fernández|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 18	Fernández	Fernández	PROPN	_	_	17	flat	17:flat	Entity=NOCOREF:Spec.person)NOCOREF:Spec.person)|SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	Entity=CESSCASTAA200005129580c6)
-20	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	obj	21:obj	_
+20	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	expl:impers	21:expl:impers	_
 21	considera	considerar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 22	"	"	PUNCT	fe	PunctType=Quot	23	punct	23:punct	Entity=(NOCOREF:Gen--2-gstype:gen|SpaceAfter=No
 23	víctima	víctima	NOUN	ncfs000	Gender=Fem|Number=Sing	21	obj	21:obj	ArgTem=arg2:atr|SpaceAfter=No
