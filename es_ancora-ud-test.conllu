@@ -25662,7 +25662,7 @@
 18	de	de	ADP	sps00	_	20	case	20:case	_
 19	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	Entity=(CESSCASTAA2000022822816c28-number-2-gstype:spec
 20	derrota	derrota	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl:arg	13:obl:arg	ArgTem=arg2:tem
-21	que	que	PRON	pr0cn000	PronType=Rel	23	obj	23:obj	ArgTem=arg1:pat|Entity=(CESSCASTAA2000022822816c28-number-1-CorefType:ident,gstype:spec)
+21	que	que	PRON	pr0cn000	PronType=Rel	23	dislocated	23:dislocated	ArgTem=arg1:pat|Entity=(CESSCASTAA2000022822816c28-number-1-CorefType:ident,gstype:spec)
 22	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	23	obl:arg	23:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA2000022822816c29-organization-1-CorefType:ident,gstype:spec)
 23	infligió	infligir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	20:acl:relcl	_
 24	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	Entity=(CESSCASTAA2000022822816c17-organization-2-CorefType:ident,gstype:spec

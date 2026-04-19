@@ -55,6 +55,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
   * Fixed: some dative clitics changed from expl to obl:arg (no clitic doubling).
   * Reflexive verbs do not have "se" in their lemma.
   * Changed obl to nmod where detectable that it was wrong.
+  * Fixed double objects.
 * 2025-11-15 v2.17
   * Added the ExtPos feature to fixed expressions.
   * Fixed spurious dependents of determiners.
