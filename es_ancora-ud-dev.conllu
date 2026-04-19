@@ -1741,7 +1741,7 @@
 10	consejo	consejo	NOUN	ncms000	Gender=Masc|Number=Sing	6	obj	6:obj	SpaceAfter=No
 11	:	:	PUNCT	fd	PunctType=Colo	23	punct	23:punct	_
 12	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	13:det	_
-13	dientes	diente	NOUN	ncmp000	Gender=Masc|Number=Plur	23	obj	23:obj	ArgTem=arg1:pat
+13	dientes	diente	NOUN	ncmp000	Gender=Masc|Number=Plur	23	nsubj	23:nsubj	ArgTem=arg1:pat
 14	cariados	cariado	ADJ	aq0mp0	Gender=Masc|Number=Plur	13	amod	13:amod	_
 15	que	que	PRON	pr0cn000	PronType=Rel	17	obj	17:obj	ArgTem=arg1:pat
 16	nos	yo	PRON	pp1cp000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	17	obl:arg	17:obl:arg	ArgTem=arg2:ben
@@ -14420,7 +14420,7 @@
 52	y	y	CCONJ	cc	_	60	cc	60:cc	_
 53	en	en	ADP	sps00	_	60	mark	60:mark	_
 54	que	que	SCONJ	cs	_	60	mark	60:mark	_
-55	esto	este	PRON	pd0ns000	Number=Sing|PronType=Dem	62	obj	62:obj	ArgTem=arg1:pat|Entity=(CESSCASTA2000042317037c27--1-CorefType:ident,gstype:gen
+55	esto	este	PRON	pd0ns000	Number=Sing|PronType=Dem	62	nsubj	62:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTA2000042317037c27--1-CorefType:ident,gstype:gen
 56	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	58	punct	58:punct	SpaceAfter=No
 57	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	58:det	_
 58	violencia	violencia	NOUN	ncfs000	Gender=Fem|Number=Sing	55	appos	55:appos	SpaceAfter=No

@@ -17462,7 +17462,7 @@
 21	barril	barril	NOUN	ncms000	Gender=Masc|Number=Sing	19	nmod	19:nmod	Entity=NOCOREF:Spec.number)|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
 23	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	24:det	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
-24	20	20	NUM	zp	NumForm=Digit|NumType=Card	28	obj	28:obj	MWE=20_por_ciento|MWEPOS=NUM
+24	20	20	NUM	zp	NumForm=Digit|NumType=Card	28	nsubj	28:nsubj	MWE=20_por_ciento|MWEPOS=NUM
 25	por	por	ADP	_	_	26	case	26:case	_
 26	ciento	ciento	NUM	_	NumForm=Word|NumType=Card	24	nmod	24:nmod	Entity=NOCOREF:Spec.number)
 27	si	si	SCONJ	cs	_	28	mark	28:mark	_
@@ -32507,7 +32507,7 @@
 9	justo	justo	ADV	rg	_	14	advmod	14:advmod	_
 10	cuando	cuando	SCONJ	cs	_	14	mark	14:mark	_
 11	más	más	ADV	rg	Degree=Cmp	12	advmod	12:advmod	Entity=(NOCOREF:Gen--2-gstype:gen
-12	controles	control	NOUN	ncmp000	Gender=Masc|Number=Plur	14	obj	14:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
+12	controles	control	NOUN	ncmp000	Gender=Masc|Number=Plur	14	nsubj	14:nsubj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 13	estamos	estar	AUX	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
 14	realizando	realizar	VERB	vmg0000	VerbForm=Ger	7	advcl	7:advcl	ArgTem=argM:tmp|SpaceAfter=No
 15	"	"	PUNCT	fe	PunctType=Quot	14	punct	14:punct	SpaceAfter=No
