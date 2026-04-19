@@ -9736,7 +9736,7 @@
 6	tuvo	tener	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	que	que	SCONJ	cs	_	8	cc	8:cc	_
 8	dar	dar	VERB	vmn0000	VerbForm=Inf	6	conj	6:conj	_
-9	por	por	ADP	sps00	_	8	obj	8:obj	_
+9	por	por	ADP	sps00	_	8	obl:arg	8:obl:arg	_
 10	finalizado	finalizado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	9	advmod	9:advmod	ArgTem=argM:atr
 11	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(CESSCASTA2000022016182c20--2-CorefType:ident,gstype:gen
 12	partido	partido	NOUN	ncms000	Gender=Masc|Number=Sing	8	obj	8:obj	ArgTem=arg1:pat|Entity=CESSCASTA2000022016182c20)
@@ -9931,7 +9931,7 @@
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCASTA2000022016182c8-person-2-CorefType:ident,gstype:spec
 9	colegiado	colegiado	NOUN	ncms000	Gender=Masc|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000022016182c8)
 10	dio	dar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-11	por	por	ADP	sps00	_	10	obj	10:obj	_
+11	por	por	ADP	sps00	_	10	obl:arg	10:obl:arg	_
 12	terminado	terminado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	11	advmod	11:advmod	ArgTem=argM:atr
 13	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCASTA2000022016182c20--3-CorefType:ident,gstype:gen
 14	tumultuoso	tumultuoso	ADJ	aq0ms0	Gender=Masc|Number=Sing	15	amod	15:amod	_
