@@ -21278,7 +21278,7 @@
 # sent_id = CESS-CAST-A-20001223-17865-s35
 # text = Año, siglo y milenio viejos, el 1 de enero muertos, pero ellos sólo son fechas, números inanes.
 # orig_file_sentence 006#2
-1	Año	año	NOUN	ncms000	Gender=Masc|Number=Sing	12	obj	12:obj	Entity=(CESSCASTA2000122317865c38--1|SpaceAfter=No
+1	Año	año	NOUN	ncms000	Gender=Masc|Number=Sing	12	dislocated	12:dislocated	Entity=(CESSCASTA2000122317865c38--1|SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 3	siglo	siglo	NOUN	ncms000	Gender=Masc|Number=Sing	1	conj	1:conj	_
 4	y	y	CCONJ	cc	_	5	cc	5:cc	_
