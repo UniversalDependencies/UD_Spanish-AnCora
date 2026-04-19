@@ -3562,7 +3562,7 @@
 # text = Por tanto, difícilmente pudieron existir antes que éstas.
 # orig_file_sentence 002#1
 1	Por	por	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=Por_tanto|MWEPOS=ADV
-2	tanto	tanto	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	tanto	tanto	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	difícilmente	difícilmente	ADV	rg	_	6	advmod	6:advmod	ArgTem=argM:adv
 5	pudieron	poder	AUX	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	6:aux	_
@@ -4486,7 +4486,7 @@
 7	resultan	resultar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 9	por	por	ADP	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=por_tanto|MWEPOS=ADV
-10	tanto	tanto	NOUN	_	_	9	fixed	9:fixed	SpaceAfter=No
+10	tanto	tanto	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	9	fixed	9:fixed	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 12	de	de	ADP	sps00	_	14	case	14:case	_
 13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	_
@@ -18934,7 +18934,7 @@
 # text = Por tanto es la historia de un éxito
 # orig_file_sentence 005#52
 1	Por	por	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=Por_tanto|MWEPOS=ADV
-2	tanto	tanto	NOUN	_	_	1	fixed	1:fixed	_
+2	tanto	tanto	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	1	fixed	1:fixed	_
 2.1	_	_	PRON	p	_	_	_	3:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000112217124c2--1-CorefType:ident,gstype:gen)
 3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	_
@@ -19068,7 +19068,7 @@
 # text = Por tanto, Aznar afirmó que "el papel del Rey ha sido clave y determinante en todos los sentidos: como motor, expresión y símbolo de la España moderna y, al mismo tiempo, como garantía de una estabilidad, de una unión y de un espíritu común entre los españoles".
 # orig_file_sentence 005#55
 1	Por	por	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=Por_tanto|MWEPOS=ADV
-2	tanto	tanto	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	tanto	tanto	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	Aznar	Aznar	PROPN	np0000p	_	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000112217124c1-person-1-CorefType:ident,gstype:spec)
 5	afirmó	afirmar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -22835,7 +22835,7 @@
 30	que	que	PRON	pr0cn000	PronType=Rel	35	nsubj	35:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200002043836c18--1-CorefType:ident,gstype:gen)
 31	por	por	ADP	rg	ExtPos=ADV	35	advmod	35:advmod	MWE=por_lo_tanto|MWEPOS=ADV
 32	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	31	fixed	31:fixed	_
-33	tanto	tanto	NOUN	_	_	31	fixed	31:fixed	_
+33	tanto	tanto	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	31	fixed	31:fixed	_
 34	pude	poder	AUX	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	35	aux	35:aux	_
 35	hacer	hacer	VERB	vmn0000	VerbForm=Inf	22	conj	22:conj	_
 36	que	que	SCONJ	cs	_	39	mark	39:mark	_
@@ -61788,7 +61788,7 @@
 # orig_file_sentence 011#41
 1	Por	por	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=Por_lo_tanto|MWEPOS=ADV
 2	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	1	fixed	1:fixed	_
-3	tanto	tanto	NOUN	_	_	1	fixed	1:fixed	_
+3	tanto	tanto	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	1	fixed	1:fixed	_
 4	Israel	Israel	PROPN	np00000	_	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002040211c7-organization-1-gstype:spec)
 5	quiere	querer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6-7	eliminarle	_	_	_	_	_	_	_	_

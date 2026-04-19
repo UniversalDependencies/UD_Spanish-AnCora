@@ -4760,7 +4760,7 @@
 22	deja	dejar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj	SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 24	por	por	ADP	rg	ExtPos=ADV	22	advmod	22:advmod	MWE=por_tanto|MWEPOS=ADV|ArgTem=argM:adv
-25	tanto	tanto	NOUN	_	_	24	fixed	24:fixed	SpaceAfter=No
+25	tanto	tanto	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	24	fixed	24:fixed	SpaceAfter=No
 26	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 27	libre	libre	ADJ	aq0cs0	Number=Sing	22	obj	22:obj	ArgTem=argM:atr
 28	a	a	ADP	sps00	_	30	case	30:case	_
