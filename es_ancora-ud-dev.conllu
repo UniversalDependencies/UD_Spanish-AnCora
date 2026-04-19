@@ -4066,7 +4066,7 @@
 3-4	ganarlo	_	_	_	_	_	_	_	_
 3	ganar	ganar	VERB	vmn0000	VerbForm=Inf	1	advcl	1:advcl	ArgTem=arg2:tem
 4	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	obj	3:obj	_
-5	todo	todo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Tot	3	obj	3:obj	ArgTem=arg1:pat|SpaceAfter=No
+5	todo	todo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Tot	3	obl:arg	3:obl:arg	ArgTem=arg1:pat|SpaceAfter=No
 6	:	:	PUNCT	fd	PunctType=Colo	8	punct	8:punct	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	_
 8	general	general	ADJ	aq0cs0	Number=Sing	5	appos	5:appos	SpaceAfter=No
@@ -4075,7 +4075,7 @@
 11	montaña	montaña	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obj	8:obj	SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	_
-14	clasificación	clasificación	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obj	8:obj	_
+14	clasificación	clasificación	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obl:arg	8:obl:arg	_
 15	por	por	ADP	sps00	_	16	case	16:case	_
 16	puntos	punto	NOUN	ncmp000	Gender=Masc|Number=Plur	14	nmod	14:nmod	ArgTem=argM:mnr|SpaceAfter=No
 17	...	...	PUNCT	fs	PunctType=Elip	1	punct	1:punct	_
@@ -21281,7 +21281,7 @@
 16	de	de	ADP	sps00	_	17	case	17:case	_
 17	Liga	Liga	PROPN	np00000	_	15	obl	15:obl	ArgTem=arg2:ext|Entity=(CESSCASTAA200002065003c3-other-1-CorefType:ident,gstype:spec)CESSCASTAA200002065003c40)|SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	Entity=(CESSCASTAA200002065003c31-number-2-CorefType:pred.indefinit,gstype:spec
-19	uno	uno	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	10	obj	10:obj	_
+19	uno	uno	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	10	obl:arg	10:obl:arg	_
 20	menos	menos	ADV	rg	Degree=Cmp	19	advmod	19:advmod	_
 21	que	que	SCONJ	cs	_	23	mark	23:mark	_
 22	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCASTAA200002065003c32-person-2-gstype:spec
@@ -27810,7 +27810,7 @@
 66	Mika	Mika	PROPN	np00000	_	65	appos	65:appos	MWE=Mika_Hakkinen|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 67	Hakkinen	Hakkinen	PROPN	_	_	66	flat	66:flat	Entity=NOCOREF:Spec.person)CESSCASTAA2000062923978c6)NOCOREF:Spec.number)|SpaceAfter=No
 68	,	,	PUNCT	fc	PunctType=Comm	69	punct	69:punct	Entity=(CESSCASTAA2000062923978c5_PLUS_CESSCASTAA2000062923978c6-other-2-CorefType:ident,gstype:spec|SplitAnte=CESSCASTAA2000062923978c5<CESSCASTAA2000062923978c5_PLUS_CESSCASTAA2000062923978c6,CESSCASTAA2000062923978c6<CESSCASTAA2000062923978c5_PLUS_CESSCASTAA2000062923978c6
-69	ambos	ambos	NUM	pn0mp000	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	48	obj	48:obj	_
+69	ambos	ambos	NUM	pn0mp000	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	48	obl:arg	48:obl:arg	_
 70	de	de	ADP	sps00	_	71	case	71:case	_
 71	McLaren-Mercedes	McLaren-Mercedes	PROPN	np00000	_	69	nmod	69:nmod	Entity=(CESSCASTAA2000062923978c12-organization-1-gstype:spec)CESSCASTAA2000062923978c5_PLUS_CESSCASTAA2000062923978c6)NOCOREF:Gen)|SpaceAfter=No
 72	.	.	PUNCT	fp	PunctType=Peri	36	punct	36:punct	_
@@ -50828,7 +50828,7 @@
 32	transeúnte	transeúnte	NOUN	nccs000	Number=Sing	28	conj	28:conj	Entity=NOCOREF:Gen)
 33	e	e	CCONJ	cc	_	35	cc	35:cc	_
 34	importantes	importante	ADJ	aq0cp0	Number=Plur	35	amod	35:amod	Entity=(NOCOREF:Gen--2-gstype:gen
-35	daños	daño	NOUN	ncmp000	Gender=Masc|Number=Plur	23	obj	23:obj	ArgTem=arg1:tem
+35	daños	daño	NOUN	ncmp000	Gender=Masc|Number=Plur	23	obl:arg	23:obl:arg	ArgTem=arg1:tem
 36	materiales	material	ADJ	aq0cp0	Number=Plur	35	amod	35:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
 37	.	.	PUNCT	fp	PunctType=Peri	10	punct	10:punct	_
 
