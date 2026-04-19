@@ -6181,7 +6181,7 @@
 8	presentamos	presentar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl	_
 9	como	como	SCONJ	cs	_	11	mark	11:mark	_
 10	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	_
-11	fuerza	fuerza	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obj	8:obj	ArgTem=argM:atr
+11	fuerza	fuerza	NOUN	ncfs000	Gender=Fem|Number=Sing	8	advcl	8:advcl	ArgTem=argM:atr
 12	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	amod	11:amod	_
 13	de	de	ADP	sps00	_	14	case	14:case	_
 14	gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	11	nmod	11:nmod	_
@@ -6192,7 +6192,7 @@
 19	presentado	presentar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	8:conj	_
 20	como	como	SCONJ	cs	_	22	mark	22:mark	_
 21	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	_
-22	fuerza	fuerza	NOUN	ncfs000	Gender=Fem|Number=Sing	19	obj	19:obj	ArgTem=argM:atr
+22	fuerza	fuerza	NOUN	ncfs000	Gender=Fem|Number=Sing	19	advcl	19:advcl	ArgTem=argM:atr
 23	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	22	amod	22:amod	_
 24	de	de	ADP	sps00	_	25	case	25:case	_
 25	oposición	oposición	NOUN	ncfs000	Gender=Fem|Number=Sing	22	nmod	22:nmod	_
@@ -17717,7 +17717,7 @@
 16	como	como	SCONJ	cs	_	19	mark	19:mark	_
 17	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	19:det	_
 18	auténticos	auténtico	ADJ	aq0mp0	Gender=Masc|Number=Plur	19	amod	19:amod	_
-19	amos	amo	NOUN	ncmp000	Gender=Masc|Number=Plur	11	obj	11:obj	ArgTem=argM:atr
+19	amos	amo	NOUN	ncmp000	Gender=Masc|Number=Plur	11	advcl	11:advcl	ArgTem=argM:atr
 20	de	de	ADP	sps00	_	21	case	21:case	_
 21	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	nmod	19:nmod	Entity=(CESSCASTA2000102318465c7--1-gstype:gen
 22	de	de	ADP	sps00	_	21	case	21:case	_
@@ -29810,7 +29810,7 @@
 53	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	56	det	56:det	_
 54	"	"	PUNCT	fe	PunctType=Quot	56	punct	56:punct	SpaceAfter=No
 55	buena	buen	ADJ	aq0fs0	Gender=Fem|Number=Sing	56	amod	56:amod	_
-56	noticia	noticia	NOUN	ncfs000	Gender=Fem|Number=Sing	51	obj	51:obj	ArgTem=arg2:atr|SpaceAfter=No
+56	noticia	noticia	NOUN	ncfs000	Gender=Fem|Number=Sing	51	advcl	51:advcl	ArgTem=arg2:atr|SpaceAfter=No
 57	"	"	PUNCT	fe	PunctType=Quot	56	punct	56:punct	Entity=CESSCASTAA2000052621460c3)CESSCASTAA2000052621460c3)|SpaceAfter=No
 58	.	.	PUNCT	fp	PunctType=Peri	7	punct	7:punct	_
 
@@ -38382,7 +38382,7 @@
 8	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	9:obj	_
 9	inscribiera	inscribir	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	5:ccomp	ArgTem=arg1:pat
 10	como	como	SCONJ	cs	_	11	mark	11:mark	_
-11	elector	elector	NOUN	ncms000	Gender=Masc|Number=Sing	9	obj	9:obj	ArgTem=argM:atr
+11	elector	elector	NOUN	ncms000	Gender=Masc|Number=Sing	9	advcl	9:advcl	ArgTem=argM:atr
 12	de	de	ADP	sps00	_	13	case	13:case	_
 13	Wyoming	Wyoming	PROPN	np00000	_	11	nmod	11:nmod	Entity=(CESSCASTAA200012075253c8-place-1-CorefType:ident,gstype:spec|SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
@@ -41931,7 +41931,7 @@
 18	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	SpaceAfter=No
 19	como	como	SCONJ	cs	_	21	mark	21:mark	_
 20	otra	otro	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	21	det	21:det	Entity=(NOCOREF:Gen--2-gstype:gen
-21	Cuba	Cuba	PROPN	np00000	_	17	obj	17:obj	ArgTem=argM:atr|Entity=NOCOREF:Gen)|SpaceAfter=No
+21	Cuba	Cuba	PROPN	np00000	_	17	advcl	17:advcl	ArgTem=argM:atr|Entity=NOCOREF:Gen)|SpaceAfter=No
 22	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	Entity=NOCOREF:Gen)
 23	que	que	SCONJ	cs	_	25	mark	25:mark	_
 24	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	25	nsubj	25:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999030213c5--1-CorefType:dx.token)
@@ -42719,7 +42719,7 @@
 6	presentar	presentar	VERB	vmn0000	VerbForm=Inf	5	xcomp	5:xcomp	ArgTem=arg1:pat
 7	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	obj	6:obj	_
 8	como	como	SCONJ	cs	_	9	mark	9:mark	_
-9	diputado	diputado	NOUN	ncms000	Gender=Masc|Number=Sing	6	obj	6:obj	ArgTem=argM:atr
+9	diputado	diputado	NOUN	ncms000	Gender=Masc|Number=Sing	6	advcl	6:advcl	ArgTem=argM:atr
 10-11	al	_	_	_	_	_	_	_	_
 10	a	a	ADP	spcms	_	12	case	12:case	_
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	_
@@ -42782,7 +42782,7 @@
 25	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	26	obj	26:obj	_
 26	presenta	presentar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	32:advcl	CxnElt=32:Conditional-NeutralEpistemic.Protasis@f
 27	como	como	SCONJ	cs	_	28	mark	28:mark	_
-28	candidato	candidato	NOUN	ncms000	Gender=Masc|Number=Sing	26	obj	26:obj	ArgTem=argM:atr
+28	candidato	candidato	NOUN	ncms000	Gender=Masc|Number=Sing	26	advcl	26:advcl	ArgTem=argM:atr
 29	a	a	ADP	sps00	_	31	case	31:case	_
 30	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	31:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 31	autonómicas	autonómico	ADJ	aq0fp0	Gender=Fem|Number=Plur	28	amod	28:amod	Entity=NOCOREF:Gen)CESSCASTP1999060149_ac10)
@@ -43015,7 +43015,7 @@
 4	proponen	proponer	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
 6	como	como	SCONJ	cs	_	7	mark	7:mark	_
-7	alternativa	alternativa	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obj	4:obj	ArgTem=arg2:,argM:atr
+7	alternativa	alternativa	NOUN	ncfs000	Gender=Fem|Number=Sing	4	advcl	4:advcl	ArgTem=arg2:,argM:atr
 8	a	a	ADP	sps00	_	9	mark	9:mark	_
 9	cerrar	cerrar	VERB	vmn0000	VerbForm=Inf	7	acl	7:acl	ArgTem=arg1:pat
 10	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	11:det	Entity=(CESSCASTP1999060198c7-time-2-CorefType:ident,gstype:spec,HomoDD
@@ -54962,7 +54962,7 @@
 16	Vojislav	Vojislav	PROPN	np00000	_	14	obj	14:obj	MWE=Vojislav_Kostunica|MWEPOS=PROPN|ArgTem=arg1:pat|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 17	Kostunica	Kostunica	PROPN	_	_	16	flat	16:flat	Entity=NOCOREF:Spec.person)
 18	como	como	SCONJ	cs	_	19	mark	19:mark	_
-19	presidente	presidente	NOUN	ncms000	Gender=Masc|Number=Sing	14	obj	14:obj	ArgTem=argM:atr|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
+19	presidente	presidente	NOUN	ncms000	Gender=Masc|Number=Sing	14	advcl	14:advcl	ArgTem=argM:atr|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 20	legítimo	legítimo	ADJ	aq0ms0	Gender=Masc|Number=Sing	19	amod	19:amod	_
 21	de	de	ADP	sps00	_	22	case	22:case	_
 22	Yugoslavia	Yugoslavia	PROPN	np00000	_	19	nmod	19:nmod	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)NOCOREF:Spec.person)|SpaceAfter=No
@@ -58214,7 +58214,7 @@
 47	como	como	SCONJ	cs	_	50	mark	50:mark	_
 48	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	50:det	Entity=(NOCOREF:Gen--3-gstype:gen
 49	estricta	estricto	ADJ	aq0fs0	Gender=Fem|Number=Sing	50	amod	50:amod	_
-50	aplicación	aplicación	NOUN	ncfs000	Gender=Fem|Number=Sing	36	obj	36:obj	ArgTem=argM:atr
+50	aplicación	aplicación	NOUN	ncfs000	Gender=Fem|Number=Sing	36	advcl	36:advcl	ArgTem=argM:atr
 51-52	del	_	_	_	_	_	_	_	_
 51	de	de	ADP	spcms	_	53	case	53:case	_
 52	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	53:det	_
@@ -58300,7 +58300,7 @@
 39	interpreta	interpretar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	36:acl:relcl	_
 40	como	como	SCONJ	cs	_	42	mark	42:mark	_
 41	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	42:det	Entity=(NOCOREF:Gen--2-gstype:gen
-42	coacción	coacción	NOUN	ncfs000	Gender=Fem|Number=Sing	39	obj	39:obj	ArgTem=argM:atr|Entity=NOCOREF:Gen)|SpaceAfter=No
+42	coacción	coacción	NOUN	ncfs000	Gender=Fem|Number=Sing	39	advcl	39:advcl	ArgTem=argM:atr|Entity=NOCOREF:Gen)|SpaceAfter=No
 43	:	:	PUNCT	fd	PunctType=Colo	47	punct	47:punct	_
 44	"	"	PUNCT	fe	PunctType=Quot	47	punct	47:punct	SpaceAfter=No
 45	Se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	47	expl:pass	47:expl:pass	_

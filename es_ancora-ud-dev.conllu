@@ -11869,7 +11869,7 @@
 28	como	como	SCONJ	cs	_	31	mark	31:mark	_
 29	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	31:det	_
 30	"	"	PUNCT	fe	PunctType=Quot	31	punct	31:punct	SpaceAfter=No
-31	propina	propina	NOUN	ncfs000	Gender=Fem|Number=Sing	22	obj	22:obj	ArgTem=argM:atr|SpaceAfter=No
+31	propina	propina	NOUN	ncfs000	Gender=Fem|Number=Sing	22	advcl	22:advcl	ArgTem=argM:atr|SpaceAfter=No
 32	"	"	PUNCT	fe	PunctType=Quot	31	punct	31:punct	SpaceAfter=No
 33	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
 34	"	"	PUNCT	fe	PunctType=Quot	35	punct	35:punct	SpaceAfter=No
@@ -14083,7 +14083,7 @@
 10	Mayor	Mayor	PROPN	np0000p	_	8	obj	8:obj	MWE=Mayor_Oreja|MWEPOS=PROPN|ArgTem=arg1:pat|Entity=(CESSCASTA2000042317037c16-person-1-gstype:spec
 11	Oreja	Oreja	PROPN	_	_	10	flat	10:flat	Entity=CESSCASTA2000042317037c16)
 12	como	como	SCONJ	cs	_	13	mark	13:mark	_
-13	lehendakari	lehendakari	NOUN	nccs000	Number=Sing	8	obj	8:obj	ArgTem=argM:atr|SpaceAfter=No
+13	lehendakari	lehendakari	NOUN	nccs000	Number=Sing	8	advcl	8:advcl	ArgTem=argM:atr|SpaceAfter=No
 14	"	"	PUNCT	fe	PunctType=Quot	8	punct	8:punct	_
 15	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
 
@@ -20092,7 +20092,7 @@
 55	nos	yo	PRON	pp1cp000	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	56	obj	56:obj	ArgTem=arg1:tem|Entity=(CESSCASTA200012031592c2-organization-1-CorefType:ident,gstype:spec)
 56	sitúa	situar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	25:conj	_
 57	como	como	SCONJ	cs	_	58	mark	58:mark	_
-58	una	uno	PRON	pi0fs000	Gender=Fem|Number=Sing|PronType=Ind	56	obj	56:obj	ArgTem=argM:atr
+58	una	uno	PRON	pi0fs000	Gender=Fem|Number=Sing|PronType=Ind	56	advcl	56:advcl	ArgTem=argM:atr
 59	de	de	ADP	sps00	_	62	case	62:case	_
 60	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	62	det	62:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 61	primeras	primero	ADJ	ao0fp0	Gender=Fem|Number=Plur|NumType=Ord	62	amod	62:amod	_
@@ -23772,7 +23772,7 @@
 19	como	como	SCONJ	cs	_	22	mark	22:mark	_
 20	"	"	PUNCT	fe	PunctType=Quot	22	punct	22:punct	SpaceAfter=No
 21	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	_
-22	mezcla	mezcla	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obj	16:obj	ArgTem=argM:atr
+22	mezcla	mezcla	NOUN	ncfs000	Gender=Fem|Number=Sing	16	advcl	16:advcl	ArgTem=argM:atr
 23	de	de	ADP	sps00	_	24	case	24:case	_
 24	valentía	valentía	NOUN	ncfs000	Gender=Fem|Number=Sing	22	nmod	22:nmod	ArgTem=arg1:pat
 25	y	y	CCONJ	cc	_	26	cc	26:cc	_
@@ -24781,7 +24781,7 @@
 30.1	_	_	PRON	p	_	_	_	31:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200004096498c9--1-CorefType:ident,gstype:gen)
 31	tendrá	tener	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	conj	24:conj	_
 32	como	como	SCONJ	cs	_	33	mark	33:mark	_
-33	punto	punto	NOUN	ncms000	Gender=Masc|Number=Sing	31	obj	31:obj	ArgTem=argM:atr
+33	punto	punto	NOUN	ncms000	Gender=Masc|Number=Sing	31	advcl	31:advcl	ArgTem=argM:atr
 34	de	de	ADP	sps00	_	35	case	35:case	_
 35	partida	partida	NOUN	ncfs000	Gender=Fem|Number=Sing	33	nmod	33:nmod	_
 36	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	37:det	Entity=(NOCOREF:Spec.number-number-3-gstype:spec
@@ -36764,7 +36764,7 @@
 38.1	_	_	PRON	p	_	_	_	39:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999060123c5-organization-1-CorefType:ident,gstype:spec)
 39	mantendrá	mantener	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	conj	4:conj	_
 40	como	como	SCONJ	cs	_	41	mark	41:mark	_
-41	candidato	candidato	NOUN	ncms000	Gender=Masc|Number=Sing	39	obj	39:obj	ArgTem=argM:atr
+41	candidato	candidato	NOUN	ncms000	Gender=Masc|Number=Sing	39	advcl	39:advcl	ArgTem=argM:atr
 42	español	español	ADJ	aq0ms0	Gender=Masc|Number=Sing	41	amod	41:amod	_
 43	a	a	ADP	sps00	_	44	case	44:case	_
 44	Carlos	Carlos	PROPN	np00000	_	39	obj	39:obj	MWE=Carlos_Westendorp|MWEPOS=PROPN|ArgTem=arg1:pat|Entity=(CESSCASTP1999060123c2-person-1-gstype:spec
@@ -42675,7 +42675,7 @@
 3	situaban	situar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
 4	como	como	SCONJ	cs	_	6	mark	6:mark	_
 5	principales	principal	ADJ	aq0cp0	Number=Plur	6	amod	6:amod	_
-6	favoritos	favorito	NOUN	ncmp000	Gender=Masc|Number=Plur	3	obj	3:obj	ArgTem=argM:atr
+6	favoritos	favorito	NOUN	ncmp000	Gender=Masc|Number=Plur	3	advcl	3:advcl	ArgTem=argM:atr
 7	a	a	ADP	sps00	_	9	case	9:case	_
 8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 9	Unión	Unión	PROPN	np00000	_	3	obj	3:obj	MWE=Unión_de_Ciudadanos_de_Georgia|MWEPOS=PROPN|ArgTem=arg1:pat
