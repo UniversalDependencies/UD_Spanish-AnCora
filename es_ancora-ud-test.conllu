@@ -12081,7 +12081,7 @@
 20	esta	este	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	21	det	21:det	Entity=(CESSCASTA2000022116816c2--2-CorefType:ident,gstype:gen
 21	vía	vía	NOUN	ncfs000	Gender=Fem|Number=Sing	19	nsubj	19:nsubj	ArgTem=arg1:tem
 22	transpirenaica	transpirenaico	ADJ	aq0fs0	Gender=Fem|Number=Sing	21	amod	21:amod	Entity=CESSCASTA2000022116816c2)CESSCASTA2000022116816c13)
-23	dado	dado	NOUN	cs	ExtPos=SCONJ	25	mark	25:mark	MWE=dado_que|MWEPOS=SCONJ
+23	dado	dado	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	mark	25:mark	MWE=dado_que|MWEPOS=SCONJ
 24	que	que	SCONJ	_	_	23	fixed	23:fixed	_
 25	existen	existir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl	ArgTem=argM:cau
 26	varias	varios	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	27	det	27:det	Entity=(CESSCASTA2000022116816c14--2-gstype:gen
@@ -28148,7 +28148,7 @@
 14	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	15:det	Entity=(CESSCASTAA200003108552c1--2-CorefType:ident,gstype:gen
 15	jóvenes	joven	NOUN	nccp000	Number=Plur	6	nmod	6:nmod	Entity=CESSCASTAA200003108552c1)NOCOREF:Gen)|SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
-17	dado	dado	NOUN	cs	ExtPos=SCONJ	23	mark	23:mark	MWE=dado_que|MWEPOS=SCONJ
+17	dado	dado	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	mark	23:mark	MWE=dado_que|MWEPOS=SCONJ
 18	que	que	SCONJ	_	_	17	fixed	17:fixed	_
 19	1,14	1.14	NUM	_	NumForm=Digit|NumType=Card	20	nummod	20:nummod	Entity=(NOCOREF:Gen--2-gstype:gen
 20	millones	millón	NOUN	ncmp000	Gender=Masc|Number=Plur	23	nsubj	23:nsubj	ArgTem=arg1:tem

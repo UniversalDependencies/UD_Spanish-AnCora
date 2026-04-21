@@ -19864,7 +19864,7 @@
 54	estaremos	estar	AUX	vmif1p0	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	55	cop	55:cop	ArgTem=arg1:pat
 55	atentos	atento	ADJ	aq0mp0	Gender=Masc|Number=Plur	19	ccomp	19:ccomp	ArgTem=arg2:atr|SpaceAfter=No
 56	,	,	PUNCT	fc	PunctType=Comm	60	punct	60:punct	_
-57	dado	dado	NOUN	cs	ExtPos=SCONJ	60	mark	60:mark	MWE=dado_que|MWEPOS=SCONJ
+57	dado	dado	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	60	mark	60:mark	MWE=dado_que|MWEPOS=SCONJ
 58	que	que	SCONJ	_	_	57	fixed	57:fixed	_
 58.1	_	_	PRON	p	_	_	_	60:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA200012031592c15--1-CorefType:ident,gstype:gen)
 59	podría	poder	AUX	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	60	aux	60:aux	_
@@ -29065,7 +29065,7 @@
 8	trabajo	trabajo	NOUN	ncms000	Gender=Masc|Number=Sing	6	obj	6:obj	ArgTem=arg1:pat
 9	de	de	ADP	sps00	_	10	case	10:case	_
 10	ACNUR	ACNUR	PROPN	np00000	_	8	nmod	8:nmod	ArgTem=arg0:agt|Entity=(CESSCASTAA200007052692c1-organization-1-CorefType:ident,gstype:spec)CESSCASTAA200007052692c8)NOCOREF:Gen)
-11	dado	dado	NOUN	cs	ExtPos=SCONJ	17	mark	17:mark	MWE=dado_que|MWEPOS=SCONJ
+11	dado	dado	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	mark	17:mark	MWE=dado_que|MWEPOS=SCONJ
 12	que	que	SCONJ	_	_	11	fixed	11:fixed	_
 13	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	14:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 14	autoridades	autoridad	NOUN	ncfp000	Gender=Fem|Number=Plur	17	nsubj	17:nsubj	ArgTem=arg0:agt
