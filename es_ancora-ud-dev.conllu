@@ -21825,7 +21825,7 @@
 9	más	más	ADV	rg	Degree=Cmp	10	advmod	10:advmod	Entity=(CESSCASTAA200002065003c57--2-gstype:gen
 10	goles	gol	NOUN	ncmp000	Gender=Masc|Number=Plur	8	obj	8:obj	ArgTem=arg1:pat
 11	a	a	ADP	rg	ExtPos=ADV	12	case	12:case	MWE=a_domicilio|MWEPOS=ADV
-12	domicilio	domicilio	NOUN	_	_	10	obl	10:obl	_
+12	domicilio	domicilio	NOUN	_	_	10	nmod	10:nmod	_
 13	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	14	punct	14:punct	Entity=(NOCOREF:Spec.number-number-2-gstype:spec|SpaceAfter=No
 14	18	18	NUM	_	NumForm=Digit|NumType=Card	10	appos	10:appos	SpaceAfter=No
 15	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	14	punct	14:punct	Entity=NOCOREF:Spec.number)
@@ -37601,7 +37601,7 @@
 38	de	de	ADP	sps00	_	39	case	39:case	_
 39	entrevistas	entrevista	NOUN	ncfp000	Gender=Fem|Number=Plur	37	nmod	37:nmod	_
 40	en	en	ADP	rg	ExtPos=ADV	41	case	41:case	MWE=en_profundidad|MWEPOS=ADV|ArgTem=argM:mnr
-41	profundidad	profundidad	NOUN	_	_	39	obl	39:obl	Entity=CESSCASTP19990701130c5)NOCOREF:Gen)|SpaceAfter=No
+41	profundidad	profundidad	NOUN	_	_	39	nmod	39:nmod	Entity=CESSCASTP19990701130c5)NOCOREF:Gen)|SpaceAfter=No
 42	.	.	PUNCT	fp	PunctType=Peri	18	punct	18:punct	_
 
 # sent_id = CESS-CAST-P-19990701-130-s6
@@ -54110,7 +54110,7 @@
 22	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(NOCOREF:Gen--2-gstype:gen
 23	inversión	inversión	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obl	16:obl	ArgTem=argM:cau
 24	in	in	ADP	rg	ExtPos=ADV	25	case	25:case	MWE=in_extremis|MWEPOS=ADV
-25	extremis	extremis	NOUN	_	_	23	obl	23:obl	Entity=NOCOREF:Gen)CESSCASTP2001020169_mc2)NOCOREF:Gen)|SpaceAfter=No
+25	extremis	extremis	NOUN	_	_	23	nmod	23:nmod	Entity=NOCOREF:Gen)CESSCASTP2001020169_mc2)NOCOREF:Gen)|SpaceAfter=No
 26	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # global.Entity = eid-etype-head-other
@@ -58266,7 +58266,7 @@
 3	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	Entity=(CESSCASTP20011202122c3--2-gstype:gen,HomoDD
 4	sexo	sexo	NOUN	ncms000	Gender=Masc|Number=Sing	2	obj	2:obj	ArgTem=arg1:pat
 5	en	en	ADP	rg	ExtPos=ADV	6	case	6:case	MWE=en_vivo|MWEPOS=ADV
-6	vivo	vivo	NOUN	_	_	4	obl	4:obl	_
+6	vivo	vivo	NOUN	_	_	4	nmod	4:nmod	_
 7	y	y	CCONJ	cc	_	8	cc	8:cc	_
 8	en	en	ADP	rg	_	5	conj	5:conj	MWE=en_directo|MWEPOS=ADV
 9	directo	directo	NOUN	_	_	8	fixed	8:fixed	Entity=CESSCASTP20011202122c3)
@@ -58426,7 +58426,7 @@
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
 14	sexo	sexo	NOUN	ncms000	Gender=Masc|Number=Sing	11	nmod	11:nmod	Entity=(CESSCASTP20011202122c3--1-CorefType:ident,gstype:gen,HomoDD
 15	en	en	ADP	rg	ExtPos=ADV	16	case	16:case	MWE=en_vivo|MWEPOS=ADV
-16	vivo	vivo	NOUN	_	_	14	obl	14:obl	Entity=CESSCASTP20011202122c3)
+16	vivo	vivo	NOUN	_	_	14	nmod	14:nmod	Entity=CESSCASTP20011202122c3)
 17	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	18	punct	18:punct	SpaceAfter=No
 17.1	_	_	PRON	p	_	_	_	18:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20011202122c5-place-1-CorefType:ident,gstype:spec)
 18	abrió	abrir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	10:parataxis	_

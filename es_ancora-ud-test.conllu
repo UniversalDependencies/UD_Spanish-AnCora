@@ -12119,7 +12119,7 @@
 58	por	por	ADP	sps00	_	59	mark	59:mark	_
 59	albergar	albergar	VERB	vmn0000	VerbForm=Inf	49	advcl	49:advcl	ArgTem=argM:cau
 60	por	por	ADP	rg	ExtPos=ADV	61	case	61:case	MWE=por_ejemplo|MWEPOS=ADV
-61	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	62	obl	62:obl	_
+61	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	62	nmod	62:nmod	_
 62	rutas	ruta	NOUN	ncfp000	Gender=Fem|Number=Plur	59	obj	59:obj	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen
 63-64	del	_	_	_	_	_	_	_	_
 63	de	de	ADP	spcms	_	65	case	65:case	_
@@ -14079,7 +14079,7 @@
 13	contando	contar	VERB	vmg0000	VerbForm=Ger	8	ccomp	8:ccomp	ArgTem=arg1:pat
 14	verdades	verdad	NOUN	ncfp000	Gender=Fem|Number=Plur	13	nsubj	13:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTA2000041512000c12--1-gstype:gen
 15	a	a	ADP	rg	ExtPos=ADV	16	case	16:case	MWE=a_medias|MWEPOS=ADV
-16	medias	medias	NOUN	_	_	14	obl	14:obl	SpaceAfter=No
+16	medias	medias	NOUN	_	_	14	nmod	14:nmod	SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 18	que	que	PRON	pr0cn000	PronType=Rel	20	nsubj	20:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000041512000c12--1-CorefType:ident,gstype:gen)
 19	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
