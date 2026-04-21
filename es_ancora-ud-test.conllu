@@ -8967,8 +8967,8 @@
 117-118	dejándole	_	_	_	_	_	_	_	_
 117	dejando	dejar	VERB	vmg0000	VerbForm=Ger	113	advcl	113:advcl	ArgTem=argM:mnr
 118	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	117	obl:arg	117:obl:arg	_
-119	a	a	ADP	rg	_	117	obj	117:obj	MWE=a_solas|MWEPOS=ADV|ArgTem=argM:atr
-120	solas	solas	NOUN	_	_	119	fixed	119:fixed	_
+119	a	a	ADP	rg	_	120	case	120:case	MWE=a_solas|MWEPOS=ADV|ArgTem=argM:atr
+120	solas	solas	NOUN	_	_	117	obj	117:obj	_
 121	con	con	ADP	sps00	_	124	case	124:case	_
 122	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	124	det	124:det	_
 123	nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	124	amod	124:amod	_
