@@ -33960,7 +33960,7 @@
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	Entity=(CESSCASTAA200012096582c8--2-gstype:gen,HomoDD
 16	oposición	oposición	NOUN	ncfs000	Gender=Fem|Number=Sing	11	nmod	11:nmod	ArgTem=arg0:agt
 17	de	de	ADP	aq0cn0	_	18	case	18:case	MWE=de_derechas|MWEPOS=ADJ
-18	derechas	derechas	ADJ	_	_	16	amod	16:amod	Entity=CESSCASTAA200012096582c8)|SpaceAfter=No
+18	derechas	derecha	NOUN	ncfp000	Gender=Fem|Number=Plur	16	nmod	16:nmod	Entity=CESSCASTAA200012096582c8)|SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	Entity=(NOCOREF:Gen--2-gstype:gen
 20	una	uno	PRON	pi0fs000	Gender=Fem|Number=Sing|PronType=Ind	11	appos	11:appos	_
 21	de	de	ADP	sps00	_	22	case	22:case	_
