@@ -24873,7 +24873,7 @@
 16	línea	línea	NOUN	_	_	14	obl	14:obl	_
 17	con	con	ADP	sps00	_	19	case	19:case	_
 18	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	Entity=(CESSCASTAA200004096498c15--2-gstype:gen,HomoDD
-19	resto	resto	NOUN	ncms000	Gender=Masc|Number=Sing	16	obl	16:obl	_
+19	resto	resto	NOUN	ncms000	Gender=Masc|Number=Sing	14	obl	14:obl	_
 20	de	de	ADP	sps00	_	21	case	21:case	_
 21	mercados	mercado	NOUN	ncmp000	Gender=Masc|Number=Plur	19	nmod	19:nmod	_
 22	internacionales	internacional	ADJ	aq0cp0	Number=Plur	21	amod	21:amod	_
@@ -26501,7 +26501,7 @@
 18	de	de	ADP	rg	ExtPos=ADV	19	case	19:case	MWE=de_acuerdo|MWEPOS=ADV|ArgTem=argL:
 19	acuerdo	acuerdo	NOUN	_	_	16	obl	16:obl	_
 20	en	en	ADP	sps00	_	21	case	21:case	_
-21	algo	algo	PRON	pi0cs000	Number=Sing|PronType=Ind	19	obl	19:obl	Entity=(NOCOREF:Gen--1-gstype:gen
+21	algo	algo	PRON	pi0cs000	Number=Sing|PronType=Ind	19	nmod	19:nmod	Entity=(NOCOREF:Gen--1-gstype:gen
 22	"	"	PUNCT	fe	PunctType=Quot	24	punct	24:punct	SpaceAfter=No
 23	tan	tanto	ADV	rg	_	24	advmod	24:advmod	_
 24	simple	simple	ADJ	aq0cs0	Number=Sing	21	amod	21:amod	_
