@@ -30356,28 +30356,28 @@
 1	Rodríguez	Rodríguez	PROPN	np00000	_	3	nsubj	3:nsubj	MWE=Rodríguez_Ibarra|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(CESSCASTAA2000092319559c1-person-1-CorefType:ident,gstype:spec
 2	Ibarra	Ibarra	PROPN	_	_	1	flat	1:flat	Entity=CESSCASTAA2000092319559c1)
 3	excusó	excusar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	no	no	ADV	rn	Polarity=Neg	17	advmod	17:advmod	_
-5	haber	haber	AUX	van0000	VerbForm=Inf	17	aux	17:aux	_
-6	estado	estar	AUX	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux	17:aux	ArgTem=arg1:pat
+4	no	no	ADV	rn	Polarity=Neg	9	advmod	9:advmod	_
+5	haber	haber	AUX	van0000	VerbForm=Inf	9	aux	9:aux	_
+6	estado	estar	AUX	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	9:cop	ArgTem=arg1:pat
 7	en	en	ADP	sps00	_	9	case	9:case	_
 8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCASTAA2000092319559c12--2-CorefType:ident,gstype:gen,HomoDD
-9	manifestación	manifestación	NOUN	ncfs000	Gender=Fem|Number=Sing	17	obl	17:obl	ArgTem=arg2:loc
+9	manifestación	manifestación	NOUN	ncfs000	Gender=Fem|Number=Sing	3	ccomp	3:ccomp	ArgTem=arg2:loc
 10	de	de	ADP	sps00	_	11	case	11:case	_
 11	San	San	PROPN	np00000	_	9	nmod	9:nmod	MWE=San_Sebastián|MWEPOS=PROPN|ArgTem=argM:loc|Entity=(CESSCASTAA2000092319559c32-place-1-CorefType:ident,gstype:spec
 12	Sebastián	Sebastián	PROPN	_	_	11	flat	11:flat	Entity=CESSCASTAA2000092319559c32)CESSCASTAA2000092319559c12)
-13	porque	porque	SCONJ	cs	_	17	mark	17:mark	_
+13	porque	porque	SCONJ	cs	_	15	mark	15:mark	_
 14	"	"	PUNCT	fe	PunctType=Quot	15	punct	15:punct	SpaceAfter=No
 14.1	_	_	PRON	p	_	_	_	15:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000092319559c1-person-1-CorefType:ident,gstype:spec)
-15	tenía	tener	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	3:ccomp	ArgTem=argM:cau
+15	tenía	tener	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	9:advcl	ArgTem=argM:cau
 16	que	que	SCONJ	cs	_	17	cc	17:cc	_
-17	elegir	elegir	VERB	vmn0000	VerbForm=Inf	15	conj	15:conj	_
+17	elegir	elegir	VERB	vmn0000	VerbForm=Inf	15	xcomp	15:xcomp	_
 18	y	y	CCONJ	cc	_	19	cc	19:cc	_
 18.1	_	_	PRON	p	_	_	_	19:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000092319559c1-person-1-CorefType:ident,gstype:spec)
 19	elegí	elegir	VERB	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	conj	15:conj	_
-20	estar	estar	VERB	vmn0000	VerbForm=Inf	19	xcomp	19:xcomp	ArgTem=arg1:pat
+20	estar	estar	AUX	vmn0000	VerbForm=Inf	23	cop	23:cop	ArgTem=arg1:pat
 21	en	en	ADP	sps00	_	23	case	23:case	_
 22	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCASTAA2000092319559c13--2-gstype:gen,HomoDD
-23	sitio	sitio	NOUN	ncms000	Gender=Masc|Number=Sing	20	obl	20:obl	ArgTem=arg2:loc
+23	sitio	sitio	NOUN	ncms000	Gender=Masc|Number=Sing	19	ccomp	19:ccomp	ArgTem=arg2:loc
 24	donde	donde	ADV	pr000000	PronType=Rel	25	advmod	25:advmod	ArgTem=arg2:loc|Entity=(CESSCASTAA2000092319559c13--1-CorefType:ident,gstype:gen)
 24.1	_	_	PRON	p	_	_	_	25:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000092319559c1-person-1-CorefType:ident,gstype:spec)
 25	creí	creer	VERB	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	23	acl:relcl	23:acl:relcl	_
@@ -30391,7 +30391,7 @@
 32	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
 33	con	con	ADP	sps00	_	35	case	35:case	_
 34	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	35:det	Entity=(CESSCASTAA2000092319559c14--2-gstype:gen,HomoDD
-35	extremeños	extremeño	NOUN	ncmp000	Gender=Masc|Number=Plur	20	obl	20:obl	ArgTem=argM:adv
+35	extremeños	extremeño	NOUN	ncmp000	Gender=Masc|Number=Plur	31	obl	31:obl	ArgTem=argM:adv
 36	que	que	PRON	pr0cn000	PronType=Rel	37	nsubj	37:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000092319559c14--1-CorefType:ident,gstype:gen)
 37	viven	vivir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	35:acl:relcl	_
 38	en	en	ADP	sps00	_	39	case	39:case	_
@@ -30401,7 +30401,7 @@
 42	porque	porque	SCONJ	cs	_	43	mark	43:mark	_
 43	sobran	sobrar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	15:conj	_
 44	manifestaciones	manifestación	NOUN	ncfp000	Gender=Fem|Number=Plur	43	nsubj	43:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000092319559c16--1-CorefType:ident,gstype:gen)|SpaceAfter=No
-45	"	"	PUNCT	fe	PunctType=Quot	17	punct	17:punct	SpaceAfter=No
+45	"	"	PUNCT	fe	PunctType=Quot	15	punct	15:punct	SpaceAfter=No
 46	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = CESS-CAST-AA-20000923-19559-s7
