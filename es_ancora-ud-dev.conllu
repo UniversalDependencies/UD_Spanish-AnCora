@@ -17481,10 +17481,10 @@
 2	de	de	ADP	_	_	3	case	3:case	_
 3	Ferran	Ferran	PROPN	_	_	1	flat	1:flat	Entity=NOCOREF:Spec.person)
 4	47	47	NUM	_	NumForm=Digit|NumType=Card	1	appos	1:appos	Entity=(NOCOREF:Spec.number-number-1-gstype:spec)
-5	-	-	PUNCT	fg	PunctType=Dash	1	punct	1:punct	_
-6	-	-	PUNCT	fg	PunctType=Dash	1	punct	1:punct	_
-7	-	-	PUNCT	fg	PunctType=Dash	1	punct	1:punct	_
-8	-	-	PUNCT	fg	PunctType=Dash	1	punct	1:punct	_
+5	-	-	PUNCT	fg	PunctType=Dash	11	punct	11:punct	_
+6	-	-	PUNCT	fg	PunctType=Dash	11	punct	11:punct	_
+7	-	-	PUNCT	fg	PunctType=Dash	11	punct	11:punct	_
+8	-	-	PUNCT	fg	PunctType=Dash	11	punct	11:punct	_
 9	-	-	PUNCT	fg	PunctType=Dash	11	punct	11:punct	_
 10	-	-	PUNCT	fg	PunctType=Dash	11	punct	11:punct	_
 11	13	13	NUM	_	NumForm=Digit|NumType=Card	1	appos	1:appos	Entity=(NOCOREF:Spec.number-number-1-gstype:spec)|SpaceAfter=No
