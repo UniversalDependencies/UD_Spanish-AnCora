@@ -55682,13 +55682,13 @@
 # sent_id = CESS-CAST-P-20010401-30-s5
 # text = "Por supuesto, Milosevic debe recibir el castigo que se pueda merecer", añadió.
 # orig_file_sentence 014#29
-1	"	"	PUNCT	fe	PunctType=Quot	5	punct	5:punct	SpaceAfter=No
+1	"	"	PUNCT	fe	PunctType=Quot	7	punct	7:punct	SpaceAfter=No
 2	Por	por	ADP	rg	ExtPos=ADV	3	case	3:case	MWE=Por_supuesto|MWEPOS=ADV
 3	supuesto	supuesto	NOUN	_	_	7	obl	7:obl	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 5	Milosevic	Milosevic	PROPN	np00000	_	16	nsubj	16:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2001040130c3-person-1-CorefType:ident,gstype:spec)
 6	debe	deber	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
-7	recibir	recibir	VERB	vmn0000	VerbForm=Inf	16	xcomp	16:xcomp	ArgTem=arg1:pat
+7	recibir	recibir	VERB	vmn0000	VerbForm=Inf	16	ccomp	16:ccomp	ArgTem=arg1:pat
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCASTP2001040130c8--2-gstype:gen,HomoDD
 9	castigo	castigo	NOUN	ncms000	Gender=Masc|Number=Sing	7	obj	7:obj	ArgTem=arg1:pat
 10	que	que	PRON	pr0cn000	PronType=Rel	13	obj	13:obj	ArgTem=arg1:pat|Entity=(CESSCASTP2001040130c8--1-CorefType:ident,gstype:gen)
