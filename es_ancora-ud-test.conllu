@@ -14407,7 +14407,7 @@
 2	que	que	SCONJ	cs	_	6	mark	6:mark	_
 3	"	"	PUNCT	fe	PunctType=Quot	6	punct	6:punct	SpaceAfter=No
 4	no	no	ADV	rn	Polarity=Neg	6	advmod	6:advmod	_
-5	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	1:aux	_
+5	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 6	habido	haber	VERB	vap00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	1:ccomp	ArgTem=arg1:pat
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
 8	más	más	ADV	rg	Degree=Cmp	9	advmod	9:advmod	_
@@ -32876,7 +32876,7 @@
 12	que	que	SCONJ	cs	_	16	mark	16:mark	_
 13	"	"	PUNCT	fe	PunctType=Quot	16	punct	16:punct	SpaceAfter=No
 14	nunca	nunca	ADV	rg	_	16	advmod	16:advmod	_
-15	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
+15	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	16:aux	_
 16	habido	haber	VERB	vap00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	11:ccomp	ArgTem=arg1:pat
 17	problemas	problema	NOUN	ncmp000	Gender=Masc|Number=Plur	16	obj	16:obj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen
 18	graves	grave	ADJ	aq0cp0	Number=Plur	17	amod	17:amod	_
