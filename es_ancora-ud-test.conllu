@@ -1562,8 +1562,8 @@
 1	Miguel	Miguel	PROPN	np0000p	_	7	nsubj	7:nsubj	MWE=Miguel_Indurain|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 2	Indurain	Indurain	PROPN	_	_	1	flat	1:flat	Entity=NOCOREF:Spec.person)|SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
-4	por	por	ADP	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=por_ejemplo|MWEPOS=ADV|ArgTem=argM:adv
-5	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	4	fixed	4:fixed	SpaceAfter=No
+4	por	por	ADP	rg	ExtPos=ADV	5	case	5:case	MWE=por_ejemplo|MWEPOS=ADV|ArgTem=argM:adv
+5	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	7	obl	7:obl	SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 7	necesita	necesitar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 8	correr	correr	VERB	vmn0000	VerbForm=Inf	7	xcomp	7:xcomp	ArgTem=arg1:pat
@@ -1718,8 +1718,8 @@
 49	periódicos	periódico	NOUN	ncmp000	Gender=Masc|Number=Plur	46	nmod	46:nmod	_
 50	no	no	ADV	rn	Polarity=Neg	51	advmod	51:advmod	_
 51	cayó	caer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-52	sin	sin	ADP	rg	ExtPos=ADV	51	advmod	51:advmod	MWE=sin_duda|MWEPOS=ADV|ArgTem=argM:adv
-53	duda	duda	NOUN	_	_	52	fixed	52:fixed	_
+52	sin	sin	ADP	rg	ExtPos=ADV	53	case	53:case	MWE=sin_duda|MWEPOS=ADV|ArgTem=argM:adv
+53	duda	duda	NOUN	_	_	51	obl	51:obl	_
 54	en	en	ADP	sps00	_	56	case	56:case	MWE=en_la_cuenta|MWEPOS=AUX
 55	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	56:det	_
 56	cuenta	cuenta	NOUN	ncfs000	Gender=Fem|Number=Sing	51	obl	51:obl	_
@@ -1735,8 +1735,8 @@
 65	Fernández	Fernández	PROPN	_	_	64	flat	64:flat	_
 66	que	que	PRON	pr0cn000	PronType=Rel	67	nsubj	67:nsubj	ArgTem=arg0:agt
 67	hizo	hacer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	64	acl:relcl	64:acl:relcl	_
-68	a	a	ADP	rg	ExtPos=ADV	67	advmod	67:advmod	MWE=a_pulso|MWEPOS=ADV|ArgTem=argM:mnr
-69	pulso	pulso	NOUN	_	_	68	fixed	68:fixed	_
+68	a	a	ADP	rg	ExtPos=ADV	69	case	69:case	MWE=a_pulso|MWEPOS=ADV|ArgTem=argM:mnr
+69	pulso	pulso	NOUN	_	_	67	obl	67:obl	_
 70	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	71:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 71	OAR	OAR	PROPN	np0000o	_	67	obj	67:obj	MWE=OAR_Ferrol|MWEPOS=PROPN|ArgTem=arg1:pat
 72	Ferrol	Ferrol	PROPN	_	_	71	flat	71:flat	Entity=NOCOREF:Spec.organization)|SpaceAfter=No
@@ -2143,8 +2143,8 @@
 16	que	que	PRON	pr0cn000	PronType=Rel	18	nsubj	18:nsubj	ArgTem=arg0:agt
 17	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	18:aux	_
 18	mantenido	mantener	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	10:acl:relcl	_
-19	a	a	ADP	rg	ExtPos=ADV	18	advmod	18:advmod	MWE=a_flote|MWEPOS=ADV|ArgTem=argM:loc
-20	flote	flote	NOUN	_	_	19	fixed	19:fixed	_
+19	a	a	ADP	rg	ExtPos=ADV	20	case	20:case	MWE=a_flote|MWEPOS=ADV|ArgTem=argM:loc
+20	flote	flote	NOUN	_	_	18	obl	18:obl	_
 21	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	_
 22	baloncesto	baloncesto	NOUN	ncms000	Gender=Masc|Number=Sing	18	obj	18:obj	ArgTem=arg1:pat
 23	blanco	blanco	ADJ	aq0ms0	Gender=Masc|Number=Sing	22	amod	22:amod	_
@@ -2656,8 +2656,8 @@
 9	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
 10	donde	donde	ADV	pr000000	PronType=Rel	15	advmod	15:advmod	ArgTem=argM:loc|SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
-12	en	en	ADP	rg	ExtPos=ADV	15	advmod	15:advmod	MWE=en_efecto|MWEPOS=ADV|ArgTem=argM:adv
-13	efecto	efecto	NOUN	_	_	12	fixed	12:fixed	SpaceAfter=No
+12	en	en	ADP	rg	ExtPos=ADV	13	case	13:case	MWE=en_efecto|MWEPOS=ADV|ArgTem=argM:adv
+13	efecto	efecto	NOUN	_	_	15	obl	15:obl	SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
 15	existen	existir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
 16	escamas	escama	NOUN	ncfp000	Gender=Fem|Number=Plur	15	nsubj	15:nsubj	ArgTem=arg1:tem
@@ -3703,8 +3703,8 @@
 4	estar	estar	AUX	vmn0000	VerbForm=Inf	7	cop	7:cop	ArgTem=arg2:atr
 5	hoy	hoy	NOUN	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=hoy_día|MWEPOS=ADV|ArgTem=argM:tmp
 6	día	día	NOUN	_	_	5	fixed	5:fixed	_
-7	de	de	ADP	rg	_	3	ccomp	3:ccomp	MWE=de_acuerdo|MWEPOS=ADV|ArgTem=arg2:atr
-8	acuerdo	acuerdo	NOUN	_	_	7	fixed	7:fixed	_
+7	de	de	ADP	rg	_	8	case	8:case	MWE=de_acuerdo|MWEPOS=ADV|ArgTem=arg2:atr
+8	acuerdo	acuerdo	NOUN	_	_	3	ccomp	3:ccomp	_
 9	en	en	ADP	sps00	_	14	mark	14:mark	_
 10	que	que	SCONJ	cs	_	14	mark	14:mark	_
 11	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	12:det	_
@@ -3911,8 +3911,8 @@
 65	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	66	expl:pv	66:expl:pv	_
 66	encuentra	encontrar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	conj	40:conj	_
 67	grabada	grabado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	66	xcomp	66:xcomp	ArgTem=arg2:atr
-68	de	de	ADP	rg	ExtPos=ADV	66	advmod	66:advmod	MWE=de_antemano|MWEPOS=ADV|ArgTem=argM:adv
-69	antemano	antemano	NOUN	_	_	68	fixed	68:fixed	_
+68	de	de	ADP	rg	ExtPos=ADV	69	case	69:case	MWE=de_antemano|MWEPOS=ADV|ArgTem=argM:adv
+69	antemano	antemano	NOUN	_	_	66	obl	66:obl	_
 70	en	en	ADP	sps00	_	74	mark	74:mark	_
 71	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	74	det	74:det	_
 72	que	que	PRON	pr0cn000	PronType=Rel	74	obj	74:obj	ArgTem=arg1:pat
@@ -3960,8 +3960,8 @@
 # sent_id = 3LB-CAST-dc10-2-s11
 # text = En realidad, se trata de viejos conocidos que tuvieron un origen común.
 # orig_file_sentence 002#11
-1	En	en	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=En_realidad|MWEPOS=ADV|ArgTem=argM:adv
-2	realidad	realidad	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+1	En	en	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=En_realidad|MWEPOS=ADV|ArgTem=argM:adv
+2	realidad	realidad	NOUN	_	_	5	obl	5:obl	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	se	él	PRON	p0000000	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:impers	5:expl:impers	_
 5	trata	tratar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -4415,8 +4415,8 @@
 18	forman	formar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	10:conj	_
 19	apilamientos	apilamiento	NOUN	ncmp000	Gender=Masc|Number=Plur	18	obj	18:obj	ArgTem=arg2:atr
 20	segregados	segregado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	19	amod	19:amod	_
-21	en	en	ADP	rg	ExtPos=ADV	20	advmod	20:advmod	MWE=en_zigzag|MWEPOS=ADV|ArgTem=argM:mnr
-22	zigzag	zigzag	NOUN	_	_	21	fixed	21:fixed	_
+21	en	en	ADP	rg	ExtPos=ADV	22	case	22:case	MWE=en_zigzag|MWEPOS=ADV|ArgTem=argM:mnr
+22	zigzag	zigzag	NOUN	_	_	20	obl	20:obl	_
 23	formando	formar	VERB	vmg0000	VerbForm=Ger	18	advcl	18:advcl	ArgTem=argM:adv
 24	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	25:det	_
 25	cadena	cadena	NOUN	ncfs000	Gender=Fem|Number=Sing	23	obj	23:obj	ArgTem=arg2:atr
@@ -4506,8 +4506,8 @@
 # sent_id = 3LB-CAST-dc3-13-s4
 # text = De hecho, los cristales se obtuvieron electroquímicamente con Bu4NaO4 en 1,1, 2 - tricloroetano y el TMTSF se oxidó en el nodo aTMTSF+ con lo que cristaliza la sal superconductora.
 # orig_file_sentence 002#27
-1	De	de	ADP	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=De_hecho|MWEPOS=ADV
-2	hecho	hecho	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+1	De	de	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=De_hecho|MWEPOS=ADV
+2	hecho	hecho	NOUN	_	_	7	obl	7:obl	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	5:det	_
 5	cristales	cristal	NOUN	ncmp000	Gender=Masc|Number=Plur	7	nsubj	7:nsubj	ArgTem=arg1:pat
@@ -4543,8 +4543,8 @@
 # sent_id = 3LB-CAST-dc3-13-s5
 # text = En consecuencia, la presencia de anillos aromáticos fusionados con el anillo de TCNQ conduce a valores del primer potencial de reducción menores y, con ello, a una menor capacidad para la formación de CTC conductores.
 # orig_file_sentence 002#28
-1	En	en	ADP	rg	ExtPos=ADV	15	advmod	15:advmod	MWE=En_consecuencia|MWEPOS=ADV|ArgTem=argM:adv
-2	consecuencia	consecuencia	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+1	En	en	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=En_consecuencia|MWEPOS=ADV|ArgTem=argM:adv
+2	consecuencia	consecuencia	NOUN	_	_	15	obl	15:obl	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	_
 5	presencia	presencia	NOUN	ncfs000	Gender=Fem|Number=Sing	15	nsubj	15:nsubj	ArgTem=arg1:tem
@@ -5154,8 +5154,8 @@
 # text = Tomar en serio la heterogeneidad entre la fuente del conocimiento sensible y la del intelectual hacía indispensable no relegar lo empírico a un insignificante caos de impresiones y de impulsos, sino reconocer la materialidad en lo a priori, y es el paso que dará el Uebergang al sostener que el acto por el cual el sujeto se afecta a sí mismo en la percepción contiene el Principio de posibilidad de la experiencia -.
 # orig_file_sentence 002#46
 1	Tomar	tomar	VERB	vmn0000	VerbForm=Inf	18	csubj	18:csubj	ArgTem=arg0:agt
-2	en	en	ADP	rg	ExtPos=ADV	1	advmod	1:advmod	MWE=en_serio|MWEPOS=ADV|ArgTem=argM:mnr
-3	serio	serio	NOUN	_	_	2	fixed	2:fixed	_
+2	en	en	ADP	rg	ExtPos=ADV	3	case	3:case	MWE=en_serio|MWEPOS=ADV|ArgTem=argM:mnr
+3	serio	serio	NOUN	_	_	1	obl	1:obl	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	_
 5	heterogeneidad	heterogeneidad	NOUN	ncfs000	Gender=Fem|Number=Sing	1	obj	1:obj	ArgTem=arg1:pat
 6	entre	entre	ADP	sps00	_	8	case	8:case	_
@@ -5451,8 +5451,8 @@
 43	y	y	CCONJ	cc	_	45	cc	45:cc	_
 44	Husserl	Husserl	PROPN	np0000p	_	45	nsubj	45:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)
 45	pretenderá	pretender	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	3:conj	_
-46	en	en	ADP	rg	ExtPos=ADV	45	advmod	45:advmod	MWE=en_vano|MWEPOS=ADV|ArgTem=argM:adv
-47	vano	vano	NOUN	_	_	46	fixed	46:fixed	_
+46	en	en	ADP	rg	ExtPos=ADV	47	case	47:case	MWE=en_vano|MWEPOS=ADV|ArgTem=argM:adv
+47	vano	vano	NOUN	_	_	45	obl	45:obl	_
 48	trascender	trascender	VERB	vmn0000	VerbForm=Inf	45	xcomp	45:xcomp	ArgTem=arg1:pat
 49	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	50:det	_
 50	solipsismo	solipsismo	NOUN	ncms000	Gender=Masc|Number=Sing	48	obj	48:obj	ArgTem=arg1:pat
@@ -5528,8 +5528,8 @@
 # sent_id = 3LB-CAST-n1-5-s3
 # text = En fin, un paraíso donde ni la inflación tiene presencia.
 # orig_file_sentence 002#53
-1	En	en	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=En_fin|MWEPOS=ADV
-2	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	1	fixed	1:fixed	SpaceAfter=No
+1	En	en	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=En_fin|MWEPOS=ADV
+2	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	5	obl	5:obl	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
 5	paraíso	paraíso	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	_
@@ -6951,8 +6951,8 @@
 29	bañista	bañista	NOUN	nccs000	Number=Sing	25	nmod	25:nmod	_
 30	que	que	PRON	pr0cn000	PronType=Rel	31	nsubj	31:nsubj	ArgTem=arg0:agt
 31	avanzaba	avanzar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	acl:relcl	29:acl:relcl	_
-32	a	a	ADP	rg	ExtPos=ADV	31	advmod	31:advmod	MWE=a_bofetadas|MWEPOS=ADV|ArgTem=argM:mnr
-33	bofetadas	bofetadas	NOUN	_	_	32	fixed	32:fixed	_
+32	a	a	ADP	rg	ExtPos=ADV	33	case	33:case	MWE=a_bofetadas|MWEPOS=ADV|ArgTem=argM:mnr
+33	bofetadas	bofetadas	NOUN	_	_	31	obl	31:obl	_
 34	contra	contra	ADP	sps00	_	36	case	36:case	_
 35	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	36:det	_
 36	odio	odio	NOUN	ncms000	Gender=Masc|Number=Sing	31	obl	31:obl	ArgTem=argM:adv
@@ -7165,8 +7165,8 @@
 31	o	o	CCONJ	cc	_	33	cc	33:cc	_
 32	le	él	PRON	pp3csa00	Case=Dat|Number=Sing|Person=3|PronType=Prs	33	obl:arg	33:obl:arg	ArgTem=arg1:pat
 33	desplazaban	desplazar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	28	conj	28:conj	_
-34	en	en	ADP	rg	ExtPos=ADV	33	advmod	33:advmod	MWE=en_diagonal|MWEPOS=ADV|ArgTem=argM:adv
-35	diagonal	diagonal	NOUN	_	_	34	fixed	34:fixed	SpaceAfter=No
+34	en	en	ADP	rg	ExtPos=ADV	35	case	35:case	MWE=en_diagonal|MWEPOS=ADV|ArgTem=argM:adv
+35	diagonal	diagonal	NOUN	_	_	33	obl	33:obl	SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	39	punct	39:punct	_
 37	como	como	ADP	sps00	_	39	mark	39:mark	_
 38	si	si	SCONJ	cs	_	39	mark	39:mark	_
@@ -8123,8 +8123,8 @@
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
 2	desdichado	desdichado	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	3:nsubj	ArgTem=arg1:tem
 3	cayó	caer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-4	de	de	ADP	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=de_rodillas|MWEPOS=ADV|ArgTem=argM:mnr
-5	rodillas	rodillas	NOUN	_	_	4	fixed	4:fixed	_
+4	de	de	ADP	rg	ExtPos=ADV	5	case	5:case	MWE=de_rodillas|MWEPOS=ADV|ArgTem=argM:mnr
+5	rodillas	rodillas	NOUN	_	_	3	obl	3:obl	_
 6	sobre	sobre	ADP	sps00	_	8	case	8:case	_
 7	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
 8	montón	montón	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	3:obl	ArgTem=arg2:loc
@@ -8356,8 +8356,8 @@
 116	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	117	det	117:det	_
 117	cuerpo	cuerpo	NOUN	ncms000	Gender=Masc|Number=Sing	105	obl:arg	105:obl:arg	ArgTem=arg2:ben
 118	condenado	condenado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	117	amod	117:amod	_
-119	de	de	ADP	rg	ExtPos=ADV	118	advmod	118:advmod	MWE=de_antemano|MWEPOS=ADV|ArgTem=argM:tmp
-120	antemano	antemano	NOUN	_	_	119	fixed	119:fixed	SpaceAfter=No
+119	de	de	ADP	rg	ExtPos=ADV	120	case	120:case	MWE=de_antemano|MWEPOS=ADV|ArgTem=argM:tmp
+120	antemano	antemano	NOUN	_	_	118	obl	118:obl	SpaceAfter=No
 121	,	,	PUNCT	fc	PunctType=Comm	123	punct	123:punct	_
 122	desde	desde	ADP	sps00	_	123	case	123:case	_
 123	antes	antes	ADV	rg	_	118	advmod	118:advmod	ArgTem=argM:tmp
@@ -8574,8 +8574,8 @@
 119	como	como	ADP	sps00	_	121	mark	121:mark	_
 120	si	si	SCONJ	cs	_	121	mark	121:mark	_
 121	pretendieran	pretender	VERB	vmsi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	110	advcl	110:advcl	ArgTem=argM:adv|CxnElt=110:Conditional-NeutralEpistemic.Protasis@f
-122	en	en	ADP	rg	ExtPos=ADV	121	advmod	121:advmod	MWE=en_realidad|MWEPOS=ADV|ArgTem=argM:adv
-123	realidad	realidad	NOUN	_	_	122	fixed	122:fixed	_
+122	en	en	ADP	rg	ExtPos=ADV	123	case	123:case	MWE=en_realidad|MWEPOS=ADV|ArgTem=argM:adv
+123	realidad	realidad	NOUN	_	_	121	obl	121:obl	_
 124-125	proyectarlo	_	_	_	_	_	_	_	_
 124	proyectar	proyectar	VERB	vmn0000	VerbForm=Inf	121	xcomp	121:xcomp	ArgTem=arg1:pat
 125	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	124	obj	124:obj	_
@@ -9204,8 +9204,8 @@
 11	había	haber	AUX	vaii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	12:aux	_
 12	hecho	hacer	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	1:advcl	_
 13	limpiar	limpiar	VERB	vmn0000	VerbForm=Inf	12	xcomp	12:xcomp	_
-14	a	a	ADP	rg	ExtPos=ADV	12	advmod	12:advmod	MWE=a_conciencia|MWEPOS=ADV|ArgTem=argM:adv
-15	conciencia	conciencia	NOUN	_	_	14	fixed	14:fixed	_
+14	a	a	ADP	rg	ExtPos=ADV	15	case	15:case	MWE=a_conciencia|MWEPOS=ADV|ArgTem=argM:adv
+15	conciencia	conciencia	NOUN	_	_	12	obl	12:obl	_
 16	cuando	cuando	SCONJ	cs	_	18	mark	18:mark	_
 17	se	él	PRON	p0300000	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	18	expl:pv	18:expl:pv	_
 18	marchó	marchar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	13:advcl	ArgTem=argM:tmp|SpaceAfter=No
@@ -11455,8 +11455,8 @@
 32	,	,	PUNCT	fc	PunctType=Comm	33	punct	33:punct	_
 33	incluyendo	incluir	VERB	vmg0000	VerbForm=Ger	4	advcl	4:advcl	ArgTem=argM:adv|SpaceAfter=No
 34	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
-35	por	por	ADP	rg	ExtPos=ADV	33	advmod	33:advmod	MWE=por_ejemplo|MWEPOS=ADV
-36	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	35	fixed	35:fixed	SpaceAfter=No
+35	por	por	ADP	rg	ExtPos=ADV	36	case	36:case	MWE=por_ejemplo|MWEPOS=ADV
+36	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	33	obl	33:obl	SpaceAfter=No
 37	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
 38	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	39:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 39	depósitos	depósito	NOUN	ncmp000	Gender=Masc|Number=Plur	33	obj	33:obj	ArgTem=arg1:pat
@@ -12118,8 +12118,8 @@
 57	"	"	PUNCT	fe	PunctType=Quot	52	punct	52:punct	Entity=NOCOREF:Gen)
 58	por	por	ADP	sps00	_	59	mark	59:mark	_
 59	albergar	albergar	VERB	vmn0000	VerbForm=Inf	49	advcl	49:advcl	ArgTem=argM:cau
-60	por	por	ADP	rg	ExtPos=ADV	62	advmod	62:advmod	MWE=por_ejemplo|MWEPOS=ADV
-61	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	60	fixed	60:fixed	_
+60	por	por	ADP	rg	ExtPos=ADV	61	case	61:case	MWE=por_ejemplo|MWEPOS=ADV
+61	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	62	obl	62:obl	_
 62	rutas	ruta	NOUN	ncfp000	Gender=Fem|Number=Plur	59	obj	59:obj	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen
 63-64	del	_	_	_	_	_	_	_	_
 63	de	de	ADP	spcms	_	65	case	65:case	_
@@ -12558,8 +12558,8 @@
 1	Destacó	destacar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 2	que	que	SCONJ	cs	_	10	mark	10:mark	Entity=(CESSCASTA2000031310044c14--9
 3	"	"	PUNCT	fe	PunctType=Quot	4	punct	4:punct	SpaceAfter=No
-4	por	por	ADP	rg	ExtPos=ADV	10	advmod	10:advmod	MWE=por_fin|MWEPOS=ADV|ArgTem=argM:adv
-5	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	4	fixed	4:fixed	SpaceAfter=No
+4	por	por	ADP	rg	ExtPos=ADV	5	case	5:case	MWE=por_fin|MWEPOS=ADV|ArgTem=argM:adv
+5	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	10	obl	10:obl	SpaceAfter=No
 6	"	"	PUNCT	fe	PunctType=Quot	4	punct	4:punct	_
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCASTA2000031310044c2-organization-2-CorefType:ident,gstype:spec
 8	PP	PP	PROPN	np0000o	_	10	nsubj	10:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000031310044c2)
@@ -14078,8 +14078,8 @@
 12	estén	estar	AUX	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 13	contando	contar	VERB	vmg0000	VerbForm=Ger	8	ccomp	8:ccomp	ArgTem=arg1:pat
 14	verdades	verdad	NOUN	ncfp000	Gender=Fem|Number=Plur	13	nsubj	13:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTA2000041512000c12--1-gstype:gen
-15	a	a	ADP	rg	ExtPos=ADV	14	advmod	14:advmod	MWE=a_medias|MWEPOS=ADV
-16	medias	medias	NOUN	_	_	15	fixed	15:fixed	SpaceAfter=No
+15	a	a	ADP	rg	ExtPos=ADV	16	case	16:case	MWE=a_medias|MWEPOS=ADV
+16	medias	medias	NOUN	_	_	14	obl	14:obl	SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 18	que	que	PRON	pr0cn000	PronType=Rel	20	nsubj	20:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000041512000c12--1-CorefType:ident,gstype:gen)
 19	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
@@ -18330,8 +18330,8 @@
 12	republicanos	republicano	NOUN	ncmp000	Gender=Masc|Number=Plur	14	nsubj	14:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000111410376c4)
 13	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	obj	14:obj	_
 14	comprometen	comprometer	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	ArgTem=arg1:pat|Cxn=Conditional-NeutralEpistemic|CxnElt=14:Conditional-NeutralEpistemic.Apodosis@p
-15	a	a	ADP	rg	ExtPos=ADV	14	advmod	14:advmod	MWE=a_cambio|MWEPOS=ADV|ArgTem=argM:adv
-16	cambio	cambio	NOUN	_	_	15	fixed	15:fixed	_
+15	a	a	ADP	rg	ExtPos=ADV	16	case	16:case	MWE=a_cambio|MWEPOS=ADV|ArgTem=argM:adv
+16	cambio	cambio	NOUN	_	_	14	obl	14:obl	_
 17	a	a	ADP	sps00	_	18	mark	18:mark	_
 18	retirar	retirar	VERB	vmn0000	VerbForm=Inf	14	xcomp	14:xcomp	ArgTem=arg2:tem
 19	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	20:det	Entity=(CESSCASTA2000111410376c11--2-gstype:gen,HomoDD
@@ -18481,8 +18481,8 @@
 31	Florida	Florida	PROPN	np0000l	_	29	nmod	29:nmod	ArgTem=argM:loc|Entity=(CESSCASTA2000111410376c8-place-1-CorefType:ident,gstype:spec)CESSCASTA2000111410376c13)CESSCASTA2000111410376c12)
 32	y	y	CCONJ	cc	_	38	cc	38:cc	SpaceAfter=No
 33	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
-34	en	en	ADP	rg	ExtPos=ADV	38	advmod	38:advmod	MWE=en_consecuencia|MWEPOS=ADV
-35	consecuencia	consecuencia	NOUN	_	_	34	fixed	34:fixed	SpaceAfter=No
+34	en	en	ADP	rg	ExtPos=ADV	35	case	35:case	MWE=en_consecuencia|MWEPOS=ADV
+35	consecuencia	consecuencia	NOUN	_	_	38	obl	38:obl	SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
 37	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 38	nombre	nombre	NOUN	ncms000	Gender=Masc|Number=Sing	25	conj	25:conj	_
@@ -21687,8 +21687,8 @@
 2	Estados	Estados	PROPN	np00000	_	4	obl	4:obl	MWE=Estados_Unidos|MWEPOS=PROPN|ArgTem=arg2:loc|Entity=(CESSCASTAA200001094361c12-place-1-CorefType:ident,gstype:spec
 3	Unidos	Unidos	PROPN	_	_	2	flat	2:flat	Entity=CESSCASTAA200001094361c12)
 4	permanecerán	permanecer	VERB	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
-5	en	en	ADP	rg	ExtPos=ADV	4	advmod	4:advmod	MWE=en_principio|MWEPOS=ADV
-6	principio	principio	NOUN	_	_	5	fixed	5:fixed	SpaceAfter=No
+5	en	en	ADP	rg	ExtPos=ADV	6	case	6:case	MWE=en_principio|MWEPOS=ADV
+6	principio	principio	NOUN	_	_	4	obl	4:obl	SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 8	sin	sin	ADP	rg	ExtPos=ADV	4	advmod	4:advmod	MWE=sin_embargo|MWEPOS=ADV
 9	embargo	embargo	NOUN	_	Gender=Masc|Number=Sing	8	fixed	8:fixed	SpaceAfter=No
@@ -23666,8 +23666,8 @@
 6	mañana	mañana	ADV	rg	_	8	advmod	8:advmod	ArgTem=argM:tmp
 6.1	_	_	PRON	p	_	_	_	7:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000022420131c3-person-1-CorefType:ident,gstype:spec)
 7	estaré	estar	AUX	vmif1s0	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	8	cop	8:cop	_
-8	a	a	ADP	rg	_	2	conj	2:conj	MWE=a_tope|MWEPOS=ADV|ArgTem=arg2:atr
-9	tope	tope	NOUN	_	_	8	fixed	8:fixed	SpaceAfter=No
+8	a	a	ADP	rg	_	9	case	9:case	MWE=a_tope|MWEPOS=ADV|ArgTem=arg2:atr
+9	tope	tope	NOUN	_	_	2	conj	2:conj	SpaceAfter=No
 10	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
 
 # sent_id = CESS-CAST-AA-20000224-20131-s7C
@@ -27827,8 +27827,8 @@
 18	ya	ya	ADV	rg	_	20	advmod	20:advmod	ArgTem=argM:tmp
 19	habíamos	haber	AUX	vaii1p0	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	20	aux	20:aux	_
 20	dicho	decir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	10:conj	_
-21	de	de	ADP	rg	ExtPos=ADV	20	advmod	20:advmod	MWE=de_antemano|MWEPOS=ADV|ArgTem=argM:tmp
-22	antemano	antemano	NOUN	_	_	21	fixed	21:fixed	_
+21	de	de	ADP	rg	ExtPos=ADV	22	case	22:case	MWE=de_antemano|MWEPOS=ADV|ArgTem=argM:tmp
+22	antemano	antemano	NOUN	_	_	20	obl	20:obl	_
 23	que	que	SCONJ	cs	_	24	mark	24:mark	_
 23.1	_	_	PRON	p	_	_	_	24:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200003108396c2-organization-1-CorefType:ident,gstype:spec)
 24	dejaríamos	dejar	VERB	vmic1p0	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	20	ccomp	20:ccomp	ArgTem=arg1:pat|Cxn=Conditional-NeutralEpistemic|CxnElt=24:Conditional-NeutralEpistemic.Apodosis@p
@@ -28793,8 +28793,8 @@
 30	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
 31	pero	pero	CCONJ	cc	_	33	cc	33:cc	_
 32	medio	medio	ADV	rg	_	33	advmod	33:advmod	_
-33	de	de	ADP	rg	_	27	conj	27:conj	MWE=de_espaldas|MWEPOS=ADV|ArgTem=argM:adv
-34	espaldas	espaldas	NOUN	_	_	33	fixed	33:fixed	_
+33	de	de	ADP	rg	_	34	case	34:case	MWE=de_espaldas|MWEPOS=ADV|ArgTem=argM:adv
+34	espaldas	espaldas	NOUN	_	_	27	conj	27:conj	_
 35-36	al	_	_	_	_	_	_	_	_
 35	a	a	ADP	spcms	_	37	case	37:case	_
 36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	37:det	_
@@ -30459,8 +30459,8 @@
 46	que	que	PRON	pr0cn000	PronType=Rel	48	nsubj	48:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200006086438c8--1-CorefType:ident,gstype:gen)
 47	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	48:cop	_
 48	financiada	financiado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	38	conj	38:conj	ArgTem=arg2:atr
-49	en	en	ADP	rg	_	48	obl:arg	48:obl:arg	MWE=en_parte|MWEPOS=ADV
-50	parte	parte	NOUN	_	_	49	fixed	49:fixed	_
+49	en	en	ADP	rg	_	50	case	50:case	MWE=en_parte|MWEPOS=ADV
+50	parte	parte	NOUN	_	_	48	obl:arg	48:obl:arg	_
 51	por	por	ADP	sps00	_	49	case	49:case	_
 52	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	53:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 53	Junta	Junta	PROPN	np00000	_	49	nmod	49:nmod	MWE=Junta_de_Comunidades_de_Castilla-La_Mancha|MWEPOS=PROPN|ArgTem=arg0:agt
@@ -30555,8 +30555,8 @@
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
 8	Ejecutivo	Ejecutivo	PROPN	np00000	_	5	nmod	5:nmod	Entity=(CESSCASTAA200006086438c11-organization-1-CorefType:ident,gstype:spec)CESSCASTAA200006086438c5)CESSCASTAA200006086438c1)
 9	recorrió	recorrer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-10	a	a	ADP	rg	ExtPos=ADV	9	advmod	9:advmod	MWE=a_continuación|MWEPOS=ADV|ArgTem=argM:tmp
-11	continuación	continuación	NOUN	_	_	10	fixed	10:fixed	_
+10	a	a	ADP	rg	ExtPos=ADV	11	case	11:case	MWE=a_continuación|MWEPOS=ADV|ArgTem=argM:tmp
+11	continuación	continuación	NOUN	_	_	9	obl	9:obl	_
 12	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	14:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 13	principales	principal	ADJ	aq0cp0	Number=Plur	14	amod	14:amod	_
 14	calles	calle	NOUN	ncfp000	Gender=Fem|Number=Plur	9	obj	9:obj	ArgTem=arg1:ext
@@ -31646,8 +31646,8 @@
 # orig_file_sentence 009#8
 0.1	_	_	PRON	p	_	_	_	1:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200007106482c14--1-CorefType:ident,gstype:gen)
 1	Pidieron	pedir	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-2	a	a	ADP	rg	ExtPos=ADV	1	advmod	1:advmod	MWE=a_gritos|MWEPOS=ADV|ArgTem=argM:mnr
-3	gritos	gritos	NOUN	_	_	2	fixed	2:fixed	_
+2	a	a	ADP	rg	ExtPos=ADV	3	case	3:case	MWE=a_gritos|MWEPOS=ADV|ArgTem=argM:mnr
+3	gritos	gritos	NOUN	_	_	1	obl	1:obl	_
 4	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen
 5	diseñador	diseñador	NOUN	ncms000	Gender=Masc|Number=Sing	1	obj	1:obj	ArgTem=arg1:pat
 6	español	español	ADJ	aq0ms0	Gender=Masc|Number=Sing	5	amod	5:amod	_
@@ -31734,8 +31734,8 @@
 2	peor	peor	ADJ	aq0cs0	Degree=Cmp|Number=Sing	3	amod	3:amod	_
 3	actuación	actuación	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No
 4	:	:	PUNCT	fd	PunctType=Colo	5	punct	5:punct	_
-5	Sin	sin	ADP	sps00	_	3	appos	3:appos	MWE=Sin_duda|MWEPOS=ADP
-6	duda	duda	NOUN	_	_	5	fixed	5:fixed	_
+5	Sin	sin	ADP	sps00	_	6	case	6:case	MWE=Sin_duda|MWEPOS=ADP
+6	duda	duda	NOUN	_	_	3	appos	3:appos	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	_
 8	de	de	ADP	sps00	_	5	case	5:case	_
 9	Mark	Mark	PROPN	np00000	_	5	nmod	5:nmod	MWE=Mark_Roberts|MWEPOS=PROPN|Entity=(CESSCASTAA200007106482c16-person-1-gstype:spec
@@ -32072,8 +32072,8 @@
 2	mejor	mejor	ADJ	aq0cs0	Degree=Cmp|Number=Sing	3	amod	3:amod	_
 3	pedigrí	pedigrí	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
 4	:	:	PUNCT	fd	PunctType=Colo	5	punct	5:punct	_
-5	Sin	sin	ADP	rg	_	3	appos	3:appos	MWE=Sin_duda|MWEPOS=ADV
-6	duda	duda	NOUN	_	_	5	fixed	5:fixed	_
+5	Sin	sin	ADP	rg	_	6	case	6:case	MWE=Sin_duda|MWEPOS=ADV
+6	duda	duda	NOUN	_	_	3	appos	3:appos	_
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
 8	de	de	ADP	sps00	_	5	case	5:case	_
 9	Pete	Pete	PROPN	np00000	_	5	nmod	5:nmod	MWE=Pete_Sampras|MWEPOS=PROPN|Entity=(CESSCASTAA200007106482c21--1-CorefType:ident
@@ -34512,8 +34512,8 @@
 16	próximo	próximo	ADJ	aq0ms0	Gender=Masc|Number=Sing	17	amod	17:amod	_
 17	año	año	NOUN	ncms000	Gender=Masc|Number=Sing	4	obl	4:obl	ArgTem=argM:tmp|Entity=CESSCASTAA2000092824050c1)|SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
-19	en	en	ADP	rg	ExtPos=ADP	22	case	22:case	MWE=en_línea|MWEPOS=ADV|ArgTem=argM:adv
-20	línea	línea	NOUN	_	_	19	fixed	19:fixed	_
+19	en	en	ADP	rg	ExtPos=ADP	20	case	20:case	MWE=en_línea|MWEPOS=ADV|ArgTem=argM:adv
+20	línea	línea	NOUN	_	_	22	case	22:case	_
 21	con	con	ADP	sps00	_	22	case	22:case	_
 22	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	obl	4:obl	Entity=(NOCOREF:Gen--1-gstype:gen
 23-24	del	_	_	_	_	_	_	_	_
@@ -35832,8 +35832,8 @@
 16-17	imponerse	_	_	_	_	_	_	_	_
 16	imponer	imponer	VERB	vmn0000	VerbForm=Inf	5	advcl	5:advcl	ArgTem=argM:tmp
 17	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	expl:pv	16:expl:pv	_
-18	a	a	ADP	rg	ExtPos=ADV	16	advmod	16:advmod	MWE=a_domicilio|MWEPOS=ADV|ArgTem=argM:loc
-19	domicilio	domicilio	NOUN	_	_	18	fixed	18:fixed	_
+18	a	a	ADP	rg	ExtPos=ADV	19	case	19:case	MWE=a_domicilio|MWEPOS=ADV|ArgTem=argM:loc
+19	domicilio	domicilio	NOUN	_	_	16	obl	16:obl	_
 20	a	a	ADP	sps00	_	21	case	21:case	_
 21	Osasuna	Osasuna	PROPN	np00000	_	16	obj	16:obj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000102924092c7-organization-1-CorefType:ident,gstype:spec|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
@@ -35973,8 +35973,8 @@
 # orig_file_sentence 007#81
 1	Osasuna	Osasuna	PROPN	np00000	_	2	nsubj	2:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000102924092c7-organization-1-CorefType:ident,gstype:spec)
 2	salió	salir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-3	en	en	ADP	rg	ExtPos=ADV	2	advmod	2:advmod	MWE=en_tromba|MWEPOS=ADV|ArgTem=argM:mnr
-4	tromba	tromba	NOUN	_	_	3	fixed	3:fixed	_
+3	en	en	ADP	rg	ExtPos=ADV	4	case	4:case	MWE=en_tromba|MWEPOS=ADV|ArgTem=argM:mnr
+4	tromba	tromba	NOUN	_	_	2	obl	2:obl	_
 5	dispuesto	dispuesto	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	2	obj	2:obj	ArgTem=argM:atr
 6	a	a	ADP	sps00	_	7	mark	7:mark	_
 7	conseguir	conseguir	VERB	vmn0000	VerbForm=Inf	5	xcomp	5:xcomp	ArgTem=arg1:tem
@@ -36015,8 +36015,8 @@
 39	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
 40	que	que	PRON	pr0cn000	PronType=Rel	41	nsubj	41:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000102924092c14-number-1-CorefType:ident,gstype:spec)
 41	cogió	coger	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	acl:relcl	26:acl:relcl	_
-42	por	por	ADP	rg	ExtPos=ADV	41	advmod	41:advmod	MWE=por_sorpresa|MWEPOS=ADV|ArgTem=argM:adv
-43	sorpresa	sorpresa	NOUN	_	_	42	fixed	42:fixed	_
+42	por	por	ADP	rg	ExtPos=ADV	43	case	43:case	MWE=por_sorpresa|MWEPOS=ADV|ArgTem=argM:adv
+43	sorpresa	sorpresa	NOUN	_	_	41	obl	41:obl	_
 44	a	a	ADP	sps00	_	45	case	45:case	_
 45	Cañizares	Cañizares	PROPN	np00000	_	41	obj	41:obj	ArgTem=arg1:pat|Entity=(CESSCASTAA2000102924092c19-person-1-gstype:spec)CESSCASTAA2000102924092c14)|SpaceAfter=No
 46	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
@@ -36206,8 +36206,8 @@
 66	rebotar	rebotar	VERB	vmn0000	VerbForm=Inf	69	advcl	69:advcl	ArgTem=argM:tmp
 67	en	en	ADP	sps00	_	68	case	68:case	_
 68	Vidakovic	Vidakovic	PROPN	np00000	_	66	obl	66:obl	ArgTem=argM:loc|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)
-69	a	a	ADP	sps00	_	58	acl:relcl	58:acl:relcl	MWE=a_punto|MWEPOS=ADP|ArgTem=arg2:atr
-70	punto	punto	NOUN	_	_	69	fixed	69:fixed	_
+69	a	a	ADP	sps00	_	70	case	70:case	MWE=a_punto|MWEPOS=ADP|ArgTem=arg2:atr
+70	punto	punto	NOUN	_	_	58	acl:relcl	58:acl:relcl	_
 71	estuvo	estar	AUX	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	69	cop	69:cop	_
 72	de	de	ADP	sps00	_	73	mark	73:mark	_
 73-74	meterse	_	_	_	_	_	_	_	_
@@ -37924,8 +37924,8 @@
 22	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	Entity=CESSCASTAA200012074633c9)
 23	fueron	ser	AUX	vsis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	aux	24:aux	_
 24	dominados	dominar	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
-25	por	por	ADP	rg	ExtPos=ADV	24	advmod	24:advmod	MWE=por_completo|MWEPOS=ADV|ArgTem=argM:mnr
-26	completo	completo	NOUN	_	_	25	fixed	25:fixed	_
+25	por	por	ADP	rg	ExtPos=ADV	26	case	26:case	MWE=por_completo|MWEPOS=ADV|ArgTem=argM:mnr
+26	completo	completo	NOUN	_	_	24	obl	24:obl	_
 27	por	por	ADP	sps00	_	29	case	29:case	_
 28	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	29:det	Entity=(CESSCASTAA200012074633c7-organization-2-CorefType:ident,gstype:spec
 29	Warriors	Warriors	PROPN	np00000	_	24	obl:agent	24:obl:agent	ArgTem=arg0:agt|Entity=CESSCASTAA200012074633c7)
@@ -43318,8 +43318,8 @@
 5	no	no	ADV	rn	Polarity=Neg	6	advmod	6:advmod	_
 6	caen	caer	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj	SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
-8	por	por	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=por_supuesto|MWEPOS=ADV
-9	supuesto	supuesto	NOUN	_	_	8	fixed	8:fixed	SpaceAfter=No
+8	por	por	ADP	rg	ExtPos=ADV	9	case	9:case	MWE=por_supuesto|MWEPOS=ADV
+9	supuesto	supuesto	NOUN	_	_	6	obl	6:obl	SpaceAfter=No
 10	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
 
 # sent_id = CESS-CAST-P-19990602-19_a-s6
@@ -43803,8 +43803,8 @@
 14	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
 15	de	de	ADP	sps00	_	16	mark	16:mark	_
 16	conocer	conocer	VERB	vmn0000	VerbForm=Inf	8	conj	8:conj	_
-17	a	a	ADP	rg	ExtPos=ADV	16	advmod	16:advmod	MWE=a_fondo|MWEPOS=ADV|ArgTem=argM:mnr
-18	fondo	fondo	NOUN	_	_	17	fixed	17:fixed	_
+17	a	a	ADP	rg	ExtPos=ADV	18	case	18:case	MWE=a_fondo|MWEPOS=ADV|ArgTem=argM:mnr
+18	fondo	fondo	NOUN	_	_	16	obl	16:obl	_
 19	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	20:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 20	objetivos	objetivo	NOUN	ncmp000	Gender=Masc|Number=Plur	16	obj	16:obj	ArgTem=arg1:pat
 21	en	en	ADP	sps00	_	23	case	23:case	_
@@ -44856,8 +44856,8 @@
 9	debate	debate	NOUN	ncms000	Gender=Masc|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP1999090136c20)
 10	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	ArgTem=arg2:tem
 11	mejor	mejor	ADJ	aq0cs0	Degree=Cmp|Number=Sing	10	advmod	10:advmod	ArgTem=argM:mnr
-12	en	en	ADP	rg	ExtPos=ADV	11	advmod	11:advmod	MWE=en_privado|MWEPOS=ADV
-13	privado	privado	NOUN	_	_	12	fixed	12:fixed	_
+12	en	en	ADP	rg	ExtPos=ADV	13	case	13:case	MWE=en_privado|MWEPOS=ADV
+13	privado	privado	NOUN	_	_	11	obl	11:obl	_
 14	de	de	ADP	sps00	_	17	mark	17:mark	_
 15	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	17	det	17:det	Entity=(CESSCASTP1999090136c21--3-gstype:gen,Title
 16	que	que	PRON	pr0cn000	PronType=Rel	17	nsubj	17:nsubj	ArgTem=arg1:tem
@@ -46294,8 +46294,8 @@
 35	económica	económico	ADJ	aq0fs0	Gender=Fem|Number=Sing	34	amod	34:amod	ArgTem=arg1:tem|Entity=NOCOREF:Gen)NOCOREF:Gen)CESSCASTP1999090284c15)
 36	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	37	expl:pass	37:expl:pass	_
 37	dediquen	dedicar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	csubj	19:csubj	ArgTem=arg1:pat
-38	en	en	ADP	rg	ExtPos=ADV	37	advmod	37:advmod	MWE=en_parte|MWEPOS=ADV|ArgTem=argM:adv
-39	parte	parte	NOUN	_	_	38	fixed	38:fixed	_
+38	en	en	ADP	rg	ExtPos=ADV	39	case	39:case	MWE=en_parte|MWEPOS=ADV|ArgTem=argM:adv
+39	parte	parte	NOUN	_	_	37	obl	37:obl	_
 40	a	a	ADP	sps00	_	41	mark	41:mark	_
 41	hacer	hacer	VERB	vmn0000	VerbForm=Inf	37	xcomp	37:xcomp	ArgTem=arg2:tem
 42	justicia	justicia	NOUN	ncfs000	Gender=Fem|Number=Sing	41	obj	41:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen
@@ -49623,8 +49623,8 @@
 # sent_id = CESS-CAST-P-20000202-35_d-s6
 # text = De momento, el Ejército mantiene la calma.
 # orig_file_sentence 015#27
-1	De	de	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=De_momento|MWEPOS=ADV|ArgTem=argM:tmp
-2	momento	momento	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+1	De	de	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=De_momento|MWEPOS=ADV|ArgTem=argM:tmp
+2	momento	momento	NOUN	_	_	6	obl	6:obl	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCASTP2000020235_dc6-organization-2-CorefType:ident,gstype:spec
 5	Ejército	Ejército	PROPN	np00000	_	6	nsubj	6:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2000020235_dc6)
@@ -49853,8 +49853,8 @@
 4	los	él	PRON	pp3mpa00	Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	6	obj	6:obj	ArgTem=arg1:pat|Entity=(CESSCASTP20000301108_ac29--1-gstype:gen)
 5	han	haber	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 6	encontrado	encontrar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	ccomp	16:ccomp	_
-7	de	de	ADP	rg	_	6	obl:arg	6:obl:arg	MWE=de_frente|MWEPOS=ADV|ArgTem=argM:atr
-8	frente	frente	NOUN	_	_	7	fixed	7:fixed	_
+7	de	de	ADP	rg	_	8	case	8:case	MWE=de_frente|MWEPOS=ADV|ArgTem=argM:atr
+8	frente	frente	NOUN	_	_	6	obl:arg	6:obl:arg	_
 9	y	y	CCONJ	cc	_	11	cc	11:cc	_
 10	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 11	llegado	llegar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	6:conj	_
@@ -49924,8 +49924,8 @@
 13	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	15:det	_
 14	ser	ser	AUX	vsn0000	VerbForm=Inf	15	aux:pass	15:aux:pass	_
 15	embestido	embestir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	3:advcl	ArgTem=argM:cau
-16	de	de	ADP	rg	ExtPos=ADV	15	advmod	15:advmod	MWE=de_frente|MWEPOS=ADV|ArgTem=argM:mnr
-17	frente	frente	NOUN	_	_	16	fixed	16:fixed	_
+16	de	de	ADP	rg	ExtPos=ADV	17	case	17:case	MWE=de_frente|MWEPOS=ADV|ArgTem=argM:mnr
+17	frente	frente	NOUN	_	_	15	obl	15:obl	_
 18	por	por	ADP	sps00	_	20	case	20:case	_
 19	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	Entity=(CESSCASTP20000301108_ac14--2-gstype:gen
 20	camión	camión	NOUN	ncms000	Gender=Masc|Number=Sing	15	obl:agent	15:obl:agent	ArgTem=arg0:agt
@@ -50740,8 +50740,8 @@
 9	Prat	Prat	PROPN	_	_	4	obl	4:obl	Entity=CESSCASTP2000040186c6)
 10	sin	sin	ADP	sps00	_	11	mark	11:mark	_
 11	conocer	conocer	VERB	vmn0000	VerbForm=Inf	4	advcl	4:advcl	ArgTem=argM:adv
-12	de	de	ADP	rg	ExtPos=ADV	11	advmod	11:advmod	MWE=de_antemano|MWEPOS=ADV|ArgTem=argM:tmp
-13	antemano	antemano	NOUN	_	_	12	fixed	12:fixed	_
+12	de	de	ADP	rg	ExtPos=ADV	13	case	13:case	MWE=de_antemano|MWEPOS=ADV|ArgTem=argM:tmp
+13	antemano	antemano	NOUN	_	_	11	obl	11:obl	_
 14	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCASTP2000040186c8--2-gstype:gen,HomoDD
 15	terminal	terminal	NOUN	nccs000	Number=Sing	11	obj	11:obj	ArgTem=arg1:pat
 16	desde	desde	ADP	sps00	_	18	case	18:case	_
@@ -51712,8 +51712,8 @@
 32	abstractos	abstracto	ADJ	aq0mp0	Gender=Masc|Number=Plur	31	amod	31:amod	_
 33	y	y	CCONJ	cc	_	34	cc	34:cc	_
 34	emociones	emoción	NOUN	ncfp000	Gender=Fem|Number=Plur	31	conj	31:conj	_
-35	a	a	ADP	rg	ExtPos=ADV	34	advmod	34:advmod	MWE=a_contrapié|MWEPOS=ADV
-36	contrapié	contrapié	NOUN	_	_	35	fixed	35:fixed	Entity=CESSCASTP20000502103c14)|SpaceAfter=No
+35	a	a	ADP	rg	ExtPos=ADV	36	case	36:case	MWE=a_contrapié|MWEPOS=ADV
+36	contrapié	contrapié	NOUN	_	_	34	obl	34:obl	Entity=CESSCASTP20000502103c14)|SpaceAfter=No
 37	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
 
 # global.Entity = eid-etype-head-other
@@ -52707,8 +52707,8 @@
 26	sino	sino	CCONJ	cc	_	0	root	0:root	MWE=sino_también|MWEPOS=CCONJ
 27	también	también	NOUN	_	_	26	fixed	26:fixed	SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
-29	por	por	ADP	rg	ExtPos=ADV	33	advmod	33:advmod	MWE=por_ejemplo|MWEPOS=ADV
-30	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	29	fixed	29:fixed	SpaceAfter=No
+29	por	por	ADP	rg	ExtPos=ADV	30	case	30:case	MWE=por_ejemplo|MWEPOS=ADV
+30	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	33	obl	33:obl	SpaceAfter=No
 31	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
 32	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	33:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 33	medidas	medida	NOUN	ncfp000	Gender=Fem|Number=Plur	26	parataxis	26:parataxis	_
@@ -53843,8 +53843,8 @@
 6	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	Entity=(CESSCASTP2000080226c22-organization-2-CorefType:ident,gstype:spec
 7	Gobierno	Gobierno	PROPN	np00000	_	2	nmod	2:nmod	Entity=CESSCASTP2000080226c22)NOCOREF:Gen)
 8	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
-9	en	en	ADP	rg	_	0	root	0:root	MWE=en_suspenso|MWEPOS=ADV|ArgTem=arg2:atr
-10	suspenso	suspenso	NOUN	_	_	9	fixed	9:fixed	_
+9	en	en	ADP	rg	_	10	case	10:case	MWE=en_suspenso|MWEPOS=ADV|ArgTem=arg2:atr
+10	suspenso	suspenso	NOUN	_	_	0	root	0:root	_
 11	hasta	hasta	ADP	sps00	_	13	case	13:case	_
 12	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 13	vuelta	vuelta	NOUN	ncfs000	Gender=Fem|Number=Sing	9	obl	9:obl	ArgTem=argM:tmp
@@ -54249,8 +54249,8 @@
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	21:det	_
 21	Barça	Barça	PROPN	np00000	_	18	nmod	18:nmod	Entity=(CESSCASTP2000080294c16-organization-1-CorefType:ident,gstype:spec)CESSCASTP2000080294c2)
 22	fiche	fichar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	csubj	14:csubj	ArgTem=arg1:tem
-23	de	de	ADP	rg	ExtPos=ADV	22	advmod	22:advmod	MWE=de_repente|MWEPOS=ADV|ArgTem=argM:tmp
-24	repente	repente	NOUN	_	_	23	fixed	23:fixed	_
+23	de	de	ADP	rg	ExtPos=ADV	24	case	24:case	MWE=de_repente|MWEPOS=ADV|ArgTem=argM:tmp
+24	repente	repente	NOUN	_	_	22	obl	22:obl	_
 25	por	por	ADP	sps00	_	27	case	27:case	_
 26	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	Entity=(CESSCASTP2000080294c4-organization-2-CorefType:ident,gstype:spec
 27	Madrid	Madrid	PROPN	np00000	_	22	obl	22:obl	ArgTem=argM:adv|Entity=CESSCASTP2000080294c4)|SpaceAfter=No
@@ -54307,8 +54307,8 @@
 1	Cuando	cuando	SCONJ	cs	_	4	mark	4:mark	_
 2	todos	todo	PRON	pi0mp000	Gender=Masc|Number=Plur|PronType=Tot	4	nsubj	4:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2000080294c17--1-CorefType:ident,gstype:gen)
 3	estemos	estar	AUX	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	4:cop	ArgTem=argM:tmp
-4	en	en	ADP	rg	_	9	advcl	9:advcl	MWE=en_forma|MWEPOS=ADV|ArgTem=arg2:atr
-5	forma	forma	NOUN	_	_	4	fixed	4:fixed	SpaceAfter=No
+4	en	en	ADP	rg	_	5	case	5:case	MWE=en_forma|MWEPOS=ADV|ArgTem=arg2:atr
+5	forma	forma	NOUN	_	_	9	advcl	9:advcl	SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 8	entrenador	entrenador	NOUN	ncms000	Gender=Masc|Number=Sing	9	nsubj	9:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
@@ -54625,8 +54625,8 @@
 # orig_file_sentence 013#88
 1	Si	si	SCONJ	cs	ExtPos=SCONJ	5	mark	5:mark	MWE=Si_bien|MWEPOS=SCONJ
 2	bien	bien	ADV	_	_	1	fixed	1:fixed	_
-3	a	a	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=a_continuación|MWEPOS=ADV|ArgTem=argM:tmp
-4	continuación	continuación	NOUN	_	_	3	fixed	3:fixed	_
+3	a	a	ADP	rg	ExtPos=ADV	4	case	4:case	MWE=a_continuación|MWEPOS=ADV|ArgTem=argM:tmp
+4	continuación	continuación	NOUN	_	_	5	obl	5:obl	_
 4.1	_	_	PRON	p	_	_	_	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000100123c8-person-1-CorefType:ident,gstype:spec)
 5	admitía	admitir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
 6	que	que	SCONJ	cs	_	26	mark	26:mark	_
@@ -55257,8 +55257,8 @@
 16	-	-	PUNCT	fg	PunctType=Dash	15	punct	15:punct	_
 17	-	-	PUNCT	fg	PunctType=Dash	15	punct	15:punct	Entity=NOCOREF:Spec.organization)
 18	solicitó	solicitar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	8:ccomp	ArgTem=arg1:pat
-19	en	en	ADP	rg	ExtPos=ADV	18	advmod	18:advmod	MWE=en_vano|MWEPOS=ADV|ArgTem=argM:adv
-20	vano	vano	NOUN	_	_	19	fixed	19:fixed	_
+19	en	en	ADP	rg	ExtPos=ADV	20	case	20:case	MWE=en_vano|MWEPOS=ADV|ArgTem=argM:adv
+20	vano	vano	NOUN	_	_	18	obl	18:obl	_
 21	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 22	presencia	presencia	NOUN	ncfs000	Gender=Fem|Number=Sing	18	obj	18:obj	ArgTem=arg1:pat
 23	de	de	ADP	sps00	_	25	case	25:case	_
@@ -56392,8 +56392,8 @@
 # text = Y de paso, de cómo ha funcionado la regulación de los mercados liberalizados donde operan esas compañías.
 # orig_file_sentence 011#84
 1	Y	y	CCONJ	cc	_	2	cc	2:cc	_
-2	de	de	ADP	rg	_	0	root	0:root	MWE=de_paso|MWEPOS=ADV
-3	paso	paso	NOUN	_	_	2	fixed	2:fixed	SpaceAfter=No
+2	de	de	ADP	rg	_	3	case	3:case	MWE=de_paso|MWEPOS=ADV
+3	paso	paso	NOUN	_	_	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 5	de	de	ADP	sps00	_	2	case	2:case	_
 6	cómo	cómo	PRON	pt000000	PronType=Ind	8	obl	8:obl	ArgTem=argM:mnr
@@ -56841,8 +56841,8 @@
 3	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	ayudado	ayudar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
-6	por	por	ADP	rg	ExtPos=ADV	4	advmod	4:advmod	MWE=por_supuesto|MWEPOS=ADV
-7	supuesto	supuesto	NOUN	_	_	6	fixed	6:fixed	SpaceAfter=No
+6	por	por	ADP	rg	ExtPos=ADV	7	case	7:case	MWE=por_supuesto|MWEPOS=ADV
+7	supuesto	supuesto	NOUN	_	_	4	obl	4:obl	SpaceAfter=No
 8	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
 # sent_id = CESS-CAST-P-20010302-144-s9
@@ -59329,8 +59329,8 @@
 17	ayuntamiento	ayuntamiento	NOUN	ncms000	Gender=Masc|Number=Sing	19	nsubj	19:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP20011202118c10)
 18	la	él	PRON	pp3fsa00	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	19	obj	19:obj	ArgTem=arg1:pat|Entity=(CESSCASTP20011202118c4--1-CorefType:ident,gstype:gen)
 19	repondría	reponer	VERB	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	14	ccomp	14:ccomp	ArgTem=arg1:pat
-20	de	de	ADP	rg	ExtPos=ADV	19	advmod	19:advmod	MWE=de_inmediato|MWEPOS=ADV|ArgTem=argM:tmp
-21	inmediato	inmediato	NOUN	_	_	20	fixed	20:fixed	_
+20	de	de	ADP	rg	ExtPos=ADV	21	case	21:case	MWE=de_inmediato|MWEPOS=ADV|ArgTem=argM:tmp
+21	inmediato	inmediato	NOUN	_	_	19	obl	19:obl	_
 21.1	_	_	PRON	p	_	_	_	22:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20011202118c1-person-1-CorefType:ident,gstype:spec)
 22	volvió	volver	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj	_
 23	a	a	ADP	sps00	_	24	mark	24:mark	_
@@ -59620,8 +59620,8 @@
 # text = "Por fin alguien con sensibilidad se ha preocupado de que el monumento a Seguí quede como él se merece", dice.
 # orig_file_sentence 011#9
 1	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	SpaceAfter=No
-2	Por	por	ADP	rg	ExtPos=ADV	9	advmod	9:advmod	MWE=Por_fin|MWEPOS=ADV|ArgTem=argM:tmp
-3	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	2	fixed	2:fixed	_
+2	Por	por	ADP	rg	ExtPos=ADV	3	case	3:case	MWE=Por_fin|MWEPOS=ADV|ArgTem=argM:tmp
+3	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	9	obl	9:obl	_
 4	alguien	alguien	PRON	pi0cs000	Number=Sing|PronType=Ind	9	nsubj	9:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen
 5	con	con	ADP	sps00	_	6	case	6:case	_
 6	sensibilidad	sensibilidad	NOUN	ncfs000	Gender=Fem|Number=Sing	4	nmod	4:nmod	Entity=NOCOREF:Gen)
@@ -61173,8 +61173,8 @@
 20	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	det	21:det	_
 21	descubrir	descubrir	VERB	vmn0000	VerbForm=Inf	3	advcl	3:advcl	ArgTem=argM:tmp|Entity=(CESSCASTP2002030199c20--1|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
-23	por	por	ADP	rg	ExtPos=ADV	21	advmod	21:advmod	MWE=por_casualidad|MWEPOS=ADV|ArgTem=argM:mnr
-24	casualidad	casualidad	NOUN	_	_	23	fixed	23:fixed	SpaceAfter=No
+23	por	por	ADP	rg	ExtPos=ADV	24	case	24:case	MWE=por_casualidad|MWEPOS=ADV|ArgTem=argM:mnr
+24	casualidad	casualidad	NOUN	_	_	21	obl	21:obl	SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 26	material	material	NOUN	ncms000	Gender=Masc|Number=Sing	21	obj	21:obj	ArgTem=arg1:pat|Entity=(CESSCASTP2002030199c4--1
 27	médico	médico	ADJ	aq0ms0	Gender=Masc|Number=Sing	26	amod	26:amod	_
