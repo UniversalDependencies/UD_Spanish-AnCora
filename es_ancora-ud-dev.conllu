@@ -12083,7 +12083,7 @@
 32	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	33:det	Entity=(CESSCASTA2000031713968c10--2-CorefType:ident,gstype:gen,HomoDD
 33	presión	presión	NOUN	ncfs000	Gender=Fem|Number=Sing	30	nmod	30:nmod	ArgTem=arg1:tem
 34	fiscal	fiscal	ADJ	aq0cs0	Number=Sing	33	amod	33:amod	ArgTem=arg0:agt|Entity=CESSCASTA2000031713968c10)CESSCASTA2000031713968c4)CESSCASTA2000031713968c34)
-35	"	"	PUNCT	fe	PunctType=Quot	40	punct	40:punct	SpaceAfter=No
+35	"	"	PUNCT	fe	PunctType=Quot	37	punct	37:punct	SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	37	punct	37:punct	_
 37	afirma	afirmar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 38	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
@@ -17485,7 +17485,7 @@
 6	-	-	PUNCT	fg	PunctType=Dash	1	punct	1:punct	_
 7	-	-	PUNCT	fg	PunctType=Dash	1	punct	1:punct	_
 8	-	-	PUNCT	fg	PunctType=Dash	1	punct	1:punct	_
-9	-	-	PUNCT	fg	PunctType=Dash	1	punct	1:punct	_
+9	-	-	PUNCT	fg	PunctType=Dash	11	punct	11:punct	_
 10	-	-	PUNCT	fg	PunctType=Dash	11	punct	11:punct	_
 11	13	13	NUM	_	NumForm=Digit|NumType=Card	1	appos	1:appos	Entity=(NOCOREF:Spec.number-number-1-gstype:spec)|SpaceAfter=No
 12	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
@@ -43613,7 +43613,7 @@
 42	a	a	ADP	sps00	_	44	case	44:case	_
 43	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	44:det	Entity=(CESSCASTP1999110132c67--2-gstype:gen,HomoDD
 44	integristas	integrista	NOUN	nccp000	Number=Plur	39	obl:arg	39:obl:arg	ArgTem=arg2:ben|Entity=CESSCASTP1999110132c67)CESSCASTP1999110132c31)NOCOREF:Gen)|SpaceAfter=No
-45	"	"	PUNCT	fe	PunctType=Quot	8	punct	8:punct	SpaceAfter=No
+45	"	"	PUNCT	fe	PunctType=Quot	6	punct	6:punct	SpaceAfter=No
 46	,	,	PUNCT	fc	PunctType=Comm	47	punct	47:punct	_
 47	afirma	afirmar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	xcomp	6:xcomp	_
 48	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	49:det	Entity=(CESSCASTP1999110132c32--2-gstype:gen
@@ -46667,12 +46667,12 @@
 # sent_id = CESS-CAST-P-20000202-135-s44
 # text = - - ¿Y qué hay de los nuevos cracks del mercado español, como Jarabe de Palo y La Oreja de Van Gogh? - -.
 # orig_file_sentence 011#62
-1	-	-	PUNCT	fg	PunctType=Dash	0	root	0:root	_
+1	-	-	PUNCT	fg	PunctType=Dash	6	punct	6:punct	_
 2	-	-	PUNCT	fg	PunctType=Dash	6	punct	6:punct	_
 3	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	6	punct	6:punct	SpaceAfter=No
 4	Y	y	CCONJ	cc	_	6	cc	6:cc	_
 5	qué	qué	PRON	pt0cs000	Number=Sing|PronType=Int	6	obj	6:obj	ArgTem=arg1:tem
-6	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	3:conj	_
+6	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7	de	de	ADP	sps00	_	10	case	10:case	_
 8	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	10:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 9	nuevos	nuevo	ADJ	aq0mp0	Gender=Masc|Number=Plur	10	amod	10:amod	_
