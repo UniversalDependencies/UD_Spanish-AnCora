@@ -38190,7 +38190,7 @@
 36	de	de	ADP	sps00	_	38	case	38:case	_
 37	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	38:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 38	Juegos	Juegos	PROPN	np00000	_	35	nmod	35:nmod	MWE=Juegos_Olímpicos|MWEPOS=PROPN|ArgTem=arg1:tem
-39	Olímpicos	Olímpicos	PROPN	_	_	38	flat	38:flat	Entity=NOCOREF:Spec.other)
+39	Olímpicos	olímpico	ADJ	aq0mp0	Gender=Masc|Number=Plur	38	flat	38:flat	Entity=NOCOREF:Spec.other)
 40	en	en	ADP	sps00	_	41	case	41:case	_
 41	boca	boca	NOUN	ncfs000	Gender=Fem|Number=Sing	35	nmod	35:nmod	_
 42-43	del	_	_	_	_	_	_	_	_
@@ -58981,7 +58981,7 @@
 16	de	de	ADP	sps00	_	18	case	18:case	_
 17	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	18:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 18	Juegos	Juegos	PROPN	np00000	_	14	conj	14:conj	MWE=Juegos_Olímpicos|MWEPOS=PROPN
-19	Olímpicos	Olímpicos	PROPN	_	_	18	flat	18:flat	_
+19	Olímpicos	olímpico	ADJ	aq0mp0	Gender=Masc|Number=Plur	18	flat	18:flat	_
 20	de	de	ADP	sps00	_	21	case	21:case	_
 21	1992	1992	NOUN	_	_	18	nmod	18:nmod	Entity=(NOCOREF:Spec.date-time-1-gstype:spec)NOCOREF:Spec.other)NOCOREF:Gen)CESSCASTP2001120266c3)
 22	cambiará	cambiar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_

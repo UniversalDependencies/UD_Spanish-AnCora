@@ -13852,7 +13852,7 @@
 31	Mundiales	Mundiales	PROPN	np0000a	_	38	obl	38:obl	ArgTem=argM:tmp
 32	y	y	CCONJ	cc	_	33	cc	33:cc	_
 33	Juegos	Juegos	PROPN	np0000a	_	31	conj	31:conj	MWE=Juegos_Olímpicos|MWEPOS=PROPN
-34	Olímpicos	Olímpicos	PROPN	_	_	33	flat	33:flat	Entity=NOCOREF:Gen)
+34	Olímpicos	olímpico	ADJ	aq0mp0	Gender=Masc|Number=Plur	33	flat	33:flat	Entity=NOCOREF:Gen)
 34.1	_	_	PRON	p	_	_	_	38:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTA200004031508c6--1-CorefType:ident,gstype:gen)
 35	siempre	siempre	ADV	rg	_	38	advmod	38:advmod	ArgTem=argM:tmp
 36	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	38	expl:pass	38:expl:pass	_
@@ -15596,7 +15596,7 @@
 19	porque	porque	SCONJ	cs	_	25	mark	25:mark	_
 20	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	21:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 21	Juegos	Juegos	PROPN	np0000a	_	25	nsubj	25:nsubj	MWE=Juegos_Olímpicos|MWEPOS=PROPN|ArgTem=arg1:tem
-22	Olímpicos	Olímpicos	PROPN	_	_	21	flat	21:flat	Entity=NOCOREF:Spec.other)
+22	Olímpicos	olímpico	ADJ	aq0mp0	Gender=Masc|Number=Plur	21	flat	21:flat	Entity=NOCOREF:Spec.other)
 23	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	25:cop	ArgTem=argM:cau
 24	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	_
 25	deporte	deporte	NOUN	ncms000	Gender=Masc|Number=Sing	15	advcl	15:advcl	ArgTem=arg2:atr
@@ -21045,7 +21045,7 @@
 # orig_file_sentence 005#97
 1	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	Entity=(CESSCASTA2000122317865c31-other-2-gstype:spec
 2	juegos	juegos	PROPN	np0000a	_	21	nsubj	21:nsubj	MWE=juegos_Olímpicos|MWEPOS=PROPN|ArgTem=arg1:tem
-3	Olímpicos	Olímpicos	PROPN	_	_	2	flat	2:flat	_
+3	Olímpicos	olímpico	ADJ	aq0mp0	Gender=Masc|Number=Plur	2	flat	2:flat	_
 4	de	de	ADP	sps00	_	5	case	5:case	_
 5	Sydney	Sydney	PROPN	np0000l	_	2	nmod	2:nmod	Entity=(CESSCASTA2000122317865c35-place-1-gstype:spec)|SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
@@ -40243,7 +40243,7 @@
 56	de	de	ADP	spcms	_	58	case	58:case	_
 57	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	58:det	_
 58	Comité	Comité	PROPN	np00000	_	55	nmod	55:nmod	MWE=Comité_Olímpico_Internacional|MWEPOS=PROPN|Entity=(CESSCASTP19990202123c3-organization-1-gstype:spec
-59	Olímpico	Olímpico	PROPN	_	_	58	flat	58:flat	_
+59	Olímpico	olímpico	ADJ	aq0ms0	Gender=Masc|Number=Sing	58	flat	58:flat	_
 60	Internacional	Internacional	PROPN	_	_	58	flat	58:flat	_
 61	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	62	punct	62:punct	Entity=(CESSCASTP19990202123c3-organization-2-CorefType:pred.definit,gstype:spec|SpaceAfter=No
 62	COI	COI	PROPN	np00000	_	58	flat	58:flat	SpaceAfter=No
@@ -40291,7 +40291,7 @@
 11	a	a	ADP	sps00	_	13	case	13:case	_
 12	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	13:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 13	Juegos	juegos	PROPN	np00000	_	10	nmod	10:nmod	MWE=Juegos_Olímpicos|MWEPOS=PROPN
-14	Olímpicos	olímpicos	PROPN	_	_	13	flat	13:flat	_
+14	Olímpicos	olímpico	ADJ	aq0mp0	Gender=Masc|Number=Plur	13	flat	13:flat	_
 15	de	de	ADP	sps00	_	16	case	16:case	_
 16	1996	1996	NOUN	_	_	13	nmod	13:nmod	SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
@@ -40352,7 +40352,7 @@
 5	de	de	ADP	spcms	_	7	case	7:case	_
 6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
 7	Comité	Comité	PROPN	np00000	_	4	nmod	4:nmod	MWE=Comité_Olímpico_Australiano|MWEPOS=PROPN|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
-8	Olímpico	Olímpico	PROPN	_	_	7	flat	7:flat	_
+8	Olímpico	olímpico	ADJ	aq0ms0	Gender=Masc|Number=Sing	7	flat	7:flat	_
 9	Australiano	Australiano	PROPN	_	_	7	flat	7:flat	Entity=NOCOREF:Spec.organization)|SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	Entity=CESSCASTP19990202123c7)CESSCASTP19990202123c7)
 11	reconoció	reconocer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -40581,7 +40581,7 @@
 39	en	en	ADP	sps00	_	41	case	41:case	_
 40	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	41:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
 41	Estadio	Estadio	PROPN	np00000	_	38	obl	38:obl	MWE=Estadio_Olímpico|MWEPOS=PROPN|ArgTem=argM:loc
-42	Olímpico	Olímpico	PROPN	_	_	41	flat	41:flat	Entity=NOCOREF:Spec.location)NOCOREF:Gen)
+42	Olímpico	olímpico	ADJ	aq0ms0	Gender=Masc|Number=Sing	41	flat	41:flat	Entity=NOCOREF:Spec.location)NOCOREF:Gen)
 43	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	44	punct	44:punct	Entity=(NOCOREF:Spec.number-number-2-gstype:spec|SpaceAfter=No
 44	4-2	4-2	NUM	_	NumForm=Digit|NumType=Card	26	appos	26:appos	SpaceAfter=No
 45	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	44	punct	44:punct	Entity=NOCOREF:Spec.number)NOCOREF:Gen)|SpaceAfter=No
@@ -61513,7 +61513,7 @@
 16	en	en	ADP	sps00	_	18	case	18:case	_
 17	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
 18	Villa	Villa	PROPN	np00000	_	15	obl	15:obl	MWE=Villa_Olímpica_de_Barcelona|MWEPOS=PROPN|ArgTem=argM:loc
-19	Olímpica	Olímpica	PROPN	_	_	18	flat	18:flat	_
+19	Olímpica	olímpico	ADJ	aq0fs0	Gender=Fem|Number=Sing	18	flat	18:flat	_
 20	de	de	ADP	_	_	21	case	21:case	_
 21	Barcelona	Barcelona	PROPN	_	_	18	flat	18:flat	Entity=NOCOREF:Spec.location)
 22	y	y	CCONJ	cc	_	23	cc	23:cc	_
