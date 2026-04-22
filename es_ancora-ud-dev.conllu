@@ -19436,7 +19436,7 @@
 43	defensa	defensa	NOUN	nccs000	Number=Sing	41	nmod	41:nmod	_
 44	contra	contra	ADP	sps00	_	45	case	45:case	_
 45	misiles	misil	NOUN	ncmp000	Gender=Masc|Number=Plur	43	nmod	43:nmod	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--1-gstype:gen
-46	tierra-tierra	tierra-tierra	ADJ	_	_	45	amod	45:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
+46	tierra-tierra	tierra-tierra	NOUN	ncms000	Gender=Fem|Number=Sing	45	compound	45:compound	Entity=NOCOREF:Gen)|SpaceAfter=No
 47	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
 48	y	y	CCONJ	cc	_	54	cc	54:cc	_
 49	medios	medio	NOUN	ncmp000	Gender=Masc|Number=Plur	27	appos	27:appos	Entity=(NOCOREF:Gen--1-gstype:gen
