@@ -18952,7 +18952,7 @@
 10	profesional	profesional	ADJ	aq0cs0	Number=Sing	6	amod	6:amod	_
 11	de	de	ADP	sps00	_	13	case	13:case	_
 12	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	13:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
-13	Grandes	Grandes	PROPN	np0000a	_	6	nmod	6:nmod	MWE=Grandes_Ligas|MWEPOS=PROPN
+13	Grandes	grande	ADJ	aq0cp0	Number=Plur	6	nmod	6:nmod	MWE=Grandes_Ligas|MWEPOS=PROPN
 14	Ligas	Ligas	PROPN	_	_	13	flat	13:flat	Entity=NOCOREF:Spec.other)NOCOREF:Spec.other)NOCOREF:Gen)|SpaceAfter=No
 15	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
 
@@ -27720,7 +27720,7 @@
 32	semana	semana	NOUN	ncfs000	Gender=Fem|Number=Sing	30	nmod	30:nmod	Entity=NOCOREF:Gen)
 33	en	en	ADP	sps00	_	35	case	35:case	_
 34	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	35:det	Entity=(CESSCASTAA2000062923978c2-other-2-gstype:spec
-35	Gran	Gran	ADJ	np00000	_	28	obl	28:obl	MWE=Gran_Premio_de_Francia|MWEPOS=PROPN|ArgTem=argM:loc
+35	Gran	gran	ADJ	aq0cs0	Number=Sing	28	obl	28:obl	MWE=Gran_Premio_de_Francia|MWEPOS=PROPN|ArgTem=argM:loc
 36	Premio	Premio	PROPN	_	_	35	flat	35:flat	_
 37	de	de	ADP	_	_	38	case	38:case	_
 38	Francia	Francia	PROPN	_	_	35	flat	35:flat	SpaceAfter=No
@@ -27990,7 +27990,7 @@
 9	Supertec	Supertec	PROPN	_	_	7	flat	7:flat	SpaceAfter=No
 10	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	7	punct	7:punct	Entity=CESSCASTAA2000062923978c38)CESSCASTAA2000062923978c14)
 11	este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	12	det	12:det	Entity=(CESSCASTAA2000062923978c2-other-2-CorefType:ident,gstype:spec
-12	Gran	Gran	ADJ	np00000	_	16	nsubj	16:nsubj	MWE=Gran_Premio_de_Francia|MWEPOS=PROPN|ArgTem=arg1:tem
+12	Gran	gran	ADJ	aq0cs0	Number=Sing	16	nsubj	16:nsubj	MWE=Gran_Premio_de_Francia|MWEPOS=PROPN|ArgTem=arg1:tem
 13	Premio	Premio	PROPN	_	_	12	flat	12:flat	_
 14	de	de	ADP	_	_	15	case	15:case	_
 15	Francia	Francia	PROPN	_	_	12	flat	12:flat	Entity=CESSCASTAA2000062923978c2)
@@ -28224,7 +28224,7 @@
 21	espectacular	espectacular	ADJ	aq0cs0	Number=Sing	19	conj	19:conj	_
 22	como	como	SCONJ	cs	_	24	mark	24:mark	_
 23	en	en	ADP	sps00	_	24	case	24:case	_
-24	Grandes	Grandes	PROPN	np00000	_	19	obl	19:obl	MWE=Grandes_Premios|MWEPOS=PROPN|Entity=(CESSCASTAA2000062923978c26--1-gstype:gen
+24	Grandes	grande	ADJ	aq0cp0	Number=Plur	19	obl	19:obl	MWE=Grandes_Premios|MWEPOS=PROPN|Entity=(CESSCASTAA2000062923978c26--1-gstype:gen
 25	Premios	Premios	PROPN	_	_	24	flat	24:flat	_
 26	anteriores	anterior	ADJ	aq0cp0	Number=Plur	24	amod	24:amod	SpaceAfter=No
 27	,	,	PUNCT	fc	PunctType=Comm	36	punct	36:punct	_
