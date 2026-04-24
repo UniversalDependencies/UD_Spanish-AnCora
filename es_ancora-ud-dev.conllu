@@ -16958,7 +16958,7 @@
 25	a	a	ADP	spcms	_	27	mark	27:mark	_
 26	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	27	det	27:det	_
 27	acabar	acabar	VERB	vmn0000	VerbForm=Inf	11	advcl	11:advcl	ArgTem=argM:cau|Entity=(CESSCASTA2000061814736c6--1
-28	tercero	tercero	NOUN	ncms000	Gender=Masc|Number=Sing	27	obj	27:obj	ArgTem=arg2:atr
+28	tercero	tercero	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	27	obj	27:obj	ArgTem=arg2:atr
 29	en	en	ADP	sps00	_	32	case	32:case	_
 30	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	32:det	Entity=(CESSCASTA2000061814736c7--3-gstype:gen,HomoDD
 31	séptima	séptimo	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	32	amod	32:amod	_
