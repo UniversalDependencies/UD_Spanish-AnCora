@@ -30744,7 +30744,7 @@
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
 5	equipo	equipo	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	Entity=(CESSCASTAA2000092723199c3-organization-1-gstype:spec
 6	de	de	ADP	sps00	_	7	case	7:case	_
-7	Primera	Primera	PROPN	np00000	_	5	nmod	5:nmod	MWE=Primera_División|MWEPOS=PROPN|Entity=(NOCOREF:Spec.other-other-1-gstype:spec
+7	Primera	primero	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	5	nmod	5:nmod	MWE=Primera_División|MWEPOS=PROPN|Entity=(NOCOREF:Spec.other-other-1-gstype:spec
 8	División	División	PROPN	_	_	7	flat	7:flat	Entity=NOCOREF:Spec.other)
 9	de	de	ADP	sps00	_	10	case	10:case	_
 10	fútbol	fútbol	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	5:nmod	_
