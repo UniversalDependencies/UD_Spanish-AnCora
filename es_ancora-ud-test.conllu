@@ -29616,7 +29616,7 @@
 14	de	de	ADP	sps00	_	16	case	16:case	_
 15	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	16:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec(CESSCASTAA2000042820809c2-organization-1-CorefType:ident,gstype:spec)
 16	Obra	Obra	PROPN	np00000	_	13	nmod	13:nmod	MWE=Obra_Social_y_Cultural|MWEPOS=PROPN
-17	Social	Social	PROPN	_	_	16	flat	16:flat	_
+17	Social	social	ADJ	aq0cs0	Number=Sing	16	flat	16:flat	_
 18	y	y	CCONJ	_	_	19	cc	19:cc	_
 19	Cultural	Cultural	PROPN	_	_	16	conj	16:conj	Entity=NOCOREF:Spec.other)NOCOREF:Spec.other)
 20	y	y	CCONJ	cc	_	22	cc	22:cc	_
@@ -37122,7 +37122,7 @@
 14	de	de	ADP	sps00	_	16	case	16:case	_
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	_
 16	Seguridad	Seguridad	PROPN	np00000	_	13	nmod	13:nmod	MWE=Seguridad_Social|MWEPOS=PROPN
-17	Social	Social	PROPN	_	_	16	flat	16:flat	SpaceAfter=No
+17	Social	social	ADJ	aq0cs0	Number=Sing	16	flat	16:flat	SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 19	Salud	Salud	PROPN	np00000	_	16	conj	16:conj	_
 20	y	y	CCONJ	cc	_	21	cc	21:cc	_
@@ -40066,12 +40066,12 @@
 17	sobre	sobre	ADP	sps00	_	19	case	19:case	_
 18	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	19:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 19	Seguridad	Seguridad	PROPN	np00000	_	15	obl	15:obl	MWE=Seguridad_Social|MWEPOS=PROPN|ArgTem=arg2:loc
-20	Social	Social	PROPN	_	_	19	flat	19:flat	_
+20	Social	social	ADJ	aq0cs0	Number=Sing	19	flat	19:flat	_
 21	-	-	PUNCT	fg	PunctType=Dash	24	punct	24:punct	Entity=(CESSCASTP1999020211c15--4
 22	-	-	PUNCT	fg	PunctType=Dash	24	punct	24:punct	_
 23	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	24:det	_
 24	Seguridad	Seguridad	PROPN	np00000	_	19	flat	19:flat	MWE=Seguridad_Social|MWEPOS=PROPN
-25	Social	Social	PROPN	_	_	24	flat	24:flat	_
+25	Social	social	ADJ	aq0cs0	Number=Sing	24	flat	24:flat	_
 26	que	que	PRON	pr0cn000	PronType=Rel	27	nsubj	27:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999020211c15--1-CorefType:ident)
 27	recorta	recortar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	24:acl:relcl	_
 28	fármacos	fármaco	NOUN	ncmp000	Gender=Masc|Number=Plur	27	obj	27:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen)
@@ -46036,7 +46036,7 @@
 13	presupuestos	presupuesto	NOUN	ncmp000	Gender=Masc|Number=Plur	10	obl	10:obl	ArgTem=arg3:ori
 14	de	de	ADP	sps00	_	15	case	15:case	_
 15	Benestar	Benestar	PROPN	np00000	_	13	nmod	13:nmod	MWE=Benestar_Social|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
-16	Social	Social	PROPN	_	_	15	flat	15:flat	Entity=NOCOREF:Spec.organization)NOCOREF:Gen)|SpaceAfter=No
+16	Social	social	ADJ	aq0cs0	Number=Sing	15	flat	15:flat	Entity=NOCOREF:Spec.organization)NOCOREF:Gen)|SpaceAfter=No
 17	.	.	PUNCT	fp	PunctType=Peri	10	punct	10:punct	_
 
 # sent_id = CESS-CAST-P-19990902-84-s7
@@ -46186,7 +46186,7 @@
 32	de	de	ADP	sps00	_	34	case	34:case	_
 33	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	34:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 34	Seguridad	Seguridad	PROPN	np00000	_	30	nmod	30:nmod	MWE=Seguridad_Social|MWEPOS=PROPN
-35	Social	Social	PROPN	_	_	34	flat	34:flat	Entity=NOCOREF:Spec.organization)NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
+35	Social	social	ADJ	aq0cs0	Number=Sing	34	flat	34:flat	Entity=NOCOREF:Spec.organization)NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
 36	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = CESS-CAST-P-19990902-84-s11

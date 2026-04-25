@@ -1221,7 +1221,7 @@
 37	Coordinadora	Coordinadora	PROPN	np0000o	_	34	nmod	34:nmod	MWE=Coordinadora_de_Movimientos_Sociales|MWEPOS=PROPN
 38	de	de	ADP	_	_	39	case	39:case	_
 39	Movimientos	Movimientos	PROPN	_	_	37	flat	37:flat	_
-40	Sociales	Sociales	PROPN	_	_	39	flat	39:flat	Entity=NOCOREF:Spec.organization)|SpaceAfter=No
+40	Sociales	social	ADJ	aq0cp0	Number=Plur	39	flat	39:flat	Entity=NOCOREF:Spec.organization)|SpaceAfter=No
 41	,	,	PUNCT	fc	PunctType=Comm	42	punct	42:punct	Entity=(NOCOREF:Spec.person-person-2-gstype:spec
 42	Napoleón	Napoleón	PROPN	np0000p	_	34	appos	34:appos	MWE=Napoleón_Saltos|MWEPOS=PROPN
 43	Saltos	Saltos	PROPN	_	_	42	flat	42:flat	Entity=NOCOREF:Spec.person)NOCOREF:Spec.person)|SpaceAfter=No
@@ -15328,7 +15328,7 @@
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	21:det	_
 21	Partido	Partido	PROPN	np0000o	_	4	conj	4:conj	MWE=Partido_Reformista_Social_Cristiano|MWEPOS=PROPN|Entity=(CESSCASTA2000051511470c18-organization-1-gstype:spec
 22	Reformista	Reformista	PROPN	_	_	21	flat	21:flat	_
-23	Social	Social	PROPN	_	_	21	flat	21:flat	_
+23	Social	social	ADJ	aq0cs0	Number=Sing	21	flat	21:flat	_
 24	Cristiano	Cristiano	PROPN	_	_	21	flat	21:flat	_
 25	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	26	punct	26:punct	Entity=(CESSCASTA2000051511470c18-organization-2-CorefType:pred.definit,gstype:spec|SpaceAfter=No
 26	PRSC	PRSC	PROPN	np0000o	_	21	flat	21:flat	SpaceAfter=No
@@ -16069,7 +16069,7 @@
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
 16	Partido	Partido	PROPN	np0000o	_	13	nmod	13:nmod	MWE=Partido_Reformista_Social_Cristiano|MWEPOS=PROPN|Entity=(CESSCASTA2000051611811c3-organization-1-gstype:spec
 17	Reformista	Reformista	PROPN	_	_	16	flat	16:flat	_
-18	Social	Social	PROPN	_	_	16	flat	16:flat	_
+18	Social	social	ADJ	aq0cs0	Number=Sing	16	flat	16:flat	_
 19	Cristiano	Cristiano	PROPN	_	_	16	flat	16:flat	_
 20	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	21	punct	21:punct	Entity=(CESSCASTA2000051611811c3-organization-2-CorefType:pred.definit,gstype:spec|SpaceAfter=No
 21	PRSC	PRSC	PROPN	np0000o	_	16	flat	16:flat	SpaceAfter=No
@@ -26620,7 +26620,7 @@
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCASTAA200005129580c2-organization-2-gstype:spec
 8	Partido	Partido	PROPN	np00000	_	2	nmod	2:nmod	MWE=Partido_Reformista_Social_Cristiano|MWEPOS=PROPN
 9	Reformista	Reformista	PROPN	_	_	8	flat	8:flat	_
-10	Social	Social	PROPN	_	_	8	flat	8:flat	_
+10	Social	social	ADJ	aq0cs0	Number=Sing	8	flat	8:flat	_
 11	Cristiano	Cristiano	PROPN	_	_	8	flat	8:flat	_
 12	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	13	punct	13:punct	Entity=(CESSCASTAA200005129580c2-organization-2-CorefType:pred.definit,gstype:spec|SpaceAfter=No
 13	PRSC	PRSC	PROPN	np00000	_	8	flat	8:flat	SpaceAfter=No
@@ -52124,7 +52124,7 @@
 22	en	en	ADP	sps00	_	24	case	24:case	_
 23	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	24:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
 24	Obra	Obra	PROPN	np00000	_	16	obl	16:obl	MWE=Obra_Social_de_Caja_Madrid|MWEPOS=PROPN|ArgTem=arg2:loc
-25	Social	Social	PROPN	_	_	24	flat	24:flat	_
+25	Social	social	ADJ	aq0cs0	Number=Sing	24	flat	24:flat	_
 26	de	de	ADP	_	_	27	case	27:case	_
 27	Caja	Caja	PROPN	_	_	24	flat	24:flat	_
 28	Madrid	Madrid	PROPN	_	_	24	flat	24:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
@@ -54264,7 +54264,7 @@
 17	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	15	punct	15:punct	Entity=NOCOREF:Spec.person)
 18	y	y	CCONJ	cc	_	19	cc	19:cc	_
 19	Asuntos	Asuntos	PROPN	np00000	_	7	conj	7:conj	MWE=Asuntos_Sociales|MWEPOS=PROPN
-20	Sociales	Sociales	PROPN	_	_	19	flat	19:flat	_
+20	Sociales	social	ADJ	aq0cp0	Number=Plur	19	flat	19:flat	_
 21	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	22	punct	22:punct	Entity=(NOCOREF:Spec.person-person-2-gstype:spec|SpaceAfter=No
 22	Anna	Anna	PROPN	np00000	_	19	flat	19:flat	MWE=Anna_Diamantopoulou|MWEPOS=PROPN
 23	Diamantopoulou	Diamantopoulou	PROPN	_	_	22	flat	22:flat	SpaceAfter=No
