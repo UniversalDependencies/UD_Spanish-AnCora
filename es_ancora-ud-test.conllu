@@ -11885,7 +11885,7 @@
 68	de	de	ADP	sps00	_	70	case	70:case	_
 69	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	70	det	70:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 70	redes	red	NOUN	ncfp000	Gender=Fem|Number=Plur	67	nmod	67:nmod	ArgTem=arg1:pat
-71	transeuropeas	transeuropeas	ADJ	_	_	70	amod	70:amod	Entity=NOCOREF:Gen)NOCOREF:Gen)
+71	transeuropeas	transeuropeas	ADJ	_	Gender=Fem|Number=Plur	70	amod	70:amod	Entity=NOCOREF:Gen)NOCOREF:Gen)
 72	hasta	hasta	ADP	cs	ExtPos=SCONJ	76	mark	76:mark	MWE=hasta_tanto|MWEPOS=SCONJ
 73	tanto	tanto	NOUN	_	_	72	fixed	72:fixed	_
 74	no	no	ADV	rn	Polarity=Neg	76	advmod	76:advmod	_
@@ -41985,7 +41985,7 @@
 19	familiar	familiar	ADJ	aq0cs0	Number=Sing	18	amod	18:amod	_
 20	y	y	CCONJ	cc	_	21	cc	21:cc	_
 21	social	social	ADJ	aq0cs0	Number=Sing	19	conj	19:conj	_
-22	acorde	acorde	ADJ	aq0cn0	_	18	amod	18:amod	_
+22	acorde	acorde	ADJ	aq0cn0	Number=Sing	18	amod	18:amod	_
 23	con	con	ADP	sps00	_	25	case	25:case	_
 24	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 25	principios	principio	NOUN	ncmp000	Gender=Masc|Number=Plur	22	nmod	22:nmod	_
