@@ -4328,7 +4328,7 @@
 38	,	,	PUNCT	fc	PunctType=Comm	39	punct	39:punct	_
 39	faceta	faceta	NOUN	ncfs000	Gender=Fem|Number=Sing	34	obj	34:obj	_
 40	de	de	ADP	sps00	_	42	case	42:case	_
-41	gran	grande	ADJ	aq0cs0	Number=Sing	42	amod	42:amod	_
+41	gran	gran	ADJ	aq0cs0	Number=Sing	42	amod	42:amod	_
 42	utilidad	utilidad	NOUN	ncfs000	Gender=Fem|Number=Sing	39	nmod	39:nmod	_
 43	para	para	ADP	sps00	_	45	case	45:case	_
 44	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	det	45:det	ArgTem=arg1:tem
@@ -9944,7 +9944,7 @@
 21	había	haber	AUX	vaii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	22:aux	_
 22	tenido	tener	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	15:acl:relcl	_
 23	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	_
-24	gran	grande	ADJ	aq0cs0	Number=Sing	25	amod	25:amod	_
+24	gran	gran	ADJ	aq0cs0	Number=Sing	25	amod	25:amod	_
 25	nivel	nivel	NOUN	ncms000	Gender=Masc|Number=Sing	22	obj	22:obj	ArgTem=arg2:atr
 26	futbolístico	futbolístico	ADJ	aq0ms0	Gender=Masc|Number=Sing	25	amod	25:amod	SpaceAfter=No
 27	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
@@ -10073,7 +10073,7 @@
 16	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
 17	tras	tras	ADP	sps00	_	20	case	20:case	_
 18	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	Entity=(NOCOREF:Gen--3-gstype:gen
-19	gran	grande	ADJ	aq0cs0	Number=Sing	20	amod	20:amod	_
+19	gran	gran	ADJ	aq0cs0	Number=Sing	20	amod	20:amod	_
 20	pase	pase	NOUN	ncms000	Gender=Masc|Number=Sing	24	obl	24:obl	ArgTem=argM:tmp
 21	de	de	ADP	sps00	_	22	case	22:case	_
 22	Lobatón	Lobatón	PROPN	np0000p	_	20	nmod	20:nmod	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)NOCOREF:Gen)
@@ -14629,7 +14629,7 @@
 2	que	que	SCONJ	cs	_	17	mark	17:mark	Entity=(CESSCASTA2000042317037c33--16
 3	"	"	PUNCT	fe	PunctType=Quot	6	punct	6:punct	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD|SpaceAfter=No
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	_
-5	gran	grande	ADJ	aq0cs0	Number=Sing	6	amod	6:amod	_
+5	gran	gran	ADJ	aq0cs0	Number=Sing	6	amod	6:amod	_
 6	aportación	aportación	NOUN	ncfs000	Gender=Fem|Number=Sing	17	nsubj	17:nsubj	ArgTem=arg1:tem
 7-8	del	_	_	_	_	_	_	_	_
 7	de	de	ADP	spcms	_	9	case	9:case	_
@@ -22854,7 +22854,7 @@
 35	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	36:det	Entity=(CESSCASTAA200003129698c7--2-CorefType:ident,gstype:gen
 36	plantilla	plantilla	NOUN	ncfs000	Gender=Fem|Number=Sing	33	obl:arg	33:obl:arg	ArgTem=arg2:atr
 37	de	de	ADP	sps00	_	39	case	39:case	_
-38	gran	grande	ADJ	aq0cs0	Number=Sing	39	amod	39:amod	Entity=(NOCOREF:Gen--2-gstype:gen
+38	gran	gran	ADJ	aq0cs0	Number=Sing	39	amod	39:amod	Entity=(NOCOREF:Gen--2-gstype:gen
 39	nivel	nivel	NOUN	ncms000	Gender=Masc|Number=Sing	36	nmod	36:nmod	Entity=NOCOREF:Gen)CESSCASTAA200003129698c7)|SpaceAfter=No
 40	"	"	PUNCT	fe	PunctType=Quot	33	punct	33:punct	SpaceAfter=No
 41	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
@@ -24170,7 +24170,7 @@
 10	creación	creación	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg1:tem
 11	de	de	ADP	sps00	_	14	case	14:case	_
 12	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	Entity=(CESSCASTAA200004064800c11-other-3-gstype:spec
-13	gran	grande	ADJ	aq0cs0	Number=Sing	14	amod	14:amod	_
+13	gran	gran	ADJ	aq0cs0	Number=Sing	14	amod	14:amod	_
 14	base	base	NOUN	nccs000	Number=Sing	10	nmod	10:nmod	ArgTem=arg1:pat
 15	de	de	ADP	sps00	_	16	case	16:case	_
 16	datos	dato	NOUN	ncmp000	Gender=Masc|Number=Plur	14	nmod	14:nmod	_
@@ -27720,7 +27720,7 @@
 32	semana	semana	NOUN	ncfs000	Gender=Fem|Number=Sing	30	nmod	30:nmod	Entity=NOCOREF:Gen)
 33	en	en	ADP	sps00	_	35	case	35:case	_
 34	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	35:det	Entity=(CESSCASTAA2000062923978c2-other-2-gstype:spec
-35	Gran	grande	ADJ	aq0cs0	Number=Sing	28	obl	28:obl	MWE=Gran_Premio_de_Francia|MWEPOS=PROPN|ArgTem=argM:loc
+35	Gran	gran	ADJ	aq0cs0	Number=Sing	28	obl	28:obl	MWE=Gran_Premio_de_Francia|MWEPOS=PROPN|ArgTem=argM:loc
 36	Premio	Premio	PROPN	_	_	35	flat	35:flat	_
 37	de	de	ADP	_	_	38	case	38:case	_
 38	Francia	Francia	PROPN	_	_	35	flat	35:flat	SpaceAfter=No
@@ -27990,7 +27990,7 @@
 9	Supertec	Supertec	PROPN	_	_	7	flat	7:flat	SpaceAfter=No
 10	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	7	punct	7:punct	Entity=CESSCASTAA2000062923978c38)CESSCASTAA2000062923978c14)
 11	este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	12	det	12:det	Entity=(CESSCASTAA2000062923978c2-other-2-CorefType:ident,gstype:spec
-12	Gran	grande	ADJ	aq0cs0	Number=Sing	16	nsubj	16:nsubj	MWE=Gran_Premio_de_Francia|MWEPOS=PROPN|ArgTem=arg1:tem
+12	Gran	gran	ADJ	aq0cs0	Number=Sing	16	nsubj	16:nsubj	MWE=Gran_Premio_de_Francia|MWEPOS=PROPN|ArgTem=arg1:tem
 13	Premio	Premio	PROPN	_	_	12	flat	12:flat	_
 14	de	de	ADP	_	_	15	case	15:case	_
 15	Francia	Francia	PROPN	_	_	12	flat	12:flat	Entity=CESSCASTAA2000062923978c2)
@@ -29585,7 +29585,7 @@
 5	Wahid	Wahid	PROPN	np00000	_	3	obj	3:obj	ArgTem=arg1:pat|Entity=(CESSCASTAA200008063784c1-person-1-CorefType:ident,gstype:spec)
 6	con	con	ADP	sps00	_	9	case	9:case	_
 7	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Gen--3-gstype:gen
-8	gran	grande	ADJ	aq0cs0	Number=Sing	9	amod	9:amod	_
+8	gran	gran	ADJ	aq0cs0	Number=Sing	9	amod	9:amod	_
 9	artista	artista	NOUN	nccs000	Number=Sing	3	obl:arg	3:obl:arg	ArgTem=arg2:tem
 10-11	del	_	_	_	_	_	_	_	_
 10	de	de	ADP	spcms	_	12	case	12:case	_
@@ -31283,7 +31283,7 @@
 16	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	Entity=CESSCASTAA2000103024215c1)CESSCASTAA2000103024215c1)
 17	sufrió	sufrir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 18	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	Entity=(NOCOREF:Gen--3-gstype:gen
-19	gran	grande	ADJ	aq0cs0	Number=Sing	20	amod	20:amod	_
+19	gran	gran	ADJ	aq0cs0	Number=Sing	20	amod	20:amod	_
 20	retroceso	retroceso	NOUN	ncms000	Gender=Masc|Number=Sing	17	obj	17:obj	ArgTem=arg2:atr
 21	en	en	ADP	sps00	_	23	case	23:case	_
 22	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	23:det	Entity=(CESSCASTAA2000103024215c8--2-gstype:gen,HomoDD
@@ -33579,7 +33579,7 @@
 7	expresó	expresar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 8	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	11:det	ArgTem=arg1:tem|Entity=(CESSCASTAA2000113024674c5--4-CorefType:ident,gstype:gen(CESSCASTAA2000113024674c1-person-1-CorefType:ident,gstype:spec)
 9	"	"	PUNCT	fe	PunctType=Quot	11	punct	11:punct	SpaceAfter=No
-10	gran	grande	ADJ	aq0cs0	Number=Sing	11	amod	11:amod	_
+10	gran	gran	ADJ	aq0cs0	Number=Sing	11	amod	11:amod	_
 11	satisfacción	satisfacción	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obj	7:obj	ArgTem=arg1:pat|SpaceAfter=No
 12	"	"	PUNCT	fe	PunctType=Quot	11	punct	11:punct	_
 13	por	por	ADP	sps00	_	15	case	15:case	_
@@ -40092,7 +40092,7 @@
 20	ayer	ayer	ADV	rg	_	19	advmod	19:advmod	ArgTem=argM:tmp
 21	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	24:det	Entity=(NOCOREF:Gen--4-gstype:gen
 22	"	"	PUNCT	fe	PunctType=Quot	24	punct	24:punct	SpaceAfter=No
-23	gran	grande	ADJ	aq0cs0	Number=Sing	24	amod	24:amod	_
+23	gran	gran	ADJ	aq0cs0	Number=Sing	24	amod	24:amod	_
 24	preocupación	preocupación	NOUN	ncfs000	Gender=Fem|Number=Sing	19	obj	19:obj	ArgTem=arg1:pat|SpaceAfter=No
 25	"	"	PUNCT	fe	PunctType=Quot	24	punct	24:punct	_
 26	por	por	ADP	sps00	_	28	case	28:case	_
@@ -40943,7 +40943,7 @@
 15	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 16	y	y	CCONJ	cc	_	24	cc	24:cc	_
 17	con	con	ADP	sps00	_	19	case	19:case	_
-18	gran	grande	ADJ	aq0cs0	Number=Sing	19	amod	19:amod	Entity=(NOCOREF:Gen--2-gstype:gen
+18	gran	gran	ADJ	aq0cs0	Number=Sing	19	amod	19:amod	Entity=(NOCOREF:Gen--2-gstype:gen
 19	espíritu	espíritu	NOUN	ncms000	Gender=Masc|Number=Sing	24	obl	24:obl	ArgTem=argM:adv
 20	de	de	ADP	sps00	_	21	case	21:case	_
 21	lucha	lucha	NOUN	ncfs000	Gender=Fem|Number=Sing	19	nmod	19:nmod	_
@@ -48625,7 +48625,7 @@
 2	total	total	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	6	det	6:det	Entity=(CESSCASTP2000070180c7-place-3-CorefType:ident,gstype:spec
-5	gran	grande	ADJ	aq0cs0	Number=Sing	6	amod	6:amod	_
+5	gran	gran	ADJ	aq0cs0	Number=Sing	6	amod	6:amod	_
 6	eje	eje	NOUN	ncms000	Gender=Masc|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg1:tem
 7	comercial	comercial	ADJ	aq0cs0	Number=Sing	6	amod	6:amod	Entity=CESSCASTP2000070180c7)
 8	sumará	sumar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
@@ -49390,7 +49390,7 @@
 20	verano	verano	NOUN	ncms000	Gender=Masc|Number=Sing	17	obl	17:obl	ArgTem=argM:tmp|Entity=(NOCOREF:Gen--1-gstype:gen)|SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 22	en	en	ADP	sps00	_	24	case	24:case	_
-23	gran	grande	ADJ	aq0cs0	Number=Sing	24	amod	24:amod	_
+23	gran	gran	ADJ	aq0cs0	Number=Sing	24	amod	24:amod	_
 24	parte	parte	NOUN	ncfs000	Gender=Fem|Number=Sing	11	obl	11:obl	ArgTem=argM:cau
 25	por	por	ADP	sps00	_	27	case	27:case	_
 26	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -49727,7 +49727,7 @@
 3	estuvo	estar	AUX	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 4	rodeado	rodeado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 5	de	de	ADP	sps00	_	7	case	7:case	_
-6	gran	grande	ADJ	aq0cs0	Number=Sing	7	amod	7:amod	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
+6	gran	gran	ADJ	aq0cs0	Number=Sing	7	amod	7:amod	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 7	discreción	discreción	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl:arg	4:obl:arg	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
 8	y	y	CCONJ	cc	_	10	cc	10:cc	_
 8.1	_	_	PRON	p	_	_	_	10:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2000080231c7--1-CorefType:ident,gstype:gen)
@@ -53213,7 +53213,7 @@
 # text = La gran novedad en la lista, además de la presencia de Dani, es el regreso de Richard Dutruel.
 # orig_file_sentence 010#18
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-2	gran	grande	ADJ	aq0cs0	Number=Sing	3	amod	3:amod	_
+2	gran	gran	ADJ	aq0cs0	Number=Sing	3	amod	3:amod	_
 3	novedad	novedad	NOUN	ncfs000	Gender=Fem|Number=Sing	17	nsubj	17:nsubj	ArgTem=arg1:tem
 4	en	en	ADP	sps00	_	6	case	6:case	_
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -54225,7 +54225,7 @@
 52	para	para	ADP	sps00	_	53	mark	53:mark	_
 53	solucionar	solucionar	VERB	vmn0000	VerbForm=Inf	51	xcomp	51:xcomp	ArgTem=arg3:fin
 54	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	56:det	Entity=(CESSCASTP20010202151c2--3-gstype:gen,HomoDD
-55	gran	grande	ADJ	aq0cs0	Number=Sing	56	amod	56:amod	_
+55	gran	gran	ADJ	aq0cs0	Number=Sing	56	amod	56:amod	_
 56	problema	problema	NOUN	ncms000	Gender=Masc|Number=Sing	53	obj	53:obj	ArgTem=arg1:pat
 57	que	que	PRON	pr0cn000	PronType=Rel	58	obj	58:obj	ArgTem=arg1:pat|Entity=(CESSCASTP20010202151c2--1-CorefType:ident,gstype:gen)
 58	arrastra	arrastrar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	acl:relcl	56:acl:relcl	_
@@ -57527,7 +57527,7 @@
 16	supone	suponer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 17	ahora	ahora	ADV	rg	_	16	advmod	16:advmod	ArgTem=argM:tmp
 18	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-19	gran	grande	ADJ	aq0cs0	Number=Sing	20	amod	20:amod	_
+19	gran	gran	ADJ	aq0cs0	Number=Sing	20	amod	20:amod	_
 20	esperanza	esperanza	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obj	16:obj	ArgTem=arg2:atr
 21	para	para	ADP	sps00	_	23	case	23:case	_
 22	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCASTP20011002160c2-organization-2-CorefType:ident,gstype:spec
@@ -59169,7 +59169,7 @@
 8	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	9	nummod	9:nummod	_
 9	estrellas	estrella	NOUN	nccp000	Number=Plur	5	appos	5:appos	_
 10	de	de	ADP	sps00	_	12	case	12:case	_
-11	gran	grande	ADJ	aq0cs0	Number=Sing	12	amod	12:amod	_
+11	gran	gran	ADJ	aq0cs0	Number=Sing	12	amod	12:amod	_
 12	lujo	lujo	NOUN	ncms000	Gender=Masc|Number=Sing	9	nmod	9:nmod	SpaceAfter=No
 13	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	9	punct	9:punct	Entity=NOCOREF:Gen)CESSCASTP2001120266c3)|SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
@@ -60620,7 +60620,7 @@
 16	No	no	ADV	rn	Polarity=Neg	17	advmod	17:advmod	_
 17	sé	saber	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	ccomp	13:ccomp	ArgTem=arg1:pat
 18	qué	qué	PRON	pt0cs000	Number=Sing|PronType=Int	20	nmod	20:nmod	Entity=(NOCOREF:Gen--3-gstype:gen|CxnElt=20:Interrogative-WHInfo-Indirect.WHWord
-19	gran	grande	ADJ	aq0cs0	Number=Sing	20	amod	20:amod	_
+19	gran	gran	ADJ	aq0cs0	Number=Sing	20	amod	20:amod	_
 20	pecado	pecado	NOUN	ncms000	Gender=Masc|Number=Sing	22	obj	22:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|Cxn=Interrogative-WHInfo-Indirect|CxnElt=20:Interrogative-WHInfo-Indirect.Clause
 20.1	_	_	PRON	p	_	_	_	22:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20020301125c1-person-1-CorefType:ident,gstype:spec)
 21	he	haber	AUX	vaip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	22:aux	_
@@ -61364,7 +61364,7 @@
 10	Ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 11	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	3:advcl	_
 12	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	Entity=(NOCOREF:Spec.organization-organization-3-gstype:spec
-13	gran	grande	ADJ	aq0cs0	Number=Sing	14	amod	14:amod	_
+13	gran	gran	ADJ	aq0cs0	Number=Sing	14	amod	14:amod	_
 14	Senegal	Senegal	PROPN	np00000	_	11	nsubj	11:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Spec.organization)|SpaceAfter=No
 15	"	"	PUNCT	fe	PunctType=Quot	3	punct	3:punct	SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
@@ -61647,7 +61647,7 @@
 15.1	_	_	PRON	p	_	_	_	16:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2002060151c18--1-CorefType:ident,gstype:gen)
 16	Es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
 17	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	Entity=(CESSCASTP2002060151c18--3-CorefType:pred.indefinit,gstype:gen
-18	gran	grande	ADJ	aq0cs0	Number=Sing	19	amod	19:amod	_
+18	gran	gran	ADJ	aq0cs0	Number=Sing	19	amod	19:amod	_
 19	premio	premio	NOUN	ncms000	Gender=Masc|Number=Sing	6	advcl	6:advcl	ArgTem=arg2:atr
 20	para	para	ADP	sps00	_	22	case	22:case	_
 21	nuestro	nuestro	DET	dp1msp	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	22	det	22:det	Entity=(CESSCASTP2002060151c17-place-2-CorefType:ident,gstype:spec(CESSCASTP2002060151c19-person-1-CorefType:ident,gstype:spec)

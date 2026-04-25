@@ -10,12 +10,12 @@
     <dev><sentences>1654</sentences><tokens>52212</tokens><words>53476</words><fused>1262</fused></dev>
     <test><sentences>1721</sentences><tokens>52454</tokens><words>53622</words><fused>1166</fused></test>
   </size>
-  <lemmas unique="25969" /><!-- el, de, ,, ., que, en, a, y, él, uno, ", ser, por, su, haber -->
+  <lemmas unique="25970" /><!-- el, de, ,, ., que, en, a, y, él, uno, ", ser, por, su, haber -->
   <forms unique="38806" /><!-- de, ,, el, la, ., que, en, a, y, ", los, se, un, las, por -->
   <fusions unique="1094" /><!-- del, al, hacerlo, hacerse, haberse, convertirse, darle, enfrentarse, encontrarse, darse, presentarse, reunirse, situarse, ponerse, producirse -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">36633</tag><!-- primero, nuevo, grande, último, pasado, próximo, español, político, mayor, segundo -->
+    <tag name="ADJ">36633</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, político, mayor, segundo -->
     <tag name="ADP">87929</tag><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
     <tag name="ADV">18521</tag><!-- no, más, también, ya, hoy, mucho, ayer, sólo, después, ahora -->
     <tag name="AUX">13571</tag><!-- ser, haber, estar, poder, deber, saber, querer -->
