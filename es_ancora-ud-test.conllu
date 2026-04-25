@@ -2469,7 +2469,7 @@
 17	así	así	ADV	rg	_	16	advmod	16:advmod	_
 18	como	como	SCONJ	cs	_	21	mark	21:mark	_
 19	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	21:det	_
-20	sencillísima	sencillo	ADJ	aq0fs0	Degree=Abs|Gender=Fem|Number=Sing	21	amod	21:amod	_
+20	sencillísima	sencillísimo	ADJ	aq0fs0	Degree=Abs|Gender=Fem|Number=Sing	21	amod	21:amod	_
 21	membrana	membrana	NOUN	ncfs000	Gender=Fem|Number=Sing	16	nmod	16:nmod	SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 23	resultante	resultante	ADJ	aq0cs0	Number=Sing	21	amod	21:amod	_
@@ -24384,7 +24384,7 @@
 28	luego	luego	ADV	sps00	ExtPos=ADP	32	case	32:case	MWE=luego_de|MWEPOS=ADP
 29	de	de	ADP	_	_	28	fixed	28:fixed	_
 30	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	32:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
-31	pobrísima	pobre	ADJ	aq0fs0	Degree=Abs|Gender=Fem|Number=Sing	32	amod	32:amod	_
+31	pobrísima	pobrísimo	ADJ	aq0fs0	Degree=Abs|Gender=Fem|Number=Sing	32	amod	32:amod	_
 32	actuación	actuación	NOUN	ncfs000	Gender=Fem|Number=Sing	24	obl	24:obl	ArgTem=argM:tmp
 33	de	de	ADP	sps00	_	34	case	34:case	_
 34	Nacional	Nacional	PROPN	np00000	_	32	nmod	32:nmod	ArgTem=arg0:agt|Entity=(CESSCASTAA2000022420351c3-organization-1-CorefType:ident,gstype:spec)
