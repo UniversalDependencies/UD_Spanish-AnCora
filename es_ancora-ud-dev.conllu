@@ -27450,8 +27450,8 @@
 13	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
 14	Centro	Centro	PROPN	np00000	_	9	nmod	9:nmod	MWE=Centro_de_Gestión_Económica|MWEPOS=PROPN
 15	de	de	ADP	_	_	16	case	16:case	_
-16	Gestión	Gestión	PROPN	_	_	14	flat	14:flat	_
-17	Económica	Económica	PROPN	_	_	16	flat	16:flat	Entity=NOCOREF:Spec.location)NOCOREF:Gen)
+16	Gestión	Gestión	PROPN	_	_	14	nmod	14:nmod	_
+17	Económica	económico	ADJ	_	_	16	amod	16:amod	Entity=NOCOREF:Spec.location)NOCOREF:Gen)
 18	en	en	ADP	sps00	_	19	case	19:case	_
 19	Londres	Londres	PROPN	np00000	_	6	obl	6:obl	ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)|SpaceAfter=No
 20	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	Entity=CESSCASTAA2000053125451c1)
@@ -39650,7 +39650,7 @@
 3	general	general	ADJ	aq0cs0	Number=Sing	2	amod	2:amod	_
 4	de	de	ADP	sps00	_	5	case	5:case	_
 5	Política	Política	PROPN	np00000	_	2	nmod	2:nmod	MWE=Política_Económica|MWEPOS=PROPN|Entity=(CESSCASTP1999090175c16-organization-1-gstype:spec
-6	Económica	Económica	PROPN	_	_	5	flat	5:flat	_
+6	Económica	económico	ADJ	_	_	5	amod	5:amod	_
 7	y	y	CCONJ	cc	_	8	cc	8:cc	_
 8	Defensa	Defensa	PROPN	np00000	_	5	conj	5:conj	MWE=Defensa_de_la_Competencia|MWEPOS=PROPN
 9	de	de	ADP	_	_	11	case	11:case	_
