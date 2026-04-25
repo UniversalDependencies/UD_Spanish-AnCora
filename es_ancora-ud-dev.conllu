@@ -33598,7 +33598,7 @@
 25	a	a	ADP	_	_	24	fixed	24:fixed	_
 26	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 27	gestiones	gestión	NOUN	ncfp000	Gender=Fem|Number=Plur	23	obl	23:obl	ArgTem=argM:cau
-28	llevadas	llevado	ADJ	aq0fpp	_	27	amod	27:amod	MWE=llevadas_a_cabo|MWEPOS=ADJ
+28	llevadas	llevado	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	27	amod	27:amod	MWE=llevadas_a_cabo|MWEPOS=ADJ
 29	a	a	ADP	_	_	30	case	30:case	_
 30	cabo	cabo	NOUN	_	_	28	nmod	28:nmod	_
 31	por	por	ADP	sps00	_	33	case	33:case	_
