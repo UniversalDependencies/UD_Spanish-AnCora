@@ -44816,7 +44816,7 @@
 24	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	25	punct	25:punct	SpaceAfter=No
 25	Reus	Reus	PROPN	np00000	_	22	nmod	22:nmod	Entity=(CESSCASTP1999120113c2-place-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 26	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
-27	Baix	Baix	ADJ	np00000	_	25	flat	25:flat	MWE=Baix_Camp|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+27	Baix	baix	ADJ	np00000	Foreign=Yes|Gender=Masc|Number=Sing	25	flat	25:flat	Entity=(NOCOREF:Spec.location-place-1-gstype:spec|Lang=ca|MWE=Baix_Camp|MWEPOS=PROPN
 28	Camp	Camp	PROPN	_	_	27	flat	27:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 29	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
 30	11-10-63	11-10-63	NOUN	_	_	25	appos	25:appos	Entity=(NOCOREF:Spec.date-time-1-gstype:spec)|SpaceAfter=No

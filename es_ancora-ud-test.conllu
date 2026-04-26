@@ -39627,7 +39627,7 @@
 23	de	de	ADP	sps00	_	24	case	24:case	_
 24	Viladecans	Viladecans	PROPN	np00000	_	22	nmod	22:nmod	Entity=(NOCOREF:Spec.location-place-1-gstype:spec(NOCOREF:Spec.location-place-1-gstype:spec)
 25	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	26	punct	26:punct	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|SpaceAfter=No
-26	Baix	Baix	ADJ	np00000	_	24	flat	24:flat	MWE=Baix_Llobregat|MWEPOS=PROPN
+26	Baix	baix	ADJ	np00000	Foreign=Yes|Gender=Masc|Number=Sing	24	flat	24:flat	Lang=ca|MWE=Baix_Llobregat|MWEPOS=PROPN
 27	Llobregat	Llobregat	PROPN	_	_	26	flat	26:flat	SpaceAfter=No
 28	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	26	punct	26:punct	Entity=NOCOREF:Spec.location)NOCOREF:Spec.location)NOCOREF:Gen)|SpaceAfter=No
 29	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
@@ -41797,7 +41797,7 @@
 23	y	y	CCONJ	cc	_	24	cc	24:cc	_
 24	Cambrils	Cambrils	PROPN	np00000	_	17	conj	17:conj	Entity=(CESSCASTP1999030137c35--1-CorefType:ident
 25	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	26	punct	26:punct	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|SpaceAfter=No
-26	Baix	Baix	ADJ	np00000	_	24	flat	24:flat	MWE=Baix_Camp|MWEPOS=PROPN
+26	Baix	baix	ADJ	np00000	Foreign=Yes|Gender=Masc|Number=Sing	24	flat	24:flat	Lang=ca|MWE=Baix_Camp|MWEPOS=PROPN
 27	Camp	Camp	PROPN	_	_	26	flat	26:flat	SpaceAfter=No
 28	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	26	punct	26:punct	Entity=NOCOREF:Spec.location)CESSCASTP1999030137c35)CESSCASTP1999030137c37)CESSCASTP1999030137c44)CESSCASTP1999030137c34)
 29	no	no	ADV	rn	Polarity=Neg	31	advmod	31:advmod	_
@@ -62051,7 +62051,7 @@
 24	de	de	ADP	_	_	25	case	25:case	_
 25	Calders	Calders	PROPN	_	_	22	flat	22:flat	_
 26	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	27	punct	27:punct	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|SpaceAfter=No
-27	Baix	Baix	ADJ	np00000	_	22	flat	22:flat	MWE=Baix_Penedès|MWEPOS=PROPN
+27	Baix	baix	ADJ	np00000	Foreign=Yes|Gender=Masc|Number=Sing	22	flat	22:flat	Lang=ca|MWE=Baix_Penedès|MWEPOS=PROPN
 28	Penedès	Penedès	PROPN	_	_	27	flat	27:flat	SpaceAfter=No
 29	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	27	punct	27:punct	Entity=NOCOREF:Spec.location)
 30	y	y	CCONJ	cc	_	31	cc	31:cc	_
