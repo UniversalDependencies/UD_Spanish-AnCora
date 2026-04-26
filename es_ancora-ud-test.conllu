@@ -278,7 +278,7 @@
 # orig_file_sentence 001#6
 1	"	"	PUNCT	fe	PunctType=Quot	5	punct	5:punct	SpaceAfter=No
 2	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	3:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
-3	Gobierno	Gobierno	PROPN	np0000o	_	5	nsubj	5:nsubj	ArgTem=arg0:agt
+3	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg0:agt
 4	chino	chino	ADJ	aq0ms0	Gender=Masc|Number=Sing	3	amod	3:amod	Entity=NOCOREF:Spec.organization)
 5	respeta	respetar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	25:ccomp	ArgTem=arg1:pat
 6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	_
@@ -462,7 +462,7 @@
 8	colaborar	colaborar	VERB	vmn0000	VerbForm=Inf	6	conj	6:conj	_
 9	con	con	ADP	sps00	_	11	case	11:case	_
 10	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
-11	Gobierno	Gobierno	PROPN	np0000o	_	6	obl	6:obl	MWE=Gobierno_de_Perú|MWEPOS=PROPN|ArgTem=argM:adv
+11	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	6	obl	6:obl	MWE=Gobierno_de_Perú|MWEPOS=PROPN|ArgTem=argM:adv
 12	de	de	ADP	_	_	13	case	13:case	_
 13	Perú	Perú	PROPN	_	_	11	flat	11:flat	Entity=NOCOREF:Spec.organization)|SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
@@ -1706,7 +1706,7 @@
 38-39	del	_	_	_	_	_	_	_	_
 38	de	de	ADP	spcms	_	40	case	40:case	_
 39	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	40:det	_
-40	Gobierno	Gobierno	PROPN	np0000o	_	36	nmod	36:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
+40	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	36	nmod	36:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
 41	gallego	gallego	ADJ	aq0ms0	Gender=Masc|Number=Sing	40	amod	40:amod	Entity=NOCOREF:Spec.organization)
 42	Juan	Juan	PROPN	np0000p	_	36	appos	36:appos	MWE=Juan_Fernández|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 43	Fernández	Fernández	PROPN	_	_	42	flat	42:flat	Entity=NOCOREF:Spec.person)NOCOREF:Spec.person)|SpaceAfter=No
@@ -5747,7 +5747,7 @@
 24	cuando	cuando	SCONJ	cs	_	25	mark	25:mark	_
 25	retoque	retocar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	19:advcl	ArgTem=argM:tmp
 26	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
-27	Gobierno	Gobierno	PROPN	np0000o	_	25	obj	25:obj	ArgTem=arg1:pat|Entity=NOCOREF:Spec.organization)|SpaceAfter=No
+27	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	25	obj	25:obj	ArgTem=arg1:pat|Entity=NOCOREF:Spec.organization)|SpaceAfter=No
 28	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
 
 # sent_id = 3LB-CAST-r2-11-s3
@@ -5953,7 +5953,7 @@
 29-30	del	_	_	_	_	_	_	_	_
 29	de	de	ADP	spcms	_	31	case	31:case	_
 30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	31:det	_
-31	Gobierno	Gobierno	PROPN	np0000o	_	28	nmod	28:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)|SpaceAfter=No
+31	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	28	nmod	28:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)|SpaceAfter=No
 32	,	,	PUNCT	fc	PunctType=Comm	33	punct	33:punct	_
 33	incluido	incluir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl	28:acl	_
 34	Felipe	Felipe	PROPN	np0000p	_	33	nsubj	33:nsubj	MWE=Felipe_González|MWEPOS=PROPN|ArgTem=arg1:pat|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
@@ -6381,7 +6381,7 @@
 14	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	13	obj	13:obj	_
 15	con	con	ADP	sps00	_	17	case	17:case	_
 16	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
-17	Gobierno	Gobierno	PROPN	np0000o	_	13	obl	13:obl	ArgTem=argM:adv|Entity=NOCOREF:Spec.organization)
+17	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	13	obl	13:obl	ArgTem=argM:adv|Entity=NOCOREF:Spec.organization)
 18	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	expl:pv	19:expl:pv	_
 19	dedica	dedicar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj	_
 20	discretísimamente	discretísimamente	ADV	rg	_	19	advmod	19:advmod	ArgTem=argM:mnr
@@ -9249,7 +9249,7 @@
 # text = El Gobierno argentino anunció hoy que revisará los permisos de pesca otorgados "de un modo poco claro" durante la presidencia de Carlos Menem, quien firmó un acuerdo con la Unión Europea por el que se incorporaron a la flota argentina barcos de empresas mixtas, en su mayoría de capital español.
 # orig_file_sentence 004#24
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTA200001031267c1-organization-2-gstype:spec
-2	Gobierno	Gobierno	PROPN	np0000o	_	4	nsubj	4:nsubj	ArgTem=arg0:agt
+2	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	ArgTem=arg0:agt
 3	argentino	argentino	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	amod	2:amod	Entity=CESSCASTA200001031267c1)
 4	anunció	anunciar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	hoy	hoy	ADV	rg	_	4	advmod	4:advmod	ArgTem=argM:tmp
@@ -11782,7 +11782,7 @@
 25-26	del	_	_	_	_	_	_	_	_
 25	de	de	ADP	spcms	_	27	case	27:case	_
 26	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	_
-27	Gobierno	Gobierno	PROPN	np0000o	_	22	nmod	22:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000022116816c7-organization-1-gstype:spec
+27	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	22	nmod	22:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000022116816c7-organization-1-gstype:spec
 28	central	central	ADJ	aq0cs0	Number=Sing	27	amod	27:amod	Entity=CESSCASTA2000022116816c7)
 29	a	a	ADP	sps00	_	31	case	31:case	_
 30	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	31:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -11892,7 +11892,7 @@
 75	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	76	expl:pv	76:expl:pv	_
 76	pronuncie	pronunciar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	advcl	63:advcl	ArgTem=argM:adv
 77	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	78	det	78:det	Entity=(CESSCASTA2000022116816c5-organization-2-gstype:spec
-78	Gobierno	Gobierno	PROPN	np0000o	_	76	nsubj	76:nsubj	ArgTem=arg0:agt
+78	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	76	nsubj	76:nsubj	ArgTem=arg0:agt
 79	francés	francés	ADJ	aq0ms0	Gender=Masc|Number=Sing	78	amod	78:amod	Entity=CESSCASTA2000022116816c5)CESSCASTA2000022116816c4)|SpaceAfter=No
 80	.	.	PUNCT	fp	PunctType=Peri	38	punct	38:punct	_
 
@@ -12066,7 +12066,7 @@
 6-7	del	_	_	_	_	_	_	_	_
 6	de	de	ADP	spcms	_	8	case	8:case	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
-8	Gobierno	Gobierno	PROPN	np0000o	_	5	nmod	5:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000022116816c5-organization-1-CorefType:ident,gstype:spec
+8	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	5:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000022116816c5-organization-1-CorefType:ident,gstype:spec
 9	francés	francés	ADJ	aq0ms0	Gender=Masc|Number=Sing	8	amod	8:amod	Entity=CESSCASTA2000022116816c5)NOCOREF:Gen)|SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 11	queda	quedar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -12985,7 +12985,7 @@
 6-7	al	_	_	_	_	_	_	_	_
 6	a	a	ADP	spcms	_	8	case	8:case	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
-8	Gobierno	Gobierno	PROPN	np0000o	_	5	obl:arg	5:obl:arg	ArgTem=arg1:pat|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
+8	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	5	obl:arg	5:obl:arg	ArgTem=arg1:pat|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
 9	británico	británico	ADJ	aq0ms0	Gender=Masc|Number=Sing	8	amod	8:amod	Entity=NOCOREF:Spec.organization)
 10	de	de	ADP	sps00	_	13	mark	13:mark	_
 11	no	no	ADV	rn	Polarity=Neg	13	advmod	13:advmod	_
@@ -13901,7 +13901,7 @@
 24-25	del	_	_	_	_	_	_	_	_
 24	de	de	ADP	spcms	_	26	case	26:case	_
 25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	_
-26	Gobierno	Gobierno	PROPN	np0000o	_	23	nmod	23:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000041512000c2-organization-1-CorefType:ident,gstype:spec
+26	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	23	nmod	23:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000041512000c2-organization-1-CorefType:ident,gstype:spec
 27	extremeño	extremeño	ADJ	aq0ms0	Gender=Masc|Number=Sing	26	amod	26:amod	Entity=CESSCASTA2000041512000c2)
 28	de	de	ADP	sps00	_	30	mark	30:mark	_
 29	no	no	ADV	rn	Polarity=Neg	30	advmod	30:advmod	_
@@ -14057,7 +14057,7 @@
 49-50	del	_	_	_	_	_	_	_	_
 49	de	de	ADP	spcms	_	51	case	51:case	_
 50	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	51:det	_
-51	Gobierno	Gobierno	PROPN	np0000o	_	48	nmod	48:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000041512000c2-organization-1-CorefType:ident,gstype:spec
+51	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	48	nmod	48:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000041512000c2-organization-1-CorefType:ident,gstype:spec
 52	extremeño	extremeño	ADJ	aq0ms0	Gender=Masc|Number=Sing	51	amod	51:amod	Entity=CESSCASTA2000041512000c2)CESSCASTA2000041512000c4)CESSCASTA2000041512000c23)CESSCASTA2000041512000c10)|SpaceAfter=No
 53	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	Entity=CESSCASTA2000041512000c10)
 
@@ -14319,7 +14319,7 @@
 60-61	del	_	_	_	_	_	_	_	_
 60	de	de	ADP	spcms	_	62	case	62:case	_
 61	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	62:det	_
-62	Gobierno	Gobierno	PROPN	np0000o	_	59	nmod	59:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000041512000c2-organization-1-CorefType:ident,gstype:spec
+62	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	59	nmod	59:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000041512000c2-organization-1-CorefType:ident,gstype:spec
 63	extremeño	extremeño	ADJ	aq0ms0	Gender=Masc|Number=Sing	62	amod	62:amod	Entity=CESSCASTA2000041512000c2)CESSCASTA2000041512000c4)
 64	por	por	ADP	spcms	ExtPos=ADP	68	case	68:case	MWE=por_parte_del|MWEPOS=ADP
 65	parte	parte	NOUN	_	_	64	fixed	64:fixed	_
@@ -14389,7 +14389,7 @@
 42-43	del	_	_	_	_	_	_	_	_
 42	de	de	ADP	spcms	_	44	case	44:case	_
 43	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	44:det	_
-44	Gobierno	Gobierno	PROPN	np0000o	_	41	nmod	41:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000041512000c2-organization-1-CorefType:ident,gstype:spec
+44	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	41	nmod	41:nmod	ArgTem=arg0:agt|Entity=(CESSCASTA2000041512000c2-organization-1-CorefType:ident,gstype:spec
 45	extremeño	extremeño	ADJ	aq0ms0	Gender=Masc|Number=Sing	44	amod	44:amod	Entity=CESSCASTA2000041512000c2)CESSCASTA2000041512000c4)
 46	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	47:aux	_
 47	respondido	responder	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	ccomp	37:ccomp	ArgTem=arg1:tem
@@ -15840,7 +15840,7 @@
 52	Deportes	Deportes	PROPN	_	_	49	flat	49:flat	Entity=NOCOREF:Spec.organization)
 53	y	y	CCONJ	cc	_	55	cc	55:cc	_
 54	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	55:det	Entity=(CESSCASTA2000082818213c27-organization-2-gstype:spec
-55	Gobierno	Gobierno	PROPN	np0000o	_	49	conj	49:conj	MWE=Gobierno_Central|MWEPOS=PROPN
+55	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	49	conj	49:conj	MWE=Gobierno_Central|MWEPOS=PROPN
 56	Central	Central	PROPN	_	_	55	flat	55:flat	SpaceAfter=No
 57	,	,	PUNCT	fc	PunctType=Comm	59	punct	59:punct	_
 58	que	que	PRON	pr0cn000	PronType=Rel	59	nsubj	59:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000082818213c27-organization-1-CorefType:ident,gstype:spec)
@@ -15861,7 +15861,7 @@
 2	Creo	creer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	ccomp	26:ccomp	ArgTem=arg1:pat
 3	que	que	SCONJ	cs	_	17	mark	17:mark	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCASTA2000082818213c27-organization-2-CorefType:ident,gstype:spec
-5	Gobierno	Gobierno	PROPN	np0000o	_	17	nsubj	17:nsubj	ArgTem=arg0:agt
+5	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	17	nsubj	17:nsubj	ArgTem=arg0:agt
 6	de	de	ADP	sps00	_	8	case	8:case	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCASTA2000082818213c28-place-2-CorefType:ident,gstype:spec
 8	nación	nación	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nmod	5:nmod	Entity=CESSCASTA2000082818213c28)CESSCASTA2000082818213c27)|SpaceAfter=No
@@ -18748,7 +18748,7 @@
 3-4	del	_	_	_	_	_	_	_	_
 3	de	de	ADP	spcms	_	5	case	5:case	_
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
-5	Gobierno	Gobierno	PROPN	np0000o	_	2	nmod	2:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)|SpaceAfter=No
+5	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)|SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	Entity=(CESSCASTA2000112217124c1-person-2-CorefType:pred.definit,gstype:spec
 7	Jose	Jose	PROPN	np0000p	_	2	appos	2:appos	MWE=Jose_María_Aznar|MWEPOS=PROPN
 8	María	María	PROPN	_	_	7	flat	7:flat	_
@@ -19953,7 +19953,7 @@
 33	informó	informar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	12:advcl	_
 34	hoy	hoy	ADV	rg	_	33	advmod	33:advmod	ArgTem=argM:tmp
 35	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	36:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
-36	Gobierno	Gobierno	PROPN	np0000o	_	33	nsubj	33:nsubj	ArgTem=arg0:agt
+36	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	33	nsubj	33:nsubj	ArgTem=arg0:agt
 37	gallego	gallego	ADJ	aq0ms0	Gender=Masc|Number=Sing	36	amod	36:amod	Entity=NOCOREF:Spec.organization)
 38	en	en	ADP	sps00	_	40	case	40:case	_
 39	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	40:det	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -23196,7 +23196,7 @@
 10-11	del	_	_	_	_	_	_	_	_
 10	de	de	ADP	spcms	_	12	case	12:case	_
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	_
-12	Gobierno	Gobierno	PROPN	np00000	_	9	nmod	9:nmod	Entity=(CESSCASTAA200002043836c19-organization-1-CorefType:ident,gstype:spec)
+12	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	9	nmod	9:nmod	Entity=(CESSCASTAA200002043836c19-organization-1-CorefType:ident,gstype:spec)
 13	para	para	ADP	sps00	_	16	case	16:case	_
 14	con	con	ADP	sps00	_	16	case	16:case	_
 15	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	16:det	Entity=(CESSCASTAA200002043836c30--2-CorefType:ident,gstype:gen
@@ -26374,7 +26374,7 @@
 3-4	del	_	_	_	_	_	_	_	_
 3	de	de	ADP	spcms	_	5	case	5:case	_
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
-5	Gobierno	Gobierno	PROPN	np00000	_	2	nmod	2:nmod	MWE=Gobierno_de_Navarra|MWEPOS=PROPN|Entity=(CESSCASTAA200003075124c20-organization-1-gstype:spec
+5	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	MWE=Gobierno_de_Navarra|MWEPOS=PROPN|Entity=(CESSCASTAA200003075124c20-organization-1-gstype:spec
 6	de	de	ADP	_	_	7	case	7:case	_
 7	Navarra	Navarra	PROPN	_	_	5	flat	5:flat	Entity=CESSCASTAA200003075124c20)|SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	Entity=(CESSCASTAA200003075124c1-person-2-CorefType:pred.definit,gstype:spec
@@ -26832,7 +26832,7 @@
 33-34	del	_	_	_	_	_	_	_	_
 33	de	de	ADP	spcms	_	35	case	35:case	_
 34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	35:det	_
-35	Gobierno	Gobierno	PROPN	np00000	_	32	nmod	32:nmod	MWE=Gobierno_de_Navarra|MWEPOS=PROPN|Entity=(CESSCASTAA200003075124c20-organization-1-CorefType:ident,gstype:spec
+35	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	32	nmod	32:nmod	MWE=Gobierno_de_Navarra|MWEPOS=PROPN|Entity=(CESSCASTAA200003075124c20-organization-1-CorefType:ident,gstype:spec
 36	de	de	ADP	_	_	37	case	37:case	_
 37	Navarra	Navarra	PROPN	_	_	35	flat	35:flat	Entity=CESSCASTAA200003075124c20)|SpaceAfter=No
 38	,	,	PUNCT	fc	PunctType=Comm	40	punct	40:punct	_
@@ -27590,7 +27590,7 @@
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	conj	5:conj	Entity=(CESSCASTAA200003108396c9--1-CorefType:ident,gstype:gen
 8	de	de	ADP	sps00	_	7	case	7:case	_
 9	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	10:det	Entity=(CESSCASTAA200003108396c2-organization-2-CorefType:ident,gstype:spec(CESSCASTAA200003108396c3-person-1-CorefType:ident,gstype:spec)
-10	Gobierno	Gobierno	PROPN	np00000	_	7	obj	7:obj	Entity=CESSCASTAA200003108396c2)CESSCASTAA200003108396c9)NOCOREF:Gen)
+10	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	7	obj	7:obj	Entity=CESSCASTAA200003108396c2)CESSCASTAA200003108396c9)NOCOREF:Gen)
 11-12	al	_	_	_	_	_	_	_	_
 11	a	a	ADP	spcms	_	13	mark	13:mark	_
 12	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	13:det	_
@@ -27680,7 +27680,7 @@
 39	,	,	PUNCT	fc	PunctType=Comm	42	punct	42:punct	_
 40	según	según	ADP	sps00	_	42	case	42:case	_
 41	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	42:det	Entity=(CESSCASTAA200003108396c2-organization-2-CorefType:ident,gstype:spec
-42	Gobierno	Gobierno	PROPN	np00000	_	45	obl	45:obl	MWE=Gobierno_Bondevik|MWEPOS=PROPN
+42	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	45	obl	45:obl	MWE=Gobierno_Bondevik|MWEPOS=PROPN
 43	Bondevik	Bondevik	PROPN	_	_	42	flat	42:flat	Entity=CESSCASTAA200003108396c2)|SpaceAfter=No
 44	,	,	PUNCT	fc	PunctType=Comm	42	punct	42:punct	_
 45	aumentará	aumentar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	acl:relcl	23:acl:relcl	_
@@ -27833,7 +27833,7 @@
 23.1	_	_	PRON	p	_	_	_	24:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200003108396c2-organization-1-CorefType:ident,gstype:spec)
 24	dejaríamos	dejar	VERB	vmic1p0	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	20	ccomp	20:ccomp	ArgTem=arg1:pat|Cxn=Conditional-NeutralEpistemic|CxnElt=24:Conditional-NeutralEpistemic.Apodosis@p
 25	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	Entity=(CESSCASTAA200003108396c2-organization-2-CorefType:ident,gstype:spec
-26	Gobierno	Gobierno	PROPN	np00000	_	24	obj	24:obj	ArgTem=arg1:pat|Entity=CESSCASTAA200003108396c2)
+26	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	24	obj	24:obj	ArgTem=arg1:pat|Entity=CESSCASTAA200003108396c2)
 27	si	si	SCONJ	cs	_	31	mark	31:mark	_
 28	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	Entity=(CESSCASTAA200003108396c5-organization-2-CorefType:ident,gstype:spec
 29	Storting	Storting	PROPN	np00000	_	31	nsubj	31:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA200003108396c5)
@@ -28143,7 +28143,7 @@
 9	desarrollada	desarrollado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	6	amod	6:amod	_
 10	por	por	ADP	sps00	_	12	case	12:case	_
 11	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
-12	Gobierno	Gobierno	PROPN	np00000	_	9	obl:agent	9:obl:agent	ArgTem=arg0:agt|Entity=NOCOREF:Spec.organization)
+12	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	9	obl:agent	9:obl:agent	ArgTem=arg0:agt|Entity=NOCOREF:Spec.organization)
 13	hacia	hacia	ADP	sps00	_	15	case	15:case	_
 14	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	15:det	Entity=(CESSCASTAA200003108552c1--2-CorefType:ident,gstype:gen
 15	jóvenes	joven	NOUN	nccp000	Number=Plur	6	nmod	6:nmod	Entity=CESSCASTAA200003108552c1)NOCOREF:Gen)|SpaceAfter=No
@@ -29762,7 +29762,7 @@
 9-10	al	_	_	_	_	_	_	_	_
 9	a	a	ADP	spcms	_	11	case	11:case	_
 10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	_
-11	Gobierno	Gobierno	PROPN	np00000	_	7	obl:arg	7:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTAA2000052621460c1-organization-1-gstype:spec
+11	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	7	obl:arg	7:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTAA2000052621460c1-organization-1-gstype:spec
 12	asturiano	asturiano	ADJ	aq0ms0	Gender=Masc|Number=Sing	11	amod	11:amod	Entity=CESSCASTAA2000052621460c1)
 13	a	a	ADP	sps00	_	15	mark	15:mark	_
 14	que	que	SCONJ	cs	_	15	mark	15:mark	Entity=(CESSCASTAA2000052621460c3--3
@@ -29957,7 +29957,7 @@
 14-15	del	_	_	_	_	_	_	_	_
 14	de	de	ADP	spcms	_	16	case	16:case	_
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
-16	Gobierno	Gobierno	PROPN	np00000	_	13	nmod	13:nmod	MWE=Gobierno_de_Galicia|MWEPOS=PROPN|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
+16	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	13	nmod	13:nmod	MWE=Gobierno_de_Galicia|MWEPOS=PROPN|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
 17	de	de	ADP	_	_	18	case	18:case	_
 18	Galicia	Galicia	PROPN	_	_	16	flat	16:flat	Entity=NOCOREF:Spec.organization)
 19	o	o	CCONJ	cc	_	22	cc	22:cc	_
@@ -30016,7 +30016,7 @@
 19	podía	poder	AUX	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	20:aux	_
 20	adoptar	adoptar	VERB	vmn0000	VerbForm=Inf	17	acl:relcl	17:acl:relcl	_
 21	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	Entity=(CESSCASTAA2000052621460c16-organization-2-gstype:spec
-22	Gobierno	Gobierno	PROPN	np00000	_	20	nsubj	20:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA2000052621460c16)
+22	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	20	nsubj	20:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA2000052621460c16)
 23	ante	ante	ADP	sps00	_	25	case	25:case	_
 24	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 25	aumento	aumento	NOUN	ncms000	Gender=Masc|Number=Sing	20	obl	20:obl	ArgTem=argM:adv
@@ -30083,7 +30083,7 @@
 36	hoy	hoy	ADV	rg	_	35	advmod	35:advmod	ArgTem=argM:tmp
 37	por	por	ADP	sps00	_	39	case	39:case	_
 38	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	Entity=(CESSCASTAA2000052621460c16-organization-2-CorefType:ident,gstype:spec
-39	Gobierno	Gobierno	PROPN	np00000	_	35	obl:agent	35:obl:agent	ArgTem=arg0:agt|Entity=CESSCASTAA2000052621460c16)|SpaceAfter=No
+39	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	35	obl:agent	35:obl:agent	ArgTem=arg0:agt|Entity=CESSCASTAA2000052621460c16)|SpaceAfter=No
 40	,	,	PUNCT	fc	PunctType=Comm	44	punct	44:punct	_
 41	pero	pero	CCONJ	cc	_	44	cc	44:cc	_
 42	que	que	PRON	pr0cn000	PronType=Rel	44	nsubj	44:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000052621460c15-organization-1-CorefType:ident,gstype:spec)
@@ -30107,7 +30107,7 @@
 1	Agregó	agregar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 2	que	que	SCONJ	cs	_	8	mark	8:mark	_
 3	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	Entity=(CESSCASTAA2000052621460c16-organization-2-CorefType:ident,gstype:spec
-4	Gobierno	Gobierno	PROPN	np00000	_	8	nsubj	8:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA2000052621460c16)
+4	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA2000052621460c16)
 5	"	"	PUNCT	fe	PunctType=Quot	8	punct	8:punct	SpaceAfter=No
 6	debería	deber	AUX	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	aux	8:aux	_
 7	también	también	ADV	rg	_	8	advmod	8:advmod	_
@@ -30154,7 +30154,7 @@
 48-49	al	_	_	_	_	_	_	_	_
 48	a	a	ADP	spcms	_	50	case	50:case	_
 49	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	50:det	_
-50	Gobierno	Gobierno	PROPN	np00000	_	44	obl:arg	44:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA2000052621460c16-organization-1-CorefType:ident,gstype:spec)CESSCASTAA2000052621460c19)CESSCASTAA2000052621460c18)NOCOREF:Gen)|SpaceAfter=No
+50	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	44	obl:arg	44:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA2000052621460c16-organization-1-CorefType:ident,gstype:spec)CESSCASTAA2000052621460c19)CESSCASTAA2000052621460c18)NOCOREF:Gen)|SpaceAfter=No
 51	"	"	PUNCT	fe	PunctType=Quot	8	punct	8:punct	SpaceAfter=No
 52	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
 
@@ -30223,7 +30223,7 @@
 6-7	del	_	_	_	_	_	_	_	_
 6	de	de	ADP	spcms	_	8	case	8:case	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
-8	Gobierno	Gobierno	PROPN	np00000	_	5	nmod	5:nmod	Entity=(CESSCASTAA200006086438c11-organization-1-gstype:spec)CESSCASTAA200006086438c5)|SpaceAfter=No
+8	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	5:nmod	Entity=(CESSCASTAA200006086438c11-organization-1-gstype:spec)CESSCASTAA200006086438c5)|SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	Entity=(CESSCASTAA200006086438c1-person-2-CorefType:pred.definit,gstype:spec
 10	Ana	Ana	PROPN	np00000	_	2	appos	2:appos	MWE=Ana_Botella|MWEPOS=PROPN
 11	Botella	Botella	PROPN	_	_	10	flat	10:flat	SpaceAfter=No
@@ -30513,7 +30513,7 @@
 34-35	al	_	_	_	_	_	_	_	_
 34	a	a	ADP	spcms	_	36	case	36:case	_
 35	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	36:det	_
-36	Gobierno	Gobierno	PROPN	np00000	_	33	obl:arg	33:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA200006086438c11-organization-1-CorefType:ident,gstype:spec)
+36	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	33	obl:arg	33:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA200006086438c11-organization-1-CorefType:ident,gstype:spec)
 37	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	38	det	38:det	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTAA200006086438c1-person-1-CorefType:ident,gstype:spec)
 38	aspiración	aspiración	NOUN	ncfs000	Gender=Fem|Number=Sing	33	obj	33:obj	ArgTem=arg1:pat
 39	de	de	ADP	sps00	_	41	case	41:case	_
@@ -30933,7 +30933,7 @@
 14-15	del	_	_	_	_	_	_	_	_
 14	de	de	ADP	spcms	_	16	case	16:case	_
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
-16	Gobierno	Gobierno	PROPN	np00000	_	13	nmod	13:nmod	Entity=(CESSCASTAA200006086438c11-organization-1-CorefType:ident,gstype:spec)CESSCASTAA200006086438c5)NOCOREF:Gen)CESSCASTAA200006086438c22)|SpaceAfter=No
+16	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	13	nmod	13:nmod	Entity=(CESSCASTAA200006086438c11-organization-1-CorefType:ident,gstype:spec)CESSCASTAA200006086438c5)NOCOREF:Gen)CESSCASTAA200006086438c22)|SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
 18	pero	pero	CCONJ	cc	_	22	cc	22:cc	_
 18.1	_	_	PRON	p	_	_	_	22:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200006086438c22-person-1-CorefType:ident,gstype:spec)
@@ -34495,7 +34495,7 @@
 # text = El Gobierno espera mantener la vida media de la deuda en los niveles actuales el próximo año, en línea con los del resto de Europa, teniendo en cuenta que las previsiones de tipos para el 2001 descontadas por los mercados apuntan a subidas adicionales de los tipos a corto y algo menores a medio y largo plazo.
 # orig_file_sentence 007#66
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTAA2000092824050c13-organization-2-CorefType:ident,gstype:spec
-2	Gobierno	Gobierno	PROPN	np00000	_	3	nsubj	3:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA2000092824050c13)
+2	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	3:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA2000092824050c13)
 3	espera	esperar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	mantener	mantener	VERB	vmn0000	VerbForm=Inf	3	xcomp	3:xcomp	ArgTem=arg1:pat
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -38752,7 +38752,7 @@
 19	lograr	lograr	VERB	vmn0000	VerbForm=Inf	9	advcl	9:advcl	ArgTem=argM:mnr
 20	que	que	SCONJ	cs	_	25	mark	25:mark	_
 21	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	Entity=(CESSCASTP1998120126c16-organization-2-gstype:spec
-22	Gobierno	Gobierno	PROPN	np00000	_	25	nsubj	25:nsubj	ArgTem=arg0:agt
+22	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	25	nsubj	25:nsubj	ArgTem=arg0:agt
 23	británico	británico	ADJ	aq0ms0	Gender=Masc|Number=Sing	22	amod	22:amod	Entity=CESSCASTP1998120126c16)
 24	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	25	obj	25:obj	_
 25	comprometiera	comprometer	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	ccomp	19:ccomp	ArgTem=arg1:pat
@@ -38961,7 +38961,7 @@
 32-33	al	_	_	_	_	_	_	_	_
 32	a	a	ADP	spcms	_	34	case	34:case	_
 33	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	34:det	_
-34	Gobierno	Gobierno	PROPN	np00000	_	31	obj	31:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
+34	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	31	obj	31:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
 35	de	de	ADP	sps00	_	36	case	36:case	_
 36	Salvador	Salvador	PROPN	np00000	_	34	nmod	34:nmod	MWE=Salvador_Allende|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 37	Allende	Allende	PROPN	_	_	36	flat	36:flat	Entity=NOCOREF:Spec.person)NOCOREF:Spec.organization)
@@ -38985,7 +38985,7 @@
 4-5	del	_	_	_	_	_	_	_	_
 4	de	de	ADP	spcms	_	6	case	6:case	_
 5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
-6	Gobierno	Gobierno	PROPN	np00000	_	3	nmod	3:nmod	Entity=(CESSCASTP1998120126c16-organization-1-CorefType:ident,gstype:spec
+6	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	3	nmod	3:nmod	Entity=(CESSCASTP1998120126c16-organization-1-CorefType:ident,gstype:spec
 7	británico	británico	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	amod	6:amod	Entity=CESSCASTP1998120126c16)
 8	en	en	ADP	sps00	_	9	mark	9:mark	_
 9	recibir	recibir	VERB	vmn0000	VerbForm=Inf	3	acl	3:acl	_
@@ -39384,7 +39384,7 @@
 18	sufriría	sufrir	VERB	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 19	paralelamente	paralelamente	ADV	rg	_	18	advmod	18:advmod	ArgTem=argM:adv
 20	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	21:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP1998120232c2-person-1-CorefType:ident,gstype:spec)
-21	Gobierno	Gobierno	PROPN	np00000	_	18	nsubj	18:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)CESSCASTP1998120232c8)|SpaceAfter=No
+21	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	18	nsubj	18:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)CESSCASTP1998120232c8)|SpaceAfter=No
 22	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	Entity=CESSCASTP1998120232c9)
 
 # sent_id = CESS-CAST-P-19981202-32-s7
@@ -39927,7 +39927,7 @@
 # text = El Gobierno prometió una nueva política laboral para mantener en sus empleos a los mayores de 65 años que no deseen jubilarse.
 # orig_file_sentence 011#25
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTP1999020211c10--3(CESSCASTP1999020211c19-organization-2-gstype:spec
-2	Gobierno	Gobierno	PROPN	np00000	_	3	nsubj	3:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP1999020211c19)
+2	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	3:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP1999020211c19)
 3	prometió	prometer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 4	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(NOCOREF:Gen--3-gstype:gen
 5	nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	6	amod	6:amod	_
@@ -40009,7 +40009,7 @@
 16-17	al	_	_	_	_	_	_	_	_
 16	a	a	ADP	spcms	_	18	case	18:case	_
 17	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	18:det	_
-18	Gobierno	Gobierno	PROPN	np00000	_	15	obl	15:obl	ArgTem=arg2:loc|Entity=(CESSCASTP1999020211c19-organization-1-CorefType:ident,gstype:spec)|SpaceAfter=No
+18	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	15	obl	15:obl	ArgTem=arg2:loc|Entity=(CESSCASTP1999020211c19-organization-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 19	.	.	PUNCT	fp	PunctType=Peri	5	punct	5:punct	Entity=CESSCASTP1999020211c13)
 
 # sent_id = CESS-CAST-P-19990202-11-s18
@@ -40155,7 +40155,7 @@
 6-7	del	_	_	_	_	_	_	_	_
 6	de	de	ADP	spcms	_	8	case	8:case	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
-8	Gobierno	Gobierno	PROPN	np00000	_	5	nmod	5:nmod	Entity=(CESSCASTP1999020211c19-organization-1-CorefType:ident,gstype:spec)CESSCASTP1999020211c18)
+8	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	5:nmod	Entity=(CESSCASTP1999020211c19-organization-1-CorefType:ident,gstype:spec)CESSCASTP1999020211c18)
 9	corresponde	corresponder	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 10	predicar	predicar	VERB	vmn0000	VerbForm=Inf	9	csubj	9:csubj	ArgTem=arg1:tem
 11	con	con	ADP	sps00	_	13	case	13:case	_
@@ -42481,7 +42481,7 @@
 8-9	al	_	_	_	_	_	_	_	_
 8	a	a	ADP	spcms	_	10	case	10:case	_
 9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	_
-10	Gobierno	Gobierno	PROPN	np00000	_	7	obl:arg	7:obl:arg	ArgTem=arg2:ben|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)
+10	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	7	obl:arg	7:obl:arg	ArgTem=arg2:ben|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)
 11	medidas	medida	NOUN	ncfp000	Gender=Fem|Number=Plur	7	obj	7:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen)
 12	para	para	ADP	sps00	_	13	mark	13:mark	_
 13	luchar	luchar	VERB	vmn0000	VerbForm=Inf	7	advcl	7:advcl	ArgTem=argM:fin
@@ -42589,7 +42589,7 @@
 33-34	del	_	_	_	_	_	_	_	_
 33	de	de	ADP	spcms	_	35	case	35:case	_
 34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	35:det	_
-35	Gobierno	Gobierno	PROPN	np00000	_	32	nmod	32:nmod	ArgTem=arg1:pat|Entity=(CESSCASTP1999060149_ac6-organization-1-gstype:spec)CESSCASTP1999060149_ac4)NOCOREF:Gen)CESSCASTP1999060149_ac2)|SpaceAfter=No
+35	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	32	nmod	32:nmod	ArgTem=arg1:pat|Entity=(CESSCASTP1999060149_ac6-organization-1-gstype:spec)CESSCASTP1999060149_ac4)NOCOREF:Gen)CESSCASTP1999060149_ac2)|SpaceAfter=No
 36	.	.	PUNCT	fp	PunctType=Peri	11	punct	11:punct	_
 
 # sent_id = CESS-CAST-P-19990601-49_a-s3
@@ -44210,7 +44210,7 @@
 13-14	del	_	_	_	_	_	_	_	_
 13	de	de	ADP	spcms	_	12	case	12:case	_
 14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	_
-15	Gobierno	Gobierno	PROPN	np00000	_	12	obj	12:obj	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)NOCOREF:Gen)CESSCASTP1999060219_ac22)|SpaceAfter=No
+15	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	12	obj	12:obj	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)NOCOREF:Gen)CESSCASTP1999060219_ac22)|SpaceAfter=No
 16	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = CESS-CAST-P-19990602-19_a-s56
@@ -44361,7 +44361,7 @@
 18-19	del	_	_	_	_	_	_	_	_
 18	de	de	ADP	spcms	_	20	case	20:case	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	_
-20	Gobierno	gobierno	PROPN	np00000	_	15	nmod	15:nmod	ArgTem=arg1:pat|Entity=(CESSCASTP1999060219_ac42-organization-1-CorefType:ident,gstype:spec
+20	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	15	nmod	15:nmod	ArgTem=arg1:pat|Entity=(CESSCASTP1999060219_ac42-organization-1-CorefType:ident,gstype:spec
 21	autonómico	autonómico	ADJ	aq0ms0	Gender=Masc|Number=Sing	20	amod	20:amod	Entity=CESSCASTP1999060219_ac42)NOCOREF:Gen)|SpaceAfter=No
 22	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
 
@@ -45140,7 +45140,7 @@
 36	conversaciones	conversación	NOUN	ncfp000	Gender=Fem|Number=Plur	33	nmod	33:nmod	ArgTem=arg1:tem
 37	entre	entre	ADP	sps00	_	39	case	39:case	_
 38	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	Entity=(CESSCASTP1999090136c11--2-gstype:gen(CESSCASTP1999090136c10-organization-2-gstype:spec
-39	Gobierno	Gobierno	PROPN	np00000	_	36	nmod	36:nmod	ArgTem=arg0:agt
+39	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	36	nmod	36:nmod	ArgTem=arg0:agt
 40	central	central	ADJ	aq0cs0	Number=Sing	39	amod	39:amod	Entity=CESSCASTP1999090136c10)
 41	y	y	CCONJ	cc	_	42	cc	42:cc	_
 42	ETA	ETA	PROPN	np00000	_	39	conj	39:conj	Entity=(CESSCASTP1999090136c3-organization-1-CorefType:ident,gstype:spec)CESSCASTP1999090136c11)CESSCASTP1999090136c7)CESSCASTP1999090136c23)|SpaceAfter=No
@@ -45227,7 +45227,7 @@
 20	Deben	deber	AUX	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
 21	dialogar	dialogar	VERB	vmn0000	VerbForm=Inf	5	advcl	5:advcl	_
 22	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCASTP1999090136c11--2-CorefType:ident,gstype:gen(CESSCASTP1999090136c10-organization-2-CorefType:ident,gstype:spec
-23	Gobierno	Gobierno	PROPN	np00000	_	21	nsubj	21:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP1999090136c10)
+23	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	21	nsubj	21:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP1999090136c10)
 24	y	y	CCONJ	cc	_	25	cc	25:cc	_
 25	ETA	ETA	PROPN	np00000	_	23	conj	23:conj	Entity=(CESSCASTP1999090136c3-organization-1-CorefType:ident,gstype:spec)CESSCASTP1999090136c11)|SpaceAfter=No
 26	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
@@ -45888,7 +45888,7 @@
 55-56	del	_	_	_	_	_	_	_	_
 55	de	de	ADP	spcms	_	57	case	57:case	_
 56	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	57:det	_
-57	Gobierno	Gobierno	PROPN	np00000	_	54	nmod	54:nmod	Entity=(CESSCASTP1999090284c21-organization-1-gstype:spec
+57	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	54	nmod	54:nmod	Entity=(CESSCASTP1999090284c21-organization-1-gstype:spec
 58	de	de	ADP	sps00	_	59	case	59:case	_
 59	José	José	PROPN	np00000	_	57	nmod	57:nmod	MWE=José_María_Aznar|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 60	María	María	PROPN	_	_	59	flat	59:flat	_
@@ -45917,7 +45917,7 @@
 8	conseguido	conseguir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	ccomp	26:ccomp	ArgTem=arg2:atr
 9	que	que	SCONJ	cs	_	13	mark	13:mark	_
 10	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	Entity=(CESSCASTP1999090284c21-organization-2-CorefType:ident,gstype:spec
-11	Gobierno	Gobierno	PROPN	np00000	_	13	nsubj	13:nsubj	ArgTem=arg0:agt
+11	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	13	nsubj	13:nsubj	ArgTem=arg0:agt
 12	central	central	ADJ	aq0cs0	Number=Sing	11	amod	11:amod	Entity=CESSCASTP1999090284c21)
 13	aceptase	aceptar	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	8:ccomp	ArgTem=arg1:pat
 14	adelantar	adelantar	VERB	vmn0000	VerbForm=Inf	13	xcomp	13:xcomp	ArgTem=arg1:pat
@@ -48189,7 +48189,7 @@
 3-4	al	_	_	_	_	_	_	_	_
 3	a	a	ADP	spcms	_	5	case	5:case	_
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
-5	Gobierno	Gobierno	PROPN	np00000	_	2	obl:arg	2:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTP1999120171_ac5-organization-1-gstype:spec)
+5	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	2	obl:arg	2:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTP1999120171_ac5-organization-1-gstype:spec)
 6	que	que	SCONJ	cs	_	8	mark	8:mark	_
 6.1	_	_	PRON	p	_	_	_	8:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999120171_ac5-organization-1-CorefType:ident,gstype:spec)
 7	no	no	ADV	rn	Polarity=Neg	8	advmod	8:advmod	_
@@ -48725,7 +48725,7 @@
 # text = El Gobierno ruso ha pedido oficialmente que la diplomática abandone el país.
 # orig_file_sentence 015#13
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTP1999120235c8-organization-2-CorefType:ident,gstype:spec
-2	Gobierno	Gobierno	PROPN	np00000	_	5	nsubj	5:nsubj	ArgTem=arg0:agt
+2	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg0:agt
 3	ruso	ruso	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	amod	2:amod	Entity=CESSCASTP1999120235c8)
 4	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5	pedido	pedir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -49028,7 +49028,7 @@
 15-16	del	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	13	fixed	13:fixed	_
 16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	_
-17	Gobierno	Gobierno	PROPN	np00000	_	11	obl:agent	11:obl:agent	ArgTem=arg0:agt|Entity=(CESSCASTP2000020123_ac4-organization-1-gstype:spec)|SpaceAfter=No
+17	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	11	obl:agent	11:obl:agent	ArgTem=arg0:agt|Entity=(CESSCASTP2000020123_ac4-organization-1-gstype:spec)|SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
 19	nuevos	nuevo	ADJ	aq0mp0	Gender=Masc|Number=Plur	20	amod	20:amod	_
 20	miles	mil	NOUN	ncmp000	Gender=Masc|Number=Plur	8	obj	8:obj	ArgTem=arg1:pat
@@ -49079,7 +49079,7 @@
 35	ya	ya	ADV	cs	ExtPos=SCONJ	41	mark	41:mark	MWE=ya_que|MWEPOS=SCONJ
 36	que	que	SCONJ	_	_	35	fixed	35:fixed	_
 37	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	Entity=(CESSCASTP2000020123_ac4-organization-2-CorefType:ident,gstype:spec
-38	Gobierno	Gobierno	PROPN	np00000	_	41	nsubj	41:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2000020123_ac4)
+38	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	41	nsubj	41:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2000020123_ac4)
 39	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	41	expl:pv	41:expl:pv	_
 40	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	41:aux	_
 41	limitando	limitar	VERB	vmg0000	VerbForm=Ger	14	advcl	14:advcl	ArgTem=argM:cau
@@ -49234,7 +49234,7 @@
 3-4	del	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	5:case	_
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
-5	Gobierno	Gobierno	PROPN	_	_	2	flat	2:flat	Entity=NOCOREF:Spec.organization)
+5	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	2	flat	2:flat	Entity=NOCOREF:Spec.organization)
 6	multará	multar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 7	a	a	ADP	sps00	_	10	case	10:case	_
 8	10	10	NUM	_	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(CESSCASTP2000020173_bc1--3-gstype:gen
@@ -52475,7 +52475,7 @@
 18	Estado	Estado	PROPN	np00000	_	16	nmod	16:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)
 19	y	y	CCONJ	cc	_	21	cc	21:cc	_
 20	de	de	ADP	sps00	_	21	case	21:case	_
-21	Gobierno	Gobierno	PROPN	np00000	_	18	conj	18:conj	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)NOCOREF:Gen)NOCOREF:Spec.other)
+21	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	18	conj	18:conj	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)NOCOREF:Gen)NOCOREF:Spec.other)
 22	recuerda	recordar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 23	que	que	SCONJ	cs	_	30	mark	30:mark	_
 24	"	"	PUNCT	fe	PunctType=Quot	30	punct	30:punct	SpaceAfter=No
@@ -52617,7 +52617,7 @@
 5-6	del	_	_	_	_	_	_	_	_
 5	de	de	ADP	spcms	_	7	case	7:case	_
 6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
-7	Gobierno	Gobierno	PROPN	np00000	_	2	nmod	2:nmod	MWE=Gobierno_Vasco|MWEPOS=PROPN|Entity=(CESSCASTP2000070193c6-organization-1-gstype:spec
+7	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	MWE=Gobierno_Vasco|MWEPOS=PROPN|Entity=(CESSCASTP2000070193c6-organization-1-gstype:spec
 8	Vasco	Vasco	PROPN	_	_	7	flat	7:flat	Entity=CESSCASTP2000070193c6)|SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	Entity=(CESSCASTP2000070193c1-person-2-CorefType:pred.definit,gstype:spec
 10	Josu	Josu	PROPN	np00000	_	2	appos	2:appos	MWE=Josu_Jon_Imaz|MWEPOS=PROPN
@@ -52748,7 +52748,7 @@
 9	presentados	presentado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	8	amod	8:amod	_
 10	por	por	ADP	sps00	_	12	case	12:case	_
 11	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
-12	Gobierno	Gobierno	PROPN	np00000	_	9	obl:agent	9:obl:agent	ArgTem=arg0:agt|Entity=NOCOREF:Spec.organization)NOCOREF:Gen)
+12	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	9	obl:agent	9:obl:agent	ArgTem=arg0:agt|Entity=NOCOREF:Spec.organization)NOCOREF:Gen)
 13	y	y	CCONJ	cc	_	14	cc	14:cc	_
 13.1	_	_	PRON	p	_	_	_	14:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000070193c2-organization-1-CorefType:ident,gstype:spec)
 14	votó	votar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj	_
@@ -52871,7 +52871,7 @@
 5-6	del	_	_	_	_	_	_	_	_
 5	de	de	ADP	spcms	_	7	case	7:case	_
 6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
-7	Gobierno	Gobierno	PROPN	np00000	_	4	nmod	4:nmod	ArgTem=arg0:cau|Entity=(CESSCASTP2000070193c6-organization-1-CorefType:ident,gstype:spec
+7	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	4	nmod	4:nmod	ArgTem=arg0:cau|Entity=(CESSCASTP2000070193c6-organization-1-CorefType:ident,gstype:spec
 8	vasco	vasco	ADJ	aq0ms0	Gender=Masc|Number=Sing	7	amod	7:amod	Entity=CESSCASTP2000070193c6)
 9	a	a	ADP	sps00	_	11	case	11:case	_
 10	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	Entity=(CESSCASTP2000070193c7--2-CorefType:ident,gstype:gen,HomoDD
@@ -53324,7 +53324,7 @@
 15-16	al	_	_	_	_	_	_	_	_
 15	a	a	ADP	spcms	_	17	case	17:case	_
 16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	_
-17	Gobierno	gobierno	PROPN	np00000	_	10	obl:arg	10:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTP2000080226c10-organization-1-gstype:spec
+17	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	10	obl:arg	10:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTP2000080226c10-organization-1-gstype:spec
 18	socialista	socialista	ADJ	aq0cs0	Number=Sing	17	amod	17:amod	_
 19	de	de	ADP	sps00	_	20	case	20:case	_
 20	Lionel	Lionel	PROPN	np00000	_	17	nmod	17:nmod	MWE=Lionel_Jospin|MWEPOS=PROPN|Entity=(CESSCASTP2000080226c11-person-1-gstype:spec
@@ -53490,7 +53490,7 @@
 15	señaló	señalar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 16	que	que	SCONJ	cs	_	20	mark	20:mark	_
 17	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	18:det	Entity=(CESSCASTP2000080226c22-organization-2-gstype:spec
-18	Gobierno	Gobierno	PROPN	np00000	_	20	nsubj	20:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2000080226c22)
+18	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	20	nsubj	20:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2000080226c22)
 19	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
 20	dialogado	dialogar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	ccomp	15:ccomp	ArgTem=arg1:pat
 21	con	con	ADP	sps00	_	23	case	23:case	_
@@ -53601,7 +53601,7 @@
 8	propuesto	propuesto	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	2	amod	2:amod	_
 9	por	por	ADP	sps00	_	11	case	11:case	_
 10	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	Entity=(CESSCASTP2000080226c10-organization-2-CorefType:ident,gstype:spec
-11	Gobierno	Gobierno	PROPN	np00000	_	8	obl:agent	8:obl:agent	ArgTem=arg0:agt
+11	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	8	obl:agent	8:obl:agent	ArgTem=arg0:agt
 12	de	de	ADP	sps00	_	13	case	13:case	_
 13	Jospin	Jospin	PROPN	np00000	_	11	nmod	11:nmod	Entity=(CESSCASTP2000080226c11-person-1-CorefType:ident,gstype:spec)CESSCASTP2000080226c10)
 14	y	y	CCONJ	cc	_	15	cc	15:cc	_
@@ -53697,7 +53697,7 @@
 # text = El Gobierno ha prometido presentar al Parlamento este otoño un proyecto de ley sobre las primeras medidas del plan, que no requieren una revisión constitucional.
 # orig_file_sentence 014#13
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTP2000080226c24--4(CESSCASTP2000080226c22-organization-2-CorefType:ident,gstype:spec
-2	Gobierno	Gobierno	PROPN	np00000	_	4	nsubj	4:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2000080226c22)
+2	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2000080226c22)
 3	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	prometido	prometer	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 5	presentar	presentar	VERB	vmn0000	VerbForm=Inf	4	xcomp	4:xcomp	ArgTem=arg1:pat
@@ -53773,7 +53773,7 @@
 37-38	del	_	_	_	_	_	_	_	_
 37	de	de	ADP	spcms	_	39	case	39:case	_
 38	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	_
-39	Gobierno	Gobierno	NOUN	np00000	_	36	nmod	36:nmod	Entity=(CESSCASTP2000080226c10-organization-1-CorefType:ident,gstype:spec)|SpaceAfter=No
+39	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	36	nmod	36:nmod	Entity=(CESSCASTP2000080226c10-organization-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 40	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	Entity=(CESSCASTP2000080226c23-person-2-CorefType:pred.definit,gstype:spec
 41	Daniel	Daniel	PROPN	np00000	_	36	appos	36:appos	MWE=Daniel_Vaillant|MWEPOS=PROPN
 42	Vaillant	Vaillant	PROPN	_	_	41	flat	41:flat	Entity=CESSCASTP2000080226c23)CESSCASTP2000080226c23)|SpaceAfter=No
@@ -53804,7 +53804,7 @@
 19-20	del	_	_	_	_	_	_	_	_
 19	de	de	ADP	spcms	_	21	case	21:case	_
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	21:det	_
-21	Gobierno	Gobierno	PROPN	np00000	_	18	nmod	18:nmod	Entity=(CESSCASTP2000080226c22-organization-1-CorefType:ident,gstype:spec)CESSCASTP2000080226c21)NOCOREF:Gen)
+21	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	18	nmod	18:nmod	Entity=(CESSCASTP2000080226c22-organization-1-CorefType:ident,gstype:spec)CESSCASTP2000080226c21)NOCOREF:Gen)
 22	antes	antes	ADV	rg	_	11	advmod	11:advmod	ArgTem=argM:tmp
 23	de	de	ADP	sps00	_	25	case	25:case	_
 24	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	25:det	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP2000080226c21-other-1-CorefType:ident,gstype:spec)
@@ -53841,7 +53841,7 @@
 4	Chevènement	Chevènement	PROPN	np00000	_	2	nmod	2:nmod	Entity=(CESSCASTP2000080226c17-person-1-CorefType:ident,gstype:spec)
 5	en	en	ADP	sps00	_	7	case	7:case	_
 6	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	Entity=(CESSCASTP2000080226c22-organization-2-CorefType:ident,gstype:spec
-7	Gobierno	Gobierno	PROPN	np00000	_	2	nmod	2:nmod	Entity=CESSCASTP2000080226c22)NOCOREF:Gen)
+7	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	Entity=CESSCASTP2000080226c22)NOCOREF:Gen)
 8	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 9	en	en	ADP	rg	_	10	case	10:case	MWE=en_suspenso|MWEPOS=ADV|ArgTem=arg2:atr
 10	suspenso	suspenso	NOUN	_	_	0	root	0:root	_
@@ -60622,7 +60622,7 @@
 1	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	4	punct	4:punct	SpaceAfter=No
 2	Con	con	ADP	sps00	_	4	case	4:case	_
 3	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	Entity=(CESSCASTP2002010334c27-organization-2-gstype:spec
-4	Gobierno	Gobierno	PROPN	np00000	_	0	root	0:root	_
+4	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	_
 5	que	que	PRON	pr0cn000	PronType=Rel	6	obj	6:obj	ArgTem=arg2:atr|Entity=(CESSCASTP2002010334c27-organization-1-CorefType:ident,gstype:spec)
 6	tenemos	tener	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	Entity=CESSCASTP2002010334c27)|SpaceAfter=No
 7	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	4	punct	4:punct	SpaceAfter=No
@@ -62689,7 +62689,7 @@
 # text = El Gobierno de Estados Unidos transfirió ayer formalmente la emisora de Radio Liberty a Radio Nacional de España, que ahora gestiona la instalación.
 # orig_file_sentence 014#43
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTP2002080130_gc39--6(NOCOREF:Spec.organization-organization-2-gstype:spec
-2	Gobierno	Gobierno	PROPN	np00000	_	6	nsubj	6:nsubj	ArgTem=arg0:agt
+2	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	6	nsubj	6:nsubj	ArgTem=arg0:agt
 3	de	de	ADP	sps00	_	4	case	4:case	_
 4	Estados	Estados	PROPN	np00000	_	2	nmod	2:nmod	MWE=Estados_Unidos|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 5	Unidos	Unidos	PROPN	_	_	4	flat	4:flat	Entity=NOCOREF:Spec.location)NOCOREF:Spec.organization)
