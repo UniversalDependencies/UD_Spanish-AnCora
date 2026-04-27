@@ -3701,8 +3701,8 @@
 2	científicos	científico	NOUN	ncmp000	Gender=Masc|Number=Plur	3	nsubj	3:nsubj	ArgTem=arg1:tem
 3	parecen	parecer	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	estar	estar	AUX	vmn0000	VerbForm=Inf	8	cop	8:cop	ArgTem=arg2:atr
-5	hoy	hoy	NOUN	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=hoy_día|MWEPOS=ADV|ArgTem=argM:tmp
-6	día	día	NOUN	_	_	5	fixed	5:fixed	_
+5	hoy	hoy	ADV	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=hoy_día|MWEPOS=ADV|ArgTem=argM:tmp
+6	día	día	NOUN	ncms000	Gender=Masc|Number=Sing	5	fixed	5:fixed	_
 7	de	de	ADP	rg	_	8	case	8:case	MWE=de_acuerdo|MWEPOS=ADV|ArgTem=arg2:atr
 8	acuerdo	acuerdo	NOUN	_	_	3	ccomp	3:ccomp	_
 9	en	en	ADP	sps00	_	14	mark	14:mark	_
@@ -11602,8 +11602,8 @@
 31.1	_	_	PRON	p	_	_	_	33:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000021714234c16--1-CorefType:ident,gstype:gen)
 32	"	"	PUNCT	fe	PunctType=Quot	33	punct	33:punct	SpaceAfter=No
 33	constituyen	constituir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl	ArgTem=argM:cau
-34	hoy	hoy	NOUN	rg	ExtPos=ADV	33	advmod	33:advmod	MWE=hoy_día|MWEPOS=ADV|ArgTem=argM:tmp
-35	día	día	NOUN	_	_	34	fixed	34:fixed	_
+34	hoy	hoy	ADV	rg	ExtPos=ADV	33	advmod	33:advmod	MWE=hoy_día|MWEPOS=ADV|ArgTem=argM:tmp
+35	día	día	NOUN	ncms000	Gender=Masc|Number=Sing	34	fixed	34:fixed	_
 36	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 37	primer	primero	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	38	amod	38:amod	_
 38	instrumento	instrumento	NOUN	ncms000	Gender=Masc|Number=Sing	33	obj	33:obj	ArgTem=arg2:atr
