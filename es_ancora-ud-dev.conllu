@@ -2033,7 +2033,7 @@
 5	enrabietado	enrabietado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	3	conj	3:conj	SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 7	bastante	bastante	ADV	rg	_	8	advmod	8:advmod	_
-8	cochambrosete	cochambrosete	ADJ	aq0cs0	Gender=Masc|Number=Sing	2	amod	2:amod	SpaceAfter=No
+8	cochambrosete	cochambrosete	ADJ	aq0cs0	Number=Sing	2	amod	2:amod	SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 10	que	que	PRON	pr0cn000	PronType=Rel	11	obj	11:obj	ArgTem=arg1:pat
 11	hizo	hacer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_

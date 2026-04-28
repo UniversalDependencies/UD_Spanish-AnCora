@@ -46811,7 +46811,7 @@
 1	Ramon	Ramon	PROPN	np00000	_	4	nsubj	4:nsubj	MWE=Ramon_Teixidor|MWEPOS=PROPN|ArgTem=arg1:tem|Entity=(CESSCASTP19991002101c2-person-1-CorefType:ident,gstype:spec
 2	Teixidor	Teixidor	PROPN	_	_	1	flat	1:flat	Entity=CESSCASTP19991002101c2)
 3	estará	estar	AUX	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	4:cop	_
-4	presente	presente	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	0:root	ArgTem=arg2:atr
+4	presente	presente	ADJ	aq0ms0	Number=Sing	0	root	0:root	ArgTem=arg2:atr
 5	en	en	ADP	sps00	_	7	case	7:case	_
 6	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	Entity=(CESSCASTP19991002101c1--2-CorefType:ident,gstype:gen
 7	acto	acto	NOUN	ncms000	Gender=Masc|Number=Sing	4	nmod	4:nmod	Entity=CESSCASTP19991002101c1)
