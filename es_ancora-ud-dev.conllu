@@ -61779,7 +61779,7 @@
 20	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	SpaceAfter=No
 21	tregua	tregua	NOUN	ncfs000	Gender=Fem|Number=Sing	18	obj	18:obj	ArgTem=arg1:pat
 22	de	de	ADP	aq0cn0	_	23	case	23:case	MWE=de_hecho|MWEPOS=ADJ
-23	hecho	hecho	ADJ	_	_	21	amod	21:amod	SpaceAfter=No
+23	hecho	hecho	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	21	amod	21:amod	SpaceAfter=No
 24	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	Entity=NOCOREF:Gen)CESSCASTP2002080117c1)|SpaceAfter=No
 25	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
