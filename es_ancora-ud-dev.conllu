@@ -10407,7 +10407,7 @@
 26	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	Entity=(CESSCASTA2000031512633c8--2-gstype:gen,HomoDD
 27	relación	relación	NOUN	ncfs000	Gender=Fem|Number=Sing	2	conj	2:conj	_
 28	dólar-marco	dólar-marco	ADJ	aq0cs0	_	27	amod	27:amod	MWE=dólar-marco_alemán|MWEPOS=ADJ|ArgTem=arg1:pat
-29	alemán	alemán	ADJ	_	_	28	amod	28:amod	Entity=CESSCASTA2000031512633c8)|SpaceAfter=No
+29	alemán	alemán	ADJ	aq0ms0	Gender=Masc|Number=Sing	28	amod	28:amod	Entity=CESSCASTA2000031512633c8)|SpaceAfter=No
 30	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	Entity=CESSCASTA2000031512633c25)
 31	fueron	ser	AUX	vsis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	33	cop	33:cop	_
 32	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	33:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
