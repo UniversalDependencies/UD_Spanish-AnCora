@@ -61621,7 +61621,7 @@
 9	endurecer	endurecer	VERB	vmn0000	VerbForm=Inf	7	xcomp	7:xcomp	_
 10	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	11:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 11	medidas	medida	NOUN	ncfp000	Gender=Fem|Number=Plur	7	nsubj	7:nsubj	ArgTem=arg1:pat
-12	antidopaje	antidopaje	ADJ	aq0mn0	Gender=Masc	11	amod	11:amod	Entity=NOCOREF:Gen)
+12	antidopaje	antidopaje	ADJ	aq0mn0	_	11	amod	11:amod	Entity=NOCOREF:Gen)
 13	en	en	ADP	sps00	_	14	case	14:case	_
 14	España	España	PROPN	np00000	_	9	obl	9:obl	ArgTem=argM:loc|Entity=(CESSCASTP2002030199c16-place-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
@@ -61674,7 +61674,7 @@
 32	en	en	ADP	sps00	_	34	case	34:case	_
 33	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	34:det	Entity=(NOCOREF:Gen--2-gstype:gen
 34	control	control	NOUN	ncms000	Gender=Masc|Number=Sing	31	nmod	31:nmod	_
-35	antidopaje	antidopaje	ADJ	aq0mn0	Gender=Masc	34	amod	34:amod	_
+35	antidopaje	antidopaje	ADJ	aq0mn0	_	34	amod	34:amod	_
 36	en	en	ADP	sps00	_	37	case	37:case	_
 37	otoño	otoño	NOUN	ncms000	Gender=Masc|Number=Sing	34	nmod	34:nmod	Entity=(NOCOREF:Gen--1-gstype:gen)NOCOREF:Gen)NOCOREF:Gen)CESSCASTP2002030199c18)|SpaceAfter=No
 38	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_

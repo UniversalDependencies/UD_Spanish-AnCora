@@ -43140,7 +43140,7 @@
 5	nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	amod	6:amod	_
 6	paisaje	paisaje	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	3:obj	ArgTem=arg1:pat
 7	político	político	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	amod	6:amod	_
-8	marroquí	marroquí	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	amod	6:amod	SpaceAfter=No
+8	marroquí	marroquí	ADJ	aq0ms0	Number=Sing	6	amod	6:amod	SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
 10	donde	donde	ADV	pr000000	PronType=Rel	17	advmod	17:advmod	ArgTem=argM:loc|Entity=(CESSCASTP1999110132c72--1-CorefType:ident,gstype:gen)
 11	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(CESSCASTP1999110132c2-person-2-CorefType:ident,gstype:spec
