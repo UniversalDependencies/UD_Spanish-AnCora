@@ -176,7 +176,7 @@
 # sent_id = 3LB-CAST-111_C-4-s4
 # text = Descontento por la falta de apoyo del Partido Socialista Búlgaro (BSP, ex comunista), Mladénov, que desde hacía tiempo sufría problemas cardíacos, dimitió el 6 de julio de 1990 y, por decisión del Parlamento fue sustituido en la Presidencia por Yeliu Yélev, entonces líder de la SDS.
 # orig_file_sentence 001#4
-1	Descontento	descontento	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	19	amod	19:amod	Entity=(NOCOREF:Spec.person-person-19-gstype:spec
+1	Descontento	descontento	ADJ	aq0msp	Gender=Masc|Number=Sing	19	amod	19:amod	Entity=(NOCOREF:Spec.person-person-19-gstype:spec
 2	por	por	ADP	sps00	_	4	case	4:case	_
 3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	_
 4	falta	falta	NOUN	ncfs000	Gender=Fem|Number=Sing	1	obl	1:obl	ArgTem=argM:adv
