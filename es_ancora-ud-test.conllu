@@ -31062,7 +31062,7 @@
 4	me	yo	PRON	pp1cs000	Number=Sing|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:impers	5:expl:impers	ArgTem=arg2:ben|Entity=(CESSCASTAA2000062721634c1-person-1-CorefType:ident,gstype:spec)
 5	pregunta	preguntar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	ArgTem=arg1:pat|Cxn=Interrogative-Polar-Direct|CxnElt=5:Interrogative-Polar-Direct.Clause
 6	a	a	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=a_menudo|MWEPOS=ADV|ArgTem=argM:tmp
-7	menudo	menudo	NOUN	_	_	6	fixed	6:fixed	SpaceAfter=No
+7	menudo	menudo	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	fixed	6:fixed	SpaceAfter=No
 8	:	:	PUNCT	fd	PunctType=Colo	11	punct	11:punct	_
 9	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	11	punct	11:punct	SpaceAfter=No
 10	han	haber	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
