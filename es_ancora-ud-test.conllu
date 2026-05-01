@@ -125,7 +125,7 @@
 7	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	8:det	_
 8	socialistas	socialista	NOUN	nccp000	Number=Plur	4	nmod	4:nmod	ArgTem=arg1:tem
 9	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	11	punct	11:punct	SpaceAfter=No
-10	ex	ex	ADJ	aq0mp0	Gender=Masc|Number=Plur	11	amod	11:amod	_
+10	ex	ex	ADJ	aq0cn0	_	11	amod	11:amod	_
 11	comunistas	comunista	NOUN	nccp000	Number=Plur	8	appos	8:appos	SpaceAfter=No
 12	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	11	punct	11:punct	_
 13	en	en	ADP	sps00	_	16	case	16:case	_
@@ -191,7 +191,7 @@
 12	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	13	punct	13:punct	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec|SpaceAfter=No
 13	BSP	BSP	PROPN	np0000o	_	9	flat	9:flat	SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
-15	ex	ex	ADJ	aq0ms0	_	13	amod	13:amod	MWE=ex_comunista|MWEPOS=ADJ
+15	ex	ex	ADJ	aq0cn0	_	13	amod	13:amod	MWE=ex_comunista|MWEPOS=ADJ
 16	comunista	comunista	ADJ	_	_	15	amod	15:amod	SpaceAfter=No
 17	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	13	punct	13:punct	Entity=NOCOREF:Spec.organization)NOCOREF:Spec.organization)|SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
@@ -14482,10 +14482,10 @@
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
 8	Nido	Nido	PROPN	_	_	4	flat	4:flat	SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	Entity=(CESSCASTA2000061310295c1-other-3-CorefType:pred.definit,gstype:spec
-10	ex	ex	ADJ	aq0ms0	Gender=Masc|Number=Sing	11	amod	11:amod	_
+10	ex	ex	ADJ	aq0cn0	_	11	amod	11:amod	_
 11	presidente	presidente	NOUN	ncms000	Gender=Masc|Number=Sing	1	appos	1:appos	_
 12	y	y	CCONJ	cc	_	14	cc	14:cc	_
-13	ex	ex	ADJ	aq0ms0	Gender=Masc|Number=Sing	14	amod	14:amod	_
+13	ex	ex	ADJ	aq0cn0	_	14	amod	14:amod	_
 14	vicepresidente	vicepresidente	NOUN	ncms000	Gender=Masc|Number=Sing	11	conj	11:conj	_
 15-16	del	_	_	_	_	_	_	_	_
 15	de	de	ADP	spcms	_	17	case	17:case	_
@@ -14645,7 +14645,7 @@
 36	aunque	aunque	SCONJ	cs	_	41	mark	41:mark	_
 37	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	40:det	Entity=(CESSCASTA2000061310295c1-other-4-CorefType:ident,gstype:spec
 38	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	40	nummod	40:nummod	_
-39	ex	ex	ADJ	aq0mp0	Gender=Masc|Number=Plur	40	amod	40:amod	_
+39	ex	ex	ADJ	aq0cn0	_	40	amod	40:amod	_
 40	directivos	directivo	NOUN	ncmp000	Gender=Masc|Number=Plur	41	nsubj	41:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000061310295c1)
 41	mantienen	mantener	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl	_
 42	que	que	SCONJ	cs	_	44	mark	44:mark	_
@@ -14659,7 +14659,7 @@
 # orig_file_sentence 003#77
 1	Estos	este	DET	dd0mp0	Gender=Masc|Number=Plur|PronType=Dem	4	det	4:det	Entity=(CESSCASTA2000061310295c1-other-4-CorefType:ident,gstype:spec
 2	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	4	nummod	4:nummod	_
-3	ex	ex	ADJ	aq0mp0	Gender=Masc|Number=Plur	4	amod	4:amod	_
+3	ex	ex	ADJ	aq0cn0	_	4	amod	4:amod	_
 4	directivos	directivo	NOUN	ncmp000	Gender=Masc|Number=Plur	9	nsubj	9:nsubj	ArgTem=arg1:tem
 5-6	del	_	_	_	_	_	_	_	_
 5	de	de	ADP	spcms	_	7	case	7:case	_
@@ -14846,7 +14846,7 @@
 30	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	Entity=CESSCASTA2000061310295c16)
 31	y	y	CCONJ	cc	_	34	cc	34:cc	_
 32	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	34:det	Entity=(CESSCASTA2000061310295c17-person-3-gstype:spec
-33	ex	ex	ADJ	aq0ms0	Gender=Masc|Number=Sing	34	amod	34:amod	_
+33	ex	ex	ADJ	aq0cn0	_	34	amod	34:amod	_
 34	auditor	auditor	NOUN	ncms000	Gender=Masc|Number=Sing	18	conj	18:conj	_
 35-36	del	_	_	_	_	_	_	_	_
 35	de	de	ADP	spcms	_	37	case	37:case	_
@@ -14964,7 +14964,7 @@
 # text = El ex auditor reconoció que él no tuvo conocimiento de los contratos de patrocinio de las camisetas de las temporadas 91-92 y 92-93 hasta junio de 1993, aunque restó importancia al explicar a la Sala que "es habitual que las empresas no entreguen toda la documentación hasta el cierre del ejercicio".
 # orig_file_sentence 003#82
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	3:det	Entity=(CESSCASTA2000061310295c17-person-3-CorefType:ident,gstype:spec
-2	ex	ex	ADJ	aq0ms0	Gender=Masc|Number=Sing	3	amod	3:amod	_
+2	ex	ex	ADJ	aq0cn0	_	3	amod	3:amod	_
 3	auditor	auditor	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000061310295c17)
 4	reconoció	reconocer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	que	que	SCONJ	cs	_	8	mark	8:mark	_
@@ -15050,7 +15050,7 @@
 22	testigos	testigo	NOUN	ncmp000	Gender=Masc|Number=Plur	20	nsubj	20:nsubj	ArgTem=arg0:agt|SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	Entity=(CESSCASTA2000061310295c22--4
 24	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	Entity=(CESSCASTA2000061310295c24-person-3-gstype:spec
-25	ex	ex	ADJ	aq0ms0	Gender=Masc|Number=Sing	26	amod	26:amod	_
+25	ex	ex	ADJ	aq0cn0	_	26	amod	26:amod	_
 26	gerente	gerente	NOUN	nccs000	Number=Sing	22	appos	22:appos	_
 27-28	del	_	_	_	_	_	_	_	_
 27	de	de	ADP	spcms	_	29	case	29:case	_
@@ -15094,7 +15094,7 @@
 # text = El ex gerente destacó que "en el club nadie movía un dedo sin que José Luis Sierra, imputado en la causa, lo autorizara" y agregó que "la asesoría jurídica era dirigida por él, pese a que el despacho no lo tenía en Madrid".
 # orig_file_sentence 003#84
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	3:det	Entity=(CESSCASTA2000061310295c24-person-3-CorefType:ident,gstype:spec
-2	ex	ex	ADJ	aq0ms0	Gender=Masc|Number=Sing	3	amod	3:amod	_
+2	ex	ex	ADJ	aq0cn0	_	3	amod	3:amod	_
 3	gerente	gerente	NOUN	nccs000	Number=Sing	4	nsubj	4:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000061310295c24)
 4	destacó	destacar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	que	que	SCONJ	cs	_	11	mark	11:mark	Entity=(CESSCASTA2000061310295c25--7
@@ -15182,7 +15182,7 @@
 29	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	30	det	30:det	Entity=(CESSCASTA2000061310295c29--2-CorefType:dx.prop
 30	que	que	PRON	pr0cn000	PronType=Rel	34	obl	34:obl	Entity=CESSCASTA2000061310295c29)
 31	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	33:det	Entity=(CESSCASTA2000061310295c24-person-3-CorefType:ident,gstype:spec
-32	ex	ex	ADJ	aq0ms0	Gender=Masc|Number=Sing	33	amod	33:amod	_
+32	ex	ex	ADJ	aq0cn0	_	33	amod	33:amod	_
 33	gerente	gerente	NOUN	nccs000	Number=Sing	34	nsubj	34:nsubj	ArgTem=arg0:agt|Entity=CESSCASTA2000061310295c24)
 34	admitió	admitir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	advcl	23:advcl	_
 35	que	que	SCONJ	cs	_	38	mark	38:mark	_
@@ -18504,7 +18504,7 @@
 # text = El ex secretario de Estado acusó a Gore de tratar de llevar a cabo un "selectivo" recuento manual en unos condados de mayoría demócrata.
 # orig_file_sentence 003#92
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTA2000111410376c3-person-2-CorefType:ident,gstype:spec
-2	ex	ex	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	nsubj	6:nsubj	ArgTem=arg0:agt
+2	ex	ex	ADJ	aq0cn0	_	6	nsubj	6:nsubj	ArgTem=arg0:agt
 3	secretario	secretario	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	amod	2:amod	_
 4	de	de	ADP	sps00	_	5	case	5:case	_
 5	Estado	Estado	PROPN	np0000o	_	2	nmod	2:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)CESSCASTA2000111410376c3)
@@ -38405,7 +38405,7 @@
 # orig_file_sentence 008#81
 1	Cheney	Cheney	PROPN	np00000	_	8	nsubj	8:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200012075253c5-person-1-CorefType:ident,gstype:spec|SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	Entity=(CESSCASTAA200012075253c5-person-3-CorefType:pred.definit,gstype:spec
-3	ex	ex	ADJ	aq0ms0	Gender=Masc|Number=Sing	4	amod	4:amod	_
+3	ex	ex	ADJ	aq0cn0	_	4	amod	4:amod	_
 4	secretario	secretario	NOUN	ncms000	Gender=Masc|Number=Sing	1	appos	1:appos	_
 5	de	de	ADP	sps00	_	6	case	6:case	_
 6	Defensa	Defensa	PROPN	np00000	_	4	nmod	4:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)|SpaceAfter=No
@@ -46811,7 +46811,7 @@
 1	Ramon	Ramon	PROPN	np00000	_	4	nsubj	4:nsubj	MWE=Ramon_Teixidor|MWEPOS=PROPN|ArgTem=arg1:tem|Entity=(CESSCASTP19991002101c2-person-1-CorefType:ident,gstype:spec
 2	Teixidor	Teixidor	PROPN	_	_	1	flat	1:flat	Entity=CESSCASTP19991002101c2)
 3	estará	estar	AUX	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	4:cop	_
-4	presente	presente	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	0:root	ArgTem=arg2:atr
+4	presente	presente	ADJ	aq0ms0	Number=Sing	0	root	0:root	ArgTem=arg2:atr
 5	en	en	ADP	sps00	_	7	case	7:case	_
 6	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	Entity=(CESSCASTP19991002101c1--2-CorefType:ident,gstype:gen
 7	acto	acto	NOUN	ncms000	Gender=Masc|Number=Sing	4	nmod	4:nmod	Entity=CESSCASTP19991002101c1)
@@ -61621,7 +61621,7 @@
 9	endurecer	endurecer	VERB	vmn0000	VerbForm=Inf	7	xcomp	7:xcomp	_
 10	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	11:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 11	medidas	medida	NOUN	ncfp000	Gender=Fem|Number=Plur	7	nsubj	7:nsubj	ArgTem=arg1:pat
-12	antidopaje	antidopaje	ADJ	aq0mn0	Gender=Masc	11	amod	11:amod	Entity=NOCOREF:Gen)
+12	antidopaje	antidopaje	ADJ	aq0mn0	_	11	amod	11:amod	Entity=NOCOREF:Gen)
 13	en	en	ADP	sps00	_	14	case	14:case	_
 14	España	España	PROPN	np00000	_	9	obl	9:obl	ArgTem=argM:loc|Entity=(CESSCASTP2002030199c16-place-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
@@ -61674,7 +61674,7 @@
 32	en	en	ADP	sps00	_	34	case	34:case	_
 33	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	34:det	Entity=(NOCOREF:Gen--2-gstype:gen
 34	control	control	NOUN	ncms000	Gender=Masc|Number=Sing	31	nmod	31:nmod	_
-35	antidopaje	antidopaje	ADJ	aq0mn0	Gender=Masc	34	amod	34:amod	_
+35	antidopaje	antidopaje	ADJ	aq0mn0	_	34	amod	34:amod	_
 36	en	en	ADP	sps00	_	37	case	37:case	_
 37	otoño	otoño	NOUN	ncms000	Gender=Masc|Number=Sing	34	nmod	34:nmod	Entity=(NOCOREF:Gen--1-gstype:gen)NOCOREF:Gen)NOCOREF:Gen)CESSCASTP2002030199c18)|SpaceAfter=No
 38	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
