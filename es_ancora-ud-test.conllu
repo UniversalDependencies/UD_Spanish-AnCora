@@ -1372,7 +1372,7 @@
 3	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
 4	justo	justo	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	0:root	ArgTem=arg2:atr|SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
-6	inesperado	inesperado	ADJ	aq0ms0	Gender=Masc|Number=Sing	4	amod	4:amod	_
+6	inesperado	inesperado	ADJ	aq0ms0	Gender=Masc|Number=Sing|VerbForm=Part	4	amod	4:amod	_
 7	y	y	CCONJ	cc	_	8	cc	8:cc	_
 8	atemorizador	atemorizador	ADJ	aq0ms0	Gender=Masc|Number=Sing	4	conj	4:conj	SpaceAfter=No
 9	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
@@ -8522,7 +8522,7 @@
 69	con	con	ADP	sps00	_	71	case	71:case	_
 70	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	71:det	_
 71	cabeza	cabeza	NOUN	ncfs000	Gender=Fem|Number=Sing	68	obl	68:obl	ArgTem=argM:adv
-72	hundida	hundido	ADJ	aq0fs0	Gender=Fem|Number=Sing	71	amod	71:amod	_
+72	hundida	hundido	ADJ	aq0fs0	Gender=Fem|Number=Sing|VerbForm=Part	71	amod	71:amod	_
 73	entre	entre	ADP	sps00	_	75	case	75:case	_
 74	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	75	det	75:det	_
 75	hombros	hombro	NOUN	ncmp000	Gender=Masc|Number=Plur	72	nmod	72:nmod	SpaceAfter=No
@@ -11723,7 +11723,7 @@
 4	a	a	ADP	sps00	_	5	mark	5:mark	_
 5	emitir	emitir	VERB	vmn0000	VerbForm=Inf	3	xcomp	3:xcomp	ArgTem=arg2:efi
 6	folletos	folleto	NOUN	ncmp000	Gender=Masc|Number=Plur	5	obj	5:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen
-7	simplificados	simplificado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	6	amod	6:amod	_
+7	simplificados	simplificado	ADJ	aq0msp	Gender=Masc|Number=Plur|VerbForm=Part	6	amod	6:amod	_
 8	sobre	sobre	ADP	sps00	_	10	case	10:case	_
 9	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 10	fondo	fondo	NOUN	ncms000	Gender=Masc|Number=Sing	6	nmod	6:nmod	_
@@ -19693,7 +19693,7 @@
 29.1	_	_	PRON	p	_	_	_	30:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000121813555c5--1-CorefType:ident,gstype:gen)
 30	pasara	pasar	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	ccomp	28:ccomp	ArgTem=arg1:tem
 31	prácticamente	prácticamente	ADV	rg	_	32	advmod	32:advmod	_
-32	desapercibida	desapercibido	ADJ	aq0fs0	Gender=Fem|Number=Sing	30	obj	30:obj	ArgTem=argM:atr
+32	desapercibida	desapercibido	ADJ	aq0fs0	Gender=Fem|Number=Sing|VerbForm=Part	30	obj	30:obj	ArgTem=argM:atr
 33	en	en	ADP	sps00	_	35	case	35:case	_
 34	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	35:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 35	librerías	librería	NOUN	ncfp000	Gender=Fem|Number=Plur	30	obl	30:obl	ArgTem=argM:loc|Entity=NOCOREF:Gen)|SpaceAfter=No
@@ -31819,7 +31819,7 @@
 16	luchando	luchar	VERB	vmg0000	VerbForm=Ger	12	advcl	12:advcl	_
 17	con	con	ADP	sps00	_	22	case	22:case	_
 18	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	22:det	Entity=(NOCOREF:Gen--5-gstype:gen,HomoDD
-19	sagradas	sagrado	ADJ	aq0fp0	Gender=Fem|Number=Plur	22	amod	22:amod	_
+19	sagradas	sagrado	ADJ	aq0fp0	Gender=Fem|Number=Plur|VerbForm=Part	22	amod	22:amod	_
 20	y	y	CCONJ	cc	_	21	cc	21:cc	_
 21	caducas	caduco	ADJ	aq0fp0	Gender=Fem|Number=Plur	19	conj	19:conj	_
 22	fórmulas	fórmula	NOUN	ncfp000	Gender=Fem|Number=Plur	16	obl	16:obl	ArgTem=argM:adv
@@ -57749,7 +57749,7 @@
 9	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	13:det	Entity=(CESSCASTP20010601143c1--5-gstype:gen
 10	pequeño	pequeño	ADJ	aq0ms0	Gender=Masc|Number=Sing	13	amod	13:amod	_
 11	e	e	CCONJ	cc	_	12	cc	12:cc	_
-12	inesperado	inesperado	ADJ	aq0ms0	Gender=Masc|Number=Sing	10	conj	10:conj	_
+12	inesperado	inesperado	ADJ	aq0ms0	Gender=Masc|Number=Sing|VerbForm=Part	10	conj	10:conj	_
 13	terremoto	terremoto	NOUN	ncms000	Gender=Masc|Number=Sing	7	obl:agent	7:obl:agent	ArgTem=arg0:agt|Entity=CESSCASTP20010601143c1)|SpaceAfter=No
 14	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
 
