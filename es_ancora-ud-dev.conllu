@@ -3866,7 +3866,7 @@
 22	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	_
 23	Estado	Estado	PROPN	np0000o	_	19	nmod	19:nmod	_
 24	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	25	punct	25:punct	SpaceAfter=No
-25	Santa	Santa	PROPN	np0000o	_	19	appos	19:appos	MWE=Santa_Bárbara|MWEPOS=PROPN
+25	Santa	santo	ADJ	aq0fs0	Gender=Fem|Number=Sing	19	appos	19:appos	MWE=Santa_Bárbara|MWEPOS=PROPN
 26	Bárbara	Bárbara	PROPN	_	_	25	flat	25:flat	SpaceAfter=No
 27	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
 28	Santana	Santana	PROPN	np0000o	_	25	conj	25:conj	MWE=Santana_Motor|MWEPOS=PROPN
@@ -25435,7 +25435,7 @@
 3	Blooming	Blooming	PROPN	np00000	_	2	appos	2:appos	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)|SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
 5	de	de	ADP	sps00	_	6	case	6:case	_
-6	Santa	Santa	PROPN	np00000	_	2	nmod	2:nmod	MWE=Santa_Cruz|MWEPOS=PROPN|Entity=(CESSCASTAA200005042181c7-place-1-gstype:spec
+6	Santa	santo	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	nmod	2:nmod	MWE=Santa_Cruz|MWEPOS=PROPN|Entity=(CESSCASTAA200005042181c7-place-1-gstype:spec
 7	Cruz	Cruz	PROPN	_	_	6	flat	6:flat	Entity=CESSCASTAA200005042181c7)|SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	Entity=CESSCASTAA200005042181c3)
 9	logró	lograr	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -25548,7 +25548,7 @@
 9	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
 10	departamento	departamento	NOUN	ncms000	Gender=Masc|Number=Sing	3	nmod	3:nmod	ArgTem=argM:loc
 11	de	de	ADP	sps00	_	12	case	12:case	_
-12	Santa	Santa	PROPN	np00000	_	10	nmod	10:nmod	MWE=Santa_Cruz|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+12	Santa	santo	ADJ	aq0fs0	Gender=Fem|Number=Sing	10	nmod	10:nmod	MWE=Santa_Cruz|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 13	Cruz	Cruz	PROPN	_	_	12	flat	12:flat	Entity=NOCOREF:Spec.location)NOCOREF:Spec.location)|SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	Entity=NOCOREF:Spec.location)
 15	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	Entity=(CESSCASTAA200005042181c5-place-2-gstype:spec
@@ -25622,7 +25622,7 @@
 6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	Entity=(CESSCASTAA200005042181c7-place-2-CorefType:ident,gstype:spec
 7	ciudad	ciudad	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=argM:loc
 8	de	de	ADP	sps00	_	9	case	9:case	_
-9	Santa	Santa	PROPN	np00000	_	7	nmod	7:nmod	MWE=Santa_Cruz|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+9	Santa	santo	ADJ	aq0fs0	Gender=Fem|Number=Sing	7	nmod	7:nmod	MWE=Santa_Cruz|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 10	Cruz	Cruz	PROPN	_	_	9	flat	9:flat	Entity=NOCOREF:Spec.location)CESSCASTAA200005042181c7)|SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
 12	venció	vencer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
