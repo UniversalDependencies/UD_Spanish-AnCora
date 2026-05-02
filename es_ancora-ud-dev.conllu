@@ -6367,7 +6367,7 @@
 32	en	en	ADP	sps00	_	35	case	35:case	_
 33	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	det	35:det	Entity=(NOCOREF:Spec.location-place-3-gstype:spec
 34	añorado	añorado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	35	amod	35:amod	_
-35	San	San	PROPN	np0000l	_	31	obl:arg	31:obl:arg	MWE=San_Juan|MWEPOS=PROPN|ArgTem=arg2:loc
+35	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	31	obl:arg	31:obl:arg	MWE=San_Juan|MWEPOS=PROPN|ArgTem=arg2:loc
 36	Juan	Juan	PROPN	_	_	35	flat	35:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 37	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
 
@@ -22468,7 +22468,7 @@
 32	de	de	ADP	_	_	34	case	34:case	_
 33	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	34:det	_
 34	Hospital	Hospital	PROPN	_	_	30	flat	30:flat	_
-35	San	San	PROPN	_	_	30	flat	30:flat	_
+35	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	30	flat	30:flat	_
 36	Gallicano	Gallicano	PROPN	_	_	30	flat	30:flat	SpaceAfter=No
 37	,	,	PUNCT	fc	PunctType=Comm	40	punct	40:punct	_
 38	de	de	ADP	sps00	_	40	case	40:case	_
@@ -29547,7 +29547,7 @@
 38	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	39	obl:arg	39:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTAA200008063784c1-person-1-CorefType:ident,gstype:spec)
 39	considerasen	considerar	VERB	vmsi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	31	ccomp	31:ccomp	ArgTem=arg4:des
 40	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	41:det	Entity=(NOCOREF:Gen--2-gstype:gen
-41	santo	santo	NOUN	ncms000	Gender=Masc|Number=Sing	39	obj	39:obj	ArgTem=arg2:atr
+41	santo	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	39	obj	39:obj	ArgTem=arg2:atr
 42	o	o	CCONJ	cc	_	43	cc	43:cc	_
 43	héroe	héroe	NOUN	ncms000	Gender=Masc|Number=Sing	41	conj	41:conj	_
 44	de	de	ADP	sps00	_	46	case	46:case	_
@@ -30134,7 +30134,7 @@
 5	manifestación	manifestación	NOUN	ncfs000	Gender=Fem|Number=Sing	17	obl	17:obl	_
 6	celebrada	celebrado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	5	amod	5:amod	_
 7	en	en	ADP	sps00	_	8	case	8:case	_
-8	San	San	PROPN	np00000	_	6	obl	6:obl	MWE=San_Sebastián|MWEPOS=PROPN|ArgTem=argM:loc|Entity=(CESSCASTAA2000092319559c32-place-1-gstype:spec
+8	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	obl	6:obl	MWE=San_Sebastián|MWEPOS=PROPN|ArgTem=argM:loc|Entity=(CESSCASTAA2000092319559c32-place-1-gstype:spec
 9	Sebastián	Sebastián	PROPN	_	_	8	flat	8:flat	Entity=CESSCASTAA2000092319559c32)
 10	contra	contra	ADP	sps00	_	12	case	12:case	_
 11	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -30363,7 +30363,7 @@
 8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCASTAA2000092319559c12--2-CorefType:ident,gstype:gen,HomoDD
 9	manifestación	manifestación	NOUN	ncfs000	Gender=Fem|Number=Sing	3	ccomp	3:ccomp	ArgTem=arg2:loc
 10	de	de	ADP	sps00	_	11	case	11:case	_
-11	San	San	PROPN	np00000	_	9	nmod	9:nmod	MWE=San_Sebastián|MWEPOS=PROPN|ArgTem=argM:loc|Entity=(CESSCASTAA2000092319559c32-place-1-CorefType:ident,gstype:spec
+11	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	9	nmod	9:nmod	MWE=San_Sebastián|MWEPOS=PROPN|ArgTem=argM:loc|Entity=(CESSCASTAA2000092319559c32-place-1-CorefType:ident,gstype:spec
 12	Sebastián	Sebastián	PROPN	_	_	11	flat	11:flat	Entity=CESSCASTAA2000092319559c32)CESSCASTAA2000092319559c12)
 13	porque	porque	SCONJ	cs	_	15	mark	15:mark	_
 14	"	"	PUNCT	fe	PunctType=Quot	15	punct	15:punct	SpaceAfter=No
@@ -31926,7 +31926,7 @@
 43	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	44:det	_
 44	municipio	municipio	NOUN	ncms000	Gender=Masc|Number=Sing	35	appos	35:appos	_
 45	de	de	ADP	sps00	_	46	case	46:case	_
-46	San	San	PROPN	np00000	_	44	nmod	44:nmod	MWE=San_Vicente_del_Caguán|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+46	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	44	nmod	44:nmod	MWE=San_Vicente_del_Caguán|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 47	Vicente	Vicente	PROPN	_	_	46	flat	46:flat	_
 48-49	del	_	_	_	_	_	_	_	_
 48	de	de	ADP	_	_	50	case	50:case	_
@@ -32890,7 +32890,7 @@
 13	XXIII	XXIII	NUM	np00000	NumForm=Roman|NumType=Card	10	nmod	10:nmod	MWE=XXIII_Maratón_de_San_Sebastián|MWEPOS=PROPN|Entity=(CESSCASTAA2000112620778c2-other-1-gstype:spec
 14	Maratón	Maratón	PROPN	_	_	13	flat	13:flat	_
 15	de	de	ADP	_	_	16	case	16:case	_
-16	San	San	PROPN	_	_	13	flat	13:flat	_
+16	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	13	flat	13:flat	_
 17	Sebastián	Sebastián	PROPN	_	_	13	flat	13:flat	SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 19	en	en	ADP	sps00	_	21	case	21:case	_
@@ -33041,7 +33041,7 @@
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	_
 29	maratón	maratón	NOUN	ncms000	Gender=Masc|Number=Sing	26	nmod	26:nmod	ArgTem=arg1:pat|Entity=(CESSCASTAA2000112620778c2-other-1-CorefType:ident,gstype:spec
 30	de	de	ADP	sps00	_	31	case	31:case	_
-31	San	San	PROPN	np00000	_	29	nmod	29:nmod	MWE=San_Sebastián|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
+31	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	29	nmod	29:nmod	MWE=San_Sebastián|MWEPOS=PROPN|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 32	Sebastián	Sebastián	PROPN	_	_	31	flat	31:flat	Entity=NOCOREF:Spec.location)CESSCASTAA2000112620778c2)
 33	a	a	ADP	sps00	ExtPos=ADP	36	case	36:case	MWE=a_través_de|MWEPOS=ADP
 34	través	través	NOUN	_	_	33	fixed	33:fixed	_
@@ -51382,7 +51382,7 @@
 # orig_file_sentence 012#87
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTP20001201176c16-organization-2-gstype:spec
 2	Caja	Caja	PROPN	np00000	_	7	nsubj	7:nsubj	MWE=Caja_San_Fernando|MWEPOS=PROPN|ArgTem=arg0:agt
-3	San	San	PROPN	_	_	2	flat	2:flat	_
+3	San	santo	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	flat	2:flat	_
 4	Fernando	Fernando	PROPN	_	_	2	flat	2:flat	Entity=CESSCASTP20001201176c16)
 5	estuvo	estar	AUX	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
 6	a	a	ADP	sps00	_	7	case	7:case	MWE=a_punto_de|MWEPOS=ADP
