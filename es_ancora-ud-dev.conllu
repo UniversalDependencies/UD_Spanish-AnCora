@@ -52759,7 +52759,7 @@
 13	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	14	nummod	14:nummod	_
 14	palestinos	palestino	NOUN	ncmp000	Gender=Masc|Number=Plur	10	nmod	10:nmod	Entity=CESSCASTP2001010225c16)CESSCASTP2001010225c17)
 15	aparecieron	aparecer	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-16	desnudos	desnudo	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	15	obj	15:obj	ArgTem=argM:atr
+16	desnudos	desnudo	ADJ	aq0mpp	Gender=Masc|Number=Plur	15	obj	15:obj	ArgTem=argM:atr
 17	y	y	CCONJ	cc	_	18	cc	18:cc	_
 17.1	_	_	PRON	p	_	_	_	18:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2001010225c17--1-CorefType:ident,gstype:gen)
 18	mostraban	mostrar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	conj	15:conj	_

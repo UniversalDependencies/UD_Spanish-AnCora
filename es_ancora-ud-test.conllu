@@ -51806,7 +51806,7 @@
 10	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	Entity=NOCOREF:Gen)
 11	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	expl:pv	12:expl:pv	_
 12	pasea	pasear	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-13	desnudo	desnudo	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	12	obj	12:obj	ArgTem=argM:atr
+13	desnudo	desnudo	ADJ	aq0msp	Gender=Masc|Number=Sing	12	obj	12:obj	ArgTem=argM:atr
 14	frente	frente	ADV	rg	_	12	advmod	12:advmod	ArgTem=argM:loc
 15	a	a	ADP	sps00	_	17	case	17:case	_
 16	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
