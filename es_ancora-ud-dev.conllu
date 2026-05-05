@@ -31541,7 +31541,7 @@
 9	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	Entity=NOCOREF:Gen)
 10	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	_
 11	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=argM:tmp
-12	escrutadas	escrutado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	43	advmod	43:advmod	ArgTem=argM:tmp
+12	escrutadas	escrutado	ADJ	aq0msp	Gender=Fem|Number=Plur|VerbForm=Part	43	advmod	43:advmod	ArgTem=argM:tmp
 13-14	del	_	_	_	_	_	_	_	_
 13	de	de	ADP	spcms	_	15	case	15:case	Entity=(CESSCASTAA2000103024215c11-number-12-gstype:spec
 14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	_
