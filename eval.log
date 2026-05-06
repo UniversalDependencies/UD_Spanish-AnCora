@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Spanish-AnCora:
-commit 5fe785c70394e2158875388eb907d1ebb95ac5ee
-Merge: 7068ba2 f503b2d
+commit 45d22f0514553480068215e61cb4d8f7d10a24f7
+Merge: b725258 197cca3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'es_ancora'
@@ -17,102 +17,63 @@ Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
-Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 385924 out of 560137 total words have one or more features.
+Features: 387535 out of 560137 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-dev.conllu
-[Line 25 Sent 3LB-CAST-111_C-2-s1]: [L3 Warning fixed-gap] Gaps in fixed expression [18, 20] 'a * máximo'
-[Line 1755 Sent 3LB-CAST-a15-8-s9]: [L3 Syntax too-many-objects] Multiple direct objects [13, 24] ('dientes', 'los') under the predicate 'tirar'.
-[Line 1805 Sent 3LB-CAST-a15-8-s10]: [L3 Warning fixed-without-extpos] Fixed expression 'por ejemplo' does not have the 'ExtPos' feature
-[Line 2365 Sent 3LB-CAST-c1-2-s7]: [L3 Syntax too-many-objects] Multiple direct objects [22, 24] ('que', 'simpatía') under the predicate 'llamamos'.
-[Line 2423 Sent 3LB-CAST-c1-2-s9]: [L3 Warning fixed-without-extpos] Fixed expression 'a salvo' does not have the 'ExtPos' feature
-[Line 2476 Sent 3LB-CAST-c1-2-s10]: [L3 Warning fixed-gap] Gaps in fixed expression [28, 30] 'a * menos'
-[Line 2540 Sent 3LB-CAST-c2-6-s1]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 17] 'de * todo'
-[Line 4067 Sent 3LB-CAST-d2-6-s5]: [L3 Syntax too-many-objects] Multiple direct objects [4, 5] ('lo', 'todo') under the predicate 'ganar'.
-[Line 4072 Sent 3LB-CAST-d2-6-s5]: [L3 Syntax too-many-objects] Multiple direct objects [11, 14] ('montaña', 'clasificación') under the predicate 'general'.
-[Line 4443 Sent 3LB-CAST-dc1-15-s4]: [L3 Warning fixed-without-extpos] Fixed expression 'por ejemplo' does not have the 'ExtPos' feature
-[Line 4461 Sent 3LB-CAST-dc1-15-s4]: [L3 Warning fixed-without-extpos] Fixed expression 'sino que además' does not have the 'ExtPos' feature
-[Line 4636 Sent 3LB-CAST-dc1-15-s9]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * igual que'
-[Line 4673 Sent 3LB-CAST-dc1-15-s10]: [L3 Warning fixed-gap] Gaps in fixed expression [13, 15] 'a * momento'
-[Line 4760 Sent 3LB-CAST-dc1-3-s2]: [L3 Syntax too-many-objects] Multiple direct objects [27, 30] ('libre', 'compañera') under the predicate 'deja'.
-[Line 4859 Sent 3LB-CAST-dc1-3-s5]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * igual que'
-[Line 5417 Sent 3LB-CAST-dc10-5-s9]: [L3 Syntax too-many-objects] Multiple direct objects [24, 27] ('que', 'ambigua') under the predicate 'sospechara'.
-[Line 6014 Sent 3LB-CAST-n1-1-s15]: [L3 Syntax too-many-objects] Multiple direct objects [6, 11] ('bebés', 'sujetos') under the predicate 'cargan'.
-...suppressing further errors regarding Warning
-[Line 8765 Sent 3LB-CAST-t6-5-s4]: [L3 Syntax too-many-objects] Multiple direct objects [4, 6] ('allí', 'arrogante') under the predicate 'estaba'.
-[Line 9738 Sent CESS-CAST-A-20000220-16182-s4]: [L3 Syntax too-many-objects] Multiple direct objects [9, 12] ('por', 'partido') under the predicate 'dar'.
-[Line 9933 Sent CESS-CAST-A-20000220-16182-s10]: [L3 Syntax too-many-objects] Multiple direct objects [11, 15] ('por', 'partido') under the predicate 'dio'.
-...suppressing further errors regarding Syntax
-Syntax errors: 52
-Warnings: 63
-*** FAILED *** with 52 errors
-Exit code: 1
+[Line 2476 Sent 3LB-CAST-c1-2-s10]: [L3 WARNING fixed-gap] Gaps in fixed expression [28, 30] 'a * menos'
+[Line 2540 Sent 3LB-CAST-c2-6-s1]: [L3 WARNING fixed-gap] Gaps in fixed expression [15, 17] 'de * todo'
+[Line 4461 Sent 3LB-CAST-dc1-15-s4]: [L3 WARNING fixed-without-extpos] Fixed expression 'sino que además' does not have the 'ExtPos' feature
+[Line 4636 Sent 3LB-CAST-dc1-15-s9]: [L3 WARNING fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * igual que'
+[Line 4673 Sent 3LB-CAST-dc1-15-s10]: [L3 WARNING fixed-gap] Gaps in fixed expression [13, 15] 'a * momento'
+[Line 4859 Sent 3LB-CAST-dc1-3-s5]: [L3 WARNING fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * igual que'
+[Line 9430 Sent CESS-CAST-A-20000217-13959-s10B]: [L3 WARNING fixed-without-extpos] Fixed expression 'de puta madre' does not have the 'ExtPos' feature
+[Line 11484 Sent CESS-CAST-A-20000317-13968-s8]: [L3 WARNING fixed-without-extpos] Fixed expression 'sobre todo' does not have the 'ExtPos' feature
+[Line 17222 Sent CESS-CAST-A-20000618-14736-s7]: [L3 WARNING fixed-without-extpos] Fixed expression 'a tiempo que' does not have the 'ExtPos' feature
+[Line 17222 Sent CESS-CAST-A-20000618-14736-s7]: [L3 WARNING fixed-gap] Gaps in fixed expression [31, 33, 34] 'a * tiempo que'
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 34
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-test.conllu
-[Line 484 Sent 3LB-CAST-111_C-4-s10]: [L3 Syntax too-many-objects] Multiple direct objects [30, 32] ('clara', 'postura') under the predicate 'dejar'.
-[Line 1737 Sent 3LB-CAST-d2-10-s8]: [L3 Syntax too-many-objects] Multiple direct objects [71, 74] ('OAR', 'tarea') under the predicate 'hizo'.
-[Line 2989 Sent 3LB-CAST-dc10-1-s9]: [L3 Warning obl-should-be-nmod] The parent (node [30] 'virus') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 3639 Sent 3LB-CAST-dc10-2-s3]: [L3 Syntax too-many-objects] Multiple direct objects [21, 23] ('implícita', 'aparición') under the predicate 'llevaba'.
-[Line 3692 Sent 3LB-CAST-dc10-2-s4]: [L3 Syntax too-many-objects] Multiple direct objects [37, 39] ('que', 'equilibrio') under the predicate 'llamamos'.
-[Line 3706 Sent 3LB-CAST-dc10-2-s5]: [L3 Warning fixed-without-extpos] Fixed expression 'de acuerdo' does not have the 'ExtPos' feature
-[Line 3920 Sent 3LB-CAST-dc10-2-s9]: [L3 Syntax too-many-objects] Multiple direct objects [72, 75] ('que', 'memoria') under the predicate 'llaman'.
-[Line 3954 Sent 3LB-CAST-dc10-2-s10]: [L3 Warning fixed-gap] Gaps in fixed expression [26, 28] 'de * todo'
-[Line 4056 Sent 3LB-CAST-dc10-7-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'a muerte' does not have the 'ExtPos' feature
-[Line 5221 Sent 3LB-CAST-e3-3-s3]: [L3 Syntax too-many-objects] Multiple direct objects [62, 65] ('se', 'sí') under the predicate 'afecta'.
-[Line 6164 Sent 3LB-CAST-r2-3-s3]: [L3 Warning fixed-without-extpos] Fixed expression 'fuera de' does not have the 'ExtPos' feature
-[Line 6181 Sent 3LB-CAST-r2-3-s4]: [L3 Syntax too-many-objects] Multiple direct objects [7, 11] ('Nos', 'fuerza') under the predicate 'presentamos'.
-[Line 6192 Sent 3LB-CAST-r2-3-s4]: [L3 Syntax too-many-objects] Multiple direct objects [17, 22] ('nos', 'fuerza') under the predicate 'presentado'.
-[Line 6261 Sent 3LB-CAST-r2-3-s6]: [L3 Syntax too-many-objects] Multiple direct objects [9, 12] ('nos', 'nosotros') under the predicate 'voten'.
-[Line 7384 Sent 3LB-CAST-t4-12-s5]: [L3 Syntax too-many-objects] Multiple direct objects [7, 10] ('quien', 'gafe') under the predicate 'consideraban'.
-...suppressing further errors regarding Syntax
-[Line 8970 Sent 3LB-CAST-t6-4-s6]: [L3 Warning fixed-without-extpos] Fixed expression 'a solas' does not have the 'ExtPos' feature
-[Line 9215 Sent 3LB-CAST-t6-4-s10]: [L3 Warning fixed-gap] Gaps in fixed expression [21, 23, 24] 'a * margen de'
-[Line 9539 Sent CESS-CAST-A-20000103-1267-s5]: [L3 Warning fixed-without-extpos] Fixed expression 'mientras que' does not have the 'ExtPos' feature
-[Line 10241 Sent CESS-CAST-A-20000123-15801-s6]: [L3 Warning fixed-gap] Gaps in fixed expression [38, 40] 'a * menos'
-[Line 10730 Sent CESS-CAST-A-20000123-15801-s21]: [L3 Warning fixed-without-extpos] Fixed expression 'no obstante' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Syntax errors: 79
-Warnings: 85
-*** FAILED *** with 79 errors
-Exit code: 1
+[Line 3954 Sent 3LB-CAST-dc10-2-s10]: [L3 WARNING fixed-gap] Gaps in fixed expression [26, 28] 'de * todo'
+[Line 6164 Sent 3LB-CAST-r2-3-s3]: [L3 WARNING fixed-without-extpos] Fixed expression 'fuera de' does not have the 'ExtPos' feature
+[Line 9215 Sent 3LB-CAST-t6-4-s10]: [L3 WARNING fixed-gap] Gaps in fixed expression [21, 23, 24] 'a * margen de'
+[Line 10241 Sent CESS-CAST-A-20000123-15801-s6]: [L3 WARNING fixed-gap] Gaps in fixed expression [38, 40] 'a * menos'
+[Line 10730 Sent CESS-CAST-A-20000123-15801-s21]: [L3 WARNING fixed-without-extpos] Fixed expression 'no obstante' does not have the 'ExtPos' feature
+[Line 11248 Sent CESS-CAST-A-20000213-10585-s6]: [L3 WARNING fixed-gap] Gaps in fixed expression [21, 23, 24] 'a * final en'
+[Line 11944 Sent CESS-CAST-A-20000221-16816-s3]: [L3 WARNING fixed-gap] Gaps in fixed expression [39, 41] 'a * respecto'
+[Line 12866 Sent CESS-CAST-A-20000317-13928-s3]: [L3 WARNING fixed-gap] Gaps in fixed expression [16, 18, 19] 'de * orden de'
+[Line 13276 Sent CESS-CAST-A-20000317-13928-s11]: [L3 WARNING fixed-without-extpos] Fixed expression 'sino que' does not have the 'ExtPos' feature
+[Line 14297 Sent CESS-CAST-A-20000415-12000-s7]: [L3 WARNING fixed-gap] Gaps in fixed expression [39, 41] 'a * respecto'
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 35
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-train.conllu
-[Line 615 Sent 3LB-CAST-104_c-1-s14]: [L3 Warning fixed-without-extpos] Fixed expression 'así como también' does not have the 'ExtPos' feature
-[Line 1403 Sent 3LB-CAST-104_c-2-s16]: [L3 Syntax too-many-objects] Multiple direct objects [18, 19] ('cambios', 'lógicos') under the predicate 'considera'.
-[Line 1770 Sent 3LB-CAST-104_c-3-s4]: [L3 Syntax too-many-objects] Multiple direct objects [56, 58] ('indemnización', 'cuatro') under the predicate 'cobran'.
-[Line 1776 Sent 3LB-CAST-104_c-3-s4]: [L3 Warning pron-det-without-prontype] The word 'cada' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 4522 Sent 3LB-CAST-104_C-6-s4]: [L3 Warning fixed-without-extpos] Fixed expression 'mientras que' does not have the 'ExtPos' feature
-[Line 5401 Sent 3LB-CAST-111_C-1-s7]: [L3 Syntax too-many-objects] Multiple direct objects [27, 31] ('recinto', 'escoltado') under the predicate 'dejó'.
-[Line 6114 Sent 3LB-CAST-111_C-3-s3]: [L3 Syntax too-many-objects] Multiple direct objects [41, 43] ('juntos', 'dos') under the predicate 'superan'.
-[Line 7269 Sent 3LB-CAST-111_C-5-s7]: [L3 Syntax too-many-objects] Multiple direct objects [7, 10] ('difíciles', 'negociaciones') under the predicate 'vio'.
-[Line 8804 Sent 3LB-CAST-111_C-7-s10]: [L3 Syntax too-many-objects] Multiple direct objects [19, 25] ('cortadas', 'arterias') under the predicate 'verán'.
-[Line 10121 Sent 3LB-CAST-2000060111_5-1-s8]: [L3 Syntax too-many-objects] Multiple direct objects [2, 15] ('se', 'presidente') under the predicate 'consideró'.
-[Line 10208 Sent 3LB-CAST-2000060111_5-1-s9]: [L3 Syntax too-many-objects] Multiple direct objects [36, 39] ('ilegítima', 'reelección') under the predicate 'considerar'.
-[Line 11374 Sent 3LB-CAST-2000060204_5-2-s11]: [L3 Syntax too-many-objects] Multiple direct objects [18, 29] ('36,39', '363.686') under the predicate 'eventuales'.
-[Line 11439 Sent 3LB-CAST-2000060204_5-3-s1]: [L3 Warning fixed-without-extpos] Fixed expression 'a el alcance de la mano' does not have the 'ExtPos' feature
-[Line 11474 Sent 3LB-CAST-2000060204_5-3-s2]: [L3 Syntax too-many-objects] Multiple direct objects [19, 20] ('días', 'contados') under the predicate 'tiene'.
-[Line 11793 Sent 3LB-CAST-2000060204_5-3-s8]: [L3 Warning pron-det-without-prontype] The word 'cada' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 13611 Sent 3LB-CAST-204_C-1-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'en especial' does not have the 'ExtPos' feature
-[Line 16393 Sent 3LB-CAST-204_c-5-s5]: [L3 Warning fixed-without-extpos] Fixed expression 'así como' does not have the 'ExtPos' feature
-...suppressing further errors regarding Syntax
-[Line 23125 Sent 3LB-CAST-a1-0-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'sino que' does not have the 'ExtPos' feature
-[Line 25020 Sent 3LB-CAST-a1-4-s9]: [L3 Warning fixed-without-extpos] Fixed expression 'cuando mucho' does not have the 'ExtPos' feature
-[Line 25613 Sent 3LB-CAST-a1-5-s15]: [L3 Warning fixed-without-extpos] Fixed expression 'sino que' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Syntax errors: 574
-Warnings: 338
-*** FAILED *** with 574 errors
-Exit code: 1
-Validity: 0.01
+[Line 615 Sent 3LB-CAST-104_c-1-s14]: [L3 WARNING fixed-without-extpos] Fixed expression 'así como también' does not have the 'ExtPos' feature
+[Line 11439 Sent 3LB-CAST-2000060204_5-3-s1]: [L3 WARNING fixed-without-extpos] Fixed expression 'a el alcance de la mano' does not have the 'ExtPos' feature
+[Line 13611 Sent 3LB-CAST-204_C-1-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'en especial' does not have the 'ExtPos' feature
+[Line 16393 Sent 3LB-CAST-204_c-5-s5]: [L3 WARNING fixed-without-extpos] Fixed expression 'así como' does not have the 'ExtPos' feature
+[Line 23125 Sent 3LB-CAST-a1-0-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'sino que' does not have the 'ExtPos' feature
+[Line 25020 Sent 3LB-CAST-a1-4-s9]: [L3 WARNING fixed-without-extpos] Fixed expression 'cuando mucho' does not have the 'ExtPos' feature
+[Line 25613 Sent 3LB-CAST-a1-5-s15]: [L3 WARNING fixed-without-extpos] Fixed expression 'sino que' does not have the 'ExtPos' feature
+[Line 28731 Sent 3LB-CAST-a14-3-s5]: [L3 WARNING fixed-gap] Gaps in fixed expression [13, 15] 'de * todo'
+[Line 32108 Sent 3LB-CAST-a20-0-s5]: [L3 WARNING fixed-without-extpos] Fixed expression 'A el contrario' does not have the 'ExtPos' feature
+[Line 32513 Sent 3LB-CAST-a20-1-s4]: [L3 WARNING fixed-without-extpos] Fixed expression 'a el cabo' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 147
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
 (weight=0.37037037037037) * (score{size}=0.916098087018308) = 0.339295587784558
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
-(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
 (weight=0.111111111111111) * (score{udeprels}=0.713513513513514) = 0.0792792792792793
-(TOTAL score=0.765488447310751) * (availability=1) * (validity=0.01) = 0.00765488447310751
-STARS = 0
-UD_Spanish-AnCora	0.00765488447310751	0
+(TOTAL score=0.760259689140817) * (availability=1) * (validity=1) = 0.760259689140817
+STARS = 4
+UD_Spanish-AnCora	0.760259689140817	4
