@@ -27810,7 +27810,7 @@
 66	Mika	Mika	PROPN	np00000	_	65	appos	65:appos	MWE=Mika_Hakkinen|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 67	Hakkinen	Hakkinen	PROPN	_	_	66	flat	66:flat	Entity=NOCOREF:Spec.person)CESSCASTAA2000062923978c6)NOCOREF:Spec.number)|SpaceAfter=No
 68	,	,	PUNCT	fc	PunctType=Comm	69	punct	69:punct	Entity=(CESSCASTAA2000062923978c5_PLUS_CESSCASTAA2000062923978c6-other-2-CorefType:ident,gstype:spec|SplitAnte=CESSCASTAA2000062923978c5<CESSCASTAA2000062923978c5_PLUS_CESSCASTAA2000062923978c6,CESSCASTAA2000062923978c6<CESSCASTAA2000062923978c5_PLUS_CESSCASTAA2000062923978c6
-69	ambos	ambos	NUM	pn0mp000	Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	48	obl:arg	48:obl:arg	_
+69	ambos	ambos	PRON	pn0mp000	Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	48	obl:arg	48:obl:arg	_
 70	de	de	ADP	sps00	_	71	case	71:case	_
 71	McLaren-Mercedes	McLaren-Mercedes	PROPN	np00000	_	69	nmod	69:nmod	Entity=(CESSCASTAA2000062923978c12-organization-1-gstype:spec)CESSCASTAA2000062923978c5_PLUS_CESSCASTAA2000062923978c6)NOCOREF:Gen)|SpaceAfter=No
 72	.	.	PUNCT	fp	PunctType=Peri	36	punct	36:punct	_
