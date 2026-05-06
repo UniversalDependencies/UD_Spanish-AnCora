@@ -15454,8 +15454,8 @@
 31	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	30	appos	30:appos	_
 32	locales	local	ADJ	aq0cp0	Number=Plur	31	amod	31:amod	_
 33	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	35	punct	35:punct	Entity=(NOCOREF:Spec.number-number-3-gstype:spec|SpaceAfter=No
-34	16:00	16:00	NUM	_	NumForm=Digit|NumType=Card	35	nummod	35:nummod	_
-35	GMT	GMT	PROPN	np00000	_	30	appos	30:appos	SpaceAfter=No
+34	16:00	16:00	NUM	_	NumForm=Digit|NumType=Card	30	appos	30:appos	_
+35	GMT	GMT	PROPN	np00000	_	34	appos	34:appos	SpaceAfter=No
 36	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	35	punct	35:punct	Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)|SpaceAfter=No
 37	,	,	PUNCT	fc	PunctType=Comm	40	punct	40:punct	_
 38	hasta	hasta	ADP	sps00	_	40	case	40:case	_
@@ -15729,8 +15729,8 @@
 19	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	18	appos	18:appos	_
 20	locales	local	ADJ	aq0cp0	Number=Plur	19	amod	19:amod	_
 21	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	23	punct	23:punct	Entity=(NOCOREF:Spec.number-number-3-gstype:spec|SpaceAfter=No
-22	10:00	10:00	NUM	_	NumForm=Digit|NumType=Card	23	nummod	23:nummod	_
-23	GMT	GMT	PROPN	np00000	_	18	appos	18:appos	SpaceAfter=No
+22	10:00	10:00	NUM	_	NumForm=Digit|NumType=Card	18	appos	18:appos	_
+23	GMT	GMT	PROPN	np00000	_	22	appos	22:appos	SpaceAfter=No
 24	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	23	punct	23:punct	Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)
 25	para	para	ADP	sps00	_	26	mark	26:mark	_
 26-27	inscribirse	_	_	_	_	_	_	_	_
@@ -15795,8 +15795,8 @@
 31	hora	hora	NOUN	ncfs000	Gender=Fem|Number=Sing	30	appos	30:appos	_
 32	local	local	ADJ	aq0cs0	Number=Sing	31	amod	31:amod	_
 33	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	35	punct	35:punct	Entity=(NOCOREF:Spec.number-number-3-gstype:spec|SpaceAfter=No
-34	13:30	13:30	NUM	_	NumForm=Digit|NumType=Card	35	nummod	35:nummod	_
-35	GMT	GMT	PROPN	np00000	_	30	appos	30:appos	SpaceAfter=No
+34	13:30	13:30	NUM	_	NumForm=Digit|NumType=Card	30	appos	30:appos	_
+35	GMT	GMT	PROPN	np00000	_	34	appos	34:appos	SpaceAfter=No
 36	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	35	punct	35:punct	Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)|SpaceAfter=No
 37	.	.	PUNCT	fp	PunctType=Peri	16	punct	16:punct	_
 
@@ -16658,7 +16658,7 @@
 13	local	local	ADJ	aq0cs0	Number=Sing	12	amod	12:amod	Entity=NOCOREF:Spec.date)
 14	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	15	punct	15:punct	Entity=(NOCOREF:Spec.date-time-2-gstype:spec|SpaceAfter=No
 15	10.00	10.00	NOUN	_	_	11	appos	11:appos	_
-16	GMT	GMT	NOUN	nc00000	_	15	appos	15:appos	SpaceAfter=No
+16	GMT	GMT	PROPN	nc00000	_	15	appos	15:appos	SpaceAfter=No
 17	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	15	punct	15:punct	Entity=NOCOREF:Spec.date)NOCOREF:Spec.date)
 18	y	y	CCONJ	cc	_	20	cc	20:cc	_
 19	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	20:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
@@ -16667,7 +16667,7 @@
 22	local	local	ADJ	aq0cs0	Number=Sing	21	amod	21:amod	Entity=NOCOREF:Spec.date)
 23	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	24	punct	24:punct	Entity=(NOCOREF:Spec.date-time-2-gstype:spec|SpaceAfter=No
 24	22.00	22.00	NOUN	_	_	20	appos	20:appos	_
-25	GMT	GMT	NOUN	nc00000	_	24	appos	24:appos	SpaceAfter=No
+25	GMT	GMT	PROPN	nc00000	_	24	appos	24:appos	SpaceAfter=No
 26	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	24	punct	24:punct	Entity=NOCOREF:Spec.date)NOCOREF:Spec.date)NOCOREF:Spec.date)
 27	de	de	ADP	sps00	_	28	case	28:case	_
 28	hoy	hoy	ADV	rg	_	11	advmod	11:advmod	SpaceAfter=No
@@ -16920,8 +16920,8 @@
 31	hora	hora	NOUN	ncfs000	Gender=Fem|Number=Sing	30	appos	30:appos	Entity=(NOCOREF:Spec.date-time-1-gstype:spec
 32	local	local	ADJ	aq0cs0	Number=Sing	31	amod	31:amod	Entity=NOCOREF:Spec.date)
 33	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	35	punct	35:punct	Entity=(NOCOREF:Spec.date-time-3-gstype:spec|SpaceAfter=No
-34	13.30	13.30	NUM	_	NumForm=Digit|NumType=Card	35	nummod	35:nummod	_
-35	GMT	GMT	NOUN	nc00000	_	30	appos	30:appos	SpaceAfter=No
+34	13.30	13.30	NUM	_	NumForm=Digit|NumType=Card	30	appos	30:appos	_
+35	GMT	GMT	PROPN	nc00000	_	34	appos	34:appos	SpaceAfter=No
 36	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	35	punct	35:punct	Entity=NOCOREF:Spec.date)NOCOREF:Spec.date)|SpaceAfter=No
 37	.	.	PUNCT	fp	PunctType=Peri	16	punct	16:punct	_
 

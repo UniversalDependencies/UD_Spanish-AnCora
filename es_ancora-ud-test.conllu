@@ -18635,7 +18635,7 @@
 34	plazo	plazo	NOUN	ncms000	Gender=Masc|Number=Sing	32	obj	32:obj	ArgTem=arg1:tem
 35	de	de	ADP	sps00	_	37	case	37:case	_
 36	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	37:det	Entity=(CESSCASTA2000111410376c7-number-2-CorefType:ident,gstype:spec
-37	22.00	22.00	NUM	_	NumForm=Digit|NumType=Card	34	nummod	34:nummod	_
+37	22.00	22.00	NUM	_	NumForm=Digit|NumType=Card	34	nmod	34:nmod	_
 38	GMT	GMT	PROPN	np0000a	_	37	appos	37:appos	Entity=(NOCOREF:Spec.other-other-1-gstype:spec)
 39	de	de	ADP	sps00	_	40	case	40:case	_
 40	hoy	hoy	ADV	rg	_	37	advmod	37:advmod	Entity=CESSCASTA2000111410376c7)
@@ -36556,8 +36556,8 @@
 42	horas	horas	NOUN	_	_	41	compound	41:compound	_
 43	locales	local	ADJ	aq0cp0	Number=Plur	41	amod	41:amod	_
 44	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	46	punct	46:punct	Entity=(CESSCASTAA200011085166c5-time-3-CorefType:pred.definit,gstype:spec|SpaceAfter=No
-45	0.00	0.00	NUM	_	NumForm=Digit|NumType=Card	46	nummod	46:nummod	_
-46	GMT	GMT	PROPN	np00000	_	41	appos	41:appos	SpaceAfter=No
+45	0.00	0.00	NUM	_	NumForm=Digit|NumType=Card	41	appos	41:appos	_
+46	GMT	GMT	PROPN	np00000	_	45	appos	45:appos	SpaceAfter=No
 47	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	46	punct	46:punct	Entity=CESSCASTAA200011085166c5)CESSCASTAA200011085166c5)
 48	para	para	ADP	sps00	_	49	mark	49:mark	_
 49	exponer	exponer	VERB	vmn0000	VerbForm=Inf	31	advcl	31:advcl	ArgTem=argM:fin
