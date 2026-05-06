@@ -33159,7 +33159,7 @@
 44	circuito	circuito	NOUN	ncms000	Gender=Masc|Number=Sing	42	obj	42:obj	ArgTem=arg1:pat
 45	de	de	ADP	sps00	_	47	case	47:case	_
 46	42,195	42.195	NUM	_	NumForm=Digit|NumType=Card	47	nummod	47:nummod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
-47	kms.	km	NUM	zu	NumForm=Digit|NumType=Card	44	nummod	44:nummod	Entity=NOCOREF:Spec.number)CESSCASTAA2000112620778c8)
+47	kms.	km	NOUN	ncmp000	Gender=Masc|Number=Plur	44	nmod	44:nmod	Entity=NOCOREF:Spec.number)CESSCASTAA2000112620778c8)
 48	en	en	ADP	sps00	_	49	case	49:case	_
 49	2.16:44	2.16:44	NUM	_	NumForm=Digit|NumType=Card	42	obl	42:obl	ArgTem=argM:tmp|Entity=(NOCOREF:Spec.number-number-1-gstype:spec)|SpaceAfter=No
 50	.	.	PUNCT	fp	PunctType=Peri	16	punct	16:punct	_
