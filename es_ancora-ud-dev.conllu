@@ -60086,7 +60086,7 @@
 17	cambiar	cambiar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 18	pesetas	peseta	NOUN	zm	Gender=Fem|Number=Plur	17	nsubj	17:nsubj	ArgTem=arg1:pat|Currency=Yes|Entity=(CESSCASTP2002010317c2--1-CorefType:ident,gstype:gen)
 19	por	por	ADP	sps00	_	20	case	20:case	_
-20	euros	euro	NUM	zm	Gender=Masc|Number=Plur|NumType=Card	17	obl	17:obl	ArgTem=arg2:tem|Currency=Yes|Entity=(CESSCASTP2002010317c4--1-CorefType:ident,gstype:gen)
+20	euros	euro	NOUN	zm	Gender=Masc|Number=Plur	17	obl	17:obl	ArgTem=arg2:tem|Currency=Yes|Entity=(CESSCASTP2002010317c4--1-CorefType:ident,gstype:gen)
 21	en	en	ADP	sps00	_	23	case	23:case	_
 22	cualquier	cualquiera	DET	di0cs0	Number=Sing|PronType=Ind	23	det	23:det	Entity=(CESSCASTP2002010317c6--2-CorefType:ident,gstype:gen
 23	banco	banco	NOUN	ncms000	Gender=Masc|Number=Sing	17	obl	17:obl	ArgTem=argM:loc|Entity=CESSCASTP2002010317c6)
