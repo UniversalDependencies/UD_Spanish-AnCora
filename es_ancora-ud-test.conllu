@@ -5778,9 +5778,9 @@
 # sent_id = 3LB-CAST-r2-11-s4
 # text = Hoy por hoy las relaciones de los nacionalistas y la derecha se han enconado, pero no olvidemos que los intereses de ambas formaciones pueden ser convergentes dentro de unos meses.
 # orig_file_sentence 002#65
-1	Hoy	hoy	NOUN	rg	ExtPos=ADV	14	advmod	14:advmod	MWE=Hoy_por_hoy|MWEPOS=ADV|ArgTem=argM:tmp|Cxn=NPN|CxnElt=1:NPN.N1
+1	Hoy	hoy	ADV	rg	ExtPos=ADV	14	advmod	14:advmod	MWE=Hoy_por_hoy|MWEPOS=ADV|ArgTem=argM:tmp|Cxn=NPN|CxnElt=1:NPN.N1
 2	por	por	ADP	_	_	1	fixed	1:fixed	CxnElt=1:NPN.P
-3	hoy	hoy	NOUN	_	_	1	fixed	1:fixed	CxnElt=1:NPN.N2
+3	hoy	hoy	ADV	rg	_	1	fixed	1:fixed	CxnElt=1:NPN.N2
 4	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	5:det	_
 5	relaciones	relación	NOUN	ncfp000	Gender=Fem|Number=Plur	14	nsubj	14:nsubj	ArgTem=arg1:tem
 6	de	de	ADP	sps00	_	8	case	8:case	_
