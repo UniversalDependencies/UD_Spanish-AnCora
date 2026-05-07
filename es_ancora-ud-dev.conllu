@@ -26180,7 +26180,7 @@
 24	a	a	ADP	sps00	_	26	case	26:case	_
 25	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	26:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
 26	10:00	10:00	NUM	_	NumForm=Digit|NumType=Card	23	obl	23:obl	MWE=10:00_horas|MWEPOS=NOUN|ArgTem=argM:tmp
-27	horas	horas	NOUN	_	_	26	compound	26:compound	Entity=NOCOREF:Spec.date)|SpaceAfter=No
+27	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	26	compound	26:compound	Entity=NOCOREF:Spec.date)|SpaceAfter=No
 28	.	.	PUNCT	fp	PunctType=Peri	19	punct	19:punct	_
 
 # sent_id = CESS-CAST-AA-20000511-8193-s9
@@ -33194,7 +33194,7 @@
 23	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	Entity=(NOCOREF:Spec.number-number-3-gstype:spec
 24	`redondo`	redondo	ADJ	aq0ms0	Gender=Masc|Number=Sing	25	amod	25:amod	_
 25	2	2	NUM	w	NumForm=Digit|NumType=Card	21	obl	21:obl	MWE=2_horas_y_22_minutos|MWEPOS=NOUN|ArgTem=argM:tmp
-26	horas	horas	NOUN	_	_	25	compound	25:compound	_
+26	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	25	compound	25:compound	_
 27	y	y	CCONJ	_	_	25	compound	25:compound	_
 28	22	22	NUM	_	NumForm=Digit|NumType=Card	25	compound	25:compound	_
 29	minutos	minutos	NOUN	_	_	25	compound	25:compound	Entity=NOCOREF:Spec.number)|SpaceAfter=No
@@ -38724,7 +38724,7 @@
 17	sobre	sobre	ADP	sps00	_	19	case	19:case	_
 18	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	19:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
 19	3.15	3.15	NUM	_	NumForm=Digit|NumType=Card	16	obl	16:obl	MWE=3.15_horas|MWEPOS=NOUN|ArgTem=argM:tmp
-20	horas	horas	NOUN	_	_	19	compound	19:compound	Entity=NOCOREF:Spec.date)
+20	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	19	compound	19:compound	Entity=NOCOREF:Spec.date)
 21	contra	contra	ADP	sps00	_	23	case	23:case	_
 22	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCASTP1999080229c3--2-gstype:gen
 23	caballo	caballo	NOUN	ncms000	Gender=Masc|Number=Sing	16	obl:arg	16:obl:arg	ArgTem=arg2:loc
@@ -38812,7 +38812,7 @@
 19	a	a	ADP	sps00	_	21	case	21:case	_
 20	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	21:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
 21	4.05	4.05	NUM	_	NumForm=Digit|NumType=Card	15	obl	15:obl	MWE=4.05_horas|MWEPOS=NOUN|ArgTem=argM:tmp
-22	horas	horas	NOUN	_	_	21	compound	21:compound	Entity=NOCOREF:Spec.date)|SpaceAfter=No
+22	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	21	compound	21:compound	Entity=NOCOREF:Spec.date)|SpaceAfter=No
 23	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
 
 # global.Entity = eid-etype-head-other
@@ -49268,7 +49268,7 @@
 8	a	a	ADP	sps00	_	10	case	10:case	_
 9	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	10:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
 10	6.30	6.30	NUM	_	NumForm=Digit|NumType=Card	3	obl	3:obl	MWE=6.30_horas|MWEPOS=NOUN|ArgTem=argM:tmp
-11	horas	horas	NOUN	_	_	10	compound	10:compound	Entity=NOCOREF:Spec.date)
+11	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	10	compound	10:compound	Entity=NOCOREF:Spec.date)
 12	y	y	CCONJ	cc	_	14	cc	14:cc	_
 13	de	de	ADP	sps00	_	14	case	14:case	_
 14	Andorra	Andorra	PROPN	np00000	_	3	conj	3:conj	Entity=(CESSCASTP2000080156_cc4--1-CorefType:ident)|SpaceAfter=No
