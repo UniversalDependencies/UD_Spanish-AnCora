@@ -15453,10 +15453,10 @@
 30	12:00	12:00	NUM	_	NumForm=Digit|NumType=Card	17	obl	17:obl	ArgTem=argM:tmp
 31	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	30	appos	30:appos	_
 32	locales	local	ADJ	aq0cp0	Number=Plur	31	amod	31:amod	_
-33	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	35	punct	35:punct	Entity=(NOCOREF:Spec.number-number-3-gstype:spec|SpaceAfter=No
+33	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	34	punct	34:punct	Entity=(NOCOREF:Spec.number-number-3-gstype:spec|SpaceAfter=No
 34	16:00	16:00	NUM	_	NumForm=Digit|NumType=Card	30	appos	30:appos	_
 35	GMT	GMT	PROPN	np00000	_	34	appos	34:appos	SpaceAfter=No
-36	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	35	punct	35:punct	Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)|SpaceAfter=No
+36	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	34	punct	34:punct	Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)|SpaceAfter=No
 37	,	,	PUNCT	fc	PunctType=Comm	40	punct	40:punct	_
 38	hasta	hasta	ADP	sps00	_	40	case	40:case	_
 39	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	40:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
