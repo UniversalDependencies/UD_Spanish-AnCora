@@ -13767,7 +13767,7 @@
 6	beneficiados	beneficiado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	5	xcomp	5:xcomp	ArgTem=arg2:atr|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	_
 8	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	11	advmod	11:advmod	MWE=no_sólo|MWEPOS=ADV
-9	sólo	sólo	ADV	_	_	8	fixed	8:fixed	_
+9	sólo	sólo	ADV	rg	_	8	fixed	8:fixed	_
 10	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	11:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 11	espectadores	espectador	NOUN	ncmp000	Gender=Masc|Number=Plur	5	obj	5:obj	Entity=NOCOREF:Gen)
 12	y	y	CCONJ	cc	_	13	cc	13:cc	_
@@ -17298,7 +17298,7 @@
 9	convenio	convenio	NOUN	ncms000	Gender=Masc|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg1:tem|Entity=CESSCASTA2000101310568c16)
 10	servirá	servir	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	ccomp	6:ccomp	ArgTem=arg1:pat
 11	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	14	cc	14:cc	MWE=no_sólo|MWEPOS=ADV
-12	sólo	sólo	ADV	_	_	11	fixed	11:fixed	_
+12	sólo	sólo	ADV	rg	_	11	fixed	11:fixed	_
 13	para	para	ADP	sps00	_	14	mark	14:mark	_
 14	buscar	buscar	VERB	vmn0000	VerbForm=Inf	10	conj	10:conj	ArgTem=arg3:fin
 15	más	más	ADV	rg	Degree=Cmp	16	advmod	16:advmod	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -24187,7 +24187,7 @@
 6	prensa	prensa	NOUN	ncfs000	Gender=Fem|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg0:agt
 7	deportiva	deportivo	ADJ	aq0fs0	Gender=Fem|Number=Sing	6	amod	6:amod	Entity=CESSCASTAA2000022420351c7)
 8	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	10	advmod	10:advmod	MWE=no_sólo|MWEPOS=ADV|ArgTem=argM:adv
-9	sólo	sólo	ADV	_	_	8	fixed	8:fixed	_
+9	sólo	sólo	ADV	rg	_	8	fixed	8:fixed	_
 10	destaca	destacar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	16:parataxis	_
 11-12	al	_	_	_	_	_	_	_	_
 11	a	a	ADP	spcms	_	13	case	13:case	_
@@ -32035,7 +32035,7 @@
 13	Kournikova	Kournikova	PROPN	_	_	12	flat	12:flat	Entity=CESSCASTAA200007106482c17)NOCOREF:Gen)|SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	Entity=(NOCOREF:Gen--3-gstype:gen
 15	"	"	PUNCT	fe	PunctType=Quot	16	punct	16:punct	SpaceAfter=No
-16	sólo	sólo	ADV	nc00000	_	28	obj	28:obj	MWE=sólo_las_bolas_deben_botar|MWEPOS=NOUN
+16	sólo	sólo	ADV	rg	_	28	obj	28:obj	MWE=sólo_las_bolas_deben_botar|MWEPOS=NOUN
 17	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	18:det	_
 18	bolas	bolas	NOUN	_	_	16	compound	16:compound	_
 19	deben	deben	NOUN	_	_	16	compound	16:compound	_
@@ -33767,7 +33767,7 @@
 7	División	División	PROPN	_	_	6	flat	6:flat	Entity=CESSCASTAA200009117351c2)
 8	con	con	ADP	sps00	_	12	case	12:case	_
 9	tan	tan	NOUN	rg	ExtPos=ADV	12	advmod	12:advmod	MWE=tan_sólo|MWEPOS=ADV
-10	sólo	sólo	ADV	_	_	9	fixed	9:fixed	_
+10	sólo	sólo	ADV	rg	_	9	fixed	9:fixed	_
 11	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(CESSCASTAA200009117351c1--2-gstype:gen
 12	jugador	jugador	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	3:obl	ArgTem=argM:adv
 13-14	del	_	_	_	_	_	_	_	_
@@ -34031,7 +34031,7 @@
 14	español	español	ADJ	aq0ms0	Gender=Masc|Number=Sing	13	amod	13:amod	Entity=CESSCASTAA200009117351c10)CESSCASTAA200009117351c2)
 15	y	y	CCONJ	cc	_	32	cc	32:cc	_
 16	tan	tan	NOUN	rg	ExtPos=ADV	18	advmod	18:advmod	MWE=tan_sólo|MWEPOS=ADV
-17	sólo	sólo	ADV	_	_	16	fixed	16:fixed	_
+17	sólo	sólo	ADV	rg	_	16	fixed	16:fixed	_
 18	Walter	Walter	PROPN	np00000	_	32	nsubj	32:nsubj	MWE=Walter_Gaitán|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(CESSCASTAA200009117351c17--1
 19	Gaitán	Gaitán	PROPN	_	_	18	flat	18:flat	_
 20	y	y	CCONJ	cc	_	21	cc	21:cc	_
@@ -34868,7 +34868,7 @@
 9	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	ArgTem=arg1:pat
 10	"	"	PUNCT	fe	PunctType=Quot	13	punct	13:punct	SpaceAfter=No
 11	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	13	cc	13:cc	MWE=no_sólo|MWEPOS=ADV
-12	sólo	sólo	ADV	_	Polarity=Neg	11	fixed	11:fixed	_
+12	sólo	sólo	ADV	rg	Polarity=Neg	11	fixed	11:fixed	_
 13	importante	importante	ADJ	aq0cs0	Number=Sing	2	ccomp	2:ccomp	ArgTem=arg2:atr|SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
 15	sino	sino	CCONJ	cc	_	16	cc	16:cc	_
@@ -34952,7 +34952,7 @@
 4	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 5	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	SpaceAfter=No
 6	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	9	cc	9:cc	MWE=no_sólo|MWEPOS=ADV
-7	sólo	sólo	ADV	_	_	6	fixed	6:fixed	_
+7	sólo	sólo	ADV	rg	_	6	fixed	6:fixed	_
 8	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 9	cuestión	cuestión	NOUN	ncfs000	Gender=Fem|Number=Sing	3	conj	3:conj	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen
 10	de	de	ADP	sps00	_	11	mark	11:mark	_
@@ -35021,7 +35021,7 @@
 6	segunda	segundo	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	7	amod	7:amod	_
 7	pista	pista	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nmod	3:nmod	ArgTem=arg1:pat|Entity=CESSCASTAA2000092824092c10)NOCOREF:Gen)
 8	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	12	advmod	12:advmod	MWE=no_sólo|MWEPOS=ADV
-9	sólo	sólo	ADV	_	_	8	fixed	8:fixed	_
+9	sólo	sólo	ADV	rg	_	8	fixed	8:fixed	_
 10	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	ArgTem=arg1:pat
 11	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(NOCOREF:Gen--2-gstype:gen
 12	planteamiento	planteamiento	NOUN	ncms000	Gender=Masc|Number=Sing	42	ccomp	42:ccomp	ArgTem=arg2:atr
@@ -41871,7 +41871,7 @@
 15	haga	hacer	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp	ArgTem=arg1:pat
 16	marxista	marxista	ADJ	aq0cs0	Number=Sing	15	obj	15:obj	ArgTem=arg2:atr
 17	tan	tan	NOUN	rg	ExtPos=ADV	23	advmod	23:advmod	MWE=tan_sólo|MWEPOS=ADV
-18	sólo	sólo	ADV	_	_	17	fixed	17:fixed	_
+18	sólo	sólo	ADV	rg	_	17	fixed	17:fixed	_
 19	porque	porque	SCONJ	cs	_	23	mark	23:mark	_
 20	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	21:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP1999030213c7--1-CorefType:ident,gstype:gen)
 21	pueblo	pueblo	NOUN	ncms000	Gender=Masc|Number=Sing	23	nsubj	23:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
@@ -52696,7 +52696,7 @@
 15	y	y	CCONJ	cc	_	16	cc	16:cc	_
 16	servicios	servicio	NOUN	ncmp000	Gender=Masc|Number=Plur	14	conj	14:conj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)NOCOREF:Gen)CESSCASTP2000070193c8)
 17	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	19	advmod	19:advmod	MWE=no_sólo|MWEPOS=ADV
-18	sólo	sólo	ADV	_	_	17	fixed	17:fixed	_
+18	sólo	sólo	ADV	rg	_	17	fixed	17:fixed	_
 19	incluía	incluir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	parataxis	26:parataxis	_
 20	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	21:det	Entity=(CESSCASTP2000070193c7--2-gstype:gen,HomoDD
 21	libertad	libertad	NOUN	ncfs000	Gender=Fem|Number=Sing	19	obj	19:obj	ArgTem=arg1:pat
@@ -60409,7 +60409,7 @@
 4	historia	historia	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2002010334c2)
 5	rompe	romper	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	10	cc	10:cc	MWE=no_sólo|MWEPOS=CCONJ
-7	sólo	sólo	ADV	_	_	6	fixed	6:fixed	_
+7	sólo	sólo	ADV	rg	_	6	fixed	6:fixed	_
 8	con	con	ADP	sps00	_	10	case	10:case	_
 9	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 10	concepto	concepto	NOUN	ncms000	Gender=Masc|Number=Sing	5	obl:arg	5:obl:arg	ArgTem=arg1:tem

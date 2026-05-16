@@ -2423,7 +2423,7 @@
 16	a	a	ADP	rg	_	17	case	17:case	MWE=a_salvo|MWEPOS=ADV|ArgTem=arg2:atr
 17	salvo	salvo	NOUN	_	_	15	xcomp	15:xcomp	_
 18	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	22	cc	22:cc	MWE=no_sólo|MWEPOS=ADV
-19	sólo	sólo	ADV	_	_	18	fixed	18:fixed	_
+19	sólo	sólo	ADV	rg	_	18	fixed	18:fixed	_
 20	de	de	ADP	sps00	_	22	case	22:case	_
 21	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	det	22:det	_
 22	calamidades	calamidad	NOUN	ncfp000	Gender=Fem|Number=Plur	15	obl	15:obl	SpaceAfter=No
@@ -4444,7 +4444,7 @@
 21	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	37	parataxis	37:parataxis	SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	_
 23	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	37	cc	37:cc	MWE=no_sólo|MWEPOS=ADV
-24	sólo	sólo	ADV	_	Polarity=Neg	23	fixed	23:fixed	_
+24	sólo	sólo	ADV	rg	Polarity=Neg	23	fixed	23:fixed	_
 25	le	él	PRON	pp3csa00	Case=Dat|Number=Sing|Person=3|PronType=Prs	26	obl:arg	26:obl:arg	ArgTem=arg1:pat
 26	aíslan	aislar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	parataxis	37:parataxis	_
 27	a	a	ADP	rg	ExtPos=ADV	26	advmod	26:advmod	MWE=a_la_perfección|MWEPOS=ADV|ArgTem=argM:adv
@@ -6054,7 +6054,7 @@
 1	En	en	ADP	sps00	_	2	case	2:case	_
 2	muchas	mucho	PRON	pi0fp000	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	6	obl	6:obl	ArgTem=arg2:loc
 3	tan	tan	NOUN	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=tan_sólo|MWEPOS=ADV|ArgTem=argM:adv
-4	sólo	sólo	ADV	_	_	3	fixed	3:fixed	_
+4	sólo	sólo	ADV	rg	_	3	fixed	3:fixed	_
 5	se	él	PRON	pp3cn000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	expl:pv	6:expl:pv	_
 6	encuentra	encontrar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
@@ -35321,7 +35321,7 @@
 22	actuación	actuación	NOUN	ncfs000	Gender=Fem|Number=Sing	21	obj	21:obj	ArgTem=arg2:atr
 23	"	"	PUNCT	fe	PunctType=Quot	27	punct	27:punct	Entity=(CESSCASTAA200012128504csingleton1--5-gstype:gen|SpaceAfter=No
 24	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	27	cc	27:cc	MWE=no_sólo|MWEPOS=ADV
-25	sólo	sólo	ADV	_	_	24	fixed	24:fixed	_
+25	sólo	sólo	ADV	rg	_	24	fixed	24:fixed	_
 26	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 27	administración	administración	NOUN	ncfs000	Gender=Fem|Number=Sing	21	nsubj	21:nsubj	ArgTem=arg1:tem
 28	central	central	ADJ	aq0cs0	Number=Sing	27	amod	27:amod	SpaceAfter=No
@@ -47402,7 +47402,7 @@
 19	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 20	que	que	PRON	pr0cn000	PronType=Rel	23	nsubj	23:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000020241c11-person-1-CorefType:ident,gstype:spec)
 21	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	23	advmod	23:advmod	MWE=no_sólo|MWEPOS=ADV
-22	sólo	sólo	ADV	_	_	21	fixed	21:fixed	_
+22	sólo	sólo	ADV	rg	_	21	fixed	21:fixed	_
 23	confesó	confesar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 24	echar	echar	VERB	vmn0000	VerbForm=Inf	23	xcomp	23:xcomp	ArgTem=arg1:pat
 25	profundamente	profundamente	ADV	rg	_	24	advmod	24:advmod	ArgTem=argM:adv
@@ -55545,7 +55545,7 @@
 2	y	y	CCONJ	cc	_	3	cc	3:cc	_
 3	Croacia	Croacia	PROPN	np00000	_	1	conj	1:conj	Entity=CESSCASTP2001040130c1)
 4	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	6	advmod	6:advmod	MWE=no_sólo|MWEPOS=ADV
-5	sólo	sólo	ADV	_	_	4	fixed	4:fixed	_
+5	sólo	sólo	ADV	rg	_	4	fixed	4:fixed	_
 6	saludaron	saludar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	parataxis	14:parataxis	_
 7	ayer	ayer	ADV	rg	_	6	advmod	6:advmod	ArgTem=argM:tmp
 8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCASTP2001040130c4--2-gstype:gen,HomoDD
@@ -61831,7 +61831,7 @@
 # orig_file_sentence 013#12
 1	"	"	PUNCT	fe	PunctType=Quot	7	punct	7:punct	SpaceAfter=No
 2	No	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	7	cc	7:cc	MWE=No_sólo|MWEPOS=ADV
-3	sólo	sólo	ADV	_	_	2	fixed	2:fixed	_
+3	sólo	sólo	ADV	rg	_	2	fixed	2:fixed	_
 3.1	_	_	PRON	p	_	_	_	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002080117c6--1-gstype:gen)
 4	nos	yo	PRON	pp1cp000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	5	obl:arg	5:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTP2002080117c5-organization-1-CorefType:ident,gstype:spec)
 5	insultan	insultar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	7:parataxis	SpaceAfter=No
