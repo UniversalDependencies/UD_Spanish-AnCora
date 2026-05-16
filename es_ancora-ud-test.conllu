@@ -36555,10 +36555,10 @@
 41	20.00	20.00	NUM	_	NumForm=Digit|NumType=Card	31	obl	31:obl	MWE=20.00_horas|MWEPOS=NOUN|ArgTem=argM:tmp
 42	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	41	compound	41:compound	_
 43	locales	local	ADJ	aq0cp0	Number=Plur	41	amod	41:amod	_
-44	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	46	punct	46:punct	Entity=(CESSCASTAA200011085166c5-time-3-CorefType:pred.definit,gstype:spec|SpaceAfter=No
+44	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	45	punct	45:punct	Entity=(CESSCASTAA200011085166c5-time-3-CorefType:pred.definit,gstype:spec|SpaceAfter=No
 45	0.00	0.00	NUM	_	NumForm=Digit|NumType=Card	41	appos	41:appos	_
 46	GMT	GMT	PROPN	np00000	_	45	appos	45:appos	SpaceAfter=No
-47	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	46	punct	46:punct	Entity=CESSCASTAA200011085166c5)CESSCASTAA200011085166c5)
+47	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	45	punct	45:punct	Entity=CESSCASTAA200011085166c5)CESSCASTAA200011085166c5)
 48	para	para	ADP	sps00	_	49	mark	49:mark	_
 49	exponer	exponer	VERB	vmn0000	VerbForm=Inf	31	advcl	31:advcl	ArgTem=argM:fin
 50	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	51:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
