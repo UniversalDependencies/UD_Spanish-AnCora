@@ -28161,7 +28161,7 @@
 27	y	y	CCONJ	cc	_	30	cc	30:cc	_
 28	724.800	724800	NUM	_	NumForm=Digit|NumType=Card	30	nsubj	30:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Spec.number-number-1-gstype:spec)
 29	estaban	estar	AUX	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	cop	30:cop	_
-30	desempleados	desempleado	ADJ	aq0mp0	Gender=Masc|Number=Plur	23	conj	23:conj	ArgTem=arg2:atr
+30	desempleados	desempleado	ADJ	aq0mp0	Gender=Masc|Number=Plur|VerbForm=Part	23	conj	23:conj	ArgTem=arg2:atr
 31	en	en	ADP	sps00	_	34	case	34:case	_
 32	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	34:det	Entity=(NOCOREF:Spec.date-time-3-gstype:spec
 33	cuarto	cuarto	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	34	amod	34:amod	_
@@ -47996,7 +47996,7 @@
 # orig_file_sentence 010#77
 0.1	_	_	PRON	p	_	_	_	1:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP19991201116c5--1-CorefType:ident)
 1	Está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	2:cop	_
-2	fidelizado	fidelizado	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	0:root	ArgTem=arg2:atr|SpaceAfter=No
+2	fidelizado	fidelizado	ADJ	aq0ms0	Gender=Masc|Number=Sing|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr|SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 4	blindado	blindado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	2	advmod	2:advmod	SpaceAfter=No
 5	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
@@ -56404,7 +56404,7 @@
 11	de	de	ADP	sps00	_	13	case	13:case	_
 12	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	13:det	Entity=(CESSCASTP2001030212c2--2-gstype:gen,HomoDD
 13	mercados	mercado	NOUN	ncmp000	Gender=Masc|Number=Plur	10	nmod	10:nmod	ArgTem=arg1:pat
-14	liberalizados	liberalizado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	13	amod	13:amod	_
+14	liberalizados	liberalizado	ADJ	aq0msp	Gender=Masc|Number=Plur|VerbForm=Part	13	amod	13:amod	_
 15	donde	donde	ADV	pr000000	PronType=Rel	16	advmod	16:advmod	ArgTem=argM:loc|Entity=(CESSCASTP2001030212c2--1-CorefType:ident,gstype:gen)
 16	operan	operar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
 17	esas	ese	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	18	det	18:det	Entity=(CESSCASTP2001030212c3--2-CorefType:ident,gstype:gen
