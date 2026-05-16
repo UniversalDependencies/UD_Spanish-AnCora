@@ -15728,10 +15728,10 @@
 18	6:00	6:00	NUM	_	NumForm=Digit|NumType=Card	8	obl	8:obl	ArgTem=argM:tmp
 19	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	18	appos	18:appos	_
 20	locales	local	ADJ	aq0cp0	Number=Plur	19	amod	19:amod	_
-21	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	23	punct	23:punct	Entity=(NOCOREF:Spec.number-number-3-gstype:spec|SpaceAfter=No
+21	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	22	punct	22:punct	Entity=(NOCOREF:Spec.number-number-3-gstype:spec|SpaceAfter=No
 22	10:00	10:00	NUM	_	NumForm=Digit|NumType=Card	18	appos	18:appos	_
 23	GMT	GMT	PROPN	np00000	_	22	appos	22:appos	SpaceAfter=No
-24	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	23	punct	23:punct	Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)
+24	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	22	punct	22:punct	Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)
 25	para	para	ADP	sps00	_	26	mark	26:mark	_
 26-27	inscribirse	_	_	_	_	_	_	_	_
 26	inscribir	inscribir	VERB	vmn0000	VerbForm=Inf	8	advcl	8:advcl	ArgTem=argM:fin|Entity=(CESSCASTA2000051511470c31--1
@@ -15794,10 +15794,10 @@
 30	9:30	9:30	NUM	_	NumForm=Digit|NumType=Card	16	obl	16:obl	ArgTem=argM:tmp
 31	hora	hora	NOUN	ncfs000	Gender=Fem|Number=Sing	30	appos	30:appos	_
 32	local	local	ADJ	aq0cs0	Number=Sing	31	amod	31:amod	_
-33	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	35	punct	35:punct	Entity=(NOCOREF:Spec.number-number-3-gstype:spec|SpaceAfter=No
+33	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	34	punct	34:punct	Entity=(NOCOREF:Spec.number-number-3-gstype:spec|SpaceAfter=No
 34	13:30	13:30	NUM	_	NumForm=Digit|NumType=Card	30	appos	30:appos	_
 35	GMT	GMT	PROPN	np00000	_	34	appos	34:appos	SpaceAfter=No
-36	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	35	punct	35:punct	Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)|SpaceAfter=No
+36	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	34	punct	34:punct	Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)|SpaceAfter=No
 37	.	.	PUNCT	fp	PunctType=Peri	16	punct	16:punct	_
 
 # sent_id = CESS-CAST-A-20000515-11470-s17
@@ -16919,10 +16919,10 @@
 30	09.30	09.30	NUM	_	NumForm=Digit|NumType=Card	22	nummod	22:nummod	_
 31	hora	hora	NOUN	ncfs000	Gender=Fem|Number=Sing	30	appos	30:appos	Entity=(NOCOREF:Spec.date-time-1-gstype:spec
 32	local	local	ADJ	aq0cs0	Number=Sing	31	amod	31:amod	Entity=NOCOREF:Spec.date)
-33	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	35	punct	35:punct	Entity=(NOCOREF:Spec.date-time-3-gstype:spec|SpaceAfter=No
+33	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	34	punct	34:punct	Entity=(NOCOREF:Spec.date-time-3-gstype:spec|SpaceAfter=No
 34	13.30	13.30	NUM	_	NumForm=Digit|NumType=Card	30	appos	30:appos	_
 35	GMT	GMT	PROPN	nc00000	_	34	appos	34:appos	SpaceAfter=No
-36	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	35	punct	35:punct	Entity=NOCOREF:Spec.date)NOCOREF:Spec.date)|SpaceAfter=No
+36	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	34	punct	34:punct	Entity=NOCOREF:Spec.date)NOCOREF:Spec.date)|SpaceAfter=No
 37	.	.	PUNCT	fp	PunctType=Peri	16	punct	16:punct	_
 
 # global.Entity = eid-etype-head-other
