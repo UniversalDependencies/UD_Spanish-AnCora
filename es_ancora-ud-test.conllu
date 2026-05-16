@@ -33455,7 +33455,7 @@
 39	30	30	NUM	_	NumForm=Digit|NumType=Card	40	nummod	40:nummod	Entity=(NOCOREF:Gen--2-gstype:gen(NOCOREF:Gen--2-gstype:gen
 40	victorias	victoria	NOUN	ncfp000	Gender=Fem|Number=Plur	38	obj	38:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 41	y	y	CCONJ	cc	_	44	cc	44:cc	_
-42	solo	solo	ADJ	rg	Gender=Masc|Number=Sing	44	advmod	44:advmod	_
+42	solo	solo	ADV	rg	_	44	advmod	44:advmod	_
 43	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	44:det	Entity=(NOCOREF:Gen--2-gstype:gen
 44	derrota	derrota	NOUN	ncfs000	Gender=Fem|Number=Sing	40	conj	40:conj	Entity=NOCOREF:Gen)NOCOREF:Gen)CESSCASTAA200008128253c7)CESSCASTAA200008128253c7)NOCOREF:Gen)|SpaceAfter=No
 45	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_

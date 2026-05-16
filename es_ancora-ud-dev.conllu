@@ -49288,7 +49288,7 @@
 5	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	expl:pass	6:expl:pass	_
 6	efectúa	efectuar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 7	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Gen--3-gstype:gen
-8	solo	solo	ADJ	aq0ms0	_	9	amod	9:amod	_
+8	solo	solo	ADJ	aq0ms0	Gender=Masc|Number=Sing	9	amod	9:amod	_
 9	viaje	viaje	NOUN	ncms000	Gender=Masc|Number=Sing	6	nsubj	6:nsubj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 11	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	19	mark	19:mark	MWE=mientras_que|MWEPOS=CCONJ
