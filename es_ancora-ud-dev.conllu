@@ -4444,7 +4444,7 @@
 21	ejemplo	ejemplo	NOUN	_	Gender=Masc|Number=Sing	37	parataxis	37:parataxis	SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	_
 23	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	37	cc	37:cc	MWE=no_sólo|MWEPOS=ADV
-24	sólo	sólo	ADV	rg	Polarity=Neg	23	fixed	23:fixed	_
+24	sólo	sólo	ADV	rg	_	23	fixed	23:fixed	_
 25	le	él	PRON	pp3csa00	Case=Dat|Number=Sing|Person=3|PronType=Prs	26	obl:arg	26:obl:arg	ArgTem=arg1:pat
 26	aíslan	aislar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	parataxis	37:parataxis	_
 27	a	a	ADP	rg	ExtPos=ADV	26	advmod	26:advmod	MWE=a_la_perfección|MWEPOS=ADV|ArgTem=argM:adv

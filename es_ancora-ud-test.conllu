@@ -34868,7 +34868,7 @@
 9	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	ArgTem=arg1:pat
 10	"	"	PUNCT	fe	PunctType=Quot	13	punct	13:punct	SpaceAfter=No
 11	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	13	cc	13:cc	MWE=no_sólo|MWEPOS=ADV
-12	sólo	sólo	ADV	rg	Polarity=Neg	11	fixed	11:fixed	_
+12	sólo	sólo	ADV	rg	_	11	fixed	11:fixed	_
 13	importante	importante	ADJ	aq0cs0	Number=Sing	2	ccomp	2:ccomp	ArgTem=arg2:atr|SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
 15	sino	sino	CCONJ	cc	_	16	cc	16:cc	_
