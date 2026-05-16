@@ -16268,7 +16268,7 @@
 8	haber	haber	AUX	van0000	VerbForm=Inf	9	aux	9:aux	_
 9	disputado	disputar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	6:advcl	_
 10	tan	tan	NOUN	rg	ExtPos=ADV	13	advmod	13:advmod	MWE=tan_solo|MWEPOS=ADV|Entity=(NOCOREF:Gen--4-gstype:gen
-11	solo	solo	NOUN	_	_	10	fixed	10:fixed	_
+11	solo	solo	ADV	rg	_	10	fixed	10:fixed	_
 12	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	_
 13	prueba	prueba	NOUN	ncfs000	Gender=Fem|Number=Sing	9	obj	9:obj	ArgTem=arg1:pat
 14	de	de	ADP	sps00	_	15	case	15:case	_

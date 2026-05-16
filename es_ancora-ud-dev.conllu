@@ -20247,7 +20247,7 @@
 59	vuelta	vuelta	NOUN	ncfs000	Gender=Fem|Number=Sing	57	conj	57:conj	_
 60	por	por	ADP	sps00	_	64	case	64:case	_
 61	tan	tan	NOUN	rg	ExtPos=ADV	64	advmod	64:advmod	MWE=tan_solo|MWEPOS=ADV|Entity=(NOCOREF:Spec.number-number-4-gstype:spec
-62	solo	solo	NOUN	_	_	61	fixed	61:fixed	_
+62	solo	solo	ADV	rg	_	61	fixed	61:fixed	_
 63	9.800	9800	NUM	_	NumForm=Digit|NumType=Card	64	nummod	64:nummod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 64	pesetas	peseta	NOUN	zm	Gender=Fem|Number=Plur	57	nmod	57:nmod	ArgTem=argM:ext|Currency=Yes|Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)NOCOREF:Gen)|SpaceAfter=No
 65	"	"	PUNCT	fe	PunctType=Quot	36	punct	36:punct	SpaceAfter=No
