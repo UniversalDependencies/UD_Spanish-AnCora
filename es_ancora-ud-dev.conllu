@@ -20247,7 +20247,7 @@
 59	vuelta	vuelta	NOUN	ncfs000	Gender=Fem|Number=Sing	57	conj	57:conj	_
 60	por	por	ADP	sps00	_	64	case	64:case	_
 61	tan	tan	NOUN	rg	ExtPos=ADV	64	advmod	64:advmod	MWE=tan_solo|MWEPOS=ADV|Entity=(NOCOREF:Spec.number-number-4-gstype:spec
-62	solo	solo	ADV	rg	_	61	fixed	61:fixed	_
+62	solo	sólo	ADV	rg	_	61	fixed	61:fixed	_
 63	9.800	9800	NUM	_	NumForm=Digit|NumType=Card	64	nummod	64:nummod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 64	pesetas	peseta	NOUN	zm	Gender=Fem|Number=Plur	57	nmod	57:nmod	ArgTem=argM:ext|Currency=Yes|Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)NOCOREF:Gen)|SpaceAfter=No
 65	"	"	PUNCT	fe	PunctType=Quot	36	punct	36:punct	SpaceAfter=No
@@ -23614,7 +23614,7 @@
 7	esfuerzos	esfuerzo	NOUN	ncmp000	Gender=Masc|Number=Plur	4	obj	4:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 8	en	en	ADP	sps00	_	11	case	11:case	_
 9	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	Entity=(CESSCASTAA2000033125330c1-person-3-CorefType:ident,gstype:spec
-10	sólo	sólo	ADJ	aq0ms0	Gender=Masc|Number=Sing	11	amod	11:amod	_
+10	sólo	solo	ADJ	aq0ms0	Gender=Masc|Number=Sing	11	amod	11:amod	_
 11	candidato	candidato	NOUN	ncms000	Gender=Masc|Number=Sing	4	obl	4:obl	ArgTem=arg2:tem|Entity=CESSCASTAA2000033125330c1)|SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 13	en	en	ADP	sps00	_	15	case	15:case	_

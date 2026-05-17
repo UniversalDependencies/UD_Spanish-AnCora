@@ -16268,7 +16268,7 @@
 8	haber	haber	AUX	van0000	VerbForm=Inf	9	aux	9:aux	_
 9	disputado	disputar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	6:advcl	_
 10	tan	tan	NOUN	rg	ExtPos=ADV	13	advmod	13:advmod	MWE=tan_solo|MWEPOS=ADV|Entity=(NOCOREF:Gen--4-gstype:gen
-11	solo	solo	ADV	rg	_	10	fixed	10:fixed	_
+11	solo	sólo	ADV	rg	_	10	fixed	10:fixed	_
 12	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	_
 13	prueba	prueba	NOUN	ncfs000	Gender=Fem|Number=Sing	9	obj	9:obj	ArgTem=arg1:pat
 14	de	de	ADP	sps00	_	15	case	15:case	_
@@ -33455,7 +33455,7 @@
 39	30	30	NUM	_	NumForm=Digit|NumType=Card	40	nummod	40:nummod	Entity=(NOCOREF:Gen--2-gstype:gen(NOCOREF:Gen--2-gstype:gen
 40	victorias	victoria	NOUN	ncfp000	Gender=Fem|Number=Plur	38	obj	38:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 41	y	y	CCONJ	cc	_	44	cc	44:cc	_
-42	solo	solo	ADV	rg	_	44	advmod	44:advmod	_
+42	solo	sólo	ADV	rg	_	44	advmod	44:advmod	_
 43	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	44:det	Entity=(NOCOREF:Gen--2-gstype:gen
 44	derrota	derrota	NOUN	ncfs000	Gender=Fem|Number=Sing	40	conj	40:conj	Entity=NOCOREF:Gen)NOCOREF:Gen)CESSCASTAA200008128253c7)CESSCASTAA200008128253c7)NOCOREF:Gen)|SpaceAfter=No
 45	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
