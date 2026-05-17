@@ -35154,7 +35154,7 @@
 21	aplicó	aplicar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
 23	a	a	ADP	sps00	_	26	case	26:case	_
-24	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--3-gstype:gen
+24	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	26:det	Entity=(NOCOREF:Gen--3-gstype:gen
 25	0:00	0:00	NUM	_	NumForm=Digit|NumType=Card	26	nummod	26:nummod	_
 26	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	21	obl	21:obl	ArgTem=argM:tmp
 27	de	de	ADP	sps00	_	28	case	28:case	_
