@@ -1686,7 +1686,7 @@
 18	atípicas	atípico	ADJ	aq0fp0	Gender=Fem|Number=Plur	13	dep	13:dep	SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 20	es	es	NOUN	rg	ExtPos=ADV	18	advmod	18:advmod	MWE=es_cierto|MWEPOS=ADV
-21	cierto	cierto	ADJ	_	_	20	fixed	20:fixed	SpaceAfter=No
+21	cierto	cierto	ADJ	aq0ms0	Gender=Masc|Number=Sing	20	fixed	20:fixed	SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 23	a	a	ADP	sps00	_	18	case	18:case	_
 24	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	25:det	_
@@ -7732,7 +7732,7 @@
 5	-	-	PUNCT	fg	PunctType=Dash	7	punct	7:punct	_
 6	-	-	PUNCT	fg	PunctType=Dash	7	punct	7:punct	_
 7	en	en	ADP	rg	ExtPos=ADV	14	advmod	14:advmod	MWE=en_cierto_modo|MWEPOS=ADV
-8	cierto	cierto	DET	_	_	7	fixed	7:fixed	_
+8	cierto	cierto	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	7	fixed	7:fixed	_
 9	modo	modo	NOUN	_	_	7	fixed	7:fixed	_
 10	-	-	PUNCT	fg	PunctType=Dash	7	punct	7:punct	_
 11	-	-	PUNCT	fg	PunctType=Dash	7	punct	7:punct	_
@@ -19310,7 +19310,7 @@
 22	y	y	CCONJ	cc	_	26	cc	26:cc	_
 23	de	de	ADP	sps00	_	26	case	26:case	_
 24	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	26:det	Entity=(NOCOREF:Gen--3-gstype:gen
-25	cierta	cierto	DET	aq0fs0	Gender=Fem|Number=Sing|PronType=Ind	26	det	26:det	_
+25	cierta	cierto	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	26	det	26:det	_
 26	influencia	influencia	NOUN	ncfs000	Gender=Fem|Number=Sing	19	conj	19:conj	Entity=NOCOREF:Gen)|SpaceAfter=No
 27	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	SpaceAfter=No
 28	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
@@ -34710,7 +34710,7 @@
 6	mantener	mantener	VERB	vmn0000	VerbForm=Inf	4	acl	4:acl	ArgTem=arg1:pat
 7	"	"	PUNCT	fe	PunctType=Quot	10	punct	10:punct	Entity=(NOCOREF:Gen--4-gstype:gen|SpaceAfter=No
 8	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	_
-9	cierta	cierto	DET	aq0fs0	Gender=Fem|Number=Sing|PronType=Ind	10	det	10:det	_
+9	cierta	cierto	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	10	det	10:det	_
 10	actividad	actividad	NOUN	ncfs000	Gender=Fem|Number=Sing	6	obj	6:obj	ArgTem=arg1:pat|SpaceAfter=No
 11	"	"	PUNCT	fe	PunctType=Quot	10	punct	10:punct	_
 12	en	en	ADP	sps00	_	13	case	13:case	_
@@ -44379,7 +44379,7 @@
 8	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	cop	12:cop	_
 9	de	de	ADP	sps00	_	12	case	12:case	_
 10	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	Entity=(NOCOREF:Gen--3-gstype:gen
-11	cierta	cierto	DET	aq0fs0	Gender=Fem|Number=Sing|PronType=Ind	12	det	12:det	_
+11	cierta	cierto	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	12	det	12:det	_
 12	desorientación	desorientación	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	0:root	ArgTem=arg2:atr
 13	profesional	profesional	ADJ	aq0cs0	Number=Sing	12	amod	12:amod	_
 14	por	por	ADP	sps00	ExtPos=ADP	18	case	18:case	MWE=por_parte_de|MWEPOS=ADP
