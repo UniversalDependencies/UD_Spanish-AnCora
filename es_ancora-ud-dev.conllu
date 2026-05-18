@@ -19981,7 +19981,7 @@
 43	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
 44	en	en	ADP	sps00	_	47	case	47:case	_
 45	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	47	det	47:det	Entity=(NOCOREF:Gen--3-gstype:gen
-46	cierto	cierto	DET	aq0ms0	Gender=Masc|Number=Sing|PronType=Ind	47	det	47:det	_
+46	cierto	cierto	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	47	det	47:det	_
 47	equilibrio	equilibrio	NOUN	ncms000	Gender=Masc|Number=Sing	39	obl	39:obl	ArgTem=argM:adv
 48	en	en	ADP	sps00	_	50	case	50:case	_
 49	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	50:det	Entity=(NOCOREF:Gen--2-gstype:gen
