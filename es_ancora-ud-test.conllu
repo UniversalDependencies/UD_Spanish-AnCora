@@ -25669,7 +25669,7 @@
 25	Puerto	Puerto	PROPN	np00000	_	23	nsubj	23:nsubj	MWE=Puerto_Montt|MWEPOS=PROPN|ArgTem=arg0:agt
 26	Montt	Montt	PROPN	_	_	25	flat	25:flat	Entity=CESSCASTAA2000022822816c17)
 27	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	28	punct	28:punct	Entity=(CESSCASTAA2000022822816c28-number-2-CorefType:pred.definit,gstype:spec|SpaceAfter=No
-28	1-0	1-0	NUM	_	NumForm=Digit|NumType=Card	23	obj	23:obj	SpaceAfter=No
+28	1-0	1-0	NUM	_	NumForm=Digit|NumType=Card	20	appos	20:appos	SpaceAfter=No
 29	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	28	punct	28:punct	Entity=CESSCASTAA2000022822816c28)
 30	en	en	ADP	sps00	_	33	case	33:case	_
 31	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	33:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
