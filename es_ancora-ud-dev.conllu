@@ -38811,7 +38811,7 @@
 18	caballo	caballo	NOUN	ncms000	Gender=Masc|Number=Sing	15	obj	15:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 19	a	a	ADP	sps00	_	22	case	22:case	_
 20	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	22:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
-21	4.05	4.05	NUM	_	NumForm=Digit|NumType=Card	22	obl	22:obl	MWE=4.05_horas|MWEPOS=NOUN|ArgTem=argM:tmp
+21	4.05	4.05	NUM	_	NumForm=Digit|NumType=Card	22	nummod	22:nummod	MWE=4.05_horas|MWEPOS=NOUN|ArgTem=argM:tmp
 22	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	15	obl	15:obl	Entity=NOCOREF:Spec.date)|SpaceAfter=No
 23	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
 
