@@ -719,7 +719,7 @@
 35	para	para	ADP	sps00	_	36	case	36:case	_
 36	él	él	PRON	pp3ms000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obl:arg	34:obl:arg	ArgTem=arg2:ben
 37	cada	cada	NOUN	cs	ExtPos=SCONJ	40	mark	40:mark	MWE=cada_vez_que|MWEPOS=SCONJ
-38	vez	vez	NOUN	_	_	37	fixed	37:fixed	_
+38	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	37	fixed	37:fixed	_
 39	que	que	SCONJ	_	_	37	fixed	37:fixed	_
 40	intenta	intentar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	34:advcl	ArgTem=argM:tmp
 41	conciliar	conciliar	VERB	vmn0000	VerbForm=Inf	40	xcomp	40:xcomp	ArgTem=arg1:pat
@@ -2282,7 +2282,7 @@
 # text = A veces sorprendido en su buena fe (la saga / fuga lamentable de Ricardo Peral), a veces defraudado por hombres cuya permanencia en el equipo estaba más que cuestionada y que él ha defendido por un concepto muy clásicamente madridista de fidelidad a los veteranos y los colores, Mariano ha ido aprendiendo las lecciones tanto de los triunfos como de los reveses.
 # orig_file_sentence 001#64
 1	A	a	ADP	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=A_veces|MWEPOS=ADV|ArgTem=argM:tmp
-2	veces	veces	NOUN	_	_	1	fixed	1:fixed	_
+2	veces	vez	NOUN	ncfp000	Gender=Fem|Number=Plur	1	fixed	1:fixed	_
 3	sorprendido	sorprendido	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	53	amod	53:amod	_
 4	en	en	ADP	sps00	_	7	case	7:case	_
 5	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	7:det	_
@@ -2300,7 +2300,7 @@
 17	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	10	punct	10:punct	SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	_
 19	a	a	ADP	rg	ExtPos=ADV	21	advmod	21:advmod	MWE=a_veces|MWEPOS=ADV|ArgTem=argM:tmp
-20	veces	veces	NOUN	_	_	19	fixed	19:fixed	_
+20	veces	vez	NOUN	ncfp000	Gender=Fem|Number=Plur	19	fixed	19:fixed	_
 21	defraudado	defraudado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	3	advmod	3:advmod	_
 22	por	por	ADP	sps00	_	23	case	23:case	_
 23	hombres	hombre	NOUN	ncmp000	Gender=Masc|Number=Plur	21	obl:agent	21:obl:agent	ArgTem=arg0:agt
@@ -6780,7 +6780,7 @@
 6	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
 7	pero	pero	CCONJ	cc	_	10	cc	10:cc	_
 8	tal	tal	NOUN	rg	ExtPos=ADV	10	advmod	10:advmod	MWE=tal_vez|MWEPOS=ADV
-9	vez	vez	NOUN	_	_	8	fixed	8:fixed	_
+9	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	8	fixed	8:fixed	_
 10	ignoremos	ignorar	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	2:conj	_
 11	cuál	cuál	PRON	pt0cs000	Number=Sing|PronType=Int	14	nsubj	14:nsubj	ArgTem=arg1:tem|CxnElt=14:Interrogative-WHInfo-Indirect.WHWord
 12	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	ArgTem=arg1:pat
@@ -7561,7 +7561,7 @@
 5	vieja	viejo	ADJ	aq0fs0	Gender=Fem|Number=Sing	4	obj	4:obj	ArgTem=arg2:atr
 6	y	y	CCONJ	cc	_	10	cc	10:cc	_
 7	tal	tal	NOUN	rg	ExtPos=ADV	10	advmod	10:advmod	MWE=tal_vez|MWEPOS=ADV
-8	vez	vez	NOUN	_	_	7	fixed	7:fixed	_
+8	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	7	fixed	7:fixed	_
 9	debería	deber	AUX	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux	10:aux	_
 10	entrar	entrar	VERB	vmn0000	VerbForm=Inf	4	conj	4:conj	_
 11	ya	ya	ADV	rg	_	10	advmod	10:advmod	ArgTem=argM:adv
@@ -12031,7 +12031,7 @@
 49	comunidades	comunidad	NOUN	ncfp000	Gender=Fem|Number=Plur	40	conj	40:conj	_
 50	que	que	PRON	pr0cn000	PronType=Rel	61	nsubj	61:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000022116816c12--1-CorefType:ident,gstype:gen)
 51	a	a	ADP	rg	ExtPos=ADV	61	advmod	61:advmod	MWE=a_veces|MWEPOS=ADV|ArgTem=argM:adv
-52	veces	veces	NOUN	_	_	51	fixed	51:fixed	SpaceAfter=No
+52	veces	vez	NOUN	ncfp000	Gender=Fem|Number=Plur	51	fixed	51:fixed	SpaceAfter=No
 53	,	,	PUNCT	fc	PunctType=Comm	56	punct	56:punct	Entity=(NOCOREF:Gen--4-gstype:gen
 54	sobre	sobre	ADP	rg	ExtPos=ADV	56	advmod	56:advmod	MWE=sobre_todo|MWEPOS=ADV
 55	todo	todo	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	54	fixed	54:fixed	_
@@ -24981,7 +24981,7 @@
 25	Tino	Tino	PROPN	np00000	_	19	conj	19:conj	MWE=Tino_Martínez|MWEPOS=PROPN
 26	Martínez	Martínez	PROPN	_	_	25	flat	25:flat	Entity=NOCOREF:Gen)
 27	en	en	ADP	sps00	ExtPos=CCONJ	30	cc	30:cc	MWE=en_vez_de|MWEPOS=ADP
-28	vez	vez	NOUN	_	_	27	fixed	27:fixed	_
+28	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	27	fixed	27:fixed	_
 29	de	de	ADP	_	_	27	fixed	27:fixed	_
 30-31	darle	_	_	_	_	_	_	_	_
 30	dar	dar	VERB	vmn0000	VerbForm=Inf	16	conj	16:conj	Entity=(CESSCASTAA2000022521729c12--1-CorefType:ident,gstype:gen
@@ -31890,7 +31890,7 @@
 18	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	19:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 19	agonía	agonía	NOUN	ncfs000	Gender=Fem|Number=Sing	15	conj	15:conj	Entity=NOCOREF:Gen)
 20	algunas	algunas	NOUN	rg	ExtPos=ADV	19	advmod	19:advmod	MWE=algunas_veces|MWEPOS=ADV
-21	veces	veces	NOUN	_	_	20	fixed	20:fixed	Entity=NOCOREF:Gen)|SpaceAfter=No
+21	veces	vez	NOUN	ncfp000	Gender=Fem|Number=Plur	20	fixed	20:fixed	Entity=NOCOREF:Gen)|SpaceAfter=No
 22	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = CESS-CAST-AA-20000710-6482-s19
@@ -42193,7 +42193,7 @@
 16	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	17:det	Entity=(CESSCASTP1999030218c5--2-CorefType:ident,gstype:gen,HomoDD
 17	partidos	partido	NOUN	ncmp000	Gender=Masc|Number=Plur	14	nmod	14:nmod	Entity=CESSCASTP1999030218c5)NOCOREF:Gen)
 18	en	en	ADP	cc	ExtPos=SCONJ	21	mark	21:mark	MWE=en_vez_de|MWEPOS=CCONJ
-19	vez	vez	NOUN	_	_	18	fixed	18:fixed	_
+19	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	18	fixed	18:fixed	_
 20	de	de	ADP	_	_	18	fixed	18:fixed	_
 21	favorecer	favorecer	VERB	vmn0000	VerbForm=Inf	8	advcl	8:advcl	_
 22	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	24:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
@@ -44332,7 +44332,7 @@
 1	-	-	PUNCT	fg	PunctType=Dash	3	punct	3:punct	_
 2	-	-	PUNCT	fg	PunctType=Dash	3	punct	3:punct	_
 3	Tal	tal	NOUN	rg	_	0	root	0:root	MWE=Tal_vez|MWEPOS=ADV
-4	vez	vez	NOUN	_	_	3	fixed	3:fixed	SpaceAfter=No
+4	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	3	fixed	3:fixed	SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
 6	sí	sí	INTJ	rg	_	3	advcl	3:advcl	SpaceAfter=No
 7	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
@@ -44348,7 +44348,7 @@
 5	vivido	vivir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	1:ccomp	ArgTem=arg1:pat
 6	a	a	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=a_la_vez|MWEPOS=ADV|ArgTem=argM:adv
 7	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	fixed	6:fixed	_
-8	vez	vez	NOUN	_	_	6	fixed	6:fixed	_
+8	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	6	fixed	6:fixed	_
 9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	Entity=(CESSCASTP1999060219_ac29--2-gstype:gen,HomoDD
 10	transición	transición	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obj	5:obj	ArgTem=arg1:pat
 11	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	10	amod	10:amod	ArgTem=arg1:tem
@@ -52442,7 +52442,7 @@
 2	cárceles	cárcel	NOUN	ncfp000	Gender=Fem|Number=Plur	3	nsubj	3:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2000070127c2)
 3	crean	crear	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	a	a	ADP	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=a_veces|MWEPOS=ADV|ArgTem=argM:tmp
-5	veces	veces	NOUN	_	_	4	fixed	4:fixed	_
+5	veces	vez	NOUN	ncfp000	Gender=Fem|Number=Plur	4	fixed	4:fixed	_
 6	más	más	ADV	rg	Degree=Cmp	7	advmod	7:advmod	Entity=(CESSCASTP2000070127c1--2-gstype:gen
 7	problemas	problema	NOUN	ncmp000	Gender=Masc|Number=Plur	3	obj	3:obj	ArgTem=arg1:pat
 8	de	de	ADP	sps00	_	11	mark	11:mark	_
@@ -61311,7 +61311,7 @@
 49	,	,	PUNCT	fc	PunctType=Comm	50	punct	50:punct	_
 50	a	a	ADP	rg	ExtPos=ADV	55	advmod	55:advmod	MWE=a_la_vez|MWEPOS=ADV
 51	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	fixed	50:fixed	_
-52	vez	vez	NOUN	_	_	50	fixed	50:fixed	SpaceAfter=No
+52	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	50	fixed	50:fixed	SpaceAfter=No
 53	,	,	PUNCT	fc	PunctType=Comm	50	punct	50:punct	_
 54	extremadamente	extremadamente	ADV	rg	_	55	advmod	55:advmod	_
 55	peligrosa	peligroso	ADJ	aq0fs0	Gender=Fem|Number=Sing	47	conj	47:conj	Entity=CESSCASTP2002030199c6)CESSCASTP2002030199c6)|SpaceAfter=No
@@ -61810,7 +61810,7 @@
 1	Israel	Israel	PROPN	np00000	_	17	nsubj	17:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002040211c7-organization-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
 3	en	en	ADP	sps00	ExtPos=SCONJ	6	mark	6:mark	MWE=en_vez_de|MWEPOS=ADP
-4	vez	vez	NOUN	_	_	3	fixed	3:fixed	_
+4	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	3	fixed	3:fixed	_
 5	de	de	ADP	_	_	3	fixed	3:fixed	_
 6	estudiar	estudiar	VERB	vmn0000	VerbForm=Inf	17	advcl	17:advcl	ArgTem=argM:adv
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD

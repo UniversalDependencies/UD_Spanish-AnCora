@@ -182,7 +182,7 @@
 4	suelen	soler	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	hablar	hablar	VERB	vmn0000	VerbForm=Inf	4	xcomp	4:xcomp	_
 6	de	de	ADP	rg	ExtPos=ADV	4	advmod	4:advmod	MWE=de_vez_en_cuando|MWEPOS=ADV|ArgTem=argM:tmp
-7	vez	vez	NOUN	_	_	6	fixed	6:fixed	_
+7	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	6	fixed	6:fixed	_
 8	en	en	ADP	_	_	6	fixed	6:fixed	_
 9	cuando	cuando	ADV	_	PronType=Rel	6	fixed	6:fixed	_
 10	tanto	tanto	ADV	rg	_	12	cc	12:cc	_
@@ -1672,7 +1672,7 @@
 3	recoger	recoger	VERB	vmn0000	VerbForm=Inf	1	xcomp	1:xcomp	_
 4	los	él	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	3	obj	3:obj	_
 5	una	uno	DET	rg	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	7	advmod	7:advmod	MWE=una_vez|MWEPOS=ADV|ArgTem=argM:adv
-6	vez	vez	NOUN	_	_	5	fixed	5:fixed	_
+6	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	5	fixed	5:fixed	_
 7	usados	usado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	3	advmod	3:advmod	ArgTem=argM:tmp|SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 9	fregar	fregar	VERB	vmn0000	VerbForm=Inf	3	advcl	3:advcl	_
@@ -1902,7 +1902,7 @@
 20	que	que	SCONJ	cs	_	29	mark	29:mark	SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
 22	en	en	ADP	sps00	ExtPos=ADP	26	case	26:case	MWE=en_vez_de|MWEPOS=ADP
-23	vez	vez	NOUN	_	_	22	fixed	22:fixed	_
+23	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	22	fixed	22:fixed	_
 24	de	de	ADP	_	_	22	fixed	22:fixed	_
 25	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	_
 26	Niño	Niño	PROPN	np0000p	_	29	obl	29:obl	MWE=Niño_Jesús|MWEPOS=PROPN|ArgTem=argM:adv
@@ -2741,7 +2741,7 @@
 4	consiguiendo	conseguir	VERB	vmg0000	VerbForm=Ger	2	conj	2:conj	_
 5	a	a	ADP	rg	_	7	case	7:case	MWE=a_la_vez|MWEPOS=ADV|ArgTem=argM:adv
 6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	_
-7	vez	vez	NOUN	_	_	4	obl	4:obl	_
+7	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl	4:obl	_
 8	que	que	SCONJ	cs	_	12	mark	12:mark	_
 9	todos	todo	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Tot	11	det	11:det	_
 10	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	11:det	_
@@ -2839,7 +2839,7 @@
 48	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	49:det	_
 49	tiro	tiro	NOUN	ncms000	Gender=Masc|Number=Sing	47	obj	47:obj	ArgTem=arg1:pat
 50	en	en	ADP	sps00	ExtPos=ADV	47	advmod	47:advmod	MWE=en_vez_de|MWEPOS=ADP
-51	vez	vez	NOUN	_	_	50	fixed	50:fixed	_
+51	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	50	fixed	50:fixed	_
 52	de	de	ADP	_	_	50	fixed	50:fixed	_
 53-54	quedarse	_	_	_	_	_	_	_	_
 53	quedar	quedar	VERB	vmn0000	VerbForm=Inf	50	advcl	50:advcl	ArgTem=argM:adv
@@ -3679,7 +3679,7 @@
 22	y	y	CCONJ	cc	_	27	cc	27:cc	SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 24	tal	tal	NOUN	rg	ExtPos=ADV	27	advmod	27:advmod	MWE=tal_vez|MWEPOS=ADV|ArgTem=argM:adv
-25	vez	vez	NOUN	_	_	24	fixed	24:fixed	SpaceAfter=No
+25	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	24	fixed	24:fixed	SpaceAfter=No
 26	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 27	hipnotizado	hipnotizado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	19	conj	19:conj	SpaceAfter=No
 28	.	.	PUNCT	fp	PunctType=Peri	18	punct	18:punct	_
@@ -4946,7 +4946,7 @@
 # text = Una vez que él ha asumido individualmente la responsabilidad paterna, ella puede utilizar su tiempo en lo que le parezca.
 # orig_file_sentence 002#45
 1	Una	uno	DET	cs	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	6	mark	6:mark	MWE=Una_vez_que|MWEPOS=SCONJ
-2	vez	vez	NOUN	_	_	1	fixed	1:fixed	_
+2	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	1	fixed	1:fixed	_
 3	que	que	SCONJ	_	_	1	fixed	1:fixed	_
 4	él	él	PRON	pp3ms000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	ArgTem=arg0:agt
 5	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
@@ -4972,7 +4972,7 @@
 # text = Tal vez escoja permanecer disponible para su compañero, en el caso de que se destruya la primera puesta y él pida otra que la sustituya.
 # orig_file_sentence 002#46
 1	Tal	tal	NOUN	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=Tal_vez|MWEPOS=ADV|ArgTem=argM:adv
-2	vez	vez	NOUN	_	_	1	fixed	1:fixed	_
+2	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	1	fixed	1:fixed	_
 3	escoja	escoger	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	permanecer	permanecer	VERB	vmn0000	VerbForm=Inf	3	xcomp	3:xcomp	ArgTem=arg1:pat
 5	disponible	disponible	ADJ	aq0cs0	Number=Sing	4	obj	4:obj	ArgTem=arg2:atr
@@ -5257,7 +5257,7 @@
 # text = A veces los lances se cerraban con un saldo fatal, pero el ofendido se veía forzado a elegir entre una muerte digna o una posición de escarnio en la sociedad.
 # orig_file_sentence 002#54
 1	A	a	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=A_veces|MWEPOS=ADV|ArgTem=argM:adv
-2	veces	veces	NOUN	_	_	1	fixed	1:fixed	_
+2	veces	vez	NOUN	ncfp000	Gender=Fem|Number=Plur	1	fixed	1:fixed	_
 3	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	4:det	_
 4	lances	lance	NOUN	ncmp000	Gender=Masc|Number=Plur	6	nsubj	6:nsubj	ArgTem=arg1:pat
 5	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	expl:pass	6:expl:pass	_
@@ -6359,7 +6359,7 @@
 24	como	como	SCONJ	cs	_	31	mark	31:mark	_
 25	si	si	SCONJ	cs	_	31	mark	31:mark	_
 26	en	en	ADP	sps00	ExtPos=ADP	29	case	29:case	MWE=en_vez_de|MWEPOS=ADP
-27	vez	vez	NOUN	_	_	26	fixed	26:fixed	_
+27	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	26	fixed	26:fixed	_
 28	de	de	ADP	_	_	26	fixed	26:fixed	_
 29	Nueva	nuevo	ADJ	aq0fs0	Gender=Fem|Number=Sing	31	obl	31:obl	MWE=Nueva_York|MWEPOS=PROPN|ArgTem=argM:adv|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 30	York	York	PROPN	_	_	29	flat	29:flat	Entity=NOCOREF:Spec.location)
@@ -24246,7 +24246,7 @@
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
 14	mercado	mercado	NOUN	ncms000	Gender=Masc|Number=Sing	11	nmod	11:nmod	Entity=(CESSCASTAA200004064800c6--1-CorefType:ident,gstype:gen,HomoDD)CESSCASTAA200004064800c28)
 15	en	en	ADP	sps00	ExtPos=CCONJ	18	cc	18:cc	MWE=en_vez_de|MWEPOS=ADP
-16	vez	vez	NOUN	_	_	15	fixed	15:fixed	_
+16	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	15	fixed	15:fixed	_
 17	de	de	ADP	_	_	15	fixed	15:fixed	_
 18-19	acrecentarla	_	_	_	_	_	_	_	_
 18	acrecentar	acrecentar	VERB	vmn0000	VerbForm=Inf	9	conj	9:conj	Entity=(CESSCASTAA200004064800c28--1-CorefType:ident,gstype:gen
@@ -27597,7 +27597,7 @@
 42	mercados	mercado	NOUN	ncmp000	Gender=Masc|Number=Plur	39	nmod	39:nmod	ArgTem=arg1:loc|Entity=CESSCASTAA2000053125451c7)NOCOREF:Gen)
 43	resulta	resultar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	35:ccomp	ArgTem=arg1:pat
 44	a	a	ADP	rg	ExtPos=ADV	43	advmod	43:advmod	MWE=a_veces|MWEPOS=ADV|ArgTem=argM:tmp
-45	veces	veces	NOUN	_	_	44	fixed	44:fixed	_
+45	veces	vez	NOUN	ncfp000	Gender=Fem|Number=Plur	44	fixed	44:fixed	_
 46	efectiva	efectivo	ADJ	aq0fs0	Gender=Fem|Number=Sing	43	obj	43:obj	ArgTem=arg2:atr|SpaceAfter=No
 47	"	"	PUNCT	fe	PunctType=Quot	43	punct	43:punct	SpaceAfter=No
 48	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
@@ -32063,7 +32063,7 @@
 27	Calle	Calle	PROPN	_	_	24	flat	24:flat	Entity=NOCOREF:Spec.person)CESSCASTAA2000103024215c31)CESSCASTAA2000103024215c31)|SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
 29	una	uno	DET	cs	Definite=Ind|ExtPos=SCONJ|Gender=Fem|Number=Sing|PronType=Art	35	mark	35:mark	MWE=una_vez_que|MWEPOS=SCONJ
-30	vez	vez	NOUN	_	_	29	fixed	29:fixed	_
+30	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	29	fixed	29:fixed	_
 31	que	que	SCONJ	_	_	29	fixed	29:fixed	_
 32	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	33:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 33	Organización	Organización	PROPN	np00000	_	35	nsubj	35:nsubj	MWE=Organización_Electoral|MWEPOS=PROPN|ArgTem=arg0:agt
@@ -41094,7 +41094,7 @@
 8	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 9	a	a	ADP	rg	ExtPos=ADV	14	advmod	14:advmod	MWE=a_la_vez|MWEPOS=ADV|ArgTem=argM:adv
 10	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	fixed	9:fixed	_
-11	vez	vez	NOUN	_	_	9	fixed	9:fixed	SpaceAfter=No
+11	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	9	fixed	9:fixed	SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 12.1	_	_	PRON	p	_	_	_	14:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP19991001130c3-organization-1-CorefType:ident,gstype:spec)
 13	nos	yo	PRON	pp1cp000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	14	obl:arg	14:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTP19991001130c1-organization-1-CorefType:ident,gstype:spec)
@@ -46268,7 +46268,7 @@
 6	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
 7	aunque	aunque	SCONJ	cs	_	13	mark	13:mark	_
 8	a	a	ADP	rg	ExtPos=ADV	13	advmod	13:advmod	MWE=a_veces|MWEPOS=ADV|ArgTem=argM:tmp
-9	veces	veces	NOUN	_	_	8	fixed	8:fixed	_
+9	veces	vez	NOUN	ncfp000	Gender=Fem|Number=Plur	8	fixed	8:fixed	_
 9.1	_	_	PRON	p	_	_	_	11:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20000202135c18--1-CorefType:dx.type)
 10	no	no	ADV	rn	Polarity=Neg	13	advmod	13:advmod	_
 11	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
@@ -54353,7 +54353,7 @@
 26	compatible	compatible	ADJ	aq0cs0	Number=Sing	22	acl:relcl	22:acl:relcl	ArgTem=arg2:atr
 27	a	a	ADP	rg	ExtPos=ADV	26	advmod	26:advmod	MWE=a_la_vez|MWEPOS=ADV
 28	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	fixed	27:fixed	_
-29	vez	vez	NOUN	_	_	27	fixed	27:fixed	_
+29	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	27	fixed	27:fixed	_
 30	con	con	ADP	sps00	_	27	case	27:case	_
 31	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	32:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 32	legislación	legislación	NOUN	ncfs000	Gender=Fem|Number=Sing	27	nmod	27:nmod	_
@@ -54452,7 +54452,7 @@
 8	refrendadas	refrendar	VERB	vmp00pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
 9	a	a	ADP	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=a_su_vez|MWEPOS=ADV|ArgTem=argM:adv
 10	su	su	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	fixed	9:fixed	_
-11	vez	vez	NOUN	_	_	9	fixed	9:fixed	_
+11	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	9	fixed	9:fixed	_
 12	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	13:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
 13	lunes	lunes	NOUN	_	_	8	obl	8:obl	MWE=lunes_día_5|MWEPOS=NOUN|ArgTem=argM:tmp
 14	día	día	NOUN	_	_	13	compound	13:compound	_
@@ -57914,7 +57914,7 @@
 92	y	y	CCONJ	cc	_	96	cc	96:cc	_
 93	a	a	ADP	rg	ExtPos=ADV	96	advmod	96:advmod	MWE=a_la_vez|MWEPOS=ADV
 94	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	93	fixed	93:fixed	_
-95	vez	vez	NOUN	_	_	93	fixed	93:fixed	_
+95	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	93	fixed	93:fixed	_
 96	realista	realista	ADJ	aq0cs0	Number=Sing	91	conj	91:conj	_
 97	agobio	agobio	NOUN	ncms000	Gender=Masc|Number=Sing	88	conj	88:conj	_
 98	cotidiano	cotidiano	ADJ	aq0ms0	Gender=Masc|Number=Sing	97	amod	97:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
@@ -57962,7 +57962,7 @@
 19	que	que	PRON	pr0cn000	PronType=Rel	20	nsubj	20:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20011002168c17--1-CorefType:ident,gstype:gen)
 20	caen	caer	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
 21	de	de	ADP	rg	ExtPos=ADV	20	advmod	20:advmod	MWE=de_vez_en_cuando|MWEPOS=ADV|ArgTem=argM:tmp
-22	vez	vez	NOUN	_	_	21	fixed	21:fixed	_
+22	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	21	fixed	21:fixed	_
 23	en	en	ADP	_	_	21	fixed	21:fixed	_
 24	cuando	cuando	ADV	_	PronType=Rel	21	fixed	21:fixed	Entity=CESSCASTP20011002168c17)|SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
