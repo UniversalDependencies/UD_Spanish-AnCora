@@ -21278,18 +21278,18 @@
 # sent_id = CESS-CAST-A-20001223-17865-s35
 # text = Año, siglo y milenio viejos, el 1 de enero muertos, pero ellos sólo son fechas, números inanes.
 # orig_file_sentence 006#2
-1	Año	año	NOUN	ncms000	Gender=Masc|Number=Sing	12	dislocated	12:dislocated	Entity=(CESSCASTA2000122317865c38--1|SpaceAfter=No
+1	Año	año	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	Entity=(CESSCASTA2000122317865c38--1|SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 3	siglo	siglo	NOUN	ncms000	Gender=Masc|Number=Sing	1	conj	1:conj	_
 4	y	y	CCONJ	cc	_	5	cc	5:cc	_
 5	milenio	milenio	NOUN	ncms000	Gender=Masc|Number=Sing	1	conj	1:conj	_
 6	viejos	viejo	ADJ	aq0mp0	Gender=Masc|Number=Plur	1	amod	1:amod	SpaceAfter=No
-7	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	Entity=CESSCASTA2000122317865c38)
+7	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	Entity=CESSCASTA2000122317865c38)
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
-9	1	1	NUM	_	NumForm=Digit|NumType=Card	12	obj	12:obj	MWE=1_de_enero|MWEPOS=NOUN
+9	1	1	NUM	_	NumForm=Digit|NumType=Card	12	obl	12:obl	MWE=1_de_enero|MWEPOS=NOUN
 10	de	de	ADP	_	_	11	case	11:case	_
 11	enero	enero	NOUN	_	_	9	nmod	9:nmod	Entity=NOCOREF:Spec.date)
-12	muertos	muerto	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	0	root	0:root	SpaceAfter=No
+12	muertos	muerto	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	6	conj	6:conj	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
 14	pero	pero	CCONJ	cc	_	18	cc	18:cc	_
 15	ellos	él	PRON	pp3mp000	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	nsubj	18:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000122317865c38--1-CorefType:ident)
@@ -21298,8 +21298,8 @@
 18	fechas	fecha	NOUN	ncfp000	Gender=Fem|Number=Plur	12	conj	12:conj	ArgTem=arg2:atr|SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 20	números	número	NOUN	ncmp000	Gender=Masc|Number=Plur	18	conj	18:conj	_
-21	inanes	inane	ADJ	aq0cp0	Number=Plur	18	amod	18:amod	SpaceAfter=No
-22	.	.	PUNCT	fp	PunctType=Peri	12	punct	12:punct	_
+21	inanes	inane	ADJ	aq0cp0	Number=Plur	20	amod	20:amod	SpaceAfter=No
+22	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
 
 # sent_id = CESS-CAST-A-20001223-17865-s36
 # text = Los otros, los que fueron, ya son leyendas.
@@ -25662,7 +25662,7 @@
 18	de	de	ADP	sps00	_	20	case	20:case	_
 19	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	Entity=(CESSCASTAA2000022822816c28-number-2-gstype:spec
 20	derrota	derrota	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl:arg	13:obl:arg	ArgTem=arg2:tem
-21	que	que	PRON	pr0cn000	PronType=Rel	23	dislocated	23:dislocated	ArgTem=arg1:pat|Entity=(CESSCASTAA2000022822816c28-number-1-CorefType:ident,gstype:spec)
+21	que	que	PRON	pr0cn000	PronType=Rel	23	obj	23:obj	ArgTem=arg1:pat|Entity=(CESSCASTAA2000022822816c28-number-1-CorefType:ident,gstype:spec)
 22	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	23	obl:arg	23:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA2000022822816c29-organization-1-CorefType:ident,gstype:spec)
 23	infligió	infligir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	20:acl:relcl	_
 24	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	Entity=(CESSCASTAA2000022822816c17-organization-2-CorefType:ident,gstype:spec
@@ -31854,7 +31854,7 @@
 12	razón	razón	NOUN	ncfs000	Gender=Fem|Number=Sing	11	obj	11:obj	ArgTem=arg2:atr
 13	y	y	CCONJ	cc	_	18	cc	18:cc	_
 14	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCASTAA200007106482c20--2-gstype:gen
-15	club	club	NOUN	ncms000	Gender=Masc|Number=Sing	18	dislocated	18:dislocated	Entity=CESSCASTAA200007106482c20)
+15	club	club	NOUN	ncms000	Gender=Masc|Number=Sing	18	nsubj	18:nsubj	Entity=CESSCASTAA200007106482c20)
 16	que	que	SCONJ	cs	_	18	mark	18:mark	_
 16.1	_	_	PRON	p	_	_	_	18:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200007106482c20--1-CorefType:ident,gstype:gen)
 17	les	él	PRON	pp3mpa00	Case=Dat|Number=Plur|Person=3|PronType=Prs	18	obl:arg	18:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTAA200007106482c19--1-CorefType:ident)
