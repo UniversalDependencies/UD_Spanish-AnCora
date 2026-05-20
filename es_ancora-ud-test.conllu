@@ -23884,7 +23884,7 @@
 1.1	_	_	PRON	p	_	_	_	3:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000022420131c3-person-1-CorefType:ident,gstype:spec)
 2	No	no	ADV	rn	Polarity=Neg	3	advmod	3:advmod	_
 3	sé	saber	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	ccomp	34:ccomp	ArgTem=arg1:pat
-4	como	como	PRON	pt000000	PronType=Ind	3	ccomp	3:ccomp	ArgTem=arg2:atr
+4	como	como	ADV	pr000000	PronType=Rel	3	ccomp	3:ccomp	ArgTem=arg2:atr
 5	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	ArgTem=arg1:pat
 6	Raúl	Raúl	PROPN	np00000	_	4	nsubj	4:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000022420131c11-person-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 7	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_

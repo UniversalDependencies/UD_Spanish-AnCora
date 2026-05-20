@@ -14039,7 +14039,7 @@
 46	cosas	cosa	NOUN	ncfp000	Gender=Fem|Number=Plur	48	nsubj	48:nsubj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 47	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	48	expl:pass	48:expl:pass	_
 48	hacen	hacer	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	advcl	43:advcl	CxnElt=43:Conditional-NeutralEpistemic.Protasis@f
-49	como	como	PRON	pr000000	PronType=Ind	51	obl	51:obl	ArgTem=argM:mnr
+49	como	como	ADV	pr000000	PronType=Rel	51	advmod	51:advmod	ArgTem=argM:mnr
 50	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	51	expl:pv	51:expl:pv	_
 51	debe	deber	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	advcl	48:advcl	ArgTem=argM:mnr|Entity=CESSCASTA2000042317037c14)CESSCASTA2000042317037c12)|SpaceAfter=No
 52	,	,	PUNCT	fc	PunctType=Comm	66	punct	66:punct	_

@@ -17,14 +17,14 @@
   <tags unique="16">
     <tag name="ADJ">36864</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, político, mayor, segundo -->
     <tag name="ADP">87869</tag><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
-    <tag name="ADV">18550</tag><!-- no, más, hoy, también, ya, mucho, ayer, sólo, después, ahora -->
+    <tag name="ADV">18564</tag><!-- no, más, hoy, también, ya, mucho, ayer, sólo, después, ahora -->
     <tag name="AUX">13571</tag><!-- ser, haber, estar, poder, deber, saber, querer -->
     <tag name="CCONJ">14914</tag><!-- y, pero, o, e, ni, sino, i, u, bien, ó -->
     <tag name="DET">84449</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, no -->
     <tag name="NOUN">100984</tag><!-- año, gobierno, presidente, país, partido, millón, día, equipo, parte, vez -->
     <tag name="NUM">9183</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
-    <tag name="PRON">25307</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
+    <tag name="PRON">25293</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
     <tag name="PROPN">41331</tag><!-- España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados, aznar -->
     <tag name="PUNCT">65625</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12702</tag><!-- que, como, si, porque, cuando, aunque, mientras, según, pues, donde -->
@@ -78,11 +78,11 @@
     <feat name="PronType" value="Art" upos="DET">71590</feat><!-- el, la, los, un, las, una, unos, unas, les, els -->
     <feat name="PronType" value="Dem" upos="DET,PRON">4803</feat><!-- este, esta, el, esa, ese, eso, estos, lo, mismo, estas -->
     <feat name="PronType" value="Exc" upos="DET">1</feat><!-- qué -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">3936</feat><!-- otros, uno, otro, algunos, otra, otras, una, muchos, algo, unos -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">3922</feat><!-- otros, uno, otro, algunos, otra, otras, una, muchos, algo, unos -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">371</feat><!-- qué, quién, cuál, dónde, cuándo, cuáles, cuánto, cuántos, quiénes, cuánta -->
     <feat name="PronType" value="Neg" upos="DET,PRON">538</feat><!-- nada, nadie, ningún, ninguna, ninguno -->
     <feat name="PronType" value="Prs" upos="DET,PRON">17773</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9752</feat><!-- que, donde, quien, cuando, quienes, cual, cuanto, cuyo, cuya, cuales -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">9766</feat><!-- que, donde, quien, cuando, quienes, cual, cuanto, cuyo, cuya, cuales -->
     <feat name="PronType" value="Tot" upos="DET,PRON">1557</feat><!-- todo, todos, cada, todas, toda -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">2272</feat><!-- ), ?, ! -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">2159</feat><!-- (, ¿, ¡ -->
@@ -112,7 +112,7 @@
     <dep name="acl">2805</dep>
     <dep name="acl:relcl">7858</dep>
     <dep name="advcl">9227</dep>
-    <dep name="advmod">18746</dep>
+    <dep name="advmod">18762</dep>
     <dep name="amod">29530</dep>
     <dep name="appos">7524</dep>
     <dep name="aux">7232</dep>
@@ -143,9 +143,9 @@
     <dep name="nsubj:pass">61</dep>
     <dep name="nummod">6042</dep>
     <dep name="obj">23967</dep>
-    <dep name="obl">24408</dep>
+    <dep name="obl">24394</dep>
     <dep name="obl:agent">1283</dep>
-    <dep name="obl:arg">7946</dep>
+    <dep name="obl:arg">7944</dep>
     <dep name="orphan">1</dep>
     <dep name="parataxis">501</dep>
     <dep name="punct">65624</dep>
