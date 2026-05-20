@@ -372,7 +372,7 @@
 16	países	país	NOUN	ncmp000	Gender=Masc|Number=Plur	10	nmod	10:nmod	_
 17	que	que	PRON	pr0cn000	PronType=Rel	30	nsubj	30:nsubj	ArgTem=arg0:agt|SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
-19	como	como	ADP	sps00	_	20	case	20:case	_
+19	como	como	SCONJ	cs	_	20	case	20:case	_
 20	Estados	Estados	PROPN	np0000l	_	30	obl	30:obl	MWE=Estados_Unidos|MWEPOS=PROPN|ArgTem=argM:adv|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 21	Unidos	Unidos	PROPN	_	_	20	flat	20:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
@@ -2727,7 +2727,7 @@
 5	algunas	alguno	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	6	det	6:det	_
 6	enfermedades	enfermedad	NOUN	ncfp000	Gender=Fem|Number=Plur	22	nsubj	22:nsubj	ArgTem=arg1:pat|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
-8	como	como	ADP	sps00	_	10	case	10:case	_
+8	como	como	SCONJ	cs	_	10	case	10:case	_
 9	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	_
 10	sarampión	sarampión	NOUN	ncms000	Gender=Masc|Number=Sing	6	nmod	6:nmod	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
@@ -2750,7 +2750,7 @@
 28	vida	vida	NOUN	ncfs000	Gender=Fem|Number=Sing	25	nmod	25:nmod	_
 29	y	y	CCONJ	cc	_	36	cc	36:cc	_
 30	otras	otro	PRON	pi0fp000	Gender=Fem|Number=Plur|PronType=Ind	36	nsubj	36:nsubj	ArgTem=arg1:pat
-31	como	como	ADP	sps00	_	33	case	33:case	_
+31	como	como	SCONJ	cs	_	33	case	33:case	_
 32	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	33:det	_
 33	viruela	viruela	NOUN	ncfs000	Gender=Fem|Number=Sing	30	nmod	30:nmod	_
 34	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	36	expl:pass	36:expl:pass	_
@@ -2777,7 +2777,7 @@
 12	origen	origen	NOUN	ncms000	Gender=Masc|Number=Sing	10	nmod	10:nmod	_
 13	vírico	vírico	ADJ	aq0ms0	Gender=Masc|Number=Sing	12	amod	12:amod	SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
-15	como	como	ADP	sps00	_	17	case	17:case	_
+15	como	como	SCONJ	cs	_	17	case	17:case	_
 16	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	17:det	_
 17	catarros	catarro	NOUN	ncmp000	Gender=Masc|Number=Plur	10	nmod	10:nmod	_
 18	o	o	CCONJ	cc	_	20	cc	20:cc	_
@@ -2985,7 +2985,7 @@
 29	determinado	determinado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	30	amod	30:amod	_
 30	virus	virus	NOUN	ncmn000	Gender=Masc	39	nsubj	39:nsubj	ArgTem=arg1:tem|SpaceAfter=No
 31	,	,	PUNCT	fc	PunctType=Comm	33	punct	33:punct	_
-32	como	como	ADP	sps00	_	33	case	33:case	_
+32	como	como	SCONJ	cs	_	33	case	33:case	_
 33	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	nmod	30:nmod	_
 34-35	del	_	_	_	_	_	_	_	_
 34	de	de	ADP	spcms	_	33	case	33:case	_
@@ -6003,7 +6003,7 @@
 38	-	-	PUNCT	fg	PunctType=Dash	44	punct	44:punct	SpaceAfter=No
 39	,	,	PUNCT	fc	PunctType=Comm	44	punct	44:punct	_
 40	así	así	ADV	cs	ExtPos=CCONJ	44	cc	44:cc	MWE=así_como|MWEPOS=SCONJ
-41	como	como	SCONJ	_	_	40	fixed	40:fixed	_
+41	como	como	SCONJ	cs	_	40	fixed	40:fixed	_
 42	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	44:det	_
 43	-	-	PUNCT	fg	PunctType=Dash	42	punct	42:punct	_
 44	generación	generación	NOUN	ncfs000	Gender=Fem|Number=Sing	34	conj	34:conj	_
@@ -6906,7 +6906,7 @@
 22	iba	ir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	19:acl:relcl	_
 23	y	y	CCONJ	cc	_	24	cc	24:cc	_
 24	venía	venir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj	22:conj	_
-25	como	como	ADP	sps00	_	28	case	28:case	_
+25	como	como	SCONJ	cs	_	28	case	28:case	_
 26	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	28:det	_
 27	rugiente	rugiente	ADJ	aq0cs0	Number=Sing	28	amod	28:amod	_
 28	marea	marea	NOUN	ncfs000	Gender=Fem|Number=Sing	22	obl	22:obl	ArgTem=argM:adv
@@ -7168,7 +7168,7 @@
 34	en	en	ADP	rg	ExtPos=ADV	35	case	35:case	MWE=en_diagonal|MWEPOS=ADV|ArgTem=argM:adv
 35	diagonal	diagonal	NOUN	_	_	33	obl	33:obl	SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	39	punct	39:punct	_
-37	como	como	ADP	sps00	_	39	mark	39:mark	_
+37	como	como	SCONJ	cs	_	39	mark	39:mark	_
 38	si	si	SCONJ	cs	_	39	mark	39:mark	_
 39	quisieran	querer	VERB	vmsi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	7:advcl	ArgTem=argM:adv|CxnElt=7:Conditional-NeutralEpistemic.Protasis@f
 40-41	empujarle	_	_	_	_	_	_	_	_
@@ -7255,7 +7255,7 @@
 4	sonó	sonar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
 6	trueno	trueno	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	ArgTem=arg1:tem
-7	como	como	ADP	sps00	_	9	case	9:case	_
+7	como	como	SCONJ	cs	_	9	case	9:case	_
 8	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	_
 9	aviso	aviso	NOUN	ncms000	Gender=Masc|Number=Sing	4	obl	4:obl	ArgTem=argM:adv
 10	que	que	PRON	pr0cn000	PronType=Rel	11	nsubj	11:nsubj	ArgTem=arg1:tem
@@ -7278,7 +7278,7 @@
 27	luego	luego	ADV	rg	_	28	advmod	28:advmod	_
 28	furiosa	furioso	ADJ	aq0fs0	Gender=Fem|Number=Sing	22	amod	22:amod	SpaceAfter=No
 29	,	,	PUNCT	fc	PunctType=Comm	31	punct	31:punct	_
-30	como	como	ADP	sps00	_	31	case	31:case	_
+30	como	como	SCONJ	cs	_	31	case	31:case	_
 31	hilos	hilo	NOUN	ncmp000	Gender=Masc|Number=Plur	21	nmod	21:nmod	_
 32	de	de	ADP	sps00	_	33	case	33:case	_
 33	piedra	piedra	NOUN	ncfs000	Gender=Fem|Number=Sing	31	nmod	31:nmod	_
@@ -7990,7 +7990,7 @@
 38	con	con	ADP	sps00	_	40	case	40:case	_
 39	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	40:det	_
 40	energúmena	energúmena	NOUN	ncfs000	Gender=Fem|Number=Sing	37	obl:arg	37:obl:arg	ArgTem=arg1:tem
-41	como	como	ADP	sps00	_	43	case	43:case	_
+41	como	como	SCONJ	cs	_	43	case	43:case	_
 42	La	el	DET	np0000p	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	43:det	MWE=La_Bella|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-2-gstype:spec
 43	Bella	Bella	PROPN	_	_	40	nmod	40:nmod	Entity=NOCOREF:Spec.person)|SpaceAfter=No
 44	,	,	PUNCT	fc	PunctType=Comm	46	punct	46:punct	_
@@ -8202,7 +8202,7 @@
 38	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	_
 39	esternón	esternón	NOUN	ncms000	Gender=Masc|Number=Sing	36	nmod	36:nmod	_
 40	deforme	deforme	ADJ	aq0cs0	Number=Sing	39	amod	39:amod	_
-41	como	como	ADP	sps00	_	43	case	43:case	_
+41	como	como	SCONJ	cs	_	43	case	43:case	_
 42	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	43:det	_
 43	arma	arma	NOUN	ncfs000	Gender=Fem|Number=Sing	40	nmod	40:nmod	_
 44	agresiva	agresivo	ADJ	aq0fs0	Gender=Fem|Number=Sing	43	amod	43:amod	_
@@ -8536,7 +8536,7 @@
 83	vieja	viejo	ADJ	aq0fs0	Gender=Fem|Number=Sing	82	amod	82:amod	_
 84	que	que	PRON	pr0cn000	PronType=Rel	85	nsubj	85:nsubj	ArgTem=arg0:cau
 85	nivelaba	nivelar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	82	acl:relcl	82:acl:relcl	_
-86	como	como	ADP	sps00	_	88	case	88:case	_
+86	como	como	SCONJ	cs	_	88	case	88:case	_
 87	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	88	det	88:det	_
 88	pasta	pasta	NOUN	ncfs000	Gender=Fem|Number=Sing	85	obl	85:obl	ArgTem=argM:adv
 89	lisa	liso	ADJ	aq0fs0	Gender=Fem|Number=Sing	88	amod	88:amod	_
@@ -8571,7 +8571,7 @@
 116	armario	armario	NOUN	ncms000	Gender=Masc|Number=Sing	113	nmod	113:nmod	_
 117	de	de	ADP	sps00	_	118	case	118:case	_
 118	cocina	cocina	NOUN	ncfs000	Gender=Fem|Number=Sing	116	nmod	116:nmod	_
-119	como	como	ADP	sps00	_	121	mark	121:mark	_
+119	como	como	SCONJ	cs	_	121	mark	121:mark	_
 120	si	si	SCONJ	cs	_	121	mark	121:mark	_
 121	pretendieran	pretender	VERB	vmsi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	110	advcl	110:advcl	ArgTem=argM:adv|CxnElt=110:Conditional-NeutralEpistemic.Protasis@f
 122	en	en	ADP	rg	ExtPos=ADV	123	case	123:case	MWE=en_realidad|MWEPOS=ADV|ArgTem=argM:adv
@@ -9414,7 +9414,7 @@
 38	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	39	expl:pv	39:expl:pv	_
 39	dieron	dar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	acl:relcl	30:acl:relcl	SpaceAfter=No
 40	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
-41	como	como	SCONJ	rg	ExtPos=ADV	39	advmod	39:advmod	MWE=como_mínimo|MWEPOS=ADV
+41	como	como	SCONJ	cs	ExtPos=ADV	39	advmod	39:advmod	MWE=como_mínimo|MWEPOS=ADV
 42	mínimo	mínimo	NOUN	_	_	41	fixed	41:fixed	SpaceAfter=No
 43	,	,	PUNCT	fc	PunctType=Comm	44	punct	44:punct	_
 44	de	de	ADP	sps00	_	41	case	41:case	_
@@ -14183,7 +14183,7 @@
 63	,	,	PUNCT	fc	PunctType=Comm	67	punct	67:punct	_
 64	tal	tal	NOUN	cs	ExtPos=SCONJ	67	mark	67:mark	MWE=tal_y_como|MWEPOS=SCONJ
 65	y	y	CCONJ	_	_	64	fixed	64:fixed	_
-66	como	como	SCONJ	_	_	64	fixed	64:fixed	_
+66	como	como	SCONJ	cs	_	64	fixed	64:fixed	_
 67	estipula	estipular	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	advcl	62:advcl	ArgTem=argM:adv
 68	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	69:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 69	ley	ley	NOUN	ncfs000	Gender=Fem|Number=Sing	67	nsubj	67:nsubj	ArgTem=arg2:loc|Entity=NOCOREF:Gen)CESSCASTA2000041512000c18)CESSCASTA2000041512000c7)CESSCASTA2000041512000c19)CESSCASTA2000041512000c1)|SpaceAfter=No
@@ -23074,7 +23074,7 @@
 18	estadounidense	estadounidense	ADJ	aq0cs0	Number=Sing	17	amod	17:amod	Entity=CESSCASTAA200002043836c29)NOCOREF:Gen)|SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	Entity=NOCOREF:Gen)
 20	así	así	ADV	cc	ExtPos=CCONJ	24	cc	24:cc	MWE=así_como|MWEPOS=CCONJ
-21	como	como	SCONJ	_	_	20	fixed	20:fixed	_
+21	como	como	SCONJ	cs	_	20	fixed	20:fixed	_
 22	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	24:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 23	buen	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	24	amod	24:amod	_
 24	rendimiento	rendimiento	NOUN	ncms000	Gender=Masc|Number=Sing	5	conj	5:conj	_
@@ -28598,7 +28598,7 @@
 45	goles	gol	NOUN	ncmp000	Gender=Masc|Number=Plur	42	obl	42:obl	ArgTem=argM:adv
 46	de	de	ADP	sps00	_	47	case	47:case	_
 47	diferencia	diferencia	NOUN	ncfs000	Gender=Fem|Number=Sing	45	nmod	45:nmod	Entity=(NOCOREF:Gen--1-gstype:gen)NOCOREF:Gen)
-48	como	como	SCONJ	rg	ExtPos=ADV	45	advmod	45:advmod	MWE=como_mínimo|MWEPOS=ADV
+48	como	como	SCONJ	cs	ExtPos=ADV	45	advmod	45:advmod	MWE=como_mínimo|MWEPOS=ADV
 49	mínimo	mínimo	NOUN	_	_	48	fixed	48:fixed	_
 50-51	al	_	_	_	_	_	_	_	_
 50	a	a	ADP	spcms	_	52	case	52:case	_
@@ -31900,7 +31900,7 @@
 2	En	en	ADP	sps00	_	3	case	3:case	_
 3	ocasiones	ocasión	NOUN	ncfp000	Gender=Fem|Number=Plur	4	obl	4:obl	ArgTem=argM:tmp
 4	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	22:ccomp	ArgTem=arg1:pat
-5	como	como	ADP	sps00	_	7	mark	7:mark	_
+5	como	como	SCONJ	cs	_	7	mark	7:mark	_
 6	si	si	SCONJ	cs	_	7	mark	7:mark	_
 6.1	_	_	PRON	p	_	_	_	7:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200007106482c21--1-CorefType:ident)
 7	tuviera	tener	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	4:ccomp	ArgTem=arg2:atr|Cxn=Interrogative-Polar-Indirect|CxnElt=7:Interrogative-Polar-Indirect.Clause
@@ -32218,7 +32218,7 @@
 21	y	y	CCONJ	cc	_	22	cc	22:cc	_
 21.1	_	_	PRON	p	_	_	_	22:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200008106823c1-person-1-CorefType:ident,gstype:spec)
 22	puso	poner	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj	_
-23	como	como	ADP	sps00	_	24	case	24:case	_
+23	como	como	SCONJ	cs	_	24	case	24:case	_
 24	ejemplo	ejemplo	NOUN	ncms000	Gender=Masc|Number=Sing	22	obl	22:obl	ArgTem=argM:adv
 25	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	26:det	Entity=(CESSCASTAA200008106823c4--2-gstype:gen,HomoDD
 26	entidades	entidad	NOUN	ncfp000	Gender=Fem|Number=Plur	22	obj	22:obj	ArgTem=arg1:pat
@@ -37661,7 +37661,7 @@
 28	restrictivas	restrictivo	ADJ	aq0fp0	Gender=Fem|Number=Plur	27	amod	27:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
 29	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
 30	así	así	ADV	cc	ExtPos=CCONJ	32	cc	32:cc	MWE=así_como|MWEPOS=CCONJ
-31	como	como	SCONJ	_	_	30	fixed	30:fixed	_
+31	como	como	SCONJ	cs	_	30	fixed	30:fixed	_
 32	ganar	ganar	VERB	vmn0000	VerbForm=Inf	25	conj	25:conj	_
 33	en	en	ADP	sps00	_	34	case	34:case	_
 34	peso	peso	NOUN	ncms000	Gender=Masc|Number=Sing	32	obl	32:obl	ArgTem=argM:adv|Entity=(NOCOREF:Gen--1-gstype:gen)
@@ -46011,7 +46011,7 @@
 67	subsidio	subsidio	NOUN	ncms000	Gender=Masc|Number=Sing	65	obj	65:obj	ArgTem=arg1:pat|Entity=CESSCASTP1999090284c2)CESSCASTP1999090284c9)CESSCASTP1999090284c8)|SpaceAfter=No
 68	,	,	PUNCT	fc	PunctType=Comm	71	punct	71:punct	_
 69	tal	tal	NOUN	cs	ExtPos=SCONJ	71	mark	71:mark	MWE=tal_como|MWEPOS=SCONJ
-70	como	como	SCONJ	_	_	69	fixed	69:fixed	_
+70	como	como	SCONJ	cs	_	69	fixed	69:fixed	_
 71	informó	informar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	advcl	25:advcl	_
 72	ayer	ayer	ADV	rg	_	71	advmod	71:advmod	ArgTem=argM:tmp
 73	EL	el	DET	np00000	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	74:det	MWE=EL_PERIODICO|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(NOCOREF:Spec.other-other-2-gstype:spec
@@ -49142,7 +49142,7 @@
 21	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	22:det	Entity=(CESSCASTP2000020168c2--2-gstype:gen,HomoDD
 22	penados	penado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	17	amod	17:amod	ArgTem=arg1:pat|Entity=CESSCASTP2000020168c2)NOCOREF:Gen)
 23	tal	tal	NOUN	cs	ExtPos=SCONJ	25	mark	25:mark	MWE=tal_como|MWEPOS=SCONJ
-24	como	como	SCONJ	_	_	23	fixed	23:fixed	_
+24	como	como	SCONJ	cs	_	23	fixed	23:fixed	_
 25	prescribe	prescribir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl	ArgTem=argM:adv
 26	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 27	ley	ley	NOUN	ncfs000	Gender=Fem|Number=Sing	25	nsubj	25:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Gen)|SpaceAfter=No
@@ -51352,7 +51352,7 @@
 3	Estado	Estado	PROPN	np00000	_	19	nsubj	19:nsubj	ArgTem=arg1:pat|SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	Entity=CESSCASTP2000050123c19)
 5	así	así	ADV	cc	ExtPos=CCONJ	8	cc	8:cc	MWE=así_como|MWEPOS=CCONJ
-6	como	como	SCONJ	_	_	5	fixed	5:fixed	_
+6	como	como	SCONJ	cs	_	5	fixed	5:fixed	_
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 8	tema	tema	NOUN	ncms000	Gender=Masc|Number=Sing	3	conj	3:conj	_
 9	de	de	ADP	sps00	_	11	case	11:case	_
@@ -60211,7 +60211,7 @@
 37	tener	tener	VERB	vmn0000	VerbForm=Inf	23	advcl	23:advcl	ArgTem=argM:fin
 38	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	39	nummod	39:nummod	Entity=(NOCOREF:Gen--2-gstype:gen
 39	piernas	pierna	NOUN	ncfp000	Gender=Fem|Number=Plur	37	obj	37:obj	ArgTem=arg2:atr|Entity=NOCOREF:Gen)
-40	como	como	SCONJ	rg	ExtPos=ADV	37	advmod	37:advmod	MWE=como_Dios_manda|MWEPOS=ADV
+40	como	como	SCONJ	cs	ExtPos=ADV	37	advmod	37:advmod	MWE=como_Dios_manda|MWEPOS=ADV
 41	Dios	dios	NOUN	_	_	40	fixed	40:fixed	_
 42	manda	manda	NOUN	_	_	40	fixed	40:fixed	_
 43	y	y	CCONJ	cc	_	46	cc	46:cc	_
@@ -60774,7 +60774,7 @@
 10	Tora	Tora	PROPN	np00000	_	8	obl	8:obl	MWE=Tora_Bora|MWEPOS=PROPN|ArgTem=arg2:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec
 11	Bora	Bora	PROPN	_	_	10	flat	10:flat	SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
-13	como	como	SCONJ	rg	ExtPos=ADV	10	advmod	10:advmod	MWE=como_mínimo|MWEPOS=ADV
+13	como	como	SCONJ	cs	ExtPos=ADV	10	advmod	10:advmod	MWE=como_mínimo|MWEPOS=ADV
 14	mínimo	mínimo	NOUN	_	_	13	fixed	13:fixed	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 15	.	.	PUNCT	fp	PunctType=Peri	8	punct	8:punct	_
 
@@ -61626,7 +61626,7 @@
 14	España	España	PROPN	np00000	_	9	obl	9:obl	ArgTem=argM:loc|Entity=(CESSCASTP2002030199c16-place-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 16	tal	tal	NOUN	cs	ExtPos=SCONJ	19	mark	19:mark	MWE=tal_como|MWEPOS=SCONJ
-17	como	como	SCONJ	_	_	16	fixed	16:fixed	_
+17	como	como	SCONJ	cs	_	16	fixed	16:fixed	_
 17.1	_	_	PRON	p	_	_	_	19:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002030199c15-person-1-CorefType:ident,gstype:spec)
 18	había	haber	AUX	vaii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	19:aux	_
 19	adelantado	adelantar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	7:advcl	ArgTem=argM:adv

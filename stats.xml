@@ -15,19 +15,19 @@
   <fusions unique="1094" /><!-- del, al, hacerlo, hacerse, haberse, convertirse, darle, enfrentarse, encontrarse, darse, presentarse, reunirse, situarse, ponerse, producirse -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">36879</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, político, mayor, segundo -->
-    <tag name="ADP">87929</tag><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
+    <tag name="ADJ">36864</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, político, mayor, segundo -->
+    <tag name="ADP">87869</tag><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
     <tag name="ADV">18550</tag><!-- no, más, hoy, también, ya, mucho, ayer, sólo, después, ahora -->
     <tag name="AUX">13571</tag><!-- ser, haber, estar, poder, deber, saber, querer -->
     <tag name="CCONJ">14919</tag><!-- y, pero, o, e, ni, sino, i, u, bien, como -->
-    <tag name="DET">84434</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
+    <tag name="DET">84449</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, no -->
-    <tag name="NOUN">100999</tag><!-- año, gobierno, presidente, país, partido, millón, día, equipo, parte, vez -->
-    <tag name="NUM">9168</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
+    <tag name="NOUN">100984</tag><!-- año, gobierno, presidente, país, partido, millón, día, equipo, parte, vez -->
+    <tag name="NUM">9183</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PRON">25307</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
     <tag name="PROPN">41331</tag><!-- España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados, aznar -->
     <tag name="PUNCT">65625</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
-    <tag name="SCONJ">12637</tag><!-- que, como, si, porque, cuando, aunque, mientras, según, pues, donde -->
+    <tag name="SCONJ">12697</tag><!-- que, como, si, porque, cuando, aunque, mientras, según, pues, donde -->
     <tag name="SYM">427</tag><!-- %, ibex-35, .14, .23, .46, 23, a, a-7, b, cac-40 -->
     <tag name="VERB">48181</tag><!-- tener, hacer, decir, haber, dar, ir, llegar, ver, querer, llevar -->
     <tag name="X">3</tag><!-- hi, ja, som -->
@@ -52,13 +52,13 @@
     <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,SCONJ">909</feat><!-- ya, mientras, a, en, pese, con, puesto, tal, de, si -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,CCONJ,DET,NOUN,NUM,PROPN,X">97</feat><!-- Baix, les, le, de, Al, i, 1.000, A, Catalanes, Flors -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85854</feat><!-- la, las, una, esta, vez, pesetas, primera, política, esa, nueva -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">118474</feat><!-- el, los, un, lo, este, años, gobierno, presidente, millones, todo -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">118487</feat><!-- el, los, un, lo, este, años, gobierno, presidente, millones, todo -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">843</feat><!-- sería, podría, habría, debería, podrían, deberían, tendría, estaría, haría, habrían -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">311</feat><!-- mira, vaya, añade, afirma, asegura, lean, sea, vea, He, apunta -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">39091</feat><!-- es, ha, han, fue, está, tiene, son, dijo, había, hay -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2872</feat><!-- sea, haya, hubiera, pueda, puedan, fuera, sean, tenga, esté, haga -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">72678</feat><!-- los, las, sus, dos, años, han, millones, son, tres, nos -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">202665</feat><!-- el, la, un, una, su, es, ha, lo, le, este -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">202678</feat><!-- el, la, un, una, su, es, ha, lo, le, este -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">263</feat><!-- nuestra, nuestro, nuestros, nuestras, vuestra, vuestras -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">249</feat><!-- mi, mis, tu, mío, mía, tus, tuya, tuyo -->
     <feat name="NumForm" value="Digit" upos="ADJ,NUM,SYM">5495</feat><!-- 20, 30, 10, 15, 12, 2, 25, 50, 16, 18 -->
@@ -78,7 +78,7 @@
     <feat name="PronType" value="Art" upos="DET">71590</feat><!-- el, la, los, un, las, una, unos, unas, les, els -->
     <feat name="PronType" value="Dem" upos="DET,PRON">4803</feat><!-- este, esta, el, esa, ese, eso, estos, lo, mismo, estas -->
     <feat name="PronType" value="Exc" upos="DET">1</feat><!-- qué -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">3921</feat><!-- otros, uno, otro, algunos, otra, otras, una, muchos, algo, unos -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">3936</feat><!-- otros, uno, otro, algunos, otra, otras, una, muchos, algo, unos -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">371</feat><!-- qué, quién, cuál, dónde, cuándo, cuáles, cuánto, cuántos, quiénes, cuánta -->
     <feat name="PronType" value="Neg" upos="DET,PRON">538</feat><!-- nada, nadie, ningún, ninguna, ninguno -->
     <feat name="PronType" value="Prs" upos="DET,PRON">17773</feat><!-- se, su, lo, sus, le, me, nos, la, les, él -->
@@ -113,20 +113,20 @@
     <dep name="acl:relcl">7858</dep>
     <dep name="advcl">9227</dep>
     <dep name="advmod">18746</dep>
-    <dep name="amod">29543</dep>
-    <dep name="appos">7542</dep>
+    <dep name="amod">29530</dep>
+    <dep name="appos">7524</dep>
     <dep name="aux">7232</dep>
     <dep name="aux:pass">24</dep>
     <dep name="case">76873</dep>
     <dep name="cc">15228</dep>
     <dep name="ccomp">6078</dep>
-    <dep name="compound">1526</dep>
+    <dep name="compound">1496</dep>
     <dep name="conj">16232</dep>
     <dep name="cop">5612</dep>
     <dep name="csubj">1166</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">267</dep>
-    <dep name="det">84112</dep>
+    <dep name="det">84125</dep>
     <dep name="discourse">5</dep>
     <dep name="dislocated">10</dep>
     <dep name="expl">253</dep>
@@ -134,16 +134,16 @@
     <dep name="expl:pass">2233</dep>
     <dep name="expl:pv">3214</dep>
     <dep name="fixed">7590</dep>
-    <dep name="flat">14330</dep>
+    <dep name="flat">14329</dep>
     <dep name="list">21</dep>
     <dep name="mark">19896</dep>
-    <dep name="nmod">39609</dep>
+    <dep name="nmod">39615</dep>
     <dep name="nsubj">29932</dep>
     <dep name="nsubj:outer">14</dep>
     <dep name="nsubj:pass">61</dep>
-    <dep name="nummod">5998</dep>
+    <dep name="nummod">6042</dep>
     <dep name="obj">23967</dep>
-    <dep name="obl">24409</dep>
+    <dep name="obl">24408</dep>
     <dep name="obl:agent">1283</dep>
     <dep name="obl:arg">7946</dep>
     <dep name="orphan">1</dep>
