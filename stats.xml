@@ -17,12 +17,12 @@
   <tags unique="16">
     <tag name="ADJ">36864</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, político, mayor, segundo -->
     <tag name="ADP">87869</tag><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
-    <tag name="ADV">18564</tag><!-- no, más, hoy, también, ya, mucho, ayer, sólo, después, ahora -->
+    <tag name="ADV">18608</tag><!-- no, más, hoy, también, ya, mucho, ayer, sólo, después, ahora -->
     <tag name="AUX">13571</tag><!-- ser, haber, estar, poder, deber, saber, querer -->
     <tag name="CCONJ">14914</tag><!-- y, pero, o, e, ni, sino, i, u, bien, ó -->
     <tag name="DET">84449</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, no -->
-    <tag name="NOUN">100984</tag><!-- año, gobierno, presidente, país, partido, millón, día, equipo, parte, vez -->
+    <tag name="NOUN">100940</tag><!-- año, gobierno, presidente, país, partido, millón, día, equipo, parte, vez -->
     <tag name="NUM">9183</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PRON">25293</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
     <tag name="PROPN">41331</tag><!-- España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados, aznar -->

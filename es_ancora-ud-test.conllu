@@ -11887,7 +11887,7 @@
 70	redes	red	NOUN	ncfp000	Gender=Fem|Number=Plur	67	nmod	67:nmod	ArgTem=arg1:pat
 71	transeuropeas	transeuropeas	ADJ	_	Gender=Fem|Number=Plur	70	amod	70:amod	Entity=NOCOREF:Gen)NOCOREF:Gen)
 72	hasta	hasta	ADP	cs	ExtPos=SCONJ	76	mark	76:mark	MWE=hasta_tanto|MWEPOS=SCONJ
-73	tanto	tanto	NOUN	_	_	72	fixed	72:fixed	_
+73	tanto	tanto	ADV	rg	_	72	fixed	72:fixed	_
 74	no	no	ADV	rn	Polarity=Neg	76	advmod	76:advmod	_
 75	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	76	expl:pv	76:expl:pv	_
 76	pronuncie	pronunciar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	advcl	63:advcl	ArgTem=argM:adv
@@ -13209,7 +13209,7 @@
 23	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	Entity=CESSCASTA2000031713928c11)NOCOREF:Gen)
 24	pero	pero	CCONJ	cc	_	28	cc	28:cc	_
 25	entre	entre	ADP	rg	ExtPos=ADV	28	advmod	28:advmod	MWE=entre_tanto|MWEPOS=ADV
-26	tanto	tanto	NOUN	_	_	25	fixed	25:fixed	_
+26	tanto	tanto	ADV	rg	_	25	fixed	25:fixed	_
 26.1	_	_	PRON	p	_	_	_	28:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000031713928c1-organization-1-CorefType:ident,gstype:spec)
 27	hemos	haber	AUX	vaip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	28	aux	28:aux	_
 28	llegado	llegar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	2:conj	_
@@ -25432,7 +25432,7 @@
 9	Mar	Mar	PROPN	_	_	4	flat	4:flat	Entity=CESSCASTAA2000022822816c19)|SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	_
 11	en	en	ADP	rg	ExtPos=ADV	14	advmod	14:advmod	MWE=en_tanto|MWEPOS=ADV|ArgTem=argM:tmp
-12	tanto	tanto	NOUN	_	_	11	fixed	11:fixed	SpaceAfter=No
+12	tanto	tanto	ADV	rg	_	11	fixed	11:fixed	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	_
 14	logró	lograr	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 15	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	Entity=(NOCOREF:Gen--3-gstype:gen
@@ -25797,7 +25797,7 @@
 3	Española	Española	PROPN	_	_	2	flat	2:flat	Entity=CESSCASTAA2000022822816c32)|SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 5	en	en	ADP	rg	ExtPos=ADV	34	advmod	34:advmod	MWE=en_tanto|MWEPOS=ADV|ArgTem=argM:tmp
-6	tanto	tanto	NOUN	_	_	5	fixed	5:fixed	SpaceAfter=No
+6	tanto	tanto	ADV	rg	_	5	fixed	5:fixed	SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 8	que	que	PRON	pr0cn000	PronType=Rel	14	nsubj	14:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000022822816c32-organization-1-CorefType:ident,gstype:spec)
 9	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	Entity=(CESSCASTAA2000022822816c33--2-CorefType:ident,gstype:gen,HomoDD
@@ -34614,7 +34614,7 @@
 21	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	16	nmod	16:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
 23	en	en	ADP	cc	_	0	root	0:root	MWE=en_tanto_que|MWEPOS=CCONJ
-24	tanto	tanto	NOUN	_	_	23	fixed	23:fixed	_
+24	tanto	tanto	ADV	rg	_	23	fixed	23:fixed	_
 25	que	que	SCONJ	_	_	23	fixed	23:fixed	_
 26	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 27	letras	letra	NOUN	ncfp000	Gender=Fem|Number=Plur	35	nsubj	35:nsubj	ArgTem=arg1:tem
