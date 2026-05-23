@@ -9425,7 +9425,7 @@
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
 14	Rey	Rey	PROPN	_	_	11	flat	11:flat	Entity=CESSCASTA2000021713959c16)CESSCASTA2000021713959c5)|SpaceAfter=No
 15	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	3	punct	3:punct	_
-16	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	18	punct	18:punct	SpaceAfter=No
+16	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	20	punct	20:punct	SpaceAfter=No
 17	Sería	ser	AUX	vsic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	20	cop	20:cop	_
 18	de	de	ADP	rg	_	20	case	20:case	MWE=de_puta_madre|MWEPOS=ADV|ArgTem=arg2:atr
 19	puta	puta	ADJ	_	_	20	amod	20:amod	_
@@ -45708,10 +45708,10 @@
 23	aulas	aula	NOUN	ncfp000	Gender=Fem|Number=Plur	20	nmod	20:nmod	ArgTem=argM:loc|Entity=NOCOREF:Gen)CESSCASTP2000020173_fc2)|SpaceAfter=No
 24	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 25	en	en	ADP	rg	_	26	case	26:case	MWE=en_contra|MWEPOS=ADV|ArgTem=argM:adv
-26	contra	contra	NOUN	_	_	6	obl	6:obl	_
+26	contra	contra	NOUN	ncms000	Gender=Masc|Number=Sing	6	obl	6:obl	_
 27	de	de	ADP	sps00	_	29	case	29:case	_
 28	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	29:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-29	campaña	campaña	NOUN	ncfs000	Gender=Fem|Number=Sing	26	obl	26:obl	_
+29	campaña	campaña	NOUN	ncfs000	Gender=Fem|Number=Sing	26	nmod	26:nmod	_
 30	emprendida	emprendido	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	29	amod	29:amod	_
 31	por	por	ADP	sps00	_	33	case	33:case	_
 32	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	33:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
@@ -51117,10 +51117,10 @@
 # text = En contra de la línea que ha definido últimamente los pulsos tácticos entre Aíto y Majkovic, dos personajes antagónicos, el partido tuvo pasión, fuerza, y un marcado tono ofensivo, como podía esperarse de los dos equipos más efectivos del campeonato, aunque Barcelona y Unicaja también se emplearon con dureza en defensa.
 # orig_file_sentence 012#81
 1	En	en	ADP	rg	_	2	case	2:case	MWE=En_contra|MWEPOS=ADV|ArgTem=argM:adv
-2	contra	contra	NOUN	_	_	24	obl	24:obl	_
+2	contra	contra	NOUN	ncms000	Gender=Masc|Number=Sing	24	obl	24:obl	_
 3	de	de	ADP	sps00	_	5	case	5:case	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCASTP20001201176c5--2-gstype:gen,HomoDD
-5	línea	línea	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obl	2:obl	_
+5	línea	línea	NOUN	ncfs000	Gender=Fem|Number=Sing	2	nmod	2:nmod	_
 6	que	que	PRON	pr0cn000	PronType=Rel	8	nsubj	8:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20001201176c5--1-CorefType:ident,gstype:gen)
 7	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 8	definido	definir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	5:acl:relcl	_

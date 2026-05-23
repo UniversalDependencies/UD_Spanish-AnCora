@@ -1445,10 +1445,10 @@
 11	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	12:det	_
 12	opiniones	opinión	NOUN	ncfp000	Gender=Fem|Number=Plur	28	nsubj	28:nsubj	ArgTem=arg1:tem
 13	en	en	ADP	rg	_	14	case	14:case	MWE=en_contra|MWEPOS=ADV|ArgTem=arg1:pat
-14	contra	contra	NOUN	_	_	12	nmod	12:nmod	_
+14	contra	contra	NOUN	ncms000	Gender=Masc|Number=Sing	12	nmod	12:nmod	_
 15	de	de	ADP	sps00	_	17	case	17:case	_
 16	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	_
-17	defensa	defensa	NOUN	ncfs000	Gender=Fem|Number=Sing	14	obl	14:obl	_
+17	defensa	defensa	NOUN	ncfs000	Gender=Fem|Number=Sing	14	nmod	14:nmod	_
 18	agresiva	agresivo	ADJ	aq0fs0	Gender=Fem|Number=Sing	17	amod	17:amod	_
 19	en	en	ADP	sps00	_	20	case	20:case	_
 20	relación	relación	NOUN	ncfs000	Gender=Fem|Number=Sing	17	nmod	17:nmod	_
@@ -26625,7 +26625,7 @@
 16	en	en	ADP	sps00	_	18	case	18:case	_
 17	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	Entity=(CESSCASTAA200003075124c14--2-gstype:gen,HomoDD
 18	sociedad	sociedad	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl	13:obl	ArgTem=arg2:loc|Entity=CESSCASTAA200003075124c14)|SpaceAfter=No
-19	"	"	PUNCT	fe	PunctType=Quot	11	punct	9:punct	Entity=NOCOREF:Gen)|SpaceAfter=No
+19	"	"	PUNCT	fe	PunctType=Quot	13	punct	13:punct	Entity=NOCOREF:Gen)|SpaceAfter=No
 20	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 21	Miguel	Miguel	PROPN	np00000	_	23	nsubj	23:nsubj	MWE=Miguel_Sanz|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(CESSCASTAA200003075124c1-person-1-CorefType:ident,gstype:spec
 22	Sanz	Sanz	PROPN	_	_	21	flat	21:flat	Entity=CESSCASTAA200003075124c1)
