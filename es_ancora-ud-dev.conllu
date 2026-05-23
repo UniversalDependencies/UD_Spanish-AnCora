@@ -2887,11 +2887,11 @@
 21	madridista	madridista	ADJ	aq0cs0	Number=Sing	19	amod	19:amod	ArgTem=arg0:agt
 22	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	29	punct	29:punct	SpaceAfter=No
 23	que	que	PRON	pr0cn000	PronType=Rel	29	nsubj	29:nsubj	ArgTem=arg1:tem|SpaceAfter=No
-24	,	,	PUNCT	fc	PunctType=Comm	23	punct	25:punct	_
+24	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 25	por	por	ADP	rg	_	27	case	27:case	MWE=por_otra_parte|MWEPOS=ADV|ArgTem=argM:adv
 26	otra	otra	ADJ	_	_	27	amod	27:amod	_
 27	parte	parte	NOUN	_	_	29	obl	29:obl	SpaceAfter=No
-28	,	,	PUNCT	fc	PunctType=Comm	27	punct	25:punct	_
+28	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
 29	funcionó	funcionar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	19:acl:relcl	_
 30	bien	bien	ADV	rg	_	29	advmod	29:advmod	ArgTem=argM:mnr|SpaceAfter=No
 31	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	29	punct	29:punct	SpaceAfter=No
@@ -9430,9 +9430,9 @@
 18	de	de	ADP	rg	_	20	case	20:case	MWE=de_puta_madre|MWEPOS=ADV|ArgTem=arg2:atr
 19	puta	puta	ADJ	_	_	20	amod	20:amod	_
 20	madre	madre	NOUN	_	_	24	ccomp	24:ccomp	SpaceAfter=No
-21	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	20	punct	18:punct	_
-22	"	"	PUNCT	fe	PunctType=Quot	20	punct	18:punct	SpaceAfter=No
-23	,	,	PUNCT	fc	PunctType=Comm	20	punct	18:punct	_
+21	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	20	punct	20:punct	_
+22	"	"	PUNCT	fe	PunctType=Quot	20	punct	20:punct	SpaceAfter=No
+23	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 24	exclamó	exclamar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 25	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	Entity=(CESSCASTA2000021713959c21-person-2-CorefType:ident,gstype:spec
 26	defensa	defensa	NOUN	nccs000	Number=Sing	24	nsubj	24:nsubj	ArgTem=arg0:agt
@@ -22941,7 +22941,7 @@
 31	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
 32	en	en	ADP	rg	_	33	case	33:case	MWE=en_general|MWEPOS=ADV
 33	general	general	NOUN	_	_	24	obl	24:obl	SpaceAfter=No
-34	,	,	PUNCT	fc	PunctType=Comm	36	punct	32:punct	_
+34	,	,	PUNCT	fc	PunctType=Comm	36	punct	36:punct	_
 35	aunque	aunque	SCONJ	cs	_	36	mark	36:mark	_
 36	sí	él	PRON	rg	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	24	advcl	24:advcl	_
 37	puntualmente	puntualmente	ADV	rg	_	36	advmod	36:advmod	_
@@ -44716,7 +44716,7 @@
 # orig_file_sentence 014#88
 1	En	en	ADP	rg	_	2	case	2:case	MWE=En_definitiva|MWEPOS=ADV
 2	definitiva	definitiva	NOUN	_	_	5	obl	5:obl	SpaceAfter=No
-3	,	,	PUNCT	fc	PunctType=Comm	2	punct	1:punct	_
+3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCASTP1999110132c2-person-2-CorefType:ident,gstype:spec
 5	rey	rey	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	_
 6	que	que	PRON	pr0cn000	PronType=Rel	8	obj	8:obj	ArgTem=arg1:pat|Entity=(CESSCASTP1999110132c2-person-1-CorefType:ident,gstype:spec)
@@ -51136,7 +51136,7 @@
 18	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	19	nummod	19:nummod	_
 19	personajes	personaje	NOUN	ncmp000	Gender=Masc|Number=Plur	14	appos	14:appos	_
 20	antagónicos	antagónico	ADJ	aq0mp0	Gender=Masc|Number=Plur	19	amod	19:amod	Entity=CESSCASTP20001201176c7)CESSCASTP20001201176c7)NOCOREF:Gen)CESSCASTP20001201176c5)|SpaceAfter=No
-21	,	,	PUNCT	fc	PunctType=Comm	2	punct	1:punct	_
+21	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 22	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCASTP20001201176c8--2-CorefType:ident,gstype:gen
 23	partido	partido	NOUN	ncms000	Gender=Masc|Number=Sing	24	nsubj	24:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP20001201176c8)
 24	tuvo	tener	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_

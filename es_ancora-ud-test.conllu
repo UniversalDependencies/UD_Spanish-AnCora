@@ -49014,7 +49014,7 @@
 1	Por	por	ADP	rg	_	3	case	3:case	MWE=Por_otro_lado|MWEPOS=ADV
 2	otro	otro	ADJ	_	_	3	amod	3:amod	_
 3	lado	lado	NOUN	_	_	5	obl	5:obl	SpaceAfter=No
-4	,	,	PUNCT	fc	PunctType=Comm	3	punct	1:punct	_
+4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 5	vale	valer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MWE=vale_la_pena|MWEPOS=VERB
 6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	_
 7	pena	pena	NOUN	_	Gender=Fem|Number=Sing	5	compound	5:compound	_
