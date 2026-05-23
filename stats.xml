@@ -22,14 +22,14 @@
     <tag name="CCONJ">14914</tag><!-- y, pero, o, e, ni, sino, i, u, bien, ó -->
     <tag name="DET">84454</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, no -->
-    <tag name="NOUN">100888</tag><!-- año, gobierno, presidente, país, partido, millón, día, equipo, parte, vez -->
+    <tag name="NOUN">100790</tag><!-- año, gobierno, presidente, país, partido, millón, día, equipo, parte, vez -->
     <tag name="NUM">9183</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
     <tag name="PRON">25292</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
     <tag name="PROPN">41331</tag><!-- España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados, aznar -->
     <tag name="PUNCT">65625</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12702</tag><!-- que, como, si, porque, cuando, aunque, mientras, según, pues, donde -->
     <tag name="SYM">427</tag><!-- %, ibex-35, .14, .23, .46, 23, a, a-7, b, cac-40 -->
-    <tag name="VERB">48197</tag><!-- tener, hacer, decir, dar, haber, ir, llegar, ver, querer, llevar -->
+    <tag name="VERB">48295</tag><!-- tener, hacer, decir, dar, haber, ir, llegar, ver, querer, llevar -->
     <tag name="X">3</tag><!-- hi, ja, som -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -104,7 +104,7 @@
     <feat name="Typo" value="Yes" upos="AUX">1</feat><!-- esté -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">43117</feat><!-- es, ha, han, fue, está, tiene, son, dijo, había, hay -->
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">1405</feat><!-- siendo, haciendo, dando, teniendo, diciendo, pensando, trabajando, hablando, intentando, jugando -->
-    <feat name="VerbForm" value="Inf" upos="AUX,NOUN,VERB">11977</feat><!-- ser, hacer, haber, dar, tener, estar, ganar, ver, poner, decir -->
+    <feat name="VerbForm" value="Inf" upos="AUX,NOUN,VERB">12075</feat><!-- ser, hacer, haber, dar, tener, estar, ganar, ver, poner, decir -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,NOUN,VERB">11859</feat><!-- pasado, sido, hecho, dado, tenido, pasada, previsto, visto, conseguido, perdido -->
   </feats>
   <!-- Statistics of universal dependency relations. -->

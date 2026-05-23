@@ -9959,7 +9959,7 @@
 36	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	37	obj	37:obj	_
 37	rindió	rendir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	acl:relcl	32:acl:relcl	_
 38	a	a	ADP	sps00	ExtPos=SCONJ	41	mark	41:mark	MWE=a_pesar_de|MWEPOS=ADP
-39	pesar	pesar	NOUN	_	_	38	fixed	38:fixed	_
+39	pesar	pesar	VERB	vmn0000	VerbForm=Inf	38	fixed	38:fixed	_
 40	de	de	ADP	_	_	38	fixed	38:fixed	_
 41	ir	ir	VERB	vmn0000	VerbForm=Inf	37	advcl	37:advcl	_
 42	siempre	siempre	ADV	rg	_	41	advmod	41:advmod	ArgTem=argM:tmp
@@ -10551,7 +10551,7 @@
 27	que	que	SCONJ	cs	_	36	mark	36:mark	SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
 29	a	a	ADP	sps00	ExtPos=ADP	32	case	32:case	MWE=a_pesar_de|MWEPOS=ADP
-30	pesar	pesar	NOUN	_	_	29	fixed	29:fixed	_
+30	pesar	pesar	VERB	vmn0000	VerbForm=Inf	29	fixed	29:fixed	_
 31	de	de	ADP	_	_	29	fixed	29:fixed	_
 32	ello	él	PRON	pp3ns000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obl	36:obl	ArgTem=argM:adv|Entity=(CESSCASTA2000031512633c9--1-CorefType:dx.token)|SpaceAfter=No
 33	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
@@ -27819,7 +27819,7 @@
 # text = A pesar de la teórica igualdad de trato de su compañero de equipo, el brasileño Rubens Barrichello, que quedó demostrado en Canadá que no es así, al recibir órdenes del equipo para que se mantuviera a la espalda del alemán.
 # orig_file_sentence 006#82
 1	A	a	ADP	sps00	ExtPos=ADP	6	case	6:case	MWE=A_pesar_de|MWEPOS=ADP
-2	pesar	pesar	NOUN	_	_	1	fixed	1:fixed	_
+2	pesar	pesar	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	_
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCASTAA2000062923978c8--3-gstype:gen,HomoDD
 5	teórica	teórico	ADJ	aq0fs0	Gender=Fem|Number=Sing	6	amod	6:amod	_
@@ -28290,7 +28290,7 @@
 38	Button	Button	PROPN	_	_	37	flat	37:flat	Entity=NOCOREF:Spec.person)NOCOREF:Spec.person)|SpaceAfter=No
 39	,	,	PUNCT	fc	PunctType=Comm	49	punct	49:punct	_
 40	a	a	ADP	cs	ExtPos=SCONJ	49	mark	49:mark	MWE=a_pesar_de_que|MWEPOS=SCONJ
-41	pesar	pesar	NOUN	_	_	40	fixed	40:fixed	_
+41	pesar	pesar	VERB	vmn0000	VerbForm=Inf	40	fixed	40:fixed	_
 42	de	de	ADP	_	_	40	fixed	40:fixed	_
 43	que	que	SCONJ	_	_	40	fixed	40:fixed	_
 43.1	_	_	PRON	p	_	_	_	46:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000062923978c40--1-CorefType:ident,gstype:gen)
@@ -29803,7 +29803,7 @@
 # text = A pesar de que Wahid sigue siendo popular en algunas áreas de la nación, esa condición que forjó durante sus largos años como crítico contra el régimen de Suharto ha descendido de manera significativa en los últimos meses.
 # orig_file_sentence 007#90
 1	A	a	ADP	cs	ExtPos=SCONJ	6	mark	6:mark	MWE=A_pesar_de_que|MWEPOS=SCONJ
-2	pesar	pesar	NOUN	_	_	1	fixed	1:fixed	_
+2	pesar	pesar	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	_
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
 4	que	que	SCONJ	_	_	1	fixed	1:fixed	_
 5	Wahid	Wahid	PROPN	np00000	_	6	nsubj	6:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200008063784c1-person-1-CorefType:ident,gstype:spec)
@@ -36909,7 +36909,7 @@
 14	Westendorp	Westendorp	PROPN	np00000	_	12	nmod	12:nmod	Entity=(CESSCASTP1999060123c2-person-1-CorefType:ident,gstype:spec)CESSCASTP1999060123c10)|SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 16	a	a	ADP	spcms	ExtPos=ADP	20	case	20:case	MWE=a_pesar_del|MWEPOS=ADP
-17	pesar	pesar	NOUN	_	_	16	fixed	16:fixed	_
+17	pesar	pesar	VERB	vmn0000	VerbForm=Inf	16	fixed	16:fixed	_
 18-19	del	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	16	fixed	16:fixed	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	_
@@ -37098,7 +37098,7 @@
 # text = A pesar de que el Madrid ha llegado a un compromiso con Michel Salgado, por el que el lateral jugará las próximas cinco temporadas en el club blanco, aún falta que el Celta y el Madrid alcancen un acuerdo.
 # orig_file_sentence 009#73
 1	A	a	ADP	cs	ExtPos=SCONJ	8	mark	8:mark	MWE=A_pesar_de_que|MWEPOS=SCONJ
-2	pesar	pesar	NOUN	_	_	1	fixed	1:fixed	_
+2	pesar	pesar	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	_
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
 4	que	que	SCONJ	_	_	1	fixed	1:fixed	_
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCASTP19990602108c3-organization-2-gstype:spec
@@ -53392,7 +53392,7 @@
 # text = A pesar de la diferencia de categoría, el técnico se refirió al Ceuta con admiración.
 # orig_file_sentence 010#25
 1	A	a	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=A_pesar_de|MWEPOS=ADP
-2	pesar	pesar	NOUN	_	_	1	fixed	1:fixed	_
+2	pesar	pesar	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	_
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 5	diferencia	diferencia	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=argM:adv
@@ -54893,7 +54893,7 @@
 # text = A pesar del avance tecnológico, ninguna sofisticada máquina ha sido capaz de imitar el sonido de un buen stradivarius, de un Guadagnini o de un Guarneri de Gesù.
 # orig_file_sentence 012#54
 1	A	a	ADP	spcms	ExtPos=ADP	5	case	5:case	MWE=A_pesar_del|MWEPOS=ADP
-2	pesar	pesar	NOUN	_	_	1	fixed	1:fixed	_
+2	pesar	pesar	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	_
 3-4	del	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_

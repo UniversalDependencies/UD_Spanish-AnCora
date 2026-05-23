@@ -4600,7 +4600,7 @@
 10	que	que	SCONJ	cs	_	27	mark	27:mark	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
 12	a	a	ADP	sps00	ExtPos=ADP	16	case	16:case	MWE=a_pesar_de|MWEPOS=ADP
-13	pesar	pesar	NOUN	_	_	12	fixed	12:fixed	_
+13	pesar	pesar	VERB	vmn0000	VerbForm=Inf	12	fixed	12:fixed	_
 14	de	de	ADP	_	_	12	fixed	12:fixed	_
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	_
 16	ventaja	ventaja	NOUN	ncfs000	Gender=Fem|Number=Sing	27	obl	27:obl	ArgTem=argM:adv
@@ -4848,7 +4848,7 @@
 # text = A pesar de las dificultades que aún quedan por resolver, la aplicación de polímeros conductores en la fabricación de baterías es una de las posibilidades de estos nuevos materiales.
 # orig_file_sentence 002#37
 1	A	a	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=A_pesar_de|MWEPOS=ADP
-2	pesar	pesar	NOUN	_	_	1	fixed	1:fixed	_
+2	pesar	pesar	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	_
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
 4	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	5:det	_
 5	dificultades	dificultad	NOUN	ncfp000	Gender=Fem|Number=Plur	23	obl	23:obl	ArgTem=argM:adv
@@ -20938,7 +20938,7 @@
 9	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
 10	que	que	PRON	pr0cn000	PronType=Rel	27	nsubj	27:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000122317865c27-person-1-CorefType:ident,gstype:spec)
 11	a	a	ADP	sps00	ExtPos=SCONJ	16	mark	16:mark	MWE=a_pesar_de|MWEPOS=ADP
-12	pesar	pesar	NOUN	_	_	11	fixed	11:fixed	_
+12	pesar	pesar	VERB	vmn0000	VerbForm=Inf	11	fixed	11:fixed	_
 13	de	de	ADP	_	_	11	fixed	11:fixed	_
 14	no	no	ADV	rn	Polarity=Neg	16	advmod	16:advmod	_
 15	ser	ser	AUX	vsn0000	VerbForm=Inf	16	cop	16:cop	_
@@ -24524,7 +24524,7 @@
 16	asegura	asegurar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	10:conj	_
 17	que	que	SCONJ	cs	_	28	mark	28:mark	_
 18	a	a	ADP	spcms	ExtPos=ADP	22	case	22:case	MWE=a_pesar_del|MWEPOS=ADP
-19	pesar	pesar	NOUN	_	_	18	fixed	18:fixed	_
+19	pesar	pesar	VERB	vmn0000	VerbForm=Inf	18	fixed	18:fixed	_
 20-21	del	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	18	fixed	18:fixed	_
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	_
@@ -26880,7 +26880,7 @@
 9	estados	estado	NOUN	ncmp000	Gender=Masc|Number=Plur	5	obl	5:obl	ArgTem=argM:loc|Entity=NOCOREF:Gen)|SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 11	a	a	ADP	cs	ExtPos=SCONJ	25	mark	25:mark	MWE=a_pesar_de_que|MWEPOS=SCONJ
-12	pesar	pesar	NOUN	_	_	11	fixed	11:fixed	_
+12	pesar	pesar	VERB	vmn0000	VerbForm=Inf	11	fixed	11:fixed	_
 13	de	de	ADP	_	_	11	fixed	11:fixed	_
 14	que	que	SCONJ	_	_	11	fixed	11:fixed	_
 15	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	Entity=(CESSCASTAA200003108368c23-other-2-gstype:spec(CESSCASTAA200003108368c13-person-2-gstype:spec
@@ -32525,7 +32525,7 @@
 27	insuperable	insuperable	ADJ	aq0cs0	Number=Sing	25	amod	25:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	Entity=NOCOREF:Gen)
 29	a	a	ADP	sps00	ExtPos=SCONJ	38	mark	38:mark	MWE=a_pesar_de|MWEPOS=ADP
-30	pesar	pesar	NOUN	_	_	29	fixed	29:fixed	_
+30	pesar	pesar	VERB	vmn0000	VerbForm=Inf	29	fixed	29:fixed	_
 31	de	de	ADP	_	_	29	fixed	29:fixed	_
 32	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	38	det	38:det	Entity=(CESSCASTAA200008128195c29--7-CorefType:dx.token
 33	cual	cual	PRON	pr0cs000	Number=Sing|PronType=Rel	38	obl	38:obl	ArgTem=argM:adv
@@ -47697,7 +47697,7 @@
 1	Porque	porque	SCONJ	cs	_	21	mark	21:mark	SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
 3	a	a	ADP	sps00	ExtPos=ADP	7	case	7:case	MWE=a_pesar_de|MWEPOS=ADP
-4	pesar	pesar	NOUN	_	_	3	fixed	3:fixed	_
+4	pesar	pesar	VERB	vmn0000	VerbForm=Inf	3	fixed	3:fixed	_
 5	de	de	ADP	_	_	3	fixed	3:fixed	_
 6	sus	su	PRON	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod	7:nmod	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP19991201116c10-organization-1-gstype:spec)
 7	cientos	ciento	NUM	pn0cp000	Number=Plur|NumForm=Word|NumType=Card	21	obl	21:obl	ArgTem=argM:adv
@@ -61771,7 +61771,7 @@
 # text = A pesar de los sufrimientos, ellos no exigirán su marcha.
 # orig_file_sentence 011#40
 1	A	a	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=A_pesar_de|MWEPOS=ADP
-2	pesar	pesar	NOUN	_	_	1	fixed	1:fixed	_
+2	pesar	pesar	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	_
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
 4	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen
 5	sufrimientos	sufrimiento	NOUN	ncmp000	Gender=Masc|Number=Plur	9	obl	9:obl	ArgTem=argM:adv|Entity=NOCOREF:Gen)|SpaceAfter=No
