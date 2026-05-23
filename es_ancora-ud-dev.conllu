@@ -19864,7 +19864,7 @@
 54	estaremos	estar	AUX	vmif1p0	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	55	cop	55:cop	ArgTem=arg1:pat
 55	atentos	atento	ADJ	aq0mp0	Gender=Masc|Number=Plur	19	ccomp	19:ccomp	ArgTem=arg2:atr|SpaceAfter=No
 56	,	,	PUNCT	fc	PunctType=Comm	57	punct	57:punct	_
-57	dado	dado	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	55	advcl	55:advcl	MWE=dado_que|MWEPOS=SCONJ
+57	dado	dar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	55	advcl	55:advcl	MWE=dado_que|MWEPOS=SCONJ
 58	que	que	SCONJ	_	_	60	mark	60:mark	_
 58.1	_	_	PRON	p	_	_	_	60:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA200012031592c15--1-CorefType:ident,gstype:gen)
 59	podría	poder	AUX	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	60	aux	60:aux	_
@@ -29065,7 +29065,7 @@
 8	trabajo	trabajo	NOUN	ncms000	Gender=Masc|Number=Sing	6	obj	6:obj	ArgTem=arg1:pat
 9	de	de	ADP	sps00	_	10	case	10:case	_
 10	ACNUR	ACNUR	PROPN	np00000	_	8	nmod	8:nmod	ArgTem=arg0:agt|Entity=(CESSCASTAA200007052692c1-organization-1-CorefType:ident,gstype:spec)CESSCASTAA200007052692c8)NOCOREF:Gen)
-11	dado	dado	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	2:advcl	MWE=dado_que|MWEPOS=SCONJ
+11	dado	dar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	2:advcl	MWE=dado_que|MWEPOS=SCONJ
 12	que	que	SCONJ	_	_	17	mark	17:mark	_
 13	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	14:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 14	autoridades	autoridad	NOUN	ncfp000	Gender=Fem|Number=Plur	17	nsubj	17:nsubj	ArgTem=arg0:agt
@@ -29931,7 +29931,7 @@
 23	ambiente	ambiente	NOUN	ncms000	Gender=Masc|Number=Sing	8	obl	8:obl	ArgTem=argM:adv
 24	de	de	ADP	sps00	_	25	case	25:case	_
 25	tensión	tensión	NOUN	ncfs000	Gender=Fem|Number=Sing	23	nmod	23:nmod	Entity=(NOCOREF:Gen--1-gstype:gen)
-26	dada	dado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	23	amod	23:amod	_
+26	dada	dar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	amod	23:amod	_
 27	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	28:det	Entity=(CESSCASTAA200008063784c20--2-gstype:gen,HomoDD
 28	presión	presión	NOUN	ncfs000	Gender=Fem|Number=Sing	26	nsubj	26:nsubj	ArgTem=arg1:pat
 29	a	a	ADP	sps00	_	31	case	31:case	_
@@ -35172,7 +35172,7 @@
 25	de	de	ADP	sps00	_	27	case	27:case	_
 26	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	27:det	Entity=(CESSCASTAA200012128504c2--2-CorefType:ident,gstype:gen,HomoDD
 27	concesiones	concesión	NOUN	ncfp000	Gender=Fem|Number=Plur	24	nmod	24:nmod	Entity=CESSCASTAA200012128504c2)NOCOREF:Gen)
-28	dadas	dado	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	21	amod	21:amod	_
+28	dadas	dar	VERB	vmp00pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	amod	21:amod	_
 29	a	a	ADP	sps00	_	31	case	31:case	_
 30	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	31:det	Entity=(CESSCASTAA200012128504c19--2-CorefType:ident,gstype:gen,HomoDD
 31	empresas	empresa	NOUN	ncfp000	Gender=Fem|Number=Plur	28	obl:arg	28:obl:arg	ArgTem=arg2:ben
