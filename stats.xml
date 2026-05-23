@@ -15,16 +15,16 @@
   <fusions unique="1094" /><!-- del, al, hacerlo, hacerse, haberse, convertirse, darle, enfrentarse, encontrarse, darse, presentarse, reunirse, situarse, ponerse, producirse -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">36864</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, político, mayor, segundo -->
+    <tag name="ADJ">36912</tag><!-- primero, nuevo, último, pasado, próximo, español, gran, político, mayor, segundo -->
     <tag name="ADP">87869</tag><!-- de, en, a, por, con, para, entre, sobre, sin, desde -->
     <tag name="ADV">18608</tag><!-- no, más, hoy, también, ya, mucho, ayer, sólo, después, ahora -->
     <tag name="AUX">13571</tag><!-- ser, haber, estar, poder, deber, saber, querer -->
     <tag name="CCONJ">14914</tag><!-- y, pero, o, e, ni, sino, i, u, bien, ó -->
-    <tag name="DET">84449</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
+    <tag name="DET">84454</tag><!-- el, uno, su, este, todo, otro, ese, alguno, mismo, mucho -->
     <tag name="INTJ">177</tag><!-- sí, je, bueno, ay, ojalá, adiós, ah, hola, ja, no -->
-    <tag name="NOUN">100940</tag><!-- año, gobierno, presidente, país, partido, millón, día, equipo, parte, vez -->
+    <tag name="NOUN">100888</tag><!-- año, gobierno, presidente, país, partido, millón, día, equipo, parte, vez -->
     <tag name="NUM">9183</tag><!-- dos, ciento, tres, cinco, cuatro, ambos, seis, 20, 30, siete -->
-    <tag name="PRON">25293</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
+    <tag name="PRON">25292</tag><!-- él, que, yo, uno, todo, quien, este, otro, ese, nada -->
     <tag name="PROPN">41331</tag><!-- España, Madrid, Barcelona, José, PP, Estado, Juan, nacional, Estados, aznar -->
     <tag name="PUNCT">65625</tag><!-- ,, ., ", -, (, ), :, ?, ;, ¿ -->
     <tag name="SCONJ">12702</tag><!-- que, como, si, porque, cuando, aunque, mientras, según, pues, donde -->
@@ -47,7 +47,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2783</feat><!-- más, menos, mayor, mejor, mayores, menor, mejores, peor, menores, peores -->
     <feat name="Degree" value="Sup" upos="ADJ">174</feat><!-- máximo, máxima, mínimo, máximos, mínimas, mínima, mínimos, pésimo, máximas, óptima -->
     <feat name="ExtPos" value="ADP" upos="ADJ,ADP,ADV,NOUN,PRON,SCONJ">2142</feat><!-- a, en, por, junto, frente, respecto, pese, de, gracias, debido -->
-    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,SCONJ">1963</feat><!-- en, por, a, de, sin, no, sobre, más, un, ni -->
+    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,SCONJ">1826</feat><!-- en, por, a, de, sin, no, sobre, más, un, ni -->
     <feat name="ExtPos" value="CCONJ" upos="ADJ,ADP,ADV,CCONJ,NOUN,PRON">319</feat><!-- así, sino, no, es, además, o, en, junto, esto, más -->
     <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,SCONJ">909</feat><!-- ya, mientras, a, en, pese, con, puesto, tal, de, si -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,CCONJ,DET,NOUN,NUM,PROPN,X">97</feat><!-- Baix, les, le, de, Al, i, 1.000, A, Catalanes, Flors -->
@@ -112,12 +112,12 @@
     <dep name="acl">2805</dep>
     <dep name="acl:relcl">7858</dep>
     <dep name="advcl">9227</dep>
-    <dep name="advmod">18762</dep>
-    <dep name="amod">29530</dep>
+    <dep name="advmod">18625</dep>
+    <dep name="amod">29603</dep>
     <dep name="appos">7524</dep>
     <dep name="aux">7232</dep>
     <dep name="aux:pass">24</dep>
-    <dep name="case">76873</dep>
+    <dep name="case">77018</dep>
     <dep name="cc">15223</dep>
     <dep name="ccomp">6078</dep>
     <dep name="compound">1496</dep>
@@ -126,24 +126,24 @@
     <dep name="csubj">1166</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">267</dep>
-    <dep name="det">84125</dep>
+    <dep name="det">84133</dep>
     <dep name="discourse">5</dep>
     <dep name="dislocated">10</dep>
     <dep name="expl">253</dep>
     <dep name="expl:impers">364</dep>
     <dep name="expl:pass">2233</dep>
     <dep name="expl:pv">3214</dep>
-    <dep name="fixed">7590</dep>
+    <dep name="fixed">7364</dep>
     <dep name="flat">14329</dep>
     <dep name="list">21</dep>
     <dep name="mark">19901</dep>
-    <dep name="nmod">39615</dep>
+    <dep name="nmod">39637</dep>
     <dep name="nsubj">29932</dep>
     <dep name="nsubj:outer">14</dep>
     <dep name="nsubj:pass">61</dep>
     <dep name="nummod">6042</dep>
     <dep name="obj">23967</dep>
-    <dep name="obl">24394</dep>
+    <dep name="obl">24509</dep>
     <dep name="obl:agent">1283</dep>
     <dep name="obl:arg">7944</dep>
     <dep name="orphan">1</dep>
