@@ -46,10 +46,10 @@
     <feat name="Degree" value="Abs" upos="ADJ,DET,PRON">52</feat><!-- muchísimos, importantísimo, mismísimo, altísimo, dificilísimo, importantísima, muchísimas, rapidísimo, altísima, anticuadísimo -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2783</feat><!-- más, menos, mayor, mejor, mayores, menor, mejores, peor, menores, peores -->
     <feat name="Degree" value="Sup" upos="ADJ">174</feat><!-- máximo, máxima, mínimo, máximos, mínimas, mínima, mínimos, pésimo, máximas, óptima -->
-    <feat name="ExtPos" value="ADP" upos="ADJ,ADP,ADV,NOUN,PRON,SCONJ">2145</feat><!-- a, en, por, junto, frente, respecto, pese, de, gracias, debido -->
-    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,SCONJ">1823</feat><!-- en, por, a, de, sin, no, sobre, más, un, ni -->
-    <feat name="ExtPos" value="CCONJ" upos="ADJ,ADP,ADV,CCONJ,NOUN,PRON">319</feat><!-- así, sino, no, es, además, o, en, junto, esto, más -->
-    <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,SCONJ">909</feat><!-- ya, mientras, a, en, pese, con, puesto, tal, de, si -->
+    <feat name="ExtPos" value="ADP" upos="ADJ,ADP,ADV,NOUN,PRON,SCONJ">1365</feat><!-- a, junto, frente, respecto, en, pese, por, gracias, debido, además -->
+    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,SCONJ">1818</feat><!-- en, por, a, de, sin, no, sobre, más, un, ni -->
+    <feat name="ExtPos" value="CCONJ" upos="ADJ,ADP,ADV,CCONJ,NOUN,PRON">308</feat><!-- así, sino, no, es, además, o, junto, esto, más, a -->
+    <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,SCONJ">798</feat><!-- ya, mientras, a, pese, puesto, tal, con, si, en, una -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,CCONJ,DET,NOUN,NUM,PROPN,X">97</feat><!-- Baix, les, le, de, Al, i, 1.000, A, Catalanes, Flors -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85860</feat><!-- la, las, una, esta, vez, pesetas, primera, política, esa, nueva -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">118493</feat><!-- el, los, un, lo, este, años, gobierno, presidente, millones, todo -->
@@ -109,16 +109,16 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
-    <dep name="acl">2805</dep>
+    <dep name="acl">2839</dep>
     <dep name="acl:relcl">7858</dep>
     <dep name="advcl">9227</dep>
-    <dep name="advmod">18622</dep>
+    <dep name="advmod">18617</dep>
     <dep name="amod">29602</dep>
     <dep name="appos">7524</dep>
     <dep name="aux">7232</dep>
     <dep name="aux:pass">24</dep>
-    <dep name="case">77021</dep>
-    <dep name="cc">15227</dep>
+    <dep name="case">78021</dep>
+    <dep name="cc">15216</dep>
     <dep name="ccomp">6078</dep>
     <dep name="compound">1496</dep>
     <dep name="conj">16232</dep>
@@ -133,11 +133,11 @@
     <dep name="expl:impers">364</dep>
     <dep name="expl:pass">2233</dep>
     <dep name="expl:pv">3214</dep>
-    <dep name="fixed">7260</dep>
+    <dep name="fixed">5446</dep>
     <dep name="flat">14329</dep>
     <dep name="list">21</dep>
-    <dep name="mark">19999</dep>
-    <dep name="nmod">39643</dep>
+    <dep name="mark">19922</dep>
+    <dep name="nmod">40516</dep>
     <dep name="nsubj">29932</dep>
     <dep name="nsubj:outer">14</dep>
     <dep name="nsubj:pass">61</dep>
