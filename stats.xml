@@ -118,7 +118,7 @@
     <dep name="aux">7232</dep>
     <dep name="aux:pass">24</dep>
     <dep name="case">77021</dep>
-    <dep name="cc">15223</dep>
+    <dep name="cc">15227</dep>
     <dep name="ccomp">6078</dep>
     <dep name="compound">1496</dep>
     <dep name="conj">16232</dep>
@@ -133,10 +133,10 @@
     <dep name="expl:impers">364</dep>
     <dep name="expl:pass">2233</dep>
     <dep name="expl:pv">3214</dep>
-    <dep name="fixed">7362</dep>
+    <dep name="fixed">7260</dep>
     <dep name="flat">14329</dep>
     <dep name="list">21</dep>
-    <dep name="mark">19901</dep>
+    <dep name="mark">19999</dep>
     <dep name="nmod">39643</dep>
     <dep name="nsubj">29932</dep>
     <dep name="nsubj:outer">14</dep>

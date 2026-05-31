@@ -4802,7 +4802,7 @@
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	fixed	19:fixed	_
 21	caso	caso	NOUN	_	_	19	fixed	19:fixed	_
 22	de	de	ADP	_	_	19	fixed	19:fixed	_
-23	que	que	SCONJ	_	_	19	fixed	19:fixed	_
+23	que	que	SCONJ	_	_	26	mark	26:mark	_
 24	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	_
 25	depredador	depredador	NOUN	ncms000	Gender=Masc|Number=Sing	26	nsubj	26:nsubj	ArgTem=arg0:agt
 26	destruya	destruir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	13:advcl	_
@@ -4984,7 +4984,7 @@
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	fixed	10:fixed	_
 12	caso	caso	NOUN	_	_	10	fixed	10:fixed	_
 13	de	de	ADP	_	_	10	fixed	10:fixed	_
-14	que	que	SCONJ	_	_	10	fixed	10:fixed	_
+14	que	que	SCONJ	_	_	16	mark	16:mark	_
 15	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	expl:pass	16:expl:pass	_
 16	destruya	destruir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl	_
 17	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	19:det	_
@@ -12358,7 +12358,7 @@
 38	,	,	PUNCT	fc	PunctType=Comm	44	punct	44:punct	_
 39	pese	pese	NOUN	cs	ExtPos=SCONJ	44	mark	44:mark	MWE=pese_a_que|MWEPOS=SCONJ
 40	a	a	ADP	_	_	39	fixed	39:fixed	_
-41	que	que	SCONJ	_	_	39	fixed	39:fixed	_
+41	que	que	SCONJ	_	_	44	mark	44:mark	_
 42	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	44	expl:pass	44:expl:pass	_
 43	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	44	obl:arg	44:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTA2000031714423c3-person-1-CorefType:ident,gstype:spec)
 44	diga	decir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	27:advcl	_
@@ -22118,7 +22118,7 @@
 # orig_file_sentence 006#65
 1	Pese	pese	NOUN	cs	ExtPos=SCONJ	5	mark	5:mark	MWE=Pese_a_que|MWEPOS=SCONJ
 2	a	a	ADP	_	_	1	fixed	1:fixed	_
-3	que	que	SCONJ	_	_	1	fixed	1:fixed	_
+3	que	que	SCONJ	_	_	5	mark	5:mark	_
 4	Adli	Adli	PROPN	np00000	_	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200003032162c1-person-1-CorefType:ident,gstype:spec)
 5	insiste	insistir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	advcl	52:advcl	_
 6	en	en	ADP	sps00	_	14	mark	14:mark	_
@@ -26966,7 +26966,7 @@
 1	En	en	ADP	cs	ExtPos=SCONJ	9	mark	9:mark	MWE=En_caso_de_que|MWEPOS=SCONJ
 2	caso	caso	NOUN	_	_	1	fixed	1:fixed	_
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
-4	que	que	SCONJ	_	_	1	fixed	1:fixed	_
+4	que	que	SCONJ	_	_	9	mark	9:mark	_
 5	ninguno	ninguno	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Neg	9	nsubj	9:nsubj	ArgTem=arg1:tem
 6	de	de	ADP	sps00	_	8	case	8:case	_
 7	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	8:det	Entity=(CESSCASTAA200005129580c1_PLUS_CESSCASTAA200005129580c4_PLUS_CESSCASTAA200005129580c6-other-2-CorefType:ident,gstype:spec|SplitAnte=CESSCASTAA200005129580c1<CESSCASTAA200005129580c1_PLUS_CESSCASTAA200005129580c4_PLUS_CESSCASTAA200005129580c6,CESSCASTAA200005129580c4<CESSCASTAA200005129580c1_PLUS_CESSCASTAA200005129580c4_PLUS_CESSCASTAA200005129580c6,CESSCASTAA200005129580c6<CESSCASTAA200005129580c1_PLUS_CESSCASTAA200005129580c4_PLUS_CESSCASTAA200005129580c6
@@ -27088,7 +27088,7 @@
 36	en	en	ADP	cs	ExtPos=SCONJ	42	mark	42:mark	MWE=en_caso_de_que|MWEPOS=SCONJ
 37	caso	caso	NOUN	_	_	36	fixed	36:fixed	_
 38	de	de	ADP	_	_	36	fixed	36:fixed	_
-39	que	que	SCONJ	_	_	36	fixed	36:fixed	_
+39	que	que	SCONJ	_	_	42	mark	42:mark	_
 40	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	41:det	Entity=(CESSCASTAA200005129580c2-organization-2-CorefType:ident,gstype:spec
 41	PRSC	PRSC	PROPN	np00000	_	42	nsubj	42:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA200005129580c2)
 42	ganara	ganar	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	24:advcl	_
@@ -28292,7 +28292,7 @@
 40	a	a	ADP	cs	ExtPos=SCONJ	49	mark	49:mark	MWE=a_pesar_de_que|MWEPOS=SCONJ
 41	pesar	pesar	VERB	vmn0000	VerbForm=Inf	40	fixed	40:fixed	_
 42	de	de	ADP	_	_	40	fixed	40:fixed	_
-43	que	que	SCONJ	_	_	40	fixed	40:fixed	_
+43	que	que	SCONJ	_	_	49	mark	49:mark	_
 43.1	_	_	PRON	p	_	_	_	46:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000062923978c40--1-CorefType:ident,gstype:gen)
 44	no	no	ADV	rn	Polarity=Neg	49	advmod	49:advmod	_
 45	han	haber	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	aux	49:aux	_
@@ -29805,7 +29805,7 @@
 1	A	a	ADP	cs	ExtPos=SCONJ	6	mark	6:mark	MWE=A_pesar_de_que|MWEPOS=SCONJ
 2	pesar	pesar	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	_
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
-4	que	que	SCONJ	_	_	1	fixed	1:fixed	_
+4	que	que	SCONJ	_	_	6	mark	6:mark	_
 5	Wahid	Wahid	PROPN	np00000	_	6	nsubj	6:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200008063784c1-person-1-CorefType:ident,gstype:spec)
 6	sigue	seguir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	32:advcl	_
 7	siendo	ser	AUX	vsg0000	VerbForm=Ger	8	cop	8:cop	_
@@ -37100,7 +37100,7 @@
 1	A	a	ADP	cs	ExtPos=SCONJ	8	mark	8:mark	MWE=A_pesar_de_que|MWEPOS=SCONJ
 2	pesar	pesar	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	_
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
-4	que	que	SCONJ	_	_	1	fixed	1:fixed	_
+4	que	que	SCONJ	_	_	8	mark	8:mark	_
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCASTP19990602108c3-organization-2-gstype:spec
 6	Madrid	Madrid	PROPN	np00000	_	8	nsubj	8:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP19990602108c3)
 7	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
@@ -43601,7 +43601,7 @@
 30	en	en	ADP	cs	ExtPos=SCONJ	35	mark	35:mark	MWE=en_caso_de_que|MWEPOS=SCONJ
 31	caso	caso	NOUN	_	_	30	fixed	30:fixed	_
 32	de	de	ADP	_	_	30	fixed	30:fixed	_
-33	que	que	SCONJ	_	_	30	fixed	30:fixed	_
+33	que	que	SCONJ	_	_	35	mark	35:mark	_
 34	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	35	expl:pass	35:expl:pass	_
 35	celebraran	celebrar	VERB	vmsi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	39	advcl	39:advcl	_
 36	unos	uno	DET	di0mp0	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	37	det	37:det	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -45500,7 +45500,7 @@
 # orig_file_sentence 010#7
 1	Pese	pese	NOUN	cs	ExtPos=SCONJ	4	mark	4:mark	MWE=Pese_a_que|MWEPOS=SCONJ
 2	a	a	ADP	_	_	1	fixed	1:fixed	_
-3	que	que	SCONJ	_	_	1	fixed	1:fixed	_
+3	que	que	SCONJ	_	_	4	mark	4:mark	_
 3.1	_	_	PRON	p	_	_	_	4:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20000102120c9-person-1-CorefType:ident,gstype:spec)
 4	empezó	empezar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	12:advcl	_
 5	frío	frío	ADJ	aq0ms0	Gender=Masc|Number=Sing	4	obj	4:obj	ArgTem=argM:atr|SpaceAfter=No
@@ -49806,7 +49806,7 @@
 21	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 22	pese	pese	NOUN	cs	ExtPos=SCONJ	25	mark	25:mark	MWE=pese_a_que|MWEPOS=SCONJ
 23	a	a	ADP	_	_	22	fixed	22:fixed	_
-24	que	que	SCONJ	_	_	22	fixed	22:fixed	_
+24	que	que	SCONJ	_	_	25	mark	25:mark	_
 24.1	_	_	PRON	p	_	_	_	25:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000080231c1-person-1-CorefType:ident,gstype:spec)
 25	reconoció	reconocer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	7:advcl	_
 26	que	que	SCONJ	cs	_	32	mark	32:mark	_

@@ -669,7 +669,7 @@
 48	de	de	ADP	sps00	_	49	case	49:case	_
 49	drogas	droga	NOUN	ncfp000	Gender=Fem|Number=Plur	46	obl:arg	46:obl:arg	ArgTem=arg1:tem
 50	hasta	hasta	ADP	cs	ExtPos=SCONJ	54	mark	54:mark	MWE=hasta_que|MWEPOS=SCONJ
-51	que	que	SCONJ	_	_	50	fixed	50:fixed	_
+51	que	que	SCONJ	_	_	54	mark	54:mark	_
 52	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	54	expl:pv	54:expl:pv	_
 53	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	54	obl:arg	54:obl:arg	ArgTem=arg3:ben
 54	salen	salir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	advcl	46:advcl	ArgTem=argM:adv
@@ -5826,7 +5826,7 @@
 10	políticamente	políticamente	ADV	rg	_	7	advmod	7:advmod	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
 12	hasta	hasta	ADP	cs	ExtPos=SCONJ	15	mark	15:mark	MWE=hasta_que|MWEPOS=SCONJ
-13	que	que	SCONJ	_	_	12	fixed	12:fixed	_
+13	que	que	SCONJ	_	_	15	mark	15:mark	_
 14	no	no	ADV	rn	Polarity=Neg	15	advmod	15:advmod	_
 15	encuentren	encontrar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	5:advcl	ArgTem=argM:tmp
 16	a	a	ADP	sps00	_	17	case	17:case	_
@@ -5884,7 +5884,7 @@
 # text = Hasta que el preso no se presente en comisaría o lo lleven, el suspense flotará sobre nuestra vida colectiva como una tormenta peligrosa.
 # orig_file_sentence 002#68
 1	Hasta	hasta	ADP	cs	ExtPos=SCONJ	7	mark	7:mark	MWE=Hasta_que|MWEPOS=SCONJ
-2	que	que	SCONJ	_	_	1	fixed	1:fixed	_
+2	que	que	SCONJ	_	_	7	mark	7:mark	_
 3	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	_
 4	preso	preso	NOUN	ncms000	Gender=Masc|Number=Sing	7	nsubj	7:nsubj	ArgTem=arg0:agt
 5	no	no	ADV	rn	Polarity=Neg	7	advmod	7:advmod	_
@@ -15135,7 +15135,7 @@
 39	,	,	PUNCT	fc	PunctType=Comm	47	punct	47:punct	_
 40	pese	pese	NOUN	cs	ExtPos=SCONJ	47	mark	47:mark	MWE=pese_a_que|MWEPOS=SCONJ
 41	a	a	ADP	_	_	40	fixed	40:fixed	_
-42	que	que	SCONJ	_	_	40	fixed	40:fixed	_
+42	que	que	SCONJ	_	_	47	mark	47:mark	_
 43	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	44:det	Entity=(CESSCASTA2000061310295c26--2-gstype:gen
 44	despacho	despacho	NOUN	ncms000	Gender=Masc|Number=Sing	47	obl:arg	47:obl:arg	ArgTem=arg2:atr|Entity=CESSCASTA2000061310295c26)
 44.1	_	_	PRON	p	_	_	_	47:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000061310295c23-person-1-CorefType:ident,gstype:spec)
@@ -26882,7 +26882,7 @@
 11	a	a	ADP	cs	ExtPos=SCONJ	25	mark	25:mark	MWE=a_pesar_de_que|MWEPOS=SCONJ
 12	pesar	pesar	VERB	vmn0000	VerbForm=Inf	11	fixed	11:fixed	_
 13	de	de	ADP	_	_	11	fixed	11:fixed	_
-14	que	que	SCONJ	_	_	11	fixed	11:fixed	_
+14	que	que	SCONJ	_	_	25	mark	25:mark	_
 15	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	Entity=(CESSCASTAA200003108368c23-other-2-gstype:spec(CESSCASTAA200003108368c13-person-2-gstype:spec
 16	demócrata	demócrata	NOUN	nccs000	Number=Sing	25	nsubj	25:nsubj	ArgTem=arg1:tem
 17	Albert	Albert	PROPN	np00000	_	16	appos	16:appos	MWE=Albert_Gore|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
@@ -52372,7 +52372,7 @@
 4	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 5	pese	pese	NOUN	cs	ExtPos=SCONJ	12	mark	12:mark	MWE=pese_a_que|MWEPOS=SCONJ
 6	a	a	ADP	_	_	5	fixed	5:fixed	_
-7	que	que	SCONJ	_	_	5	fixed	5:fixed	_
+7	que	que	SCONJ	_	_	12	mark	12:mark	_
 8	personal	personal	NOUN	ncms000	Gender=Masc|Number=Sing	12	nsubj	12:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen
 9-10	del	_	_	_	_	_	_	_	_
 9	de	de	ADP	spcms	_	11	case	11:case	_
@@ -53449,7 +53449,7 @@
 41	a	a	ADP	cs	ExtPos=SCONJ	48	mark	48:mark	MWE=a_fin_de_que|MWEPOS=SCONJ
 42	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	41	fixed	41:fixed	_
 43	de	de	ADP	_	_	41	fixed	41:fixed	_
-44	que	que	SCONJ	_	_	41	fixed	41:fixed	_
+44	que	que	SCONJ	_	_	48	mark	48:mark	_
 45	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	46:det	Entity=(CESSCASTP2000080226c25-person-2-gstype:spec
 46	corsos	corso	NOUN	ncmp000	Gender=Masc|Number=Plur	48	nsubj	48:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2000080226c25)
 47	puedan	poder	AUX	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	aux	48:aux	_
