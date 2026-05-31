@@ -14302,7 +14302,7 @@
 44	que	que	SCONJ	_	_	43	fixed	43:fixed	SpaceAfter=No
 45	,	,	PUNCT	fc	PunctType=Comm	43	punct	43:punct	_
 46	a	a	ADP	sps00	_	47	case	47:case	MWE=a_diferencia_de|MWEPOS=ADP
-47	diferencia	diferencia	NOUN	_	_	70	advmod	70:advmod	_
+47	diferencia	diferencia	NOUN	_	_	70	obl	70:obl	_
 48	de	de	ADP	_	_	50	case	50:case	_
 49	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	50	det	50:det	Entity=(CESSCASTA2000041512000c13--2-CorefType:ident,HomoDD
 50	manifestado	manifestado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	47	nmod	47:nmod	ArgTem=argM:adv
@@ -26625,7 +26625,7 @@
 16	en	en	ADP	sps00	_	18	case	18:case	_
 17	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	Entity=(CESSCASTAA200003075124c14--2-gstype:gen,HomoDD
 18	sociedad	sociedad	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl	13:obl	ArgTem=arg2:loc|Entity=CESSCASTAA200003075124c14)|SpaceAfter=No
-19	"	"	PUNCT	fe	PunctType=Quot	11	punct	11:punct	Entity=NOCOREF:Gen)|SpaceAfter=No
+19	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	Entity=NOCOREF:Gen)|SpaceAfter=No
 20	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 21	Miguel	Miguel	PROPN	np00000	_	23	nsubj	23:nsubj	MWE=Miguel_Sanz|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(CESSCASTAA200003075124c1-person-1-CorefType:ident,gstype:spec
 22	Sanz	Sanz	PROPN	_	_	21	flat	21:flat	Entity=CESSCASTAA200003075124c1)
