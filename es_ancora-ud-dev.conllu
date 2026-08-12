@@ -7128,7 +7128,7 @@
 # orig_file_sentence 003#24
 1	'	'	PUNCT	fz	PunctType=Quot	7	punct	7:punct	SpaceAfter=No
 2	-	-	PUNCT	fg	PunctType=Dash	7	punct	7:punct	_
-3	Cómo	cómo	PRON	pt000000	PronType=Ind	7	obl	7:obl	ArgTem=argM:mnr
+3	Cómo	cómo	ADV	pt000000	PronType=Int	7	advmod	7:advmod	ArgTem=argM:mnr
 4	no	no	ADV	rn	Polarity=Neg	7	advmod	7:advmod	_
 5	nos	yo	PRON	p010p000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	expl:pv	7:expl:pv	_
 6	habremos	haber	AUX	vaif1p0	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	7	aux	7:aux	_
@@ -8059,7 +8059,7 @@
 6	contraluz	contraluz	NOUN	nccs000	Number=Sing	2	obl	2:obl	ArgTem=argM:mnr
 7	y	y	CCONJ	cc	_	8	cc	8:cc	_
 8	observó	observar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj	_
-9	cómo	cómo	PRON	pt000000	PronType=Ind	13	obl	13:obl	ArgTem=argM:adv
+9	cómo	cómo	ADV	pt000000	PronType=Int	13	advmod	13:advmod	ArgTem=argM:adv
 10	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	_
 11	carne	carne	NOUN	ncfs000	Gender=Fem|Number=Sing	13	nsubj	13:nsubj	ArgTem=arg1:tem
 12	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	expl:pv	13:expl:pv	_
@@ -24436,7 +24436,7 @@
 34	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	35:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 35	forma	forma	NOUN	ncfs000	Gender=Fem|Number=Sing	28	nmod	28:nmod	ArgTem=arg1:pat
 36	en	en	ADP	sps00	_	39	mark	39:mark	_
-37	cómo	cómo	PRON	pt000000	PronType=Ind	39	obl	39:obl	ArgTem=argM:mnr
+37	cómo	cómo	ADV	pt000000	PronType=Int	39	advmod	39:advmod	ArgTem=argM:mnr
 38	ellos	él	PRON	pp3mp000	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	nsubj	39:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200004064800c26--1-CorefType:ident,gstype:gen)
 39	tienen	tener	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	acl	35:acl	_
 40	acceso	acceso	NOUN	ncms000	Gender=Masc|Number=Sing	39	obj	39:obj	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen)
@@ -36325,7 +36325,7 @@
 # orig_file_sentence 012#66
 1	"	"	PUNCT	fe	PunctType=Quot	6	punct	6:punct	SpaceAfter=No
 2	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	6	punct	6:punct	SpaceAfter=No
-3	Cómo	cómo	PRON	pt000000	PronType=Ind	6	obl	6:obl	ArgTem=argM:mnr
+3	Cómo	cómo	ADV	pt000000	PronType=Int	6	advmod	6:advmod	ArgTem=argM:mnr
 4	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 5	podido	poder	AUX	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	6:aux	_
 6	salir	salir	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
@@ -44059,7 +44059,7 @@
 4	todavía	todavía	ADV	rg	_	6	advmod	6:advmod	_
 5	nadie	nadie	PRON	pi0cs000	Number=Sing|PronType=Neg	6	nsubj	6:nsubj	ArgTem=arg0:agt
 6	sabe	saber	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-7	cómo	cómo	PRON	pt000000	PronType=Ind	10	obl	10:obl	ArgTem=argM:mnr
+7	cómo	cómo	ADV	pt000000	PronType=Int	10	advmod	10:advmod	ArgTem=argM:mnr
 8	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	xcomp	6:xcomp	ArgTem=arg1:pat
 9	a	a	ADP	sps00	_	10	mark	10:mark	_
 10	conseguir	conseguir	VERB	vmn0000	VerbForm=Inf	8	xcomp	8:xcomp	_
@@ -46104,7 +46104,7 @@
 2	sabemos	saber	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	bastante	bastante	ADV	rg	_	4	advmod	4:advmod	_
 4	bien	bien	ADV	rg	_	2	advmod	2:advmod	ArgTem=argM:mnr
-5	cómo	cómo	PRON	pt000000	PronType=Ind	7	obl	7:obl	ArgTem=argM:mnr
+5	cómo	cómo	ADV	pt000000	PronType=Int	7	advmod	7:advmod	ArgTem=argM:mnr
 5.1	_	_	PRON	p	_	_	_	7:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20000202135c11_PLUS_CESSCASTP20000202135c4-other-1-CorefType:ident,gstype:spec)
 6	nos	yo	PRON	p010p000	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	expl:pv	7:expl:pv	_
 7	expresamos	expresar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	ArgTem=arg1:pat|SpaceAfter=No
@@ -52057,7 +52057,7 @@
 # orig_file_sentence 013#51
 1	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	5	punct	5:punct	SpaceAfter=No
 2	"	"	PUNCT	fe	PunctType=Quot	5	punct	5:punct	SpaceAfter=No
-3	Cómo	cómo	PRON	pt000000	PronType=Ind	5	obl	5:obl	ArgTem=argM:adv
+3	Cómo	cómo	ADV	pt000000	PronType=Int	5	advmod	5:advmod	ArgTem=argM:adv
 3.1	_	_	PRON	p	_	_	_	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20001201199c10--1-CorefType:ident,gstype:gen)
 4	podrán	poder	AUX	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	aux	5:aux	_
 5	conocer	conocer	VERB	vmn0000	VerbForm=Inf	19	ccomp	19:ccomp	ArgTem=arg1:pat
