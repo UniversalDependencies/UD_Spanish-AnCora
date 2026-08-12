@@ -24362,7 +24362,7 @@
 7	tituló	titular	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 8	"	"	PUNCT	fe	PunctType=Quot	11	punct	11:punct	SpaceAfter=No
 9	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	11	punct	11:punct	ArgTem=arg1:pat|Entity=(NOCOREF:Spec.other-other-3-gstype:spec|SpaceAfter=No
-10	Qué	qué	DET	_	PronType=Int	11	obl	11:obl	MWE=¡Qué_rajada!|MWEPOS=PROPN
+10	Qué	qué	DET	_	PronType=Exc	11	obl	11:obl	MWE=¡Qué_rajada!|MWEPOS=PROPN
 11	rajada	rajar	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	obj	7:obj	SpaceAfter=No
 12	!	!	PUNCT	_	PunctSide=Fin|PunctType=Excl	11	punct	11:punct	Entity=NOCOREF:Spec.other)
 13	y	y	CCONJ	cc	_	14	cc	14:cc	_
@@ -60229,7 +60229,7 @@
 # text = ¡Qué bonito habría sido que el príncipe se cortase las suyas y se lanzase al mar por amor! - -.
 # orig_file_sentence 014#71
 1	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	3	punct	3:punct	SpaceAfter=No
-2	Qué	qué	PRON	pt0cs000	Number=Sing|PronType=Int	3	nmod	3:nmod	Entity=(NOCOREF:Gen--2-gstype:gen
+2	Qué	qué	PRON	pt0cs000	Number=Sing|PronType=Exc	3	nmod	3:nmod	Entity=(NOCOREF:Gen--2-gstype:gen
 3	bonito	bonito	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	0:root	ArgTem=arg2:atr|Entity=NOCOREF:Gen)
 4	habría	haber	AUX	vaic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	aux	3:aux	_
 5	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	cop	3:cop	_
