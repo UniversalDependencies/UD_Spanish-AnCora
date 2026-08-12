@@ -50231,12 +50231,12 @@
 20	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	21:det	_
 21	año	año	NOUN	ncms000	Gender=Masc|Number=Sing	11	obl	11:obl	ArgTem=argM:tmp|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
-23	algo	algo	PRON	pi0cs000	Number=Sing|PronType=Ind	11	obl:arg	11:obl:arg	_
-24	más	más	ADV	rg	Degree=Cmp	23	advmod	23:advmod	_
+23	algo	algo	ADV	rg	_	24	advmod	24:advmod	_
+24	más	más	ADV	rg	Degree=Cmp	27	advmod	27:advmod	_
 25-26	del	_	_	_	_	_	_	_	_
 25	de	de	ADP	spcms	_	27	case	27:case	_
 26	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	_
-27	doble	doble	ADJ	aq0cs0	Number=Sing	24	advmod	24:advmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)
+27	doble	doble	ADJ	aq0cs0	Number=Sing	11	obl:arg	11:obl:arg	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)
 28	que	que	SCONJ	cs	_	30	mark	30:mark	_
 29	en	en	ADP	sps00	_	30	case	30:case	_
 30	España	España	PROPN	np00000	_	24	obl	24:obl	Entity=(CESSCASTP20000301108_ac23-place-1-CorefType:ident,gstype:spec)|SpaceAfter=No
