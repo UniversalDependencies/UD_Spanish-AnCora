@@ -557,7 +557,7 @@
 18	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	16	obj	16:obj	SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
 20	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	expl:pv	21:expl:pv	_
-21	produjera	producir	VERB	vmsi1s0	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	advcl	6:advcl	ArgTem=argM:tmp
+21	produjera	producir	VERB	vmsi1s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	6:advcl	ArgTem=argM:tmp
 22	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	24:det	Entity=(NOCOREF:Spec.other-other-3-gstype:spec
 23	primera	primero	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	24	amod	24:amod	_
 24	migración	migración	NOUN	ncfs000	Gender=Fem|Number=Sing	21	nsubj	21:nsubj	ArgTem=arg1:tem

@@ -372,7 +372,7 @@
 20	que	que	SCONJ	cs	_	23	mark	23:mark	_
 21	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 22	Congresillo	Congresillo	PROPN	np0000o	_	23	nsubj	23:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Spec.organization)
-23	designe	designar	VERB	vmsp1s0	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	ccomp	19:ccomp	ArgTem=arg1:pat
+23	designe	designar	VERB	vmsp1s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	19:ccomp	ArgTem=arg1:pat
 24	"	"	PUNCT	fe	PunctType=Quot	26	punct	26:punct	SpaceAfter=No
 25	a	a	ADP	rg	ExtPos=ADV	26	case	26:case	MWE=a_dedo|MWEPOS=ADV|ArgTem=argM:adv
 26	dedo	dedo	NOUN	_	_	23	obl	23:obl	SpaceAfter=No
@@ -1238,7 +1238,7 @@
 6	de	de	ADP	sps00	_	9	mark	9:mark	_
 7	que	que	SCONJ	cs	_	9	mark	9:mark	_
 8	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	expl:pass	9:expl:pass	_
-9	cumpla	cumplir	VERB	vmsp1s0	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl	2:acl	_
+9	cumpla	cumplir	VERB	vmsp1s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	2:acl	_
 10	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 11	Constitución	Constitución	PROPN	np0000a	_	9	nsubj	9:nsubj	ArgTem=arg1:pat|Entity=NOCOREF:Spec.other)
 12	y	y	CCONJ	cc	_	17	cc	17:cc	_
