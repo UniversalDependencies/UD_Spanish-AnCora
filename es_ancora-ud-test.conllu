@@ -201,7 +201,7 @@
 22	desde	desde	ADP	sps00	_	23	case	23:case	_
 23	hacía	hacer	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	advcl	25:advcl	ArgTem=argM:tmp
 24	tiempo	tiempo	NOUN	ncms000	Gender=Masc|Number=Sing	23	obj	23:obj	_
-25	sufría	sufrir	VERB	vmii1s0	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	19	acl:relcl	19:acl:relcl	_
+25	sufría	sufrir	VERB	vmii1s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	19:acl:relcl	_
 26	problemas	problema	NOUN	ncmp000	Gender=Masc|Number=Plur	25	obj	25:obj	ArgTem=arg2:atr
 27	cardíacos	cardíaco	ADJ	aq0mp0	Gender=Masc|Number=Plur	26	amod	26:amod	SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	Entity=NOCOREF:Spec.person)
