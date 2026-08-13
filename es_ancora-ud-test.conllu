@@ -19584,7 +19584,7 @@
 39	que	que	PRON	pr0cn000	PronType=Rel	40	obl:arg	40:obl:arg	Entity=CESSCASTA2000121813555c3)
 39.1	_	_	PRON	p	_	_	_	40:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000121813555c2-person-1-CorefType:ident,gstype:spec)
 40	formó	formar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	acl:relcl	29:acl:relcl	MWE=formó_parte|MWEPOS=VERB
-41	parte	parte	NOUN	_	Number=Sing	40	compound	40:compound	_
+41	parte	parte	NOUN	_	Gender=Fem|Number=Sing	40	compound	40:compound	_
 42	en	en	ADP	sps00	_	43	case	43:case	_
 43	1986	1986	NOUN	_	_	40	obl	40:obl	ArgTem=argM:tmp|Entity=(CESSCASTA2000121813555c6-time-1-gstype:spec)CESSCASTA2000121813555c3)CESSCASTA2000121813555c1)CESSCASTA2000121813555c1)NOCOREF:Gen)|SpaceAfter=No
 44	.	.	PUNCT	fp	PunctType=Peri	7	punct	7:punct	_
@@ -21417,7 +21417,7 @@
 11	reuniones	reunión	NOUN	ncfp000	Gender=Fem|Number=Plur	13	nsubj	13:nsubj	ArgTem=arg1:tem|Entity=CESSCASTAA200001094361c3)
 12	podría	poder	AUX	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	13	aux	13:aux	_
 13	tener	tener	VERB	vmn0000	VerbForm=Inf	8	csubj	8:csubj	MWE=tener_lugar|MWEPOS=VERB|ArgTem=arg1:pat
-14	lugar	lugar	NOUN	_	Number=Sing	13	compound	13:compound	_
+14	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	13	compound	13:compound	_
 15	esta	este	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	17	det	17:det	Entity=(NOCOREF:Gen--3-gstype:gen
 16	misma	mismo	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Dem	17	det	17:det	_
 17	noche	noche	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl	13:obl	ArgTem=argM:tmp|Entity=NOCOREF:Gen)|SpaceAfter=No
@@ -26194,7 +26194,7 @@
 8	preside	presidir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	Entity=CESSCASTAA2000022823424c4)
 9	"	"	PUNCT	fe	PunctType=Quot	10	punct	10:punct	SpaceAfter=No
 10	forma	formar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MWE=forma_parte|MWEPOS=VERB
-11	parte	parte	NOUN	_	Number=Sing	10	compound	10:compound	_
+11	parte	parte	NOUN	_	Gender=Fem|Number=Sing	10	compound	10:compound	_
 12	de	de	ADP	sps00	_	14	case	14:case	_
 13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 14	marca	marca	NOUN	ncfs000	Gender=Fem|Number=Sing	10	obl:arg	10:obl:arg	ArgTem=arg2:atr
@@ -38835,7 +38835,7 @@
 28	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	29:aux	_
 29	sacado	sacar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	3:ccomp	MWE=sacado_a_colación|MWEPOS=VERB|ArgTem=arg1:pat
 30	a	a	ADP	_	_	31	case	31:case	_
-31	colación	colación	NOUN	_	Number=Sing	29	compound	29:compound	_
+31	colación	colación	NOUN	_	Gender=Fem|Number=Sing	29	compound	29:compound	_
 32	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	33:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 33	tema	tema	NOUN	ncms000	Gender=Masc|Number=Sing	29	obj	29:obj	ArgTem=arg1:pat
 34	de	de	ADP	sps00	_	35	case	35:case	_
@@ -48595,7 +48595,7 @@
 12	elección	elección	NOUN	ncfs000	Gender=Fem|Number=Sing	9	nmod	9:nmod	_
 13	presidencial	presidencial	ADJ	aq0cs0	Number=Sing	12	amod	12:amod	ArgTem=arg1:pat|Entity=CESSCASTP1999120235c15)CESSCASTP1999120235c14)
 14	tendrá	tener	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	4:ccomp	MWE=tendrá_lugar|MWEPOS=VERB|ArgTem=arg1:pat
-15	lugar	lugar	NOUN	_	Number=Sing	14	compound	14:compound	_
+15	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	14	compound	14:compound	_
 16	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	Entity=(CESSCASTP1999120235c16-time-2-CorefType:ident,gstype:spec
 17	4	4	NUM	_	NumForm=Digit|NumType=Card	14	obl	14:obl	MWE=4_de_junio|MWEPOS=NOUN|ArgTem=argM:tmp
 18	de	de	ADP	_	_	19	case	19:case	_
@@ -49048,7 +49048,7 @@
 6	cuando	cuando	SCONJ	cs	_	7	mark	7:mark	_
 6.1	_	_	PRON	p	_	_	_	7:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000020123_ac10--1-gstype:gen)
 7	hacen	hacer	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl	MWE=hacen_mención|MWEPOS=VERB|ArgTem=argM:tmp
-8	mención	mención	NOUN	_	Number=Sing	7	compound	7:compound	_
+8	mención	mención	NOUN	_	Gender=Fem|Number=Sing	7	compound	7:compound	_
 9-10	al	_	_	_	_	_	_	_	_
 9	a	a	ADP	spcms	_	11	case	11:case	_
 10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	_
@@ -50492,7 +50492,7 @@
 5	así	así	ADV	rg	_	4	advmod	4:advmod	ArgTem=argM:adv
 6	a	a	ADP	sps00	_	7	mark	7:mark	_
 7	formar	formar	VERB	vmn0000	VerbForm=Inf	4	xcomp	4:xcomp	MWE=formar_parte|MWEPOS=VERB
-8	parte	parte	NOUN	_	Number=Sing	7	compound	7:compound	_
+8	parte	parte	NOUN	_	Gender=Fem|Number=Sing	7	compound	7:compound	_
 9	de	de	ADP	sps00	_	11	case	11:case	_
 10	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 11	comisión	comisión	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obl:arg	7:obl:arg	ArgTem=arg2:atr
@@ -52837,7 +52837,7 @@
 12	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 12.1	_	_	PRON	p	_	_	_	13:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2000070193c9--1-CorefType:dx.token)
 13	dio	dar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	ccomp	33:ccomp	MWE=dio_lugar|MWEPOS=VERB|ArgTem=arg1:pat
-14	lugar	lugar	NOUN	_	Number=Sing	13	compound	13:compound	_
+14	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	13	compound	13:compound	_
 15	a	a	ADP	sps00	_	17	mark	17:mark	_
 16	que	que	SCONJ	cs	_	17	mark	17:mark	_
 17	hubiese	haber	VERB	vasi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	ccomp	13:ccomp	ArgTem=arg2:tem|Cxn=Existential-HavePred
@@ -57727,7 +57727,7 @@
 16	que	que	SCONJ	cs	_	17	mark	17:mark	_
 16.1	_	_	PRON	p	_	_	_	17:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20010502129c1--1-CorefType:ident,gstype:gen)
 17	forma	formar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	15:ccomp	MWE=forma_parte|MWEPOS=VERB|ArgTem=arg1:pat
-18	parte	parte	NOUN	_	Number=Sing	17	compound	17:compound	_
+18	parte	parte	NOUN	_	Gender=Fem|Number=Sing	17	compound	17:compound	_
 19	de	de	ADP	sps00	_	21	case	21:case	_
 20	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	21:det	Entity=(CESSCASTP20010502129c2-place-2-CorefType:ident,gstype:spec
 21	autopista	autopista	NOUN	ncfs000	Gender=Fem|Number=Sing	17	obl:arg	17:obl:arg	ArgTem=arg2:atr|Entity=CESSCASTP20010502129c2)|SpaceAfter=No
@@ -60816,7 +60816,7 @@
 9	tendrá	tener	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	2:conj	_
 10	que	que	SCONJ	cs	_	11	cc	11:cc	_
 11	hacer	hacer	VERB	vmn0000	VerbForm=Inf	9	conj	9:conj	MWE=hacer_frente|MWEPOS=VERB
-12	frente	frente	NOUN	_	Number=Sing	11	compound	11:compound	_
+12	frente	frente	NOUN	_	Gender=Masc|Number=Sing	11	compound	11:compound	_
 13	a	a	ADP	sps00	_	15	case	15:case	_
 14	muchas	mucho	DET	di0fp0	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	15	det	15:det	Entity=(NOCOREF:Gen--2-gstype:gen
 15	demandas	demanda	NOUN	ncfp000	Gender=Fem|Number=Plur	11	obj	11:obj	ArgTem=arg1:tem
