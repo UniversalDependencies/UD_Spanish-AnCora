@@ -4748,7 +4748,7 @@
 10	onerosa	oneroso	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	_
 11	de	de	ADP	sps00	_	12	mark	12:mark	_
 12	sacar	sacar	VERB	vmn0000	VerbForm=Inf	8	acl	8:acl	MWE=sacar_adelante|MWEPOS=VERB
-13	adelante	adelante	NOUN	_	Number=Sing	12	compound	12:compound	_
+13	adelante	adelante	ADV	_	_	12	advmod	12:advmod	_
 14	por	por	ADP	sps00	_	15	case	15:case	_
 15	sí	él	PRON	pp3cno00	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	12	obl	12:obl	ArgTem=argM:adv
 16	solo	solo	ADJ	aq0ms0	Gender=Masc|Number=Sing	15	amod	15:amod	_
@@ -35994,8 +35994,8 @@
 31	que	que	PRON	pr0cn000	PronType=Rel	33	nsubj	33:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP1998120234c23--1-CorefType:ident,gstype:gen)
 32	nada	nada	PRON	pi0cs000	Number=Sing|PronType=Neg	33	obl	33:obl	ArgTem=argM:adv
 33	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	30:acl:relcl	MWE=tiene_que_ver|MWEPOS=VERB
-34	que	que	SCONJ	_	_	35	case	35:case	_
-35	ver	ver	NOUN	_	Number=Sing	33	compound	33:compound	_
+34	que	que	SCONJ	_	_	35	mark	35:mark	_
+35	ver	ver	VERB	_	VerbForm=Inf	33	xcomp	33:xcomp	_
 36	con	con	ADP	sps00	_	38	case	38:case	_
 37	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	Entity=(CESSCASTP1998120234c25--2-gstype:gen,HomoDD
 38	informe	informe	NOUN	ncms000	Gender=Masc|Number=Sing	33	obl:arg	33:obl:arg	ArgTem=arg2:atr
@@ -41948,7 +41948,7 @@
 15	colectivo	colectivo	NOUN	ncms000	Gender=Masc|Number=Sing	12	nmod	12:nmod	Entity=(CESSCASTP1999100161c15--1-gstype:gen)NOCOREF:Gen)
 16	para	para	ADP	sps00	_	17	mark	17:mark	_
 17	sacar	sacar	VERB	vmn0000	VerbForm=Inf	10	advcl	10:advcl	MWE=sacar_adelante|MWEPOS=VERB|ArgTem=argM:fin
-18	adelante	adelante	NOUN	_	Number=Sing	17	compound	17:compound	_
+18	adelante	adelante	ADV	_	_	17	advmod	17:advmod	_
 19	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	Entity=(CESSCASTP1999100161c12--2-CorefType:ident,gstype:gen
 20	código	código	NOUN	ncms000	Gender=Masc|Number=Sing	17	obj	17:obj	ArgTem=arg1:pat
 21	de	de	ADP	sps00	_	22	case	22:case	_
@@ -57269,8 +57269,8 @@
 9	equipo	equipo	NOUN	ncms000	Gender=Masc|Number=Sing	2	acl:relcl	2:acl:relcl	ArgTem=arg2:atr
 10	neriazzurro	neriazzurro	ADJ	_	_	9	amod	9:amod	Entity=CESSCASTP20011002160c2)NOCOREF:Gen)
 11	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MWE=tiene_que_ver|MWEPOS=VERB
-12	que	que	SCONJ	_	_	13	case	13:case	_
-13	ver	ver	NOUN	_	Number=Sing	11	compound	11:compound	_
+12	que	que	SCONJ	_	_	13	mark	13:mark	_
+13	ver	ver	VERB	_	VerbForm=Inf	11	xcomp	11:xcomp	_
 14	con	con	ADP	sps00	_	16	case	16:case	_
 15	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 16	pasado	pasado	NOUN	ncms000	Gender=Masc|Number=Sing	11	obl:arg	11:obl:arg	ArgTem=arg2:atr|Entity=NOCOREF:Gen)|SpaceAfter=No

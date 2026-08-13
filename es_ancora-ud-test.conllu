@@ -6853,7 +6853,7 @@
 10	dominante	dominante	ADJ	aq0cs0	Number=Sing	8	conj	8:conj	_
 11	no	no	ADV	rn	Polarity=Neg	12	advmod	12:advmod	_
 12	quiere	querer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	MWE=quiere_decir|MWEPOS=VERB
-13	decir	decir	NOUN	_	Number=Sing	12	compound	12:compound	_
+13	decir	decir	VERB	_	VerbForm=Inf	12	xcomp	12:xcomp	_
 14	que	que	SCONJ	cs	_	17	mark	17:mark	_
 15	esto	este	PRON	pd0ns000	Number=Sing|PronType=Dem	17	nsubj	17:nsubj	ArgTem=arg1:tem
 16	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	expl:pv	17:expl:pv	_
@@ -28567,7 +28567,7 @@
 17	pero	pero	CCONJ	cc	_	18	cc	18:cc	_
 17.1	_	_	PRON	p	_	_	_	18:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200004074900c1-organization-1-CorefType:ident,gstype:spec)
 18	dejó	dejar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj	MWE=dejó_ir|MWEPOS=VERB
-19	ir	ir	NOUN	_	Number=Sing	18	compound	18:compound	_
+19	ir	ir	VERB	_	VerbForm=Inf	18	xcomp	18:xcomp	_
 20	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	21:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 21	oportunidad	oportunidad	NOUN	ncfs000	Gender=Fem|Number=Sing	18	obj	18:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 22	en	en	ADP	sps00	_	24	case	24:case	_
@@ -58649,8 +58649,8 @@
 14	pederastas	pederasta	NOUN	ncmp000	Gender=Masc|Number=Plur	10	nmod	10:nmod	ArgTem=arg2:tem|Entity=NOCOREF:Gen)CESSCASTP20010902104c2)
 15	haya	haber	AUX	vasp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	16:aux	_
 16	ido	ir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	csubj	7:csubj	MWE=ido_a_parar|MWEPOS=VERB|ArgTem=arg1:tem
-17	a	a	ADP	_	_	18	case	18:case	_
-18	parar	parar	NOUN	_	Number=Sing	16	compound	16:compound	_
+17	a	a	ADP	_	_	18	mark	18:mark	_
+18	parar	parar	VERB	_	VerbForm=Inf	16	xcomp	16:xcomp	_
 19	a	a	ADP	sps00	_	20	case	20:case	MWE=a_manos_del|MWEPOS=ADP
 20	manos	manos	NOUN	_	_	16	obl:arg	16:obl:arg	_
 21-22	del	_	_	_	_	_	_	_	_
