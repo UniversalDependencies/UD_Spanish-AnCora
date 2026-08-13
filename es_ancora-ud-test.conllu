@@ -50239,7 +50239,7 @@
 27	doble	doble	ADJ	aq0cs0	Number=Sing	11	obl:arg	11:obl:arg	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)
 28	que	que	SCONJ	cs	_	30	mark	30:mark	_
 29	en	en	ADP	sps00	_	30	case	30:case	_
-30	España	España	PROPN	np00000	_	24	obl	24:obl	Entity=(CESSCASTP20000301108_ac23-place-1-CorefType:ident,gstype:spec)|SpaceAfter=No
+30	España	España	PROPN	np00000	_	27	obl	27:obl	Entity=(CESSCASTP20000301108_ac23-place-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 31	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
 32	en	en	ADP	sps00	_	34	case	34:case	_
 33	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	34:det	Entity=(CESSCASTP20000301108_ac22-place-2-CorefType:ident,gstype:spec
