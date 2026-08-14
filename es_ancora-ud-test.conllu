@@ -22836,7 +22836,7 @@
 31	por	por	ADP	rg	ExtPos=ADV	35	advmod	35:advmod	MWE=por_lo_tanto|MWEPOS=ADV
 32	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	31	fixed	31:fixed	_
 33	tanto	tanto	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	31	fixed	31:fixed	_
-34	pude	poder	AUX	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	35	aux	35:aux	_
+34	pude	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	35	aux	35:aux	CorrectForm=puede
 35	hacer	hacer	VERB	vmn0000	VerbForm=Inf	22	conj	22:conj	_
 36	que	que	SCONJ	cs	_	39	mark	39:mark	_
 37	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	38:det	Entity=(CESSCASTAA200002043836c19-organization-2-CorefType:ident,gstype:spec
@@ -41972,7 +41972,7 @@
 6	código	código	NOUN	ncms000	Gender=Masc|Number=Sing	4	obj	4:obj	ArgTem=arg1:pat
 7	que	que	PRON	pr0cn000	PronType=Rel	9	nsubj	9:nsubj	ArgTem=arg0:cau|Entity=(CESSCASTP1999030218c1--1-CorefType:ident,gstype:gen)
 8	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	SpaceAfter=No
-9	obliga	obligar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	6	acl:relcl	6:acl:relcl	SpaceAfter=No
+9	obliga	obligar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	6:acl:relcl	SpaceAfter=No
 10	"	"	PUNCT	fe	PunctType=Quot	9	punct	9:punct	_
 11	a	a	ADP	sps00	_	12	case	12:case	_
 12	dirigentes	dirigente	NOUN	nccp000	Number=Plur	9	obl:arg	9:obl:arg	ArgTem=arg1:tem
