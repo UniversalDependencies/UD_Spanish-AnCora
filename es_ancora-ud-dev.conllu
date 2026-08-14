@@ -10682,7 +10682,7 @@
 50	cantidad	cantidad	NOUN	ncfs000	Gender=Fem|Number=Sing	43	obl	43:obl	ArgTem=argM:cau
 51	de	de	ADP	sps00	_	52	case	52:case	_
 52	empleos	empleo	NOUN	ncmp000	Gender=Masc|Number=Plur	50	nmod	50:nmod	_
-53	que	que	PRON	pr0cn000	PronType=Rel	54	nsubj	54:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000031512633c17--1-CorefType:ident,gstype:gen)
+53	que	que	PRON	pr0cn000	PronType=Rel	54	obj	54:obj	ArgTem=arg0:agt|Entity=(CESSCASTA2000031512633c17--1-CorefType:ident,gstype:gen)
 54	genera	generar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	acl:relcl	52:acl:relcl	Entity=CESSCASTA2000031512633c17)CESSCASTA2000031512633c2)NOCOREF:Gen)NOCOREF:Gen)CESSCASTA2000031512633c16)|SpaceAfter=No
 55	.	.	PUNCT	fp	PunctType=Peri	21	punct	21:punct	_
 
