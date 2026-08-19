@@ -46574,8 +46574,8 @@
 11	no	no	ADV	rn	Polarity=Neg	12	advmod	12:advmod	_
 12	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	9:ccomp	ArgTem=arg1:pat|Cxn=Interrogative-Polar-Indirect|CxnElt=12:Interrogative-Polar-Indirect.Clause
 13	nada	nada	PRON	pi0cs000	Number=Sing|PronType=Neg	12	obj	12:obj	ArgTem=arg1:tem
-14	más	más	ADV	rg	Degree=Cmp	13	advmod	13:advmod	_
-15	que	que	SCONJ	cs	_	16	mark	16:mark	_
+14	más	más	ADV	rg	Degree=Cmp|ExtPos=ADV	16	advmod	13:advmod	_
+15	que	que	SCONJ	cs	_	14	fixed	16:mark	_
 16	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	13	nmod	13:nmod	Entity=(CESSCASTP20000202135c29--1-CorefType:ident,gstype:gen)|SpaceAfter=No
 17	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
 
