@@ -4612,7 +4612,7 @@
 2	atractiva	atractivo	ADJ	aq0fs0	Gender=Fem|Number=Sing	3	amod	3:amod	_
 3	imagen	imagen	NOUN	ncfs000	Gender=Fem|Number=Sing	14	nsubj	14:nsubj	ArgTem=arg1:tem|SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
-5	pese	pese	NOUN	sps00	ExtPos=SCONJ	7	mark	7:mark	MWE=pese_a|MWEPOS=ADP
+5	pese	pesar	VERB	vmsp3s0	ExtPos=SCONJ|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mark	7:mark	MWE=pese_a|MWEPOS=ADP
 6	a	a	ADP	_	_	5	fixed	5:fixed	_
 7	resultar	resultar	VERB	vmn0000	VerbForm=Inf	14	advcl	14:advcl	ArgTem=argM:adv
 8	casi	casi	ADV	rg	_	9	advmod	9:advmod	_
@@ -10309,7 +10309,7 @@
 15	prácticamente	prácticamente	ADV	rg	_	14	advmod	14:advmod	ArgTem=argM:adv
 16	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	Entity=(CESSCASTA2000022016182c20--2-CorefType:ident,gstype:gen
 17	eliminatoria	eliminatoria	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obj	13:obj	ArgTem=arg1:pat|Entity=CESSCASTA2000022016182c20)
-18	pese	pese	NOUN	sps00	ExtPos=ADP	21	case	21:case	MWE=pese_a|MWEPOS=ADP
+18	pese	pesar	VERB	vmsp3s0	ExtPos=ADP|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	case	21:case	MWE=pese_a|MWEPOS=ADP
 19	a	a	ADP	_	_	18	fixed	18:fixed	_
 20	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	21:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 21	esfuerzos	esfuerzo	NOUN	ncmp000	Gender=Masc|Number=Plur	13	obl	13:obl	ArgTem=argM:adv
@@ -12236,7 +12236,7 @@
 5	señaló	señalar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 6	que	que	SCONJ	cs	_	39	mark	39:mark	Entity=(CESSCASTA2000031714423c9--34
 7	"	"	PUNCT	fe	PunctType=Quot	11	punct	11:punct	SpaceAfter=No
-8	pese	pese	NOUN	spcms	ExtPos=ADP	11	case	11:case	MWE=pese_al|MWEPOS=ADP
+8	pese	pesar	VERB	vmsp3s0	ExtPos=ADP|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	case	11:case	MWE=pese_al|MWEPOS=ADP
 9-10	al	_	_	_	_	_	_	_	_
 9	a	a	ADP	_	_	8	fixed	8:fixed	_
 10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	_
@@ -12356,7 +12356,7 @@
 36	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	37:det	Entity=(CESSCASTA2000031714423c6--2-CorefType:ident,gstype:gen,HomoDD
 37	mujer	mujer	NOUN	ncfs000	Gender=Fem|Number=Sing	34	nmod	34:nmod	ArgTem=arg1:pat|Entity=CESSCASTA2000031714423c6)CESSCASTA2000031714423c10)|SpaceAfter=No
 38	,	,	PUNCT	fc	PunctType=Comm	44	punct	44:punct	_
-39	pese	pese	NOUN	cs	ExtPos=SCONJ	44	mark	44:mark	MWE=pese_a_que|MWEPOS=SCONJ
+39	pese	pesar	VERB	vmsp3s0	ExtPos=SCONJ|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	mark	44:mark	MWE=pese_a_que|MWEPOS=SCONJ
 40	a	a	ADP	_	_	39	fixed	39:fixed	_
 41	que	que	SCONJ	_	_	44	mark	44:mark	_
 42	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	44	expl:pass	44:expl:pass	_
@@ -18109,7 +18109,7 @@
 # sent_id = CESS-CAST-A-20000620-15780-s14
 # text = Pese al malestar provocado por la actuación del Ejército ruso en Chechenia, condenada en varias ocasiones por la UE, los Quince optaron sólo por tibias sanciones de castigo, mucho más testimoniales que efectivas.
 # orig_file_sentence 005#37
-1	Pese	pese	NOUN	spcms	ExtPos=ADP	4	case	4:case	MWE=Pese_al|MWEPOS=ADP
+1	Pese	pesar	VERB	vmsp3s0	ExtPos=ADP|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	case	4:case	MWE=Pese_al|MWEPOS=ADP
 2-3	al	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	1:fixed	_
 3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	_
@@ -19485,7 +19485,7 @@
 28	alguna	alguno	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	29	det	29:det	Entity=(NOCOREF:Gen--2-gstype:gen
 29	fusión	fusión	NOUN	ncfs000	Gender=Fem|Number=Sing	25	obj	25:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
 30	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
-31	pese	pese	NOUN	sps00	ExtPos=ADP	34	case	34:case	MWE=pese_a|MWEPOS=ADP
+31	pese	pesar	VERB	vmsp3s0	ExtPos=ADP|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	case	34:case	MWE=pese_a|MWEPOS=ADP
 32	a	a	ADP	_	_	31	fixed	31:fixed	_
 33	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	34:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 34	coyunturas	coyuntura	NOUN	ncfp000	Gender=Fem|Number=Plur	14	obl	14:obl	_
@@ -19519,7 +19519,7 @@
 16	compañías	compañía	NOUN	ncfp000	Gender=Fem|Number=Plur	12	nmod	12:nmod	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen)NOCOREF:Gen)|SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
 18	pero	pero	CCONJ	cc	_	32	cc	32:cc	_
-19	pese	pese	NOUN	sps00	ExtPos=ADP	22	case	22:case	MWE=pese_a|MWEPOS=ADP
+19	pese	pesar	VERB	vmsp3s0	ExtPos=ADP|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	case	22:case	MWE=pese_a|MWEPOS=ADP
 20	a	a	ADP	_	_	19	fixed	19:fixed	_
 21	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	22:det	Entity=(CESSCASTA200012031592c3--2-gstype:gen,HomoDD
 22	rumores	rumor	NOUN	ncmp000	Gender=Masc|Number=Plur	32	obl	32:obl	_
@@ -20471,7 +20471,7 @@
 22	Hopman	Hopman	PROPN	_	_	21	flat	21:flat	_
 23	de	de	ADP	sps00	_	24	case	24:case	_
 24	tenis	tenis	NOUN	ncmn000	Gender=Masc	21	nmod	21:nmod	Entity=(NOCOREF:Gen--1-gstype:gen)CESSCASTAA200001063047c1)NOCOREF:Spec.other)
-25	pese	pese	NOUN	sps00	ExtPos=SCONJ	27	mark	27:mark	MWE=pese_a|MWEPOS=ADP
+25	pese	pesar	VERB	vmsp3s0	ExtPos=SCONJ|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	mark	27:mark	MWE=pese_a|MWEPOS=ADP
 26	a	a	ADP	_	_	25	fixed	25:fixed	_
 27	perder	perder	VERB	vmn0000	VerbForm=Inf	14	advcl	14:advcl	ArgTem=argM:adv
 28	hoy	hoy	ADV	rg	_	27	advmod	27:advmod	ArgTem=argM:tmp
@@ -22116,7 +22116,7 @@
 # sent_id = CESS-CAST-AA-20000303-2162-s6
 # text = Pese a que Adli insiste en que el estado de emergencia "no supone una limitación para las libertades públicas, la democracia y la libertad de expresión", los partidos opositores, las organizaciones de defensa de los derechos humanos y otros grupos comprometidos con las libertades públicas han recurrido la ley ante los tribunales.
 # orig_file_sentence 006#65
-1	Pese	pese	NOUN	cs	ExtPos=SCONJ	5	mark	5:mark	MWE=Pese_a_que|MWEPOS=SCONJ
+1	Pese	pesar	VERB	vmsp3s0	ExtPos=SCONJ|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mark	5:mark	MWE=Pese_a_que|MWEPOS=SCONJ
 2	a	a	ADP	_	_	1	fixed	1:fixed	_
 3	que	que	SCONJ	_	_	5	mark	5:mark	_
 4	Adli	Adli	PROPN	np00000	_	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200003032162c1-person-1-CorefType:ident,gstype:spec)
@@ -23277,7 +23277,7 @@
 # sent_id = CESS-CAST-AA-20000330-24478-s6
 # text = Pese a su desacuerdo, Irán anunció posteriormente que también aumentaría su producción, aunque no precisó en qué cuantía.
 # orig_file_sentence 007#15
-1	Pese	pese	NOUN	sps00	ExtPos=ADP	4	case	4:case	MWE=Pese_a|MWEPOS=ADP
+1	Pese	pesar	VERB	vmsp3s0	ExtPos=ADP|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	case	4:case	MWE=Pese_a|MWEPOS=ADP
 2	a	a	ADP	_	_	1	fixed	1:fixed	_
 3	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	4:det	ArgTem=arg0:agt|Entity=(CESSCASTAA2000033024478c13--2-CorefType:ident,gstype:gen(CESSCASTAA2000033024478c5-organization-1-CorefType:ident,gstype:spec)
 4	desacuerdo	desacuerdo	NOUN	ncms000	Gender=Masc|Number=Sing	7	obl	7:obl	ArgTem=argM:adv|Entity=CESSCASTAA2000033024478c13)|SpaceAfter=No
@@ -40007,7 +40007,7 @@
 17	grandes	grande	ADJ	aq0cp0	Number=Plur	18	amod	18:amod	_
 18	superficies	superficie	NOUN	ncfp000	Gender=Fem|Number=Plur	14	nmod	14:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
-20	pese	pese	NOUN	sps00	ExtPos=ADP	23	case	23:case	MWE=pese_a|MWEPOS=ADP
+20	pese	pesar	VERB	vmsp3s0	ExtPos=ADP|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	case	23:case	MWE=pese_a|MWEPOS=ADP
 21	a	a	ADP	_	_	20	fixed	20:fixed	_
 22	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 23	existencia	existencia	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=argM:adv
@@ -45498,7 +45498,7 @@
 # sent_id = CESS-CAST-P-20000102-120-s11
 # text = Pese a que empezó frío, poco expresivo, Bros fue entonándose hasta conseguir triunfar en su última aria.
 # orig_file_sentence 010#7
-1	Pese	pese	NOUN	cs	ExtPos=SCONJ	4	mark	4:mark	MWE=Pese_a_que|MWEPOS=SCONJ
+1	Pese	pesar	VERB	vmsp3s0	ExtPos=SCONJ|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mark	4:mark	MWE=Pese_a_que|MWEPOS=SCONJ
 2	a	a	ADP	_	_	1	fixed	1:fixed	_
 3	que	que	SCONJ	_	_	4	mark	4:mark	_
 3.1	_	_	PRON	p	_	_	_	4:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20000102120c9-person-1-CorefType:ident,gstype:spec)
@@ -47695,7 +47695,7 @@
 32	en	en	ADP	sps00	_	33	case	33:case	_
 33	1996	1996	NOUN	_	_	29	nmod	29:nmod	Entity=(NOCOREF:Spec.date-time-1-gstype:spec)NOCOREF:Gen)|SpaceAfter=No
 34	,	,	PUNCT	fc	PunctType=Comm	38	punct	38:punct	_
-35	pese	pese	NOUN	sps00	ExtPos=SCONJ	38	mark	38:mark	MWE=pese_a|MWEPOS=ADP
+35	pese	pesar	VERB	vmsp3s0	ExtPos=SCONJ|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	mark	38:mark	MWE=pese_a|MWEPOS=ADP
 36	a	a	ADP	_	_	35	fixed	35:fixed	_
 37	haber	haber	AUX	van0000	VerbForm=Inf	38	aux	38:aux	_
 38	bajado	bajar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	24:advcl	ArgTem=argM:adv
@@ -49804,7 +49804,7 @@
 19	e	e	CCONJ	cc	_	20	cc	20:cc	_
 20	Ibarretxe	Ibarretxe	PROPN	np00000	_	18	conj	18:conj	Entity=(CESSCASTP2000080231c12-person-1-CorefType:ident,gstype:spec)CESSCASTP2000080231c12_PLUS_CESSCASTP2000080231c3)NOCOREF:Gen)|SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
-22	pese	pese	NOUN	cs	ExtPos=SCONJ	25	mark	25:mark	MWE=pese_a_que|MWEPOS=SCONJ
+22	pese	pesar	VERB	vmsp3s0	ExtPos=SCONJ|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	mark	25:mark	MWE=pese_a_que|MWEPOS=SCONJ
 23	a	a	ADP	_	_	22	fixed	22:fixed	_
 24	que	que	SCONJ	_	_	25	mark	25:mark	_
 24.1	_	_	PRON	p	_	_	_	25:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000080231c1-person-1-CorefType:ident,gstype:spec)
