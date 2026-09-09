@@ -718,10 +718,10 @@
 34	recrean	recrear	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	26:acl:relcl	_
 35	para	para	ADP	sps00	_	36	case	36:case	_
 36	él	él	PRON	pp3ms000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obl:arg	34:obl:arg	ArgTem=arg2:ben
-37	cada	cada	NOUN	cs	ExtPos=SCONJ	40	mark	40:mark	MWE=cada_vez_que|MWEPOS=SCONJ
-38	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	37	fixed	37:fixed	_
-39	que	que	SCONJ	_	_	37	fixed	37:fixed	_
-40	intenta	intentar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	34:advcl	ArgTem=argM:tmp
+37	cada	cada	DET	di0cs0	Number=Sing|PronType=Tot	38	det	38:det	MWE=cada_vez_que|MWEPOS=SCONJ
+38	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	34	obl	34:obl	_
+39	que	que	PRON	pr0cn000	PronType=Rel	40	obl	40:obl	_
+40	intenta	intentar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	38:acl:relcl	ArgTem=argM:tmp
 41	conciliar	conciliar	VERB	vmn0000	VerbForm=Inf	40	xcomp	40:xcomp	ArgTem=arg1:pat
 42	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	43:det	_
 43	sueño	sueño	NOUN	ncms000	Gender=Masc|Number=Sing	41	obj	41:obj	ArgTem=arg1:pat|SpaceAfter=No
