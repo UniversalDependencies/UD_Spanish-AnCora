@@ -2739,14 +2739,14 @@
 2	ataque	ataque	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 4	consiguiendo	conseguir	VERB	vmg0000	VerbForm=Ger	2	conj	2:conj	_
-5	a	a	ADP	rg	_	7	case	7:case	MWE=a_la_vez|MWEPOS=ADV|ArgTem=argM:adv
+5	a	a	ADP	sps00	_	7	case	7:case	MWE=a_la_vez|MWEPOS=ADV|ArgTem=argM:adv
 6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	_
 7	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl	4:obl	_
-8	que	que	SCONJ	cs	_	12	mark	12:mark	_
+8	que	que	PRON	pr0cn000	PronType=Rel	12	obl	12:obl	_
 9	todos	todo	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Tot	11	det	11:det	_
 10	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	11:det	_
 11	hombres	hombre	NOUN	ncmp000	Gender=Masc|Number=Plur	12	nsubj	12:nsubj	ArgTem=arg0:agt
-12	mirasen	mirar	VERB	vmsi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl	7:acl	ArgTem=arg1:pat
+12	mirasen	mirar	VERB	vmsi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	7:acl:relcl	ArgTem=arg1:pat
 13	a	a	ADP	sps00	_	15	case	15:case	_
 14	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	_
 15	canasta	canasta	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=arg1:pat|SpaceAfter=No
