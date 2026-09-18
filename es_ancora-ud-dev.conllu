@@ -47288,11 +47288,11 @@
 # sent_id = CESS-CAST-P-20000202-41-s5
 # text = Por si fuera poco, McCain ha llevado consigo durante todas sus apariciones electorales en Nueva Hampshire la pluma de la suerte que le regaló un indio de Arizona, y también se ha puesto los gastados zapatos que, según dice, le dan buena fortuna.
 # orig_file_sentence 015#16
-1	Por	por	ADP	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=Por_si_fuera_poco|MWEPOS=ADV
-2	si	si	SCONJ	_	_	1	fixed	1:fixed	_
-3	fuera	fuera	NOUN	_	_	1	fixed	1:fixed	_
-4	poco	poco	ADV	_	_	1	fixed	1:fixed	SpaceAfter=No
-5	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
+1	Por	por	ADP	sps00	_	4	mark	4:mark	MWE=Por_si_fuera_poco|MWEPOS=ADV
+2	si	si	SCONJ	cs	_	4	mark	4:mark	_
+3	fuera	ser	AUX	vssi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	4:cop	_
+4	poco	poco	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Ind	8	advcl	8:advcl	SpaceAfter=No
+5	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 6	McCain	McCain	PROPN	np00000	_	8	nsubj	8:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000020241c1-person-1-CorefType:ident,gstype:spec)
 7	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 8	llevado	llevar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_

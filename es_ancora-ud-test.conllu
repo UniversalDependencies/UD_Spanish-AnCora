@@ -5547,7 +5547,7 @@
 1	Por	por	ADP	sps00	_	4	mark	4:mark	_
 2	si	si	SCONJ	cs	_	4	mark	4:mark	_
 3	fuera	ser	AUX	vssi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	4:cop	ArgTem=argM:adv
-4	poco	poco	ADV	rg	_	9	advcl	9:advcl	ArgTem=arg2:atr|CxnElt=9:Conditional-NeutralEpistemic.Protasis@f|SpaceAfter=No
+4	poco	poco	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Ind	9	advcl	9:advcl	ArgTem=arg2:atr|CxnElt=9:Conditional-NeutralEpistemic.Protasis@f|SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 6	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
 7	bar	bar	NOUN	ncms000	Gender=Masc|Number=Sing	9	nsubj	9:nsubj	ArgTem=arg1:tem
