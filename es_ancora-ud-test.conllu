@@ -29546,7 +29546,7 @@
 # sent_id = CESS-CAST-AA-20000428-20809-s6
 # text = Conforme a los datos recogidos en la memoria del ejercicio, los recursos autogenerados por Caja Cantabria, o `cash flow, fueron 9.352 millones de pesetas y el resultado neto de la entidad una vez descontados los impuestos fue de 3.490 millones de pesetas.
 # orig_file_sentence 006#75
-1	Conforme	conforme	NOUN	sps00	ExtPos=ADP	4	case	4:case	MWE=Conforme_a|MWEPOS=ADP
+1	Conforme	conforme	ADJ	aq0cs0	ExtPos=ADP|Number=Sing	4	case	4:case	MWE=Conforme_a|MWEPOS=ADP
 2	a	a	ADP	_	_	1	fixed	1:fixed	_
 3	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	4:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 4	datos	dato	NOUN	ncmp000	Gender=Masc|Number=Plur	24	obl	24:obl	ArgTem=argM:adv

@@ -34832,7 +34832,7 @@
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCASTAA200012128504c1-organization-2-CorefType:ident,gstype:spec
 9	Grupo	Grupo	PROPN	np00000	_	6	obl:agent	6:obl:agent	MWE=Grupo_Socialista|MWEPOS=PROPN|ArgTem=arg0:agt
 10	Socialista	Socialista	PROPN	_	_	9	flat	9:flat	Entity=CESSCASTAA200012128504c1)
-11	conforme	conforme	NOUN	sps00	ExtPos=ADP	15	case	15:case	MWE=conforme_a|MWEPOS=ADP
+11	conforme	conforme	ADJ	aq0cs0	ExtPos=ADP|Number=Sing	15	case	15:case	MWE=conforme_a|MWEPOS=ADP
 12	a	a	ADP	_	_	11	fixed	11:fixed	_
 13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 14	"	"	PUNCT	fe	PunctType=Quot	15	punct	15:punct	SpaceAfter=No
