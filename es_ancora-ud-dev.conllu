@@ -61637,7 +61637,7 @@
 7.1	_	_	PRON	p	_	_	_	10:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002060151c3-organization-1-CorefType:ident,gstype:spec)
 8	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	10	obj	10:obj	ArgTem=arg1:pat|Entity=(CESSCASTP2002060151c18--1-CorefType:ident,gstype:gen)
 9	habíamos	haber	AUX	vaii1p0	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	10	aux	10:aux	_
-10	pensado	pensar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	6:advcl	_
+10	pensado	pensar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	6:conj	_
 11	y	y	CCONJ	cc	_	14	cc	14:cc	_
 11.1	_	_	PRON	p	_	_	_	14:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002060151c3-organization-1-CorefType:ident,gstype:spec)
 12	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	14	obj	14:obj	ArgTem=arg1:pat|Entity=(CESSCASTP2002060151c18--1-CorefType:ident,gstype:gen)
@@ -61648,7 +61648,7 @@
 16	Es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	_
 17	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	Entity=(CESSCASTP2002060151c18--3-CorefType:pred.indefinit,gstype:gen
 18	gran	gran	ADJ	aq0cs0	Number=Sing	19	amod	19:amod	_
-19	premio	premio	NOUN	ncms000	Gender=Masc|Number=Sing	6	advcl	6:advcl	ArgTem=arg2:atr
+19	premio	premio	NOUN	ncms000	Gender=Masc|Number=Sing	6	parataxis	6:parataxis	ArgTem=arg2:atr
 20	para	para	ADP	sps00	_	22	case	22:case	_
 21	nuestro	nuestro	DET	dp1msp	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	22	det	22:det	Entity=(CESSCASTP2002060151c17-place-2-CorefType:ident,gstype:spec(CESSCASTP2002060151c19-person-1-CorefType:ident,gstype:spec)
 22	país	país	NOUN	ncms000	Gender=Masc|Number=Sing	19	nmod	19:nmod	Entity=CESSCASTP2002060151c17)
