@@ -12544,7 +12544,7 @@
 37	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
 38	y	y	CCONJ	cc	_	39	cc	39:cc	_
 38.1	_	_	PRON	p	_	_	_	40:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000031310044c2-organization-1-CorefType:ident,gstype:spec)
-39	seguiremos	seguir	VERB	vmif1p0	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	22	conj	22:conj	_
+39	seguiremos	seguir	VERB	vmif1p0	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	21	conj	21:conj	_
 40	siendo	ser	AUX	vsg0000	VerbForm=Ger	42	cop	42:cop	_
 41	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	42:det	_
 42	mismos	mismo	PRON	pi0mp000	Gender=Masc|Number=Plur|PronType=Dem	39	xcomp	39:xcomp	ArgTem=arg2:atr|SpaceAfter=No
