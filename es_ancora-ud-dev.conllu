@@ -1233,7 +1233,7 @@
 1	"	"	PUNCT	fe	PunctType=Quot	2	punct	2:punct	SpaceAfter=No
 2	Vamos	ir	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	39	xcomp	39:xcomp	ArgTem=arg1:pat
 3	a	a	ADP	sps00	_	5	mark	5:mark	_
-4	estar	estar	AUX	vmn0000	VerbForm=Inf	2	cop	2:cop	_
+4	estar	estar	AUX	vmn0000	VerbForm=Inf	5	cop	5:cop	_
 5	vigilantes	vigilante	NOUN	nccp000	Number=Plur	2	xcomp	2:xcomp	ArgTem=arg2:atr
 6	de	de	ADP	sps00	_	9	mark	9:mark	_
 7	que	que	SCONJ	cs	_	9	mark	9:mark	_
@@ -9215,8 +9215,8 @@
 29	pasar	pasar	VERB	vmn0000	VerbForm=Inf	30	csubj	30:csubj	ArgTem=arg1:tem
 30	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	12:advcl	Cxn=Conditional-NeutralEpistemic|CxnElt=30:Conditional-NeutralEpistemic.Apodosis@p
 31	a	a	ADP	sps00	_	34	mark	34:mark	_
-32	ser	ser	AUX	vsn0000	VerbForm=Inf	30	cop	30:cop	_
-33	muy	mucho	ADV	rg	_	30	advmod	30:advmod	_
+32	ser	ser	AUX	vsn0000	VerbForm=Inf	34	cop	34:cop	_
+33	muy	mucho	ADV	rg	_	34	advmod	34:advmod	_
 34	difícil	difícil	ADJ	aq0cs0	Number=Sing	30	xcomp	30:xcomp	ArgTem=arg2:atr|SpaceAfter=No
 35	"	"	PUNCT	fe	PunctType=Quot	3	punct	3:punct	SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
@@ -9252,7 +9252,7 @@
 17.1	_	_	PRON	p	_	_	_	18:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000021713959c15--1-CorefType:ident,gstype:gen)
 18	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl	ArgTem=argM:cau
 19	a	a	ADP	sps00	_	21	mark	21:mark	_
-20	ser	ser	AUX	vsn0000	VerbForm=Inf	18	cop	18:cop	_
+20	ser	ser	AUX	vsn0000	VerbForm=Inf	21	cop	21:cop	_
 21	mejor	mejor	ADJ	aq0cs0	Degree=Cmp|Number=Sing	18	xcomp	18:xcomp	ArgTem=arg2:atr
 22	para	para	ADP	sps00	_	23	mark	23:mark	_
 23	afrontar	afrontar	VERB	vmn0000	VerbForm=Inf	18	acl	18:acl	_

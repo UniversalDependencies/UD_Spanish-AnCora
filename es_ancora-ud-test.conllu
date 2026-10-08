@@ -18210,10 +18210,10 @@
 2	rival	rival	NOUN	nccs000	Number=Sing	6	xcomp	6:xcomp	ArgTem=arg2:atr
 3	por	por	ADP	sps00	_	5	case	5:case	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-5	oro	oro	NOUN	ncms000	Gender=Masc|Number=Sing	6	nmod	6:nmod	Entity=NOCOREF:Gen)CESSCASTA2000102318465c25)
+5	oro	oro	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	Entity=NOCOREF:Gen)CESSCASTA2000102318465c25)
 6	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-7	a	a	ADP	sps00	_	6	case	6:case	_
-8	ser	ser	AUX	vsn0000	VerbForm=Inf	6	cop	6:cop	_
+7	a	a	ADP	sps00	_	2	mark	2:mark	_
+8	ser	ser	AUX	vsn0000	VerbForm=Inf	2	cop	2:cop	_
 9	Rusia	Rusia	PROPN	np0000o	_	6	nsubj	6:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000102318465c25-organization-1-CorefType:pred.definit,gstype:spec|SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
 11	que	que	PRON	pr0cn000	PronType=Rel	13	nsubj	13:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000102318465c25-organization-1-CorefType:ident,gstype:spec)
@@ -26674,7 +26674,7 @@
 63	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	67	expl	67:expl	ArgTem=arg2:ben|Entity=(CESSCASTAA200003075124c12-organization-1-CorefType:ident,gstype:spec)
 64	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	conj	57:conj	_
 65	a	a	ADP	sps00	_	67	mark	67:mark	_
-66	ser	ser	AUX	vsn0000	VerbForm=Inf	64	cop	64:cop	_
+66	ser	ser	AUX	vsn0000	VerbForm=Inf	67	cop	67:cop	_
 67	difícil	difícil	ADJ	aq0cs0	Number=Sing	64	xcomp	64:xcomp	ArgTem=arg2:atr
 68	a	a	ADP	sps00	_	69	case	69:case	_
 69	ETA	ETA	PROPN	np00000	_	67	obl:arg	67:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA200003075124c12-organization-1-CorefType:ident,gstype:spec)
@@ -54287,8 +54287,8 @@
 57	Jugar	jugar	VERB	vmn0000	VerbForm=Inf	58	csubj	58:csubj	ArgTem=arg1:tem
 58	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	5:parataxis	_
 59	a	a	ADP	sps00	_	62	mark	62:mark	_
-60	estar	estar	AUX	vmn0000	VerbForm=Inf	58	cop	58:cop	_
-61	muy	mucho	ADV	rg	_	58	advmod	58:advmod	ArgTem=argM:adv
+60	estar	estar	AUX	vmn0000	VerbForm=Inf	62	cop	62:cop	_
+61	muy	mucho	ADV	rg	_	62	advmod	62:advmod	ArgTem=argM:adv
 62	complicado	complicado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	58	xcomp	58:xcomp	ArgTem=arg2:atr|SpaceAfter=No
 63	,	,	PUNCT	fc	PunctType=Comm	68	punct	68:punct	_
 64	pero	pero	CCONJ	cc	_	68	cc	68:cc	_
