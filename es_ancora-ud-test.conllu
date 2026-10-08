@@ -6290,7 +6290,7 @@
 16	se	él	PRON	p0300000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	18	expl:pv	18:expl:pv	_
 17	han	haber	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	18:aux	_
 18	dado	dar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	1:advcl	MWE=dado_cuenta|MWEPOS=VERB
-19	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	18	compound	18:compound	_
+19	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	18	obj	18:obj	_
 20	de	de	ADP	sps00	_	25	mark	25:mark	_
 21	que	que	SCONJ	cs	_	25	mark	25:mark	_
 22	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	det	23:det	ArgTem=arg0:agt
@@ -22810,7 +22810,7 @@
 5	estas	este	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	6	det	6:det	Entity=(NOCOREF:Gen--2-gstype:gen
 6	cifras	cifra	NOUN	ncfp000	Gender=Fem|Number=Plur	7	nsubj	7:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
 7	dan	dar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	MWE=dan_cuenta|MWEPOS=VERB|ArgTem=arg1:pat
-8	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	7	compound	7:compound	_
+8	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	7	obj	7:obj	_
 9	de	de	ADP	sps00	_	11	case	11:case	_
 10	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	Entity=(CESSCASTAA200002043836c18--2-CorefType:ident,gstype:gen
 11	mercado	mercado	NOUN	ncms000	Gender=Masc|Number=Sing	7	obl:arg	7:obl:arg	ArgTem=arg1:tem
@@ -24118,7 +24118,7 @@
 55-56	darnos	_	_	_	_	_	_	_	_
 55	dar	dar	VERB	vmn0000	VerbForm=Inf	51	advcl	51:advcl	ArgTem=argM:fin|MWE=darnos_cuenta|MWEPOS=VERB|ReflexLemma=darse
 56	nos	yo	PRON	_	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	55	expl:pv	55:expl:pv	_
-57	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	55	compound	55:compound	_
+57	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	55	obj	55:obj	_
 58	de	de	ADP	sps00	_	64	mark	64:mark	_
 59	que	que	SCONJ	cs	_	64	mark	64:mark	_
 60	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	61:det	Entity=(CESSCASTAA2000022420351c5-other-2-CorefType:ident,gstype:spec
@@ -25164,7 +25164,7 @@
 57	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	56	punct	56:punct	Entity=NOCOREF:Spec.date)|SpaceAfter=No
 58	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	Entity=CESSCASTAA2000022822816c4)
 59	dieron	dar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	ccomp	22:ccomp	MWE=dieron_cuenta|MWEPOS=VERB|ArgTem=arg1:pat
-60	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	59	compound	59:compound	_
+60	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	59	obj	59:obj	_
 61	fácil	fácil	ADV	rg	_	59	advmod	59:advmod	ArgTem=argM:tmp
 62-63	del	_	_	_	_	_	_	_	_
 62	de	de	ADP	spcms	_	64	case	64:case	_
@@ -32238,7 +32238,7 @@
 40	se	él	PRON	p0300000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	42	expl:pv	42:expl:pv	_
 41	han	haber	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	42:aux	_
 42	dado	dar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	conj	32:conj	MWE=dado_cuenta|MWEPOS=VERB
-43	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	42	compound	42:compound	_
+43	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	42	obj	42:obj	_
 44	de	de	ADP	sps00	_	46	case	46:case	_
 45	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	46:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 46	necesidad	necesidad	NOUN	ncfs000	Gender=Fem|Number=Sing	42	obl:arg	42:obl:arg	ArgTem=arg1:tem
@@ -54408,7 +54408,7 @@
 41	público	público	NOUN	ncms000	Gender=Masc|Number=Sing	43	nsubj	43:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2000100123c3)
 42	se	él	PRON	p0300000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	43	expl:pv	43:expl:pv	_
 43	diera	dar	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	advcl	37:advcl	MWE=diera_cuenta|MWEPOS=VERB
-44	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	43	compound	43:compound	_
+44	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	43	obj	43:obj	_
 45	de	de	ADP	sps00	_	48	mark	48:mark	_
 46	que	que	SCONJ	cs	_	48	mark	48:mark	_
 46.1	_	_	PRON	p	_	_	_	48:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000100123c1-person-1-CorefType:ident,gstype:spec)

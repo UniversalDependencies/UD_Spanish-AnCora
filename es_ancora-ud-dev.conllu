@@ -7133,7 +7133,7 @@
 5	nos	yo	PRON	p010p000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	expl:pv	7:expl:pv	_
 6	habremos	haber	AUX	vaif1p0	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	7	aux	7:aux	_
 7	dado	dar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	13:ccomp	MWE=dado_cuenta|MWEPOS=VERB|ArgTem=arg1:pat
-8	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	7	compound	7:compound	SpaceAfter=No
+8	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	7	obj	7:obj	SpaceAfter=No
 9	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	7	punct	7:punct	SpaceAfter=No
 10	'	'	PUNCT	fz	PunctType=Quot	7	punct	7:punct	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
@@ -26572,7 +26572,7 @@
 45	Ejecutivo	Ejecutivo	PROPN	np00000	_	47	nsubj	47:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA200005118193c24)
 46	se	él	PRON	p0300000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	47	expl:pv	47:expl:pv	_
 47	diera	dar	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	advcl	41:advcl	MWE=diera_cuenta|MWEPOS=VERB
-48	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	47	compound	47:compound	_
+48	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	47	obj	47:obj	_
 49	de	de	ADP	sps00	_	53	mark	53:mark	_
 50	que	que	SCONJ	cs	_	53	mark	53:mark	_
 51	era	ser	AUX	vsii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	53	cop	53:cop	ArgTem=arg1:tem
@@ -38832,7 +38832,7 @@
 10	Aires	Aires	PROPN	_	_	9	flat	9:flat	Entity=NOCOREF:Spec.location)
 11	que	que	PRON	pr0cn000	PronType=Rel	12	nsubj	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999080248c1--1-CorefType:ident,gstype:gen)
 12	daba	dar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	5:advcl	MWE=daba_cuenta|MWEPOS=VERB
-13	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	12	compound	12:compound	_
+13	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	12	obj	12:obj	_
 14	de	de	ADP	sps00	_	16	case	16:case	_
 15	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	Entity=(NOCOREF:Gen--2-gstype:gen
 16	suceso	suceso	NOUN	ncms000	Gender=Masc|Number=Sing	12	obl:arg	12:obl:arg	ArgTem=arg1:tem,arg1:tem
