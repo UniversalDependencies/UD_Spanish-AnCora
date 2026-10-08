@@ -35339,7 +35339,7 @@
 40	,	,	PUNCT	fc	PunctType=Comm	48	punct	48:punct	Entity=CESSCASTAA200012128504csingleton1)
 41	por	por	ADP	sps00	_	48	mark	48:mark	_
 42	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Dem	48	nsubj	48:nsubj	Entity=(CESSCASTAA200012128504c22--7-CorefType:dx.token
-43	que	que	PRON	pr0cn000	PronType=Rel	48	mark	48:mark	ArgTem=argM:mnr
+43	que	que	PRON	pr0cn000	PronType=Rel	48	nsubj	48:nsubj	ArgTem=argM:mnr
 44	"	"	PUNCT	fe	PunctType=Quot	48	punct	48:punct	SpaceAfter=No
 45	no	no	ADV	rn	Polarity=Neg	48	advmod	48:advmod	_
 46	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	48	expl:pass	48:expl:pass	_
