@@ -6087,7 +6087,7 @@
 4	si	si	SCONJ	cs	_	5	mark	5:mark	_
 5	íbamos	ir	VERB	vmii1p0	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	xcomp	3:xcomp	ArgTem=arg1:pat
 6	a	a	ADP	sps00	_	8	mark	8:mark	_
-7	poder	poder	AUX	vmn0000	VerbForm=Inf	5	aux	5:aux	_
+7	poder	poder	AUX	vmn0000	VerbForm=Inf	8	aux	8:aux	_
 8	conseguir	conseguir	VERB	vmn0000	VerbForm=Inf	5	xcomp	5:xcomp	_
 9	algo	algo	PRON	pi0cs000	Number=Sing|PronType=Ind	8	obj	8:obj	ArgTem=arg1:pat
 10	-	-	PUNCT	fg	PunctType=Dash	3	punct	3:punct	SpaceAfter=No
