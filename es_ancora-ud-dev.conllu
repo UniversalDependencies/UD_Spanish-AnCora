@@ -56871,7 +56871,7 @@
 20	esa	ese	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	21	det	21:det	Entity=(CESSCASTP2001080157c12--2-CorefType:dx.token
 21	situación	situación	NOUN	ncfs000	Gender=Fem|Number=Sing	18	obl	18:obl	ArgTem=argM:adv|Entity=CESSCASTP2001080157c12)|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
-23	puesto	puesto	NOUN	cs	ExtPos=SCONJ	25	mark	25:mark	MWE=puesto_que|MWEPOS=SCONJ
+23	puesto	poner	VERB	vmp00sm	ExtPos=SCONJ|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	mark	25:mark	MWE=puesto_que|MWEPOS=SCONJ
 24	que	que	SCONJ	_	_	23	fixed	23:fixed	_
 24.1	_	_	PRON	p	_	_	_	25:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2001080157c2-person-1-CorefType:ident,gstype:spec)
 25	presentaba	presentar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	18:advcl	ArgTem=argM:cau

@@ -5291,7 +5291,7 @@
 26	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
 27	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	28	det	28:det	_
 28	decisivo	decisivo	ADJ	aq0ms0	Gender=Masc|Number=Sing	16	conj	16:conj	ArgTem=arg2:atr
-29	puesto	puesto	NOUN	cs	ExtPos=SCONJ	40	mark	40:mark	MWE=puesto_que|MWEPOS=SCONJ
+29	puesto	poner	VERB	vmp00sm	ExtPos=SCONJ|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	mark	40:mark	MWE=puesto_que|MWEPOS=SCONJ
 30	que	que	SCONJ	_	_	29	fixed	29:fixed	_
 31	sin	sin	ADP	sps00	_	32	case	32:case	_
 32	autointuición	autointuición	NOUN	ncfs000	Gender=Fem|Number=Sing	40	obl	40:obl	ArgTem=argM:adv
@@ -13844,7 +13844,7 @@
 23	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 24	precedentes	precedente	NOUN	ncmp000	Gender=Masc|Number=Plur	23	obj	23:obj	ArgTem=arg2:atr|SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	38	punct	38:punct	_
-26	puesto	puesto	NOUN	cs	ExtPos=SCONJ	38	mark	38:mark	MWE=puesto_que|MWEPOS=SCONJ
+26	puesto	poner	VERB	vmp00sm	ExtPos=SCONJ|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	mark	38:mark	MWE=puesto_que|MWEPOS=SCONJ
 27	que	que	SCONJ	_	_	26	fixed	26:fixed	_
 28	en	en	ADP	sps00	_	31	case	31:case	_
 29	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	31:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
@@ -16392,7 +16392,7 @@
 16	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	17:det	Entity=(CESSCASTA2000092015595c10-person-1-CorefType:ident,gstype:spec)
 17	favor	favor	NOUN	ncms000	Gender=Masc|Number=Sing	14	nmod	14:nmod	ArgTem=argM:adv|Entity=NOCOREF:Gen)|SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
-19	puesto	puesto	NOUN	cs	ExtPos=SCONJ	23	mark	23:mark	MWE=puesto_que|MWEPOS=SCONJ
+19	puesto	poner	VERB	vmp00sm	ExtPos=SCONJ|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	mark	23:mark	MWE=puesto_que|MWEPOS=SCONJ
 20	que	que	SCONJ	_	_	19	fixed	19:fixed	_
 20.1	_	_	PRON	p	_	_	_	23:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000092015595c9-person-1-CorefType:ident,gstype:spec)
 21	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	23	expl:pv	23:expl:pv	_
