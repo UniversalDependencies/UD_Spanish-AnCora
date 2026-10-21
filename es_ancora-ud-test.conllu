@@ -6724,7 +6724,7 @@
 20	sino	sino	CCONJ	cc	_	23	cc	23:cc	_
 21	que	que	SCONJ	cs	_	23	mark	23:mark	_
 22	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	23	expl:pv	23:expl:pv	_
-23	acabe	acabar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	14:conj	_
+23	acabe	acabar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	17:conj	_
 24	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	25:det	_
 25	poder	poder	NOUN	ncms000	Gender=Masc|Number=Sing	23	nsubj	23:nsubj	ArgTem=arg1:tem|SpaceAfter=No
 26	.	.	PUNCT	fp	PunctType=Peri	5	punct	5:punct	_
