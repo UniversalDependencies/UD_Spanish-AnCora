@@ -199687,9 +199687,9 @@
 8	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	9:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTAA2000012921196c15--1-CorefType:ident,gstype:gen)
 9	apogeo	apogeo	NOUN	ncms000	Gender=Masc|Number=Sing	7	obj	7:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 10-11	al	_	_	_	_	_	_	_	_
-10	a	a	ADP	spcms	_	12	mark	12:mark	_
+10	a	a	ADP	spcms	_	12	case	12:case	_
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	_
-12	anochecer	anochecer	VERB	vmn0000	VerbForm=Inf	7	advcl	7:advcl	ArgTem=argM:tmp
+12	anochecer	anochecer	NOUN	ncms000	Gender=Masc|Number=Sing	7	obl	7:obl	ArgTem=argM:tmp
 13	en	en	ADP	sps00	_	15	case	15:case	_
 14	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCASTAA2000012921196c11-place-2-gstype:spec
 15	estadio	estadio	NOUN	ncms000	Gender=Masc|Number=Sing	7	obl	7:obl	ArgTem=argM:loc
