@@ -459674,7 +459674,7 @@
 1-2	Al	_	_	_	_	_	_	_	_
 1	A	a	ADP	spcms	_	4	mark	4:mark	_
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	_
-3	ser	ser	AUX	vsn0000	VerbForm=Inf	4	aux	4:aux	_
+3	ser	ser	AUX	vsn0000	VerbForm=Inf	4	aux:pass	4:aux:pass	_
 4	informados	informar	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	advcl	15:advcl	ArgTem=argM:tmp
 5	por	por	ADP	sps00	_	7	case	7:case	_
 6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -479134,7 +479134,7 @@
 1-2	Al	_	_	_	_	_	_	_	_
 1	A	a	ADP	spcms	_	4	mark	4:mark	_
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	_
-3	ser	ser	AUX	vsn0000	VerbForm=Inf	4	aux	4:aux	_
+3	ser	ser	AUX	vsn0000	VerbForm=Inf	4	aux:pass	4:aux:pass	_
 4	detenido	detener	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	5:advcl	ArgTem=argM:tmp
 4.1	_	_	PRON	p	_	_	_	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2001070165c2-person-1-CorefType:ident,gstype:spec)
 5	portaba	portar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_

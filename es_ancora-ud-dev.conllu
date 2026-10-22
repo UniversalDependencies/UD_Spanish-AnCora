@@ -26310,7 +26310,7 @@
 1-2	Al	_	_	_	_	_	_	_	_
 1	A	a	ADP	spcms	_	4	mark	4:mark	_
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	_
-3	ser	ser	AUX	vsn0000	VerbForm=Inf	4	aux	4:aux	_
+3	ser	ser	AUX	vsn0000	VerbForm=Inf	4	aux:pass	4:aux:pass	_
 4	preguntado	preguntar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	27:advcl	ArgTem=argM:tmp
 5	sobre	sobre	ADP	sps00	_	8	mark	8:mark	_
 6	si	si	SCONJ	cs	_	8	mark	8:mark	_
