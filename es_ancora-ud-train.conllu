@@ -37868,12 +37868,12 @@
 24	a	a	ADP	spcms	_	26	case	26:case	_
 25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	_
 26	que	que	PRON	pr0cn000	PronType=Rel	33	obl:arg	33:obl:arg	ArgTem=arg2:atr|SpaceAfter=No
-27	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
+27	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
 28-29	al	_	_	_	_	_	_	_	_
-28	a	a	ADP	spcms	_	30	mark	30:mark	_
-29	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	30	det	30:det	_
-30	parecer	parecer	VERB	vmn0000	VerbForm=Inf	33	advcl	33:advcl	ArgTem=argM:adv|SpaceAfter=No
-31	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
+28	a	a	ADP	rg	ExtPos=ADV	33	advmod	33:advmod	_
+29	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	fixed	28:fixed	_
+30	parecer	parecer	VERB	vmn0000	VerbForm=Inf	28	fixed	28:fixed	ArgTem=argM:adv|SpaceAfter=No
+31	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
 32	no	no	ADV	rn	Polarity=Neg	33	advmod	33:advmod	_
 33	pertenecemos	pertenecer	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	acl:relcl	22:acl:relcl	SpaceAfter=No
 34	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
@@ -123519,9 +123519,9 @@
 10	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 11	aunque	aunque	SCONJ	cs	_	20	mark	20:mark	_
 12-13	al	_	_	_	_	_	_	_	_
-12	a	a	ADP	spcms	_	14	mark	14:mark	_
-13	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	14:det	_
-14	parecer	parecer	VERB	vmn0000	VerbForm=Inf	20	advcl	20:advcl	ArgTem=argM:adv
+12	a	a	ADP	rg	ExtPos=ADV	20	advmod	20:advmod	_
+13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	fixed	12:fixed	_
+14	parecer	parecer	VERB	vmn0000	VerbForm=Inf	12	fixed	12:fixed	ArgTem=argM:adv
 15	ninguna	ninguno	PRON	pi0fs000	Gender=Fem|Number=Sing|PronType=Neg	20	nsubj	20:nsubj	ArgTem=arg1:pat
 16	de	de	ADP	sps00	_	18	case	18:case	_
 17	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	18:det	Entity=(CESSCASTA2000031814620c5--2-CorefType:ident,gstype:gen
@@ -124218,9 +124218,9 @@
 # orig_file_sentence 040#41
 1	Brasil	Brasil	PROPN	np0000o	_	6	nsubj	6:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000031814944c1-organization-1-CorefType:ident,gstype:spec)
 2-3	al	_	_	_	_	_	_	_	_
-2	a	a	ADP	spcms	_	4	mark	4:mark	_
-3	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	4:det	_
-4	parecer	parecer	VERB	vmn0000	VerbForm=Inf	6	advcl	6:advcl	_
+2	a	a	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	_
+3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	fixed	2:fixed	_
+4	parecer	parecer	VERB	vmn0000	VerbForm=Inf	2	fixed	2:fixed	_
 5	no	no	ADV	rn	Polarity=Neg	6	advmod	6:advmod	_
 6	tendrá	tener	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 7	inconvenientes	inconveniente	NOUN	ncmp000	Gender=Masc|Number=Plur	6	obj	6:obj	ArgTem=arg2:atr
@@ -158567,12 +158567,12 @@
 31	dragado	dragado	NOUN	ncms000	Gender=Masc|Number=Sing	29	nmod	29:nmod	ArgTem=argM:adv|Entity=NOCOREF:Gen)NOCOREF:Spec.location)CESSCASTA2000081912873c4)|SpaceAfter=No
 32	,	,	PUNCT	fc	PunctType=Comm	44	punct	44:punct	_
 33	cuando	cuando	SCONJ	cs	_	44	mark	44:mark	SpaceAfter=No
-34	,	,	PUNCT	fc	PunctType=Comm	37	punct	37:punct	_
+34	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
 35-36	al	_	_	_	_	_	_	_	_
-35	a	a	ADP	spcms	_	37	mark	37:mark	_
-36	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	37	det	37:det	_
-37	parecer	parecer	VERB	vmn0000	VerbForm=Inf	44	xcomp	44:xcomp	SpaceAfter=No
-38	,	,	PUNCT	fc	PunctType=Comm	37	punct	37:punct	_
+35	a	a	ADP	rg	ExtPos=ADV	44	advmod	44:advmod	_
+36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	fixed	35:fixed	_
+37	parecer	parecer	VERB	vmn0000	VerbForm=Inf	35	fixed	35:fixed	SpaceAfter=No
+38	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
 39	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	40:det	Entity=(CESSCASTA2000081912873c3-other-2-CorefType:ident,gstype:spec
 40	primero	primero	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	44	nsubj	44:nsubj	ArgTem=arg0:agt
 41	de	de	ADP	sps00	_	42	case	42:case	_
@@ -164330,9 +164330,9 @@
 20	que	que	PRON	pr0cn000	PronType=Rel	26	nsubj	26:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000092318964c25--1-CorefType:ident,gstype:gen)|SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
 22-23	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-22	a	a	ADP	rg	ExtPos=ADP	26	case	26:case	ArgTem=argM:adv|MWE=al_parecer|MWEPOS=ADV
+22	a	a	ADP	rg	ExtPos=ADV	26	advmod	26:advmod	ArgTem=argM:adv|MWE=al_parecer|MWEPOS=ADV
 23	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	fixed	22:fixed	_
-24	parecer	parecer	NOUN	_	_	22	fixed	22:fixed	SpaceAfter=No
+24	parecer	parecer	VERB	vmn0000	VerbForm=Inf	22	fixed	22:fixed	SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
 26	visionaron	visionar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
 27	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -202176,9 +202176,9 @@
 19	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 20	donde	donde	ADV	pr000000	PronType=Rel	25	advmod	25:advmod	ArgTem=arg2:loc|Entity=(CESSCASTAA200002043865c4-place-1-CorefType:ident,gstype:spec)
 21-22	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-21	a	a	ADP	rg	ExtPos=ADP	25	case	25:case	MWE=al_parecer|MWEPOS=ADV
+21	a	a	ADP	rg	ExtPos=ADV	25	advmod	25:advmod	MWE=al_parecer|MWEPOS=ADV
 22	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	fixed	21:fixed	_
-23	parecer	parecer	NOUN	_	_	21	fixed	21:fixed	_
+23	parecer	parecer	VERB	vmn0000	VerbForm=Inf	21	fixed	21:fixed	_
 24	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	25	expl:pass	25:expl:pass	_
 25	depositaron	depositar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
 26	fondos	fondo	NOUN	ncmp000	Gender=Masc|Number=Plur	25	nsubj	25:nsubj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen
@@ -202285,9 +202285,9 @@
 18	pero	pero	CCONJ	cc	_	28	cc	28:cc	SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 20-21	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-20	a	a	ADP	rg	ExtPos=ADP	28	case	28:case	MWE=al_parecer|MWEPOS=ADV
+20	a	a	ADP	rg	ExtPos=ADV	28	advmod	28:advmod	MWE=al_parecer|MWEPOS=ADV
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	fixed	20:fixed	_
-22	parecer	parecer	NOUN	_	_	20	fixed	20:fixed	SpaceAfter=No
+22	parecer	parecer	VERB	vmn0000	VerbForm=Inf	20	fixed	20:fixed	SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 24	parte	parte	NOUN	ncfs000	Gender=Fem|Number=Sing	28	nsubj	28:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200002043865c43--1-gstype:gen
 25	de	de	ADP	sps00	_	26	case	26:case	_
@@ -202489,9 +202489,9 @@
 46	,	,	PUNCT	fc	PunctType=Comm	53	punct	53:punct	_
 47	que	que	PRON	pr0cn000	PronType=Rel	53	obj	53:obj	ArgTem=arg1:pat|Entity=(CESSCASTAA200002043865c18--1-CorefType:ident,gstype:gen)
 48-49	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-48	a	a	ADP	rg	ExtPos=ADP	53	case	53:case	MWE=al_parecer|MWEPOS=ADV
+48	a	a	ADP	rg	ExtPos=ADV	53	advmod	53:advmod	MWE=al_parecer|MWEPOS=ADV
 49	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	fixed	48:fixed	_
-50	parecer	parecer	NOUN	_	_	48	fixed	48:fixed	_
+50	parecer	parecer	VERB	vmn0000	VerbForm=Inf	48	fixed	48:fixed	_
 51	sólo	sólo	ADV	rg	_	53	advmod	53:advmod	_
 52	puede	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	aux	53:aux	_
 53	explicar	explicar	VERB	vmn0000	VerbForm=Inf	45	acl:relcl	45:acl:relcl	_
@@ -216892,9 +216892,9 @@
 8	obtenido	obtenido	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	5	amod	5:amod	SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
 10-11	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-10	a	a	ADP	rg	ExtPos=ADP	8	case	8:case	MWE=al_parecer|MWEPOS=ADV
+10	a	a	ADP	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=al_parecer|MWEPOS=ADV
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	fixed	10:fixed	_
-12	parecer	parecer	NOUN	_	_	10	fixed	10:fixed	SpaceAfter=No
+12	parecer	parecer	VERB	vmn0000	VerbForm=Inf	10	fixed	10:fixed	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
 14	de	de	ADP	sps00	_	15	case	15:case	_
 15	camisetas	camiseta	NOUN	ncfp000	Gender=Fem|Number=Plur	8	obl	8:obl	ArgTem=argM:loc|Entity=(NOCOREF:Gen--1-gstype:gen(NOCOREF:Gen--1-gstype:gen)
@@ -226664,9 +226664,9 @@
 39	que	que	PRON	pr0cn000	PronType=Rel	45	obj	45:obj	ArgTem=arg1:pat|Entity=(CESSCASTAA2000032520525c21--1-CorefType:ident,gstype:gen)|SpaceAfter=No
 40	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
 41-42	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-41	a	a	ADP	rg	ExtPos=ADP	45	case	45:case	MWE=al_parecer|MWEPOS=ADV
+41	a	a	ADP	rg	ExtPos=ADV	45	advmod	45:advmod	MWE=al_parecer|MWEPOS=ADV
 42	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	fixed	41:fixed	_
-43	parecer	parecer	NOUN	_	_	41	fixed	41:fixed	SpaceAfter=No
+43	parecer	parecer	VERB	vmn0000	VerbForm=Inf	41	fixed	41:fixed	SpaceAfter=No
 44	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
 45	realizará	realizar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	38	acl:relcl	38:acl:relcl	_
 46	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	47:det	Entity=(CESSCASTAA2000032520525c17-organization-2-CorefType:ident,gstype:spec
@@ -284966,9 +284966,9 @@
 33	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	34:det	Entity=(CESSCASTAA2000093026133c34--2-CorefType:ident,gstype:gen
 34	que	que	PRON	pr0cn000	PronType=Rel	39	obl:arg	39:obl:arg	ArgTem=arg1:tem|Entity=CESSCASTAA2000093026133c34)
 35-36	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-35	a	a	ADP	rg	ExtPos=ADP	39	case	39:case	MWE=al_parecer|MWEPOS=ADV
+35	a	a	ADP	rg	ExtPos=ADV	39	advmod	39:advmod	MWE=al_parecer|MWEPOS=ADV
 36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	fixed	35:fixed	_
-37	parecer	parecer	NOUN	_	_	35	fixed	35:fixed	_
+37	parecer	parecer	VERB	vmn0000	VerbForm=Inf	35	fixed	35:fixed	_
 37.1	_	_	PRON	p	_	_	_	39:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000093026133c35-person-1-CorefType:ident,gstype:spec)
 38	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	39:aux	_
 39	empezado	empezar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	23:acl:relcl	_
@@ -293368,9 +293368,9 @@
 24	pasillo	pasillo	NOUN	ncms000	Gender=Masc|Number=Sing	21	obl	21:obl	SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
 26-27	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-26	a	a	ADP	rg	ExtPos=ADP	29	case	29:case	ArgTem=argM:adv|MWE=al_parecer|MWEPOS=ADV
+26	a	a	ADP	rg	ExtPos=ADV	29	advmod	29:advmod	ArgTem=argM:adv|MWE=al_parecer|MWEPOS=ADV
 27	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	fixed	26:fixed	_
-28	parecer	parecer	NOUN	_	_	26	fixed	26:fixed	_
+28	parecer	parecer	VERB	vmn0000	VerbForm=Inf	26	fixed	26:fixed	_
 29	desfigurado	desfigurado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	24	amod	24:amod	_
 30	por	por	ADP	sps00	_	31	case	31:case	_
 31	efectos	efecto	NOUN	ncmp000	Gender=Masc|Number=Plur	29	obl	29:obl	ArgTem=argM:cau|Entity=(NOCOREF:Gen--1-gstype:gen
@@ -323421,9 +323421,9 @@
 8	y	y	CCONJ	cc	_	16	cc	16:cc	SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
 10-11	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-10	a	a	ADP	rg	ExtPos=ADP	16	case	16:case	MWE=al_parecer|MWEPOS=ADV
+10	a	a	ADP	rg	ExtPos=ADV	16	advmod	16:advmod	MWE=al_parecer|MWEPOS=ADV
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	fixed	10:fixed	_
-12	parecer	parecer	NOUN	_	_	10	fixed	10:fixed	SpaceAfter=No
+12	parecer	parecer	VERB	vmn0000	VerbForm=Inf	10	fixed	10:fixed	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
 14	ya	ya	ADV	rg	_	16	advmod	16:advmod	ArgTem=argM:tmp
 15	entonces	entonces	ADV	rg	_	16	advmod	16:advmod	ArgTem=argM:tmp
@@ -418019,9 +418019,9 @@
 2	individuo	individuo	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	3:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2000060161c1)
 3	sufre	sufrir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4-5	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-4	a	a	ADP	rg	ExtPos=ADP	3	case	3:case	MWE=al_parecer|MWEPOS=ADV
+4	a	a	ADP	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=al_parecer|MWEPOS=ADV
 5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	4:fixed	_
-6	parecer	parecer	NOUN	_	_	4	fixed	4:fixed	_
+6	parecer	parecer	VERB	vmn0000	VerbForm=Inf	4	fixed	4:fixed	_
 7	desequilibrios	desequilibrio	NOUN	ncmp000	Gender=Masc|Number=Plur	3	obj	3:obj	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen
 8	mentales	mental	ADJ	aq0cp0	Number=Plur	7	amod	7:amod	Entity=NOCOREF:Gen)
 9	y	y	CCONJ	cc	_	16	cc	16:cc	SpaceAfter=No
@@ -458462,9 +458462,9 @@
 # text = Al parecer, Toledo pudo presentar una partida de nacimiento irregular para obtener el carnet de identidad español.
 # orig_file_sentence 093#41
 1-2	Al	_	_	_	_	_	_	_	MWE=Al_parecer|MWEPOS=ADV
-1	A	a	ADP	rg	ExtPos=ADP	7	case	7:case	MWE=Al_parecer|MWEPOS=ADV
+1	A	a	ADP	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=Al_parecer|MWEPOS=ADV
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	1:fixed	_
-3	parecer	parecer	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+3	parecer	parecer	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 5	Toledo	Toledo	PROPN	np00000	_	7	nsubj	7:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20010302142c1-person-1-CorefType:ident,gstype:spec)
 6	pudo	poder	AUX	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	7:aux	_
@@ -462484,9 +462484,9 @@
 48	Moreno	Moreno	PROPN	_	_	46	flat	46:flat	SpaceAfter=No
 49	,	,	PUNCT	fc	PunctType=Comm	53	punct	53:punct	_
 50-51	al	_	_	_	_	_	_	_	MWE=al_parecer|MWEPOS=ADV
-50	a	a	ADP	rg	ExtPos=ADP	53	case	53:case	MWE=al_parecer|MWEPOS=ADV
+50	a	a	ADP	rg	ExtPos=ADV	53	advmod	53:advmod	MWE=al_parecer|MWEPOS=ADV
 51	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	fixed	50:fixed	_
-52	parecer	parecer	NOUN	_	_	50	fixed	50:fixed	_
+52	parecer	parecer	VERB	vmn0000	VerbForm=Inf	50	fixed	50:fixed	_
 53	personaje	personaje	NOUN	ncms000	Gender=Masc|Number=Sing	46	appos	46:appos	Entity=(NOCOREF:Gen--1-gstype:gen
 54	reivindicable	reivindicable	ADJ	aq0cs0	Number=Sing	53	amod	53:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
 55	,	,	PUNCT	fc	PunctType=Comm	56	punct	56:punct	_
@@ -484784,9 +484784,9 @@
 # text = Al parecer, el incendio pudo deberse a la chispa de un camión y que se propagó debido al fuerte viento.
 # orig_file_sentence 125#91
 1-2	Al	_	_	_	_	_	_	_	MWE=Al_parecer|MWEPOS=ADV
-1	A	a	ADP	rg	ExtPos=ADP	8	case	8:case	ArgTem=argM:adv|MWE=Al_parecer|MWEPOS=ADV
+1	A	a	ADP	rg	ExtPos=ADV	8	advmod	8:advmod	ArgTem=argM:adv|MWE=Al_parecer|MWEPOS=ADV
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	1:fixed	_
-3	parecer	parecer	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+3	parecer	parecer	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCASTP2001080254_bc10--2-CorefType:ident,gstype:gen
 6	incendio	incendio	NOUN	ncms000	Gender=Masc|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2001080254_bc10)
@@ -522118,9 +522118,9 @@
 # text = Al parecer, los niños se habían escapado de casa y jugaban cerca.
 # orig_file_sentence 117#44
 1-2	Al	_	_	_	_	_	_	_	MWE=Al_parecer|MWEPOS=ADV
-1	A	a	ADP	rg	ExtPos=ADP	9	case	9:case	MWE=Al_parecer|MWEPOS=ADV
+1	A	a	ADP	rg	ExtPos=ADV	9	advmod	9:advmod	MWE=Al_parecer|MWEPOS=ADV
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	1:fixed	_
-3	parecer	parecer	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+3	parecer	parecer	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 5	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	6:det	Entity=(CESSCASTP2002050238c6_PLUS_CESSCASTP2002050238c7--2-CorefType:ident,gstype:gen|SplitAnte=CESSCASTP2002050238c6<CESSCASTP2002050238c6_PLUS_CESSCASTP2002050238c7,CESSCASTP2002050238c7<CESSCASTP2002050238c6_PLUS_CESSCASTP2002050238c7
 6	niños	niño	NOUN	ncmp000	Gender=Masc|Number=Plur	9	nsubj	9:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2002050238c6_PLUS_CESSCASTP2002050238c7)
