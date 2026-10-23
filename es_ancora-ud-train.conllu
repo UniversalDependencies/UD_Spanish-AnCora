@@ -59858,7 +59858,7 @@
 6	a	a	ADP	spcms	_	9	mark	9:mark	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	_
 8	no	no	ADV	rn	Polarity=Neg	9	advmod	9:advmod	_
-9	disponer	disponer	VERB	vmn0000	VerbForm=Inf	4	acl	4:acl	_
+9	disponer	disponer	VERB	vmn0000	VerbForm=Inf	27	advcl	27:advcl	_
 10	más	más	ADV	rg	Degree=Cmp|ExtPos=ADV	9	advmod	9:advmod	MWE=más_que|MWEPOS=ADV
 11	que	que	SCONJ	cs	_	10	fixed	10:fixed	_
 12	de	de	ADP	sps00	_	10	case	10:case	_
@@ -256604,7 +256604,7 @@
 18	a	a	ADP	spcms	_	21	mark	21:mark	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	21:det	_
 20	ser	ser	AUX	vsn0000	VerbForm=Inf	21	cop	21:cop	_
-21	colocado	colocado	ADJ	vmp00ms	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	9:acl	_
+21	colocado	colocado	ADJ	vmp00ms	Gender=Masc|Number=Sing|VerbForm=Part	36	advcl	36:advcl	_
 22	como	como	SCONJ	cs	_	23	mark	23:mark	_
 23	cabeza	cabeza	NOUN	ncfs000	Gender=Fem|Number=Sing	21	obj	21:obj	ArgTem=argM:atr
 24	de	de	ADP	sps00	_	25	case	25:case	_
@@ -256617,7 +256617,7 @@
 30	en	en	ADP	sps00	_	31	case	31:case	_
 31	1996	1996	NOUN	_	_	27	obl	27:obl	ArgTem=argM:tmp|Entity=(NOCOREF:Spec.date-time-1-gstype:spec)|SpaceAfter=No
 32	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	27	punct	27:punct	Entity=NOCOREF:Gen)|SpaceAfter=No
-33	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	Entity=CESSCASTAA2000062621176c17)CESSCASTAA2000062621176c17)
+33	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	Entity=CESSCASTAA2000062621176c17)CESSCASTAA2000062621176c17)
 34	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	cop	36:cop	_
 35	más	más	ADV	rg	Degree=Cmp	36	advmod	36:advmod	_
 36	imparcial	imparcial	ADJ	aq0cs0	Number=Sing	0	root	0:root	ArgTem=arg2:atr
@@ -491444,7 +491444,7 @@
 48	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	51:det	_
 49	no	no	ADV	rn	Polarity=Neg	51	advmod	51:advmod	_
 50	ser	ser	AUX	vsn0000	VerbForm=Inf	51	cop	51:cop	_
-51	limpia	limpio	ADJ	aq0fs0	Gender=Fem|Number=Sing	43	acl	43:acl	ArgTem=arg2:atr|SpaceAfter=No
+51	limpia	limpio	ADJ	aq0fs0	Gender=Fem|Number=Sing	54	advcl	54:advcl	ArgTem=arg2:atr|SpaceAfter=No
 52	,	,	PUNCT	fc	PunctType=Comm	51	punct	51:punct	Entity=NOCOREF:Gen)
 53	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	aux	54:aux	_
 54	requerido	requerir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	conj	24:conj	_
