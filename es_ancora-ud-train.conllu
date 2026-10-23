@@ -18817,8 +18817,8 @@
 30	censura	censura	NOUN	ncfs000	Gender=Fem|Number=Sing	28	nmod	28:nmod	ArgTem=argL:|SpaceAfter=No
 31	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
 32-33	al	_	_	_	_	_	_	_	_
-32	a	a	ADP	spcms	_	36	mark	36:mark	_
-33	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	36:det	_
+32	a	a	ADP	spcms	_	34	mark	34:mark	_
+33	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	34:det	_
 34-35	considerarle	_	_	_	_	_	_	_	_
 34	considerar	considerar	VERB	vmn0000	VerbForm=Inf	21	advcl	21:advcl	ArgTem=argM:adv
 35	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	34	obl:arg	34:obl:arg	_
@@ -133943,8 +133943,8 @@
 19	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=argM:tmp
 20	consecutiva	consecutivo	ADJ	aq0fs0	Gender=Fem|Number=Sing	19	amod	19:amod	Entity=NOCOREF:Gen)
 21-22	al	_	_	_	_	_	_	_	_
-21	a	a	ADP	spcms	_	24	mark	24:mark	_
-22	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	24:det	_
+21	a	a	ADP	spcms	_	23	mark	23:mark	_
+22	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	_
 23	caer	caer	VERB	vmn0000	VerbForm=Inf	3	advcl	3:advcl	ArgTem=argM:cau
 24	derrotado	derrotado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	23	xcomp	23:xcomp	ArgTem=argM:atr
 25	en	en	ADP	sps00	_	26	case	26:case	_
@@ -198029,8 +198029,8 @@
 38	difícil	difícil	ADJ	aq0cs0	Number=Sing	29	conj	29:conj	ArgTem=arg2:atr|SpaceAfter=No
 39	,	,	PUNCT	fc	PunctType=Comm	42	punct	42:punct	_
 40-41	al	_	_	_	_	_	_	_	_
-40	a	a	ADP	spcms	_	44	mark	44:mark	_
-41	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	44:det	_
+40	a	a	ADP	spcms	_	42	mark	42:mark	_
+41	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	42:det	_
 42	jugar	jugar	VERB	vmn0000	VerbForm=Inf	38	advcl	38:advcl	ArgTem=argM:cau
 43	muy	mucho	ADV	rg	_	42	advmod	42:advmod	ArgTem=argM:mnr
 44	arropado	arropado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	42	xcomp	42:xcomp	_
@@ -455824,8 +455824,8 @@
 27	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	28:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP20010301132c26--1-CorefType:ident,gstype:gen)
 28	imagen	imagen	NOUN	ncfs000	Gender=Fem|Number=Sing	24	obj	24:obj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 29-30	al	_	_	_	_	_	_	_	_
-29	a	a	ADP	spcms	_	32	mark	32:mark	_
-30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	32:det	_
+29	a	a	ADP	spcms	_	31	mark	31:mark	_
+30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	31:det	_
 31	salir	salir	VERB	vmn0000	VerbForm=Inf	24	advcl	24:advcl	ArgTem=argM:cau
 32	goleados	goleado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	31	xcomp	31:xcomp	ArgTem=argM:atr
 33	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	34	punct	34:punct	Entity=(NOCOREF:Spec.number-number-2-gstype:spec|SpaceAfter=No
