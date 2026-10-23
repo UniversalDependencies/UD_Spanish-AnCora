@@ -142461,7 +142461,7 @@
 56-57	al	_	_	_	_	_	_	_	_
 56	a	a	ADP	spcms	_	58	mark	58:mark	_
 57	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	58:det	_
-58	temer	temer	VERB	vmn0000	VerbForm=Inf	54	conj	54:conj	_
+58	temer	temer	VERB	vmn0000	VerbForm=Inf	49	conj	49:conj	_
 59	que	que	SCONJ	cs	_	62	mark	62:mark	_
 60	Brasil	Brasil	PROPN	np0000o	_	62	nsubj	62:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000052217235c2-organization-1-CorefType:ident,gstype:spec)
 61	no	no	ADV	rn	Polarity=Neg	62	advmod	62:advmod	_
@@ -244891,7 +244891,7 @@
 25-26	al	_	_	_	_	_	_	_	_
 25	a	a	ADP	spcms	_	27	mark	27:mark	_
 26	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	_
-27	retirar	retirar	VERB	vmn0000	VerbForm=Inf	16	conj	16:conj	_
+27	retirar	retirar	VERB	vmn0000	VerbForm=Inf	2	advcl	2:advcl	_
 28	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	29:det	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTAA2000052419413c9--1-CorefType:ident)
 29	apoyo	apoyo	NOUN	ncms000	Gender=Masc|Number=Sing	27	obj	27:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 30	a	a	ADP	sps00	_	32	case	32:case	_
