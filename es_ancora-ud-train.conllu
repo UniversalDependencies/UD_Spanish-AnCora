@@ -102705,7 +102705,7 @@
 28-29	al	_	_	_	_	_	_	_	_
 28	a	a	ADP	spcms	_	30	mark	30:mark	_
 29	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	30:det	_
-30	considerar	considerar	VERB	vmn0000	VerbForm=Inf	26	xcomp	26:xcomp	ArgTem=argM:cau
+30	considerar	considerar	VERB	vmn0000	VerbForm=Inf	26	advcl	26:advcl	ArgTem=argM:cau
 31	que	que	SCONJ	cs	_	33	mark	33:mark	_
 32	no	no	ADV	rn	Polarity=Neg	33	advmod	33:advmod	_
 33	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	30:ccomp	ArgTem=arg1:pat
@@ -199518,7 +199518,7 @@
 12-13	al	_	_	_	_	_	_	_	_
 12	a	a	ADP	spcms	_	14	mark	14:mark	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
-14	presentar	presentar	VERB	vmn0000	VerbForm=Inf	11	acl	11:acl	_
+14	presentar	presentar	VERB	vmn0000	VerbForm=Inf	11	advcl	11:advcl	_
 15	con	con	ADP	spcms	_	16	case	16:case	MWE=con_motivo_del|MWEPOS=ADP
 16	motivo	motivo	NOUN	_	_	14	obl	14:obl	_
 17-18	del	_	_	_	_	_	_	_	_
@@ -218829,7 +218829,7 @@
 54	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	57:det	_
 55	estar	estar	AUX	vmn0000	VerbForm=Inf	57	cop	57:cop	ArgTem=argM:cau
 56	ya	ya	ADV	rg	_	57	advmod	57:advmod	ArgTem=argM:tmp
-57	clasificados	clasificado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	46	obl	46:obl	ArgTem=arg2:atr
+57	clasificados	clasificado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	46	advcl	46:advcl	ArgTem=arg2:atr
 58	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	59:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 59	Numancia	Numancia	PROPN	np00000	_	57	nsubj	57:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Spec.organization)
 60	y	y	CCONJ	cc	_	62	cc	62:cc	_
@@ -219838,7 +219838,7 @@
 26-27	al	_	_	_	_	_	_	_	_
 26	a	a	ADP	spcms	_	28	mark	28:mark	_
 27	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	_
-28	comentar	comentar	VERB	vmn0000	VerbForm=Inf	18	obl	18:obl	ArgTem=argM:tmp
+28	comentar	comentar	VERB	vmn0000	VerbForm=Inf	18	advcl	18:advcl	ArgTem=argM:tmp
 29	que	que	SCONJ	cs	_	41	mark	41:mark	Entity=(CESSCASTAA200003075522c13--1
 30	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	31:det	Entity=(CESSCASTAA200003075522c6--2-CorefType:ident,gstype:gen,HomoDD
 31	carnaval	carnaval	NOUN	ncms000	Gender=Masc|Number=Sing	41	nsubj	41:nsubj	ArgTem=arg1:tem
@@ -348756,7 +348756,7 @@
 15	a	a	ADP	spcms	_	18	mark	18:mark	_
 16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	18:det	_
 17	no	no	ADV	rn	Polarity=Neg	18	advmod	18:advmod	Entity=(CESSCASTP19990601108c18--2
-18	tener	tener	VERB	vmn0000	VerbForm=Inf	4	obl	4:obl	ArgTem=argM:tmp
+18	tener	tener	VERB	vmn0000	VerbForm=Inf	4	advcl	4:advcl	ArgTem=argM:tmp
 19	cerrada	cerrado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	18	xcomp	18:xcomp	ArgTem=argM:atr
 20	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	21:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 21	operación	operación	NOUN	ncfs000	Gender=Fem|Number=Sing	19	obj	19:obj	ArgTem=arg2:atr
@@ -482382,7 +482382,7 @@
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
 3	estar	estar	AUX	vmn0000	VerbForm=Inf	5	cop	5:cop	ArgTem=argM:cau
 4	ambos	ambos	NUM	pn0mp000	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	5	nsubj	5:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2001080134c5-person-1-CorefType:ident,gstype:spec)
-5	aforados	aforado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	7	obl	7:obl	ArgTem=arg2:atr|SpaceAfter=No
+5	aforados	aforado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	7	advcl	7:advcl	ArgTem=arg2:atr|SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 7	corresponde	corresponder	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 8	actuar	actuar	VERB	vmn0000	VerbForm=Inf	7	csubj	7:csubj	ArgTem=arg1:tem
@@ -492260,7 +492260,7 @@
 17-18	al	_	_	_	_	_	_	_	_
 17	a	a	ADP	spcms	_	19	mark	19:mark	_
 18	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	_
-19	destacar	destacar	VERB	vmn0000	VerbForm=Inf	6	xcomp	6:xcomp	ArgTem=argM:tmp
+19	destacar	destacar	VERB	vmn0000	VerbForm=Inf	6	advcl	6:advcl	ArgTem=argM:tmp
 20	que	que	SCONJ	cs	_	29	mark	29:mark	_
 21	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 22	gran	gran	ADJ	aq0cs0	Number=Sing	23	amod	23:amod	_
@@ -524899,7 +524899,7 @@
 18	a	a	ADP	spcms	_	21	mark	21:mark	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	21:det	_
 20	estar	estar	AUX	vmn0000	VerbForm=Inf	21	cop	21:cop	ArgTem=argM:cau
-21	deshabitada	deshabitado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	24	obl	24:obl	ArgTem=arg2:atr|SpaceAfter=No
+21	deshabitada	deshabitado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	24	advcl	24:advcl	ArgTem=arg2:atr|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	_
 23	no	no	ADV	rn	Polarity=Neg	24	advmod	24:advmod	_
 24	produjo	producir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_

@@ -52826,7 +52826,7 @@
 2	A	a	ADP	spcms	_	4	mark	4:mark	_
 3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	_
 4-5	votarse	_	_	_	_	_	_	_	_
-4	votar	votar	VERB	vmn0000	VerbForm=Inf	13	xcomp	13:xcomp	Entity=(CESSCASTP2000070193c9--1
+4	votar	votar	VERB	vmn0000	VerbForm=Inf	13	advcl	13:advcl	Entity=(CESSCASTP2000070193c9--1
 5	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pass	4:expl:pass	_
 6	varios	varios	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Ind	7	det	7:det	Entity=(NOCOREF:Gen--2-gstype:gen
 7	decretos	decreto	NOUN	ncmp000	Gender=Masc|Number=Plur	4	obj	4:obj	ArgTem=arg1:pat,arg1:pat|Entity=NOCOREF:Gen)
