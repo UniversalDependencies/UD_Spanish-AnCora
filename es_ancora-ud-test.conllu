@@ -3588,8 +3588,8 @@
 11	casual	casual	ADJ	aq0cs0	Number=Sing	3	xcomp	3:xcomp	ArgTem=arg2:atr
 12	que	que	SCONJ	cs	_	16	mark	16:mark	_
 13	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	14:det	_
-14	virus	virus	NOUN	ncmn000	Gender=Masc	16	nsubj	16:nsubj	ArgTem=arg0:agt
-15	estén	estar	AUX	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	16:aux	_
+14	virus	virus	NOUN	ncmn000	Gender=Masc	16	nsubj:pass	16:nsubj:pass	ArgTem=arg0:agt
+15	estén	estar	AUX	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	16:aux:pass	_
 16	compuestos	componer	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	csubj	11:csubj	ArgTem=arg1:tem
 17	por	por	ADP	sps00	_	20	case	20:case	_
 18	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	20:det	_
