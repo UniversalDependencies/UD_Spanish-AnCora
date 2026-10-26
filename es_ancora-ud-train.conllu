@@ -130906,7 +130906,7 @@
 62	hasta	hasta	ADP	sps00	_	63	case	63:case	_
 63	ahora	ahora	ADV	rg	_	65	advmod	65:advmod	ArgTem=argM:tmp
 64	demasiado	demasiado	ADV	rg	_	65	advmod	65:advmod	ArgTem=argM:adv
-65	implicada	implicar	VERB	aq0msp	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	55	conj	55:conj	ArgTem=arg2:atr
+65	implicada	implicar	ADJ	aq0msp	Gender=Fem|Number=Sing|VerbForm=Part	55	conj	55:conj	ArgTem=arg2:atr
 66	en	en	ADP	sps00	_	68	case	68:case	_
 67	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	68	det	68:det	Entity=(CESSCASTA2000032318827c11--2-gstype:gen,HomoDD
 68	problemas	problema	NOUN	ncmp000	Gender=Masc|Number=Plur	65	obl:arg	65:obl:arg	ArgTem=arg2:tem
@@ -234990,10 +234990,10 @@
 10	aseguró	asegurar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 11	hoy	hoy	ADV	rg	_	10	advmod	10:advmod	ArgTem=argM:tmp
 12	que	que	SCONJ	cs	_	14	mark	14:mark	_
-13	están	estar	AUX	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	ArgTem=arg1:pat
+13	están	estar	AUX	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	14:aux:pass	ArgTem=arg1:pat
 14	dadas	dar	VERB	vmp00pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	ccomp	10:ccomp	ArgTem=arg2:atr
 15	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	16:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-16	condiciones	condición	NOUN	ncfp000	Gender=Fem|Number=Plur	14	nsubj	14:nsubj	ArgTem=arg1:tem
+16	condiciones	condición	NOUN	ncfp000	Gender=Fem|Number=Plur	14	nsubj:pass	14:nsubj:pass	ArgTem=arg1:tem
 17	para	para	ADP	sps00	_	18	mark	18:mark	_
 18	avanzar	avanzar	VERB	vmn0000	VerbForm=Inf	16	acl	16:acl	_
 19	tanto	tanto	ADV	rg	_	22	cc	22:cc	_
@@ -334973,7 +334973,7 @@
 4	no	no	ADV	rn	Polarity=Neg	7	advmod	7:advmod	_
 5	están	estar	AUX	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	bien	bien	ADV	rg	_	7	advmod	7:advmod	ArgTem=argM:adv
-7	vistas	ver	VERB	aq0fpp	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
+7	vistas	ver	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 8	en	en	ADP	sps00	_	10	case	10:case	_
 9	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	10:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 10	partidos	partido	NOUN	ncmp000	Gender=Masc|Number=Plur	7	obl	7:obl	ArgTem=argM:loc
@@ -367938,7 +367938,7 @@
 17	español	español	ADJ	aq0ms0	Gender=Masc|Number=Sing	15	amod	15:amod	Entity=CESSCASTP19991001107c2)
 18	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	ArgTem=arg1:pat
 19	demasiado	demasiado	ADV	rg	_	20	advmod	20:advmod	ArgTem=argM:adv
-20	atomizado	atomizar	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	11:ccomp	ArgTem=arg2:atr|Entity=CESSCASTP19991001107c10)|SpaceAfter=No
+20	atomizado	atomizar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	11	ccomp	11:ccomp	ArgTem=arg2:atr|Entity=CESSCASTP19991001107c10)|SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
 22	por	por	ADP	sps00	_	27	case	27:case	_
 23	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	27	det	27:det	Entity=(CESSCASTP19991001107c10--5-CorefType:dx.token
@@ -403999,7 +403999,7 @@
 2	Catalunya	Catalunya	PROPN	np00000	_	4	obl	4:obl	ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)
 2.1	_	_	PRON	p	_	_	_	3:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20000401105c2--1-gstype:gen)
 3	estamos	estar	AUX	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
-4	habituados	habituar	VERB	aq0mpp	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
+4	habituados	habituar	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 5	a	a	ADP	sps00	_	11	mark	11:mark	_
 6	que	que	SCONJ	cs	_	11	mark	11:mark	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCASTP20000401105c5--2-gstype:gen,HomoDD

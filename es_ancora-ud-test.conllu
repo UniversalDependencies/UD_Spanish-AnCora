@@ -34119,7 +34119,7 @@
 1	Este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	2	det	2:det	Entity=(CESSCASTAA2000092824050c5--2-CorefType:ident,gstype:gen
 2	descenso	descenso	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj:pass	4:nsubj:pass	ArgTem=arg1:tem|Entity=CESSCASTAA2000092824050c5)
 3	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
-4	provocado	provocado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
+4	provocado	provocado	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 5	por	por	ADP	sps00	_	7	case	7:case	_
 6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	Entity=(CESSCASTAA2000092824050c6--2-gstype:gen,HomoDD
 7	disminución	disminución	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl:agent	4:obl:agent	ArgTem=arg0:agt,arg0:agt
