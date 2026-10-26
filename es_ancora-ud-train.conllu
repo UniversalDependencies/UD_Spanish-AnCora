@@ -184368,28 +184368,28 @@
 9	cubana	cubano	ADJ	aq0fs0	Gender=Fem|Number=Sing	8	amod	8:amod	Entity=CESSCASTA2000112115871c29)CESSCASTA2000112115871c22)
 10	también	también	ADV	rg	_	11	advmod	11:advmod	_
 11	denunció	denunciar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
-12	que	que	SCONJ	cs	_	23	mark	23:mark	_
-13	"	"	PUNCT	fe	PunctType=Quot	23	punct	23:punct	SpaceAfter=No
+12	que	que	SCONJ	cs	_	15	mark	15:mark	_
+13	"	"	PUNCT	fe	PunctType=Quot	15	punct	15:punct	SpaceAfter=No
 14	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	ArgTem=arg1:pat
-15	incuestionable	incuestionable	ADJ	aq0cs0	Number=Sing	23	xcomp	23:xcomp	ArgTem=arg2:atr
-16	que	que	SCONJ	cs	_	22	mark	22:mark	_
+15	incuestionable	incuestionable	ADJ	aq0cs0	Number=Sing	11	ccomp	11:ccomp	ArgTem=arg2:atr
+16	que	que	SCONJ	cs	_	23	mark	23:mark	_
 17	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	18:det	Entity=(CESSCASTA2000112115871c19-organization-2-CorefType:ident,gstype:spec
-18	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	22	nsubj	22:nsubj	ArgTem=arg1:pat
+18	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	23	nsubj:pass	23:nsubj:pass	ArgTem=arg1:pat
 19	de	de	ADP	sps00	_	20	case	20:case	_
 20	Panamá	Panamá	PROPN	np0000l	_	18	nmod	18:nmod	Entity=(CESSCASTA2000112115871c6-place-1-CorefType:ident,gstype:spec)CESSCASTA2000112115871c19)
 21	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	23:aux	_
-22	siendo	ser	AUX	vsg0000	VerbForm=Ger	23	csubj	23:csubj	_
-23	sometido	someter	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	11:ccomp	ArgTem=arg1:tem
+22	siendo	ser	AUX	vsg0000	VerbForm=Ger	23	aux:pass	23:aux:pass	_
+23	sometido	someter	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	csubj	15:csubj	ArgTem=arg1:tem
 24	a	a	ADP	sps00	_	27	case	27:case	_
 25	muy	mucho	ADV	rg	_	26	advmod	26:advmod	Entity=(CESSCASTA2000112115871c30--3-gstype:gen
 26	fuertes	fuerte	ADJ	aq0cp0	Number=Plur	27	amod	27:amod	_
-27	presiones	presión	NOUN	ncfp000	Gender=Fem|Number=Plur	22	obj	22:obj	ArgTem=arg2:tem
+27	presiones	presión	NOUN	ncfp000	Gender=Fem|Number=Plur	23	obj	23:obj	ArgTem=arg2:tem
 28	para	para	ADP	sps00	_	29	mark	29:mark	_
 29	liberar	liberar	VERB	vmn0000	VerbForm=Inf	27	acl	27:acl	ArgTem=argM:fin
 30	a	a	ADP	sps00	_	32	case	32:case	_
 31	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	32:det	Entity=(CESSCASTA2000112115871c12_PLUS_CESSCASTA2000112115871c3--2-CorefType:ident,gstype:gen
 32	terroristas	terrorista	NOUN	nccp000	Number=Plur	29	obj	29:obj	ArgTem=arg1:pat|Entity=CESSCASTA2000112115871c12_PLUS_CESSCASTA2000112115871c3)CESSCASTA2000112115871c30)|SpaceAfter=No
-33	"	"	PUNCT	fe	PunctType=Quot	23	punct	23:punct	SpaceAfter=No
+33	"	"	PUNCT	fe	PunctType=Quot	15	punct	15:punct	SpaceAfter=No
 34	.	.	PUNCT	fp	PunctType=Peri	11	punct	11:punct	_
 
 # sent_id = CESS-CAST-A-20001121-15871-s14
