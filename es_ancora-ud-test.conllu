@@ -1587,11 +1587,11 @@
 # sent_id = 3LB-CAST-d2-10-s4
 # text = Es lo que ha hecho hasta ahora y el resultado ha sido inmejorable.
 # orig_file_sentence 001#45
-1	Es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
-2	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Dem	5	nsubj	5:nsubj	_
+1	Es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	2:cop	_
+2	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Dem	0	root	0:root	_
 3	que	que	PRON	pr0cn000	PronType=Rel	5	obj	5:obj	ArgTem=arg1:pat
 4	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
-5	hecho	hacer	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
+5	hecho	hacer	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	2:acl:relcl	ArgTem=arg2:atr
 6	hasta	hasta	ADP	sps00	_	7	case	7:case	_
 7	ahora	ahora	ADV	rg	_	5	advmod	5:advmod	ArgTem=argM:tmp
 8	y	y	CCONJ	cc	_	13	cc	13:cc	_
@@ -1599,8 +1599,8 @@
 10	resultado	resultado	NOUN	ncms000	Gender=Masc|Number=Sing	13	nsubj	13:nsubj	ArgTem=arg1:tem
 11	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 12	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	13:cop	_
-13	inmejorable	inmejorable	ADJ	aq0cs0	Number=Sing	5	conj	5:conj	ArgTem=arg2:atr|SpaceAfter=No
-14	.	.	PUNCT	fp	PunctType=Peri	5	punct	5:punct	_
+13	inmejorable	inmejorable	ADJ	aq0cs0	Number=Sing	2	conj	2:conj	ArgTem=arg2:atr|SpaceAfter=No
+14	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
 
 # sent_id = 3LB-CAST-d2-10-s5
 # text = Pedirle después que encima corra la Vuelta sería realmente pedirle demasiado.

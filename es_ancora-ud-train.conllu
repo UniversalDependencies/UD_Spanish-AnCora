@@ -143139,7 +143139,7 @@
 9	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 10	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	cop	12:cop	ArgTem=arg1:pat
 11	suficientemente	suficientemente	ADV	rg	_	12	advmod	12:advmod	ArgTem=argM:adv
-12	apoyado	apoyar	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	4:ccomp	ArgTem=arg2:atr|SpaceAfter=No
+12	apoyado	apoyar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp	4:ccomp	ArgTem=arg2:atr|SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 14	ya	ya	ADV	cs	ExtPos=SCONJ	24	mark	24:mark	MWE=ya_que|MWEPOS=SCONJ
 15	que	que	SCONJ	cs	_	14	fixed	14:fixed	SpaceAfter=No
@@ -209943,7 +209943,7 @@
 46.1	_	_	PRON	p	_	_	_	47:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200002118933c18--1-CorefType:ident,gstype:gen)
 47	sean	ser	AUX	vssp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	cop	49:cop	ArgTem=argM:fin
 48	plenamente	plenamente	ADV	rg	_	49	advmod	49:advmod	ArgTem=argM:adv
-49	respetadas	respetar	VERB	aq0fpp	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	36	advcl	36:advcl	_
+49	respetadas	respetar	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	36	advcl	36:advcl	_
 50	y	y	CCONJ	cc	_	51	cc	51:cc	_
 51	verificables	verificable	ADJ	aq0cp0	Number=Plur	49	conj	49:conj	ArgTem=arg2:atr
 52	en	en	ADP	sps00	_	54	case	54:case	_
@@ -290602,7 +290602,7 @@
 8	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	ArgTem=arg1:pat
 9	de	de	ADP	sps00	_	10	case	10:case	_
 10	todos	todo	PRON	pi0mp000	Gender=Masc|Number=Plur|PronType=Tot	11	obl:arg	11:obl:arg	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--1-gstype:gen)
-11	conocido	conocer	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	1:ccomp	ArgTem=arg2:atr
+11	conocido	conocer	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	1	ccomp	1:ccomp	ArgTem=arg2:atr
 12	que	que	SCONJ	cs	_	16	mark	16:mark	_
 13	"	"	PUNCT	fe	PunctType=Quot	16	punct	16:punct	SpaceAfter=No
 14	Segura	Segura	PROPN	np00000	_	16	nsubj	16:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200010118684c3-person-1-CorefType:ident,gstype:spec)
@@ -324151,7 +324151,7 @@
 21	siempre	siempre	ADV	rg	_	24	advmod	24:advmod	ArgTem=argM:tmp
 22	habían	haber	AUX	vaii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	aux	24:aux	_
 23	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	cop	24:cop	_
-24	opuestos	oponer	VERB	aq0mpp	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
+24	opuestos	oponer	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 25-26	al	_	_	_	_	_	_	_	_
 25	a	a	ADP	spcms	_	29	case	29:case	_
 26	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	_
@@ -359736,7 +359736,7 @@
 # text = Como es bien sabido, los kurdos no sólo habitan en el sureste de Turquía sino también en el noreste de Irak, en Irán, en Azerbaiyán y en Armenia y, en general, se encuentran minorías kurdas en todos los países del Cáucaso, pero siempre en situaciones diferentes.
 # orig_file_sentence 083#75
 1	Como	como	SCONJ	cs	_	4	mark	4:mark	_
-2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
 3	bien	bien	ADV	rg	_	4	advmod	4:advmod	ArgTem=argM:adv
 4	sabido	saber	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	10:advcl	ArgTem=argM:adv|SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
@@ -364897,10 +364897,10 @@
 3	para	para	ADP	sps00	_	4	case	4:case	_
 4	Costa	Costa	PROPN	np00000	_	2	nmod	2:nmod	Entity=(CESSCASTP1999090194c3-person-1-CorefType:ident,gstype:spec)NOCOREF:Gen)
 5	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
-6	que	que	SCONJ	cs	_	11	mark	11:mark	_
+6	que	que	SCONJ	cs	_	9	mark	9:mark	_
 6.1	_	_	PRON	p	_	_	_	9:nsubj	ArgTem=arg0:src|Entity=(CESSCASTP1999090194c3-person-1-CorefType:ident,gstype:spec)
-7	ya	ya	ADV	rg	_	11	advmod	11:advmod	_
-8	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
+7	ya	ya	ADV	rg	_	9	advmod	9:advmod	_
+8	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 9	tenido	tener	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 10	que	que	SCONJ	cs	_	11	mark	11:mark	_
 11	pegar	pegar	VERB	vmn0000	VerbForm=Inf	9	xcomp	9:xcomp	_
