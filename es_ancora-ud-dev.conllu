@@ -420,7 +420,7 @@
 7	días	día	NOUN	ncmp000	Gender=Masc|Number=Plur	5	obj	5:obj	_
 8	por	por	ADP	sps00	_	10	case	10:case	_
 9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	_
-10	generalidad	generalidad	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl:arg	4:obl:arg	ArgTem=arg0:agt
+10	generalidad	generalidad	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl:agent	4:obl:agent	ArgTem=arg0:agt
 11	de	de	ADP	sps00	_	13	case	13:case	_
 12	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	13:det	_
 13	fuerzas	fuerza	NOUN	ncfp000	Gender=Fem|Number=Plur	10	nmod	10:nmod	_
@@ -16087,7 +16087,7 @@
 33	reiteradamente	reiteradamente	ADV	rg	_	32	advmod	32:advmod	ArgTem=argM:mnr
 34	por	por	ADP	sps00	_	36	case	36:case	_
 35	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	36	det	36:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTA2000051611811c2-person-1-CorefType:ident,gstype:spec)
-36	adversarios	adversario	NOUN	ncmp000	Gender=Masc|Number=Plur	32	obl:arg	32:obl:arg	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
+36	adversarios	adversario	NOUN	ncmp000	Gender=Masc|Number=Plur	32	obl:agent	32:obl:agent	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
 37	de	de	ADP	sps00	_	39	mark	39:mark	_
 38	haber	haber	AUX	van0000	VerbForm=Inf	39	aux	39:aux	_
 39	ganado	ganar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	ccomp	32:ccomp	ArgTem=arg2:tem
@@ -16603,7 +16603,7 @@
 9	semanas	semana	NOUN	ncfp000	Gender=Fem|Number=Plur	5	obl	5:obl	ArgTem=argM:tmp|Entity=NOCOREF:Gen)
 10	por	por	ADP	sps00	_	12	case	12:case	_
 11	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-12	oposición	oposición	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obl:arg	5:obl:arg	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
+12	oposición	oposición	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obl:agent	5:obl:agent	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
 13	de	de	ADP	sps00	_	15	mark	15:mark	_
 14	"	"	PUNCT	fe	PunctType=Quot	15	punct	15:punct	SpaceAfter=No
 15	comprar	comprar	VERB	vmn0000	VerbForm=Inf	5	xcomp	5:xcomp	ArgTem=arg2:tem

@@ -291669,7 +291669,7 @@
 5	fueron	ser	AUX	vsis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	6:aux:pass	_
 6	invitados	invitar	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
 7	por	por	ADP	sps00	_	8	case	8:case	_
-8	Don	Don	PROPN	np00000	_	6	obl:arg	6:obl:arg	ArgTem=arg0:agt|Entity=(CESSCASTAA2000102419378c2-person-1-CorefType:ident,gstype:spec|MWE=Don_Felipe|MWEPOS=PROPN
+8	Don	Don	PROPN	np00000	_	6	obl:agent	6:obl:agent	ArgTem=arg0:agt|Entity=(CESSCASTAA2000102419378c2-person-1-CorefType:ident,gstype:spec|MWE=Don_Felipe|MWEPOS=PROPN
 9	Felipe	Felipe	PROPN	_	_	8	flat	8:flat	Entity=CESSCASTAA2000102419378c2)
 10	a	a	ADP	sps00	_	11	mark	11:mark	_
 11	visitar	visitar	VERB	vmn0000	VerbForm=Inf	6	xcomp	6:xcomp	ArgTem=arg2:tem|SpaceAfter=No
