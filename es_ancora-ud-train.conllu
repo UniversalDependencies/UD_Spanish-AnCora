@@ -84520,7 +84520,7 @@
 18	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	_
 19	paso	paso	NOUN	ncms000	Gender=Masc|Number=Sing	14	nsubj	14:nsubj	ArgTem=arg1:tem
 20	cuando	cuando	SCONJ	cs	_	21	mark	21:mark	_
-21	sale	salar	VERB	vmip3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl	ArgTem=argM:tmp
+21	sale	salir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl	ArgTem=argM:tmp
 22	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	_
 23	otro	otro	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	21	nsubj	21:nsubj	ArgTem=arg1:tem
 24	dando	dar	VERB	vmg0000	VerbForm=Ger	21	advcl	21:advcl	ArgTem=argM:adv
@@ -148069,7 +148069,7 @@
 31	reparar	reparar	VERB	vmn0000	VerbForm=Inf	16	xcomp	16:xcomp	ArgTem=arg1:pat|Cxn=Conditional-NeutralEpistemic|CxnElt=31:Conditional-NeutralEpistemic.Apodosis@p
 32	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	31	expl:pass	31:expl:pass	_
 33	si	si	SCONJ	cs	_	34	mark	34:mark	_
-34	sale	salar	VERB	vmip3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl	CxnElt=31:Conditional-NeutralEpistemic.Protasis@f
+34	sale	salir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl	CxnElt=31:Conditional-NeutralEpistemic.Protasis@f
 35	elegido	elegido	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	34	xcomp	34:xcomp	ArgTem=arg2:atr
 36	él	él	PRON	pp3ms000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	34:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA200007031329c3-person-1-CorefType:ident,gstype:spec)
 37	presidente	presidente	NOUN	ncms000	Gender=Masc|Number=Sing	34	obj	34:obj	ArgTem=arg2:atr|Entity=CESSCASTA200007031329c4)|SpaceAfter=No
@@ -380948,7 +380948,7 @@
 13	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCASTP1999120220c6-organization-3-CorefType:ident,gstype:spec
 14	nuevo	nuevo	ADJ	aq0ms0	Gender=Masc|Number=Sing	15	amod	15:amod	_
 15	Govern	Govern	PROPN	np00000	_	16	nsubj	16:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP1999120220c6)
-16	barra	barrar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	11:ccomp	ArgTem=arg1:pat
+16	barra	barrer	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	11:ccomp	ArgTem=arg1:pat
 17	hacia	hacia	ADP	sps00	_	18	case	18:case	_
 18	casa	casa	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obl	16:obl	ArgTem=argM:adv|SpaceAfter=No
 19	:	:	PUNCT	fd	PunctType=Colo	22	punct	22:punct	_
@@ -405253,7 +405253,7 @@
 6	que	que	SCONJ	cs	_	9	mark	9:mark	_
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCASTP20000401114c11-organization-2-gstype:spec
 8	Deportivo	Deportivo	PROPN	np00000	_	9	nsubj	9:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP20000401114c11)
-9	falle	fallir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	3:acl	Entity=CESSCASTP20000401114c10)|SpaceAfter=No
+9	falle	fallar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	3:acl	Entity=CESSCASTP20000401114c10)|SpaceAfter=No
 10	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = CESS-CAST-P-20000401-114-s29
@@ -420101,7 +420101,7 @@
 23	día	día	NOUN	ncms000	Gender=Masc|Number=Sing	26	obl	26:obl	ArgTem=argM:tmp
 24	más	más	ADV	rg	Degree=Cmp	23	advmod	23:advmod	SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
-26	revelan	reveler	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	19	acl:relcl	19:acl:relcl	_
+26	revelan	revelar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	19:acl:relcl	_
 27	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	28:det	Entity=(CESSCASTP2000060247c13--2-gstype:gen
 28	crispación	crispación	NOUN	ncfs000	Gender=Fem|Number=Sing	26	obj	26:obj	ArgTem=arg1:pat
 29	que	que	PRON	pr0cn000	PronType=Rel	31	obj	31:obj	ArgTem=arg1:pat|Entity=(CESSCASTP2000060247c13--1-CorefType:ident,gstype:gen)
@@ -424321,7 +424321,7 @@
 31	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	32:det	Entity=(CESSCASTP2000070169c17--2-gstype:gen,HomoDD
 32	católicos	católico	NOUN	ncmp000	Gender=Masc|Number=Plur	27	obl:arg	27:obl:arg	ArgTem=arg2:ben
 33	que	que	PRON	pr0cn000	PronType=Rel	34	nsubj	34:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2000070169c17--1-CorefType:ident,gstype:gen)
-34	vivan	vivar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	32:acl:relcl	_
+34	vivan	vivir	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	32:acl:relcl	_
 35	en	en	ADP	sps00	_	37	case	37:case	_
 36	"	"	PUNCT	fe	PunctType=Quot	37	punct	37:punct	Entity=(NOCOREF:Gen--2-gstype:gen|SpaceAfter=No
 37	situación	situación	NOUN	ncfs000	Gender=Fem|Number=Sing	34	obl	34:obl	ArgTem=arg2:atr
@@ -475534,7 +475534,7 @@
 5	España	España	PROPN	np00000	_	8	nsubj	8:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20010701193c23--1
 6	y	y	CCONJ	cc	_	7	cc	7:cc	_
 7	Portugal	Portugal	PROPN	np00000	_	5	conj	5:conj	Entity=(CESSCASTP20010701193c24--1)CESSCASTP20010701193c23)
-8	vivan	vivar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	ArgTem=arg1:tem
+8	vivan	vivir	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	ArgTem=arg1:tem
 9	"	"	PUNCT	fe	PunctType=Quot	11	punct	11:punct	SpaceAfter=No
 10	de	de	ADP	rg	ExtPos=ADV	11	case	11:case	ArgTem=argM:mnr|MWE=de_espaldas|MWEPOS=ADV
 11	espaldas	espaldas	NOUN	_	_	8	obl	8:obl	SpaceAfter=No

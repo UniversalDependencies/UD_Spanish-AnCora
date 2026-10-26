@@ -47117,7 +47117,7 @@
 35	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	38:det	Entity=(NOCOREF:Gen--4-gstype:gen
 36	que	que	PRON	pr0cn000	PronType=Rel	38	nsubj	38:nsubj	ArgTem=arg0:agt
 37	no	no	ADV	rn	Polarity=Neg	38	advmod	38:advmod	_
-38	revelen	reveler	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	29:ccomp	ArgTem=arg1:pat
+38	revelen	revelar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	29:ccomp	ArgTem=arg1:pat
 39	voluntariamente	voluntariamente	ADV	rg	_	38	advmod	38:advmod	ArgTem=argM:mnr
 40	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	41	det	41:det	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP2000020235_ec1--1-CorefType:ident,gstype:gen)
 41	relaciones	relación	NOUN	ncfp000	Gender=Fem|Number=Plur	38	obj	38:obj	ArgTem=arg1:pat
