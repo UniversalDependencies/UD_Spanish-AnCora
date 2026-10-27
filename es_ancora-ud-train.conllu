@@ -265810,7 +265810,7 @@
 # text = Para dicho compromiso, el quinto de Colombia en las eliminatorias suramericanas para el mundial del 2002, García ha confirmado como titular en la zaga a Iván Córdoba, del Inter de Italia, quien dijo que no jugará como lateral izquierdo para que el seleccionado cafetero pueda actuar con cuatro defensores sin sacrificar a Bermúdez ni a Yepes.
 # orig_file_sentence 074#56
 1	Para	para	ADP	sps00	_	3	case	3:case	_
-2	dicho	decir	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	3:acl	Entity=(CESSCASTAA200007129155c2--2-CorefType:ident,gstype:gen
+2	dicho	dicho	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	3	amod	3:amod	Entity=(CESSCASTAA200007129155c2--2-CorefType:ident,gstype:gen
 3	compromiso	compromiso	NOUN	ncms000	Gender=Masc|Number=Sing	22	obl	22:obl	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	Entity=(CESSCASTAA200007129155c2--3-CorefType:pred.definit,gstype:gen
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
