@@ -76715,18 +76715,18 @@
 84	no	no	ADV	rn	Polarity=Neg	85	advmod	85:advmod	_
 85	quiere	querer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	37:advcl	MWE=quiere_decir|MWEPOS=VERB
 86	decir	decir	VERB	_	VerbForm=Inf	85	xcomp	85:xcomp	_
-87	que	que	SCONJ	cs	_	94	mark	94:mark	_
+87	que	que	SCONJ	cs	_	95	mark	95:mark	_
 88	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	89	det	89:det	_
-89	suma	suma	NOUN	ncfs000	Gender=Fem|Number=Sing	94	nsubj	94:nsubj	ArgTem=arg1:tem
+89	suma	suma	NOUN	ncfs000	Gender=Fem|Number=Sing	95	nsubj	95:nsubj	ArgTem=arg1:tem
 90	de	de	ADP	sps00	_	92	case	92:case	_
 91	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	92	det	92:det	_
 92	realidad	realidad	NOUN	ncfs000	Gender=Fem|Number=Sing	89	nmod	89:nmod	ArgTem=arg1:tem
-93	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	94	cop	94:cop	ArgTem=arg2:atr
-94	lo	él	PRON	rg	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	85	ccomp	85:ccomp	ArgTem=arg2:atr|MWE=lo_mismo|MWEPOS=ADV
-95	mismo	mismo	ADJ	_	_	94	fixed	94:fixed	_
+93	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	95	cop	95:cop	ArgTem=arg2:atr
+94	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	95	det	95:det	ArgTem=arg2:atr|MWE=lo_mismo|MWEPOS=ADV
+95	mismo	mismo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Dem	85	ccomp	85:ccomp	_
 96	que	que	SCONJ	cs	_	98	mark	98:mark	_
 97	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	98	det	98:det	_
-98	magnitud	magnitud	NOUN	ncfs000	Gender=Fem|Number=Sing	94	obl	94:obl	_
+98	magnitud	magnitud	NOUN	ncfs000	Gender=Fem|Number=Sing	95	nmod	95:nmod	_
 99	de	de	ADP	sps00	_	101	case	101:case	_
 100	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	101	det	101:det	_
 101	perfección	perfección	NOUN	ncfs000	Gender=Fem|Number=Sing	98	nmod	98:nmod	SpaceAfter=No
@@ -93796,21 +93796,21 @@
 # text = Una convicción axiomática no es lo mismo que una ambición de perfecciones vitalistas y gozaderas.
 # orig_file_sentence 028#19
 1	Una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
-2	convicción	convicción	NOUN	ncfs000	Gender=Fem|Number=Sing	6	nsubj	6:nsubj	ArgTem=arg1:tem
+2	convicción	convicción	NOUN	ncfs000	Gender=Fem|Number=Sing	7	nsubj	7:nsubj	ArgTem=arg1:tem
 3	axiomática	axiomático	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	amod	2:amod	_
-4	no	no	ADV	rn	Polarity=Neg	6	advmod	6:advmod	_
-5	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
-6	lo	él	PRON	rg	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	0	root	0:root	ArgTem=arg2:atr|MWE=lo_mismo|MWEPOS=ADV
-7	mismo	mismo	ADJ	_	_	6	fixed	6:fixed	_
+4	no	no	ADV	rn	Polarity=Neg	7	advmod	7:advmod	_
+5	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+6	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	det	7:det	ArgTem=arg2:atr|MWE=lo_mismo|MWEPOS=ADV
+7	mismo	mismo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Dem	0	root	0:root	_
 8	que	que	SCONJ	cs	_	10	mark	10:mark	_
 9	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	_
-10	ambición	ambición	NOUN	ncfs000	Gender=Fem|Number=Sing	6	obl	6:obl	_
+10	ambición	ambición	NOUN	ncfs000	Gender=Fem|Number=Sing	7	nmod	7:nmod	_
 11	de	de	ADP	sps00	_	12	case	12:case	_
 12	perfecciones	perfección	NOUN	ncfp000	Gender=Fem|Number=Plur	10	nmod	10:nmod	ArgTem=arg1:pat
 13	vitalistas	vitalista	ADJ	aq0cp0	Number=Plur	12	amod	12:amod	_
 14	y	y	CCONJ	cc	_	15	cc	15:cc	_
 15	gozaderas	gozadero	ADJ	aq0fp0	Gender=Fem|Number=Plur	13	conj	13:conj	SpaceAfter=No
-16	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
+16	.	.	PUNCT	fp	PunctType=Peri	7	punct	7:punct	_
 
 # global.Entity = eid-etype-head-other
 # newdoc id = 3LB-CAST-t4-1
@@ -211124,7 +211124,7 @@
 15	más	más	ADV	rg	Degree=Cmp	13	advmod	13:advmod	_
 16	de	de	ADP	sps00	_	18	case	18:case	_
 17	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	18	det	18:det	_
-18	mismo	mismo	ADJ	aq0ms0	Gender=Masc|Number=Sing	15	advmod	15:advmod	SpaceAfter=No
+18	mismo	mismo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Dem	15	obl	15:obl	SpaceAfter=No
 19	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
 
 # sent_id = CESS-CAST-AA-20000224-20165-s3B
@@ -222719,7 +222719,7 @@
 20	que	que	PRON	pr0cn000	PronType=Rel	23	nsubj	23:nsubj	ArgTem=arg1:tem
 21	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	23:cop	_
 22	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	23	det	23:det	_
-23	mismo	mismo	ADV	rg	_	15	conj	15:conj	ArgTem=arg2:atr|SpaceAfter=No
+23	mismo	mismo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Dem	15	conj	15:conj	ArgTem=arg2:atr|SpaceAfter=No
 24	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
 25	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	Entity=(CESSCASTAA200003108105c6-other-2-CorefType:ident,gstype:spec
 26	pacto	pacto	NOUN	ncms000	Gender=Masc|Number=Sing	23	obj	23:obj	_
@@ -323364,7 +323364,7 @@
 33	clubs	club	NOUN	ncmp000	Gender=Masc|Number=Plur	34	nsubj	34:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
 34	piensan	pensar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl	_
 35	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	36	det	36:det	Entity=(NOCOREF:Gen--2-gstype:gen
-36	mismo	mismo	ADJ	aq0ms0	Gender=Masc|Number=Sing	34	obj	34:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
+36	mismo	mismo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Dem	34	obj	34:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 37	sobre	sobre	ADP	sps00	_	39	case	39:case	_
 38	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 39	reparto	reparto	NOUN	ncms000	Gender=Masc|Number=Sing	34	obl	34:obl	ArgTem=argM:adv
@@ -386105,8 +386105,8 @@
 # sent_id = CESS-CAST-P-20000102-47-s4
 # text = Lo mismo opina Metvei, de 20, vendedor en una librería.
 # orig_file_sentence 122#95
-1	Lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	obj	3:obj	ArgTem=arg1:pat|Entity=(CESSCASTP2000010247c5--1-CorefType:dx.prop
-2	mismo	mismo	ADJ	aq0ms0	Gender=Masc|Number=Sing	1	amod	1:amod	Entity=CESSCASTP2000010247c5)
+1	Lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	2	det	2:det	ArgTem=arg1:pat|Entity=(CESSCASTP2000010247c5--1-CorefType:dx.prop
+2	mismo	mismo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Dem	3	obj	3:obj	Entity=CESSCASTP2000010247c5)
 3	opina	opinar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	Metvei	Metvei	PROPN	np00000	_	3	nsubj	3:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000010247c6-person-1-gstype:spec|SpaceAfter=No
 5	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
@@ -395240,7 +395240,7 @@
 31	luego	luego	ADV	rg	_	32	advmod	32:advmod	ArgTem=argM:tmp
 32	sucederá	suceder	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	conj	26:conj	_
 33	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	34	det	34:det	Entity=(CESSCASTP2000020235_ac6--2-CorefType:dx.token
-34	mismo	mismo	ADJ	_	Gender=Masc|Number=Sing	32	nsubj	32:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2000020235_ac6)
+34	mismo	mismo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Dem	32	nsubj	32:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2000020235_ac6)
 35	con	con	ADP	sps00	_	36	case	36:case	_
 36	Europa	Europa	PROPN	np00000	_	32	obl	32:obl	ArgTem=argM:adv|Entity=(CESSCASTP2000020235_ac7-place-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 37	"	"	PUNCT	fe	PunctType=Quot	26	punct	26:punct	Entity=CESSCASTP2000020235_ac8)CESSCASTP2000020235_ac4)|SpaceAfter=No
@@ -469945,7 +469945,7 @@
 # orig_file_sentence 080#55
 1	Y	y	CCONJ	cc	_	5	cc	5:cc	_
 2	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	det	3:det	Entity=(CESSCASTP2001060110c12--2-CorefType:dx.type
-3	mismo	mismo	ADJ	aq0ms0	Gender=Masc|Number=Sing	5	nsubj:pass	5:nsubj:pass	ArgTem=arg1:pat|Entity=CESSCASTP2001060110c12)
+3	mismo	mismo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj:pass	5:nsubj:pass	ArgTem=arg1:pat|Entity=CESSCASTP2001060110c12)
 4	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:pass	5:expl:pass	_
 5	afirma	afirmar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	que	que	SCONJ	cs	_	7	mark	7:mark	_
@@ -476265,7 +476265,7 @@
 1	Ahora	ahora	ADV	rg	_	2	advmod	2:advmod	ArgTem=argM:tmp
 2	ocurre	ocurrir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	det	4:det	Entity=(CESSCASTP2001070130c3--2-CorefType:dx.token,gstype:gen
-4	mismo	mismo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	2:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2001070130c3)|SpaceAfter=No
+4	mismo	mismo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	2:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2001070130c3)|SpaceAfter=No
 5	:	:	PUNCT	fd	PunctType=Colo	6	punct	6:punct	Entity=(CESSCASTP2001070130c3--2-gstype:gen
 6	mazazos	mazazo	NOUN	ncmp000	Gender=Masc|Number=Plur	2	obl	2:obl	Entity=(NOCOREF:Gen--1-gstype:gen|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_

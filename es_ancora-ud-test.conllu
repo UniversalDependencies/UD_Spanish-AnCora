@@ -5266,7 +5266,7 @@
 1	Que	que	SCONJ	cs	_	4	mark	4:mark	_
 2	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	ArgTem=arg1:tem
 3	me	yo	PRON	pp1cs000	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
-4	encuentre	encontrar	VERB	vmsp1s0	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	csubj	16:csubj	ArgTem=arg1:tem
+4	encuentre	encontrar	VERB	vmsp1s0	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	csubj	17:csubj	ArgTem=arg1:tem
 5	dado	dar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	4:xcomp	ArgTem=arg2:atr
 6	a	a	ADP	sps00	_	7	case	7:case	_
 7	mí	yo	PRON	pp1cso00	Case=Acc|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	4	obl	4:obl	ArgTem=argM:adv
@@ -5276,10 +5276,10 @@
 11	de	de	ADP	sps00	_	12	case	12:case	_
 12	intuición	intuición	NOUN	ncfs000	Gender=Fem|Number=Sing	10	nmod	10:nmod	_
 13	empírica	empírico	ADJ	aq0fs0	Gender=Fem|Number=Sing	12	amod	12:amod	_
-14	no	no	ADV	rn	Polarity=Neg	16	advmod	16:advmod	_
-15	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
-16	lo	él	PRON	rg	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	0	root	0:root	ArgTem=arg2:atr|MWE=lo_mismo|MWEPOS=ADV
-17	mismo	mismo	ADJ	_	_	16	amod	16:amod	_
+14	no	no	ADV	rn	Polarity=Neg	17	advmod	17:advmod	_
+15	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
+16	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	17	det	17:det	ArgTem=arg2:atr|MWE=lo_mismo|MWEPOS=ADV
+17	mismo	mismo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Dem	0	root	0:root	_
 18	que	que	SCONJ	cs	_	19	mark	19:mark	_
 19	pensar	pensar	VERB	vmn0000	VerbForm=Inf	17	advcl	17:advcl	_
 20	que	que	SCONJ	cs	_	21	mark	21:mark	_
@@ -5290,7 +5290,7 @@
 25	diferencia	diferencia	NOUN	ncfs000	Gender=Fem|Number=Sing	28	nsubj	28:nsubj	ArgTem=arg1:tem
 26	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
 27	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	28	det	28:det	_
-28	decisivo	decisivo	ADJ	aq0ms0	Gender=Masc|Number=Sing	16	conj	16:conj	ArgTem=arg2:atr
+28	decisivo	decisivo	ADJ	aq0ms0	Gender=Masc|Number=Sing	17	conj	17:conj	ArgTem=arg2:atr
 29	puesto	poner	VERB	vmp00sm	ExtPos=SCONJ|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	mark	40:mark	MWE=puesto_que|MWEPOS=SCONJ
 30	que	que	SCONJ	cs	_	29	fixed	29:fixed	_
 31	sin	sin	ADP	sps00	_	32	case	32:case	_
@@ -5312,14 +5312,14 @@
 47	sujeto	sujeto	NOUN	ncms000	Gender=Masc|Number=Sing	44	appos	44:appos	SpaceAfter=No
 48	,	,	PUNCT	fc	PunctType=Comm	47	punct	47:punct	_
 49	soy	ser	AUX	vsip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	50	cop	50:cop	_
-50	objeto	objeto	NOUN	ncms000	Gender=Masc|Number=Sing	16	advcl	16:advcl	ArgTem=arg2:atr
+50	objeto	objeto	NOUN	ncms000	Gender=Masc|Number=Sing	17	advcl	17:advcl	ArgTem=arg2:atr
 51	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	52	punct	52:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
 52	Gegenstan	Gegenstan	PROPN	np0000a	_	50	appos	50:appos	SpaceAfter=No
 53	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	52	punct	52:punct	Entity=NOCOREF:Spec.other)
 54	de	de	ADP	sps00	_	55	case	55:case	_
 55	mí	yo	PRON	pp1cso00	Case=Acc|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	50	nmod	50:nmod	_
 56	mismo	mismo	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Dem	55	det	55:det	SpaceAfter=No
-57	.	.	PUNCT	fp	PunctType=Peri	16	punct	16:punct	_
+57	.	.	PUNCT	fp	PunctType=Peri	17	punct	17:punct	_
 
 # sent_id = 3LB-CAST-e3-3-s6
 # text = Con esto, sin embargo, se dice más que con la autoconciencia, para comprender por qué dice que sin autointuición no habría autoconciencia, basta apercibirse de que la verdad del cogito presupone las palabras que la enuncian, y el lenguaje es corpóreo, movimiento de moléculas de aire que hace vibrar un tímpano y, por qué con la autoafección se dice más que con la autoconciencia?
