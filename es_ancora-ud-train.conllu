@@ -3174,7 +3174,7 @@
 26	sin	sin	ADP	sps00	_	27	case	27:case	_
 27	planteamientos	planteamiento	NOUN	ncmp000	Gender=Masc|Number=Plur	21	conj	21:conj	_
 28	"	"	PUNCT	fe	PunctType=Quot	29	punct	29:punct	SpaceAfter=No
-29	preconcebidos	preconcebir	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	27	amod	27:amod	SpaceAfter=No
+29	preconcebidos	preconcebido	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	27	amod	27:amod	SpaceAfter=No
 30	"	"	PUNCT	fe	PunctType=Quot	29	punct	29:punct	_
 31	a	a	ADP	sps00	_	33	case	33:case	_
 32	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	33:det	_
@@ -117242,7 +117242,7 @@
 3	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
 4	que	que	PRON	pr0cn000	PronType=Rel	6	nsubj	6:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000022117012c1-organization-1-CorefType:ident,gstype:spec)
 5	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
-6	controlado	controlar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	2	acl:relcl	2:acl:relcl	ArgTem=arg2:atr
+6	controlado	controlado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	2	acl:relcl	2:acl:relcl	ArgTem=arg2:atr
 7	desde	desde	ADP	sps00	_	8	case	8:case	_
 8	1998	1998	NOUN	_	_	6	obl	6:obl	ArgTem=argM:tmp|Entity=(CESSCASTA2000022117012c6-time-1-gstype:spec)
 9	por	por	ADP	sps00	_	11	case	11:case	_
@@ -193000,7 +193000,7 @@
 15	aéreo	aéreo	ADJ	aq0ms0	Gender=Masc|Number=Sing	14	amod	14:amod	ArgTem=argM:mnr|Entity=NOCOREF:Gen)
 16	que	que	PRON	pr0cn000	PronType=Rel	17	nsubj	17:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200001148551c11--1-CorefType:ident,gstype:gen)
 17	verán	ver	VERB	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	ccomp	8:ccomp	_
-18	aumentado	aumentar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	17	xcomp	17:xcomp	ArgTem=argM:atr
+18	aumentado	aumentado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	17	xcomp	17:xcomp	ArgTem=argM:atr
 19	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	det	20:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTAA200001148551c11--1-CorefType:ident,gstype:gen)
 20	costos	costo	NOUN	ncmp000	Gender=Masc|Number=Plur	17	obj	17:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	Entity=(CESSCASTAA200001148551c12--5-CorefType:dx.token
@@ -294948,7 +294948,7 @@
 20	de	de	ADP	spcms	_	22	case	22:case	_
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	_
 22	submarino	submarino	NOUN	ncms000	Gender=Masc|Number=Sing	19	nmod	19:nmod	ArgTem=arg1:tem|Entity=(CESSCASTAA2000102621730c1-other-1-CorefType:ident,gstype:spec
-23	averiado	averiar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	22	amod	22:amod	Entity=CESSCASTAA2000102621730c1)CESSCASTAA2000102621730c8)NOCOREF:Gen)
+23	averiado	averiado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	22	amod	22:amod	Entity=CESSCASTAA2000102621730c1)CESSCASTAA2000102621730c8)NOCOREF:Gen)
 24	y	y	CCONJ	cc	_	25	cc	25:cc	_
 24.1	_	_	PRON	p	_	_	_	25:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000102621730c2--1-CorefType:ident,gstype:gen)
 25	evitaron	evitar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj	_
@@ -314069,7 +314069,7 @@
 40	recuerda	recordar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl	_
 41	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	42:det	Entity=(CESSCASTP199811013c16--2-gstype:gen,HomoDD
 42	uso	uso	NOUN	ncms000	Gender=Masc|Number=Sing	40	obj	40:obj	ArgTem=arg1:pat
-43	controlado	controlar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	42	amod	42:amod	_
+43	controlado	controlado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	42	amod	42:amod	_
 44	que	que	PRON	pr0cn000	PronType=Rel	45	obj	45:obj	ArgTem=arg1:pat|Entity=(CESSCASTP199811013c16--1-CorefType:ident,gstype:gen)
 45	requiere	requerir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	42:acl:relcl	_
 46	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	47:det	Entity=(CESSCASTP199811013c2-other-2-CorefType:ident,gstype:spec
@@ -332725,7 +332725,7 @@
 23	real	real	NOUN	ncms000	Gender=Masc|Number=Sing	26	nsubj	26:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP19990202102c2)
 24	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	26:cop	_
 25	ahora	ahora	ADV	rg	_	26	advmod	26:advmod	ArgTem=argM:tmp
-26	infravalorado	infravalorar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	19	conj	19:conj	ArgTem=arg2:atr|SpaceAfter=No
+26	infravalorado	infravalorado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	19	conj	19:conj	ArgTem=arg2:atr|SpaceAfter=No
 27	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = CESS-CAST-P-19990202-102-s17
@@ -347461,7 +347461,7 @@
 8	alternativo	alternativo	ADJ	aq0ms0	Gender=Masc|Number=Sing	7	amod	7:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	Entity=CESSCASTP19990502130c9)
 10	pionero	pionero	NOUN	ncms000	Gender=Masc|Number=Sing	1	appos	1:appos	Entity=(CESSCASTP19990502130c9-person-1-CorefType:pred.indefinit,gstype:spec
-11	infravalorado	infravalorar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	10:amod	_
+11	infravalorado	infravalorado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	10:amod	_
 12	desde	desde	ADP	sps00	_	13	case	13:case	_
 13	Surfin'	Surfin'	PROPN	np00000	_	10	nmod	10:nmod	Entity=(CESSCASTP19990502130c12-organization-1-gstype:spec|MWE=Surfin'_Bichos|MWEPOS=PROPN|SpaceAfter=No
 14	Bichos	Bichos	PROPN	_	_	13	flat	13:flat	Entity=CESSCASTP19990502130c12)CESSCASTP19990502130c9)|SpaceAfter=No
@@ -408338,7 +408338,7 @@
 25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	_
 26	agente	agente	NOUN	nccs000	Number=Sing	23	nmod	23:nmod	ArgTem=argM:adv|Entity=(CESSCASTP2000040164c4--1-CorefType:ident,gstype:gen)|SpaceAfter=No
 27	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
-28	propinado	propinar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	16	advmod	16:advmod	_
+28	propinado	propinado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	16	advmod	16:advmod	_
 29	con	con	ADP	sps00	_	31	case	31:case	_
 30	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	31:det	Entity=(CESSCASTP2000040164c8--2-gstype:gen,HomoDD
 31	mano	mano	NOUN	ncfs000	Gender=Fem|Number=Sing	28	obl	28:obl	ArgTem=argM:adv
@@ -408821,7 +408821,7 @@
 10	de	de	ADP	sps00	_	12	case	12:case	_
 11	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(CESSCASTP2000040185c3-other-2-gstype:spec,Title
 12	avión	avión	NOUN	ncms000	Gender=Masc|Number=Sing	9	nmod	9:nmod	ArgTem=arg1:tem
-13	averiado	averiar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	12	amod	12:amod	Entity=CESSCASTP2000040185c3)NOCOREF:Gen)|SpaceAfter=No
+13	averiado	averiado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	12	amod	12:amod	Entity=CESSCASTP2000040185c3)NOCOREF:Gen)|SpaceAfter=No
 14	.	.	PUNCT	fp	PunctType=Peri	5	punct	5:punct	_
 
 # sent_id = CESS-CAST-P-20000401-85-s2
@@ -409797,7 +409797,7 @@
 44	población	población	NOUN	ncfs000	Gender=Fem|Number=Sing	40	obl	40:obl	ArgTem=argM:adv
 45	negra	negro	ADJ	aq0fs0	Gender=Fem|Number=Sing	44	amod	44:amod	SpaceAfter=No
 46	,	,	PUNCT	fc	PunctType=Comm	47	punct	47:punct	_
-47	despojada	despojar	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	45	advmod	45:advmod	_
+47	despojada	despojado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	45	advmod	45:advmod	_
 48	de	de	ADP	sps00	_	49	case	49:case	_
 49	muchos	mucho	PRON	pi0mp000	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	47	obl:arg	47:obl:arg	ArgTem=arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen
 50	de	de	ADP	sps00	_	52	case	52:case	_
@@ -430214,7 +430214,7 @@
 16	quedó	quedar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 17	ayer	ayer	ADV	rg	_	16	advmod	16:advmod	ArgTem=argM:tmp
 18	totalmente	totalmente	ADV	rg	_	19	advmod	19:advmod	ArgTem=argM:adv
-19	controlado	controlar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	16	obj	16:obj	ArgTem=arg2:atr
+19	controlado	controlado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	16	obj	16:obj	ArgTem=arg2:atr
 20	después	después	ADV	rg	_	16	advmod	16:advmod	ArgTem=argM:tmp
 21	de	de	ADP	sps00	_	23	mark	23:mark	_
 22	haber	haber	AUX	van0000	VerbForm=Inf	23	aux	23:aux	_
@@ -430686,7 +430686,7 @@
 14	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	expl:pass	15:expl:pass	_
 15	dio	dar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj	_
 16	por	por	ADP	sps00	_	17	case	17:case	_
-17	controlado	controlar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	15	obl	15:obl	ArgTem=arg2:tem
+17	controlado	controlado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	15	obl	15:obl	ArgTem=arg2:tem
 18	cuatro	cuatro	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	19	nummod	19:nummod	_
 19	horas	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	20	obl	20:obl	_
 20	después	después	ADV	rg	_	15	advmod	15:advmod	ArgTem=argM:tmp|SpaceAfter=No
@@ -434403,7 +434403,7 @@
 39	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	40:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 40	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	32	nmod	32:nmod	_
 41	vasco	vasco	ADJ	aq0ms0	Gender=Masc|Number=Sing	40	amod	40:amod	_
-42	controlado	controlar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	40	amod	40:amod	_
+42	controlado	controlado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	40	amod	40:amod	_
 43	por	por	ADP	sps00	_	45	case	45:case	_
 44	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	45:det	Entity=(CESSCASTP2000090334c13--2-CorefType:ident,gstype:gen,HomoDD
 45	nacionalismo	nacionalismo	NOUN	ncms000	Gender=Masc|Number=Sing	42	obl:agent	42:obl:agent	ArgTem=arg0:agt|Entity=CESSCASTP2000090334c13)NOCOREF:Spec.organization)CESSCASTP2000090334c31)CESSCASTP2000090334c48)NOCOREF:Gen)|SpaceAfter=No
@@ -436551,7 +436551,7 @@
 19	duro	duro	ADJ	aq0ms0	Gender=Masc|Number=Sing	20	amod	20:amod	_
 20	revés	revés	NOUN	ncms000	Gender=Masc|Number=Sing	17	obj	17:obj	ArgTem=arg2:atr|SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
-22	propinado	propinar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	20	amod	20:amod	_
+22	propinado	propinado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	20	amod	20:amod	_
 23	por	por	ADP	sps00	_	25	case	25:case	_
 24	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 25	policías	policía	NOUN	nccp000	Number=Plur	22	obl:agent	22:obl:agent	ArgTem=arg0:agt
@@ -442648,7 +442648,7 @@
 2	sexo	sexo	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 4	mejor	mejor	ADV	rg	_	2	advmod	2:advmod	_
-5	controlado	controlar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	2	amod	2:amod	Entity=CESSCASTP2000100193c3)|SpaceAfter=No
+5	controlado	controlado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	2	amod	2:amod	Entity=CESSCASTP2000100193c3)|SpaceAfter=No
 6	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
 
 # sent_id = CESS-CAST-P-20001001-93-s10
@@ -442696,7 +442696,7 @@
 38	sexo	sexo	NOUN	ncms000	Gender=Masc|Number=Sing	35	nmod	35:nmod	ArgTem=arg1:pat|Entity=(CESSCASTP2000100193c3--1-CorefType:ident,gstype:gen,HomoDD)CESSCASTP2000100193c12)
 39	estará	estar	AUX	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	41	cop	41:cop	ArgTem=argM:adv
 40	más	más	ADV	rg	Degree=Cmp	41	advmod	41:advmod	ArgTem=argM:adv
-41	controlado	controlar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	20	advcl	20:advcl	ArgTem=arg2:atr|SpaceAfter=No
+41	controlado	controlado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	20	advcl	20:advcl	ArgTem=arg2:atr|SpaceAfter=No
 42	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = CESS-CAST-P-20001001-93-s11
@@ -483191,7 +483191,7 @@
 12	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	13:det	Entity=(CESSCASTP2001080170c15-organization-2-CorefType:ident,gstype:spec
 13	Senado	Senado	PROPN	np00000	_	10	nsubj	10:nsubj	ArgTem=arg0:agt|SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
-15	controlado	controlar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	13	amod	13:amod	_
+15	controlado	controlado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	13	amod	13:amod	_
 16	por	por	ADP	sps00	_	18	case	18:case	_
 17	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	18:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 18	demócratas	demócrata	NOUN	nccp000	Number=Plur	15	obl:agent	15:obl:agent	ArgTem=arg0:agt|Entity=NOCOREF:Gen)CESSCASTP2001080170c15)|SpaceAfter=No
@@ -491960,7 +491960,7 @@
 11	mujeres	mujer	NOUN	ncfp000	Gender=Fem|Number=Plur	8	appos	8:appos	_
 12	treintañeras	treintañero	ADJ	aq0fp0	Gender=Fem|Number=Plur	11	amod	11:amod	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	_
-14	desinhibidas	desinhibir	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	12	advmod	12:advmod	SpaceAfter=No
+14	desinhibidas	desinhibido	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	12	advmod	12:advmod	SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
 16	con	con	ADP	sps00	_	18	case	18:case	_
 17	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	Entity=(NOCOREF:Gen--2-gstype:gen

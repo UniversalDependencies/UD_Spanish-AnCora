@@ -26690,7 +26690,7 @@
 14	&	&	PROPN	_	_	13	flat	13:flat	_
 15	Berland	Berland	PROPN	_	_	13	flat	13:flat	Entity=NOCOREF:Spec.organization)NOCOREF:Spec.organization)|SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
-17	divulgado	divulgar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	2	amod	2:amod	_
+17	divulgado	divulgado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	2	amod	2:amod	_
 18	hoy	hoy	ADV	rg	_	17	advmod	17:advmod	ArgTem=argM:tmp|SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	Entity=NOCOREF:Gen)
 20	revela	revelar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
