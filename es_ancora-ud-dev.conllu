@@ -44775,7 +44775,7 @@
 20	Gómez	Gómez	PROPN	_	_	19	flat	19:flat	_
 21	y	y	CCONJ	cc	_	23	cc	23:cc	_
 22	enteramente	enteramente	ADV	rg	_	23	advmod	23:advmod	ArgTem=argM:adv
-23	hablado	hablar	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	4:conj	_
+23	hablado	hablar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	4:conj	_
 24	en	en	ADP	sps00	_	25	case	25:case	_
 25	verso	verso	NOUN	ncms000	Gender=Masc|Number=Sing	23	obl	23:obl	ArgTem=argM:mnr|SpaceAfter=No
 26	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	Entity=CESSCASTP19991102101c1)

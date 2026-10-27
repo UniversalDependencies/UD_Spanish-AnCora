@@ -40361,7 +40361,7 @@
 14	tras	tras	ADP	sps00	_	16	case	16:case	_
 15	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	Entity=(CESSCASTP19990202123c9--2-CorefType:ident,gstype:gen
 16	escándalo	escándalo	NOUN	ncms000	Gender=Masc|Number=Sing	19	obl	19:obl	ArgTem=argM:tmp
-17	desatado	desatar	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	16:acl	Entity=CESSCASTP19990202123c9)
+17	desatado	desatar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	16:acl	Entity=CESSCASTP19990202123c9)
 17.1	_	_	PRON	p	_	_	_	19:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP19990202123c7-person-1-CorefType:ident,gstype:spec)
 18	no	no	ADV	rn	Polarity=Neg	19	advmod	19:advmod	_
 19	descarta	descartar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	11:ccomp	ArgTem=arg1:pat

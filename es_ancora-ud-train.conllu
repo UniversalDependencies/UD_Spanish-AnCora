@@ -101355,7 +101355,7 @@
 4	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
 5	de	de	ADP	sps00	_	7	mark	7:mark	_
 6	ser	ser	AUX	vsn0000	VerbForm=Inf	7	cop	7:cop	_
-7	elegido	elegir	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	11:advcl	ArgTem=arg2:atr
+7	elegido	elegir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	11:advcl	ArgTem=arg2:atr
 8	él	él	PRON	pp3ms000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000011912375c3-person-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
 10	Croacia	Croacia	PROPN	np0000o	_	11	nsubj	11:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000011912375c15-place-1-CorefType:ident,gstype:spec)
@@ -106569,7 +106569,7 @@
 21	Unión	Unión	PROPN	np0000o	_	15	nmod	15:nmod	MWE=Unión_Soviética|MWEPOS=PROPN
 22	Soviética	Soviética	PROPN	_	_	21	flat	21:flat	Entity=CESSCASTA2000012618483c14)|SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
-24	estimada	estimar	VERB	aq0fsp	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	15:acl	_
+24	estimada	estimar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	15:acl	_
 25	en	en	ADP	sps00	_	27	case	27:case	_
 26	22.000	22000	NUM	_	NumForm=Digit|NumType=Card	27	nummod	27:nummod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 27	millones	millón	NOUN	ncmp000	Gender=Masc|Number=Plur	24	obl	24:obl	ArgTem=argM:adv
@@ -117582,7 +117582,7 @@
 29	bancarias	bancario	ADJ	aq0fp0	Gender=Fem|Number=Plur	28	amod	28:amod	Entity=CESSCASTA2000022117317c7)|SpaceAfter=No
 30	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
 31	ya	ya	ADV	rg	_	32	advmod	32:advmod	ArgTem=argM:tmp
-32	descartado	descartar	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	26:acl	_
+32	descartado	descartar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	26:acl	_
 33	por	por	ADP	sps00	_	35	case	35:case	_
 34	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	35:det	Entity=(CESSCASTA2000022117317c10-organization-2-gstype:spec
 35	Gobierno	gobierno	NOUN	ncms000	Gender=Masc|Number=Sing	32	obl:agent	32:obl:agent	ArgTem=arg0:agt|Entity=CESSCASTA2000022117317c10)|SpaceAfter=No
@@ -122970,7 +122970,7 @@
 14	ambos	ambos	NUM	dn0mp0	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	15	nummod	15:nummod	Entity=(CESSCASTA2000031613150c1_PLUS_CESSCASTA2000031613150c7-other-2-CorefType:ident,gstype:spec|SplitAnte=CESSCASTA2000031613150c7<CESSCASTA2000031613150c1_PLUS_CESSCASTA2000031613150c7,CESSCASTA2000031613150c1<CESSCASTA2000031613150c1_PLUS_CESSCASTA2000031613150c7
 15	equipos	equipo	NOUN	ncmp000	Gender=Masc|Number=Plur	6	obl	6:obl	ArgTem=argM:adv|Entity=CESSCASTA2000031613150c1_PLUS_CESSCASTA2000031613150c7)|SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
-17	saldado	saldar	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	5:acl	_
+17	saldado	saldar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	5:acl	_
 18	a	a	ADP	spcms	_	19	case	19:case	MWE=a_favor_del|MWEPOS=ADP
 19	favor	favor	NOUN	_	_	17	obl	17:obl	_
 20-21	del	_	_	_	_	_	_	_	_
@@ -144016,7 +144016,7 @@
 34	cuadro	cuadro	NOUN	ncms000	Gender=Masc|Number=Sing	31	nmod	31:nmod	ArgTem=arg0:agt
 35	verde	verde	ADJ	aq0cs0	Number=Sing	34	amod	34:amod	SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	37	punct	37:punct	_
-37	descendido	descender	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl	34:acl	_
+37	descendido	descender	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl	34:acl	_
 38	esta	este	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	39	det	39:det	Entity=(CESSCASTA2000061411476c8--2-gstype:gen
 39	temporada	temporada	NOUN	ncfs000	Gender=Fem|Number=Sing	37	obl	37:obl	ArgTem=argM:tmp|Entity=CESSCASTA2000061411476c8)
 40	a	a	ADP	sps00	_	41	case	41:case	_
@@ -204197,7 +204197,7 @@
 33	empresa	empresa	NOUN	ncfs000	Gender=Fem|Number=Sing	30	nmod	30:nmod	ArgTem=arg0:agt
 34	BCS	BCS	PROPN	np00000	_	33	appos	33:appos	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)
 35	recientemente	recientemente	ADV	rg	_	36	advmod	36:advmod	ArgTem=argM:tmp
-36	adquirida	adquirir	VERB	aq0fsp	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	33	acl	33:acl	Entity=NOCOREF:Spec.organization)NOCOREF:Gen)|SpaceAfter=No
+36	adquirida	adquirir	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	33	acl	33:acl	Entity=NOCOREF:Spec.organization)NOCOREF:Gen)|SpaceAfter=No
 37	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	23	punct	23:punct	Entity=NOCOREF:Spec.number)NOCOREF:Spec.number)
 38	a	a	ADP	sps00	ExtPos=ADP	42	case	42:case	MWE=a_pesar_de|MWEPOS=ADP
 39	pesar	pesar	VERB	vmn0000	VerbForm=Inf	38	fixed	38:fixed	_
@@ -207171,7 +207171,7 @@
 25	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	Entity=(NOCOREF:Gen--2-gstype:gen
 26	virus	virus	NOUN	ncmn000	Gender=Masc	24	obj	24:obj	ArgTem=arg1:pat
 27	genéticamente	genéticamente	ADV	rg	_	28	advmod	28:advmod	ArgTem=argM:mnr
-28	alterado	alterar	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	26:acl	Entity=NOCOREF:Gen)
+28	alterado	alterar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	26:acl	Entity=NOCOREF:Gen)
 29	para	para	ADP	sps00	_	30	mark	30:mark	_
 30	combatir	combatir	VERB	vmn0000	VerbForm=Inf	24	advcl	24:advcl	ArgTem=argM:fin
 31	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	33:det	Entity=(NOCOREF:Gen--3-gstype:gen
@@ -308222,7 +308222,7 @@
 36	de	de	ADP	sps00	_	37	case	37:case	_
 37	aprovisionamiento	aprovisionamiento	NOUN	ncms000	Gender=Masc|Number=Sing	35	nmod	35:nmod	Entity=CESSCASTAA2000112721609c5)NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
 38	,	,	PUNCT	fc	PunctType=Comm	39	punct	39:punct	_
-39	debido	debido	ADJ	vmp00sm	Gender=Masc|Number=Sing|VerbForm=Part	23	conj	23:conj	_
+39	debido	debido	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	23	conj	23:conj	_
 40	precisamente	precisamente	ADV	rg	_	43	advmod	43:advmod	_
 41	a	a	ADP	sps00	_	43	case	43:case	_
 42	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	43:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -309361,7 +309361,7 @@
 42	asimismo	asimismo	ADV	rg	_	45	advmod	45:advmod	SpaceAfter=No
 43	,	,	PUNCT	fc	PunctType=Comm	42	punct	42:punct	_
 44	más	más	ADV	rg	Degree=Cmp	45	advmod	45:advmod	ArgTem=argM:adv
-45	utilizada	utilizar	VERB	aq0fsp	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	40	advcl	40:advcl	_
+45	utilizada	utilizar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	40	advcl	40:advcl	_
 46	dentro	dentro	ADV	rg	_	45	advmod	45:advmod	ArgTem=argM:loc
 47	de	de	ADP	sps00	_	48	case	48:case	_
 48	Estados	Estados	PROPN	np00000	_	46	obl	46:obl	Entity=(CESSCASTAA2000112922863c32-place-1-gstype:spec|MWE=Estados_Unidos|MWEPOS=PROPN
@@ -310430,7 +310430,7 @@
 14	en	en	ADP	sps00	_	15	case	15:case	_
 15	octubre	octubre	NOUN	_	_	11	obl	11:obl	ArgTem=argM:tmp|Entity=(CESSCASTAA2000113023915c4-time-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
-17	debido	debido	ADJ	vmp00sm	Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	11:advcl	_
+17	debido	debido	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	11	advcl	11:advcl	_
 18	sobre	sobre	ADP	rg	_	19	case	19:case	MWE=sobre_todo|MWEPOS=ADV
 19	todo	todo	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	17	obl	17:obl	_
 20	a	a	ADP	sps00	_	22	case	22:case	_
@@ -324766,7 +324766,7 @@
 19	Rumanía	Rumanía	PROPN	np00000	_	16	nmod	16:nmod	Entity=(CESSCASTP19981202141c6-place-1-gstype:spec)CESSCASTP19981202141c2)NOCOREF:Gen)
 20	y	y	CCONJ	cc	_	21	cc	21:cc	_
 21	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	9:conj	_
-22	acompañada	acompañado	ADJ	vmp00fs	Gender=Fem|Number=Sing|VerbForm=Part	21	xcomp	21:xcomp	_
+22	acompañada	acompañado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	21	xcomp	21:xcomp	_
 23	de	de	ADP	sps00	_	26	case	26:case	_
 24	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	26:det	Entity=(NOCOREF:Gen--3-gstype:gen
 25	sugerente	sugerente	ADJ	aq0cs0	Number=Sing	26	amod	26:amod	_
@@ -334636,7 +334636,7 @@
 22	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	23	obl:arg	23:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTP1999020215c1--1-CorefType:ident,gstype:gen)
 23	mantengan	mantener	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	csubj	20:csubj	ArgTem=arg1:tem
 24	bien	bien	ADV	rg	_	25	advmod	25:advmod	ArgTem=argM:adv
-25	conservado	conservar	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	ccomp	23:ccomp	ArgTem=argM:atr
+25	conservado	conservar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	ccomp	23:ccomp	ArgTem=argM:atr
 26	en	en	ADP	sps00	_	28	case	28:case	_
 27	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	28:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP1999020215c1--1-CorefType:ident,gstype:gen)
 28	postura	postura	NOUN	ncfs000	Gender=Fem|Number=Sing	25	obl	25:obl	ArgTem=argM:loc
@@ -432007,7 +432007,7 @@
 29-30	al	_	_	_	_	_	_	_	_
 29	a	a	ADP	spcms	_	30	case	30:case	_
 30	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Dem	28	obl	28:obl	_
-31	conseguido	conseguir	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	30:acl	_
+31	conseguido	conseguir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	30:acl	_
 32	por	por	ADP	sps00	_	34	case	34:case	_
 33	otras	otro	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	34	det	34:det	Entity=(NOCOREF:Gen--2-gstype:gen
 34	operadoras	operadora	NOUN	ncfp000	Gender=Fem|Number=Plur	31	obl:agent	31:obl:agent	ArgTem=arg0:agt
@@ -462593,7 +462593,7 @@
 10	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	Entity=(NOCOREF:Gen--2-gstype:gen
 11	noche	noche	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nmod	8:nmod	Entity=NOCOREF:Gen)NOCOREF:Spec.date)
 12	totalmente	totalmente	ADV	rg	_	13	advmod	13:advmod	ArgTem=argM:adv
-13	colapsada	colapsar	VERB	aq0fsp	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	6:ccomp	ArgTem=arg2:atr
+13	colapsada	colapsar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	6:ccomp	ArgTem=arg2:atr
 14	por	por	ADP	sps00	_	16	case	16:case	_
 15	15	15	NUM	_	NumForm=Digit|NumType=Card	16	nummod	16:nummod	ArgTem=arg0:agt|Entity=(CESSCASTP20010401187c1--2-gstype:gen
 16	millones	millón	NOUN	ncmp000	Gender=Masc|Number=Plur	13	obl:arg	13:obl:arg	_
@@ -464899,7 +464899,7 @@
 16	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 17	tal	tal	NOUN	rg	ExtPos=ADV	19	advmod	19:advmod	MWE=tal_vez|MWEPOS=ADV
 18	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	17	fixed	17:fixed	_
-19	amamantados	amamantar	VERB	aq0mpp	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	acl	15:acl	_
+19	amamantados	amamantar	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	acl	15:acl	_
 20	por	por	ADP	sps00	_	21	case	21:case	_
 21	Gil	Gil	PROPN	np00000	_	19	obl:agent	19:obl:agent	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	Entity=CESSCASTP20010501131c10)
@@ -516591,7 +516591,7 @@
 12	Marbà	Marbà	PROPN	_	_	11	flat	11:flat	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
 14	recién	recién	ADV	rg	_	15	advmod	15:advmod	ArgTem=argM:tmp
-15	llegado	llegar	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	11:acl	_
+15	llegado	llegar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	11:acl	_
 16	de	de	ADP	sps00	_	17	case	17:case	_
 17	México	México	PROPN	np00000	_	15	obl	15:obl	ArgTem=arg3:ori|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)
 18	para	para	ADP	sps00	_	19	mark	19:mark	_
@@ -527435,7 +527435,7 @@
 7	Ripoll	Ripoll	PROPN	np00000	_	5	nmod	5:nmod	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)NOCOREF:Gen)NOCOREF:Gen)
 8	tenían	tener	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
 9	también	también	ADV	rg	_	10	advmod	10:advmod	_
-10	obstruidas	obstruir	VERB	aq0fpp	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	ccomp	8:ccomp	ArgTem=argM:atr
+10	obstruidas	obstruir	VERB	vmp00pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	ccomp	8:ccomp	ArgTem=argM:atr
 11	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	12:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 12	salidas	salida	NOUN	ncfp000	Gender=Fem|Number=Plur	8	obj	8:obj	ArgTem=arg2:atr
 13	de	de	ADP	sps00	_	14	case	14:case	_
