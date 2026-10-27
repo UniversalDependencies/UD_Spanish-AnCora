@@ -70308,7 +70308,7 @@
 24	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 25	Ru	Ru	NOUN	ncms000	Gender=Masc|Number=Sing	23	conj	23:conj	SpaceAfter=No
 26	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
-27	Os	tú	PRON	ncms000	Case=Acc,Dat|Gender=Masc|Number=Plur|Person=2|PrepCase=Npr|PronType=Prs	23	conj	23:conj	SpaceAfter=No
+27	Os	Os	NOUN	ncms000	Gender=Masc|Number=Sing	23	conj	23:conj	SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
 29	Co	Co	NOUN	ncms000	Gender=Masc|Number=Sing	23	conj	23:conj	SpaceAfter=No
 30	,	,	PUNCT	fc	PunctType=Comm	31	punct	31:punct	_
@@ -417348,7 +417348,7 @@
 # orig_file_sentence 127#21
 1	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 2	cambios	cambio	NOUN	ncmp000	Gender=Masc|Number=Plur	11	nsubj	11:nsubj	ArgTem=arg1:tem
-3	reclamados	reclamar	VERB	vmm02p0	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	2	acl	2:acl	_
+3	reclamados	reclamar	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	2:acl	_
 4	por	por	ADP	sps00	_	6	case	6:case	_
 5	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	6:det	Entity=(CESSCASTP2000060157_ac1-organization-2-CorefType:ident,gstype:spec
 6	socialistas	socialista	NOUN	nccp000	Number=Plur	3	obl:arg	3:obl:arg	ArgTem=arg0:agt|Entity=CESSCASTP2000060157_ac1)NOCOREF:Gen)
@@ -477775,7 +477775,7 @@
 10	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	11:det	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP2001070138c1-person-1-CorefType:ident,gstype:spec)
 11	generación	generación	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nmod	8:nmod	Entity=NOCOREF:Gen)CESSCASTP2001070138c79)|SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
-13	incluidos	incluir	VERB	vmm02p0	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	18	advcl	18:advcl	_
+13	incluidos	incluir	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	advcl	18:advcl	_
 14	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	15:det	Entity=(CESSCASTP2001070138c3-organization-2-CorefType:ident,gstype:spec
 15	Stones	Stones	PROPN	np00000	_	13	nsubj	13:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2001070138c3)|SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_

@@ -53814,7 +53814,7 @@
 28	representantes	representante	NOUN	nccp000	Number=Plur	25	nmod	25:nmod	ArgTem=arg1:pat
 29	corsos	corso	ADJ	aq0mp0	Gender=Masc|Number=Plur	28	amod	28:amod	SpaceAfter=No
 30	,	,	PUNCT	fc	PunctType=Comm	31	punct	31:punct	_
-31	incluidos	incluir	VERB	vmm02p0	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	28	acl	28:acl	_
+31	incluidos	incluir	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	acl	28:acl	_
 32	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	33:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 33	nacionalistas	nacionalista	NOUN	nccp000	Number=Plur	31	nsubj	31:nsubj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|SpaceAfter=No
 34	,	,	PUNCT	fc	PunctType=Comm	31	punct	31:punct	Entity=NOCOREF:Gen)NOCOREF:Gen)CESSCASTP2000080226c17)
