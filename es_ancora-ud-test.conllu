@@ -1034,10 +1034,10 @@
 # sent_id = 3LB-CAST-a12-1-s11
 # text = Lo suyo, lo de las ratas, no es la carroña pura y dura sino la vida regalada, el eterno banquete de sobras y residuos, el festín organizado a la sobra de la abundancia y el hartazgo.
 # orig_file_sentence 001#24
-1	Lo	él	PRON	px3ns000	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	12	nsubj	12:nsubj	ArgTem=arg1:tem|MWE=Lo_suyo|MWEPOS=PRON
-2	suyo	suyo	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	compound	1:compound	SpaceAfter=No
+1	Lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	2	det	2:det	ArgTem=arg1:tem|MWE=Lo_suyo|MWEPOS=PRON
+2	suyo	suyo	PRON	px3ms000	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nsubj	12:nsubj	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
-4	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	1	appos	1:appos	_
+4	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	2	appos	2:appos	_
 5	de	de	ADP	sps00	_	4	case	4:case	_
 6	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	7:det	_
 7	ratas	rata	NOUN	ncfp000	Gender=Fem|Number=Plur	4	nmod	4:nmod	SpaceAfter=No
@@ -1079,8 +1079,8 @@
 # sent_id = 3LB-CAST-a12-1-s12
 # text = Lo suyo es vivir junto a la gente fina, que come sólo la mitad de lo que compra.
 # orig_file_sentence 001#25
-1	Lo	él	PRON	px3ns000	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	nsubj	3:nsubj	ArgTem=arg1:tem|MWE=Lo_suyo|MWEPOS=PRON
-2	suyo	suyo	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	compound	1:compound	_
+1	Lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	2	det	2:det	ArgTem=arg1:tem|MWE=Lo_suyo|MWEPOS=PRON
+2	suyo	suyo	PRON	px3ms000	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nsubj	3:nsubj	_
 3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	vivir	vivir	VERB	vmn0000	VerbForm=Inf	3	ccomp	3:ccomp	ArgTem=arg2:atr
 5	junto	junto	ADJ	sps00	ExtPos=ADP	8	case	8:case	MWE=junto_a|MWEPOS=ADP
