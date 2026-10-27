@@ -56756,7 +56756,7 @@
 # sent_id = CESS-CAST-P-20010801-57-s7
 # text = LO QUE DICE EL SUPREMO.
 # orig_file_sentence 016#3
-1	LO	él	PRON	da00s0	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	det	3:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD,Title
+1	LO	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	det	3:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD,Title
 2	QUE	que	PRON	pr000000	PronType=Rel	3	obj	3:obj	ArgTem=arg1:pat
 3	DICE	decir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	EL	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCASTP2001080157c6-organization-2-gstype:spec,Title
