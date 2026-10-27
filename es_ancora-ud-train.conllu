@@ -364143,7 +364143,7 @@
 # sent_id = CESS-CAST-P-19990901-7-s2
 # text = Lo más suave que se puede decir sobre el desenlace del ruidoso debate sobre las pensiones mínimas es que ha sido el parto de los montes.
 # orig_file_sentence 137#55
-1	Lo	él	PRON	da0ms0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	det	7:det	Entity=(CESSCASTP199909017c1--7-gstype:gen
+1	Lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	det	7:det	Entity=(CESSCASTP199909017c1--7-gstype:gen
 2	más	más	ADV	rg	Degree=Cmp	3	advmod	3:advmod	_
 3	suave	suave	ADJ	aq0cs0	Number=Sing	7	amod	7:amod	ArgTem=arg1:tem
 4	que	que	PRON	pr0cn000	PronType=Rel	7	nsubj	7:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTP199909017c1--1-CorefType:ident,gstype:gen)
