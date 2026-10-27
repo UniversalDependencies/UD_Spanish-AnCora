@@ -130906,7 +130906,7 @@
 62	hasta	hasta	ADP	sps00	_	63	case	63:case	_
 63	ahora	ahora	ADV	rg	_	65	advmod	65:advmod	ArgTem=argM:tmp
 64	demasiado	demasiado	ADV	rg	_	65	advmod	65:advmod	ArgTem=argM:adv
-65	implicada	implicar	ADJ	aq0msp	Gender=Fem|Number=Sing|VerbForm=Part	55	conj	55:conj	ArgTem=arg2:atr
+65	implicada	implicado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	55	conj	55:conj	ArgTem=arg2:atr
 66	en	en	ADP	sps00	_	68	case	68:case	_
 67	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	68	det	68:det	Entity=(CESSCASTA2000032318827c11--2-gstype:gen,HomoDD
 68	problemas	problema	NOUN	ncmp000	Gender=Masc|Number=Plur	65	obl:arg	65:obl:arg	ArgTem=arg2:tem
@@ -143139,7 +143139,7 @@
 9	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 10	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	cop	12:cop	ArgTem=arg1:pat
 11	suficientemente	suficientemente	ADV	rg	_	12	advmod	12:advmod	ArgTem=argM:adv
-12	apoyado	apoyar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp	4:ccomp	ArgTem=arg2:atr|SpaceAfter=No
+12	apoyado	apoyado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	4	ccomp	4:ccomp	ArgTem=arg2:atr|SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 14	ya	ya	ADV	cs	ExtPos=SCONJ	24	mark	24:mark	MWE=ya_que|MWEPOS=SCONJ
 15	que	que	SCONJ	cs	_	14	fixed	14:fixed	SpaceAfter=No
@@ -209943,7 +209943,7 @@
 46.1	_	_	PRON	p	_	_	_	47:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200002118933c18--1-CorefType:ident,gstype:gen)
 47	sean	ser	AUX	vssp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	cop	49:cop	ArgTem=argM:fin
 48	plenamente	plenamente	ADV	rg	_	49	advmod	49:advmod	ArgTem=argM:adv
-49	respetadas	respetar	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	36	advcl	36:advcl	_
+49	respetadas	respetado	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	36	advcl	36:advcl	_
 50	y	y	CCONJ	cc	_	51	cc	51:cc	_
 51	verificables	verificable	ADJ	aq0cp0	Number=Plur	49	conj	49:conj	ArgTem=arg2:atr
 52	en	en	ADP	sps00	_	54	case	54:case	_
@@ -290602,7 +290602,7 @@
 8	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	ArgTem=arg1:pat
 9	de	de	ADP	sps00	_	10	case	10:case	_
 10	todos	todo	PRON	pi0mp000	Gender=Masc|Number=Plur|PronType=Tot	11	obl:arg	11:obl:arg	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--1-gstype:gen)
-11	conocido	conocer	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	1	ccomp	1:ccomp	ArgTem=arg2:atr
+11	conocido	conocido	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	1	ccomp	1:ccomp	ArgTem=arg2:atr
 12	que	que	SCONJ	cs	_	16	mark	16:mark	_
 13	"	"	PUNCT	fe	PunctType=Quot	16	punct	16:punct	SpaceAfter=No
 14	Segura	Segura	PROPN	np00000	_	16	nsubj	16:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200010118684c3-person-1-CorefType:ident,gstype:spec)
@@ -324151,7 +324151,7 @@
 21	siempre	siempre	ADV	rg	_	24	advmod	24:advmod	ArgTem=argM:tmp
 22	habían	haber	AUX	vaii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	aux	24:aux	_
 23	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	cop	24:cop	_
-24	opuestos	oponer	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
+24	opuestos	opuesto	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 25-26	al	_	_	_	_	_	_	_	_
 25	a	a	ADP	spcms	_	29	case	29:case	_
 26	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	_
@@ -334973,7 +334973,7 @@
 4	no	no	ADV	rn	Polarity=Neg	7	advmod	7:advmod	_
 5	están	estar	AUX	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 6	bien	bien	ADV	rg	_	7	advmod	7:advmod	ArgTem=argM:adv
-7	vistas	ver	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
+7	vistas	visto	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 8	en	en	ADP	sps00	_	10	case	10:case	_
 9	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	10:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 10	partidos	partido	NOUN	ncmp000	Gender=Masc|Number=Plur	7	obl	7:obl	ArgTem=argM:loc
@@ -367938,7 +367938,7 @@
 17	español	español	ADJ	aq0ms0	Gender=Masc|Number=Sing	15	amod	15:amod	Entity=CESSCASTP19991001107c2)
 18	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	ArgTem=arg1:pat
 19	demasiado	demasiado	ADV	rg	_	20	advmod	20:advmod	ArgTem=argM:adv
-20	atomizado	atomizar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	11	ccomp	11:ccomp	ArgTem=arg2:atr|Entity=CESSCASTP19991001107c10)|SpaceAfter=No
+20	atomizado	atomizado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	11	ccomp	11:ccomp	ArgTem=arg2:atr|Entity=CESSCASTP19991001107c10)|SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
 22	por	por	ADP	sps00	_	27	case	27:case	_
 23	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	27	det	27:det	Entity=(CESSCASTP19991001107c10--5-CorefType:dx.token
@@ -403999,7 +403999,7 @@
 2	Catalunya	Catalunya	PROPN	np00000	_	4	obl	4:obl	ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)
 2.1	_	_	PRON	p	_	_	_	3:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20000401105c2--1-gstype:gen)
 3	estamos	estar	AUX	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
-4	habituados	habituar	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
+4	habituados	habituado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 5	a	a	ADP	sps00	_	11	mark	11:mark	_
 6	que	que	SCONJ	cs	_	11	mark	11:mark	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCASTP20000401105c5--2-gstype:gen,HomoDD
@@ -522302,7 +522302,7 @@
 24	por	por	ADP	sps00	_	27	mark	27:mark	_
 25	estar	estar	AUX	vmn0000	VerbForm=Inf	27	aux:pass	27:aux:pass	ArgTem=argM:cau
 26	mal	mal	ADV	rg	_	27	advmod	27:advmod	ArgTem=argM:loc
-27	aparcado	aparcar	VERB	aq0msp	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	20:advcl	ArgTem=arg2:atr|Entity=CESSCASTP200205027c2)|SpaceAfter=No
+27	aparcado	aparcar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	20:advcl	ArgTem=arg2:atr|Entity=CESSCASTP200205027c2)|SpaceAfter=No
 28	.	.	PUNCT	fp	PunctType=Peri	12	punct	12:punct	_
 
 # sent_id = CESS-CAST-P-20020502-7-s3
