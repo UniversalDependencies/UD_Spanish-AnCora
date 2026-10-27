@@ -25579,7 +25579,7 @@
 39	con	con	ADP	sps00	_	41	case	41:case	_
 40	dos	dos	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	41	nummod	41:nummod	Entity=(NOCOREF:Gen--2-gstype:gen
 41	goles	gol	NOUN	ncmp000	Gender=Masc|Number=Plur	37	nmod	37:nmod	_
-42	anotados	anotado	ADJ	aq0msp	Gender=Masc|Number=Plur|VerbForm=Part	41	amod	41:amod	_
+42	anotados	anotado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	41	amod	41:amod	_
 43	por	por	ADP	sps00	_	45	case	45:case	_
 44	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	45:det	Entity=(NOCOREF:Spec.person-person-2-gstype:spec
 45	argentino	argentino	NOUN	ncms000	Gender=Masc|Number=Sing	42	obl:agent	42:obl:agent	ArgTem=arg0:agt
@@ -31541,7 +31541,7 @@
 9	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	Entity=NOCOREF:Gen)
 10	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	_
 11	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=argM:tmp
-12	escrutadas	escrutado	ADJ	aq0msp	Gender=Fem|Number=Plur|VerbForm=Part	43	advmod	43:advmod	ArgTem=argM:tmp
+12	escrutadas	escrutado	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	43	advmod	43:advmod	ArgTem=argM:tmp
 13-14	del	_	_	_	_	_	_	_	_
 13	de	de	ADP	spcms	_	15	case	15:case	Entity=(CESSCASTAA2000103024215c11-number-12-gstype:spec
 14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	_
@@ -43726,7 +43726,7 @@
 7	a	a	ADP	_	_	8	case	8:case	_
 8	pie	pie	ADJ	_	_	5	amod	5:amod	SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
-10	acosados	acosado	ADJ	aq0msp	Gender=Masc|Number=Plur|VerbForm=Part	5	amod	5:amod	_
+10	acosados	acosado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	5	amod	5:amod	_
 11	por	por	ADP	sps00	_	14	case	14:case	_
 12	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	14:det	Entity=(CESSCASTP1999110132c21--3-CorefType:ident,gstype:gen(CESSCASTP1999110132c22-person-1-CorefType:ident,gstype:spec)
 13	duras	duro	ADJ	aq0fp0	Gender=Fem|Number=Plur	14	amod	14:amod	_
