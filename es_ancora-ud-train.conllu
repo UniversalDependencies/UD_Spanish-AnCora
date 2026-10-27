@@ -156559,15 +156559,15 @@
 37	más	más	ADV	rg	Degree=Cmp	38	advmod	38:advmod	_
 38	impuestos	impuesto	NOUN	ncmp000	Gender=Masc|Number=Plur	32	obl	32:obl	SpaceAfter=No
 39	"	"	PUNCT	fe	PunctType=Quot	32	punct	32:punct	SpaceAfter=No
-40	,	,	PUNCT	fc	PunctType=Comm	44	punct	44:punct	_
-41	que	que	PRON	pr0cn000	PronType=Rel	44	nsubj	44:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTA2000081610242c34--1-CorefType:ident,gstype:gen)
-42	finalmente	finalmente	ADV	rg	_	44	advmod	44:advmod	ArgTem=argM:tmp
-43	no	no	ADV	rn	Polarity=Neg	44	advmod	44:advmod	_
-44	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	6:advcl	_
-45	aplicada	aplicado	ADJ	vmp00fs	Gender=Fem|Number=Sing|VerbForm=Part	44	amod	44:amod	_
+40	,	,	PUNCT	fc	PunctType=Comm	45	punct	45:punct	_
+41	que	que	PRON	pr0cn000	PronType=Rel	45	nsubj:pass	45:nsubj:pass	ArgTem=arg1:pat|Entity=(CESSCASTA2000081610242c34--1-CorefType:ident,gstype:gen)
+42	finalmente	finalmente	ADV	rg	_	45	advmod	45:advmod	ArgTem=argM:tmp
+43	no	no	ADV	rn	Polarity=Neg	45	advmod	45:advmod	_
+44	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	aux:pass	45:aux:pass	_
+45	aplicada	aplicar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	6:advcl	_
 46	en	en	ADP	sps00	_	48	case	48:case	_
 47	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	48:det	_
-48	práctica	práctica	NOUN	ncfs000	Gender=Fem|Number=Sing	44	obl	44:obl	ArgTem=argM:adv|SpaceAfter=No
+48	práctica	práctica	NOUN	ncfs000	Gender=Fem|Number=Sing	45	obl	45:obl	ArgTem=argM:adv|SpaceAfter=No
 49	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
 
 # sent_id = CESS-CAST-A-20000816-10242-s17
@@ -184802,18 +184802,18 @@
 69	tras	tras	ADP	sps00	_	71	case	71:case	_
 70	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	71	det	71:det	Entity=(CESSCASTA2000112116182c17--2-gstype:gen
 71	planificación	planificación	NOUN	ncfs000	Gender=Fem|Number=Sing	63	obl	63:obl	ArgTem=argM:tmp
-72	que	que	PRON	pr0cn000	PronType=Rel	75	nsubj	75:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTA2000112116182c17--1-CorefType:ident,gstype:gen)
-73	no	no	ADV	rn	Polarity=Neg	75	advmod	75:advmod	_
-74	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	aux	71:aux	_
-75	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	71	acl:relcl	71:acl:relcl	_
+72	que	que	PRON	pr0cn000	PronType=Rel	79	nsubj:pass	79:nsubj:pass	ArgTem=arg1:pat|Entity=(CESSCASTA2000112116182c17--1-CorefType:ident,gstype:gen)
+73	no	no	ADV	rn	Polarity=Neg	79	advmod	79:advmod	_
+74	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	79	aux	79:aux	_
+75	sido	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	79	aux:pass	79:aux:pass	_
 76-77	del	_	_	_	_	_	_	_	MWE=del_todo|MWEPOS=ADV
-76	de	de	ADP	rg	ExtPos=ADP	75	case	75:case	MWE=del_todo|MWEPOS=ADV
-77	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	75	det	75:det	_
+76	de	de	ADP	rg	ExtPos=ADP	79	case	79:case	MWE=del_todo|MWEPOS=ADV
+77	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	79	det	79:det	_
 78	todo	todo	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	76	fixed	76:fixed	_
-79	aplaudida	aplaudido	ADJ	vmp00fs	Gender=Fem|Number=Sing|VerbForm=Part	75	amod	75:amod	_
+79	aplaudida	aplaudir	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	71	acl:relcl	71:acl:relcl	_
 80	por	por	ADP	sps00	_	82	case	82:case	_
 81	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	82	det	82:det	Entity=(CESSCASTA2000112116182c13--2-CorefType:ident,gstype:gen,HomoDD
-82	masa	masa	NOUN	ncfs000	Gender=Fem|Number=Sing	75	obl:agent	75:obl:agent	ArgTem=arg0:agt
+82	masa	masa	NOUN	ncfs000	Gender=Fem|Number=Sing	79	obl:agent	79:obl:agent	ArgTem=arg0:agt
 83	social	social	ADJ	aq0cs0	Number=Sing	82	amod	82:amod	Entity=CESSCASTA2000112116182c13)CESSCASTA2000112116182c17)CESSCASTA2000112116182c16)NOCOREF:Gen)|SpaceAfter=No
 84	.	.	PUNCT	fp	PunctType=Peri	10	punct	10:punct	_
 
@@ -256603,8 +256603,8 @@
 18-19	al	_	_	_	_	_	_	_	_
 18	a	a	ADP	spcms	_	21	mark	21:mark	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	21:det	_
-20	ser	ser	AUX	vsn0000	VerbForm=Inf	21	cop	21:cop	_
-21	colocado	colocado	ADJ	vmp00ms	Gender=Masc|Number=Sing|VerbForm=Part	36	advcl	36:advcl	_
+20	ser	ser	AUX	vsn0000	VerbForm=Inf	21	aux:pass	21:aux:pass	_
+21	colocado	colocar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	advcl	36:advcl	_
 22	como	como	SCONJ	cs	_	23	mark	23:mark	_
 23	cabeza	cabeza	NOUN	ncfs000	Gender=Fem|Number=Sing	21	obj	21:obj	ArgTem=argM:atr
 24	de	de	ADP	sps00	_	25	case	25:case	_
@@ -422279,12 +422279,12 @@
 21	ante	ante	ADP	sps00	_	23	case	23:case	_
 22	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCASTP20000701134c4--2-CorefType:ident,gstype:gen
 23	ataúd	ataúd	NOUN	ncms000	Gender=Masc|Number=Sing	20	obl	20:obl	ArgTem=arg2:loc
-24	que	que	PRON	pr0cn000	PronType=Rel	25	nsubj	25:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTP20000701134c4--1-CorefType:ident,gstype:gen)
-25	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	acl:relcl	23:acl:relcl	_
-26	colocado	colocado	ADJ	vmp00ms	Gender=Masc|Number=Sing|VerbForm=Part	25	amod	25:amod	_
+24	que	que	PRON	pr0cn000	PronType=Rel	26	nsubj:pass	26:nsubj:pass	ArgTem=arg1:pat|Entity=(CESSCASTP20000701134c4--1-CorefType:ident,gstype:gen)
+25	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	26:aux:pass	_
+26	colocado	colocar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	23:acl:relcl	_
 27	en	en	ADP	sps00	_	29	case	29:case	_
 28	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	29:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
-29	sala	sala	NOUN	ncfs000	Gender=Fem|Number=Sing	25	obl	25:obl	ArgTem=arg2:loc
+29	sala	sala	NOUN	ncfs000	Gender=Fem|Number=Sing	26	obl	26:obl	ArgTem=arg2:loc
 30	Promoteca	Promoteca	PROPN	np00000	_	29	appos	29:appos	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)NOCOREF:Spec.location)CESSCASTP20000701134c4)|SpaceAfter=No
 31	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
 
