@@ -281752,16 +281752,16 @@
 25	defensa	defensa	NOUN	nccs000	Number=Sing	27	nsubj	27:nsubj	ArgTem=arg0:agt
 26	Nando	Nando	PROPN	np00000	_	25	appos	25:appos	Entity=(NOCOREF:Spec.person-person-1-gstype:spec)CESSCASTAA2000092723101c8)
 27	confía	confiar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	parataxis	21:parataxis	_
-28	en	en	ADP	sps00	_	30	mark	30:mark	_
-29	poder	poder	AUX	vmn0000	VerbForm=Inf	30	aux	30:aux	_
+28	en	en	ADP	sps00	_	31	mark	31:mark	_
+29	poder	poder	AUX	vmn0000	VerbForm=Inf	31	aux	31:aux	_
 30-31	estarlo	_	_	_	_	_	_	_	_
-30	estar	estar	VERB	vmn0000	VerbForm=Inf	27	xcomp	27:xcomp	ArgTem=arg1:tem
-31	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	30	obj	30:obj	_
+30	estar	estar	AUX	vmn0000	VerbForm=Inf	31	cop	31:cop	ArgTem=arg1:tem
+31	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	27	xcomp	27:xcomp	_
 32	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	33:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
-33	domingo	domingo	NOUN	_	_	30	obl	30:obl	ArgTem=argM:tmp|Entity=NOCOREF:Spec.date)
+33	domingo	domingo	NOUN	_	_	31	obl	31:obl	ArgTem=argM:tmp|Entity=NOCOREF:Spec.date)
 34	para	para	ADP	sps00	_	36	case	36:case	_
 35	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	36:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-36	partido	partido	NOUN	ncms000	Gender=Masc|Number=Sing	30	obl	30:obl	ArgTem=argM:fin
+36	partido	partido	NOUN	ncms000	Gender=Masc|Number=Sing	31	obl	31:obl	ArgTem=argM:fin
 37	ante	ante	ADP	sps00	_	39	case	39:case	_
 38	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	Entity=(CESSCASTAA2000092723101c5-organization-2-gstype:spec
 39	Córdoba	Córdoba	PROPN	np00000	_	36	nmod	36:nmod	Entity=CESSCASTAA2000092723101c5)
@@ -394516,8 +394516,8 @@
 5.1	_	_	PRON	p	_	_	_	6:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000020221_bc55--1-CorefType:ident,gstype:gen)
 6	quiere	querer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl	ArgTem=argM:cau
 7-8	serlo	_	_	_	_	_	_	_	SpaceAfter=No
-7	ser	ser	AUX	vsn0000	VerbForm=Inf	6	xcomp	6:xcomp	ArgTem=arg1:pat|Entity=(CESSCASTP2000020221_bc55--1-gstype:gen
-8	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	obj	7:obj	Entity=CESSCASTP2000020221_bc55)
+7	ser	ser	AUX	vsn0000	VerbForm=Inf	8	cop	8:cop	ArgTem=arg1:pat|Entity=(CESSCASTP2000020221_bc55--1-gstype:gen
+8	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	xcomp	6:xcomp	Entity=CESSCASTP2000020221_bc55)
 9	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = CESS-CAST-P-20000202-21_b-s74
@@ -508123,13 +508123,13 @@
 20	de	de	ADP	spcms	_	22	case	22:case	_
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	_
 22	Barça	Barça	PROPN	np00000	_	19	nmod	19:nmod	Entity=(CESSCASTP20020301105c8-organization-1-gstype:spec)
-23	ni	ni	CCONJ	cc	_	25	cc	25:cc	_
-23.1	_	_	PRON	p	_	_	_	25:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20020301105c1-person-1-CorefType:ident,gstype:spec)
-24	debe	deber	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
+23	ni	ni	CCONJ	cc	_	26	cc	26:cc	_
+23.1	_	_	PRON	p	_	_	_	26:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20020301105c1-person-1-CorefType:ident,gstype:spec)
+24	debe	deber	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	26:aux	_
 25-26	serlo	_	_	_	_	_	_	_	SpaceAfter=No
-25	ser	ser	AUX	vsn0000	VerbForm=Inf	15	conj	15:conj	_
-26	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	25	obj	25:obj	_
-27	"	"	PUNCT	fe	PunctType=Quot	25	punct	25:punct	_
+25	ser	ser	AUX	vsn0000	VerbForm=Inf	26	cop	26:cop	_
+26	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	15	conj	15:conj	_
+27	"	"	PUNCT	fe	PunctType=Quot	26	punct	26:punct	_
 28	y	y	CCONJ	cc	_	29	cc	29:cc	_
 28.1	_	_	PRON	p	_	_	_	29:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20020301105c2-person-1-CorefType:ident,gstype:spec)
 29	catalogó	catalogar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	10:conj	_
