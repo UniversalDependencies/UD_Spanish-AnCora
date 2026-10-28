@@ -95370,7 +95370,7 @@
 14	de	de	ADP	sps00	_	15	mark	15:mark	_
 15-16	parecerlo	_	_	_	_	_	_	_	_
 15	parecer	parecer	VERB	vmn0000	VerbForm=Inf	13	xcomp	13:xcomp	ArgTem=arg1:tem
-16	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	15	obj	15:obj	_
+16	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	15	xcomp	15:xcomp	_
 17	por	por	ADP	sps00	_	18	case	18:case	_
 18	respeto	respeto	NOUN	ncms000	Gender=Masc|Number=Sing	13	obl	13:obl	ArgTem=argM:fin
 19	precisamente	precisamente	ADV	rg	_	18	advmod	18:advmod	_
