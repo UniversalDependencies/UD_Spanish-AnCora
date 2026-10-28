@@ -1819,7 +1819,7 @@
 3	fue	ser	AUX	vsis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
 4-5	haberlo	_	_	_	_	_	_	_	_
 4	haber	haber	AUX	van0000	VerbForm=Inf	6	aux	6:aux	_
-5	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	obj	6:obj	_
+5	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	obj	6:obj	_
 6	comprado	comprar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 7	en	en	ADP	sps00	_	8	case	8:case	_
 8	rebajas	rebaja	NOUN	ncfp000	Gender=Fem|Number=Plur	6	obl	6:obl	ArgTem=argM:adv|SpaceAfter=No
@@ -1863,7 +1863,7 @@
 2	debido	deber	AUX	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	3:aux	_
 3-4	pensarlo	_	_	_	_	_	_	_	SpaceAfter=No
 3	pensar	pensar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
-4	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	obj	3:obj	_
+4	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	obj	3:obj	_
 5	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = 3LB-CAST-a22-0-s5
@@ -4065,7 +4065,7 @@
 2	con	con	ADP	sps00	_	3	mark	3:mark	_
 3-4	ganarlo	_	_	_	_	_	_	_	_
 3	ganar	ganar	VERB	vmn0000	VerbForm=Inf	1	advcl	1:advcl	ArgTem=arg2:tem
-4	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	obj	3:obj	_
+4	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	obj	3:obj	_
 5	todo	todo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Tot	3	obl:arg	3:obl:arg	ArgTem=arg1:pat|SpaceAfter=No
 6	:	:	PUNCT	fd	PunctType=Colo	8	punct	8:punct	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	_
@@ -6719,7 +6719,7 @@
 8	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 9-10	pónlo	_	_	_	_	_	_	_	SpaceAfter=No
 9	pon	poner	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	7	advcl	7:advcl	_
-10	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	9	obj	9:obj	_
+10	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	9	obj	9:obj	_
 11	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
 12	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	ArgTem=arg1:pat
 13	inversión	inversión	NOUN	ncfs000	Gender=Fem|Number=Sing	25	ccomp	25:ccomp	ArgTem=arg2:atr
@@ -8254,7 +8254,7 @@
 30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	31:det	_
 31-32	respirarlo	_	_	_	_	_	_	_	SpaceAfter=No
 31	respirar	respirar	VERB	vmn0000	VerbForm=Inf	28	advcl	28:advcl	ArgTem=argM:tmp
-32	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	31	obj	31:obj	_
+32	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	31	obj	31:obj	_
 33	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = 3LB-CAST-t5-3-s13
@@ -9817,7 +9817,7 @@
 11	por	por	ADP	sps00	_	9	case	9:case	_
 12-13	empujarlo	_	_	_	_	_	_	_	_
 12	empujar	empujar	VERB	vmn0000	VerbForm=Inf	9	acl	9:acl	Entity=(CESSCASTA2000022016182c8-person-1-CorefType:ident,gstype:spec
-13	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	12	obj	12:obj	Entity=CESSCASTA2000022016182c8)
+13	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	12	obj	12:obj	Entity=CESSCASTA2000022016182c8)
 14	en	en	ADP	sps00	_	15	case	15:case	_
 15	protesta	protesta	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=argM:adv|SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
@@ -10211,7 +10211,7 @@
 24	de	de	ADP	sps00	_	25	mark	25:mark	_
 25-26	atajarlo	_	_	_	_	_	_	_	SpaceAfter=No
 25	atajar	atajar	VERB	vmn0000	VerbForm=Inf	23	acl	23:acl	Entity=(CESSCASTA2000022016182c38--1-CorefType:ident,gstype:gen
-26	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	25	obj	25:obj	Entity=CESSCASTA2000022016182c38)CESSCASTA2000022016182c38)
+26	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	25	obj	25:obj	Entity=CESSCASTA2000022016182c38)CESSCASTA2000022016182c38)
 27	.	.	PUNCT	fp	PunctType=Peri	7	punct	7:punct	_
 
 # sent_id = CESS-CAST-A-20000220-16182-s18
@@ -12799,7 +12799,7 @@
 20	para	para	ADP	sps00	_	21	mark	21:mark	_
 21-22	conseguirlo	_	_	_	_	_	_	_	_
 21	conseguir	conseguir	VERB	vmn0000	VerbForm=Inf	23	advcl	23:advcl	ArgTem=argM:fin|Entity=(CESSCASTA2000032318886c2-other-1-CorefType:ident,gstype:spec
-22	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	21	obj	21:obj	Entity=CESSCASTA2000032318886c2)
+22	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	21	obj	21:obj	Entity=CESSCASTA2000032318886c2)
 22.1	_	_	PRON	p	_	_	_	23:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000032318886c1-organization-1-CorefType:ident,gstype:spec)
 23	lucharán	luchar	VERB	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	13	conj	13:conj	_
 24	"	"	PUNCT	fe	PunctType=Quot	26	punct	26:punct	SpaceAfter=No
@@ -13055,7 +13055,7 @@
 30	para	para	ADP	sps00	_	31	mark	31:mark	_
 31-32	conseguirlo	_	_	_	_	_	_	_	SpaceAfter=No
 31	conseguir	conseguir	VERB	vmn0000	VerbForm=Inf	28	acl	28:acl	Entity=(CESSCASTA2000032318886c2-other-1-CorefType:ident,gstype:spec
-32	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	31	obj	31:obj	Entity=CESSCASTA2000032318886c2)
+32	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	31	obj	31:obj	Entity=CESSCASTA2000032318886c2)
 33	"	"	PUNCT	fe	PunctType=Quot	24	punct	24:punct	Entity=NOCOREF:Gen)|SpaceAfter=No
 34	.	.	PUNCT	fp	PunctType=Peri	19	punct	19:punct	_
 
@@ -13496,11 +13496,11 @@
 46	de	de	ADP	sps00	_	47	mark	47:mark	_
 47-48	cobrarlo	_	_	_	_	_	_	_	_
 47	cobrar	cobrar	VERB	vmn0000	VerbForm=Inf	37	conj	37:conj	Entity=(CESSCASTA2000041612432c13--1-CorefType:ident,gstype:gen
-48	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	47	obj	47:obj	Entity=CESSCASTA2000041612432c13)
+48	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	47	obj	47:obj	Entity=CESSCASTA2000041612432c13)
 49	y	y	CCONJ	cc	_	50	cc	50:cc	_
 50-51	pagarlo	_	_	_	_	_	_	_	_
 50	pagar	pagar	VERB	vmn0000	VerbForm=Inf	47	conj	47:conj	Entity=(CESSCASTA2000041612432c13--1-CorefType:ident,gstype:gen
-51	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	50	obj	50:obj	Entity=CESSCASTA2000041612432c13)
+51	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	50	obj	50:obj	Entity=CESSCASTA2000041612432c13)
 52-53	al	_	_	_	_	_	_	_	_
 52	a	a	ADP	spcms	_	54	case	54:case	_
 53	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	54:det	_
@@ -14429,7 +14429,7 @@
 61	que	que	SCONJ	cs	_	62	cc	62:cc	_
 62-63	solucionarlo	_	_	_	_	_	_	_	SpaceAfter=No
 62	solucionar	solucionar	VERB	vmn0000	VerbForm=Inf	60	xcomp	60:xcomp	Entity=(CESSCASTA2000042317037c27--1-CorefType:ident,gstype:gen
-63	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	62	obj	62:obj	Entity=CESSCASTA2000042317037c27)
+63	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	62	obj	62:obj	Entity=CESSCASTA2000042317037c27)
 64	"	"	PUNCT	fe	PunctType=Quot	49	punct	49:punct	SpaceAfter=No
 65	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
 
@@ -14561,7 +14561,7 @@
 54	puede	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux	55:aux	_
 55-56	decirlo	_	_	_	_	_	_	_	SpaceAfter=No
 55	decir	decir	VERB	vmn0000	VerbForm=Inf	3	advcl	3:advcl	Entity=(CESSCASTA2000042317037c30--1-CorefType:ident
-56	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	55	xcomp	55:xcomp	Entity=CESSCASTA2000042317037c30)
+56	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	55	xcomp	55:xcomp	Entity=CESSCASTA2000042317037c30)
 57	"	"	PUNCT	fe	PunctType=Quot	55	punct	55:punct	Entity=CESSCASTA2000042317037c30)|SpaceAfter=No
 58	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
@@ -20367,7 +20367,7 @@
 45	que	que	SCONJ	cs	_	46	mark	46:mark	_
 46-47	pensarlo	_	_	_	_	_	_	_	SpaceAfter=No
 46	pensar	pensar	VERB	vmn0000	VerbForm=Inf	44	xcomp	44:xcomp	Cxn=Conditional-NeutralEpistemic|CxnElt=46:Conditional-NeutralEpistemic.Apodosis@p|Entity=(CESSCASTA200012031592c31--1-CorefType:ident,gstype:gen
-47	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	46	obj	46:obj	Entity=CESSCASTA200012031592c31)
+47	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	46	obj	46:obj	Entity=CESSCASTA200012031592c31)
 48	"	"	PUNCT	fe	PunctType=Quot	26	punct	26:punct	SpaceAfter=No
 49	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
 50	apreció	apreciar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -23207,7 +23207,7 @@
 65	a	a	ADP	sps00	_	66	mark	66:mark	_
 66-67	hacerlo	_	_	_	_	_	_	_	SpaceAfter=No
 66	hacer	hacer	VERB	vmn0000	VerbForm=Inf	64	xcomp	64:xcomp	ArgTem=arg1:tem|Entity=(CESSCASTAA2000033024478c11--1-CorefType:dx.type
-67	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	66	obj	66:obj	Entity=CESSCASTAA2000033024478c11)CESSCASTAA2000033024478c10)
+67	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	66	obj	66:obj	Entity=CESSCASTAA2000033024478c11)CESSCASTAA2000033024478c10)
 68	.	.	PUNCT	fp	PunctType=Peri	54	punct	54:punct	_
 
 # sent_id = CESS-CAST-AA-20000330-24478-s5
@@ -26810,7 +26810,7 @@
 33	para	para	ADP	sps00	_	34	mark	34:mark	_
 34-35	presentarlo	_	_	_	_	_	_	_	_
 34	presentar	presentar	VERB	vmn0000	VerbForm=Inf	26	acl	26:acl	ArgTem=argM:fin|Entity=(CESSCASTAA200005129580c6-person-1-CorefType:ident,gstype:spec
-35	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	34	obj	34:obj	Entity=CESSCASTAA200005129580c6)
+35	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	34	obj	34:obj	Entity=CESSCASTAA200005129580c6)
 36	en	en	ADP	sps00	_	37	case	37:case	_
 37	desventaja	desventaja	NOUN	ncfs000	Gender=Fem|Number=Sing	34	obl	34:obl	ArgTem=argM:adv|Entity=(NOCOREF:Gen--1-gstype:gen)
 38	frente	frente	NOUN	sps00	ExtPos=ADP	40	case	40:case	MWE=frente_a|MWEPOS=ADP
@@ -30944,7 +30944,7 @@
 3	están	estar	AUX	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4-5	haciéndolo	_	_	_	_	_	_	_	_
 4	haciendo	hacer	VERB	vmg0000	VerbForm=Ger	26	ccomp	26:ccomp	ArgTem=arg1:pat
-5	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	4:obj	_
+5	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	4:obj	_
 6	bien	bien	ADV	rg	_	4	advmod	4:advmod	ArgTem=argM:adv
 7	en	en	ADP	sps00	_	9	case	9:case	_
 8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
@@ -35588,7 +35588,7 @@
 27	supondría	suponer	VERB	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	13	advcl	13:advcl	_
 28-29	situarlo	_	_	_	_	_	_	_	_
 28	situar	situar	VERB	vmn0000	VerbForm=Inf	27	xcomp	27:xcomp	ArgTem=arg2:atr|Entity=(CESSCASTP199812015c1--1-CorefType:ident,gstype:gen
-29	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	28	obj	28:obj	Entity=CESSCASTP199812015c1)
+29	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	28	obj	28:obj	Entity=CESSCASTP199812015c1)
 30	en	en	ADP	sps00	_	33	case	33:case	_
 31	unos	uno	PRON	di0mp0	Gender=Masc|Number=Plur|PronType=Ind	32	nmod	32:nmod	Entity=(NOCOREF:Gen--3-gstype:gen
 32	400.000	400000	NUM	_	NumForm=Digit|NumType=Card	33	nummod	33:nummod	_
@@ -49144,7 +49144,7 @@
 5	humanizará	humanizar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	ccomp	19:ccomp	ArgTem=arg1:pat
 6-7	cerrándolo	_	_	_	_	_	_	_	_
 6	cerrando	cerrar	VERB	vmg0000	VerbForm=Ger	5	advcl	5:advcl	ArgTem=argM:adv
-7	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	obj	6:obj	_
+7	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	obj	6:obj	_
 8-9	al	_	_	_	_	_	_	_	_
 8	a	a	ADP	spcms	_	10	case	10:case	_
 9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	_
@@ -56558,7 +56558,7 @@
 13	para	para	ADP	sps00	_	14	mark	14:mark	_
 14-15	destruirlo	_	_	_	_	_	_	_	SpaceAfter=No
 14	destruir	destruir	VERB	vmn0000	VerbForm=Inf	12	acl	12:acl	Entity=(CESSCASTP200107029c5--1-CorefType:ident,gstype:gen
-15	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	14	obj	14:obj	Entity=CESSCASTP200107029c5)
+15	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	14	obj	14:obj	Entity=CESSCASTP200107029c5)
 16	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	2	punct	2:punct	SpaceAfter=No
 17	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
 
@@ -58533,7 +58533,7 @@
 20	para	para	ADP	sps00	_	21	mark	21:mark	_
 21-22	reconocerlo	_	_	_	_	_	_	_	SpaceAfter=No
 21	reconocer	reconocer	VERB	vmn0000	VerbForm=Inf	19	acl	19:acl	ArgTem=argM:fin|Entity=(CESSCASTP20011202122c5-place-1-CorefType:ident,gstype:spec
-22	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	21	obj	21:obj	Entity=CESSCASTP20011202122c5)NOCOREF:Gen)
+22	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	21	obj	21:obj	Entity=CESSCASTP20011202122c5)NOCOREF:Gen)
 23	"	"	PUNCT	fe	PunctType=Quot	6	punct	6:punct	SpaceAfter=No
 24	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
 25	añade	añadir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -58692,7 +58692,7 @@
 3	bonito	bonito	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	0:root	ArgTem=arg2:atr
 4-5	saberlo	_	_	_	_	_	_	_	SpaceAfter=No
 4	saber	saber	VERB	vmn0000	VerbForm=Inf	3	csubj	3:csubj	ArgTem=arg1:tem
-5	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	4:obj	_
+5	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	4:obj	_
 6	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = CESS-CAST-P-20011202-122-s15B
@@ -60464,7 +60464,7 @@
 1	Para	para	ADP	sps00	_	2	mark	2:mark	_
 2-3	demostrarlo	_	_	_	_	_	_	_	SpaceAfter=No
 2	demostrar	demostrar	VERB	vmn0000	VerbForm=Inf	5	advcl	5:advcl	ArgTem=argM:fin
-3	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	2	obj	2:obj	_
+3	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	2	obj	2:obj	_
 4	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 4.1	_	_	PRON	p	_	_	_	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20020301125c1-person-1-CorefType:ident,gstype:spec)
 5	esgrimió	esgrimir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
