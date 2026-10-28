@@ -8985,7 +8985,7 @@
 # sent_id = 3LB-CAST-t6-4-s7
 # text = Le dijo a Auri que se iba al fútbol, ella le miró con Los ojos fuera de las órbitas, nunca había ido al fútbol antes, nunca iría después, sus escapadas futuras se convertirían en un hermoso trabajo de precisión, un riesgo inexistente pero siempre milimétricamente calculado, Barcelona, Vigo, Valencia, incluso Frankfurt, pero aquella tarde no tenía tiempo para pensar, no sabía exactamente lo que iba a hacer, así que cogió el coche, nuevo también, y deshizo el camino, regocijándose por su previa astucia, el repentino impulso que le había inducido a conservar su vieja casa de alquiler ocultándoselo a su socia en gananciales.
 # orig_file_sentence 003#62
-1	Le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	2	obl:arg	2:obl:arg	ArgTem=arg2:ben
+1	Le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	2	expl	2:expl	ArgTem=arg2:ben
 2	dijo	decir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	a	a	ADP	sps00	_	4	case	4:case	_
 4	Auri	Auri	PROPN	np0000p	_	2	obl:arg	2:obl:arg	ArgTem=arg2:ben|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)
@@ -9106,7 +9106,7 @@
 116	alquiler	alquiler	NOUN	ncms000	Gender=Masc|Number=Sing	114	nmod	114:nmod	_
 117-119	ocultándoselo	_	_	_	_	_	_	_	_
 117	ocultando	ocultar	VERB	vmg0000	VerbForm=Ger	111	xcomp	111:xcomp	ArgTem=argM:adv
-118	se	él	PRON	_	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs	117	obl:arg	117:obl:arg	_
+118	se	él	PRON	_	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs	117	expl	117:expl	_
 119	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	117	obj	117:obj	_
 120	a	a	ADP	sps00	_	122	case	122:case	_
 121	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	122	det	122:det	_
@@ -17069,7 +17069,7 @@
 20	Caracas	Caracas	PROPN	np0000l	_	7	obl	7:obl	ArgTem=argM:loc|Entity=(CESSCASTA2000101310568c21-place-1-gstype:spec)|SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 22	que	que	PRON	pr0cn000	PronType=Rel	24	nsubj	24:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000101310568c1--1-CorefType:ident,gstype:gen)
-23	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	24	obl:arg	24:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTA2000101310568c3--1-CorefType:ident)
+23	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	24	expl	24:expl	ArgTem=arg2:ben|Entity=(CESSCASTA2000101310568c3--1-CorefType:ident)
 24	permitirá	permitir	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	advcl	7:advcl	_
 25-26	al	_	_	_	_	_	_	_	_
 25	a	a	ADP	spcms	_	27	case	27:case	_
@@ -30981,7 +30981,7 @@
 16	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	SpaceAfter=No
 17	a	a	ADP	sps00	_	18	case	18:case	_
 18	Estanis	Estanis	PROPN	np00000	_	21	obl:arg	21:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA200006086438c22-person-1-CorefType:ident,gstype:spec)
-19	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	21	obl:arg	21:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA200006086438c22-person-1-CorefType:ident,gstype:spec)
+19	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	21	expl	21:expl	ArgTem=arg2:ben|Entity=(CESSCASTAA200006086438c22-person-1-CorefType:ident,gstype:spec)
 20	había	haber	AUX	vaii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	21:aux	_
 21	prometido	prometer	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	14:ccomp	ArgTem=arg1:pat
 22	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	21:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200006086438c1-person-1-CorefType:ident,gstype:spec)
@@ -60527,7 +60527,7 @@
 3	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	8	punct	8:punct	SpaceAfter=No
 4	A	a	ADP	sps00	_	5	case	5:case	_
 5	quién	quién	PRON	pt0cs000	Number=Sing|PronType=Int	8	obl:arg	8:obl:arg	ArgTem=arg2:ben|CxnElt=8:Interrogative-WHInfo-Direct.WHWord
-6	se	él	PRON	pp3cn000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs	8	obl:arg	8:obl:arg	ArgTem=arg2:ben
+6	se	él	PRON	pp3cn000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs	8	expl	8:expl	ArgTem=arg2:ben
 7	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	8	obj	8:obj	ArgTem=arg1:pat|Entity=(CESSCASTP2002010334c2-other-1-CorefType:ident,gstype:spec)
 8	recomienda	recomendar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=8:Interrogative-WHInfo-Direct.Clause|SpaceAfter=No
 8.1	_	_	PRON	p	_	_	_	8:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002010334c3--1-CorefType:ident,gstype:gen)
