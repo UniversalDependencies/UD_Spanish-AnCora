@@ -26265,7 +26265,7 @@
 1	"	"	PUNCT	fe	PunctType=Quot	6	punct	6:punct	SpaceAfter=No
 2	Esta	este	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	3	det	3:det	Entity=(NOCOREF:Gen--2-gstype:gen
 3	etapa	etapa	NOUN	ncfs000	Gender=Fem|Number=Sing	6	nsubj	6:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
-4	nos	yo	PRON	pp1cp000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	6	obl:arg	6:obl:arg	ArgTem=arg2:ben|Entity=(CESSCASTAA200005118193c11-organization-1-CorefType:ident,gstype:spec)
+4	nos	yo	PRON	pp1cp000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	6	expl	6:expl	ArgTem=arg2:ben|Entity=(CESSCASTAA200005118193c11-organization-1-CorefType:ident,gstype:spec)
 5	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 6	tocando	tocar	VERB	vmg0000	VerbForm=Ger	11	ccomp	11:ccomp	ArgTem=arg1:pat
 7	a	a	ADP	sps00	_	8	case	8:case	_
@@ -46248,7 +46248,7 @@
 1	A	a	ADP	sps00	_	2	case	2:case	_
 2	mí	yo	PRON	pp1cso00	Case=Acc|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	5	obl:arg	5:obl:arg	ArgTem=arg2:exp|Entity=(CESSCASTP20000202135c4-person-1-CorefType:ident,gstype:spec)
 3	no	no	ADV	rn	Polarity=Neg	5	advmod	5:advmod	_
-4	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	5	obl:arg	5:obl:arg	ArgTem=arg2:exp|Entity=(CESSCASTP20000202135c4-person-1-CorefType:ident,gstype:spec)
+4	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	5	expl	5:expl	ArgTem=arg2:exp|Entity=(CESSCASTP20000202135c4-person-1-CorefType:ident,gstype:spec)
 5	interesa	interesar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	hacer	hacer	VERB	vmn0000	VerbForm=Inf	5	csubj	5:csubj	ArgTem=arg1:tem
 7	cosas	cosa	NOUN	ncfp000	Gender=Fem|Number=Plur	6	obj	6:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen
@@ -56588,7 +56588,7 @@
 6	mí	yo	PRON	pp1cso00	Case=Acc|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	9	obl:arg	9:obl:arg	ArgTem=arg3:ben|Entity=(CESSCASTP200107029c6--1-gstype:gen)|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
 7.1	_	_	PRON	p	_	_	_	9:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP200107029c7--1-CorefType:dx.token)
-8	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	9	obl:arg	9:obl:arg	ArgTem=arg3:ben|Entity=(CESSCASTP200107029c6--1-CorefType:ident,gstype:gen)
+8	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	9	expl	9:expl	ArgTem=arg3:ben|Entity=(CESSCASTP200107029c6--1-CorefType:ident,gstype:gen)
 9	da	dar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	ArgTem=arg2:atr
 10	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	Entity=(NOCOREF:Gen--2-gstype:gen
 11	poco	poco	PRON	pi0ms000	Gender=Masc|Number=Sing|NumType=Card|PronType=Ind	9	obj	9:obj	ArgTem=arg2:atr
