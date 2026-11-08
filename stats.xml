@@ -35,11 +35,11 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="72">
     <feat name="Abbr" value="Yes" upos="PROPN">1</feat><!-- Inc -->
-    <feat name="Case" value="Acc" upos="PRON">8689</feat><!-- se, lo, la, me, nos, los, las, mí, sí, te -->
+    <feat name="Case" value="Acc" upos="PRON">8690</feat><!-- se, lo, la, me, nos, los, las, mí, sí, te -->
     <feat name="Case" value="Acc,Dat" upos="PRON">11</feat><!-- se, nos, me, te -->
     <feat name="Case" value="Acc,Nom" upos="PRON">954</feat><!-- él, ellos, ello, ella, nosotros, ellas, usted, ustedes -->
     <feat name="Case" value="Com" upos="PRON">15</feat><!-- conmigo, consigo, contigo -->
-    <feat name="Case" value="Dat" upos="PRON">2218</feat><!-- le, se, les, me, nos, te, os -->
+    <feat name="Case" value="Dat" upos="PRON">2217</feat><!-- le, se, les, me, nos, te, os -->
     <feat name="Case" value="Nom" upos="PRON">160</feat><!-- yo, tú, Ella -->
     <feat name="Definite" value="Def" upos="DET,PRON">63327</feat><!-- el, la, los, las, lo, les, le, a, o, Al -->
     <feat name="Definite" value="Ind" upos="DET">9565</feat><!-- un, una, unos, unas, uno -->
@@ -96,7 +96,7 @@
     <feat name="PunctType" value="Qest" upos="PUNCT">643</feat><!-- ?, ¿ -->
     <feat name="PunctType" value="Quot" upos="PUNCT">9420</feat><!-- ", ', ` -->
     <feat name="PunctType" value="Semi" upos="PUNCT">305</feat><!-- ; -->
-    <feat name="Reflex" value="Yes" upos="PRON">6690</feat><!-- se, me, nos, sí, te, consigo, os -->
+    <feat name="Reflex" value="Yes" upos="PRON">6691</feat><!-- se, me, nos, sí, te, consigo, os -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">2779</feat><!-- será, tendrá, serán, habrá, podrá, deberá, estará, deberán, hará, podrán -->
     <feat name="Tense" value="Imp" upos="AUX,VERB">4163</feat><!-- había, era, estaba, tenía, habían, eran, hubiera, podía, iba, estaban -->
     <feat name="Tense" value="Past" upos="AUX,VERB">17586</feat><!-- fue, dijo, sido, fueron, aseguró, explicó, afirmó, hizo, señaló, anunció -->
@@ -129,9 +129,9 @@
     <dep name="det">84328</dep>
     <dep name="discourse">6</dep>
     <dep name="dislocated">103</dep>
-    <dep name="expl">287</dep>
+    <dep name="expl">299</dep>
     <dep name="expl:impers">365</dep>
-    <dep name="expl:pass">2232</dep>
+    <dep name="expl:pass">2233</dep>
     <dep name="expl:pv">3215</dep>
     <dep name="fixed">4893</dep>
     <dep name="flat">14328</dep>
@@ -143,9 +143,9 @@
     <dep name="nsubj:pass">750</dep>
     <dep name="nummod">6042</dep>
     <dep name="obj">23997</dep>
-    <dep name="obl">24445</dep>
+    <dep name="obl">24446</dep>
     <dep name="obl:agent">1287</dep>
-    <dep name="obl:arg">7814</dep>
+    <dep name="obl:arg">7800</dep>
     <dep name="orphan">1</dep>
     <dep name="parataxis">495</dep>
     <dep name="punct">65624</dep>
