@@ -446021,9 +446021,9 @@
 # text = REHABILITADOS Los 430 restantes estaban condenados a inhabilitación para desempeñar trabajos en la Administración, recibir becas, subvenciones y firmar contratos con organismos oficiales.
 # orig_file_sentence 084#32
 1	REHABILITADOS	rehabilitado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	6	dep	6:dep	_
-2	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	3:det	Entity=(CESSCASTP2000120211c6-number-2-gstype:spec
-3	430	430	NUM	_	NumForm=Digit|NumType=Card	6	nsubj	6:nsubj	ArgTem=arg1:tem
-4	restantes	restante	ADJ	aq0cp0	Number=Plur	3	amod	3:amod	Entity=CESSCASTP2000120211c6)
+2	Los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	4:det	Entity=(CESSCASTP2000120211c6-number-2-gstype:spec
+3	430	430	NUM	_	NumForm=Digit|NumType=Card	4	nummod	4:nummod	ArgTem=arg1:tem
+4	restantes	restante	ADJ	aq0cp0	Number=Plur	6	nsubj	6:nsubj	Entity=CESSCASTP2000120211c6)
 5	estaban	estar	AUX	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	6:cop	_
 6	condenados	condenado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 7	a	a	ADP	sps00	_	8	case	8:case	_
@@ -528104,12 +528104,12 @@
 8	de	de	ADP	sps00	_	9	case	9:case	_
 9	faltas	falta	NOUN	ncfp000	Gender=Fem|Number=Plur	7	nmod	7:nmod	ArgTem=arg1:pat
 10	absolutorias	absolutorio	ADJ	aq0fp0	Gender=Fem|Number=Plur	7	amod	7:amod	Entity=NOCOREF:Gen)
-11	y	y	CCONJ	cc	_	12	cc	12:cc	_
-12	56	56	NUM	_	NumForm=Digit|NumType=Card	7	conj	7:conj	Entity=(NOCOREF:Gen--1-gstype:gen
-13	condenatorias	condenatorio	ADJ	aq0fp0	Gender=Fem|Number=Plur	12	amod	12:amod	_
+11	y	y	CCONJ	cc	_	13	cc	13:cc	_
+12	56	56	NUM	_	NumForm=Digit|NumType=Card	13	nummod	13:nummod	Entity=(NOCOREF:Gen--1-gstype:gen
+13	condenatorias	condenatorio	ADJ	aq0fp0	Gender=Fem|Number=Plur	7	conj	7:conj	_
 14	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	16	punct	16:punct	SpaceAfter=No
 15	20	20	NUM	_	NumForm=Digit|NumType=Card	16	nsubj	16:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.number-number-1-gstype:spec)
-16	prohibían	prohibir	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	parataxis	12:parataxis	_
+16	prohibían	prohibir	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	parataxis	13:parataxis	_
 17-18	al	_	_	_	_	_	_	_	_
 17	a	a	ADP	spcms	_	19	case	19:case	_
 18	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	19:det	_
@@ -528143,14 +528143,14 @@
 15	sola	solo	ADJ	aq0fs0	Gender=Fem|Number=Sing	16	amod	16:amod	_
 16	sentencia	sentencia	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obj	13:obj	ArgTem=arg1:pat
 17	absolutoria	absolutorio	ADJ	aq0fs0	Gender=Fem|Number=Sing	16	amod	16:amod	Entity=NOCOREF:Gen)
-18	y	y	CCONJ	cc	_	19	cc	19:cc	_
-19	18	18	NUM	_	NumForm=Digit|NumType=Card	16	conj	16:conj	Entity=(NOCOREF:Gen--1-gstype:gen
-20	condenatorias	condenatorio	ADJ	aq0fp0	Gender=Fem|Number=Plur	19	amod	19:amod	_
+18	y	y	CCONJ	cc	_	20	cc	20:cc	_
+19	18	18	NUM	_	NumForm=Digit|NumType=Card	20	nummod	20:nummod	Entity=(NOCOREF:Gen--1-gstype:gen
+20	condenatorias	condenatorio	ADJ	aq0fp0	Gender=Fem|Number=Plur	16	conj	16:conj	_
 21	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	25	punct	25:punct	SpaceAfter=No
 22	en	en	ADP	sps00	_	23	case	23:case	_
 23	12	12	NUM	_	NumForm=Digit|NumType=Card	25	obl	25:obl	ArgTem=argM:loc|Entity=(NOCOREF:Spec.number-number-1-gstype:spec)
 24	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	25	expl:pass	25:expl:pass	_
-25	impuso	imponer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	parataxis	19:parataxis	_
+25	impuso	imponer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	parataxis	20:parataxis	_
 26	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	Entity=(CESSCASTP200209011c4--2-CorefType:ident,HomoDD
 27	pena	pena	NOUN	ncfs000	Gender=Fem|Number=Sing	25	nsubj	25:nsubj	ArgTem=arg1:pat
 28	de	de	ADP	sps00	_	29	case	29:case	_
