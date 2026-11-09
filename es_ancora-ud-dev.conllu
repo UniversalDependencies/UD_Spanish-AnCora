@@ -22503,7 +22503,7 @@
 21	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	Entity=(CESSCASTAA200003032531c4--2-CorefType:ident
 22	explotación	explotación	NOUN	ncfs000	Gender=Fem|Number=Sing	20	obj	20:obj	ArgTem=arg2:atr
 23	por	por	ADP	sps00	_	24	case	24:case	MWE=por_parte_de|MWEPOS=ADP
-24	parte	parte	NOUN	_	_	22	amod	22:amod	_
+24	parte	parte	NOUN	_	_	22	nmod	22:nmod	_
 25	de	de	ADP	_	_	26	case	26:case	_
 26	terceros	tercero	ADJ	ao0mp0	Gender=Masc|Number=Plur|NumType=Ord	24	nmod	24:nmod	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--1-gstype:gen)CESSCASTAA200003032531c4)
 27	y	y	CCONJ	cc	_	36	cc	36:cc	_

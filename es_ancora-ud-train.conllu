@@ -62716,7 +62716,7 @@
 2	señal	señal	NOUN	ncfs000	Gender=Fem|Number=Sing	11	nsubj	11:nsubj	ArgTem=arg1:tem|SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 4	en	en	ADP	sps00	_	5	case	5:case	MWE=en_vez_de|MWEPOS=ADP
-5	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	2	amod	2:amod	_
+5	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	2	nmod	2:nmod	_
 6	de	de	ADP	_	_	7	case	7:case	_
 7	continua	continuo	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	nmod	5:nmod	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
@@ -501943,7 +501943,7 @@
 23	Pepu	Pepu	PROPN	np00000	_	22	appos	22:appos	Entity=(NOCOREF:Spec.person-person-1-gstype:spec|MWE=Pepu_Hernández|MWEPOS=PROPN
 24	Hernández	Hernández	PROPN	_	_	23	flat	23:flat	Entity=NOCOREF:Spec.person)
 25	en	en	ADP	spcms	_	26	case	26:case	MWE=en_lugar_del|MWEPOS=ADP
-26	lugar	lugar	NOUN	_	_	22	amod	22:amod	_
+26	lugar	lugar	NOUN	_	_	22	nmod	22:nmod	_
 27-28	del	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	29	case	29:case	_
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	_
