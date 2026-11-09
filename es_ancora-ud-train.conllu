@@ -4161,7 +4161,7 @@
 8	que	que	SCONJ	cs	_	11	mark	11:mark	_
 9	Alcan	Alcan	PROPN	np0000o	_	11	nsubj	11:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)
 10	se	él	PRON	pp3cn000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	expl:pv	11:expl:pv	ArgTem=arg2:ben
-11	asegurase	asegurar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl	_
+11	asegurase	asegurar	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	6:advcl	_
 12	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	13:det	_
 13	apoyo	apoyo	NOUN	ncms000	Gender=Masc|Number=Sing	11	obj	11:obj	ArgTem=arg1:pat
 14	de	de	ADP	sps00	_	15	case	15:case	_
@@ -180607,7 +180607,7 @@
 9	si	si	SCONJ	cs	_	11	mark	11:mark	_
 9.1	_	_	PRON	p	_	_	_	11:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTA2000111612812c12--1-CorefType:ident)
 10	se	él	PRON	p0000000	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	expl:impers	11:expl:impers	_
-11	acompañase	acompañar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl	CxnElt=6:Conditional-NeutralEpistemic.Protasis@f
+11	acompañase	acompañar	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	6:advcl	CxnElt=6:Conditional-NeutralEpistemic.Protasis@f
 12	de	de	ADP	sps00	_	14	case	14:case	_
 13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 14	búsqueda	búsqueda	NOUN	ncfs000	Gender=Fem|Number=Sing	11	obl:arg	11:obl:arg	ArgTem=arg0:agt
@@ -221834,7 +221834,7 @@
 27	otra	otro	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	28	det	28:det	Entity=(CESSCASTAA200003097054c38-organization-2-gstype:spec
 28	fabricante	fabricante	NOUN	nccs000	Number=Sing	25	obl:arg	25:obl:arg	ArgTem=arg2:atr
 29	que	que	PRON	pr0cn000	PronType=Rel	30	nsubj	30:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200003097054c38-organization-1-CorefType:ident,gstype:spec)
-30	vuelve	volver	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	28:acl:relcl	_
+30	vuelve	volver	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	28:acl:relcl	_
 31	a	a	ADP	sps00	_	33	case	33:case	_
 32	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	33:det	Entity=(CESSCASTAA200003097054c31-other-2-CorefType:ident,gstype:spec
 33	Fórmula	Fórmula	PROPN	np00000	_	30	obl	30:obl	ArgTem=arg4:des|MWE=Fórmula_Uno|MWEPOS=PROPN
@@ -272970,7 +272970,7 @@
 35	si	si	SCONJ	cs	_	38	mark	38:mark	_
 36	estas	este	PRON	pd0fp000	Gender=Fem|Number=Plur|PronType=Dem	38	nsubj	38:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200009064020c11--1-CorefType:ident,gstype:gen)
 37	no	no	ADV	rn	Polarity=Neg	38	advmod	38:advmod	_
-38	venden	vender	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	conj	33:conj	_
+38	venden	vender	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	conj	33:conj	_
 39	se	él	PRON	p0000000	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	40	expl:impers	40:expl:impers	_
 40	produce	producir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	advcl	38:advcl	_
 41	menos	menos	ADV	rg	Degree=Cmp	40	advmod	40:advmod	ArgTem=argM:adv
@@ -305393,7 +305393,7 @@
 45	"	"	PUNCT	fe	PunctType=Quot	47	punct	47:punct	SpaceAfter=No
 45.1	_	_	PRON	p	_	_	_	47:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200011096296c1-person-1-CorefType:ident,gstype:spec)
 46	nunca	nunca	ADV	rg	_	47	advmod	47:advmod	ArgTem=argM:tmp
-47	utilicé	utilizar	VERB	vmsi1s0	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	43	ccomp	43:ccomp	ArgTem=arg1:pat
+47	utilicé	utilizar	VERB	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	43	ccomp	43:ccomp	ArgTem=arg1:pat
 48	ese	ese	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	49	det	49:det	Entity=(CESSCASTAA200011096296c3-number-2-CorefType:ident,gstype:spec
 49	dinero	dinero	NOUN	ncms000	Gender=Masc|Number=Sing	47	obj	47:obj	ArgTem=arg1:pat|Entity=CESSCASTAA200011096296c3)|SpaceAfter=No
 50	"	"	PUNCT	fe	PunctType=Quot	47	punct	47:punct	SpaceAfter=No
@@ -446274,7 +446274,7 @@
 22	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	Entity=(CESSCASTP2000120211c20--4-CorefType:dx.token
 23	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	25	det	25:det	_
 24	que	que	PRON	pr0cn000	PronType=Rel	25	nsubj	25:nsubj	ArgTem=arg0:agt
-25	crea	crear	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl	_
+25	crea	crear	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl	_
 26	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen
 27	situación	situación	NOUN	ncfs000	Gender=Fem|Number=Sing	25	obj	25:obj	ArgTem=arg1:pat
 28	delicada	delicado	ADJ	aq0fs0	Gender=Fem|Number=Sing	27	amod	27:amod	ArgTem=argM:atr|Entity=NOCOREF:Gen)
@@ -478499,7 +478499,7 @@
 # orig_file_sentence 117#19
 1	Si	si	SCONJ	cs	_	2	mark	2:mark	_
 1.1	_	_	PRON	p	_	_	_	2:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2001070138c1-person-1-CorefType:ident,gstype:spec)
-2	fuera	ir	VERB	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	0:root	_
+2	fuera	ir	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
 3	a	a	ADP	sps00	_	5	case	5:case	_
 4	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 5	sitios	sitio	NOUN	ncmp000	Gender=Masc|Number=Plur	2	obl	2:obl	ArgTem=arg4:des

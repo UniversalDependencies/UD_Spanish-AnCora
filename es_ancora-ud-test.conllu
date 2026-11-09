@@ -60693,7 +60693,7 @@
 17	para	para	ADP	sps00	_	19	mark	19:mark	_
 18	que	que	SCONJ	cs	_	19	mark	19:mark	_
 18.1	_	_	PRON	p	_	_	_	19:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2002010334c2-other-1-CorefType:ident,gstype:spec)
-19	fuera	ir	VERB	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	advcl	8:advcl	ArgTem=argM:fin
+19	fuera	ir	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	8:advcl	ArgTem=argM:fin
 20	a	a	ADP	sps00	_	22	case	22:case	_
 21	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	22:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 22	bibliotecas	biblioteca	NOUN	ncfp000	Gender=Fem|Number=Plur	19	obl	19:obl	ArgTem=arg4:des
