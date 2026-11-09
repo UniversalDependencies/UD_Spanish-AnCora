@@ -466574,7 +466574,7 @@
 12	ES	ser	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
 13	UNA	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCASTP2001050181c1-person-3-CorefType:pred.indefinit,gstype:spec
 14	ACTIVA	activo	ADJ	aq0fs0	Gender=Fem|Number=Sing	15	amod	15:amod	_
-15	LUCHADORA	luchador	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	0:root	ArgTem=arg2:atr
+15	LUCHADORA	luchadora	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	0:root	ArgTem=arg2:atr
 16	CONTRA	contra	ADP	sps00	_	18	case	18:case	_
 17	LA	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 18	INDUSTRIA	industria	NOUN	ncfs000	Gender=Fem|Number=Sing	15	nmod	15:nmod	_
