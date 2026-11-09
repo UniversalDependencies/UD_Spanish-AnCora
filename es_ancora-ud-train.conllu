@@ -10066,7 +10066,7 @@
 6	OEA	OEA	PROPN	np0000o	_	2	nmod	2:nmod	ArgTem=arg0:agt|Entity=NOCOREF:Spec.organization)|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 8	que	que	PRON	pr0cn000	PronType=Rel	9	obj	9:obj	ArgTem=arg1:pat
-9	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
+9	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 10	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(NOCOREF:Spec.person-person-3-gstype:spec
 11	ex	ex	ADJ	aq0cn0	_	12	amod	12:amod	_
 12	canciller	canciller	NOUN	nccs000	Number=Sing	9	nsubj	9:nsubj	ArgTem=arg0:agt
@@ -19765,7 +19765,7 @@
 46	,	,	PUNCT	fc	PunctType=Comm	49	punct	49:punct	_
 47	que	que	PRON	pr0cn000	PronType=Rel	49	obj	49:obj	ArgTem=arg1:pat
 48	él	él	PRON	pp3ms000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	nsubj	49:nsubj	ArgTem=arg0:agt
-49	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	acl:relcl	39:acl:relcl	Entity=NOCOREF:Spec.organization)|SpaceAfter=No
+49	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	acl:relcl	39:acl:relcl	Entity=NOCOREF:Spec.organization)|SpaceAfter=No
 50	.	.	PUNCT	fp	PunctType=Peri	25	punct	25:punct	_
 
 # sent_id = 3LB-CAST-211_C-2-s22
@@ -25186,7 +25186,7 @@
 15	secano	secano	NOUN	ncms000	Gender=Masc|Number=Sing	13	nmod	13:nmod	SpaceAfter=No
 16	;	;	PUNCT	fx	PunctType=Semi	18	punct	18:punct	_
 17	para	para	ADP	sps00	_	18	mark	18:mark	_
-18	tranquilzar	tranquilzar	VERB	vmn0000	VerbForm=Inf	11	advcl	11:advcl	_
+18	tranquilzar	tranquilizar	VERB	vmn0000	Typo=Yes|VerbForm=Inf	11	advcl	11:advcl	CorrectForm=tranquilizar
 19	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	_
 20	conciencia	conciencia	NOUN	ncfs000	Gender=Fem|Number=Sing	18	obj	18:obj	ArgTem=arg1:tem|SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
@@ -101664,7 +101664,7 @@
 1	Romero	Romero	PROPN	np0000p	_	20	nsubj	20:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000011912547c4-person-1-CorefType:ident,gstype:spec|SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 3	que	que	PRON	pr0cn000	PronType=Rel	4	nsubj	4:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000011912547c4-person-1-CorefType:ident,gstype:spec)
-4	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
+4	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
 5	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(NOCOREF:Gen--2-gstype:gen
 6	reunión	reunión	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obj	4:obj	ArgTem=arg1:pat
 7	de	de	ADP	sps00	_	8	case	8:case	_
@@ -125586,7 +125586,7 @@
 # text = Ibarretxe presidió este mediodía en el Palacio de Ajuria Enea la toma de posesión del nuevo rector de la Universidad del País Vasco, Manuel Montero, quien, durante su discurso, anunció que durante su mandato intentará "potenciar la pluralidad de la sociedad y la cultura vasca" desde la Universidad.
 # orig_file_sentence 042#61
 1	Ibarretxe	Ibarretxe	PROPN	np0000p	_	2	nsubj	2:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000032015931c1-person-1-CorefType:ident,gstype:spec)
-2	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+2	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	4	det	4:det	Entity=(NOCOREF:Gen--2-gstype:gen
 4	mediodía	mediodía	NOUN	ncms000	Gender=Masc|Number=Sing	2	obl	2:obl	ArgTem=argM:tmp|Entity=NOCOREF:Gen)
 5	en	en	ADP	sps00	_	7	case	7:case	_
@@ -139545,7 +139545,7 @@
 11	de	de	ADP	sps00	_	12	case	12:case	_
 12	Carlos	Carlos	PROPN	np0000p	_	9	nmod	9:nmod	Entity=(CESSCASTA2000051813973c3-person-1-gstype:spec|MWE=Carlos_V|MWEPOS=PROPN
 13	V	V	NUM	_	NumForm=Roman|NumType=Card	12	flat	12:flat	Entity=CESSCASTA2000051813973c3)NOCOREF:Spec.person)NOCOREF:Gen)
-14	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+14	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	Entity=(CESSCASTA2000051813973c1--2-gstype:gen,HomoDD
 16	visita	visita	NOUN	ncfs000	Gender=Fem|Number=Sing	14	obj	14:obj	ArgTem=arg1:pat
 17	que	que	PRON	pr0cn000	PronType=Rel	18	obj	18:obj	ArgTem=arg1:pat|Entity=(CESSCASTA2000051813973c1--1-CorefType:ident,gstype:gen)
@@ -153522,7 +153522,7 @@
 2	ministro	ministro	NOUN	ncms000	Gender=Masc|Number=Sing	27	nsubj	27:nsubj	ArgTem=arg0:agt|SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 4	que	que	PRON	pr0cn000	PronType=Rel	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000072216977c1-person-1-CorefType:ident,gstype:spec)
-5	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
+5	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 6	hoy	hoy	ADV	rg	_	5	advmod	5:advmod	ArgTem=argM:tmp|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
 8	por	por	ADP	sps00	_	10	case	10:case	_
@@ -181592,7 +181592,7 @@
 6	Hanoi	Hanoi	PROPN	np0000l	_	4	nmod	4:nmod	Entity=(CESSCASTA2000111814149c1-place-1-CorefType:ident,gstype:spec)NOCOREF:Gen)|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 8	Clinton	Clinton	PROPN	np0000p	_	9	nsubj	9:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000111814149c2-person-1-CorefType:ident,gstype:spec)
-9	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+9	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 10	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	Entity=(CESSCASTA2000111814149c13--2-CorefType:ident,gstype:gen
 11	ceremonia	ceremonia	NOUN	ncfs000	Gender=Fem|Number=Sing	9	obj	9:obj	ArgTem=arg1:pat
 12	de	de	ADP	sps00	_	13	case	13:case	_
@@ -201634,7 +201634,7 @@
 17	para	para	ADP	sps00	_	18	case	18:case	_
 18	ordenadores	ordenador	NOUN	ncmp000	Gender=Masc|Number=Plur	14	nmod	14:nmod	Entity=(NOCOREF:Gen--1-gstype:gen)
 19	que	que	PRON	pr0cn000	PronType=Rel	20	nsubj	20:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200002032698c16--1-CorefType:ident,gstype:gen)
-20	preste	prestir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
+20	preste	prestar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
 21	especial	especial	ADJ	aq0cs0	Number=Sing	22	amod	22:amod	_
 22	interés	interés	NOUN	ncms000	Gender=Masc|Number=Sing	20	obj	20:obj	ArgTem=arg1:pat
 23	a	a	ADP	sps00	_	25	case	25:case	_
@@ -251702,7 +251702,7 @@
 40	de	de	ADP	sps00	_	41	case	41:case	_
 41	trabajo	trabajo	NOUN	ncms000	Gender=Masc|Number=Sing	39	nmod	39:nmod	_
 42	que	que	PRON	pr0cn000	PronType=Rel	43	obj	43:obj	ArgTem=arg1:pat|Entity=(CESSCASTAA200006064842c8--1-CorefType:ident,gstype:gen)
-43	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	acl:relcl	39:acl:relcl	_
+43	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	acl:relcl	39:acl:relcl	_
 44	hoy	hoy	ADV	rg	_	43	advmod	43:advmod	ArgTem=argM:tmp
 45	Don	Don	PROPN	np00000	_	43	nsubj	43:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200006064842c2-person-1-CorefType:ident,gstype:spec|MWE=Don_Felipe|MWEPOS=PROPN
 46	Felipe	Felipe	PROPN	_	_	45	flat	45:flat	SpaceAfter=No
@@ -289076,7 +289076,7 @@
 26	1979	1979	NOUN	_	_	29	obl	29:obl	ArgTem=argM:tmp|Entity=(NOCOREF:Spec.date-time-1-gstype:spec)
 27	Doña	Doña	PROPN	np00000	_	29	nsubj	29:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200010096536c3-person-1-CorefType:ident,gstype:spec|MWE=Doña_Sofía|MWEPOS=PROPN
 28	Sofía	Sofía	PROPN	_	_	27	flat	27:flat	Entity=CESSCASTAA200010096536c3)
-29	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	10:ccomp	ArgTem=argM:cau
+29	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	10:ccomp	ArgTem=argM:cau
 30	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	31:det	Entity=(CESSCASTAA200010096536c14-other-2-gstype:spec
 31	Congreso	Congreso	PROPN	np00000	_	29	obj	29:obj	ArgTem=arg1:pat|MWE=Congreso_de_Estudios_Extremeños|MWEPOS=PROPN
 32	de	de	ADP	_	_	33	case	33:case	_
@@ -296899,7 +296899,7 @@
 18	y	y	CCONJ	cc	_	20	cc	20:cc	_
 18.1	_	_	PRON	p	_	_	_	20:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200011042418c8--1-CorefType:ident,gstype:gen)
 19	no	no	ADV	rn	Polarity=Neg	20	advmod	20:advmod	_
-20	presten	prestir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	11:conj	_
+20	presten	prestar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	11:conj	_
 21	oídos	oído	NOUN	ncmp000	Gender=Masc|Number=Plur	20	obj	20:obj	ArgTem=arg1:pat
 22	"	"	PUNCT	fe	PunctType=Quot	24	punct	24:punct	SpaceAfter=No
 23	a	a	ADP	sps00	_	24	case	24:case	_
@@ -303355,7 +303355,7 @@
 8	en	en	ADP	rg	_	9	case	9:case	MWE=en_contra|MWEPOS=ADV
 9	contra	contra	NOUN	_	_	7	nmod	7:nmod	SpaceAfter=No
 10	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	Entity=CESSCASTAA200011085282c1)
-11	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+11	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 12	minutos	minuto	NOUN	ncmp000	Gender=Masc|Number=Plur	13	obl	13:obl	_
 13	después	después	ADV	rg	_	11	advmod	11:advmod	ArgTem=argM:tmp
 14	por	por	ADP	sps00	_	16	case	16:case	_
@@ -303568,7 +303568,7 @@
 6	Luis	Luis	PROPN	np00000	_	4	appos	4:appos	Entity=(NOCOREF:Spec.person-person-1-gstype:spec|MWE=Luis_Marquínez_Marquínez|MWEPOS=PROPN
 7	Marquínez	Marquínez	PROPN	_	_	6	flat	6:flat	_
 8	Marquínez	Marquínez	PROPN	_	_	6	flat	6:flat	Entity=NOCOREF:Spec.person)CESSCASTAA200011085282c13)
-9	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+9	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 10	ayer	ayer	ADV	rg	_	9	advmod	9:advmod	ArgTem=argM:tmp
 11	por	por	ADP	sps00	_	13	case	13:case	_
 12	primera	primero	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	13	amod	13:amod	_
@@ -330010,7 +330010,7 @@
 10	Husein	Husein	PROPN	_	_	9	flat	9:flat	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	Entity=CESSCASTP1999020122c14)
 12	que	que	PRON	pr0cn000	PronType=Rel	13	nsubj	13:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999020122c14-person-1-CorefType:ident,gstype:spec)
-13	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
+13	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
 14	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	Entity=(NOCOREF:Gen--2-gstype:gen
 15	reunión	reunión	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obj	13:obj	ArgTem=arg1:pat
 16-17	del	_	_	_	_	_	_	_	_
@@ -359093,7 +359093,7 @@
 49	único	único	ADJ	aq0ms0	Gender=Masc|Number=Sing	52	amod	52:amod	_
 50	que	que	PRON	pr0cn000	PronType=Rel	52	nsubj	52:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999070191c9-organization-1-CorefType:ident,gstype:spec)
 51	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	52	expl:pv	52:expl:pv	_
-52	hizo	hacerser	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	44	appos	44:appos	_
+52	hizo	hacer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	44	appos	44:appos	_
 53	eco	eco	NOUN	ncms000	Gender=Masc|Number=Sing	52	obj	52:obj	ArgTem=argL:
 54-55	del	_	_	_	_	_	_	_	_
 54	de	de	ADP	spcms	_	56	case	56:case	_
@@ -448807,7 +448807,7 @@
 10	industria	industria	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=argM:loc
 11	privada	privado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	10	amod	10:amod	Entity=NOCOREF:Gen)
 11.1	_	_	PRON	p	_	_	_	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2001010220c2-person-1-CorefType:ident,gstype:spec)
-12	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	6:conj	_
+12	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	6:conj	_
 13	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	Entity=(NOCOREF:Gen--3-gstype:gen
 14	importante	importante	ADJ	aq0cs0	Number=Sing	15	amod	15:amod	_
 15	compañía	compañía	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obj	12:obj	ArgTem=arg1:pat
@@ -465696,7 +465696,7 @@
 5	Menem	Menem	PROPN	np00000	_	3	obj	3:obj	ArgTem=arg1:pat|Entity=(CESSCASTP2001050126c1-person-1-CorefType:ident,gstype:spec|SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 7	que	que	PRON	pr0cn000	PronType=Rel	8	nsubj	8:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2001050126c1-person-1-CorefType:ident,gstype:spec)
-8	presidió	pesidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
+8	presidió	presidir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 9	Argentina	Argentina	PROPN	np00000	_	8	obj	8:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)
 10	entre	entre	ADP	sps00	_	11	case	11:case	_
 11	1989	1989	NOUN	_	_	8	obl	8:obl	ArgTem=argM:tmp|Entity=(NOCOREF:Spec.date-time-1-gstype:spec
