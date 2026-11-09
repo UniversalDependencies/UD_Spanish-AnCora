@@ -33812,7 +33812,7 @@
 # sent_id = 3LB-CAST-a22-4-s7
 # text = Supongamos que usted ha leído en la Prensa y visto en la televisión la tragedia de ese país que alguna vez fue Yugoslavia, y se encuentra conmovido por la suerte que espera en este invierno a los refugiados bosnios.
 # orig_file_sentence 009#67
-1	Supongamos	suponer	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+1	Supongamos	suponer	VERB	vmm01p0	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	0	root	0:root	_
 2	que	que	SCONJ	cs	_	5	mark	5:mark	_
 3	usted	tú	PRON	pp2cs00p	Case=Acc,Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	5	nsubj	5:nsubj	ArgTem=arg0:agt
 4	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -33857,7 +33857,7 @@
 # sent_id = 3LB-CAST-a22-4-s8
 # text = Supongamos, además, que usted es una persona poseída por el divino don de la caridad y quiere ayudar a sus semejantes, aunque los bosnios le parezcan menos semejantes que, pongamos por caso, los extremeños.
 # orig_file_sentence 009#68
-1	Supongamos	suponer	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+1	Supongamos	suponer	VERB	vmm01p0	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 3	además	además	ADV	rg	_	1	advmod	1:advmod	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
@@ -62101,7 +62101,7 @@
 # sent_id = 3LB-CAST-dc2-10-s13
 # text = Imaginemos un laboratorio dotado de cohetes que sale disparado desde el centro de la Tierra.
 # orig_file_sentence 018#74
-1	Imaginemos	imaginar	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+1	Imaginemos	imaginar	VERB	vmm01p0	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	0	root	0:root	_
 2	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	3:det	_
 3	laboratorio	laboratorio	NOUN	ncms000	Gender=Masc|Number=Sing	1	obj	1:obj	ArgTem=arg1:pat
 4	dotado	dotado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	3	amod	3:amod	_
@@ -62153,7 +62153,7 @@
 # sent_id = 3LB-CAST-dc2-10-s15
 # text = Pongamos por caso que hemos arreglado el experimento de tal manera que el laboratorio llegue al punto más alto de su vuelo, a su apogeo, justo cuando el emisor de la torre lanza hacia abajo el paquete de ondas lumínicas.
 # orig_file_sentence 018#76
-1	Pongamos	poner	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+1	Pongamos	poner	VERB	vmm01p0	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	0	root	0:root	_
 2	por	por	ADP	sps00	_	3	case	3:case	_
 3	caso	caso	NOUN	ncms000	Gender=Masc|Number=Sing	1	obl	1:obl	ArgTem=argM:adv
 4	que	que	SCONJ	cs	_	6	mark	6:mark	_

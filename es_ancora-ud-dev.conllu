@@ -3806,7 +3806,7 @@
 # sent_id = 3LB-CAST-d2-12-s5
 # text = Esperemos que muy pronto.
 # orig_file_sentence 002#8
-1	Esperemos	esperar	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+1	Esperemos	esperar	VERB	vmm01p0	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	0	root	0:root	_
 2	que	que	SCONJ	cs	_	4	mark	4:mark	_
 3	muy	mucho	ADV	rg	_	4	advmod	4:advmod	_
 4	pronto	pronto	ADV	rg	_	1	obj	1:obj	ArgTem=arg1:pat|SpaceAfter=No
