@@ -373,10 +373,10 @@
 17	que	que	PRON	pr0cn000	PronType=Rel	30	nsubj	30:nsubj	ArgTem=arg0:agt|SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 19	como	como	SCONJ	cs	_	20	case	20:case	_
-20	Estados	Estados	PROPN	np0000l	_	30	obl	30:obl	ArgTem=argM:adv|Entity=(NOCOREF:Spec.location-place-1-gstype:spec|MWE=Estados_Unidos|MWEPOS=PROPN
+20	Estados	Estados	PROPN	np0000l	_	16	nmod	16:nmod	ArgTem=argM:adv|Entity=(NOCOREF:Spec.location-place-1-gstype:spec|MWE=Estados_Unidos|MWEPOS=PROPN
 21	Unidos	Unidos	PROPN	_	_	20	flat	20:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
-23	Canadá	Canadá	PROPN	np0000l	_	20	flat	20:flat	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)
+23	Canadá	Canadá	PROPN	np0000l	_	20	conj	20:conj	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)
 24	o	o	CCONJ	cc	_	26	cc	26:cc	_
 25	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	26:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
 26	Unión	Unión	PROPN	np0000l	_	20	conj	20:conj	MWE=Unión_Europea|MWEPOS=PROPN
@@ -22891,7 +22891,7 @@
 35	empleados	empleado	NOUN	ncmp000	Gender=Masc|Number=Plur	31	obl:arg	31:obl:arg	ArgTem=arg2:ben|Entity=NOCOREF:Gen)|SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	38	punct	38:punct	_
 37	como	como	SCONJ	cs	_	38	mark	38:mark	_
-38	computadores	computador	NOUN	ncmp000	Gender=Masc|Number=Plur	29	obl	29:obl	Entity=(NOCOREF:Gen--1-gstype:gen(NOCOREF:Gen--1-gstype:gen
+38	computadores	computador	NOUN	ncmp000	Gender=Masc|Number=Plur	32	nmod	32:nmod	Entity=(NOCOREF:Gen--1-gstype:gen(NOCOREF:Gen--1-gstype:gen
 39	gratis	gratis	ADV	rg	_	38	advmod	38:advmod	Entity=NOCOREF:Gen)|SpaceAfter=No
 40	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
 41	gimnasios	gimnasio	NOUN	ncmp000	Gender=Masc|Number=Plur	38	conj	38:conj	Entity=(NOCOREF:Gen--1-gstype:gen
@@ -45117,7 +45117,7 @@
 14	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
 15	como	como	SCONJ	cs	_	17	mark	17:mark	_
 16	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-17	aparición	aparición	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obl	8:obl	_
+17	aparición	aparición	NOUN	ncfs000	Gender=Fem|Number=Sing	9	nmod	9:nmod	_
 18	de	de	ADP	sps00	_	19	case	19:case	_
 19	episodios	episodio	NOUN	ncmp000	Gender=Masc|Number=Plur	17	nmod	17:nmod	ArgTem=arg1:tem|Entity=(CESSCASTP1999090136c6--1-gstype:gen
 20	de	de	ADP	sps00	_	21	case	21:case	_
