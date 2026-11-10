@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Spanish-AnCora:
-commit 45d22f0514553480068215e61cb4d8f7d10a24f7
-Merge: b725258 197cca3
+commit 6efd6e41100c4be388c20fba9d36635b60ae7393
+Merge: 20adddb bdb41b5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'es_ancora'
 Language code (from CoNLL-U file name) = 'es'
 Found the following data files: es_ancora-ud-dev.conllu, es_ancora-ud-test.conllu, es_ancora-ud-train.conllu
-Size: counted 560137 of 560137 words (nodes).
-Size: min(0, log((N/1000)**2)) = 12.6563627933323.
+Size: counted 560138 of 560138 words (nodes).
+Size: min(0, log((N/1000)**2)) = 12.6563663638842.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 387535 out of 560137 total words have one or more features.
+Features: 386651 out of 560138 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -31,12 +31,12 @@ Genres: found 1 out of 18 known.
 [Line 4636 Sent 3LB-CAST-dc1-15-s9]: [L3 WARNING fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * igual que'
 [Line 4673 Sent 3LB-CAST-dc1-15-s10]: [L3 WARNING fixed-gap] Gaps in fixed expression [13, 15] 'a * momento'
 [Line 4859 Sent 3LB-CAST-dc1-3-s5]: [L3 WARNING fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * igual que'
-[Line 9430 Sent CESS-CAST-A-20000217-13959-s10B]: [L3 WARNING fixed-without-extpos] Fixed expression 'de puta madre' does not have the 'ExtPos' feature
 [Line 11484 Sent CESS-CAST-A-20000317-13968-s8]: [L3 WARNING fixed-without-extpos] Fixed expression 'sobre todo' does not have the 'ExtPos' feature
 [Line 17222 Sent CESS-CAST-A-20000618-14736-s7]: [L3 WARNING fixed-without-extpos] Fixed expression 'a tiempo que' does not have the 'ExtPos' feature
 [Line 17222 Sent CESS-CAST-A-20000618-14736-s7]: [L3 WARNING fixed-gap] Gaps in fixed expression [31, 33, 34] 'a * tiempo que'
+[Line 19380 Sent CESS-CAST-A-20001117-13026-s9]: [L3 WARNING fixed-gap] Gaps in fixed expression [45, 47, 48] 'a * menos durante'
 ...suppressing further messages regarding WARNING/SYNTAX
-Warnings: 34
+Warnings: 33
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-test.conllu
 [Line 3954 Sent 3LB-CAST-dc10-2-s10]: [L3 WARNING fixed-gap] Gaps in fixed expression [26, 28] 'de * todo'
@@ -50,7 +50,7 @@ Warnings: 34
 [Line 13276 Sent CESS-CAST-A-20000317-13928-s11]: [L3 WARNING fixed-without-extpos] Fixed expression 'sino que' does not have the 'ExtPos' feature
 [Line 14297 Sent CESS-CAST-A-20000415-12000-s7]: [L3 WARNING fixed-gap] Gaps in fixed expression [39, 41] 'a * respecto'
 ...suppressing further messages regarding WARNING/SYNTAX
-Warnings: 35
+Warnings: 34
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang es --max-err=10 UD_Spanish-AnCora/es_ancora-ud-train.conllu
 [Line 615 Sent 3LB-CAST-104_c-1-s14]: [L3 WARNING fixed-without-extpos] Fixed expression 'así como también' does not have the 'ExtPos' feature
@@ -64,16 +64,16 @@ Warnings: 35
 [Line 32108 Sent 3LB-CAST-a20-0-s5]: [L3 WARNING fixed-without-extpos] Fixed expression 'A el contrario' does not have the 'ExtPos' feature
 [Line 32513 Sent 3LB-CAST-a20-1-s4]: [L3 WARNING fixed-without-extpos] Fixed expression 'a el cabo' does not have the 'ExtPos' feature
 ...suppressing further messages regarding WARNING/SYNTAX
-Warnings: 147
+Warnings: 134
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
-(weight=0.37037037037037) * (score{size}=0.916098087018308) = 0.339295587784558
+(weight=0.37037037037037) * (score{size}=0.916098345463471) = 0.339295683504989
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
 (weight=0.111111111111111) * (score{udeprels}=0.713513513513514) = 0.0792792792792793
-(TOTAL score=0.760259689140817) * (availability=1) * (validity=1) = 0.760259689140817
+(TOTAL score=0.760259784861247) * (availability=1) * (validity=1) = 0.760259784861247
 STARS = 4
-UD_Spanish-AnCora	0.760259689140817	4
+UD_Spanish-AnCora	0.760259784861247	4
