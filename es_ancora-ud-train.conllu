@@ -227535,7 +227535,7 @@
 # sent_id = CESS-CAST-AA-20000326-21333_i-s1
 # text = TRIUNFOS DE ORO DE ESPANYOL Y VALLADOLID
 # orig_file_sentence 054#87
-1	TRIUNFOS	triunfos	NOUN	ncmp000	Gender=Masc|Number=Plur	0	root	0:root	_
+1	TRIUNFOS	triunfo	NOUN	ncmp000	Gender=Masc|Number=Plur	0	root	0:root	_
 2	DE	de	ADP	sps00	_	3	case	3:case	_
 3	ORO	oro	NOUN	ncms000	Gender=Masc|Number=Sing	1	nmod	1:nmod	_
 4	DE	de	ADP	sps00	_	5	case	5:case	_
@@ -405988,7 +405988,7 @@
 # sent_id = CESS-CAST-P-20000401-126-s15
 # text = Protagonistas masculinos "En los tres puede que estén Antonio Banderas y Penélope Cruz, pero todavía hay que esperar un poco", adelantó.
 # orig_file_sentence 087#17
-1	Protagonistas	protagonistas	NOUN	nccp000	_	25	dep	25:dep	Entity=(NOCOREF:Gen--1-gstype:gen|MWE=Protagonistas_masculinos|MWEPOS=NOUN
+1	Protagonistas	protagonista	NOUN	nccp000	_	25	dep	25:dep	Entity=(NOCOREF:Gen--1-gstype:gen|MWE=Protagonistas_masculinos|MWEPOS=NOUN
 2	masculinos	masculinos	NOUN	_	_	1	compound	1:compound	Entity=NOCOREF:Gen)
 3	"	"	PUNCT	fe	PunctType=Quot	7	punct	7:punct	SpaceAfter=No
 4	En	en	ADP	sps00	_	6	case	6:case	_
@@ -495336,7 +495336,7 @@
 # orig_file_sentence 108#73
 1	"	"	PUNCT	fe	PunctType=Quot	3	punct	3:punct	Entity=(NOCOREF:Gen--3-gstype:gen,Title|SpaceAfter=No
 2	GRAVES	graves	ADJ	aq00p0	Number=Plur	3	amod	3:amod	_
-3	REPERCUSIONES	repercusiones	NOUN	ncfp000	Gender=Fem|Number=Plur	0	root	0:root	SpaceAfter=No
+3	REPERCUSIONES	repercusión	NOUN	ncfp000	Gender=Fem|Number=Plur	0	root	0:root	SpaceAfter=No
 4	"	"	PUNCT	fe	PunctType=Quot	3	punct	3:punct	Entity=NOCOREF:Gen)|SpaceAfter=No
 5	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
@@ -524325,7 +524325,7 @@
 # text = MÁS POSGRADOS.
 # orig_file_sentence 106#55
 1	MÁS	más	ADV	rg	Degree=Cmp	2	advmod	2:advmod	Entity=(NOCOREF:Gen--2-gstype:gen,Title
-2	POSGRADOS	posgrados	NOUN	nc00000	_	0	root	0:root	Entity=NOCOREF:Gen)|SpaceAfter=No
+2	POSGRADOS	posgrado	NOUN	nc00000	_	0	root	0:root	Entity=NOCOREF:Gen)|SpaceAfter=No
 3	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
 
 # sent_id = CESS-CAST-P-20020702-21_a-s7

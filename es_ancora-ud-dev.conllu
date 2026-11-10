@@ -21252,7 +21252,7 @@
 1	HASSELBAINK	hasselbaink	PROPN	np00000	_	2	nsubj	2:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200002065003c28-person-1-gstype:spec,Title)
 2	MARCÓ	marcar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	DOS	dos	NUM	dn00p0	Number=Plur|NumForm=Word|NumType=Card	4	nummod	4:nummod	Entity=(CESSCASTAA200002065003c29--2-gstype:gen,Title
-4	GOLES	goles	NOUN	ncmp000	Gender=Masc|Number=Plur	2	obj	2:obj	ArgTem=arg1:pat|Entity=CESSCASTAA200002065003c29)
+4	GOLES	gol	NOUN	ncmp000	Gender=Masc|Number=Plur	2	obj	2:obj	ArgTem=arg1:pat|Entity=CESSCASTAA200002065003c29)
 5	PERO	pero	CCONJ	cc	_	7	cc	7:cc	_
 6	ATLÉTICO	atlético	PROPN	np00000	_	7	nsubj	7:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200002065003c27-organization-1-CorefType:ident,gstype:spec)
 7	EMPATÓ	empatar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj	_
@@ -21772,7 +21772,7 @@
 2	LA	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD,Title
 3	SEQUÍA	sequía	NOUN	ncfs000	Gender=Fem|Number=Sing	1	nsubj	1:nsubj	ArgTem=arg1:tem
 4	DE	de	ADP	sps00	_	5	case	5:case	_
-5	GOLES	goles	NOUN	ncmp000	Gender=Masc|Number=Plur	3	nmod	3:nmod	Entity=(CESSCASTAA200002065003c55--1-gstype:gen,Title)
+5	GOLES	gol	NOUN	ncmp000	Gender=Masc|Number=Plur	3	nmod	3:nmod	Entity=(CESSCASTAA200002065003c55--1-gstype:gen,Title)
 6-7	DEL	_	_	_	_	_	_	_	_
 6	DE	de	ADP	spcms	_	8	case	8:case	_
 7	EL	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
@@ -61422,7 +61422,7 @@
 1	UN	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTP2002060151c3-organization-2-CorefType:ident,gstype:spec
 2	PAÍS	país	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	_
 3	SIN	sin	ADP	sps00	_	4	case	4:case	_
-4	RECURSOS	recursos	NOUN	ncmp000	Gender=Masc|Number=Plur	2	nmod	2:nmod	Entity=CESSCASTP2002060151c3)|SpaceAfter=No
+4	RECURSOS	recurso	NOUN	ncmp000	Gender=Masc|Number=Plur	2	nmod	2:nmod	Entity=CESSCASTP2002060151c3)|SpaceAfter=No
 5	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
 
 # sent_id = CESS-CAST-P-20020601-51-s17
