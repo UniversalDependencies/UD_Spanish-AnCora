@@ -13511,7 +13511,7 @@
 # text = Por último, Iber-X garantiza la entrega del servicio y, en colaboración con la Comisión del Mercado de Telecomunicaciones (CMT), certifica su calidad.
 # orig_file_sentence 004#33
 1	Por	por	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	Iber-X	Iber-X	PROPN	np0000o	_	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000041612432c1-organization-1-CorefType:ident,gstype:spec)
 5	garantiza	garantizar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -18483,7 +18483,7 @@
 # text = Por último, Jáuregui expresó el deseo de los socialistas de que se produzca un entendimiento entre los partidos que ambos representan - el PP y el PNV - respecto a la existencia de un "foro de unidad democrática" en Euskadi.
 # orig_file_sentence 006#14
 1	Por	por	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	Jáuregui	Jáuregui	PROPN	np0000p	_	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000062217928c1-person-1-CorefType:ident,gstype:spec)
 5	expresó	expresar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -23805,7 +23805,7 @@
 # text = Por último, tampoco se descarta que el ex primer ministro conservador Edouard Balladur salte a la arena de París de un momento a otro.
 # orig_file_sentence 007#57
 1	Por	por	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	tampoco	tampoco	ADV	rg	_	6	advmod	6:advmod	_
 5	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	expl:pass	6:expl:pass	_
@@ -35146,7 +35146,7 @@
 # text = Por último, esta Proposición pide la supresión de una serie de artículos referidos a los peajes y a las ampliaciones de los plazos de las concesiones dadas a las empresas que explotan las autopistas de peaje en España.
 # orig_file_sentence 009#18
 1	Por	por	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	esta	este	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	5	det	5:det	Entity=(CESSCASTAA200012128504c4-other-2-CorefType:ident,gstype:spec
 5	Proposición	Proposición	PROPN	np00000	_	6	nsubj	6:nsubj	ArgTem=arg0:agt|Entity=CESSCASTAA200012128504c4)
@@ -35399,7 +35399,7 @@
 # text = Por último, el diputado popular se refirió a la derogación de una serie de artículos de la ley 8/1972, "lo que no se puede hacer alegremente " , y añadió que en lo que se refiere a los beneficios o incremento de facturación que tienen estas empresas por las estaciones de servicio," no se puede criticar este aspecto, pues las concesionarias pueden buscar sus ingresos en estos campos".
 # orig_file_sentence 009#23
 1	Por	por	ADP	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCASTAA200012128504c24-person-2-CorefType:ident,gstype:spec
 5	diputado	diputado	NOUN	ncms000	Gender=Masc|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg1:tem
