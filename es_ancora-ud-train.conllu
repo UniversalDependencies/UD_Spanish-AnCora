@@ -17797,11 +17797,11 @@
 32	sitúa	situar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl	_
 33	en	en	ADP	sps00	_	34	case	34:case	_
 34	89.764	89764	NUM	_	NumForm=Digit|NumType=Card	32	obl	32:obl	ArgTem=arg2:ext|Entity=(NOCOREF:Spec.number-number-1-gstype:spec|SpaceAfter=No
-35	,	,	PUNCT	fc	PunctType=Comm	36	punct	36:punct	_
-36	es	es	NOUN	rg	ExtPos=ADV	34	advmod	34:advmod	MWE=es_decir|MWEPOS=ADV
+35	,	,	PUNCT	fc	PunctType=Comm	39	punct	39:punct	_
+36	es	es	NOUN	rg	ExtPos=CCONJ	39	cc	39:cc	MWE=es_decir|MWEPOS=CCONJ
 37	decir	decir	NOUN	_	_	36	fixed	36:fixed	_
 38	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	39:det	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
-39	12,7	12,7	NUM	zp	NumForm=Digit|NumType=Card	36	obl	36:obl	MWE=12,7_por_ciento|MWEPOS=NUM
+39	12,7	12,7	NUM	zp	NumForm=Digit|NumType=Card	34	conj	34:conj	MWE=12,7_por_ciento|MWEPOS=NUM
 40	por	por	ADP	_	_	41	case	41:case	_
 41	ciento	ciento	NUM	_	NumForm=Word|NumType=Card	39	nmod	39:nmod	_
 42	de	de	ADP	sps00	_	44	case	44:case	_
@@ -62777,7 +62777,7 @@
 20	decir	decir	NOUN	_	_	19	fixed	19:fixed	SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 22	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	_
-23	dispositivo	dispositivo	NOUN	ncms000	Gender=Masc|Number=Sing	8	obl:arg	8:obl:arg	_
+23	dispositivo	dispositivo	NOUN	ncms000	Gender=Masc|Number=Sing	10	conj	10:conj	_
 24	generador	generador	ADJ	aq0ms0	Gender=Masc|Number=Sing	23	amod	23:amod	_
 25	de	de	ADP	sps00	_	27	case	27:case	_
 26	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	_
@@ -69781,14 +69781,14 @@
 8	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	2:cop	_
 9	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	10:det	_
 10	metalomacrociclos	metalomacrociclo	NOUN	ncmp000	Gender=Masc|Number=Plur	2	nsubj	2:nsubj	ArgTem=arg2:atr|SpaceAfter=No
-11	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
-12	es	es	NOUN	cc	_	10	conj	10:conj	MWE=es_decir|MWEPOS=CCONJ
+11	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
+12	es	es	NOUN	cc	ExtPos=CCONJ	15	cc	15:cc	MWE=es_decir|MWEPOS=CCONJ
 13	decir	decir	NOUN	_	_	12	fixed	12:fixed	SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
 15	complejos	complejo	NOUN	ncmp000	Gender=Masc|Number=Plur	10	conj	10:conj	_
 16	metálicos	metálico	ADJ	aq0mp0	Gender=Masc|Number=Plur	15	amod	15:amod	_
 17	que	que	PRON	pr0cn000	PronType=Rel	18	nsubj	18:nsubj	ArgTem=arg1:tem
-18	contienen	contener	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	10:conj	_
+18	contienen	contener	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	_
 19	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	_
 20	sistema	sistema	NOUN	ncms000	Gender=Masc|Number=Sing	18	obj	18:obj	ArgTem=arg2:atr
 21	macrocíclico	macrocíclico	ADJ	aq0ms0	Gender=Masc|Number=Sing	20	amod	20:amod	_
@@ -70994,7 +70994,7 @@
 # sent_id = 3LB-CAST-dc3-8-s7
 # text = Es decir, las moléculas han de tener la banda de valencia fraccionalmente ocupada.
 # orig_file_sentence 021#21
-1	Es	es	NOUN	cc	ExtPos=ADV	8	advmod	8:advmod	MWE=Es_decir|MWEPOS=CCONJ
+1	Es	es	NOUN	cc	ExtPos=CCONJ	8	cc	8:cc	MWE=Es_decir|MWEPOS=CCONJ
 2	decir	decir	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	5:det	_
@@ -95760,18 +95760,18 @@
 2	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	3:det	_
 3	búhos	búho	NOUN	ncmp000	Gender=Masc|Number=Plur	5	nsubj	5:nsubj	ArgTem=arg1:tem
 4	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
-5	pequeños	pequeño	ADJ	aq0mp0	Gender=Masc|Number=Plur	8	parataxis	8:parataxis	ArgTem=arg2:atr
+5	pequeños	pequeño	ADJ	aq0mp0	Gender=Masc|Number=Plur	0	root	0:root	ArgTem=arg2:atr
 6	y	y	CCONJ	cc	_	7	cc	7:cc	_
 7	panzudos	panzudo	ADJ	aq0mp0	Gender=Masc|Number=Plur	5	conj	5:conj	_
-8	es	es	NOUN	cc	_	0	root	0:root	MWE=es_decir|MWEPOS=CCONJ
+8	es	es	NOUN	cc	ExtPos=CCONJ	14	cc	14:cc	MWE=es_decir|MWEPOS=CCONJ
 9	decir	decir	NOUN	_	_	8	fixed	8:fixed	_
 10	mi	mi	DET	dp1css	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	11:det	_
 11	amiga	amiga	NOUN	ncfs000	Gender=Fem|Number=Sing	14	nsubj	14:nsubj	ArgTem=arg0:agt
 12	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	_
 13	náyade	náyade	NOUN	ncfs000	Gender=Fem|Number=Sing	11	appos	11:appos	_
-14	dice	decir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	8:parataxis	_
+14	dice	decir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	5:conj	_
 15	piponcitos	piponcito	ADJ	aq0mp0	Gender=Masc|Number=Plur	14	obj	14:obj	ArgTem=arg1:pat|SpaceAfter=No
-16	.	.	PUNCT	fp	PunctType=Peri	8	punct	8:punct	_
+16	.	.	PUNCT	fp	PunctType=Peri	5	punct	5:punct	_
 
 # sent_id = 3LB-CAST-t4-6-s7
 # text = Eso acaba por quitarles la dimensión supersticiosa y querría tener uno como pisapapel en mi mesa, pero ese uh! adulatorio del que hablaba antes me intimida.
@@ -105453,13 +105453,13 @@
 # sent_id = CESS-CAST-A-20000125-17655-s4
 # text = Es decir, las empresas debían incluir cinco empleados de raza negra por cada uno de raza blanca, mestizo o indio, además de dar gran atención al empleo de mujeres y minusválidos, mediante cupos establecidos.
 # orig_file_sentence 046#77
-1	Es	es	NOUN	cc	ExtPos=ADV	7	advmod	7:advmod	MWE=Es_decir|MWEPOS=CCONJ
+1	Es	es	NOUN	cc	ExtPos=CCONJ	7	cc	7:cc	MWE=Es_decir|MWEPOS=CCONJ
 2	decir	decir	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 5	empresas	empresa	NOUN	ncfp000	Gender=Fem|Number=Plur	7	nsubj	7:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
 6	debían	deber	AUX	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux	7:aux	_
-7	incluir	incluir	VERB	vmn0000	VerbForm=Inf	24	parataxis	24:parataxis	_
+7	incluir	incluir	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 8	cinco	cinco	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	9	nummod	9:nummod	Entity=(NOCOREF:Gen--2-gstype:gen
 9	empleados	empleado	NOUN	ncmp000	Gender=Masc|Number=Plur	7	obj	7:obj	ArgTem=arg1:pat
 10	de	de	ADP	sps00	_	11	case	11:case	_
@@ -105475,10 +105475,10 @@
 20	mestizo	mestizo	NOUN	ncms000	Gender=Masc|Number=Sing	15	appos	15:appos	_
 21	o	o	CCONJ	cc	_	22	cc	22:cc	_
 22	indio	indio	NOUN	ncms000	Gender=Masc|Number=Sing	20	conj	20:conj	Entity=NOCOREF:Gen)|SpaceAfter=No
-23	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
-24	además	además	ADV	sps00	_	0	root	0:root	MWE=además_de|MWEPOS=ADP
+23	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
+24	además	además	ADV	sps00	ExtPos=SCONJ	26	mark	26:mark	MWE=además_de|MWEPOS=ADP
 25	de	de	ADP	_	_	24	fixed	24:fixed	_
-26	dar	dar	VERB	vmn0000	VerbForm=Inf	24	parataxis	24:parataxis	_
+26	dar	dar	VERB	vmn0000	VerbForm=Inf	7	advcl	7:advcl	_
 27	gran	gran	ADJ	aq0cs0	Number=Sing	28	amod	28:amod	_
 28	atención	atención	NOUN	ncfs000	Gender=Fem|Number=Sing	26	obj	26:obj	_
 29-30	al	_	_	_	_	_	_	_	_
@@ -105493,7 +105493,7 @@
 37	mediante	mediante	ADP	sps00	_	38	case	38:case	_
 38	cupos	cupo	NOUN	ncmp000	Gender=Masc|Number=Plur	26	obl	26:obl	Entity=(NOCOREF:Gen--1-gstype:gen
 39	establecidos	establecido	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	38	amod	38:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
-40	.	.	PUNCT	fp	PunctType=Peri	24	punct	24:punct	_
+40	.	.	PUNCT	fp	PunctType=Peri	7	punct	7:punct	_
 
 # sent_id = CESS-CAST-A-20000125-17655-s5
 # text = Sin embargo y contra toda previsión de la administración, en los últimos seis años el desempleo ha crecido de manera alarmante y hoy alcanza a más del 30 por ciento de la población activa.
@@ -251977,11 +251977,11 @@
 31	120.000	120000	NUM	_	NumForm=Digit|NumType=Card	32	nummod	32:nummod	_
 32	habitantes	habitante	NOUN	nccp000	Number=Plur	29	obj	29:obj	ArgTem=arg2:ext|SpaceAfter=No
 33	,	,	PUNCT	fc	PunctType=Comm	38	punct	38:punct	Entity=(CESSCASTAA200006064842c5-person-6-CorefType:pred.definit,gstype:spec
-34	es	es	NOUN	rg	ExtPos=ADV	38	advmod	38:advmod	MWE=es_decir|MWEPOS=ADV
+34	es	es	NOUN	rg	ExtPos=CCONJ	38	cc	38:cc	MWE=es_decir|MWEPOS=CCONJ
 35	decir	decir	NOUN	_	_	34	fixed	34:fixed	SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
 37	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	38:det	Entity=(CESSCASTAA200006064842c5-person-2-CorefType:pred.definit,gstype:spec,HomoDD(NOCOREF:Gen--2-gstype:gen,HomoDD
-38	mitad	mitad	NOUN	ncfs000	Gender=Fem|Number=Sing	32	appos	32:appos	Entity=NOCOREF:Gen)
+38	mitad	mitad	NOUN	ncfs000	Gender=Fem|Number=Sing	32	conj	32:conj	Entity=NOCOREF:Gen)
 39	que	que	SCONJ	cs	_	40	mark	40:mark	_
 40	hace	hacer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	advcl	38:advcl	Entity=(NOCOREF:Gen--1-gstype:gen
 41	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	42:det	_
@@ -327948,7 +327948,7 @@
 30	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
 31	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	33:det	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 32	1,8	1,8	NUM	_	NumForm=Digit|NumType=Card	33	nummod	33:nummod	SpaceAfter=No
-33	%	%	SYM	zp	_	23	dep	23:dep	Entity=NOCOREF:Spec.number)NOCOREF:Gen)CESSCASTP1999010279c2)|SpaceAfter=No
+33	%	%	SYM	zp	_	23	conj	23:conj	Entity=NOCOREF:Spec.number)NOCOREF:Gen)CESSCASTP1999010279c2)|SpaceAfter=No
 34	.	.	PUNCT	fp	PunctType=Peri	11	punct	11:punct	Entity=CESSCASTP1999010279c2)
 
 # sent_id = CESS-CAST-P-19990102-79-s2
@@ -343170,12 +343170,12 @@
 15	de	de	ADP	sps00	_	17	case	17:case	_
 16	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	Entity=(CESSCASTP19990501108c1--2-CorefType:ident,gstype:gen
 17	suspensión	suspensión	NOUN	ncfs000	Gender=Fem|Number=Sing	14	obl	14:obl	Entity=CESSCASTP19990501108c1)|SpaceAfter=No
-18	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
-19	es	es	NOUN	rg	ExtPos=ADV	23	advmod	23:advmod	MWE=es_decir|MWEPOS=ADV
+18	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
+19	es	es	NOUN	rg	ExtPos=CCONJ	23	cc	23:cc	MWE=es_decir|MWEPOS=CCONJ
 20	decir	decir	NOUN	_	_	19	fixed	19:fixed	SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 22	0,74	0.74	NUM	_	NumForm=Digit|NumType=Card	23	nummod	23:nummod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
-23	dólares	dólar	NOUN	zm	Gender=Masc|Number=Plur	12	appos	12:appos	Currency=Yes
+23	dólares	dólar	NOUN	zm	Gender=Masc|Number=Plur	12	conj	12:conj	Currency=Yes
 24	por	por	ADP	sps00	_	25	case	25:case	_
 25	acción	acción	NOUN	ncfs000	Gender=Fem|Number=Sing	23	nmod	23:nmod	Entity=NOCOREF:Spec.number)|SpaceAfter=No
 26	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	Entity=(NOCOREF:Gen--4-gstype:gen
@@ -359464,14 +359464,14 @@
 26	de	de	ADP	spcms	_	28	case	28:case	_
 27	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	_
 28	kemalismo	kemalismo	NOUN	nc00000	_	25	obl:arg	25:obl:arg	ArgTem=arg2:tem|Entity=(CESSCASTP1999070211c16--1-gstype:gen,HomoDD|SpaceAfter=No
-29	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
-30	es	es	NOUN	rg	ExtPos=ADV	28	advmod	28:advmod	MWE=es_decir|MWEPOS=ADV
+29	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
+30	es	es	NOUN	rg	ExtPos=CCONJ	35	cc	35:cc	MWE=es_decir|MWEPOS=CCONJ
 31	decir	decir	NOUN	_	_	30	fixed	30:fixed	SpaceAfter=No
-32	,	,	PUNCT	fc	PunctType=Comm	33	punct	33:punct	_
+32	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
 33-34	del	_	_	_	_	_	_	_	_
-33	de	de	ADP	spcms	_	30	case	30:case	_
-34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	30:det	_
-35	golpe	golpe	NOUN	ncms000	Gender=Masc|Number=Sing	30	nmod	30:nmod	Entity=(CESSCASTP1999070211c18--1-gstype:gen,HomoDD
+33	de	de	ADP	spcms	_	35	case	35:case	_
+34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	35:det	_
+35	golpe	golpe	NOUN	ncms000	Gender=Masc|Number=Sing	28	conj	28:conj	Entity=(CESSCASTP1999070211c18--1-gstype:gen,HomoDD
 36	militar	militar	ADJ	aq0cs0	Number=Sing	35	amod	35:amod	ArgTem=arg0:agt
 37	que	que	PRON	pr0cn000	PronType=Rel	45	nsubj	45:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999070211c18--1-CorefType:ident,gstype:gen)
 38	en	en	ADP	sps00	_	41	case	41:case	_
@@ -431548,7 +431548,7 @@
 # sent_id = CESS-CAST-P-20000902-44-s6
 # text = Es decir, no es de recibo que el agua, como bien necesario e imprescindible, pueda ser utilizada como arma.
 # orig_file_sentence 121#52
-1	Es	es	NOUN	cc	ExtPos=ADV	7	advmod	7:advmod	MWE=Es_decir|MWEPOS=CCONJ
+1	Es	es	NOUN	cc	ExtPos=CCONJ	7	cc	7:cc	MWE=Es_decir|MWEPOS=CCONJ
 2	decir	decir	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	no	no	ADV	rn	Polarity=Neg	7	advmod	7:advmod	_
@@ -434691,7 +434691,7 @@
 # sent_id = CESS-CAST-P-20000903-34-s17
 # text = Es decir, que renunciara a hablar con HB mientras esta coalición no condene los atentados etarras.
 # orig_file_sentence 113#32
-1	Es	es	NOUN	cc	ExtPos=ADV	5	advmod	5:advmod	MWE=Es_decir|MWEPOS=CCONJ
+1	Es	es	NOUN	cc	ExtPos=CCONJ	5	cc	5:cc	MWE=Es_decir|MWEPOS=CCONJ
 2	decir	decir	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	que	que	SCONJ	cs	_	5	mark	5:mark	_

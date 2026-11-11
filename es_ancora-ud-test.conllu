@@ -3394,7 +3394,7 @@
 52	,	,	PUNCT	fc	PunctType=Comm	50	punct	50:punct	_
 53	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	55	det	55:det	_
 54	verdadero	verdadero	ADJ	aq0ms0	Gender=Masc|Number=Sing	55	amod	55:amod	_
-55	automóvil	automóvil	NOUN	ncms000	Gender=Masc|Number=Sing	17	appos	17:appos	SpaceAfter=No
+55	automóvil	automóvil	NOUN	ncms000	Gender=Masc|Number=Sing	17	conj	17:conj	SpaceAfter=No
 56	.	.	PUNCT	fp	PunctType=Peri	5	punct	5:punct	_
 
 # sent_id = 3LB-CAST-dc10-10-s10
@@ -3925,7 +3925,7 @@
 # sent_id = 3LB-CAST-dc10-2-s10
 # text = Es decir, aun cuando un virus o cualquier otro invasor se introduzca por primera vez en nuestro organismo, a éste no le resultará del todo desconocido.
 # orig_file_sentence 002#10
-1	Es	es	NOUN	cc	ExtPos=ADV	25	advmod	25:advmod	MWE=Es_decir|MWEPOS=CCONJ
+1	Es	es	NOUN	cc	ExtPos=CCONJ	25	cc	25:cc	MWE=Es_decir|MWEPOS=CCONJ
 2	decir	decir	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	aun	aun	NOUN	cs	ExtPos=SCONJ	13	mark	13:mark	MWE=aun_cuando|MWEPOS=SCONJ
@@ -5130,7 +5130,7 @@
 # text = 22 Es decir, que sin el vigor de los apetitos, la vida humana perdería su valor racional!
 # orig_file_sentence 002#45
 1	22	22	SYM	fz	_	16	nmod	16:nmod	_
-2	Es	es	NOUN	cc	ExtPos=ADV	16	advmod	16:advmod	MWE=Es_decir|MWEPOS=CCONJ
+2	Es	es	NOUN	cc	ExtPos=CCONJ	16	cc	16:cc	MWE=Es_decir|MWEPOS=CCONJ
 3	decir	decir	NOUN	_	_	2	fixed	2:fixed	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 5	que	que	SCONJ	cs	_	16	mark	16:mark	_
@@ -44045,16 +44045,16 @@
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
 4	ahora	ahora	ADV	rg	_	6	advmod	6:advmod	ArgTem=argM:tmp
 5	se	él	PRON	p0000000	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	expl:impers	6:expl:impers	_
-6	hablará	hablar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	parataxis	10:parataxis	_
+6	hablará	hablar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 7	de	de	ADP	sps00	_	8	case	8:case	_
 8	inversión	inversión	NOUN	ncfs000	Gender=Fem|Number=Sing	6	obl:arg	6:obl:arg	ArgTem=arg1:tem|Entity=(CESSCASTP1999060219_ac18--1-gstype:gen)|SpaceAfter=No
-9	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
-10	es	es	NOUN	cc	_	0	root	0:root	MWE=es_decir|MWEPOS=CCONJ
+9	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
+10	es	es	NOUN	cc	ExtPos=CCONJ	15	cc	15:cc	MWE=es_decir|MWEPOS=CCONJ
 11	decir	decir	NOUN	_	_	10	fixed	10:fixed	SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
 13	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	Entity=(CESSCASTP1999060219_ac17--2-CorefType:ident,gstype:gen,HomoDD
 14	elector	elector	NOUN	ncms000	Gender=Masc|Number=Sing	15	nsubj	15:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP1999060219_ac17)
-15	invertirá	invertir	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	parataxis	10:parataxis	SpaceAfter=No
+15	invertirá	invertir	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	conj	6:conj	SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
 16.1	_	_	PRON	p	_	_	_	17:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999060219_ac17--1-CorefType:ident,gstype:gen)
 17	hará	hacer	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	advcl	15:advcl	_
@@ -44062,7 +44062,7 @@
 19	apuesta	apuesta	NOUN	ncfs000	Gender=Fem|Number=Sing	17	obj	17:obj	ArgTem=arg1:pat
 20	de	de	ADP	sps00	_	21	case	21:case	_
 21	futuro	futuro	NOUN	ncms000	Gender=Masc|Number=Sing	19	nmod	19:nmod	Entity=NOCOREF:Gen)|SpaceAfter=No
-22	.	.	PUNCT	fp	PunctType=Peri	10	punct	10:punct	_
+22	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
 
 # sent_id = CESS-CAST-P-19990602-19_a-s47
 # text = Y este concepto es muy interesante.
