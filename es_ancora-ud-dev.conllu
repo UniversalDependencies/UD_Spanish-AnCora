@@ -3699,8 +3699,8 @@
 # sent_id = 3LB-CAST-d2-12-s1
 # text = Es decir, que Mariano puede, felizmente, tener aún la oportunidad de seguir adelante con su pasión, aprovechando ese caudal de experiencia enormemente enriquecido por esta dura temporada.
 # orig_file_sentence 002#4
-1	Es	es	NOUN	cc	ExtPos=CCONJ	10	cc	10:cc	MWE=Es_decir|MWEPOS=CCONJ
-2	decir	decir	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+1	Es	ser	AUX	vsip3s0	ExtPos=CCONJ|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cc	10:cc	MWE=Es_decir|MWEPOS=CCONJ
+2	decir	decir	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	que	que	SCONJ	cs	_	10	mark	10:mark	_
 5	Mariano	Mariano	PROPN	np0000p	_	10	nsubj	10:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)
@@ -23366,8 +23366,8 @@
 16	militancia	militancia	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl:agent	13:obl:agent	ArgTem=arg0:agt
 17	socialista	socialista	ADJ	aq0cs0	Number=Sing	16	amod	16:amod	Entity=CESSCASTAA2000033125330c2)CESSCASTAA2000033125330c4)NOCOREF:Gen)|SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
-19	es	es	NOUN	cc	ExtPos=CCONJ	23	cc	23:cc	MWE=es_decir|MWEPOS=CCONJ
-20	decir	decir	NOUN	_	_	19	fixed	19:fixed	SpaceAfter=No
+19	es	ser	AUX	vsip3s0	ExtPos=CCONJ|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cc	23:cc	MWE=es_decir|MWEPOS=CCONJ
+20	decir	decir	VERB	vmn0000	VerbForm=Inf	19	fixed	19:fixed	SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 22	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 23	83,1	83,1	NUM	zp	NumForm=Digit|NumType=Card	9	conj	9:conj	MWE=83,1_por_ciento|MWEPOS=NUM
