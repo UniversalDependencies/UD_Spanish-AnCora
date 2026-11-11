@@ -45579,7 +45579,7 @@
 # text = Por último, recupera numerosos balones, incluso en zonas próximas a su área, sin que mermen sus capacidades físicas de velocidad y resistencia.
 # orig_file_sentence 013#28
 1	Por	por	ADP	rg	ExtPos=ADV	4	advmod	4:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	recupera	recuperar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	numerosos	numeroso	ADJ	aq0mp0	Gender=Masc|Number=Plur	6	amod	6:amod	_
@@ -53760,7 +53760,7 @@
 3	genéticos	genético	ADJ	aq0mp0	Gender=Masc|Number=Plur	2	amod	2:amod	ArgTem=arg0:agt|SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 5	por	por	ADP	rg	ExtPos=ADV	9	advmod	9:advmod	ArgTem=argM:adv|MWE=por_último|MWEPOS=ADV
-6	último	último	NOUN	_	_	5	fixed	5:fixed	SpaceAfter=No
+6	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	5	fixed	5:fixed	SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 8	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
 9	consecuencia	consecuencia	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	0:root	ArgTem=arg2:atr
@@ -60957,7 +60957,7 @@
 # text = Por último, por sólo citar un caso más, en España, con ocasión del llamado síndrome tóxico - el envenenamiento de miles de personas que consumieron aceite de colza desnaturalizado -, se achacó la enfermedad a un accidente sufrido por aviones norteamericanos portadores de armas biológicas.
 # orig_file_sentence 018#43
 1	Por	por	ADP	rg	ExtPos=ADV	37	advmod	37:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
 4	por	por	ADP	sps00	_	6	mark	6:mark	_
 5	sólo	sólo	ADV	rg	_	6	advmod	6:advmod	_
@@ -63584,7 +63584,7 @@
 # text = Por último, se trataría de una de esas armas limpias con las que parecen soñar los estrategas: sólo destruye vidas humanas y recursos primarios tales como ganado y agricultura.
 # orig_file_sentence 019#15
 1	Por	por	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	ArgTem=argM:adv|MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	se	él	PRON	p0000000	Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:impers	5:expl:impers	_
 5	trataría	tratar	VERB	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	0:root	_
@@ -67903,7 +67903,7 @@
 # text = Por último, un pequeño grupo de sustancias, como el complejo CNQ-ITF, presentan una conductividad eléctrica comparable a la de los metales, de la deslocalización de carga a una norma canónica aromática por resonancia en el anión-radical del TCNQ y del catión-radical del TTF.
 # orig_file_sentence 020#40
 1	Por	por	ADP	rg	ExtPos=ADV	15	advmod	15:advmod	ArgTem=argM:adv|MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
 5	pequeño	pequeño	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	amod	6:amod	_
@@ -111490,7 +111490,7 @@
 # text = Por último, también es destacable el peso del grupo que integran el material duro de montaña, material de golf, material de caza y pesca o bicicletas.
 # orig_file_sentence 037#51
 1	Por	por	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	también	también	ADV	rg	_	6	advmod	6:advmod	_
 5	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
@@ -113652,7 +113652,7 @@
 # text = Por último, animó a la sociedad vasca a que se "movilice activamente" y participe en las próximas elecciones generales, porque vive un momento en el que "tiene que hablar y no callar", en referencia a la propuesta de abstención de EH.
 # orig_file_sentence 040#66
 1	Por	por	ADP	rg	ExtPos=ADV	4	advmod	4:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 3.1	_	_	PRON	p	_	_	_	4:nsubj	ArgTem=arg0:cau|Entity=(CESSCASTA2000021815021c26-person-1-CorefType:ident,gstype:spec)
 4	animó	animar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -123100,7 +123100,7 @@
 # text = Por último, Espil reconoció que una solución para frenar el poderoso juego interior del conjunto catalán, con jugadores de la envergadura y fuerza física de Roberto Dueñas, Derrick Alston o Efthimios Rentzias, radicará en conceder el tiro a su rival.
 # orig_file_sentence 036#43
 1	Por	por	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	Espil	Espil	PROPN	np0000p	_	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000031613150c2-person-1-CorefType:ident,gstype:spec)
 5	reconoció	reconocer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -221867,7 +221867,7 @@
 # text = Por último Minardi, con Marc Gené como primer piloto y el debutante argentino Gaston Mazzacane, tiene el problema de ser la única escudería que no cuenta con un motor oficial, y utilizará el Ford de la pasada temporada, rebautizado Fondmetal.
 # orig_file_sentence 071#74
 1	Por	por	ADP	rg	ExtPos=ADV	18	advmod	18:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	_
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	_
 3	Minardi	Minardi	PROPN	np00000	_	18	nsubj	18:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200003097054c40-organization-1-gstype:spec|SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
 5	con	con	ADP	sps00	_	6	case	6:case	_
@@ -233761,7 +233761,7 @@
 24	cambios	cambio	NOUN	ncmp000	Gender=Masc|Number=Plur	22	nmod	22:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)
 25	y	y	CCONJ	cc	_	42	cc	42:cc	_
 26	por	por	ADP	rg	ExtPos=ADV	42	advmod	42:advmod	Entity=(CESSCASTAA200004096635c31--17|MWE=por_último|MWEPOS=ADV
-27	último	último	NOUN	_	_	26	fixed	26:fixed	_
+27	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	26	fixed	26:fixed	_
 28	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	29:det	Entity=(NOCOREF:Gen--2-gstype:gen
 29	rotura	rotura	NOUN	ncfs000	Gender=Fem|Number=Sing	42	nsubj	42:nsubj	ArgTem=arg0:agt
 30	de	de	ADP	sps00	_	32	case	32:case	_
@@ -248254,7 +248254,7 @@
 # text = Por último, se prevé en este Convenio la cooperación internacional en esta materia y se establece que sin perjuicio de la aplicación de los acuerdos bilaterales o multilaterales de asistencia mutua, las autoridades competentes de cada país deberán prestarse mutuamente, cuando así lo pida otro, la máxima asistencia posible en las cuestiones reguladas por el presente Convenio.
 # orig_file_sentence 054#97
 1	Por	por	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	ArgTem=argM:adv|MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:pass	5:expl:pass	_
 5	prevé	prever	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -252262,7 +252262,7 @@
 2	Teruel	Teruel	PROPN	np00000	_	9	obl	9:obl	ArgTem=argM:loc|Entity=(CESSCASTAA200006064842c13-place-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 4	por	por	ADP	rg	ExtPos=ADV	2	advmod	2:advmod	MWE=por_último|MWEPOS=ADV
-5	último	último	NOUN	_	_	4	fixed	4:fixed	SpaceAfter=No
+5	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	4	fixed	4:fixed	SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 7	Don	Don	PROPN	np00000	_	9	nsubj	9:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200006064842c2-person-1-CorefType:ident,gstype:spec|MWE=Don_Felipe|MWEPOS=PROPN
 8	Felipe	Felipe	PROPN	_	_	7	flat	7:flat	Entity=CESSCASTAA200006064842c2)
@@ -276329,7 +276329,7 @@
 # text = Por último, el saltador cubano afirmó que tras concluir su preparación en los Juegos Olímpicos de Sydney "pienso mantenerme en el deporte en activo".
 # orig_file_sentence 070#17
 1	Por	por	ADP	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCASTAA200009096304c1-person-2-CorefType:ident,gstype:spec
 5	saltador	saltador	NOUN	ncms000	Gender=Masc|Number=Sing	7	nsubj	7:nsubj	ArgTem=arg0:agt
@@ -323329,7 +323329,7 @@
 # text = Por último, el presidente del Barça, acogió con satisfacción el impulso definitivo que la UEFA dio ayer a la reforma de los torneos europeos: "No todos los clubs piensan lo mismo sobre el reparto de los ingresos, pero se ha escogido un modelo que debe valer para empezar" .
 # orig_file_sentence 081#42
 1	Por	por	ADP	sps00	ExtPos=ADV	10	advmod	10:advmod	MWE=Por_último|MWEPOS=ADP
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCASTP19981202112c2-person-2-CorefType:ident,gstype:spec
 5	presidente	presidente	NOUN	ncms000	Gender=Masc|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg0:agt
@@ -457950,7 +457950,7 @@
 2	CAC	CAC	PROPN	np00000	_	8	nsubj	8:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2001030191c3)|SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 4	por	por	ADP	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=por_último|MWEPOS=ADV
-5	último	último	NOUN	_	_	4	fixed	4:fixed	SpaceAfter=No
+5	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	4	fixed	4:fixed	SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 7	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	expl:pv	8:expl:pv	_
 8	muestra	mostrar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -484946,7 +484946,7 @@
 # text = Por último, un fuego declarado ayer en el municipio toledano de Ocaña arrasó 200 hectáreas.
 # orig_file_sentence 125#96
 1	Por	por	ADP	rg	ExtPos=ADV	14	advmod	14:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen
 5	fuego	fuego	NOUN	ncms000	Gender=Masc|Number=Sing	14	nsubj	14:nsubj	ArgTem=arg0:cau
@@ -512767,7 +512767,7 @@
 # text = Por último, Entre línies Gust als dits, que analiza la creatividad y la experimentación que rodea a los jóvenes cocineros y pasteleros catalanes.
 # orig_file_sentence 143#34
 1	Por	por	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=Por_último|MWEPOS=ADV
-2	último	último	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+2	último	último	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 4	Entre	Entre	ADP	np00000	_	1	case	1:case	Entity=(CESSCASTP2002040196c13-other-2-CorefType:ident,gstype:spec|MWE=Entre_línies|MWEPOS=PROPN
 5	línies	línies	PROPN	_	_	0	root	0:root	Entity=CESSCASTP2002040196c13)
