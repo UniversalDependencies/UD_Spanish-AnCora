@@ -355505,7 +355505,7 @@
 49	de	de	ADP	sps00	_	50	case	50:case	_
 50	habitantes	habitante	NOUN	nccp000	Number=Plur	48	nmod	48:nmod	Entity=NOCOREF:Gen)CESSCASTP1999070118c6)|SpaceAfter=No
 51	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	39	punct	39:punct	_
-52	como	como	SCONJ	cs	_	55	mark	55:mark	_
+52	como	como	SCONJ	cs	_	55	cc	55:cc	_
 53-54	del	_	_	_	_	_	_	_	_
 53	de	de	ADP	spcms	_	55	case	55:case	_
 54	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	55:det	_
