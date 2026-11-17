@@ -25679,7 +25679,7 @@
 14-15	del	_	_	_	_	_	_	_	_
 14	de	de	ADP	spcms	_	16	case	16:case	_
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
-16	entrenador	entrenador	NOUN	ncms000	Gender=Masc|Number=Sing	11	nmod	11:nmod	Entity=(NOCOREF:Spec.person-person-1-gstype:spec
+16	entrenador	entrenador	NOUN	ncms000	Gender=Masc|Number=Sing	12	nmod	12:nmod	Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 17	colombiano	colombiano	ADJ	aq0ms0	Gender=Masc|Number=Sing	16	amod	16:amod	_
 18	Oscar	Oscar	PROPN	np00000	_	16	appos	16:appos	Entity=(NOCOREF:Spec.person-person-1-gstype:spec|MWE=Oscar_Aristizábal|MWEPOS=PROPN
 19	Aristizábal	Aristizábal	PROPN	_	_	18	flat	18:flat	Entity=NOCOREF:Spec.person)NOCOREF:Spec.person)|SpaceAfter=No

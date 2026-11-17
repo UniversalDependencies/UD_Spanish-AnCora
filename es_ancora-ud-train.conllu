@@ -24604,7 +24604,7 @@
 26	Elena	Elena	PROPN	np0000p	_	11	nmod	11:nmod	Entity=(NOCOREF:Spec.person-person-1-gstype:spec)
 27	otra	otro	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	28	det	28:det	_
 28	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	26	appos	26:appos	_
-29	en	en	ADP	sps00	_	31	case	31:case	_
+29	en	en	ADP	sps00	_	32	case	32:case	_
 30	"	"	PUNCT	fe	PunctType=Quot	32	punct	32:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
 31	The	the	DET	np0000a	Foreign=Yes|PronType=Art	32	det	32:det	Lang=en|MWE=The_Memory_of_Certains_Persons|MWEPOS=PROPN
 32	Memory	memory	NOUN	np0000a	Foreign=Yes	26	nmod	26:nmod	Lang=en
@@ -24613,7 +24613,7 @@
 35	Persons	Persons	PROPN	np0000a	_	34	flat	31:flat	SpaceAfter=No
 36	"	"	PUNCT	fe	PunctType=Quot	32	punct	32:punct	_
 37	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	38	punct	38:punct	Entity=(NOCOREF:Spec.date-time-2-gstype:spec|SpaceAfter=No
-38	1947	1947	NOUN	_	_	31	appos	31:appos	SpaceAfter=No
+38	1947	1947	NOUN	_	_	32	appos	32:appos	SpaceAfter=No
 39	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	38	punct	38:punct	Entity=NOCOREF:Spec.date)NOCOREF:Spec.other)|SpaceAfter=No
 40	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
 41	Villon	Villon	PROPN	np0000p	_	11	appos	11:appos	_
@@ -157697,7 +157697,7 @@
 # orig_file_sentence 033#73
 1	Además	además	ADV	rg	_	10	advmod	10:advmod	SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
-3	Save	save	VERB	np0000o	ExtPos=NOUN|Foreign=Yes	10	nsubj	10:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec(NOCOREF:Spec.organization-organization-1-gstype:spec|MWE=Save_the_Children|MWEPOS=PROPN
+3	Save	save	VERB	np0000o	ExtPos=PROPN|Foreign=Yes	10	nsubj	10:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec(NOCOREF:Spec.organization-organization-1-gstype:spec|MWE=Save_the_Children|MWEPOS=PROPN
 4	the	the	DET	np0000o	Foreign=Yes|PronType=Art	5	det	5:det	_
 5	Children	child	NOUN	np0000o	Foreign=Yes	3	obj	3:obj	Entity=NOCOREF:Spec.organization)
 6	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	7	punct	7:punct	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|SpaceAfter=No
@@ -406028,8 +406028,8 @@
 7	de	de	ADP	sps00	_	9	case	9:case	_
 8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 9	novela	novela	NOUN	ncfs000	Gender=Fem|Number=Sing	6	nmod	6:nmod	ArgTem=arg1:pat
-10	The	the	DET	np00000	Foreign=Yes|PronType=Art	11	det	11:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_paper_boy|MWEPOS=PROPN
-11	paper	paper	NOUN	np00000	Foreign=Yes	11	compound	11:compound	Lang=en
+10	The	the	DET	np00000	Foreign=Yes|PronType=Art	12	det	12:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_paper_boy|MWEPOS=PROPN
+11	paper	paper	NOUN	np00000	Foreign=Yes	12	compound	12:compound	Lang=en
 12	boy	boy	NOUN	np00000	Foreign=Yes	9	appos	9:appos	Entity=NOCOREF:Spec.other)NOCOREF:Spec.other)CESSCASTP20000401126c15)|Lang=en|SpaceAfter=No
 13	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
 
@@ -521666,7 +521666,7 @@
 16	de	de	ADP	sps00	_	17	case	17:case	_
 17	David	David	PROPN	np00000	_	15	nmod	15:nmod	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec|MWE=David_Mamet|MWEPOS=PROPN
 18	Mamet	Mamet	PROPN	np00000	_	17	flat	17:flat	Entity=NOCOREF:Spec.person)
-19	Speed	speed	VERB	np00000	ExtPos=NOUN|Foreign=Yes	15	appos	15:appos	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=Speed_the_plow|MWEPOS=PROPN
+19	Speed	speed	VERB	np00000	ExtPos=PROPN|Foreign=Yes	15	appos	15:appos	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=Speed_the_plow|MWEPOS=PROPN
 20	the	the	DET	np00000	Foreign=Yes|PronType=Art	21	det	21:det	Lang=en
 21	plow	plow	NOUN	np00000	Foreign=Yes	19	obj	19:obj	Entity=NOCOREF:Spec.other)NOCOREF:Spec.other)CESSCASTP20020502155c6)|Lang=en|SpaceAfter=No
 22	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
