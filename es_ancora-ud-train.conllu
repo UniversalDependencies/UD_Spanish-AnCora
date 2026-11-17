@@ -500937,8 +500937,8 @@
 18	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 19	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	23	mark	23:mark	MWE=mientras_que|MWEPOS=CCONJ
 20	que	que	SCONJ	cs	_	19	fixed	19:fixed	_
-21	The	the	DET	np00000	_	22	det	22:det	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
-22	Times	time	NOUN	np00000	_	23	nsubj	23:nsubj	Entity=NOCOREF:Spec.organization)|Lang=en
+21	The	the	DET	np00000	Foreign=Yes|PronType=Art	22	det	22:det	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
+22	Times	time	NOUN	np00000	Foreign=Yes	23	nsubj	23:nsubj	Entity=NOCOREF:Spec.organization)|Lang=en
 23	escogió	escoger	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	10:advcl	_
 24	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 25	titular	titular	NOUN	ncms000	Gender=Masc|Number=Sing	23	obj	23:obj	ArgTem=arg1:pat
