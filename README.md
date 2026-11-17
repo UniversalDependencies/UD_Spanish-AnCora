@@ -49,6 +49,8 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 # Changelog
 
+* 2027-05-15 v2.20
+  * Improved annotation of foreign words, in particular in names of newspapers and bands.
 * 2026-05-15 v2.18
   * Distinguished acl:relcl from acl based on the presence of PronType=Rel.
   * Fixed spurious verbs in idiomatic expressions and in uppercase headings.
