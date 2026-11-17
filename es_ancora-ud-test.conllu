@@ -4455,8 +4455,8 @@
 27	radios	radio	NOUN	ncmp000	Gender=Masc|Number=Plur	24	nmod	24:nmod	ArgTem=arg1:pat
 28	de	de	ADP	sps00	_	29	case	29:case	_
 29	Van	Van	PROPN	np0000a	_	27	nmod	27:nmod	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|MWE=Van_der_Waals|MWEPOS=PROPN
-30	der	der	PROPN	_	_	29	flat	29:flat	_
-31	Waals	Waals	PROPN	_	_	29	flat	29:flat	Entity=NOCOREF:Spec.other)|SpaceAfter=No
+30	der	der	PROPN	np0000a	_	29	flat	29:flat	_
+31	Waals	Waals	PROPN	np0000a	_	29	flat	29:flat	Entity=NOCOREF:Spec.other)|SpaceAfter=No
 32	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	_
 33	con	con	ADP	sps00	_	35	case	35:case	_
 34	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	35	det	35:det	ArgTem=argM:adv
@@ -11528,11 +11528,11 @@
 15	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
 16	denominados	denominado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	9	amod	9:amod	_
 17	derivados	derivado	NOUN	ncmp000	Gender=Masc|Number=Plur	16	obj	16:obj	ArgTem=arg2:atr
-18	"	"	PUNCT	fe	PunctType=Quot	19	punct	19:punct	SpaceAfter=No
-19	over	over	NOUN	nc00000	_	17	nmod	17:nmod	MWE=over_the_counter|MWEPOS=NOUN
-20	the	the	NOUN	_	_	19	compound	19:compound	_
-21	counter	counter	NOUN	_	_	19	compound	19:compound	SpaceAfter=No
-22	"	"	PUNCT	fe	PunctType=Quot	19	punct	19:punct	SpaceAfter=No
+18	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	SpaceAfter=No
+19	over	over	NOUN	nc00000	Foreign=Yes	21	case	21:case	Lang=en|MWE=over_the_counter|MWEPOS=NOUN
+20	the	the	NOUN	nc00000	Foreign=Yes|PronType=Art	21	det	21:det	Lang=en
+21	counter	counter	NOUN	nc00000	Foreign=Yes	17	nmod	17:nmod	Lang=en|SpaceAfter=No
+22	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
 24	en	en	ADP	sps00	_	26	case	26:case	_
 25	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	26:det	ArgTem=argM:loc|Entity=(CESSCASTA2000021714234c11--2-CorefType:ident,gstype:gen
@@ -38774,8 +38774,8 @@
 6	ayer	ayer	ADV	rg	_	5	advmod	5:advmod	ArgTem=argM:tmp
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCASTP1998120126c2-organization-2-gstype:spec
 8	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg0:agt
-9	The	The	PROPN	np00000	_	8	appos	8:appos	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|MWE=The_Guardian|MWEPOS=PROPN
-10	Guardian	Guardian	PROPN	_	_	9	flat	9:flat	Entity=NOCOREF:Spec.organization)CESSCASTP1998120126c2)|SpaceAfter=No
+9	The	the	DET	np00000	Foreign=Yes|PronType=Art	10	det	10:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Guardian|MWEPOS=PROPN
+10	Guardian	guardian	NOUN	np00000	Foreign=Yes	8	appos	8:appos	Entity=NOCOREF:Spec.organization)CESSCASTP1998120126c2)|Lang=en|SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
 12	Washington	Washington	PROPN	np00000	_	15	nsubj	15:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1998120126c15-organization-1-gstype:spec)
 13	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
@@ -40744,8 +40744,8 @@
 # sent_id = CESS-CAST-P-19990202-123-s17
 # text = The Times había publicado unas manifestaciones del seleccionador inglés en las que decía que "los discapacitados físicos y mentales pagan por los pecados que cometieron en una vida anterior".
 # orig_file_sentence 011#65
-1	The	The	PROPN	np00000	_	4	nsubj	4:nsubj	ArgTem=arg2:loc|Entity=(CESSCASTP19990202123c27-organization-1-gstype:spec|MWE=The_Times|MWEPOS=PROPN
-2	Times	Times	PROPN	_	_	1	flat	1:flat	Entity=CESSCASTP19990202123c27)
+1	The	the	DET	np00000	Foreign=Yes|PronType=Art	2	det	2:det	ArgTem=arg2:loc|Entity=(CESSCASTP19990202123c27-organization-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
+2	Times	time	NOUN	np00000	Foreign=Yes	4	nsubj	4:nsubj	Entity=CESSCASTP19990202123c27)|Lang=en
 3	había	haber	AUX	vaii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	4:aux	_
 4	publicado	publicar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 5	unas	uno	DET	di0fp0	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	6	det	6:det	Entity=(CESSCASTP19990202123c26--2-gstype:gen,HomoDD
@@ -41695,8 +41695,8 @@
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTP1999030137c33--2-gstype:gen(NOCOREF:Spec.organization-organization-2-gstype:spec
 2	rotativo	rotativo	NOUN	ncms000	Gender=Masc|Number=Sing	14	nsubj	14:nsubj	ArgTem=arg2:loc
 3	británico	británico	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	amod	2:amod	_
-4	The	The	PROPN	np00000	_	2	appos	2:appos	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|MWE=The_Times|MWEPOS=PROPN
-5	Times	Times	PROPN	_	_	4	flat	4:flat	Entity=NOCOREF:Spec.organization)NOCOREF:Spec.organization)
+4	The	the	DET	np00000	Foreign=Yes|PronType=Art	5	det	5:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
+5	Times	time	NOUN	np00000	Foreign=Yes	2	appos	2:appos	Entity=NOCOREF:Spec.organization)NOCOREF:Spec.organization)|Lang=en
 6	y	y	CCONJ	cc	_	8	cc	8:cc	_
 7	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 8	agencias	agencia	NOUN	ncfp000	Gender=Fem|Number=Plur	2	conj	2:conj	_
@@ -47044,8 +47044,8 @@
 20	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	21:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
 21	rotonda	rotonda	NOUN	ncfs000	Gender=Fem|Number=Sing	18	nmod	18:nmod	ArgTem=arg1:tem
 22	de	de	ADP	sps00	_	24	case	24:case	_
-23	Els	Els	DET	np00000	Gender=Masc|Number=Plur|PronType=Art	24	det	24:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|MWE=Els_Dolors|MWEPOS=PROPN
-24	Dolors	Dolors	PROPN	_	_	21	nmod	21:nmod	Entity=NOCOREF:Spec.location)NOCOREF:Spec.location)
+23	Els	el	DET	da0mp0	Foreign=Yes|Gender=Masc|Number=Plur|PronType=Art	24	det	24:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|Lang=ca|MWE=Els_Dolors|MWEPOS=PROPN
+24	Dolors	dolor	NOUN	ncmp000	Foreign=Yes|Gender=Masc|Number=Plur	21	nmod	21:nmod	Entity=NOCOREF:Spec.location)NOCOREF:Spec.location)|Lang=ca
 25	con	con	ADP	sps00	_	27	case	27:case	_
 26	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
 27	ronda	ronda	NOUN	ncfs000	Gender=Fem|Number=Sing	18	nmod	18:nmod	ArgTem=arg2:cot
@@ -48422,11 +48422,11 @@
 22	que	que	PRON	pr0cn000	PronType=Rel	24	nsubj	24:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTP19991202121_dc2--1-CorefType:ident,gstype:gen)
 23	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	24	expl:pass	24:expl:pass	_
 24	celebrará	celebrar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	acl:relcl	20:acl:relcl	_
-25	en	en	ADP	sps00	_	26	case	26:case	_
-26	The	The	PROPN	np00000	_	24	obl	24:obl	ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec(NOCOREF:Spec.location-place-1-gstype:spec|MWE=The_Belfry|MWEPOS=PROPN
-27	Belfry	Belfry	PROPN	_	_	26	flat	26:flat	Entity=NOCOREF:Spec.location)
+25	en	en	ADP	sps00	_	27	case	27:case	_
+26	The	the	DET	np00000	Foreign=Yes|PronType=Art	27	det	27:det	ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec(NOCOREF:Spec.location-place-1-gstype:spec|Lang=en|MWE=The_Belfry|MWEPOS=PROPN
+27	Belfry	belfry	NOUN	np00000	Foreign=Yes	24	obl	24:obl	Entity=NOCOREF:Spec.location)|Lang=en
 28	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	29	punct	29:punct	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|SpaceAfter=No
-29	Inglaterra	Inglaterra	PROPN	np00000	_	26	flat	26:flat	SpaceAfter=No
+29	Inglaterra	Inglaterra	PROPN	np00000	_	27	appos	27:appos	SpaceAfter=No
 30	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	29	punct	29:punct	Entity=NOCOREF:Spec.location)NOCOREF:Spec.location)
 31	en	en	ADP	sps00	_	33	case	33:case	_
 32	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	33:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
@@ -55681,11 +55681,11 @@
 18	entrevistas	entrevista	NOUN	ncfp000	Gender=Fem|Number=Plur	16	nmod	16:nmod	_
 19	de	de	ADP	sps00	_	22	case	22:case	_
 20	'	'	PUNCT	fz	PunctType=Quot	22	punct	22:punct	Entity=(CESSCASTP20010201178c1-other-3-gstype:spec|SpaceAfter=No
-21	Els	Els	DET	np00000	Gender=Masc|Number=Plur|PronType=Art	22	det	22:det	MWE=Els_matins_amb_Josep_Cuní|MWEPOS=PROPN
-22	matins	matins	PROPN	_	_	16	nmod	16:nmod	_
-23	amb	amb	ADP	_	_	24	case	24:case	_
-24	Josep	Josep	PROPN	_	_	22	nmod	22:nmod	_
-25	Cuní	Cuní	PROPN	_	_	24	flat	24:flat	SpaceAfter=No
+21	Els	el	DET	da0mp0	Foreign=Yes|Gender=Masc|Number=Plur|PronType=Art	22	det	22:det	Lang=ca|MWE=Els_matins_amb_Josep_Cuní|MWEPOS=PROPN
+22	matins	matin	NOUN	ncmp000	Foreign=Yes|Gender=Masc|Number=Plur	16	nmod	16:nmod	Lang=ca
+23	amb	amb	ADP	sps00	Foreign=Yes	24	case	24:case	Lang=ca
+24	Josep	Josep	PROPN	np00000	Foreign=Yes|Gender=Masc|Number=Sing	22	nmod	22:nmod	Lang=ca
+25	Cuní	Cuní	PROPN	np00000	Foreign=Yes|Gender=Masc|Number=Sing	24	flat	24:flat	Lang=ca|SpaceAfter=No
 26	'	'	PUNCT	fz	PunctType=Quot	22	punct	22:punct	Entity=CESSCASTP20010201178c1)|SpaceAfter=No
 27	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
 28	de	de	ADP	sps00	_	29	case	29:case	_
@@ -58464,9 +58464,9 @@
 13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	Entity=(NOCOREF:Gen--10-gstype:gen
 14	de	de	ADP	sps00	_	15	case	15:case	_
 15	Joop	Joop	PROPN	np00000	_	22	obl:arg	22:obl:arg	ArgTem=arg2:cot|Entity=(NOCOREF:Spec.person-person-1-gstype:spec|MWE=Joop_van_den_Ende|MWEPOS=PROPN
-16	van	van	PROPN	_	_	15	flat	15:flat	_
-17	den	den	PROPN	_	_	15	flat	15:flat	_
-18	Ende	Ende	PROPN	_	_	15	flat	15:flat	Entity=NOCOREF:Spec.person)|SpaceAfter=No
+16	van	van	PROPN	np00000	_	15	flat	15:flat	_
+17	den	den	PROPN	np00000	_	15	flat	15:flat	_
+18	Ende	Ende	PROPN	np00000	_	15	flat	15:flat	Entity=NOCOREF:Spec.person)|SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
 20	de	de	ADP	sps00	_	21	case	21:case	_
 21	donde	donde	ADV	pr000000	PronType=Rel	22	advmod	22:advmod	ArgTem=arg3:ori|Entity=(CESSCASTP200107014c2--1-CorefType:dx.token)
