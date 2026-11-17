@@ -11529,8 +11529,8 @@
 16	denominados	denominado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	9	amod	9:amod	_
 17	derivados	derivado	NOUN	ncmp000	Gender=Masc|Number=Plur	16	obj	16:obj	ArgTem=arg2:atr
 18	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	SpaceAfter=No
-19	over	over	NOUN	nc00000	Foreign=Yes	21	case	21:case	Lang=en|MWE=over_the_counter|MWEPOS=NOUN
-20	the	the	NOUN	nc00000	Foreign=Yes|PronType=Art	21	det	21:det	Lang=en
+19	over	over	ADP	nc00000	Foreign=Yes	21	case	21:case	Lang=en|MWE=over_the_counter|MWEPOS=NOUN
+20	the	the	DET	nc00000	Foreign=Yes|PronType=Art	21	det	21:det	Lang=en
 21	counter	counter	NOUN	nc00000	Foreign=Yes	17	nmod	17:nmod	Lang=en|SpaceAfter=No
 22	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
