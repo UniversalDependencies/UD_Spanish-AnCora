@@ -11962,10 +11962,10 @@
 13	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 14	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	20	nsubj	20:nsubj	ArgTem=arg0:agt
 15	conservador	conservador	ADJ	aq0ms0	Gender=Masc|Number=Sing	14	amod	14:amod	_
-16	"	"	PUNCT	fe	PunctType=Quot	17	punct	17:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
-17	Le	le	DET	np00000	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	14	appos	14:appos	Lang=fr|MWE=Le_Figaro|MWEPOS=PROPN
-18	Figaro	Figaro	PROPN	_	_	17	flat	17:flat	SpaceAfter=No
-19	"	"	PUNCT	fe	PunctType=Quot	17	punct	17:punct	Entity=NOCOREF:Spec.other)NOCOREF:Spec.organization)
+16	"	"	PUNCT	fe	PunctType=Quot	18	punct	18:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
+17	Le	le	DET	da0ms0	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	Lang=fr|MWE=Le_Figaro|MWEPOS=PROPN
+18	Figaro	Figaro	PROPN	np00000	Foreign=Yes	14	appos	14:appos	Lang=fr|SpaceAfter=No
+19	"	"	PUNCT	fe	PunctType=Quot	18	punct	18:punct	Entity=NOCOREF:Spec.other)NOCOREF:Spec.organization)
 20	indica	indicar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 21	que	que	SCONJ	cs	_	28	mark	28:mark	_
 22	"	"	PUNCT	fe	PunctType=Quot	28	punct	28:punct	SpaceAfter=No
@@ -23795,10 +23795,10 @@
 40	a	a	ADP	spcms	_	42	case	42:case	_
 41	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	42:det	_
 42	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	39	nmod	39:nmod	ArgTem=arg1:tem|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
-43	"	"	PUNCT	fe	PunctType=Quot	44	punct	44:punct	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec|SpaceAfter=No
-44	Le	le	DET	np00000	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	42	appos	42:appos	Lang=fr|MWE=Le_Parisien|MWEPOS=PROPN
-45	Parisien	Parisien	PROPN	_	_	44	flat	44:flat	SpaceAfter=No
-46	"	"	PUNCT	fe	PunctType=Quot	44	punct	44:punct	Entity=NOCOREF:Spec.organization)NOCOREF:Spec.organization)NOCOREF:Gen)|SpaceAfter=No
+43	"	"	PUNCT	fe	PunctType=Quot	45	punct	45:punct	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec|SpaceAfter=No
+44	Le	le	DET	da0ms0	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	45	det	45:det	Lang=fr|MWE=Le_Parisien|MWEPOS=PROPN
+45	Parisien	Parisien	PROPN	np00000	Foreign=Yes|Gender=Masc|Number=Sing	42	appos	42:appos	Lang=fr|SpaceAfter=No
+46	"	"	PUNCT	fe	PunctType=Quot	45	punct	45:punct	Entity=NOCOREF:Spec.organization)NOCOREF:Spec.organization)NOCOREF:Gen)|SpaceAfter=No
 47	.	.	PUNCT	fp	PunctType=Peri	30	punct	30:punct	_
 
 # sent_id = CESS-CAST-AA-20000331-25330-s12
@@ -60756,8 +60756,8 @@
 11	éxito	éxito	NOUN	ncms000	Gender=Masc|Number=Sing	8	obl	8:obl	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
 12	electoral	electoral	ADJ	aq0cs0	Number=Sing	11	amod	11:amod	_
 13	de	de	ADP	sps00	_	14	case	14:case	_
-14	Le	le	DET	np00000	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	11	nmod	11:nmod	Entity=(NOCOREF:Spec.person-person-1-gstype:spec|Lang=fr|MWE=Le_Pen|MWEPOS=PROPN
-15	Pen	Pen	PROPN	_	_	14	flat	14:flat	Entity=NOCOREF:Spec.person)NOCOREF:Gen)|SpaceAfter=No
+14	Le	Le	PROPN	np00000	_	11	nmod	11:nmod	Entity=(NOCOREF:Spec.person-person-1-gstype:spec|MWE=Le_Pen|MWEPOS=PROPN
+15	Pen	Pen	PROPN	np00000	_	14	flat	14:flat	Entity=NOCOREF:Spec.person)NOCOREF:Gen)|SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	Entity=NOCOREF:Spec.date)
 17	Aznar	Aznar	PROPN	np00000	_	18	nsubj	18:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002050249c3-person-1-gstype:spec)
 18	achacó	achacar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
