@@ -11963,7 +11963,7 @@
 14	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	20	nsubj	20:nsubj	ArgTem=arg0:agt
 15	conservador	conservador	ADJ	aq0ms0	Gender=Masc|Number=Sing	14	amod	14:amod	_
 16	"	"	PUNCT	fe	PunctType=Quot	18	punct	18:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
-17	Le	le	DET	da0ms0	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	Lang=fr|MWE=Le_Figaro|MWEPOS=PROPN
+17	Le	le	DET	da0ms0	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	18	det	18:det	Lang=fr|MWE=Le_Figaro|MWEPOS=PROPN
 18	Figaro	Figaro	PROPN	np00000	Foreign=Yes	14	appos	14:appos	Lang=fr|SpaceAfter=No
 19	"	"	PUNCT	fe	PunctType=Quot	18	punct	18:punct	Entity=NOCOREF:Spec.other)NOCOREF:Spec.organization)
 20	indica	indicar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
