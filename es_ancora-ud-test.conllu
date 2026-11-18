@@ -11530,7 +11530,7 @@
 17	derivados	derivado	NOUN	ncmp000	Gender=Masc|Number=Plur	16	obj	16:obj	ArgTem=arg2:atr
 18	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	SpaceAfter=No
 19	over	over	ADP	nc00000	Foreign=Yes	21	case	21:case	Lang=en|MWE=over_the_counter|MWEPOS=NOUN
-20	the	the	DET	nc00000	Foreign=Yes|PronType=Art	21	det	21:det	Lang=en
+20	the	the	DET	nc00000	Definite=Def|Foreign=Yes|PronType=Art	21	det	21:det	Lang=en
 21	counter	counter	NOUN	nc00000	Foreign=Yes	17	nmod	17:nmod	Lang=en|SpaceAfter=No
 22	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
@@ -38774,7 +38774,7 @@
 6	ayer	ayer	ADV	rg	_	5	advmod	5:advmod	ArgTem=argM:tmp
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCASTP1998120126c2-organization-2-gstype:spec
 8	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg0:agt
-9	The	the	DET	np00000	Foreign=Yes|PronType=Art	10	det	10:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Guardian|MWEPOS=PROPN
+9	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	10	det	10:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Guardian|MWEPOS=PROPN
 10	Guardian	guardian	NOUN	np00000	Foreign=Yes	8	appos	8:appos	Entity=NOCOREF:Spec.organization)CESSCASTP1998120126c2)|Lang=en|SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
 12	Washington	Washington	PROPN	np00000	_	15	nsubj	15:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1998120126c15-organization-1-gstype:spec)
@@ -40744,7 +40744,7 @@
 # sent_id = CESS-CAST-P-19990202-123-s17
 # text = The Times había publicado unas manifestaciones del seleccionador inglés en las que decía que "los discapacitados físicos y mentales pagan por los pecados que cometieron en una vida anterior".
 # orig_file_sentence 011#65
-1	The	the	DET	np00000	Foreign=Yes|PronType=Art	2	det	2:det	ArgTem=arg2:loc|Entity=(CESSCASTP19990202123c27-organization-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
+1	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	2	det	2:det	ArgTem=arg2:loc|Entity=(CESSCASTP19990202123c27-organization-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
 2	Times	time	NOUN	np00000	Foreign=Yes	4	nsubj	4:nsubj	Entity=CESSCASTP19990202123c27)|Lang=en
 3	había	haber	AUX	vaii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	4:aux	_
 4	publicado	publicar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -41695,7 +41695,7 @@
 1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCASTP1999030137c33--2-gstype:gen(NOCOREF:Spec.organization-organization-2-gstype:spec
 2	rotativo	rotativo	NOUN	ncms000	Gender=Masc|Number=Sing	14	nsubj	14:nsubj	ArgTem=arg2:loc
 3	británico	británico	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	amod	2:amod	_
-4	The	the	DET	np00000	Foreign=Yes|PronType=Art	5	det	5:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
+4	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	5	det	5:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
 5	Times	time	NOUN	np00000	Foreign=Yes	2	appos	2:appos	Entity=NOCOREF:Spec.organization)NOCOREF:Spec.organization)|Lang=en
 6	y	y	CCONJ	cc	_	8	cc	8:cc	_
 7	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -48423,7 +48423,7 @@
 23	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	24	expl:pass	24:expl:pass	_
 24	celebrará	celebrar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	acl:relcl	20:acl:relcl	_
 25	en	en	ADP	sps00	_	27	case	27:case	_
-26	The	the	DET	np00000	Foreign=Yes|PronType=Art	27	det	27:det	ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec(NOCOREF:Spec.location-place-1-gstype:spec|Lang=en|MWE=The_Belfry|MWEPOS=PROPN
+26	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	27	det	27:det	ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec(NOCOREF:Spec.location-place-1-gstype:spec|Lang=en|MWE=The_Belfry|MWEPOS=PROPN
 27	Belfry	belfry	NOUN	np00000	Foreign=Yes	24	obl	24:obl	Entity=NOCOREF:Spec.location)|Lang=en
 28	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	29	punct	29:punct	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|SpaceAfter=No
 29	Inglaterra	Inglaterra	PROPN	np00000	_	27	appos	27:appos	SpaceAfter=No

@@ -24606,7 +24606,7 @@
 28	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	26	appos	26:appos	_
 29	en	en	ADP	sps00	_	32	case	32:case	_
 30	"	"	PUNCT	fe	PunctType=Quot	32	punct	32:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
-31	The	the	DET	np0000a	Foreign=Yes|PronType=Art	32	det	32:det	Lang=en|MWE=The_Memory_of_Certains_Persons|MWEPOS=PROPN
+31	The	the	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	32	det	32:det	Lang=en|MWE=The_Memory_of_Certains_Persons|MWEPOS=PROPN
 32	Memory	memory	NOUN	np0000a	Foreign=Yes	26	nmod	26:nmod	Lang=en
 33	of	of	ADP	np0000a	Foreign=Yes	34	case	34:case	Lang=en
 34	Certains	Certains	PROPN	np0000a	_	32	nmod	32:nmod	_
@@ -24644,7 +24644,7 @@
 11	Erskine	Erskine	PROPN	np0000p	_	9	nmod	9:nmod	Entity=(NOCOREF:Spec.person-person-1-gstype:spec)|SpaceAfter=No
 12	:	:	PUNCT	fd	PunctType=Colo	16	punct	16:punct	Entity=(NOCOREF:Spec.other-other-3-gstype:spec
 13	"	"	PUNCT	fe	PunctType=Quot	16	punct	16:punct	SpaceAfter=No
-14	The	the	DET	np0000a	Foreign=Yes|PronType=Art	16	det	16:det	Lang=en|MWE=The_Moral_Obligation_to_Be_Intelligent|MWEPOS=PROPN
+14	The	the	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	16	det	16:det	Lang=en|MWE=The_Moral_Obligation_to_Be_Intelligent|MWEPOS=PROPN
 15	Moral	moral	ADJ	np0000a	Foreign=Yes	16	amod	16:amod	Lang=en
 16	Obligation	obligation	NOUN	np0000a	Foreign=Yes	9	appos	9:appos	Lang=en
 17	to	to	PART	np0000a	Foreign=Yes	19	mark	19:mark	Lang=en
@@ -77944,7 +77944,7 @@
 133	forma	forma	NOUN	ncfs000	Gender=Fem|Number=Sing	111	conj	111:conj	ArgTem=arg2:atr|SpaceAfter=No
 134	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	133	punct	133:punct	_
 135	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	140	punct	140:punct	SpaceAfter=No
-136	Die	der	DET	np0000a	Foreign=Yes|PronType=Art	137	det	137:det	Lang=de|MWE=Die_Materie_ist_nicht_anders_-LSB-|MWEPOS=PROPN
+136	Die	der	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	137	det	137:det	Lang=de|MWE=Die_Materie_ist_nicht_anders_-LSB-|MWEPOS=PROPN
 137	Materie	Materie	NOUN	np0000a	Foreign=Yes	140	nsubj	140:nsubj	Lang=de
 138	ist	sein	AUX	np0000a	Foreign=Yes	140	cop	140:cop	Lang=de
 139	nicht	nicht	PART	np0000a	Foreign=Yes	140	advmod	140:advmod	Lang=de
@@ -116793,7 +116793,7 @@
 47	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	48:det	_
 48	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	45	nmod	45:nmod	Entity=(NOCOREF:Spec.other-other-1-gstype:spec
 49	"	"	PUNCT	fe	PunctType=Quot	53	punct	53:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
-50	The	the	DET	np0000a	Foreign=Yes|PronType=Art	53	det	53:det	MWE=The_Christian_Science_Monitor|MWEPOS=PROPN
+50	The	the	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	53	det	53:det	MWE=The_Christian_Science_Monitor|MWEPOS=PROPN
 51	Christian	christian	ADJ	np0000a	Foreign=Yes	53	amod	53:amod	_
 52	Science	science	NOUN	np0000a	Foreign=Yes	53	compound	53:compound	_
 53	Monitor	monitor	NOUN	np0000a	Foreign=Yes	48	appos	48:appos	SpaceAfter=No
@@ -145857,7 +145857,7 @@
 15	"	"	PUNCT	fe	PunctType=Quot	3	punct	3:punct	SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 17	titula	titular	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-18	The	the	DET	np0000o	Foreign=Yes|PronType=Art	19	det	19:det	ArgTem=arg0:agt|Entity=(CESSCASTA2000061814353c6-organization-1-gstype:spec|Lang=en|MWE=The_Observer|MWEPOS=PROPN
+18	The	the	DET	np0000o	Definite=Def|Foreign=Yes|PronType=Art	19	det	19:det	ArgTem=arg0:agt|Entity=(CESSCASTA2000061814353c6-organization-1-gstype:spec|Lang=en|MWE=The_Observer|MWEPOS=PROPN
 19	Observer	observer	NOUN	np0000o	Foreign=Yes	17	nsubj	17:nsubj	Entity=CESSCASTA2000061814353c6)|Lang=en|SpaceAfter=No
 20	.	.	PUNCT	fp	PunctType=Peri	17	punct	17:punct	_
 
@@ -145908,7 +145908,7 @@
 # sent_id = CESS-CAST-A-20000618-14353-s4
 # text = The Independent incide en el mismo punto y señala que" el fútbol inglés demostró su habilidad especial para provocar simultáneamente orgullo y vergüenza la pasada noche cuando el equipo nacional venció a Alemania después de que miles de hinchas protagonizaran 36 horas de violencia".
 # orig_file_sentence 039#6
-1	The	the	DET	np0000o	Foreign=Yes|PronType=Art	2	det	2:det	ArgTem=arg0:agt|Entity=(CESSCASTA2000061814353c8-organization-1-gstype:spec|Lang=en|MWE=The_Independent|MWEPOS=PROPN
+1	The	the	DET	np0000o	Definite=Def|Foreign=Yes|PronType=Art	2	det	2:det	ArgTem=arg0:agt|Entity=(CESSCASTA2000061814353c8-organization-1-gstype:spec|Lang=en|MWE=The_Independent|MWEPOS=PROPN
 2	Independent	independent	ADJ	np0000o	Foreign=Yes	3	nsubj	3:nsubj	Entity=CESSCASTA2000061814353c8)|Lang=en
 3	incide	incidir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	en	en	ADP	sps00	_	7	case	7:case	_
@@ -145976,7 +145976,7 @@
 14	"	"	PUNCT	fe	PunctType=Quot	7	punct	7:punct	SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
 16	titula	titular	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-17	The	the	DET	np0000o	Foreign=Yes|PronType=Art	19	det	19:det	ArgTem=arg0:agt|Entity=(CESSCASTA2000061814353c11-organization-1-gstype:spec|Lang=en|MWE=The_Sunday_Times|MWEPOS=PROPN
+17	The	the	DET	np0000o	Definite=Def|Foreign=Yes|PronType=Art	19	det	19:det	ArgTem=arg0:agt|Entity=(CESSCASTA2000061814353c11-organization-1-gstype:spec|Lang=en|MWE=The_Sunday_Times|MWEPOS=PROPN
 18	Sunday	Sunday	PROPN	np0000o	Foreign=Yes	19	compound	19:compound	Lang=en
 19	Times	time	NOUN	np0000o	Foreign=Yes	16	nsubj	16:nsubj	Entity=CESSCASTA2000061814353c11)|Lang=en|SpaceAfter=No
 20	.	.	PUNCT	fp	PunctType=Peri	16	punct	16:punct	_
@@ -146085,12 +146085,12 @@
 14	"	"	PUNCT	fe	PunctType=Quot	6	punct	6:punct	SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
 16	titula	titular	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-17	The	the	DET	np0000o	Foreign=Yes|PronType=Art	18	det	18:det	ArgTem=arg0:agt|Entity=(CESSCASTA2000061814353c8-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Independent|MWEPOS=PROPN
+17	The	the	DET	np0000o	Definite=Def|Foreign=Yes|PronType=Art	18	det	18:det	ArgTem=arg0:agt|Entity=(CESSCASTA2000061814353c8-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Independent|MWEPOS=PROPN
 18	Independent	independent	ADJ	np0000o	Foreign=Yes	16	nsubj	16:nsubj	Entity=CESSCASTA2000061814353c8)|Lang=en|SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 20	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	24	mark	24:mark	MWE=mientras_que|MWEPOS=CCONJ
 21	que	que	SCONJ	cs	_	20	fixed	20:fixed	_
-22	The	the	DET	np0000o	Foreign=Yes|PronType=Art	23	det	23:det	ArgTem=arg0:agt|Entity=(CESSCASTA2000061814353c6-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Observer|MWEPOS=PROPN
+22	The	the	DET	np0000o	Definite=Def|Foreign=Yes|PronType=Art	23	det	23:det	ArgTem=arg0:agt|Entity=(CESSCASTA2000061814353c6-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Observer|MWEPOS=PROPN
 23	Observer	observer	NOUN	np0000o	Foreign=Yes	24	nsubj	24:nsubj	Entity=CESSCASTA2000061814353c6)|Lang=en
 24	apunta	apuntar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	16:advcl	_
 25	que	que	SCONJ	cs	_	31	mark	31:mark	_
@@ -157698,7 +157698,7 @@
 1	Además	además	ADV	rg	_	10	advmod	10:advmod	SpaceAfter=No
 2	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 3	Save	save	VERB	np0000o	ExtPos=PROPN|Foreign=Yes	10	nsubj	10:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec(NOCOREF:Spec.organization-organization-1-gstype:spec|MWE=Save_the_Children|MWEPOS=PROPN
-4	the	the	DET	np0000o	Foreign=Yes|PronType=Art	5	det	5:det	_
+4	the	the	DET	np0000o	Definite=Def|Foreign=Yes|PronType=Art	5	det	5:det	_
 5	Children	child	NOUN	np0000o	Foreign=Yes	3	obj	3:obj	Entity=NOCOREF:Spec.organization)
 6	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	7	punct	7:punct	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|SpaceAfter=No
 7	UK	UK	PROPN	np0000l	_	3	flat	3:flat	SpaceAfter=No
@@ -174176,7 +174176,7 @@
 15	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	Entity=(CESSCASTA2000102117195c8-organization-2-gstype:spec
 16	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	22	nsubj	22:nsubj	ArgTem=arg0:agt
 17	"	"	PUNCT	fe	PunctType=Quot	20	punct	20:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
-18	The	the	DET	np0000a	Foreign=Yes|PronType=Art	20	det	20:det	Lang=en|MWE=The_Washington_Post|MWEPOS=PROPN
+18	The	the	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	20	det	20:det	Lang=en|MWE=The_Washington_Post|MWEPOS=PROPN
 19	Washington	Washington	PROPN	np0000a	Foreign=Yes	20	compound	20:compound	Lang=en
 20	Post	post	NOUN	np0000a	Foreign=Yes	16	appos	16:appos	Lang=en|SpaceAfter=No
 21	"	"	PUNCT	fe	PunctType=Quot	20	punct	20:punct	Entity=NOCOREF:Spec.other)CESSCASTA2000102117195c8)
@@ -187327,7 +187327,7 @@
 35	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	36:det	Entity=(CESSCASTA2000121612469c12-other-2-gstype:spec
 36	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	33	nsubj	33:nsubj	ArgTem=arg0:agt
 37	"	"	PUNCT	fe	PunctType=Quot	41	punct	41:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
-38	The	the	DET	np0000a	Foreign=Yes|PronType=Art	41	det	41:det	Lang=en|MWE=The_New_York_Times|MWEPOS=PROPN
+38	The	the	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	41	det	41:det	Lang=en|MWE=The_New_York_Times|MWEPOS=PROPN
 39	New	new	ADJ	np0000a	Foreign=Yes	40	amod	40:amod	Lang=en
 40	York	York	PROPN	np0000a	Foreign=Yes	41	compound	41:compound	Lang=en
 41	Times	time	NOUN	np0000a	Foreign=Yes	36	appos	36:appos	Lang=en|SpaceAfter=No
@@ -263805,7 +263805,7 @@
 6	hoy	hoy	ADV	rg	_	5	advmod	5:advmod	ArgTem=argM:tmp
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 8	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg2:loc
-9	The	the	DET	np00000	Foreign=Yes|PronType=Art	12	det	12:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_New_York_Times|MWEPOS=PROPN
+9	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	12	det	12:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_New_York_Times|MWEPOS=PROPN
 10	New	new	ADJ	np00000	Foreign=Yes	11	amod	11:amod	Lang=en
 11	York	York	PROPN	np00000	Foreign=Yes	12	compound	12:compound	Lang=en
 12	Times	time	NOUN	np00000	Foreign=Yes	8	appos	8:appos	Entity=NOCOREF:Spec.organization)NOCOREF:Spec.organization)|Lang=en|SpaceAfter=No
@@ -279505,7 +279505,7 @@
 25	hoy	hoy	ADV	rg	_	24	advmod	24:advmod	ArgTem=argM:tmp
 26	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	Entity=(CESSCASTAA200009128934c11-organization-2-gstype:spec
 27	periódico	periódico	NOUN	ncms000	Gender=Masc|Number=Sing	24	nsubj	24:nsubj	ArgTem=arg3:loc
-28	The	the	DET	np00000	Foreign=Yes|PronType=Art	31	det	31:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_New_York_Times|MWEPOS=PROPN
+28	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	31	det	31:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_New_York_Times|MWEPOS=PROPN
 29	New	new	ADJ	np00000	Foreign=Yes	30	amod	30:amod	Lang=en
 30	York	York	PROPN	np00000	Foreign=Yes	31	compound	31:compound	Lang=en
 31	Times	time	NOUN	np00000	Foreign=Yes	27	appos	27:appos	Entity=NOCOREF:Spec.organization)CESSCASTAA200009128934c11)|Lang=en
@@ -279756,7 +279756,7 @@
 2	embargo	embargo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	según	según	ADP	sps00	_	5	case	5:case	_
-5	The	the	DET	np00000	Foreign=Yes|PronType=Art	8	det	8:det	Entity=(CESSCASTAA200009128934c11-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_New_York_Times|MWEPOS=PROPN
+5	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	8	det	8:det	Entity=(CESSCASTAA200009128934c11-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_New_York_Times|MWEPOS=PROPN
 6	New	new	ADJ	np00000	Foreign=Yes	7	amod	7:amod	Lang=en
 7	York	York	PROPN	np00000	Foreign=Yes	8	compound	8:compound	Lang=en
 8	Times	time	NOUN	np00000	Foreign=Yes	16	obl	16:obl	Entity=CESSCASTAA200009128934c11)|Lang=en
@@ -309098,7 +309098,7 @@
 10.1	_	_	PRON	p	_	_	_	10:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000112922863c1-person-1-CorefType:ident,gstype:spec)
 11	-	-	PUNCT	fg	PunctType=Dash	10	punct	10:punct	SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
-13	The	the	DET	np00000	Foreign=Yes|PronType=Art	15	det	15:det	ArgTem=arg0:agt|Entity=(CESSCASTAA2000112922863c3-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Spanish_Institute|MWEPOS=PROPN
+13	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	15	det	15:det	ArgTem=arg0:agt|Entity=(CESSCASTAA2000112922863c3-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Spanish_Institute|MWEPOS=PROPN
 14	Spanish	Spanish	ADJ	np00000	Foreign=Yes	15	amod	15:amod	Lang=en
 15	Institute	institute	NOUN	np00000	Foreign=Yes	17	nsubj	17:nsubj	Entity=CESSCASTAA2000112922863c3)|Lang=en
 16	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
@@ -311636,7 +311636,7 @@
 1	Según	según	ADP	sps00	_	3	case	3:case	_
 2	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	3:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 3	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	11	obl	11:obl	_
-4	The	the	DET	np00000	Foreign=Yes|PronType=Art	7	det	7:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_New_York_Times|MWEPOS=PROPN
+4	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	7	det	7:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_New_York_Times|MWEPOS=PROPN
 5	New	new	ADJ	np00000	Foreign=Yes	6	amod	6:amod	Lang=en
 6	York	York	PROPN	np00000	Foreign=Yes	7	compound	7:compound	Lang=en
 7	Times	time	NOUN	np00000	Foreign=Yes	3	appos	3:appos	Entity=NOCOREF:Spec.other)NOCOREF:Spec.organization)|Lang=en|SpaceAfter=No
@@ -362739,7 +362739,7 @@
 4	donde	donde	ADV	pr000000	PronType=Rel	6	advmod	6:advmod	ArgTem=argM:loc|Entity=(CESSCASTP1999090116c1--1-CorefType:ident,gstype:gen)
 5	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	expl:pass	6:expl:pass	_
 6	lee	leer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
-7	The	the	DET	np00000	Foreign=Yes|PronType=Art	10	det	10:det	ArgTem=arg1:pat|Lang=en|MWE=The_Wall_Street_Journal|MWEPOS=PROPN
+7	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	10	det	10:det	ArgTem=arg1:pat|Lang=en|MWE=The_Wall_Street_Journal|MWEPOS=PROPN
 8	Wall	Wall	PROPN	np00000	Foreign=Yes	9	compound	9:compound	Lang=en
 9	Street	Street	PROPN	np00000	Foreign=Yes	10	compound	10:compound	Lang=en
 10	Journal	journal	NOUN	np00000	Foreign=Yes	6	nsubj	6:nsubj	Lang=en
@@ -371279,7 +371279,7 @@
 22	entrevista	entrevista	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obl	12:obl	ArgTem=argM:loc
 23	publicada	publicado	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	22	amod	22:amod	_
 24	por	por	ADP	sps00	_	25	case	25:case	_
-25	Der	der	DET	np00000	Foreign=Yes|PronType=Art	26	det	26:det	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=de|MWE=Der_Spiegel|MWEPOS=PROPN
+25	Der	der	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	26	det	26:det	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=de|MWE=Der_Spiegel|MWEPOS=PROPN
 26	Spiegel	Spiegel	NOUN	np00000	Foreign=Yes	23	obl:agent	23:obl:agent	Entity=NOCOREF:Spec.organization)|Lang=de
 27	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	28	punct	28:punct	Entity=(NOCOREF:Spec.date-time-2-gstype:spec|SpaceAfter=No
 28	20	20	NUM	_	NumForm=Digit|NumType=Card	23	obl	23:obl	ArgTem=argM:tmp|MWE=20_de_noviembre_de_1989|MWEPOS=NOUN
@@ -399415,7 +399415,7 @@
 4	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen
 5	encuesta	encuesta	NOUN	ncfs000	Gender=Fem|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg0:agt
 6	de	de	ADP	sps00	_	9	case	9:case	_
-7	The	the	DET	np00000	Foreign=Yes|PronType=Art	9	det	9:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Washington_Post|MWEPOS=PROPN
+7	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	9	det	9:det	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Washington_Post|MWEPOS=PROPN
 8	Washington	Washington	PROPN	np00000	Foreign=Yes	9	compound	9:compound	Lang=en
 9	Post	post	NOUN	np00000	Foreign=Yes	5	nmod	5:nmod	Entity=NOCOREF:Spec.organization)NOCOREF:Gen)|Lang=en
 10	reveló	revelar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -402695,7 +402695,7 @@
 17	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	18:det	Entity=(CESSCASTP2000030276c1-organization-2-gstype:spec
 18	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	15	nsubj	15:nsubj	ArgTem=arg2:loc
 19	financiero	financiero	ADJ	aq0ms0	Gender=Masc|Number=Sing	18	amod	18:amod	_
-20	The	the	DET	np00000	Foreign=Yes|PronType=Art	23	det	23:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_Wall_Street_Journal|MWEPOS=PROPN
+20	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	23	det	23:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_Wall_Street_Journal|MWEPOS=PROPN
 21	Wall	Wall	PROPN	np00000	Foreign=Yes	22	compound	22:compound	Lang=en
 22	Street	Street	PROPN	np00000	Foreign=Yes	23	compound	23:compound	Lang=en
 23	Journal	journal	NOUN	np00000	Foreign=Yes	18	appos	18:appos	Entity=NOCOREF:Spec.other)CESSCASTP2000030276c1)|Lang=en|SpaceAfter=No
@@ -406028,7 +406028,7 @@
 7	de	de	ADP	sps00	_	9	case	9:case	_
 8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 9	novela	novela	NOUN	ncfs000	Gender=Fem|Number=Sing	6	nmod	6:nmod	ArgTem=arg1:pat
-10	The	the	DET	np00000	Foreign=Yes|PronType=Art	12	det	12:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_paper_boy|MWEPOS=PROPN
+10	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	12	det	12:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_paper_boy|MWEPOS=PROPN
 11	paper	paper	NOUN	np00000	Foreign=Yes	12	compound	12:compound	Lang=en
 12	boy	boy	NOUN	np00000	Foreign=Yes	9	appos	9:appos	Entity=NOCOREF:Spec.other)NOCOREF:Spec.other)CESSCASTP20000401126c15)|Lang=en|SpaceAfter=No
 13	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
@@ -415237,7 +415237,7 @@
 49	El	el	DET	np00000	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	50:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec(NOCOREF:Spec.other-other-2-gstype:spec|MWE=El_dilema|MWEPOS=PROPN
 50	dilema	dilema	PROPN	_	_	47	nmod	47:nmod	Entity=NOCOREF:Spec.other)
 51	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	53	punct	53:punct	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|SpaceAfter=No
-52	The	the	DET	np00000	Foreign=Yes|PronType=Art	53	det	53:det	Lang=en|MWE=The_Insider|MWEPOS=PROPN
+52	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	53	det	53:det	Lang=en|MWE=The_Insider|MWEPOS=PROPN
 53	Insider	insider	NOUN	np00000	Foreign=Yes	50	appos	50:appos	Lang=en|SpaceAfter=No
 54	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	53	punct	53:punct	Entity=NOCOREF:Spec.other)
 55	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	56	punct	56:punct	Entity=(NOCOREF:Spec.person-person-2-gstype:spec|SpaceAfter=No
@@ -415263,7 +415263,7 @@
 11	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	12	punct	12:punct	SpaceAfter=No
 12	Grease	Grease	PROPN	np00000	_	9	appos	9:appos	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	_
-14	The	the	DET	np00000	Foreign=Yes|PronType=Art	18	det	18:det	Lang=en|MWE=The_rocky_horror_picture_show|MWEPOS=PROPN
+14	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	18	det	18:det	Lang=en|MWE=The_rocky_horror_picture_show|MWEPOS=PROPN
 15	rocky	rocky	ADJ	np00000	Foreign=Yes	16	amod	16:amod	Lang=en
 16	horror	horror	NOUN	np00000	Foreign=Yes	18	compound	18:compound	Lang=en
 17	picture	picture	NOUN	np00000	Foreign=Yes	18	compound	18:compound	Lang=en
@@ -418570,7 +418570,7 @@
 4	en	en	ADP	sps00	_	5	case	5:case	_
 5	temas	tema	NOUN	ncmp000	Gender=Masc|Number=Plur	3	obl:arg	3:obl:arg	ArgTem=arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen
 6	científicos	científico	ADJ	aq0mp0	Gender=Masc|Number=Plur	5	amod	5:amod	Entity=NOCOREF:Gen)
-7	The	the	DET	np00000	Foreign=Yes|PronType=Art	8	det	8:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_Lancet|MWEPOS=PROPN
+7	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	8	det	8:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_Lancet|MWEPOS=PROPN
 8	Lancet	lancet	NOUN	np00000	Foreign=Yes	2	appos	2:appos	Entity=NOCOREF:Spec.other)CESSCASTP20000602108c9)|Lang=en
 9	cuestiona	cuestionar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 10	en	en	ADP	sps00	_	13	case	13:case	_
@@ -423045,7 +423045,7 @@
 6	por	por	ADP	sps00	_	8	case	8:case	_
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 8	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	4	obl:agent	4:obl:agent	ArgTem=arg0:agt
-9	The	the	DET	np00000	Foreign=Yes|PronType=Art	10	det	10:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
+9	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	10	det	10:det	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
 10	Times	time	NOUN	np00000	Foreign=Yes	8	appos	8:appos	Entity=NOCOREF:Spec.other)NOCOREF:Spec.other)NOCOREF:Gen)|Lang=en|SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 12	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
@@ -447948,7 +447948,7 @@
 25	Manta	Manta	PROPN	np00000	_	23	nmod	23:nmod	ArgTem=arg0:agt|MWE=Manta_Ray|MWEPOS=PROPN
 26	Ray	Ray	PROPN	_	_	25	flat	25:flat	SpaceAfter=No
 27	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
-28	The	the	DET	np00000	Foreign=Yes|PronType=Art	30	det	30:det	Lang=en|MWE=The_Happy_Loosers|MWEPOS=PROPN
+28	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	30	det	30:det	Lang=en|MWE=The_Happy_Loosers|MWEPOS=PROPN
 29	Happy	happy	ADJ	np00000	Foreign=Yes	30	amod	30:amod	Lang=en
 30	Loosers	looser	NOUN	np00000	Foreign=Yes	25	conj	25:conj	Lang=en
 31	y	y	CCONJ	cc	_	32	cc	32:cc	_
@@ -476375,7 +476375,7 @@
 9	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	Entity=(CESSCASTP2001070138c2-organization-4-CorefType:pred.definit,gstype:spec
 10	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	14:det	_
 11	modestos	modesto	ADJ	aq0mp0	Gender=Masc|Number=Plur	14	amod	14:amod	_
-12	The	the	DET	np00000	Foreign=Yes|PronType=Art	14	det	14:det	Lang=en|MWE=The_Rhythm_Kings|MWEPOS=PROPN
+12	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	14	det	14:det	Lang=en|MWE=The_Rhythm_Kings|MWEPOS=PROPN
 13	Rhythm	rhythm	NOUN	np00000	Foreign=Yes	14	compound	14:compound	Lang=en
 14	Kings	king	NOUN	np00000	Foreign=Yes	8	appos	8:appos	Lang=en|SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	Entity=CESSCASTP2001070138c2)CESSCASTP2001070138c2)
@@ -476672,7 +476672,7 @@
 # sent_id = CESS-CAST-P-20010701-38-s18
 # text = The Rhythm Kings luchamos contra eso.
 # orig_file_sentence 116#26
-1	The	the	DET	np00000	Foreign=Yes|PronType=Art	3	det	3:det	ArgTem=arg0:agt|Entity=(CESSCASTP2001070138c2-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Rhythm_Kings|MWEPOS=PROPN
+1	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	3	det	3:det	ArgTem=arg0:agt|Entity=(CESSCASTP2001070138c2-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Rhythm_Kings|MWEPOS=PROPN
 2	Rhythm	rhythm	NOUN	np00000	Foreign=Yes	3	compound	3:compound	Lang=en
 3	Kings	king	NOUN	np00000	Foreign=Yes	4	nsubj	4:nsubj	Entity=CESSCASTP2001070138c2)|Lang=en
 4	luchamos	luchar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -476826,7 +476826,7 @@
 # sent_id = CESS-CAST-P-20010701-38-s27
 # text = The Rhythm Kings no están de moda, no nos pinchan en la radio, no tocamos en estadios, y sin embargo somos número uno en las listas británicas de jazz y blues y en nuestros conciertos la gente nos despide con 15 minutos de aplausos.
 # orig_file_sentence 116#35
-1	The	the	DET	np00000	Foreign=Yes|PronType=Art	3	det	3:det	ArgTem=arg1:tem|Entity=(CESSCASTP2001070138c2-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Rhythm_Kings|MWEPOS=PROPN
+1	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	3	det	3:det	ArgTem=arg1:tem|Entity=(CESSCASTP2001070138c2-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Rhythm_Kings|MWEPOS=PROPN
 2	Rhythm	rhythm	NOUN	np00000	Foreign=Yes	3	compound	3:compound	Lang=en
 3	Kings	king	NOUN	np00000	Foreign=Yes	7	nsubj	7:nsubj	Entity=CESSCASTP2001070138c2)|Lang=en
 4	no	no	ADV	rn	Polarity=Neg	7	advmod	7:advmod	_
@@ -477545,7 +477545,7 @@
 27	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	Entity=(NOCOREF:Gen--2-gstype:gen
 28	grupo	grupo	NOUN	ncms000	Gender=Masc|Number=Sing	25	obl	25:obl	ArgTem=argM:loc
 29	llamado	llamado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	28	amod	28:amod	_
-30	The	the	DET	np00000	Foreign=Yes|PronType=Art	31	det	31:det	ArgTem=arg2:atr|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Cliftons|MWEPOS=PROPN
+30	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	31	det	31:det	ArgTem=arg2:atr|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Cliftons|MWEPOS=PROPN
 31	Cliftons	Clifton	PROPN	np00000	Foreign=Yes	29	obj	29:obj	Entity=NOCOREF:Spec.organization)NOCOREF:Gen)|Lang=en|SpaceAfter=No
 32	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
 33	mucho	mucho	ADV	rg	_	34	advmod	34:advmod	_
@@ -477578,7 +477578,7 @@
 5	ahora	ahora	ADV	rg	_	4	advmod	4:advmod	ArgTem=argM:tmp
 6	junto	junto	ADJ	sps00	ExtPos=ADP	8	case	8:case	MWE=junto_con|MWEPOS=ADP
 7	con	con	ADP	_	_	6	fixed	6:fixed	_
-8	The	the	DET	np00000	Foreign=Yes|PronType=Art	10	det	10:det	ArgTem=argM:adv|Entity=(CESSCASTP2001070138c2-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Rhythm_Kings|MWEPOS=PROPN
+8	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	10	det	10:det	ArgTem=argM:adv|Entity=(CESSCASTP2001070138c2-organization-1-CorefType:ident,gstype:spec|Lang=en|MWE=The_Rhythm_Kings|MWEPOS=PROPN
 9	Rhythm	rhythm	NOUN	np00000	Foreign=Yes	10	compound	10:compound	Lang=en
 10	Kings	king	NOUN	np00000	Foreign=Yes	4	obl	4:obl	Entity=CESSCASTP2001070138c2)CESSCASTP2001070138c33)|Lang=en|SpaceAfter=No
 11	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
@@ -500937,7 +500937,7 @@
 18	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 19	mientras	mientras	SCONJ	cs	ExtPos=SCONJ	23	mark	23:mark	MWE=mientras_que|MWEPOS=CCONJ
 20	que	que	SCONJ	cs	_	19	fixed	19:fixed	_
-21	The	the	DET	np00000	Foreign=Yes|PronType=Art	22	det	22:det	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
+21	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	22	det	22:det	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|Lang=en|MWE=The_Times|MWEPOS=PROPN
 22	Times	time	NOUN	np00000	Foreign=Yes	23	nsubj	23:nsubj	Entity=NOCOREF:Spec.organization)|Lang=en
 23	escogió	escoger	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	10:advcl	_
 24	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
@@ -500963,7 +500963,7 @@
 5	más	más	ADV	rg	Degree=Cmp	4	advmod	4:advmod	_
 6	categóricos	categórico	ADJ	aq0mp0	Gender=Masc|Number=Plur	0	root	0:root	ArgTem=arg2:atr|SpaceAfter=No
 7	:	:	PUNCT	fd	PunctType=Colo	10	punct	10:punct	_
-8	The	the	DET	np00000	Foreign=Yes|PronType=Art	9	det	9:det	ArgTem=arg0:agt|Entity=(CESSCASTP2002010223c6-organization-1-gstype:spec|Lang=en|MWE=The_Sun|MWEPOS=PROPN
+8	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	9	det	9:det	ArgTem=arg0:agt|Entity=(CESSCASTP2002010223c6-organization-1-gstype:spec|Lang=en|MWE=The_Sun|MWEPOS=PROPN
 9	Sun	sun	NOUN	np00000	Foreign=Yes	10	nsubj	10:nsubj	Entity=CESSCASTP2002010223c6)|Lang=en
 10	tituló	titular	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	6:parataxis	_
 11	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	13:det	Entity=(NOCOREF:Gen--3-gstype:gen(CESSCASTP2002010223c6-organization-1-CorefType:ident,gstype:spec)
@@ -509255,7 +509255,7 @@
 52	,	,	PUNCT	fc	PunctType=Comm	56	punct	56:punct	_
 53	por	por	ADP	sps00	_	56	case	56:case	_
 54	In	in	ADP	np00000	Foreign=Yes	56	case	56:case	Entity=(NOCOREF:Spec.other-other-2-gstype:spec|Lang=en|MWE=In_the_bedroom|MWEPOS=PROPN
-55	the	the	DET	np00000	Foreign=Yes|PronType=Art	56	det	56:det	Lang=en
+55	the	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	56	det	56:det	Lang=en
 56	bedroom	bedroom	NOUN	np00000	Foreign=Yes	50	nmod	50:nmod	Entity=NOCOREF:Spec.other)NOCOREF:Spec.person)|Lang=en|SpaceAfter=No
 57	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
 
@@ -521667,7 +521667,7 @@
 17	David	David	PROPN	np00000	_	15	nmod	15:nmod	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec|MWE=David_Mamet|MWEPOS=PROPN
 18	Mamet	Mamet	PROPN	np00000	_	17	flat	17:flat	Entity=NOCOREF:Spec.person)
 19	Speed	speed	VERB	np00000	ExtPos=PROPN|Foreign=Yes	15	appos	15:appos	Entity=(NOCOREF:Spec.other-other-1-gstype:spec|Lang=en|MWE=Speed_the_plow|MWEPOS=PROPN
-20	the	the	DET	np00000	Foreign=Yes|PronType=Art	21	det	21:det	Lang=en
+20	the	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	21	det	21:det	Lang=en
 21	plow	plow	NOUN	np00000	Foreign=Yes	19	obj	19:obj	Entity=NOCOREF:Spec.other)NOCOREF:Spec.other)CESSCASTP20020502155c6)|Lang=en|SpaceAfter=No
 22	.	.	PUNCT	fp	PunctType=Peri	6	punct	6:punct	_
 

@@ -25673,7 +25673,7 @@
 8	Paz	Paz	PROPN	_	_	3	nmod	3:nmod	Entity=NOCOREF:Spec.location)NOCOREF:Spec.location)|SpaceAfter=No
 9	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 10	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	Entity=(CESSCASTAA200005042181c8-organization-2-gstype:spec
-11	The	the	DET	np00000	Foreign=Yes|PronType=Art	12	det	12:det	ArgTem=arg0:agt|Lang=en|MWE=The_Strongest|MWEPOS=PROPN
+11	The	the	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	12	det	12:det	ArgTem=arg0:agt|Lang=en|MWE=The_Strongest|MWEPOS=PROPN
 12	Strongest	strong	ADJ	np00000	Foreign=Yes	21	nsubj	21:nsubj	Lang=en|SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
 14-15	del	_	_	_	_	_	_	_	_
