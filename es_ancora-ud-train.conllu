@@ -107413,8 +107413,8 @@
 42	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	40	nsubj	40:nsubj	ArgTem=arg0:agt
 43	oficialista	oficialista	ADJ	aq0cs0	Number=Sing	42	amod	42:amod	_
 44	"	"	PUNCT	fe	PunctType=Quot	46	punct	46:punct	Entity=(NOCOREF:Spec.organization-organization-3-gstype:spec|SpaceAfter=No
-45	Al	Al	DET	np0000o	Definite=Def|Foreign=Yes|PronType=Art	46	det	46:det	MWE=Al_Ahram|MWEPOS=PROPN
-46	Ahram	Ahram	PROPN	_	_	42	appos	42:appos	SpaceAfter=No
+45	Al	al	DET	np0000o	Definite=Def|Foreign=Yes|PronType=Art	46	det	46:det	Lang=ar|MWE=Al_Ahram|MWEPOS=PROPN
+46	Ahram	Ahram	PROPN	np0000o	Foreign=Yes	42	appos	42:appos	Lang=ar|SpaceAfter=No
 47	"	"	PUNCT	fe	PunctType=Quot	46	punct	46:punct	Entity=NOCOREF:Spec.organization)NOCOREF:Spec.organization)|SpaceAfter=No
 48	.	.	PUNCT	fp	PunctType=Peri	40	punct	40:punct	_
 
@@ -129720,8 +129720,8 @@
 13	deportivo	deportivo	ADJ	aq0ms0	Gender=Masc|Number=Sing	12	amod	12:amod	_
 14	portugués	portugués	ADJ	aq0ms0	Gender=Masc|Number=Sing	12	amod	12:amod	_
 15	"	"	PUNCT	fe	PunctType=Quot	17	punct	17:punct	Entity=(NOCOREF:Spec.other-other-3-gstype:spec|SpaceAfter=No
-16	A	A	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	17	det	17:det	MWE=A_Bola|MWEPOS=PROPN
-17	Bola	Bola	PROPN	_	_	12	appos	12:appos	SpaceAfter=No
+16	A	o	DET	da0fs0	Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	Lang=pt|MWE=A_Bola|MWEPOS=PROPN
+17	Bola	bola	NOUN	ncfs000	Gender=Fem|Number=Sing	12	appos	12:appos	Lang=pt|SpaceAfter=No
 18	"	"	PUNCT	fe	PunctType=Quot	17	punct	17:punct	Entity=NOCOREF:Spec.other)CESSCASTA2000032217745c1)|SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	9	punct	9:punct	_
 20	pondrá	poner	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
@@ -129762,8 +129762,8 @@
 9	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	Entity=(CESSCASTA2000032217745c1-other-2-CorefType:ident,gstype:spec
 10	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	5	obl	5:obl	ArgTem=argM:adv
 11	"	"	PUNCT	fe	PunctType=Quot	13	punct	13:punct	Entity=(NOCOREF:Spec.other-other-3-gstype:spec|SpaceAfter=No
-12	A	A	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	13	det	13:det	MWE=A_Bola|MWEPOS=PROPN
-13	Bola	Bola	PROPN	_	_	10	appos	10:appos	SpaceAfter=No
+12	A	o	DET	da0fs0	Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	Lang=pt|MWE=A_Bola|MWEPOS=PROPN
+13	Bola	bola	NOUN	ncfs000	Gender=Fem|Number=Sing	10	appos	10:appos	Lang=pt|SpaceAfter=No
 14	"	"	PUNCT	fe	PunctType=Quot	13	punct	13:punct	Entity=NOCOREF:Spec.other)|SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
 16	que	que	PRON	pr0cn000	PronType=Rel	17	nsubj	17:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000032217745c1-other-1-CorefType:ident,gstype:spec)
@@ -134397,9 +134397,9 @@
 # orig_file_sentence 035#70
 1	Henrique	Henrique	PROPN	np0000p	_	6	nsubj	6:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000041612803c37-person-1-gstype:spec|MWE=Henrique_da_Silva|MWEPOS=PROPN
 2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	4	case	4:case	Lang=pt
-3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	Lang=pt
-4	Silva	Silva	PROPN	_	_	1	flat	1:flat	_
+2	de	de	ADP	sps00	Foreign=Yes	4	case	4:case	Lang=pt
+3	a	o	DET	da0fs0	Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	Lang=pt
+4	Silva	Silva	PROPN	np0000p	Foreign=Yes	1	flat	1:flat	Lang=pt
 5	'Catanha'	'Catanha'	PROPN	np0000p	_	1	flat	1:flat	Entity=(CESSCASTA2000041612803c37-person-1-CorefType:pred.definit,gstype:spec)CESSCASTA2000041612803c37)|SpaceAfter=No
 6	ganó	ganar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -186344,8 +186344,8 @@
 45	internacional	internacional	ADJ	aq0cs0	Number=Sing	43	amod	43:amod	SpaceAfter=No
 46	,	,	PUNCT	fc	PunctType=Comm	49	punct	49:punct	Entity=(NOCOREF:Spec.other-other-4-gstype:spec
 47	"	"	PUNCT	fe	PunctType=Quot	49	punct	49:punct	SpaceAfter=No
-48	Al	Al	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	49	det	49:det	MWE=Al_Hayat|MWEPOS=PROPN
-49	Hayat	Hayat	PROPN	_	_	43	appos	43:appos	SpaceAfter=No
+48	Al	al	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	49	det	49:det	Lang=ar|MWE=Al_Hayat|MWEPOS=PROPN
+49	Hayat	Hayat	PROPN	np0000a	Foreign=Yes	43	appos	43:appos	Lang=ar|SpaceAfter=No
 50	"	"	PUNCT	fe	PunctType=Quot	49	punct	49:punct	Entity=NOCOREF:Spec.other)NOCOREF:Spec.organization)|SpaceAfter=No
 51	.	.	PUNCT	fp	PunctType=Peri	37	punct	37:punct	_
 
@@ -188129,8 +188129,8 @@
 9	diario	diario	NOUN	ncms000	Gender=Masc|Number=Sing	7	nsubj	7:nsubj	ArgTem=arg2:loc
 10	egipcio	egipcio	ADJ	aq0ms0	Gender=Masc|Number=Sing	9	amod	9:amod	_
 11	"	"	PUNCT	fe	PunctType=Quot	13	punct	13:punct	Entity=(NOCOREF:Spec.other-other-3-gstype:spec|SpaceAfter=No
-12	Al	Al	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	13	det	13:det	MWE=Al_Ajbar|MWEPOS=PROPN
-13	Ajbar	Ajbar	PROPN	_	_	9	appos	9:appos	SpaceAfter=No
+12	Al	al	DET	np0000a	Definite=Def|Foreign=Yes|PronType=Art	13	det	13:det	Lang=ar|MWE=Al_Ajbar|MWEPOS=PROPN
+13	Ajbar	Ajbar	PROPN	np0000a	Foreign=Yes	9	appos	9:appos	Lang=ar|SpaceAfter=No
 14	"	"	PUNCT	fe	PunctType=Quot	13	punct	13:punct	Entity=NOCOREF:Spec.other)NOCOREF:Spec.other)CESSCASTA2000122015209c2)|SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 16	Scharping	Scharping	PROPN	np0000p	_	27	nsubj	27:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000122015209c1-person-1-CorefType:ident,gstype:spec|SpaceAfter=No
@@ -193510,9 +193510,9 @@
 8	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	_
 9	Vasco	Vasco	PROPN	np00000	_	5	conj	5:conj	Entity=(CESSCASTAA200001159405c6-time-1-gstype:spec|MWE=Vasco_da_Gama|MWEPOS=PROPN
 10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	12:case	Lang=pt
-11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	Lang=pt
-12	Gama	Gama	PROPN	_	_	9	flat	9:flat	Entity=CESSCASTAA200001159405c6)CESSCASTAA200001159405c7)
+10	de	de	ADP	sps00	Foreign=Yes	12	case	12:case	Lang=pt
+11	a	o	DET	da0fs0	Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	Lang=pt
+12	Gama	Gama	PROPN	np00000	Foreign=Yes	9	flat	9:flat	Entity=CESSCASTAA200001159405c6)CESSCASTAA200001159405c7)|Lang=pt
 13	condimentaron	condimentar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 14	hoy	hoy	ADV	rg	_	13	advmod	13:advmod	ArgTem=argM:tmp
 15	con	con	ADP	sps00	_	17	case	17:case	_
@@ -193763,9 +193763,9 @@
 9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	_
 10	Vasco	Vasco	PROPN	np00000	_	6	nmod	6:nmod	Entity=(CESSCASTAA200001159405c6-time-1-CorefType:ident,gstype:spec|MWE=Vasco_da_Gama|MWEPOS=PROPN
 11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	13	case	13:case	Lang=pt
-12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	Lang=pt
-13	Gama	Gama	PROPN	_	_	10	flat	10:flat	Entity=CESSCASTAA200001159405c6)CESSCASTAA200001159405c15)
+11	de	de	ADP	sps00	Foreign=Yes	13	case	13:case	Lang=pt
+12	a	o	DET	da0fs0	Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	Lang=pt
+13	Gama	Gama	PROPN	np00000	Foreign=Yes	10	flat	10:flat	Entity=CESSCASTAA200001159405c6)CESSCASTAA200001159405c15)|Lang=pt
 14	respondieron	responder	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 15	con	con	ADP	sps00	_	17	case	17:case	_
 16	vehementes	vehemente	ADJ	aq0cp0	Number=Plur	17	amod	17:amod	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -411598,16 +411598,16 @@
 4	tuvo	tener	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	MWE=tuvo_lugar|MWEPOS=VERB
 5	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	4	compound	4:compound	_
 6	en	en	ADP	sps00	_	7	case	7:case	_
-7	Sant	Sant	PROPN	np00000	_	4	obl	4:obl	ArgTem=arg2:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec(NOCOREF:Spec.location-place-1-gstype:spec|Lang=ca|MWE=Sant_Vicenç_dels_Horts|MWEPOS=PROPN
-8	Vicenç	Vicenç	PROPN	np00000	_	7	flat	7:flat	Lang=ca
+7	Sant	Sant	PROPN	np00000	Foreign=Yes	4	obl	4:obl	ArgTem=arg2:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec(NOCOREF:Spec.location-place-1-gstype:spec|Lang=ca|MWE=Sant_Vicenç_dels_Horts|MWEPOS=PROPN
+8	Vicenç	Vicenç	PROPN	np00000	Foreign=Yes	7	flat	7:flat	Lang=ca
 9-10	dels	_	_	_	_	_	_	_	_
-9	de	de	ADP	sps00	_	11	case	11:case	Lang=ca
-10	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	11:det	Lang=ca
-11	Horts	hort	NOUN	ncmp000	_	7	nmod	7:nmod	Entity=NOCOREF:Spec.location)|Lang=ca
-12	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	14	punct	14:punct	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|Lang=ca|SpaceAfter=No
+9	de	de	ADP	sps00	Foreign=Yes	11	case	11:case	Lang=ca
+10	els	el	DET	da0mp0	Definite=Def|Foreign=Yes|Gender=Masc|Number=Plur|PronType=Art	11	det	11:det	Lang=ca
+11	Horts	hort	NOUN	ncmp000	Foreign=Yes	7	nmod	7:nmod	Entity=NOCOREF:Spec.location)|Lang=ca
+12	(	(	PUNCT	fpa	Foreign=Yes|PunctSide=Ini|PunctType=Brck	14	punct	14:punct	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|Lang=ca|SpaceAfter=No
 13	Baix	baix	ADJ	aq0ms0	Foreign=Yes|Gender=Masc|Number=Sing	14	amod	14:amod	Lang=ca|MWE=Baix_Llobregat|MWEPOS=PROPN
 14	Llobregat	Llobregat	PROPN	np00000	Foreign=Yes	7	appos	7:appos	Lang=ca|SpaceAfter=No
-15	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	14	punct	14:punct	Entity=NOCOREF:Spec.location)NOCOREF:Spec.location)|Lang=ca|SpaceAfter=No
+15	)	)	PUNCT	fpt	Foreign=Yes|PunctSide=Fin|PunctType=Brck	14	punct	14:punct	Entity=NOCOREF:Spec.location)NOCOREF:Spec.location)|Lang=ca|SpaceAfter=No
 16	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
 # sent_id = CESS-CAST-P-20000402-68-s19
@@ -471997,8 +471997,8 @@
 20	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	21:det	Entity=(CESSCASTP20010602118c2-place-2-gstype:spec
 21	zona	zona	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obl	8:obl	ArgTem=argM:loc
 22	de	de	ADP	sps00	_	24	case	24:case	_
-23	Els	el	DET	da0mp0	Gender=Masc|Number=Plur|PronType=Art	24	det	24:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|Lang=ca|MWE=Els_Colls|MWEPOS=PROPN
-24	Colls	Colls	PROPN	np00000	Gender=Masc|Number=Plur	21	nmod	21:nmod	Entity=NOCOREF:Spec.location)|Lang=ca|SpaceAfter=No
+23	Els	el	DET	da0mp0	Foreign=Yes|Gender=Masc|Number=Plur|PronType=Art	24	det	24:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec|Lang=ca|MWE=Els_Colls|MWEPOS=PROPN
+24	Colls	Colls	PROPN	np00000	Foreign=Yes|Gender=Masc|Number=Plur	21	nmod	21:nmod	Entity=NOCOREF:Spec.location)|Lang=ca|SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
 26	en	en	ADP	sps00	_	27	case	27:case	_
 27	Sitges	Sitges	PROPN	np00000	_	21	nmod	21:nmod	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)|SpaceAfter=No

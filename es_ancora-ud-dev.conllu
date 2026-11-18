@@ -12907,9 +12907,9 @@
 13	de	de	ADP	sps00	_	14	case	14:case	_
 14	Acea	Acea	PROPN	np0000l	_	12	nmod	12:nmod	ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec|MWE=Acea_da_Ama|MWEPOS=PROPN
 15-16	da	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	17:case	Lang=pt
-16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	Lang=pt
-17	Ama	Ama	PROPN	_	_	14	flat	14:flat	Entity=NOCOREF:Spec.location)NOCOREF:Spec)CESSCASTA2000032318886c6)|SpaceAfter=No
+15	de	de	ADP	sps00	Foreign=Yes	17	case	17:case	Lang=pt
+16	a	o	DET	da0fs0	Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	Lang=pt
+17	Ama	Ama	PROPN	np0000l	Foreign=Yes	14	flat	14:flat	Entity=NOCOREF:Spec.location)NOCOREF:Spec)CESSCASTA2000032318886c6)|Lang=pt|SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 19	Pauleta	Pauleta	PROPN	np0000p	_	20	nsubj	20:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000032318886c3-person-1-CorefType:ident,gstype:spec)
 20	insistió	insistir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -21959,8 +21959,8 @@
 58	propiedad	propiedad	NOUN	ncfs000	Gender=Fem|Number=Sing	55	nmod	55:nmod	_
 59	estatal	estatal	ADJ	aq0cs0	Number=Sing	58	amod	58:amod	_
 60	"	"	PUNCT	fe	PunctType=Quot	62	punct	62:punct	Entity=(NOCOREF:Spec.other-other-3-gstype:spec|SpaceAfter=No
-61	Al	Al	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	62	det	62:det	MWE=Al_Ahram|MWEPOS=PROPN
-62	Ahram	Ahram	PROPN	_	_	55	appos	55:appos	SpaceAfter=No
+61	Al	al	DET	np00000	Definite=Def|Foreign=Yes|PronType=Art	62	det	62:det	Lang=ar|MWE=Al_Ahram|MWEPOS=PROPN
+62	Ahram	Ahram	PROPN	np00000	Foreign=Yes	55	appos	55:appos	Lang=ar|SpaceAfter=No
 63	"	"	PUNCT	fe	PunctType=Quot	62	punct	62:punct	Entity=NOCOREF:Spec.other)NOCOREF:Spec.other)NOCOREF:Gen)|SpaceAfter=No
 64	.	.	PUNCT	fp	PunctType=Peri	40	punct	40:punct	_
 
