@@ -352675,7 +352675,7 @@
 17	violencia	violencia	NOUN	ncfs000	Gender=Fem|Number=Sing	15	obj	15:obj	ArgTem=arg1:pat|SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 18.1	_	_	PRON	p	_	_	_	19:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP1999060218_ac2--1-CorefType:ident,gstype:gen)
-19	venga	vengar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	17	parataxis	17:parataxis	_
+19	venga	venir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	17:parataxis	_
 20	de	de	ADP	sps00	_	22	mark	22:mark	_
 21	donde	donde	ADV	pr000000	PronType=Rel	22	advmod	22:advmod	ArgTem=arg3:ori
 21.1	_	_	PRON	p	_	_	_	22:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP1999060218_ac2--1-CorefType:ident,gstype:gen)
@@ -435017,7 +435017,7 @@
 23	saben	saber	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 24	que	que	SCONJ	cs	_	35	mark	35:mark	SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
-26	venza	vencer	VERB	vmm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	35	advcl	35:advcl	_
+26	venza	vencer	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	advcl	35:advcl	_
 27	quien	quien	PRON	pr0cs000	Number=Sing|PronType=Rel	28	nsubj	28:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000090334c41--1-gstype:gen)
 28	venza	vencer	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	csubj	26:csubj	ArgTem=arg0:agt
 29	en	en	ADP	sps00	_	32	case	32:case	_
@@ -483691,7 +483691,7 @@
 # sent_id = CESS-CAST-P-20010802-46-s6
 # text = Sea cual sea la marca del combustible, en Suecia los precios no varían y las sospechas de la existencia de acuerdos entre las gasolineras es un hecho probado.
 # orig_file_sentence 122#59
-1	Sea	ser	AUX	vsm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	15	advcl	15:advcl	_
+1	Sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl	_
 2	cual	cual	PRON	pr0cs000	Number=Sing|PronType=Rel	3	nsubj	3:nsubj	ArgTem=arg1:tem
 3	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	ArgTem=arg2:atr
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -484180,7 +484180,7 @@
 36	de	de	ADP	sps00	_	46	mark	46:mark	_
 37	que	que	SCONJ	cs	_	46	mark	46:mark	SpaceAfter=No
 38	,	,	PUNCT	fc	PunctType=Comm	39	punct	39:punct	_
-39	termine	terminar	VERB	vmm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	46	advcl	46:advcl	_
+39	termine	terminar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	advcl	46:advcl	_
 40	como	como	SCONJ	cs	_	41	mark	41:mark	_
 40.1	_	_	PRON	p	_	_	_	41:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2001080246c21--1-gstype:gen)
 41	termine	terminar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	ccomp	39:ccomp	ArgTem=arg2:atr
@@ -505232,7 +505232,7 @@
 # sent_id = CESS-CAST-P-20020202-102-s11
 # text = Diga lo que diga.
 # orig_file_sentence 076#95
-1	Diga	decir	VERB	vmm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	0:root	_
+1	Diga	decir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 1.1	_	_	PRON	p	_	_	_	1:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20020202102c2--1-CorefType:ident)
 2	lo	él	PRON	da0ns0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Dem	4	nsubj	4:nsubj	_
 3	que	que	PRON	pr0cn000	PronType=Rel	4	obj	4:obj	ArgTem=arg1:pat

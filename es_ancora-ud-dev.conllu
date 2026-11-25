@@ -4372,7 +4372,7 @@
 # sent_id = 3LB-CAST-dc1-15-s2
 # text = Sea como fuere, lo que está claro es que la piel supone para los animales el principal medio para aislarse del exterior.
 # orig_file_sentence 002#29
-1	Sea	ser	AUX	vsm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	9	advcl	9:advcl	ArgTem=argM:adv
+1	Sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl	ArgTem=argM:adv
 2	como	como	SCONJ	cs	_	3	mark	3:mark	_
 3	fuere	ser	AUX	vssf3s0	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	ccomp	1:ccomp	ArgTem=arg2:atr|SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
