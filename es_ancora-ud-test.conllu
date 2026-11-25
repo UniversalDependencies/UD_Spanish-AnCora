@@ -26849,7 +26849,7 @@
 48	miedo	miedo	NOUN	ncms000	Gender=Masc|Number=Sing	46	obl	46:obl	ArgTem=argM:mnr|Entity=(CESSCASTAA200003075124c15--1-CorefType:ident,gstype:gen)
 49	y	y	CCONJ	cc	_	50	cc	50:cc	_
 49.1	_	_	PRON	p	_	_	_	50:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200003075124c10--1-CorefType:ident,gstype:gen)
-50	asuman	asumir	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	46	conj	46:conj	_
+50	asuman	asumir	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	conj	46:conj	_
 51	en	en	ADP	sps00	_	53	case	53:case	_
 52	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	53:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 53	elecciones	elección	NOUN	ncfp000	Gender=Fem|Number=Plur	50	obl	50:obl	ArgTem=argM:loc|Entity=NOCOREF:Gen)
@@ -57318,7 +57318,7 @@
 28	ensamblaje	ensamblaje	NOUN	ncms000	Gender=Masc|Number=Sing	26	nmod	26:nmod	Entity=NOCOREF:Gen)
 29	y	y	CCONJ	cc	_	30	cc	30:cc	_
 29.1	_	_	PRON	p	_	_	_	30:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP200104018c1--1-CorefType:ident,gstype:gen)
-30	entremos	entrar	VERB	vmm01p0	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	24	conj	24:conj	_
+30	entremos	entrar	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	conj	24:conj	_
 31	en	en	ADP	sps00	_	32	case	32:case	_
 32	competencia	competencia	NOUN	ncfs000	Gender=Fem|Number=Sing	30	obl	30:obl	ArgTem=arg2:efi|Entity=(NOCOREF:Gen--1-gstype:gen
 33	con	con	ADP	sps00	_	34	case	34:case	_
