@@ -444138,8 +444138,8 @@
 9	potencial	potencial	ADJ	aq0cs0	Number=Sing	8	amod	8:amod	Entity=CESSCASTP20001201104c4)
 10	para	para	ADP	sps00	_	11	mark	11:mark	_
 11	tratar	tratar	VERB	vmn0000	VerbForm=Inf	3	advcl	3:advcl	ArgTem=argM:fin
-12	en	en	ADP	sps00	_	13	mark	13:mark	_
-13	humanos	humar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	11	advcl	11:advcl	ArgTem=argM:loc|Entity=(NOCOREF:Gen--1-gstype:gen)
+12	en	en	ADP	sps00	_	13	case	13:case	_
+13	humanos	humano	NOUN	ncmp000	Gender=Masc|Number=Plur	11	obl	11:obl	ArgTem=argM:loc|Entity=(NOCOREF:Gen--1-gstype:gen)
 14	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 15	Parkinson	Parkinson	PROPN	np00000	_	11	obj	11:obj	ArgTem=arg1:pat|Entity=NOCOREF:Spec.other)
 16	y	y	CCONJ	cc	_	18	cc	18:cc	_
