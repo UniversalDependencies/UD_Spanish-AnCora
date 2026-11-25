@@ -352730,11 +352730,11 @@
 29	étnicas	étnico	ADJ	aq0fp0	Gender=Fem|Number=Plur	28	amod	28:amod	Entity=NOCOREF:Gen)CESSCASTP1999060218_ac6)
 30	"	"	PUNCT	_	PunctType=Quot	31	punct	31:punct	SpaceAfter=No
 30.1	_	_	PRON	p	_	_	_	31:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP1999060218_ac6--1-CorefType:ident)
-31	vengan	venir	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	25	parataxis	25:parataxis	_
+31	vengan	venir	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	parataxis	25:parataxis	_
 32	de	de	ADP	sps00	_	34	mark	34:mark	_
 33	donde	donde	ADV	pr000000	PronType=Rel	34	advmod	34:advmod	ArgTem=arg3:ori
 33.1	_	_	PRON	p	_	_	_	34:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP1999060218_ac6--1-CorefType:ident)
-34	vengan	vengar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl	ArgTem=arg3:ori|SpaceAfter=No
+34	vengan	venir	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl	ArgTem=arg3:ori|SpaceAfter=No
 35	"	"	PUNCT	fe	PunctType=Quot	31	punct	31:punct	_
 36	.	.	PUNCT	fp	PunctType=Peri	8	punct	8:punct	_
 
