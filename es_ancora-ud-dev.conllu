@@ -18255,7 +18255,7 @@
 44	José	José	PROPN	_	_	43	flat	43:flat	_
 45	Ibarretxe	Ibarretxe	PROPN	_	_	43	flat	43:flat	SpaceAfter=No
 46	,	,	PUNCT	fc	PunctType=Comm	43	punct	43:punct	Entity=CESSCASTA2000062217928c4)CESSCASTA2000062217928c4)CESSCASTA2000062217928c10)CESSCASTA2000062217928c5)
-47	salgan	salir	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	23	ccomp	23:ccomp	ArgTem=arg1:pat
+47	salgan	salir	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	23:ccomp	ArgTem=arg1:pat
 48	"	"	PUNCT	fe	PunctType=Quot	49	punct	49:punct	Entity=(CESSCASTA2000062217928c6--2-gstype:gen|SpaceAfter=No
 49	avances	avance	NOUN	ncmp000	Gender=Masc|Number=Plur	47	nsubj	47:nsubj	ArgTem=arg1:tem|SpaceAfter=No
 50	"	"	PUNCT	fe	PunctType=Quot	49	punct	49:punct	Entity=CESSCASTA2000062217928c6)|SpaceAfter=No
@@ -19904,7 +19904,7 @@
 23	Iberia	Iberia	PROPN	np0000o	_	20	conj	20:conj	Entity=CESSCASTA200012031592c13)CESSCASTA200012031592c16)|SpaceAfter=No
 24	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
 24.1	_	_	PRON	p	_	_	_	25:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA200012031592c13--1-CorefType:ident)
-25	dejen	dejar	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	11	csubj	11:csubj	ArgTem=arg1:tem
+25	dejen	dejar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	csubj	11:csubj	ArgTem=arg1:tem
 26	libre	libre	ADJ	aq0cs0	Number=Sing	25	xcomp	25:xcomp	ArgTem=argM:atr
 27	uno	uno	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	25	obj	25:obj	ArgTem=arg1:pat|Entity=(CESSCASTA200012031592c19--1-gstype:gen
 28	de	de	ADP	sps00	_	31	case	31:case	_
@@ -39484,7 +39484,7 @@
 18	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	19:det	_
 19	Competencia	Competencia	PROPN	_	_	14	flat	14:flat	Entity=CESSCASTP1999090175c3)
 20	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	SpaceAfter=No
-21	intervenga	intervenir	VERB	vmm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	10	ccomp	10:ccomp	ArgTem=arg1:pat
+21	intervenga	intervenir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp	ArgTem=arg1:pat
 22	de	de	ADP	rg	ExtPos=ADV	23	case	23:case	ArgTem=argM:adv|MWE=de_oficio|MWEPOS=ADV
 23	oficio	oficio	NOUN	_	_	21	obl	21:obl	SpaceAfter=No
 24	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	_
@@ -50208,7 +50208,7 @@
 23	Mayor	Mayor	PROPN	_	_	22	flat	22:flat	_
 24	Oreja	Oreja	PROPN	_	_	22	flat	22:flat	SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	Entity=CESSCASTP2000090330c6)CESSCASTP2000090330c6)CESSCASTP2000090330c7)
-26	aprovechen	aprovechar	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	4	ccomp	4:ccomp	ArgTem=arg1:pat
+26	aprovechen	aprovechar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	4:ccomp	ArgTem=arg1:pat
 27	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 28	encuentro	encuentro	NOUN	ncms000	Gender=Masc|Number=Sing	26	obj	26:obj	ArgTem=arg1:pat
 29	de	de	ADP	sps00	_	30	case	30:case	_
@@ -51626,7 +51626,7 @@
 # orig_file_sentence 013#37
 1	Para	para	ADP	sps00	_	3	mark	3:mark	_
 2	cuando	cuando	SCONJ	cs	_	3	mark	3:mark	_
-3	lean	leer	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	10	advcl	10:advcl	ArgTem=argM:tmp
+3	lean	leer	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl	ArgTem=argM:tmp
 4	estas	este	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen
 5	líneas	línea	NOUN	ncfp000	Gender=Fem|Number=Plur	3	obj	3:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
@@ -52357,7 +52357,7 @@
 9	pasado	pasado	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	10:amod	_
 10	domingo	domingo	NOUN	_	_	7	obl	7:obl	ArgTem=argM:tmp|Entity=CESSCASTP2001010225c24)|SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	Entity=CESSCASTP2001010225c1)
-12	arrastren	arrastrar	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	2	csubj	2:csubj	ArgTem=arg1:pat
+12	arrastren	arrastrar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	2:csubj	ArgTem=arg1:pat
 13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	Entity=(NOCOREF:Gen--2-gstype:gen
 14	situación	situación	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obj	12:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 15	a	a	ADP	sps00	_	20	case	20:case	_

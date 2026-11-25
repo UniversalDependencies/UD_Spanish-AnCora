@@ -43063,7 +43063,7 @@
 12	forma	forma	NOUN	_	_	3	advcl	3:advcl	_
 13	que	que	SCONJ	cs	_	15	mark	15:mark	_
 14	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	expl:pass	15:expl:pass	_
-15	abran	abrir	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	12	acl	12:acl	_
+15	abran	abrir	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	12:acl	_
 16	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	17:det	Entity=(CESSCASTP1999060198c24--2-CorefType:ident,gstype:gen
 17	oficinas	oficina	NOUN	ncfp000	Gender=Fem|Number=Plur	15	nsubj	15:nsubj	ArgTem=arg1:pat|Entity=CESSCASTP1999060198c24)
 18	por	por	ADP	sps00	_	20	case	20:case	_
@@ -46382,7 +46382,7 @@
 3	creo	creer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	ccomp	18:ccomp	ArgTem=arg1:pat
 4	que	que	SCONJ	cs	_	6	mark	6:mark	_
 5	nadie	nadie	PRON	pi0cs000	Number=Sing|PronType=Neg	6	nsubj	6:nsubj	ArgTem=arg0:cau
-6	vaya	ir	VERB	vmm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	3	xcomp	3:xcomp	ArgTem=arg1:pat
+6	vaya	ir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	xcomp	3:xcomp	ArgTem=arg1:pat
 7	a	a	ADP	sps00	_	8	mark	8:mark	_
 8	obligar	obligar	VERB	vmn0000	VerbForm=Inf	6	xcomp	6:xcomp	_
 9	a	a	ADP	sps00	_	11	case	11:case	_
@@ -46510,7 +46510,7 @@
 5	pensiones	pensión	NOUN	ncfp000	Gender=Fem|Number=Plur	8	nsubj	8:nsubj	ArgTem=arg1:tem
 6	de	de	ADP	sps00	_	7	case	7:case	_
 7	viudedad	viudedad	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nmod	5:nmod	Entity=NOCOREF:Gen)
-8	pasen	pasar	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	2	ccomp	2:ccomp	ArgTem=arg1:pat
+8	pasen	pasar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	ArgTem=arg1:pat
 9-10	del	_	_	_	_	_	_	_	_
 9	de	de	ADP	spcms	_	13	case	13:case	_
 10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	13:det	_
@@ -58731,7 +58731,7 @@
 29	meses	mes	NOUN	ncmp000	Gender=Masc|Number=Plur	26	nmod	26:nmod	Entity=NOCOREF:Gen)|SpaceAfter=No
 30	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
 30.1	_	_	PRON	p	_	_	_	31:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20011001104c2-organization-1-CorefType:ident,gstype:spec)
-31	elabore	elaborar	VERB	vmm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	18	ccomp	18:ccomp	ArgTem=arg1:pat
+31	elabore	elaborar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	18:ccomp	ArgTem=arg1:pat
 32	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	33:det	Entity=(NOCOREF:Gen--2-gstype:gen
 33	estudio	estudio	NOUN	ncms000	Gender=Masc|Number=Sing	31	obj	31:obj	ArgTem=arg1:pat
 34	sobre	sobre	ADP	sps00	_	36	case	36:case	_
