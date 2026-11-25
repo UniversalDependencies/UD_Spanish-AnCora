@@ -204026,7 +204026,7 @@
 # orig_file_sentence 066#56
 1	"	"	PUNCT	fe	PunctType=Quot	2	punct	2:punct	_
 1.1	_	_	PRON	p	_	_	_	2:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200002065021c2-person-1-CorefType:ident,gstype:spec)
-2	Sé	ser	AUX	vsm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	15	ccomp	15:ccomp	ArgTem=arg1:pat
+2	Sé	saber	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	ccomp	15:ccomp	ArgTem=arg1:pat
 3	que	que	SCONJ	cs	_	6	mark	6:mark	_
 3.1	_	_	PRON	p	_	_	_	4:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200002065021c2-person-1-CorefType:ident,gstype:spec)
 4	soy	ser	AUX	vsip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	6:cop	ArgTem=arg1:pat
@@ -478530,7 +478530,7 @@
 # text = He estado en España de visita privada y me interesa mucho su cultura, las ruinas romanas...
 # orig_file_sentence 117#20
 0.1	_	_	PRON	p	_	_	_	2:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2001070138c1-person-1-CorefType:ident,gstype:spec)
-1	He	haber	AUX	vam02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	aux	2:aux	_
+1	He	haber	AUX	vaip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	2:aux	_
 2	estado	estar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 3	en	en	ADP	sps00	_	4	case	4:case	_
 4	España	España	PROPN	np00000	_	2	obl	2:obl	ArgTem=arg2:loc|Entity=(CESSCASTP2001070138c58-place-1-CorefType:ident,gstype:spec)
