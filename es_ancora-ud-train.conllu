@@ -20450,7 +20450,7 @@
 6	:	:	PUNCT	fd	PunctType=Colo	12	punct	12:punct	_
 7	señor	señor	NOUN	ncms000	Gender=Masc|Number=Sing	12	nsubj	12:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 8	Fujimori	Fujimori	PROPN	np0000p	_	7	appos	7:appos	Entity=(NOCOREF:Spec.person-person-1-gstype:spec)NOCOREF:Spec.person)
-9	sea	ser	AUX	vssp1s0	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
+9	sea	ser	AUX	vsm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	12	cop	12:cop	_
 10	mucho	mucho	ADV	rg	_	12	advmod	12:advmod	_
 11	más	más	ADV	rg	Degree=Cmp	10	advmod	10:advmod	_
 12	caballero	caballero	ADJ	aq0ms0	Gender=Masc|Number=Sing	5	ccomp	5:ccomp	ArgTem=arg2:atr
