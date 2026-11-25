@@ -1245,7 +1245,7 @@
 22	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 23	OCDE	OCDE	PROPN	np0000o	_	18	nmod	18:nmod	ArgTem=arg0:agt|Entity=NOCOREF:Spec.organization)NOCOREF:Spec.other)
 24	y	y	CCONJ	cc	_	25	cc	25:cc	_
-25	asegura	asegurar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	7	conj	7:conj	_
+25	asegura	asegurar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	7:conj	_
 26	que	que	SCONJ	cs	_	36	mark	36:mark	_
 27	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 28	caballo	caballo	NOUN	ncms000	Gender=Masc|Number=Sing	36	nsubj	36:nsubj	ArgTem=arg1:tem
@@ -12589,7 +12589,7 @@
 # sent_id = 3LB-CAST-2000060211_6-2-s1
 # text = Añade que si el Gobierno se equivoca o no en su estrategia política aún falta por verse, pero sostiene que "cuando se toman decisiones inmorales en temas en los que están en juego valores democráticos y civiles importantes la equivocación siempre es seria, aunque no reporte inconvenientes inmediatos".
 # orig_file_sentence 003#71
-1	Añade	añadir	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+1	Añade	añadir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	que	que	SCONJ	cs	_	15	mark	15:mark	_
 3	si	si	SCONJ	cs	_	7	mark	7:mark	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
@@ -144584,7 +144584,7 @@
 27	"	"	PUNCT	fe	PunctType=Quot	22	punct	22:punct	_
 28	y	y	CCONJ	cc	_	29	cc	29:cc	_
 28.1	_	_	PRON	p	_	_	_	29:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000061713810c7-other-1-CorefType:ident,gstype:spec)
-29	añade	añadir	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	14	conj	14:conj	_
+29	añade	añadir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	14:conj	_
 30	que	que	SCONJ	cs	_	29	obj	29:obj	_
 31	"	"	PUNCT	fe	PunctType=Quot	33	punct	33:punct	SpaceAfter=No
 32	ni	ni	CCONJ	cc	_	33	cc	33:cc	_
@@ -144701,7 +144701,7 @@
 # text = Añade que "asuntos como el derecho de veto que otorga la acción de oro o las actitudes del Gobierno cuando se envuelve en la bandera de la soberanía nacional han merecido en las últimas semanas fuertes críticas de analistas y observadores internacionales".
 # orig_file_sentence 038#13
 0.1	_	_	PRON	p	_	_	_	1:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000061713810c11-other-1-CorefType:ident,gstype:spec)
-1	Añade	añadir	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+1	Añade	añadir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	que	que	SCONJ	cs	_	33	mark	33:mark	_
 3	"	"	PUNCT	fe	PunctType=Quot	33	punct	33:punct	SpaceAfter=No
 4	asuntos	asunto	NOUN	ncmp000	Gender=Masc|Number=Plur	33	nsubj	33:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Gen--1-gstype:gen
@@ -161031,7 +161031,7 @@
 12	pues	pues	SCONJ	cs	_	14	mark	14:mark	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
 13.1	_	_	PRON	p	_	_	_	14:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000091612406c1-person-1-CorefType:ident,gstype:spec)
-14	afirma	afirmar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	advcl	3:advcl	ArgTem=argM:cau|SpaceAfter=No
+14	afirma	afirmar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl	ArgTem=argM:cau|SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
 16	si	si	SCONJ	cs	_	22	mark	22:mark	_
 17	no	no	ADV	rn	Polarity=Neg	22	advmod	22:advmod	_
@@ -162105,7 +162105,7 @@
 2	que	que	SCONJ	cs	_	4	mark	4:mark	_
 3	"	"	PUNCT	fe	PunctType=Quot	4	punct	4:punct	SpaceAfter=No
 3.1	_	_	PRON	p	_	_	_	4:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000091813853c6-organization-1-CorefType:ident,gstype:spec)
-4	juega	jugar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	ccomp	1:ccomp	ArgTem=arg1:pat
+4	juega	jugar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	ArgTem=arg1:pat
 5	con	con	ADP	sps00	_	7	case	7:case	_
 6	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 7	3-3-3-1	-1	NUM	_	NumForm=Digit|NumType=Card	4	obl	4:obl	ArgTem=argM:adv|Entity=NOCOREF:Spec.number)
@@ -168872,7 +168872,7 @@
 11	márgenes	margen	NOUN	nccp000	Number=Plur	9	obj	9:obj	ArgTem=arg1:tem|Entity=CESSCASTA2000101612584c20)|SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
 12.1	_	_	PRON	p	_	_	_	13:nsubj	ArgTem=arg0:cau|Entity=(CESSCASTA2000101612584c21--1-CorefType:ident,gstype:gen)
-13	obliga	obligar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	9	advcl	9:advcl	_
+13	obliga	obligar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl	_
 14	a	a	ADP	sps00	_	15	mark	15:mark	_
 15	buscar	buscar	VERB	vmn0000	VerbForm=Inf	13	xcomp	13:xcomp	ArgTem=arg2:efi
 16	mejoras	mejora	NOUN	ncfp000	Gender=Fem|Number=Plur	15	obj	15:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen
@@ -189268,7 +189268,7 @@
 44	de	de	ADP	sps00	_	45	case	45:case	_
 45	euros	euro	NOUN	zm	Gender=Masc|Number=Plur	43	nmod	43:nmod	Currency=Yes|Entity=(NOCOREF:Spec.number-number-1-gstype:spec)NOCOREF:Spec.number)
 46	y	y	CCONJ	cc	_	47	cc	47:cc	_
-47	acumula	acumular	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	38	conj	38:conj	_
+47	acumula	acumular	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	38:conj	_
 48	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	49:det	Entity=(NOCOREF:Gen--2-gstype:gen
 49	deuda	deuda	NOUN	ncfs000	Gender=Fem|Number=Sing	47	obj	47:obj	ArgTem=arg1:pat
 50	de	de	ADP	sps00	_	52	case	52:case	_
@@ -210359,7 +210359,7 @@
 20	porque	porque	SCONJ	cs	_	27	mark	27:mark	SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 22	según	según	SCONJ	cs	_	23	mark	23:mark	_
-23	afirma	afirmar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	27	advcl	27:advcl	ArgTem=argM:adv|SpaceAfter=No
+23	afirma	afirmar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	27:advcl	ArgTem=argM:adv|SpaceAfter=No
 23.1	_	_	PRON	p	_	_	_	23:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000022420033c1-person-1-CorefType:ident,gstype:spec)
 24	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 24.1	_	_	PRON	p	_	_	_	27:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA2000022420033c1-person-1-CorefType:ident,gstype:spec)
@@ -210575,7 +210575,7 @@
 12	financiación	financiación	NOUN	ncfs000	Gender=Fem|Number=Sing	9	nmod	9:nmod	ArgTem=arg1:tem|Entity=CESSCASTAA2000022420033c19)NOCOREF:Gen)CESSCASTAA2000022420033c20)
 13	serán	ser	AUX	vsif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	17	cop	17:cop	SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
-15	asegura	asegurar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	17	parataxis	17:parataxis	SpaceAfter=No
+15	asegura	asegurar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	17:parataxis	SpaceAfter=No
 15.1	_	_	PRON	p	_	_	_	15:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000022420033c1-person-1-CorefType:ident,gstype:spec)
 16	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
 17	condiciones	condición	NOUN	ncfp000	Gender=Fem|Number=Plur	0	root	0:root	ArgTem=arg2:atr|Entity=(CESSCASTAA2000022420033c20--1-CorefType:ident
@@ -210853,7 +210853,7 @@
 19	lista	lista	NOUN	ncfs000	Gender=Fem|Number=Sing	17	nmod	17:nmod	Entity=NOCOREF:Gen)NOCOREF:Gen)
 20	y	y	CCONJ	cc	_	21	cc	21:cc	_
 20.1	_	_	PRON	p	_	_	_	21:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000022420033c1-person-1-CorefType:ident,gstype:spec)
-21	afirma	afirmar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	7	conj	7:conj	SpaceAfter=No
+21	afirma	afirmar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	7:conj	SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 23	ante	ante	ADP	sps00	_	25	case	25:case	_
 24	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	25:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -210907,7 +210907,7 @@
 # text = Presume de que su eslogan electoral, "La fuerza positiva", se ajusta a su perfil, amante del diálogo y la negociación y poco aficionado a las descalificaciones y a los duelos dialécticos, en los que parte con la desventaja de sus dificultades de pronunciación, sobre las que él mismo bromea.
 # orig_file_sentence 051#53
 0.1	_	_	PRON	p	_	_	_	1:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000022420033c1-person-1-CorefType:ident,gstype:spec)
-1	Presume	presumir	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+1	Presume	presumir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	de	de	ADP	sps00	_	15	mark	15:mark	_
 3	que	que	SCONJ	cs	_	15	mark	15:mark	_
 4	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	5:det	Entity=(CESSCASTAA2000022420033c37--2-gstype:gen(CESSCASTAA2000022420033c1-person-1-CorefType:ident,gstype:spec)
@@ -295806,7 +295806,7 @@
 21	e	e	CCONJ	cc	_	23	cc	23:cc	_
 22	"	"	PUNCT	fe	PunctType=Quot	23	punct	23:punct	SpaceAfter=No
 22.1	_	_	PRON	p	_	_	_	23:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000103024537c6--1-CorefType:ident,gstype:gen)
-23	introduce	introducir	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	conj	3:conj	_
+23	introduce	introducir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj	_
 24	cambios	cambio	NOUN	ncmp000	Gender=Masc|Number=Plur	23	obj	23:obj	ArgTem=arg1:pat|Entity=(CESSCASTAA2000103024537c8--1
 25	y	y	CCONJ	cc	_	26	cc	26:cc	_
 26	modificaciones	modificación	NOUN	ncfp000	Gender=Fem|Number=Plur	24	conj	24:conj	_
@@ -337537,7 +337537,7 @@
 # text = Favorece la aparición legítima de centros privados que intentan curar a precios elevadísimos, pero discrimina a las pacientes con menos medios, cuando se trata de una enfermedad completamente interclasista.
 # orig_file_sentence 132#24
 0.1	_	_	PRON	p	_	_	_	1:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP199903016c10--1-CorefType:ident,gstype:gen)
-1	Favorece	favorecer	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+1	Favorece	favorecer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 3	aparición	aparición	NOUN	ncfs000	Gender=Fem|Number=Sing	1	obj	1:obj	ArgTem=arg1:pat
 4	legítima	legítimo	ADJ	aq0fs0	Gender=Fem|Number=Sing	3	amod	3:amod	_
@@ -344847,7 +344847,7 @@
 30	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
 31	pero	pero	CCONJ	cc	_	32	cc	32:cc	_
 31.1	_	_	PRON	p	_	_	_	32:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP19990501125c5-person-1-CorefType:ident,gstype:spec)
-32	admite	admitir	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	conj	2:conj	_
+32	admite	admitir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj	_
 33	que	que	SCONJ	cs	_	34	mark	34:mark	_
 33.1	_	_	PRON	p	_	_	_	34:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP19990501125c5-person-1-CorefType:ident,gstype:spec)
 34	necesita	necesitar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	ccomp	32:ccomp	ArgTem=arg1:pat
@@ -362145,7 +362145,7 @@
 22	qué	qué	DET	dt0cn0	PronType=Int	23	det	23:det	CxnElt=24:Interrogative-WHInfo-Indirect.WHWord
 23	gafas	gafas	NOUN	ncfp000	Gender=Fem|Number=Plur	24	obl	24:obl	ArgTem=argM:adv
 23.1	_	_	PRON	p	_	_	_	24:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999080220c2-person-1-CorefType:ident,gstype:spec)
-24	mira	mirar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	14	ccomp	14:ccomp	ArgTem=arg1:pat|Cxn=Interrogative-WHInfo-Indirect|CxnElt=24:Interrogative-WHInfo-Indirect.Clause
+24	mira	mirar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	14:ccomp	ArgTem=arg1:pat|Cxn=Interrogative-WHInfo-Indirect|CxnElt=24:Interrogative-WHInfo-Indirect.Clause
 25	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	26:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 26	situación	situación	NOUN	ncfs000	Gender=Fem|Number=Sing	24	obj	24:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|SpaceAfter=No
 27	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
@@ -362161,10 +362161,10 @@
 36	que	que	SCONJ	cs	_	38	mark	38:mark	_
 37	"	"	PUNCT	fe	PunctType=Quot	38	punct	38:punct	SpaceAfter=No
 37.1	_	_	PRON	p	_	_	_	38:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999080220c2-person-1-CorefType:ident,gstype:spec)
-38	comprende	comprender	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	35	ccomp	35:ccomp	ArgTem=arg1:pat
+38	comprende	comprender	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	35:ccomp	ArgTem=arg1:pat
 39	y	y	CCONJ	cc	_	40	cc	40:cc	_
 39.1	_	_	PRON	p	_	_	_	40:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999080220c2-person-1-CorefType:ident,gstype:spec)
-40	disculpa	disculpar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	38	conj	38:conj	_
+40	disculpa	disculpar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	38:conj	_
 41	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	42:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 42	discurso	discurso	NOUN	ncms000	Gender=Masc|Number=Sing	38	obj	38:obj	ArgTem=arg1:pat
 43	de	de	ADP	sps00	_	44	case	44:case	_
@@ -369242,7 +369242,7 @@
 12	frecuencia	frecuencia	NOUN	ncfs000	Gender=Fem|Number=Sing	10	obl	10:obl	ArgTem=argM:adv|SpaceAfter=No
 13	"	"	PUNCT	fe	PunctType=Quot	3	punct	3:punct	SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
-15	añade	añadir	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+15	añade	añadir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 15.1	_	_	PRON	p	_	_	_	15:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP19991001141c1-person-1-CorefType:ident,gstype:spec)
 16	.	.	PUNCT	fp	PunctType=Peri	15	punct	15:punct	_
 
@@ -375627,7 +375627,7 @@
 11	que	que	SCONJ	cs	_	13	mark	13:mark	_
 12	"	"	PUNCT	fe	PunctType=Quot	13	punct	13:punct	SpaceAfter=No
 12.1	_	_	PRON	p	_	_	_	13:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP1999110244c27-person-1-CorefType:ident,gstype:spec)
-13	equivale	equivaler	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	10	ccomp	10:ccomp	ArgTem=arg1:pat
+13	equivale	equivaler	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp	ArgTem=arg1:pat
 14	a	a	ADP	sps00	_	16	case	16:case	_
 15	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
 16	apretón	apretón	NOUN	ncms000	Gender=Masc|Number=Sing	13	obl:arg	13:obl:arg	ArgTem=arg2:atr
@@ -376838,7 +376838,7 @@
 34	rebela	rebelar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	24:conj	SpaceAfter=No
 35	,	,	PUNCT	fc	PunctType=Comm	36	punct	36:punct	_
 35.1	_	_	PRON	p	_	_	_	36:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP19991201135_ac9-person-1-CorefType:ident,gstype:spec)
-36	lucha	luchar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	34	advcl	34:advcl	_
+36	lucha	luchar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	34:advcl	_
 37	frenéticamente	frenéticamente	ADV	rg	_	36	advmod	36:advmod	ArgTem=argM:mnr|SpaceAfter=No
 38	,	,	PUNCT	fc	PunctType=Comm	39	punct	39:punct	_
 39	desesperadamente	desesperadamente	ADV	rg	_	37	conj	37:conj	SpaceAfter=No
@@ -394971,7 +394971,7 @@
 17	:	:	PUNCT	fd	PunctType=Colo	19	punct	19:punct	_
 18	"	"	PUNCT	fe	PunctType=Quot	19	punct	19:punct	SpaceAfter=No
 18.1	_	_	PRON	p	_	_	_	19:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP2000020221_dc1-other-1-CorefType:ident,gstype:spec)
-19	Consta	constar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	advcl	3:advcl	_
+19	Consta	constar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl	_
 20	de	de	ADP	sps00	_	23	case	23:case	_
 21	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCASTP2000020221_dc2--3-gstype:gen
 22	absurda	absurdo	ADJ	aq0fs0	Gender=Fem|Number=Sing	23	amod	23:amod	_
@@ -405661,7 +405661,7 @@
 # text = Afirma que el proyecto en EEUU tan sólo es un paso aislado en su carrera.
 # orig_file_sentence 087#4
 0.1	_	_	PRON	p	_	_	_	1:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20000401126c1-person-1-CorefType:ident,gstype:spec)
-1	Afirma	afirmar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+1	Afirma	afirmar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	que	que	SCONJ	cs	_	11	mark	11:mark	_
 3	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 4	proyecto	proyecto	NOUN	ncms000	Gender=Masc|Number=Sing	11	nsubj	11:nsubj	ArgTem=arg1:tem
@@ -424815,7 +424815,7 @@
 19	establecimientos	establecimiento	NOUN	ncmp000	Gender=Masc|Number=Plur	16	nmod	16:nmod	ArgTem=arg1:pat|Entity=NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
 20	;	;	PUNCT	fx	PunctType=Semi	21	punct	21:punct	_
 20.1	_	_	PRON	p	_	_	_	21:nsubj	ArgTem=arg0:cau|Entity=(CESSCASTP2000070192c10--1-CorefType:ident,gstype:gen)
-21	incrementa	incrementar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	8	advcl	8:advcl	_
+21	incrementa	incrementar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl	_
 22	de	de	ADP	sps00	_	23	case	23:case	_
 23	8	8	NUM	_	NumForm=Digit|NumType=Card	21	obl	21:obl	ArgTem=arg3:ein|Entity=(NOCOREF:Gen--1-gstype:gen)
 24	a	a	ADP	sps00	_	25	case	25:case	_
@@ -432162,7 +432162,7 @@
 12	%	%	SYM	zp	_	9	obj	9:obj	ArgTem=arg2:ext|Entity=NOCOREF:Spec.number)
 13	y	y	CCONJ	cc	_	14	cc	14:cc	_
 13.1	_	_	PRON	p	_	_	_	14:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000090267c1-organization-1-CorefType:ident,gstype:spec)
-14	acumula	acumular	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	9	conj	9:conj	_
+14	acumula	acumular	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	9:conj	_
 15	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	Entity=(NOCOREF:Gen--2-gstype:gen
 16	revalorización	revalorización	NOUN	ncfs000	Gender=Fem|Number=Sing	14	obj	14:obj	ArgTem=arg1:pat
 17	de	de	ADP	sps00	_	19	case	19:case	_
@@ -453101,7 +453101,7 @@
 18	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 19	y	y	CCONJ	cc	_	20	cc	20:cc	_
 19.1	_	_	PRON	p	_	_	_	20:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2001020169_jc1-organization-1-CorefType:ident,gstype:spec)
-20	busca	buscar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	5	conj	5:conj	_
+20	busca	buscar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	5:conj	_
 21	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	Entity=(NOCOREF:Gen--2-gstype:gen
 22	ahorro	ahorro	NOUN	ncms000	Gender=Masc|Number=Sing	20	obj	20:obj	ArgTem=arg1:pat
 23	de	de	ADP	sps00	_	25	case	25:case	_
@@ -476341,7 +476341,7 @@
 28	ambiente	ambiente	NOUN	_	_	27	compound	27:compound	Entity=NOCOREF:Gen)|SpaceAfter=No
 29	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
 29.1	_	_	PRON	p	_	_	_	30:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2001070130c8--1-CorefType:ident,gstype:gen)
-30	propicia	propiciar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	22	advcl	22:advcl	_
+30	propicia	propiciar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl	_
 31	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	32:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 32	holocausto	holocausto	NOUN	ncms000	Gender=Masc|Number=Sing	30	obj	30:obj	ArgTem=arg1:pat
 33	animal	animal	ADJ	aq0cs0	Number=Sing	32	amod	32:amod	Entity=NOCOREF:Gen)
@@ -487128,7 +487128,7 @@
 15	empresa	empresa	NOUN	ncfs000	Gender=Fem|Number=Sing	10	obl:arg	10:obl:arg	ArgTem=arg2:ben|Entity=CESSCASTP2001090273c4)|SpaceAfter=No
 16	"	"	PUNCT	fe	PunctType=Quot	10	punct	10:punct	SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	_
-18	asegura	asegurar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+18	asegura	asegurar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 18.1	_	_	PRON	p	_	_	_	18:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2001090273c2-person-1-CorefType:ident,gstype:spec)
 19	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 20	junto	junto	ADJ	sps00	ExtPos=ADP	23	case	23:case	MWE=junto_con|MWEPOS=ADP
@@ -489620,7 +489620,7 @@
 31	pecho	pecho	NOUN	ncms000	Gender=Masc|Number=Sing	30	obj	30:obj	ArgTem=argL:|SpaceAfter=No
 32	,	,	PUNCT	fc	PunctType=Comm	33	punct	33:punct	_
 32.1	_	_	PRON	p	_	_	_	33:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2001100141c2--1-CorefType:ident,gstype:gen)
-33	mira	mirar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	30	advcl	30:advcl	_
+33	mira	mirar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	30:advcl	_
 34-35	al	_	_	_	_	_	_	_	_
 34	a	a	ADP	spcms	_	36	case	36:case	_
 35	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	36:det	_
@@ -506379,7 +506379,7 @@
 16	Mar	Mar	PROPN	_	_	15	flat	15:flat	Entity=NOCOREF:Spec.location)|SpaceAfter=No
 17	"	"	PUNCT	fe	PunctType=Quot	3	punct	3:punct	SpaceAfter=No
 18	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
-19	apunta	apuntar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+19	apunta	apuntar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 19.1	_	_	PRON	p	_	_	_	19:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002020216c1-person-1-CorefType:ident,gstype:spec)
 20	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 21-22	al	_	_	_	_	_	_	_	_

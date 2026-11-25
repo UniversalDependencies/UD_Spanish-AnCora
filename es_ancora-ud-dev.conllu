@@ -39552,7 +39552,7 @@
 27	que	que	PRON	pr0cn000	PronType=Rel	28	nsubj	28:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999090175c7--1-CorefType:ident,gstype:gen)
 28	gestiona	gestionar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	26:acl:relcl	_
 29	y	y	CCONJ	cc	_	30	cc	30:cc	_
-30	limita	limitar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	28	conj	28:conj	_
+30	limita	limitar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	28:conj	_
 31	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	32:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 32	oferta	oferta	NOUN	ncfs000	Gender=Fem|Number=Sing	28	obj	28:obj	ArgTem=arg1:pat
 33	comercial	comercial	ADJ	aq0cs0	Number=Sing	32	amod	32:amod	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
@@ -49170,7 +49170,7 @@
 3	peatonalización	peatonalización	NOUN	ncfs000	Gender=Fem|Number=Sing	9	nsubj	9:nsubj	ArgTem=arg0:agt|Entity=CESSCASTP2000070180c4)
 4	-	-	PUNCT	fg	PunctType=Dash	6	punct	6:punct	_
 5	-	-	PUNCT	fg	PunctType=Dash	6	punct	6:punct	_
-6	añade	añadir	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	9	parataxis	9:parataxis	_
+6	añade	añadir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	9:parataxis	_
 6.1	_	_	PRON	p	_	_	_	6:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000070180c26-person-1-CorefType:ident,gstype:spec)
 7	-	-	PUNCT	fg	PunctType=Dash	6	punct	6:punct	_
 8	-	-	PUNCT	fg	PunctType=Dash	6	punct	6:punct	_
@@ -59673,7 +59673,7 @@
 27	aparece	aparecer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 28	y	y	CCONJ	cc	_	29	cc	29:cc	_
 28.1	_	_	PRON	p	_	_	_	29:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20020102112c3--1-CorefType:ident,gstype:gen)
-29	desaparece	desaparecer	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	27	conj	27:conj	SpaceAfter=No
+29	desaparece	desaparecer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	27:conj	SpaceAfter=No
 30	.	.	PUNCT	fp	PunctType=Peri	27	punct	27:punct	_
 
 # sent_id = CESS-CAST-P-20020102-112-s3
@@ -59863,7 +59863,7 @@
 16	barandilla	barandilla	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl	13:obl	ArgTem=arg2:loc|Entity=CESSCASTP20020102112c13)
 17	y	y	CCONJ	cc	_	18	cc	18:cc	_
 17.1	_	_	PRON	p	_	_	_	18:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20020102112c7-person-1-CorefType:ident,gstype:spec)
-18	mira	mirar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	13	conj	13:conj	_
+18	mira	mirar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	13:conj	_
 19	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	Entity=(CESSCASTP20020102112c12-place-2-CorefType:ident,gstype:spec
 20	ciudad	ciudad	NOUN	ncfs000	Gender=Fem|Number=Sing	18	obj	18:obj	ArgTem=arg1:pat|Entity=CESSCASTP20020102112c12)NOCOREF:Gen)|SpaceAfter=No
 21	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_

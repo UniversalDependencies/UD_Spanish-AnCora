@@ -43268,7 +43268,7 @@
 4.1	_	_	PRON	p	_	_	_	7:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP1999060219_ac1--1-CorefType:ident,gstype:gen)
 5	no	no	ADV	rn	Polarity=Neg	7	advmod	7:advmod	_
 6	te	tú	PRON	pp2cs000	Case=Acc|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	7	obj	7:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen)
-7	mira	mirar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	conj	3:conj	_
+7	mira	mirar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj	_
 8	a	a	ADP	sps00	_	10	case	10:case	_
 9	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	10:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 10	ojos	ojo	NOUN	ncmp000	Gender=Masc|Number=Plur	7	obl	7:obl	ArgTem=argM:loc|Entity=NOCOREF:Gen)|SpaceAfter=No
@@ -50350,7 +50350,7 @@
 22	febrero	febrero	NOUN	_	_	20	nmod	20:nmod	Entity=NOCOREF:Spec.date)
 23	y	y	CCONJ	cc	_	24	cc	24:cc	_
 23.1	_	_	PRON	p	_	_	_	24:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20000301108_ac3-other-1-CorefType:ident,gstype:spec)
-24	concluye	concluir	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	18	conj	18:conj	_
+24	concluye	concluir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	18:conj	_
 25	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	Entity=(NOCOREF:Spec.date-time-2-gstype:spec
 26	día	día	NOUN	_	_	24	obl	24:obl	ArgTem=argM:tmp|MWE=día_5|MWEPOS=NOUN
 27	5	5	NUM	_	NumForm=Digit|NumType=Card	26	compound	26:compound	Entity=NOCOREF:Spec.date)
