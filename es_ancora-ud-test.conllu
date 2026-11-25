@@ -11628,7 +11628,7 @@
 1	Entre	entre	ADP	sps00	_	3	case	3:case	_
 2	esas	ese	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	3	det	3:det	Entity=(CESSCASTA2000021714234c4--2-CorefType:ident,gstype:gen
 3	enmiendas	enmienda	NOUN	ncfp000	Gender=Fem|Number=Plur	4	obl	4:obl	ArgTem=arg2:loc|Entity=CESSCASTA2000021714234c4)
-4	figura	figurar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+4	figura	figurar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(NOCOREF:Gen--2-gstype:gen
 6	reducción	reducción	NOUN	ncfs000	Gender=Fem|Number=Sing	4	nsubj	4:nsubj	ArgTem=arg1:tem
 7-8	del	_	_	_	_	_	_	_	_
@@ -28204,7 +28204,7 @@
 29	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	31	expl:pv	31:expl:pv	_
 30	ha	haber	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	31:aux	_
 31	producido	producir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	27:acl:relcl	Entity=CESSCASTAA200003108552c3)
-32	afecta	afectar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	20	acl:relcl	20:acl:relcl	_
+32	afecta	afectar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	20:acl:relcl	_
 33	a	a	ADP	sps00	_	35	case	35:case	_
 34	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	35:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 35	estructura	estructura	NOUN	ncfs000	Gender=Fem|Number=Sing	32	obj	32:obj	ArgTem=arg1:tem
@@ -33290,7 +33290,7 @@
 23	Golota	Golota	PROPN	np00000	_	26	nsubj	26:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200008128253c2-person-1-CorefType:ident,gstype:spec)
 24	le	él	PRON	pp30sa00	Case=Dat|Number=Sing|Person=3|PronType=Prs	26	obl:arg	26:obl:arg	ArgTem=arg1:pat|Entity=(CESSCASTAA200008128253c1-person-1-CorefType:ident,gstype:spec)
 25	"	"	PUNCT	fe	PunctType=Quot	26	punct	26:punct	SpaceAfter=No
-26	desprecia	despreciar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	21	ccomp	21:ccomp	ArgTem=arg2:atr
+26	desprecia	despreciar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	21:ccomp	ArgTem=arg2:atr
 27	y	y	CCONJ	cc	_	28	cc	28:cc	_
 27.1	_	_	PRON	p	_	_	_	28:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200008128253c2-person-1-CorefType:ident,gstype:spec)
 28	subestima	subestimar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	26:conj	SpaceAfter=No
@@ -41472,7 +41472,7 @@
 13	en	en	ADP	sps00	_	15	case	15:case	_
 14	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCASTP1999030137c9-place-2-CorefType:ident,gstype:spec
 15	zona	zona	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obl	16:obl	ArgTem=argM:loc|Entity=CESSCASTP1999030137c9)
-16	reina	reinar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	11	ccomp	11:ccomp	ArgTem=arg1:pat
+16	reina	reinar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	11:ccomp	ArgTem=arg1:pat
 17	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 18	tranquilidad	tranquilidad	NOUN	ncfs000	Gender=Fem|Number=Sing	16	nsubj	16:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)|SpaceAfter=No
 19	:	:	PUNCT	fd	PunctType=Colo	29	punct	29:punct	_
@@ -43560,7 +43560,7 @@
 5	propaganda	propaganda	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg0:agt
 6	política	político	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	amod	5:amod	Entity=NOCOREF:Gen)
 7	también	también	ADV	rg	_	8	advmod	8:advmod	_
-8	mira	mirar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=8:Interrogative-Polar-Direct.Clause
+8	mira	mirar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=8:Interrogative-Polar-Direct.Clause
 9	demasiado	demasiado	ADV	rg	_	8	advmod	8:advmod	ArgTem=argM:adv
 10	a	a	ADP	sps00	_	11	case	11:case	_
 11	Estados	Estados	PROPN	np00000	_	8	obj	8:obj	ArgTem=arg1:tem|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec|MWE=Estados_Unidos|MWEPOS=PROPN
@@ -53438,7 +53438,7 @@
 30	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	31:det	Entity=(CESSCASTP2000080226c4-place-2-CorefType:ident,gstype:spec
 31	isla	isla	NOUN	ncfs000	Gender=Fem|Number=Sing	33	nsubj	33:nsubj	ArgTem=arg1:tem|Entity=CESSCASTP2000080226c4)
 32	"	"	PUNCT	fe	PunctType=Quot	33	punct	33:punct	SpaceAfter=No
-33	sufre	sufrir	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	28	ccomp	28:ccomp	ArgTem=arg1:pat
+33	sufre	sufrir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	28:ccomp	ArgTem=arg1:pat
 34	deficiencias	deficiencia	NOUN	ncfp000	Gender=Fem|Number=Plur	33	obj	33:obj	ArgTem=arg2:atr|Entity=(CESSCASTP2000080226c6--1-gstype:gen
 35	económicas	económico	ADJ	aq0fp0	Gender=Fem|Number=Plur	34	amod	34:amod	_
 36	que	que	PRON	pr0cn000	PronType=Rel	39	nsubj:pass	39:nsubj:pass	ArgTem=arg1:pat|Entity=(CESSCASTP2000080226c6--1-CorefType:ident,gstype:gen)
@@ -61291,7 +61291,7 @@
 30	organismo	organismo	NOUN	ncms000	Gender=Masc|Number=Sing	27	nmod	27:nmod	Entity=(CESSCASTP2002030199c3-organization-1-CorefType:ident,gstype:spec
 31	deportivo	deportivo	ADJ	aq0ms0	Gender=Masc|Number=Sing	30	amod	30:amod	Entity=CESSCASTP2002030199c3)NOCOREF:Gen)|SpaceAfter=No
 32	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	Entity=CESSCASTP2002030199c3)NOCOREF:Gen)
-33	sospecha	sospechar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	_
+33	sospecha	sospechar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 34	que	que	SCONJ	cs	_	39	mark	39:mark	_
 35	en	en	ADP	sps00	_	37	case	37:case	_
 36	esa	ese	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	37	det	37:det	Entity=(CESSCASTP2002030199c5--2-CorefType:ident,gstype:gen
@@ -61446,7 +61446,7 @@
 15	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	Entity=(CESSCASTP2002030199c3-organization-2-CorefType:ident,gstype:spec
 16	COI	COI	PROPN	np00000	_	13	obl:agent	13:obl:agent	ArgTem=arg0:agt|Entity=CESSCASTP2002030199c3)|SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	Entity=CESSCASTP2002030199c10)
-18	goza	gozar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+18	goza	gozar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 20	también	también	ADV	rg	_	18	advmod	18:advmod	SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
