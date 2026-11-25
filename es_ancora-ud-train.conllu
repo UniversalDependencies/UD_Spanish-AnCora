@@ -125747,7 +125747,7 @@
 55	violentas	violento	ADJ	aq0fp0	Gender=Fem|Number=Plur	54	amod	54:amod	SpaceAfter=No
 56	,	,	PUNCT	fc	PunctType=Comm	57	punct	57:punct	_
 57-58	llámense	_	_	_	_	_	_	_	SpaceAfter=No
-57	llamen	llamar	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	54	parataxis	54:parataxis	_
+57	llamen	llamar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	54	parataxis	54:parataxis	_
 58	se	él	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	57	expl:pv	57:expl:pv	_
 58.1	_	_	PRON	p	_	_	_	57:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTA2000032015931c10--1-CorefType:ident,gstype:gen)
 59	kaleborroka	kaleborroka	NOUN	nc00000	_	57	obj	57:obj	ArgTem=arg2:atr

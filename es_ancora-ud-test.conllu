@@ -49097,7 +49097,7 @@
 53	años	año	NOUN	ncmp000	Gender=Masc|Number=Plur	51	obj	51:obj	ArgTem=arg2:ext|SpaceAfter=No
 54	,	,	PUNCT	fc	PunctType=Comm	55	punct	55:punct	_
 54.1	_	_	PRON	p	_	_	_	55:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000020123_ac5--1-CorefType:ident,gstype:gen)
-55	trabajen	trabajar	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	51	parataxis	51:parataxis	_
+55	trabajen	trabajar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	51	parataxis	51:parataxis	_
 56	o	o	CCONJ	cc	_	57	cc	57:cc	_
 57	no	no	ADV	rn	Polarity=Neg	55	conj	55:conj	SpaceAfter=No
 58	,	,	PUNCT	fc	PunctType=Comm	55	punct	55:punct	Entity=CESSCASTP2000020123_ac5)

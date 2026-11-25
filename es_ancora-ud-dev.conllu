@@ -57180,10 +57180,10 @@
 21	:	:	PUNCT	fd	PunctType=Colo	28	punct	28:punct	_
 22	"	"	PUNCT	fe	PunctType=Quot	28	punct	28:punct	SpaceAfter=No
 22.1	_	_	PRON	p	_	_	_	23:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20011002160c2-organization-1-CorefType:ident,gstype:spec)
-23	Ganemos	ganar	VERB	vmm01p0	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	28	advcl	28:advcl	_
+23	Ganemos	ganar	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	28	advcl	28:advcl	_
 24	o	o	CCONJ	cc	_	25	cc	25:cc	_
 24.1	_	_	PRON	p	_	_	_	25:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20011002160c2-organization-1-CorefType:ident,gstype:spec)
-25	perdamos	perder	VERB	vmm01p0	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	23	conj	23:conj	SpaceAfter=No
+25	perdamos	perder	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	conj	23:conj	SpaceAfter=No
 26	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 27	ahora	ahora	ADV	rg	_	28	advmod	28:advmod	ArgTem=argM:tmp
 27.1	_	_	PRON	p	_	_	_	28:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP20011002160c2-organization-1-CorefType:ident,gstype:spec)
