@@ -33890,7 +33890,7 @@
 31	semejantes	semejante	ADJ	aq0cp0	Number=Plur	29	xcomp	29:xcomp	ArgTem=arg2:atr
 32	que	que	SCONJ	cs	_	39	mark	39:mark	SpaceAfter=No
 33	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
-34	pongamos	poner	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	39	parataxis	39:parataxis	_
+34	pongamos	poner	VERB	vmm01p0	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	39	parataxis	39:parataxis	_
 35	por	por	ADP	sps00	_	36	case	36:case	_
 36	caso	caso	NOUN	ncms000	Gender=Masc|Number=Sing	34	obl	34:obl	ArgTem=argM:adv|SpaceAfter=No
 37	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
@@ -37348,7 +37348,7 @@
 20	de	de	ADP	sps00	_	21	mark	21:mark	_
 21	tener	tener	VERB	vmn0000	VerbForm=Inf	19	xcomp	19:xcomp	SpaceAfter=No
 22	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
-23	digamos	decir	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	parataxis	21:parataxis	SpaceAfter=No
+23	digamos	decir	VERB	vmm01p0	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	21	parataxis	21:parataxis	SpaceAfter=No
 24	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
 25	por	por	ADP	sps00	_	26	case	26:case	_
 26	poderes	poder	NOUN	ncmp000	Gender=Masc|Number=Plur	19	obl	19:obl	ArgTem=argM:cau|SpaceAfter=No
@@ -156343,7 +156343,7 @@
 16	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 17	frase	frase	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obj	13:obj	ArgTem=arg1:pat
 18	"	"	PUNCT	fe	PunctType=Quot	19	punct	19:punct	SpaceAfter=No
-19	lucha	luchar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	17:acl	_
+19	lucha	luchar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	17	acl	17:acl	_
 19.1	_	_	PRON	p	_	_	_	19:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000081610242c24--1-gstype:gen)
 20	por	por	ADP	sps00	_	23	case	23:case	_
 21-22	Al	_	_	_	_	_	_	_	MWE=Al_Gore|MWEPOS=PROPN
@@ -156532,7 +156532,7 @@
 12	nuestros	nuestro	DET	dp1mpp	Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det	13:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTA2000081610242c9--1-CorefType:ident,gstype:gen)
 13	labios	labio	NOUN	ncmp000	Gender=Masc|Number=Plur	11	obj	11:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|SpaceAfter=No
 14	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
-15	miren	mirar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl	_
+15	miren	mirar	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	11	advcl	11:advcl	_
 15.1	_	_	PRON	p	_	_	_	15:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000081610242c33--1-CorefType:ident,gstype:gen)
 16	nuestros	nuestro	DET	dp1mpp	Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	17	det	17:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTA2000081610242c9--1-CorefType:ident,gstype:gen)
 17	actos	acto	NOUN	ncmp000	Gender=Masc|Number=Plur	15	obj	15:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|SpaceAfter=No
@@ -418216,7 +418216,7 @@
 24	delito	delito	NOUN	ncms000	Gender=Masc|Number=Sing	22	obj	22:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 25	y	y	CCONJ	cc	_	26	cc	26:cc	_
 25.1	_	_	PRON	p	_	_	_	26:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2000060184c4--1-CorefType:ident,gstype:gen)
-26	compadece	compadecer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	22:conj	_
+26	compadece	compadecer	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	22	conj	22:conj	_
 27-28	al	_	_	_	_	_	_	_	_
 27	a	a	ADP	spcms	_	29	case	29:case	_
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	_
@@ -481529,7 +481529,7 @@
 # text = "Trae aquí un cartel, que si me pillan, que me pillen bien", espetaba un viejo sindicalista a uno de los muchos jóvenes que repartían pancartas, pasquines, diarios de resistencia y números especiales sobre la lucha obrera.
 # orig_file_sentence 133#36
 1	"	"	PUNCT	fe	PunctType=Quot	2	punct	2:punct	SpaceAfter=No
-2	Trae	traer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	18:ccomp	ArgTem=arg1:pat
+2	Trae	traer	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	18	ccomp	18:ccomp	ArgTem=arg1:pat
 3	aquí	aquí	ADV	rg	_	2	advmod	2:advmod	ArgTem=arg4:des
 4	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen
 5	cartel	cartel	NOUN	ncms000	Gender=Masc|Number=Sing	2	obj	2:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|SpaceAfter=No
@@ -529124,7 +529124,7 @@
 5	decían	decir	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	ArgTem=arg1:pat|SpaceAfter=No
 6	:	:	PUNCT	fd	PunctType=Colo	8	punct	8:punct	_
 7	'	'	PUNCT	fz	PunctType=Quot	8	punct	8:punct	SpaceAfter=No
-8	Espera	esperar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	ArgTem=arg1:pat
+8	Espera	esperar	VERB	vmm02s0	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	5	ccomp	5:ccomp	ArgTem=arg1:pat
 8.1	_	_	PRON	p	_	_	_	8:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002090211c5-person-1-CorefType:ident,gstype:spec)
 9	que	que	SCONJ	cs	_	10	mark	10:mark	_
 9.1	_	_	PRON	p	_	_	_	10:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP2002090211c9--1-CorefType:ident,gstype:gen)
