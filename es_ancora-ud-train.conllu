@@ -54935,7 +54935,7 @@
 8	criaturas	criatura	NOUN	ncfp000	Gender=Fem|Number=Plur	4	obj	4:obj	ArgTem=arg1:pat
 9	que	que	PRON	pr0cn000	PronType=Rel	11	nsubj	11:nsubj	ArgTem=arg0:agt
 10	le	él	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	11	obl:arg	11:obl:arg	ArgTem=arg3:ben
-11	vengan	vengar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
+11	vengan	venir	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
 12	a	a	ADP	sps00	_	14	case	14:case	_
 13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	_
 14	imaginación	imaginación	NOUN	ncfs000	Gender=Fem|Number=Sing	11	obl	11:obl	ArgTem=arg2:loc|SpaceAfter=No
@@ -78910,7 +78910,7 @@
 # sent_id = 3LB-CAST-n1-11-s13
 # text = Vengo de Würzburgo, donde viven 130.000 personas y éramos 300 abogados.
 # orig_file_sentence 023#27
-1	Vengo	vengar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+1	Vengo	venir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	de	de	ADP	sps00	_	3	case	3:case	_
 3	Würzburgo	Würzburgo	PROPN	np0000l	_	1	obl	1:obl	ArgTem=arg3:ori|Entity=(NOCOREF:Spec.location-place-1-gstype:spec|SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
