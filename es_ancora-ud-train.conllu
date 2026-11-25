@@ -23116,7 +23116,7 @@
 3	decir	decir	VERB	vmn0000	VerbForm=Inf	2	ccomp	2:ccomp	ArgTem=arg1:pat
 4	que	que	SCONJ	cs	_	8	mark	8:mark	_
 5	lo	él	PRON	pp3cna00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	8	nsubj	8:nsubj	ArgTem=arg2:atr
-6	sea	ser	AUX	vsm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	8	cop	8:cop	ArgTem=arg1:pat|SpaceAfter=No
+6	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	ArgTem=arg1:pat|SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
 8	cínico	cínico	ADJ	aq0ms0	Gender=Masc|Number=Sing	3	ccomp	3:ccomp	ArgTem=arg2:atr
 9	o	o	CCONJ	cc	_	10	cc	10:cc	_
@@ -30942,7 +30942,7 @@
 7	que	que	SCONJ	cs	_	11	mark	11:mark	_
 8	Chibana	Chibana	PROPN	np0000p	_	11	nsubj	11:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)
 9	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	expl:pv	11:expl:pv	_
-10	haya	haber	AUX	vam03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	11	aux	11:aux	_
+10	haya	haber	AUX	vasp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 11	indignado	indignar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	csubj	6:csubj	ArgTem=arg1:tem
 12-13	al	_	_	_	_	_	_	_	_
 12	a	a	ADP	spcms	_	14	mark	14:mark	_
@@ -36605,7 +36605,7 @@
 2	soldador	soldador	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	0:root	_
 3	que	que	PRON	pr0cn000	PronType=Rel	5	nsubj	5:nsubj	ArgTem=arg0:agt
 4	no	no	ADV	rn	Polarity=Neg	5	advmod	5:advmod	_
-5	deje	dejar	VERB	vmm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
+5	deje	dejar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 6	de	de	ADP	sps00	_	8	case	8:case	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(NOCOREF:Spec.person-person-2-gstype:spec
 8	Susi	Susi	PROPN	np0000p	_	5	obl	5:obl	ArgTem=argM:adv|Entity=NOCOREF:Spec.person)
@@ -45052,7 +45052,7 @@
 2	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	5	obl	5:obl	ArgTem=argM:cau|SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 4	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	5	punct	5:punct	SpaceAfter=No
-5	vengan	venir	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	0	root	0:root	_
+5	vengan	venir	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	más	más	ADV	rg	Degree=Cmp	7	advmod	7:advmod	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 7	Madrid-Barcelona	Madrid-Barcelona	PROPN	np0000a	_	5	nsubj	5:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Spec.other)|SpaceAfter=No
 8	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	5	punct	5:punct	_
@@ -57286,7 +57286,7 @@
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
 6	sistema	sistema	NOUN	ncms000	Gender=Masc|Number=Sing	9	nsubj	9:nsubj	ArgTem=arg0:agt
 7	inmunológico	inmunológico	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	amod	6:amod	_
-8	haya	haber	AUX	vam03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	9	aux	9:aux	_
+8	haya	haber	AUX	vasp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 9	vencido	vencer	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	nmod	2:nmod	_
 10	a	a	ADP	sps00	_	12	case	12:case	_
 11	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	_
@@ -90747,7 +90747,7 @@
 59	que	que	PRON	pr0cn000	PronType=Rel	62	obl	62:obl	_
 60	se	él	PRON	p0300000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs	62	obl:arg	62:obl:arg	_
 61	la	él	PRON	pp3fsa00	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	62	obj	62:obj	ArgTem=arg1:pat
-62	metan	meter	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	50	conj	50:conj	_
+62	metan	meter	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	conj	50:conj	_
 63	en	en	ADP	sps00	_	65	case	65:case	_
 64	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	65:det	_
 65	culo	culo	NOUN	ncms000	Gender=Masc|Number=Sing	62	obl	62:obl	ArgTem=argM:loc
@@ -168894,7 +168894,7 @@
 31	recursos	recurso	NOUN	ncmp000	Gender=Masc|Number=Plur	29	obj	29:obj	ArgTem=arg1:pat
 32	propios	propio	ADJ	aq0mp0	Gender=Masc|Number=Plur	31	amod	31:amod	Entity=NOCOREF:Gen)
 33	y	y	CCONJ	cc	_	34	cc	34:cc	_
-34	faciliten	facilitar	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	29	conj	29:conj	_
+34	faciliten	facilitar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	conj	29:conj	_
 35	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	36:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 36	rotación	rotación	NOUN	ncfs000	Gender=Fem|Number=Sing	34	obj	34:obj	ArgTem=arg1:tem
 37-38	del	_	_	_	_	_	_	_	_
@@ -189042,7 +189042,7 @@
 44	que	que	PRON	pr0cn000	PronType=Rel	46	nsubj	46:nsubj	ArgTem=arg1:tem
 45	no	no	ADV	rn	Polarity=Neg	46	advmod	46:advmod	_
 46	lo	él	PRON	pp3cna00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	50	csubj	50:csubj	ArgTem=arg2:atr
-47	sea	ser	AUX	vsm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	46	cop	46:cop	ArgTem=arg1:pat|SpaceAfter=No
+47	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	46:cop	ArgTem=arg1:pat|SpaceAfter=No
 48	,	,	PUNCT	fc	PunctType=Comm	46	punct	46:punct	Entity=NOCOREF:Gen)
 49	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	50	expl:pass	50:expl:pass	_
 50	cerrará	cerrar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	advcl	40:advcl	SpaceAfter=No
@@ -228551,7 +228551,7 @@
 42	medidas	medida	NOUN	ncfp000	Gender=Fem|Number=Plur	30	conj	30:conj	_
 43	que	que	PRON	pr0cn000	PronType=Rel	45	nsubj	45:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA2000032823195c14--1-CorefType:ident,gstype:gen)
 44	"	"	PUNCT	fe	PunctType=Quot	45	punct	45:punct	SpaceAfter=No
-45	aseguren	asegurar	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	42	acl:relcl	42:acl:relcl	_
+45	aseguren	asegurar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	42:acl:relcl	_
 46	que	que	SCONJ	cs	_	48	mark	48:mark	_
 46.1	_	_	PRON	p	_	_	_	48:nsubj	ArgTem=arg1:pat|Entity=(CESSCASTAA2000032823195c9-person-1-CorefType:ident,gstype:spec)
 47	será	ser	AUX	vsif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	48	aux:pass	48:aux:pass	_
@@ -232791,7 +232791,7 @@
 46	,	,	PUNCT	fc	PunctType=Comm	48	punct	48:punct	_
 47	"	"	PUNCT	fe	PunctType=Quot	48	punct	48:punct	SpaceAfter=No
 47.1	_	_	PRON	p	_	_	_	48:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTAA200004075786c2-person-1-CorefType:ident,gstype:spec)
-48	evite	evitar	VERB	vmm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	29	advcl	29:advcl	_
+48	evite	evitar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	29:advcl	_
 49	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	51	det	51:det	Entity=(NOCOREF:Gen--3-gstype:gen
 50	mayor	mayor	ADJ	aq0cs0	Degree=Cmp|Number=Sing	51	amod	51:amod	_
 51	polarización	polarización	NOUN	ncfs000	Gender=Fem|Number=Sing	48	obj	48:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|SpaceAfter=No
@@ -244357,7 +244357,7 @@
 17	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	18:det	_
 18	lado	lado	NOUN	ncms000	Gender=Masc|Number=Sing	20	obl	20:obl	SpaceAfter=No
 19	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
-20	aseguren	asegurar	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
+20	aseguren	asegurar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
 21	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	Entity=(CESSCASTAA2000052419343c15--2-gstype:gen
 22	liberalización	liberalización	NOUN	ncfs000	Gender=Fem|Number=Sing	20	obj	20:obj	ArgTem=arg1:pat
 23	real	real	ADJ	aq0cs0	Number=Sing	22	amod	22:amod	_
@@ -274205,7 +274205,7 @@
 24	que	que	PRON	pr0cn000	PronType=Rel	27	nsubj	27:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTAA200009085244c38--1-CorefType:ident,gstype:gen)
 25	no	no	ADV	rn	Polarity=Neg	27	advmod	27:advmod	_
 26	la	él	PRON	pp3fsa00	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	27	obj	27:obj	ArgTem=arg2:atr|Entity=(CESSCASTAA200009085244c39-other-1-CorefType:ident,gstype:spec)
-27	tengan	tener	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	23	acl:relcl	23:acl:relcl	Entity=CESSCASTAA200009085244c38)
+27	tengan	tener	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	23:acl:relcl	Entity=CESSCASTAA200009085244c38)
 28	deberán	deber	AUX	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	29	aux	29:aux	_
 29	llevar	llevar	VERB	vmn0000	VerbForm=Inf	10	conj	10:conj	_
 30	dinero	dinero	NOUN	ncms000	Gender=Masc|Number=Sing	29	obj	29:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen
@@ -332370,7 +332370,7 @@
 12	sean	ser	AUX	vssp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
 13	conocidas	conocido	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	3	acl:relcl	3:acl:relcl	ArgTem=arg2:atr
 14	y	y	CCONJ	cc	_	15	cc	15:cc	_
-15	tengan	tener	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	13	conj	13:conj	_
+15	tengan	tener	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	13:conj	_
 16	respaldo	respaldo	NOUN	ncms000	Gender=Masc|Number=Sing	15	obj	15:obj	ArgTem=arg2:atr|Entity=(NOCOREF:Gen--1-gstype:gen
 17	internacional	internacional	ADJ	aq0cs0	Number=Sing	16	amod	16:amod	ArgTem=arg0:agt|Entity=NOCOREF:Gen)CESSCASTP19990202102c4)|SpaceAfter=No
 18	"	"	PUNCT	fe	PunctType=Quot	2	punct	2:punct	SpaceAfter=No
@@ -340590,7 +340590,7 @@
 10	Catalunya	Catalunya	PROPN	np00000	_	7	conj	7:conj	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)|SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
 12	y	y	CCONJ	cc	_	13	cc	13:cc	_
-13	viva	vivir	VERB	vmm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	4	conj	4:conj	_
+13	viva	vivir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj	_
 14	Yugoslavia	Yugoslavia	PROPN	np00000	_	13	nsubj	13:nsubj	ArgTem=arg1:tem|Entity=(CESSCASTP19990401105c18-place-1-CorefType:ident,gstype:spec)|SpaceAfter=No
 15	"	"	PUNCT	fe	PunctType=Quot	4	punct	4:punct	SpaceAfter=No
 16	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
@@ -398489,7 +398489,7 @@
 31	paz	paz	NOUN	ncfs000	Gender=Fem|Number=Sing	28	obl:arg	28:obl:arg	ArgTem=arg1:tem
 32	pública	público	ADJ	aq0fs0	Gender=Fem|Number=Sing	31	amod	31:amod	Entity=NOCOREF:Gen)NOCOREF:Gen)|SpaceAfter=No
 33	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
-34	alteren	alterar	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	15	acl:relcl	15:acl:relcl	_
+34	alteren	alterar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	_
 35	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	36:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 36	orden	orden	NOUN	ncms000	Gender=Masc|Number=Sing	34	obj	34:obj	ArgTem=arg1:tem
 37	público	público	ADJ	aq0ms0	Gender=Masc|Number=Sing	36	amod	36:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
@@ -398570,7 +398570,7 @@
 56	fin	fin	NOUN	ncms000	Gender=Masc|Number=Sing	52	obj	52:obj	ArgTem=arg2:atr
 57	lícito	lícito	ADJ	aq0ms0	Gender=Masc|Number=Sing	56	amod	56:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
 58	,	,	PUNCT	fc	PunctType=Comm	52	punct	52:punct	_
-59	empleen	emplear	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	33	ccomp	33:ccomp	_
+59	empleen	emplear	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	33:ccomp	_
 60	medios	medio	NOUN	ncmp000	Gender=Masc|Number=Plur	59	obj	59:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--1-gstype:gen
 61	violentos	violento	ADJ	aq0mp0	Gender=Masc|Number=Plur	60	amod	60:amod	Entity=NOCOREF:Gen)|SpaceAfter=No
 62	...	...	PUNCT	fs	PunctType=Elip	59	punct	59:punct	SpaceAfter=No
@@ -521503,7 +521503,7 @@
 16	actor	actor	NOUN	ncms000	Gender=Masc|Number=Sing	21	nsubj	21:nsubj	ArgTem=arg0:agt
 17	que	que	PRON	pr0cn000	PronType=Rel	19	nsubj	19:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTP20020502155c1--1-CorefType:ident,gstype:gen)
 18	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	obj	19:obj	ArgTem=arg1:pat
-19	precie	preciar	VERB	vmm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	16	acl:relcl	16:acl:relcl	Entity=CESSCASTP20020502155c1)|ReflexLemma=preciarse
+19	precie	preciar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	Entity=CESSCASTP20020502155c1)|ReflexLemma=preciarse
 20	debe	deber	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
 21	debutar	debutar	VERB	vmn0000	VerbForm=Inf	6	advcl	6:advcl	_
 22	en	en	ADP	sps00	_	24	case	24:case	_
