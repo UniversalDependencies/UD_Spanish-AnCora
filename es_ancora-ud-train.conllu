@@ -347406,7 +347406,7 @@
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	_
 29	Tonos	Tonos	PROPN	_	_	24	obl:arg	24:obl:arg	Entity=NOCOREF:Spec.organization)|SpaceAfter=No
 30	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	Entity=CESSCASTP19990502130c7)
-31	ahuyente	ahuyentar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	11:conj	_
+31	ahuyente	ahuyentar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	9:conj	_
 32	a	a	ADP	sps00	_	34	case	34:case	_
 33	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	det	34:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTP19990502130c8-organization-1-CorefType:ident,gstype:spec)
 34	público	público	NOUN	ncms000	Gender=Masc|Number=Sing	31	obj	31:obj	ArgTem=arg1:pat
