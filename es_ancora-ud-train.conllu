@@ -92320,7 +92320,7 @@
 1	Pero	pero	CCONJ	cc	_	4	advmod	4:advmod	_
 2	no	no	ADV	rn	Polarity=Neg	4	advmod	4:advmod	_
 3	se	él	PRON	p0300000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
-4	pierda	perder	VERB	vmm03s0	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	0:root	_
+4	pierda	perder	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
 6	ambiente	ambiente	NOUN	ncms000	Gender=Masc|Number=Sing	4	obj	4:obj	ArgTem=arg2:atr
 7	de	de	ADP	sps00	_	9	case	9:case	_
@@ -156527,7 +156527,7 @@
 8	décadas	década	NOUN	ncfp000	Gender=Fem|Number=Plur	6	obl	6:obl	ArgTem=argM:tmp|SpaceAfter=No
 9	...	...	PUNCT	fs	PunctType=Elip	11	punct	11:punct	_
 10	No	no	ADV	rn	Polarity=Neg	11	advmod	11:advmod	_
-11	lean	leer	VERB	vmm03p0	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin	6	advcl	6:advcl	_
+11	lean	leer	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	6:advcl	_
 11.1	_	_	PRON	p	_	_	_	11:nsubj	ArgTem=arg0:agt|Entity=(CESSCASTA2000081610242c33--1-gstype:gen)
 12	nuestros	nuestro	DET	dp1mpp	Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det	13:det	Entity=(NOCOREF:Gen--2-gstype:gen(CESSCASTA2000081610242c9--1-CorefType:ident,gstype:gen)
 13	labios	labio	NOUN	ncmp000	Gender=Masc|Number=Plur	11	obj	11:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)|SpaceAfter=No
